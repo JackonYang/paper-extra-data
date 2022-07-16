@@ -1,0 +1,13 @@
+content_md5: d5de0a8168b04ba2eb08270ac3298c0c
+filesize: 1314228
+filesize_readable: 1.3 MB
+meta_key: pytorch-under-the-hood
+meta_relpath: paper-extra-data/pdf-meta/pytorch-under-the-hood.yaml
+pdf_relpath: paper-repo/pdfs/PyTorch%20under%20the%20hood.pdf
+raw_ext: .pdf
+raw_filename: PyTorch under the hood
+tags:
+- other-default
+- paper
+title: Pytorch Under The Hood
+url_slug: PyTorch%20under%20the%20hood

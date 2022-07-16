@@ -1,0 +1,13 @@
+content_md5: f13a9f05896bac1b3584ae139f4afeeb
+filesize: 3009121
+filesize_readable: 2.9 MB
+meta_key: llvm-cookbook
+meta_relpath: paper-extra-data/pdf-meta/llvm-cookbook.yaml
+pdf_relpath: paper-repo/pdfs/LLVM%20Cookbook.pdf
+raw_ext: .pdf
+raw_filename: LLVM Cookbook
+tags:
+- other-default
+- paper
+title: Llvm Cookbook
+url_slug: LLVM%20Cookbook

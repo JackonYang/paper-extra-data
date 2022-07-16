@@ -1,0 +1,14 @@
+content_md5: 1a887d4f07120427ed9dabba1a66eaac
+filesize: 1439960
+filesize_readable: 1.4 MB
+meta_key: 2012-alexnet
+meta_relpath: paper-extra-data/pdf-meta/2012-alexnet.yaml
+pdf_relpath: paper-repo/pdfs/2012-AlexNet.pdf
+raw_ext: .pdf
+raw_filename: 2012-AlexNet
+tags:
+- other-default
+- paper
+title: Alexnet
+url_slug: 2012-AlexNet
+year: 2012

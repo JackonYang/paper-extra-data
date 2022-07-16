@@ -1,0 +1,13 @@
+content_md5: d5750f02645080d2a91292047fbe0f98
+filesize: 2076851
+filesize_readable: 2.0 MB
+meta_key: cuda_by_example
+meta_relpath: paper-extra-data/pdf-meta/cuda_by_example.yaml
+pdf_relpath: paper-repo/pdfs/CUDA_by_Example.pdf
+raw_ext: .pdf
+raw_filename: CUDA_by_Example
+tags:
+- other-default
+- paper
+title: Cuda By Example
+url_slug: CUDA_by_Example

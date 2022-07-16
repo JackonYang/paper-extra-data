@@ -1,0 +1,14 @@
+content_md5: 1c7a4c0c224e4f2b4654c07efe85f823
+filesize: 7723886
+filesize_readable: 7.4 MB
+meta_key: 2017-mask-rcnn
+meta_relpath: paper-extra-data/pdf-meta/2017-mask-rcnn.yaml
+pdf_relpath: paper-repo/pdfs/2017-mask-rcnn.pdf
+raw_ext: .pdf
+raw_filename: 2017-mask-rcnn
+tags:
+- other-default
+- paper
+title: Mask Rcnn
+url_slug: 2017-mask-rcnn
+year: 2017

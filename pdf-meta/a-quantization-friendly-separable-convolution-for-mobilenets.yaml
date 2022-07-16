@@ -1,0 +1,13 @@
+content_md5: be404df204ccbcf5566d172fd408c57f
+filesize: 1291848
+filesize_readable: 1.2 MB
+meta_key: a-quantization-friendly-separable-convolution-for-mobilenets
+meta_relpath: paper-extra-data/pdf-meta/a-quantization-friendly-separable-convolution-for-mobilenets.yaml
+pdf_relpath: paper-repo/pdfs/A%20Quantization-Friendly%20Separable%20Convolution%20for%20MobileNets.pdf
+raw_ext: .pdf
+raw_filename: A Quantization-Friendly Separable Convolution for MobileNets
+tags:
+- other-default
+- paper
+title: A Quantization-Friendly Separable Convolution For Mobilenets
+url_slug: A%20Quantization-Friendly%20Separable%20Convolution%20for%20MobileNets
