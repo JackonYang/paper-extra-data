@@ -1,0 +1,390 @@
+authors:
+- Jonas Gehring
+- Michael Auli
+- David Grangier
+- Denis Yarats
+- Yann Dauphin
+badges:
+- id: OPEN_ACCESS
+corpusId: 3648736
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-convolutional-sequence-to-sequence-learning
+numCitedBy: 2438
+numCiting: 52
+paperAbstract: The prevalent approach to sequence to sequence learning maps an input sequence to a variable length output sequence via recurrent neural networks. We introduce an architecture based entirely on convolutional neural networks. Compared to recurrent models, computations over all elements can be fully parallelized during training and optimization is easier since the number of non-linearities is fixed and independent of the input length. Our use of gated linear units eases gradient propagation and we equip each decoder layer with a separate attention module. We outperform the accuracy of the deep LSTM setup of Wu et al. (2016) on both WMT'14 English-German and WMT'14 English-French translation at an order of magnitude faster speed, both on GPU and CPU.
+ref_count: 52
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 14964
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-a-convolutional-encoder-model-for-neural-machine-translation
+  numCitedBy: 353
+  pid: f958d4921951e394057a1c4ec33bad9a34e5dad1
+  show_ref_link: false
+  title: A Convolutional Encoder Model for Neural Machine Translation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-language-modeling-with-gated-convolutional-networks
+  numCitedBy: 1289
+  pid: 88caa4a0253a8b0076176745ebc072864eab66e1
+  show_ref_link: true
+  title: Language Modeling with Gated Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-quasi-recurrent-neural-networks
+  numCitedBy: 299
+  pid: 2d876ed1dd2c58058d7197b734a8e4d349b8f231
+  show_ref_link: false
+  title: Quasi-Recurrent Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-end-to-end-memory-networks
+  numCitedBy: 1998
+  pid: 4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e
+  show_ref_link: true
+  title: End-To-End Memory Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-weight-normalization-a-simple-reparameterization-to-accelerate-training-of-deep-neural-networks
+  numCitedBy: 1296
+  pid: 3d2c6941a9b4608ba52b328369a3352db2092ae0
+  show_ref_link: true
+  title: Weight Normalization - A Simple Reparameterization to Accelerate Training of Deep Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15156
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-outrageously-large-neural-networks-the-sparsely-gated-mixture-of-experts-layer
+  numCitedBy: 871
+  pid: 510e26733aaff585d65701b9f1be7ca9d5afc586
+  show_ref_link: true
+  title: Outrageously Large Neural Networks - The Sparsely-Gated Mixture-of-Experts Layer
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-conditional-image-generation-with-pixelcnn-decoders
+  numCitedBy: 1616
+  pid: 0936352b78a52bc5d2b5e3f04233efc56664af51
+  show_ref_link: false
+  title: Conditional Image Generation with PixelCNN Decoders
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-importance-of-initialization-and-momentum-in-deep-learning
+  numCitedBy: 3576
+  pid: aa7bfd2304201afbb19971ebde87b17e40242e91
+  show_ref_link: true
+  title: On the importance of initialization and momentum in deep learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-headline-generation-with-sentence-wise-optimization
+  numCitedBy: 37
+  pid: 03ee3c8994edfc3bca62b51fb4d4cc13595b5046
+  show_ref_link: false
+  title: Neural Headline Generation with Sentence-wise Optimization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-machine-translation-with-recurrent-attention-modeling
+  numCitedBy: 49
+  pid: a3fbd2bd5dc1de28a36da5503030d9c648ce7f6d
+  show_ref_link: false
+  title: Neural Machine Translation with Recurrent Attention Modeling
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-montreal-neural-machine-translation-systems-for-wmt-15
+  numCitedBy: 134
+  pid: 25eb839f39507fe6983ad3e692b2f8d93a5cb0cc
+  show_ref_link: false
+  title: Montreal Neural Machine Translation Systems for WMT'15
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-difficulty-of-training-recurrent-neural-networks
+  numCitedBy: 3820
+  pid: 84069287da0a6b488b8c933f3cb5be759cb6237e
+  show_ref_link: true
+  title: On the difficulty of training recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-attention-based-models-for-speech-recognition
+  numCitedBy: 1886
+  pid: b624504240fa52ab76167acfe3156150ca01cf3b
+  show_ref_link: true
+  title: Attention-Based Models for Speech Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19461
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96531
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-google-s-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation
+  numCitedBy: 4687
+  pid: dbde7dfa6cae81df8ac19ef500c42db96c3d1edd
+  show_ref_link: true
+  title: Google's Neural Machine Translation System - Bridging the Gap between Human and Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-edinburgh-neural-machine-translation-systems-for-wmt-16
+  numCitedBy: 452
+  pid: 1a5ea605111eb3403868d4b679315e944beee8c6
+  show_ref_link: false
+  title: Edinburgh Neural Machine Translation Systems for WMT 16
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-effective-approaches-to-attention-based-neural-machine-translation
+  numCitedBy: 5923
+  pid: 93499a7c7f699b6630a86fad964536f9423bb6d0
+  show_ref_link: true
+  title: Effective Approaches to Attention-based Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12461
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-vocabulary-selection-strategies-for-neural-machine-translation
+  numCitedBy: 37
+  pid: 9486f640f90b7c3ddb0d8adff6fa16dd9758746a
+  show_ref_link: false
+  title: Vocabulary Selection Strategies for Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28300
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-machine-translation-of-rare-words-with-subword-units
+  numCitedBy: 4834
+  pid: 1af68821518f03568f913ab03fc02080247a27ff
+  show_ref_link: true
+  title: Neural Machine Translation of Rare Words with Subword Units
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-cutting-off-redundant-repeating-generations-for-neural-abstractive-summarization
+  numCitedBy: 57
+  pid: 364f7f7bac907ce326dce84b26eb857f186d3dc2
+  show_ref_link: false
+  title: Cutting-off Redundant Repeating Generations for Neural Abstractive Summarization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-understanding-the-difficulty-of-training-deep-feedforward-neural-networks
+  numCitedBy: 12501
+  pid: b71ac1e9fb49420d13e084ac67254a0bbd40f83f
+  show_ref_link: true
+  title: Understanding the difficulty of training deep feedforward neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-neural-attention-model-for-abstractive-sentence-summarization
+  numCitedBy: 2122
+  pid: 5082a1a13daea5c7026706738f8528391a1e6d59
+  show_ref_link: true
+  title: A Neural Attention Model for Abstractive Sentence Summarization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-vocabulary-manipulation-for-neural-machine-translation
+  numCitedBy: 60
+  pid: cd0009c2819f9566930d520da46ca67e4ccf226d
+  show_ref_link: false
+  title: Vocabulary Manipulation for Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-phoneme-recognition-using-time-delay-neural-networks
+  numCitedBy: 2792
+  pid: cd62c9976534a6a2096a38244f6cbb03635a127e
+  show_ref_link: false
+  title: Phoneme recognition using time-delay neural networks
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1493
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-key-value-memory-networks-for-directly-reading-documents
+  numCitedBy: 654
+  pid: bba5f2852b1db8a18004eb7328efa5e1d57cc62a
+  show_ref_link: false
+  title: Key-Value Memory Networks for Directly Reading Documents
+  year: 2016
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1990-finding-structure-in-time
+  numCitedBy: 9874
+  pid: 668087f0ae7ce1de6e0bd0965dbb480c08103260
+  show_ref_link: false
+  title: Finding Structure in Time
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-findings-of-the-2016-conference-on-machine-translation
+  numCitedBy: 515
+  pid: 1a327709cc53ff9e52454e50a643abf4a0ac92af
+  show_ref_link: false
+  title: Findings of the 2016 Conference on Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-japanese-and-korean-voice-search
+  numCitedBy: 477
+  pid: ed6262b569c0a62c51d941228c54f34e563af022
+  show_ref_link: false
+  title: Japanese and Korean voice search
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-a-simple-fast-and-effective-reparameterization-of-ibm-model-2
+  numCitedBy: 821
+  pid: 7b5e31257f01aba987f16e175a3e49e00a5bd3bb
+  show_ref_link: false
+  title: A Simple, Fast, and Effective Reparameterization of IBM Model 2
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-rouge-a-package-for-automatic-evaluation-of-summaries
+  numCitedBy: 7019
+  pid: 60b05f32c32519a809f21642ef1eb3eaf3848008
+  show_ref_link: true
+  title: ROUGE - A Package for Automatic Evaluation of Summaries
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-duc-in-context
+  numCitedBy: 164
+  pid: 0be949cc24188ef7205bdaaeb7df2508344b8d5a
+  show_ref_link: false
+  title: DUC in context
+  year: 2007
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1995-the-handbook-of-brain-theory-and-neural-networks
+  numCitedBy: 3470
+  pid: 501ffe07846b34c91b3dd6fdb4fc02f22087add2
+  show_ref_link: false
+  title: The handbook of brain theory and neural networks
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-recurrent-models-with-fast-forward-connections-for-neural-machine-translation
+  numCitedBy: 175
+  pid: b60abe57bc195616063be10638c6437358c81d1e
+  show_ref_link: false
+  title: Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-abstractive-text-summarization-using-sequence-to-sequence-rnns-and-beyond
+  numCitedBy: 1569
+  pid: f37076f426023241f19cdc2fb0a0fd733a6fa7fa
+  show_ref_link: false
+  title: Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-pixel-recurrent-neural-networks
+  numCitedBy: 1762
+  pid: 41f1d50c85d3180476c4c7b3eea121278b0d8474
+  show_ref_link: false
+  title: Pixel Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-encoding-source-language-with-convolutional-neural-network-for-machine-translation
+  numCitedBy: 99
+  pid: eb5eb891061c78f4fcbc9deb3df8bca7fd005acd
+  show_ref_link: false
+  title: Encoding Source Language with Convolutional Neural Network for Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 1999-linguistic-data-consortium
+  numCitedBy: 1128
+  pid: 3fa4a8191e37b601877716858e6b1026e66e3c5c
+  show_ref_link: false
+  title: Linguistic Data Consortium
+  year: 1999
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1998-convolutional-networks-for-images-speech-and-time-series
+  numCitedBy: 4102
+  pid: 563e821bb5ea825efb56b77484f5287f08cf3753
+  show_ref_link: false
+  title: Convolutional networks for images, speech, and time series
+  year: 1998
+slug: Convolutional-Sequence-to-Sequence-Learning-Gehring-Auli
+title: Convolutional Sequence to Sequence Learning
+url: https://www.semanticscholar.org/paper/Convolutional-Sequence-to-Sequence-Learning-Gehring-Auli/43428880d75b3a14257c3ee9bda054e61eb869c0?sort=total-citations
+venue: ICML
+year: 2017

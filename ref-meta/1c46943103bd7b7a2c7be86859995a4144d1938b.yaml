@@ -1,0 +1,326 @@
+authors:
+- L. V. D. Maaten
+- Geoffrey E. Hinton
+badges:
+- id: OPEN_ACCESS
+corpusId: 5855042
+fieldsOfStudy:
+- Computer Science
+meta_key: 2008-visualizing-data-using-t-sne
+numCitedBy: 22564
+numCiting: 41
+paperAbstract: "We present a new technique called \u201Ct-SNE\u201D that visualizes high-dimensional data by giving each datapoint a location in a two or three-dimensional map. The technique is a variation of Stochastic Neighbor Embedding (Hinton and Roweis, 2002) that is much easier to optimize, and produces significantly better visualizations by reducing the tendency to crowd points together in the center of the map. t-SNE is better than existing techniques at creating a single map that reveals structure at many different scales. This is particularly important for high-dimensional data that lie on several different, but related, low-dimensional manifolds, such as images of objects from multiple classes seen from multiple viewpoints. For visualizing the structure of very large datasets, we show how t-SNE can use random walks on neighborhood graphs to allow the implicit structure of all of the data to influence the way in which a subset of the data is displayed. We illustrate the performance of t-SNE on a wide variety of datasets and compare it with many other non-parametric visualization techniques, including Sammon mapping, Isomap, and Locally Linear Embedding. The visualizations produced by t-SNE are significantly better than those produced by the other techniques on almost all of the datasets."
+ref_count: 41
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-nonlinear-dimensionality-reduction
+  numCitedBy: 1364
+  pid: bcbfd96098803f3530779fbb9b7eba772d1fc24d
+  show_ref_link: false
+  title: Nonlinear Dimensionality Reduction
+  year: 2007
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2005-nonlinear-dimensionality-reduction-of-data-manifolds-with-essential-loops
+  numCitedBy: 99
+  pid: 0db9b767d19bce40299275b23b46ed06598d45f9
+  show_ref_link: false
+  title: Nonlinear dimensionality reduction of data manifolds with essential loops
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-diffusion-maps-and-coarse-graining-a-unified-framework-for-dimensionality-reduction-graph-partitioning-and-data-set-parameterization
+  numCitedBy: 633
+  pid: 06eb6b4566cbb127ebf548f251e9b89bf34777f2
+  show_ref_link: false
+  title: Diffusion maps and coarse-graining - a unified framework for dimensionality reduction, graph partitioning, and data set parameterization
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-stochastic-neighbor-embedding
+  numCitedBy: 1412
+  pid: 14d46c6396837986bb4b9a14024cb64797b8c6c0
+  show_ref_link: false
+  title: Stochastic Neighbor Embedding
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-visualizing-similarity-data-with-a-mixture-of-maps
+  numCitedBy: 98
+  pid: 1fa265cca12dc92d5f1850d47e1bd338f924adf1
+  show_ref_link: false
+  title: Visualizing Similarity Data with a Mixture of Maps
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2005-diffusion-maps-spectral-clustering-and-reaction-coordinates-of-dynamical-systems
+  numCitedBy: 959
+  pid: c8afd45805566b2769623d60ca173bfdb5244371
+  show_ref_link: false
+  title: Diffusion maps, spectral clustering and reaction coordinates of dynamical systems
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-global-geometric-framework-for-nonlinear-dimensionality-reduction
+  numCitedBy: 12219
+  pid: 3537fcd0ff99a3b3cb3d279012df826358420556
+  show_ref_link: true
+  title: A global geometric framework for nonlinear dimensionality reduction.
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-a-kernel-matrix-for-nonlinear-dimensionality-reduction
+  numCitedBy: 553
+  pid: 2ff87fef3fc79b5bb47f2783e5b28084ef6b83c4
+  show_ref_link: false
+  title: Learning a kernel matrix for nonlinear dimensionality reduction
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-nonlinear-dimensionality-reduction-by-locally-linear-embedding
+  numCitedBy: 14001
+  pid: afcd6da7637ddeef6715109aca248da7a24b1c65
+  show_ref_link: true
+  title: Nonlinear dimensionality reduction by locally linear embedding.
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-designing-pixel-oriented-visualization-techniques-theory-and-applications
+  numCitedBy: 461
+  pid: 1af08944ccddf031bcbec9befb251cb62a30b162
+  show_ref_link: false
+  title: Designing Pixel-Oriented Visualization Techniques - Theory and Applications
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-graph-laplacian-regularization-for-large-scale-semidefinite-programming
+  numCitedBy: 96
+  pid: 36813d0402e01e6a90f4bab5455f4354ffed6f40
+  show_ref_link: false
+  title: Graph Laplacian Regularization for Large-Scale Semidefinite Programming
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-from-visual-data-exploration-to-visual-data-mining-a-survey
+  numCitedBy: 516
+  pid: 1e008a1f5484094eb5794672d7c7318dd86f4fb5
+  show_ref_link: false
+  title: From Visual Data Exploration to Visual Data Mining - A Survey
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-colored-maximum-variance-unfolding
+  numCitedBy: 104
+  pid: ec378947c3d9d0e0e6800e9f207b242d8de3da86
+  show_ref_link: false
+  title: Colored Maximum Variance Unfolding
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-partially-labeled-classification-with-markov-random-walks
+  numCitedBy: 671
+  pid: 8e6779bb55f7fbed5684ded55df51747ea678a84
+  show_ref_link: false
+  title: Partially labeled classification with Markov random walks
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-on-a-connection-between-kernel-pca-and-metric-multidimensional-scaling
+  numCitedBy: 244
+  pid: ffa38ca7a97b42f3e28d983172aa907317b9aade
+  show_ref_link: false
+  title: On a Connection between Kernel PCA and Metric Multidimensional Scaling
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-curvilinear-component-analysis-a-self-organizing-neural-network-for-nonlinear-mapping-of-data-sets
+  numCitedBy: 742
+  pid: bfb5410593385a279cc62844bd395f744dec2302
+  show_ref_link: false
+  title: Curvilinear component analysis - a self-organizing neural network for nonlinear mapping of data sets
+  year: 1997
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2006-random-walks-for-image-segmentation
+  numCitedBy: 2395
+  pid: 59d86a93c4ef54b5489bc375cd02e64205823f42
+  show_ref_link: false
+  title: Random Walks for Image Segmentation
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2001-laplacian-eigenmaps-and-spectral-techniques-for-embedding-and-clustering
+  numCitedBy: 4255
+  pid: 9d16c547d15a08091e68c86a99731b14366e3f0d
+  show_ref_link: false
+  title: Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-reducing-the-dimensionality-of-data-with-neural-networks
+  numCitedBy: 14701
+  pid: 46eb79e5eec8a4e2b2f5652b66441e8a4c921c3e
+  show_ref_link: true
+  title: Reducing the Dimensionality of Data with Neural Networks
+  year: 2006
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1984-random-walks-and-electric-networks
+  numCitedBy: 1583
+  pid: 6d67a36f5fae72da77cdfa4c69c92b34ce27a9f4
+  show_ref_link: false
+  title: Random walks and electric networks
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-dimensionality-reduction-a-comparative-review
+  numCitedBy: 2112
+  pid: 2309f7c5dad934f2adc2c5a066eba8fc2d8071ec
+  show_ref_link: false
+  title: Dimensionality Reduction - A Comparative Review
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-increased-rates-of-convergence-through-learning-rate-adaptation
+  numCitedBy: 1989
+  pid: a9ef2995e8e1bd57a74343073219364811c2ace0
+  show_ref_link: false
+  title: Increased rates of convergence through learning rate adaptation
+  year: 1988
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1952-multidimensional-scaling-i-theory-and-method
+  numCitedBy: 1915
+  pid: 16e0ed03f6fd71559965accf035ed8ca0c05fbed
+  show_ref_link: false
+  title: Multidimensional scaling - I. Theory and method
+  year: 1952
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-jacobi-davidson-style-qr-and-qz-algorithms-for-the-reduction-of-matrix-pencils
+  numCitedBy: 347
+  pid: 9e3ef2c367a39225d1bfcdc8a539025b51eb2da7
+  show_ref_link: false
+  title: Jacobi-Davidson Style QR and QZ Algorithms for the Reduction of Matrix Pencils
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-learning-deep-architectures-for-ai
+  numCitedBy: 7579
+  pid: e60ff004dde5c13ec53087872cfcdd12e85beb57
+  show_ref_link: true
+  title: Learning Deep Architectures for AI
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-nuclear-feature-extraction-for-breast-tumor-diagnosis
+  numCitedBy: 484
+  pid: 53f0fbb425bc14468eb3bf96b2e1d41ba8087f36
+  show_ref_link: false
+  title: Nuclear feature extraction for breast tumor diagnosis
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1973-the-use-of-faces-to-represent-points-in-k-dimensional-space-graphically
+  numCitedBy: 1405
+  pid: 6d4ad944f76e5eb48ddb4fb87c26ad18e99800d3
+  show_ref_link: false
+  title: The Use of Faces to Represent Points in k- Dimensional Space Graphically
+  year: 1973
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2002-global-versus-local-methods-in-nonlinear-dimensionality-reduction
+  numCitedBy: 896
+  pid: df83034e88557e1e2c7f9d268d90b19762312847
+  show_ref_link: false
+  title: Global Versus Local Methods in Nonlinear Dimensionality Reduction
+  year: 2002
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1958-multivariate-analysis
+  numCitedBy: 5759
+  pid: 182f77976b08d832b5cdc7debdaeacc300c8e723
+  show_ref_link: false
+  title: Multivariate Analysis
+  year: 1958
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1969-a-nonlinear-mapping-for-data-structure-analysis
+  numCitedBy: 3463
+  pid: 154f8a9906bcc99fca9b17aa521649b1c3734093
+  show_ref_link: false
+  title: A Nonlinear Mapping for Data Structure Analysis
+  year: 1969
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1951-the-principle-of-minimized-iterations-in-the-solution-of-the-matrix-eigenvalue-problem
+  numCitedBy: 1761
+  pid: d252389e81eede4c33793bfd887c20e872126502
+  show_ref_link: false
+  title: The principle of minimized iterations in the solution of the matrix eigenvalue problem
+  year: 1951
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 2007-on-the-dimensionality-of-face-space
+  numCitedBy: 59
+  pid: a241afd3270a835e98a51edbfd6d34614e8b44a9
+  show_ref_link: false
+  title: On the Dimensionality of Face Space
+  year: 2007
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2000-a-robust-nonlinear-projection-method
+  numCitedBy: 109
+  pid: bb06e047f7d7a1b8b6a4eea97e1f7db3a5adfebe
+  show_ref_link: false
+  title: A robust nonlinear projection method
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2001-algebraic-graph-theory
+  numCitedBy: 8085
+  pid: b07c157e7d40e06a4f2d486b16d5180d8b24acb9
+  show_ref_link: false
+  title: Algebraic Graph Theory
+  year: 2001
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1933-analysis-of-a-complex-of-statistical-variables-into-principal-components
+  numCitedBy: 8509
+  pid: 9ebb5c0d6d54707a4d6181a693b6f755ec8a45a9
+  show_ref_link: false
+  title: Analysis of a complex of statistical variables into principal components.
+  year: 1933
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2006-special-issue-on-diffusion-maps-and-wavelets
+  numCitedBy: 97
+  pid: 7a138b65b72575d5c1f6c5bdd41fa4350584f89f
+  show_ref_link: false
+  title: Special issue on diffusion maps and wavelets
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-semi-supervised-learning-using-gaussian-fields-and-harmonic-functions
+  numCitedBy: 3715
+  pid: 125842668eab7decac136db8a59d392dc5e4e395
+  show_ref_link: true
+  title: Semi-Supervised Learning Using Gaussian Fields and Harmonic Functions
+  year: 2003
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1996-columbia-object-image-library-coil100
+  numCitedBy: 2008
+  pid: 77afac8f4d7f47c8b34371d8f8355cefbea1d4f6
+  show_ref_link: false
+  title: Columbia Object Image Library (COIL100)
+  year: 1996
+slug: Visualizing-Data-using-t-SNE-Maaten-Hinton
+title: Visualizing Data using t-SNE
+url: https://www.semanticscholar.org/paper/Visualizing-Data-using-t-SNE-Maaten-Hinton/1c46943103bd7b7a2c7be86859995a4144d1938b?sort=total-citations
+venue: ''
+year: 2008

@@ -1,0 +1,117 @@
+authors:
+- E. Xing
+- A. Ng
+- Michael I. Jordan
+- Stuart J. Russell
+badges:
+- id: OPEN_ACCESS
+corpusId: 2643381
+fieldsOfStudy:
+- Computer Science
+meta_key: 2002-distance-metric-learning-with-application-to-clustering-with-side-information
+numCitedBy: 3031
+numCiting: 20
+paperAbstract: "Many algorithms rely critically on being given a good metric over their inputs. For instance, data can often be clustered in many \"plausible\" ways, and if a clustering algorithm such as K-means initially fails to find one that is meaningful to a user, the only recourse may be for the user to manually tweak the metric until sufficiently good clusters are found. For these and other applications requiring good metrics, it is desirable that we provide a more systematic way for users to indicate what they consider \"similar.\" For instance, we may ask them to provide examples. In this paper, we present an algorithm that, given examples of similar (and, if desired, dissimilar) pairs of points in \u211Dn, learns a distance metric over \u211Dn that respects these relationships. Our method is based on posing metric learning as a convex optimization problem, which allows us to give efficient, local-optima-free algorithms. We also demonstrate empirically that the learned metrics can be used to significantly improve clustering performance."
+ref_count: 20
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-constrained-k-means-clustering-with-background-knowledge
+  numCitedBy: 2619
+  pid: 0bacca0993a3f51649a6bb8dbb093fc8d8481ad4
+  show_ref_link: false
+  title: Constrained K-means Clustering with Background Knowledge
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-clustering-with-instance-level-constraints
+  numCitedBy: 633
+  pid: 7736b3cba7b2a30e5e817f8cbb6fa02c4e7c7cdf
+  show_ref_link: false
+  title: Clustering with Instance-Level Constraints
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-adaptive-nearest-neighbor-classification-using-support-vector-machines
+  numCitedBy: 118
+  pid: 61ad1950b11acd319949ce8523e899b31cad4d82
+  show_ref_link: false
+  title: Adaptive Nearest Neighbor Classification Using Support Vector Machines
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-discriminant-adaptive-nearest-neighbor-classification
+  numCitedBy: 909
+  pid: 09370d132a1e238a778f5e39a7a096994dc25ec1
+  show_ref_link: false
+  title: Discriminant Adaptive Nearest Neighbor Classification
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-exploiting-generative-models-in-discriminative-classifiers
+  numCitedBy: 1621
+  pid: e45c2420e6dc59ba6d357fb0c996ebf43c861560
+  show_ref_link: false
+  title: Exploiting Generative Models in Discriminative Classifiers
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-an-introduction-to-locally-linear-embedding
+  numCitedBy: 263
+  pid: da6495102377f8332b21cef50c35d27fbff627df
+  show_ref_link: false
+  title: An Introduction to Locally Linear Embedding
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-nonlinear-dimensionality-reduction-by-locally-linear-embedding
+  numCitedBy: 14002
+  pid: afcd6da7637ddeef6715109aca248da7a24b1c65
+  show_ref_link: true
+  title: Nonlinear dimensionality reduction by locally linear embedding.
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-locally-weighted-learning
+  numCitedBy: 1690
+  pid: 6b502694a8e23d3b9ab08fa7a0c6d5e82bd1f066
+  show_ref_link: false
+  title: Locally Weighted Learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-learning-with-kernels
+  numCitedBy: 6588
+  pid: d5051890e501117097eeffbd8ded87694f0d8063
+  show_ref_link: false
+  title: Learning with kernels
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-analysis
+  numCitedBy: 4663
+  pid: f00def7c0205e2896b1287cc01081b1ca6407da1
+  show_ref_link: false
+  title: Analysis
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: "1977-convex-analysis\u306E\u4E8C-\u4E09\u306E\u9032\u5C55\u306B\u3064\u3044\u3066"
+  numCitedBy: 7980
+  pid: b272701e77ddb860741a193ac1701ca382853680
+  show_ref_link: false
+  title: "Convex Analysis\u306E\u4E8C,\u4E09\u306E\u9032\u5C55\u306B\u3064\u3044\u3066"
+  year: 1977
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-the-information-bottleneck-method
+  numCitedBy: 2425
+  pid: c76c62c5ab6c076a80f925d277ef04dd36f6bf9c
+  show_ref_link: false
+  title: The information bottleneck method
+  year: 2000
+slug: Distance-Metric-Learning-with-Application-to-with-Xing-Ng
+title: Distance Metric Learning with Application to Clustering with Side-Information
+url: https://www.semanticscholar.org/paper/Distance-Metric-Learning-with-Application-to-with-Xing-Ng/d1a2d203733208deda7427c8e20318334193d9d7?sort=total-citations
+venue: NIPS
+year: 2002

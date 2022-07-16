@@ -1,0 +1,207 @@
+authors:
+- Joan Bruna
+- Wojciech Zaremba
+- Arthur D. Szlam
+- Yann LeCun
+badges:
+- id: OPEN_ACCESS
+corpusId: 17682909
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-spectral-networks-and-locally-connected-networks-on-graphs
+numCitedBy: 2805
+numCiting: 30
+paperAbstract: Convolutional Neural Networks are extremely efficient architectures in image and audio recognition tasks, thanks to their ability to exploit the local translational invariance of signal classes over their domain. In this paper we consider possible generalizations of CNNs to signals defined on more general domains without the action of a translation group. In particular, we propose two constructions, one based upon a hierarchical clustering of the domain, and another based on the spectrum of the graph Laplacian. We show through experiments that for low-dimensional graphs it is possible to learn convolutional layers with a number of parameters independent of the input size, resulting in efficient deep architectures.
+ref_count: 30
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-convolutional-learning-of-spatio-temporal-features
+  numCitedBy: 631
+  pid: 4d476b96be73fccc61f2076befbf5a468caa4180
+  show_ref_link: false
+  title: Convolutional Learning of Spatio-temporal Features
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-selecting-receptive-fields-in-deep-networks
+  numCitedBy: 222
+  pid: 182015c5edff1956cbafbcb3e7bbe294aa54f9fc
+  show_ref_link: false
+  title: Selecting Receptive Fields in Deep Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-tiled-convolutional-neural-networks
+  numCitedBy: 310
+  pid: 05cc38e249a6f642363b5a5cbd71cda67cea5893
+  show_ref_link: false
+  title: Tiled convolutional neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-wavelets-on-graphs-via-deep-learning
+  numCitedBy: 81
+  pid: 3ab187930cc6e1874fad72ce4eaf57fd5b795f84
+  show_ref_link: false
+  title: Wavelets on Graphs via Deep Learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-emergence-of-complex-like-cells-in-a-temporal-product-network-with-local-receptive-fields
+  numCitedBy: 63
+  pid: 31f04f8f83365fabf7ba9c9be1179c0da6815128
+  show_ref_link: false
+  title: Emergence of Complex-Like Cells in a Temporal Product Network with Local Receptive Fields
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-beyond-spatial-pyramids-receptive-field-learning-for-pooled-image-features
+  numCitedBy: 291
+  pid: 68447483e80991ca718cad40e73ac14c08da7413
+  show_ref_link: false
+  title: Beyond spatial pyramids - Receptive field learning for pooled image features
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-hierarchical-invariant-spatio-temporal-features-for-action-recognition-with-independent-subspace-analysis
+  numCitedBy: 1067
+  pid: 42269d0438c0ae4ca892334946ed779999691074
+  show_ref_link: true
+  title: Learning hierarchical invariant spatio-temporal features for action recognition with independent subspace analysis
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-convolutional-neural-networks-applied-to-house-numbers-digit-classification
+  numCitedBy: 454
+  pid: 9f7f9aba0a6a966ce04e29e401ea28f9eae82f02
+  show_ref_link: false
+  title: Convolutional neural networks applied to house numbers digit classification
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-multiscale-wavelets-on-trees-graphs-and-high-dimensional-data-theory-and-applications-to-semi-supervised-learning
+  numCitedBy: 201
+  pid: 1b243c92539db787148bdd9e3b52637cfa02235a
+  show_ref_link: false
+  title: Multiscale Wavelets on Trees, Graphs and High Dimensional Data - Theory and Applications to Semi Supervised Learning
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2001-laplacian-eigenmaps-and-spectral-techniques-for-embedding-and-clustering
+  numCitedBy: 4255
+  pid: 9d16c547d15a08091e68c86a99731b14366e3f0d
+  show_ref_link: false
+  title: Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering
+  year: 2001
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 2004-diffusion-wavelets
+  numCitedBy: 573
+  pid: 5afde5fd85ec871d1de8ddd756bd2a8a03dd7479
+  show_ref_link: false
+  title: Diffusion Wavelets
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35433
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-a-tutorial-on-spectral-clustering
+  numCitedBy: 8329
+  pid: eda90bd43f4256986688e525b45b833a3addab97
+  show_ref_link: false
+  title: A tutorial on spectral clustering
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-deep-neural-networks-for-acoustic-modeling-in-speech-recognition-the-shared-views-of-four-research-groups
+  numCitedBy: 7472
+  pid: 31868290adf1c000c611dfc966b514d5a34e8d23
+  show_ref_link: true
+  title: Deep Neural Networks for Acoustic Modeling in Speech Recognition - The Shared Views of Four Research Groups
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-multiresolution-signal-processing-for-meshes
+  numCitedBy: 585
+  pid: 28d8521f42ed06f8767e091d3b62fda457f8ec5f
+  show_ref_link: false
+  title: Multiresolution signal processing for meshes
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-fast-multiscale-clustering-and-manifold-identification
+  numCitedBy: 91
+  pid: 268880635d81d565122f37cea386e1b07f5f0163
+  show_ref_link: false
+  title: Fast multiscale clustering and manifold identification
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-weighted-graph-cuts-without-eigenvectors-a-multilevel-approach
+  numCitedBy: 880
+  pid: 34795caa356317f2c662bd4553cd7608e0aeb657
+  show_ref_link: false
+  title: Weighted Graph Cuts without Eigenvectors A Multilevel Approach
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-graph-wavelets-for-spatial-traffic-analysis
+  numCitedBy: 232
+  pid: ecf94d4d2caacb021e0b59aa6d778532f8e1307f
+  show_ref_link: false
+  title: Graph wavelets for spatial traffic analysis
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-the-elements-of-statistical-learning-data-mining-inference-and-prediction
+  numCitedBy: 11967
+  pid: 5176a2f31dace77db9135dde7020d2c37f78cca0
+  show_ref_link: true
+  title: The Elements of Statistical Learning - Data Mining, Inference, and Prediction
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-efficient-multilevel-eigensolvers-with-applications-to-data-analysis-tasks
+  numCitedBy: 34
+  pid: f9c7de510614a2de6806c9fb3b03bace757a3a1d
+  show_ref_link: false
+  title: Efficient Multilevel Eigensolvers with Applications to Data Analysis Tasks
+  year: 2010
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1996-spectral-graph-theory
+  numCitedBy: 4211
+  pid: 95d6ff6279fa0f92df6fae0e6bd4c259acfc8f09
+  show_ref_link: false
+  title: Spectral Graph Theory
+  year: 1996
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2007-learning-the-2-d-topology-of-images
+  numCitedBy: 20
+  pid: 5a8aaeb330bd90cb1d9d0201a91b64e07468b271
+  show_ref_link: false
+  title: Learning the 2-D Topology of Images
+  year: 2007
+slug: Spectral-Networks-and-Locally-Connected-Networks-on-Bruna-Zaremba
+title: Spectral Networks and Locally Connected Networks on Graphs
+url: https://www.semanticscholar.org/paper/Spectral-Networks-and-Locally-Connected-Networks-on-Bruna-Zaremba/5e925a9f1e20df61d1e860a7aa71894b35a1c186?sort=total-citations
+venue: ICLR
+year: 2014

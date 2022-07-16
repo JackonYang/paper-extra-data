@@ -1,0 +1,138 @@
+authors:
+- L. Breiman
+badges:
+- id: OPEN_ACCESS
+corpusId: 89141
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-random-forests
+numCitedBy: 65460
+numCiting: 22
+paperAbstract: "Random forests are a combination of tree predictors such that each tree depends on the values of a random vector sampled independently and with the same distribution for all trees in the forest. The generalization error for forests converges a.s. to a limit as the number of trees in the forest becomes large. The generalization error of a forest of tree classifiers depends on the strength of the individual trees in the forest and the correlation between them. Using a random selection of features to split each node yields error rates that compare favorably to Adaboost (Y. Freund & R. Schapire, Machine Learning: Proceedings of the Thirteenth International conference, ***, 148\u2013156), but are more robust with respect to noise. Internal estimates monitor error, strength, and correlation and these are used to show the response to increasing the number of features used in the splitting. Internal estimates are also used to measure variable importance. These ideas are also applicable to regression."
+ref_count: 22
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-some-infinity-theory-for-predictor-ensembles
+  numCitedBy: 185
+  pid: 1cbaf21d0e95b5036f400df6df5c6eedbabe4197
+  show_ref_link: false
+  title: SOME INFINITY THEORY FOR PREDICTOR ENSEMBLES
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-an-empirical-comparison-of-voting-classification-algorithms-bagging-boosting-and-variants
+  numCitedBy: 2469
+  pid: fc80cdf18198dc5677ccabe501b6f7209c28483c
+  show_ref_link: false
+  title: An Empirical Comparison of Voting Classification Algorithms - Bagging, Boosting, and Variants
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-an-experimental-comparison-of-three-methods-for-constructing-ensembles-of-decision-trees-bagging-boosting-and-randomization
+  numCitedBy: 2621
+  pid: 45310c3ace403329b1fce03cb973830412bf7307
+  show_ref_link: false
+  title: An Experimental Comparison of Three Methods for Constructing Ensembles of Decision Trees - Bagging, Boosting, and Randomization
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-on-the-algorithmic-implementation-of-stochastic-discrimination
+  numCitedBy: 121
+  pid: 8956845b0701ec57094c7a8b4ab1f41386899aea
+  show_ref_link: false
+  title: On the Algorithmic Implementation of Stochastic Discrimination
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-boosting-the-margin-a-new-explanation-for-the-effectiveness-of-voting-methods
+  numCitedBy: 2848
+  pid: 4d19272112b50547614479a0c409fca66e3b05f7
+  show_ref_link: false
+  title: Boosting the margin - A new explanation for the effectiveness of voting methods
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-shape-quantization-and-recognition-with-randomized-trees
+  numCitedBy: 1158
+  pid: de5e95325e139fd0a46df1dd28aabecd0273b772
+  show_ref_link: false
+  title: Shape Quantization and Recognition with Randomized Trees
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-an-efficient-method-to-estimate-bagging-s-generalization-error
+  numCitedBy: 130
+  pid: 3adbf054b95b8672c28e1d1a01c88811e409041f
+  show_ref_link: false
+  title: An Efficient Method To Estimate Bagging's Generalization Error
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-arcing-classifier-with-discussion-and-a-rejoinder-by-the-author
+  numCitedBy: 934
+  pid: cc394d074c8504671eb37926d14a3df4a07520a0
+  show_ref_link: false
+  title: Arcing classifier (with discussion and a rejoinder by the author)
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-boosting-in-the-limit-maximizing-the-margin-of-learned-ensembles
+  numCitedBy: 282
+  pid: 639057ad00ddaf8bbed3fa0dbd9663dfeb663d62
+  show_ref_link: false
+  title: Boosting in the Limit - Maximizing the Margin of Learned Ensembles
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-bagging-predictors
+  numCitedBy: 15251
+  pid: d1ee87290fa827f1217b8fa2bccb3485da1a300e
+  show_ref_link: true
+  title: Bagging predictors
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1996-bias-variance-and-prediction-error-for-classification-rules
+  numCitedBy: 149
+  pid: 9253f3e13bca7e845e60394d85ddaec0d4cfc6d6
+  show_ref_link: false
+  title: Bias, Variance and Prediction Error for Classification Rules
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-randomizing-outputs-to-increase-prediction-accuracy
+  numCitedBy: 238
+  pid: 0df0472933cd7f996849feed5a13f0d24f8c9a16
+  show_ref_link: false
+  title: Randomizing Outputs to Increase Prediction Accuracy
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-using-adaptive-bagging-to-debias-regressions
+  numCitedBy: 103
+  pid: 636c243ae176bcfa9766f8d4fca7eb441819e21d
+  show_ref_link: false
+  title: USING ADAPTIVE BAGGING TO DEBIAS REGRESSIONS
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-experiments-with-a-new-boosting-algorithm
+  numCitedBy: 8643
+  pid: 68c1bfe375dde46777fe1ac8f3636fb651e3f0f8
+  show_ref_link: false
+  title: Experiments with a New Boosting Algorithm
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-the-random-subspace-method-for-constructing-decision-forests
+  numCitedBy: 5445
+  pid: b41d0fa5fdaadd47fc882d3db04277d03fb21832
+  show_ref_link: false
+  title: The Random Subspace Method for Constructing Decision Forests
+  year: 1998
+slug: Random-Forests-Breiman
+title: Random Forests
+url: https://www.semanticscholar.org/paper/Random-Forests-Breiman/13d4c2f76a7c1a4d0a71204e1d5d263a3f5a7986?sort=total-citations
+venue: Machine Learning
+year: 2004

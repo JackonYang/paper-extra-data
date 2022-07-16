@@ -1,0 +1,312 @@
+authors:
+- Nitish Srivastava
+- Geoffrey E. Hinton
+- A. Krizhevsky
+- Ilya Sutskever
+- R. Salakhutdinov
+badges:
+- id: OPEN_ACCESS
+corpusId: 6844431
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+numCitedBy: 28300
+numCiting: 43
+paperAbstract: Deep neural nets with a large number of parameters are very powerful machine learning systems. However, overfitting is a serious problem in such networks. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. Dropout is a technique for addressing this problem. The key idea is to randomly drop units (along with their connections) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different "thinned" networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods. We show that dropout improves the performance of neural networks on supervised learning tasks in vision, speech recognition, document classification and computational biology, obtaining state-of-the-art results on many benchmark data sets.
+ref_count: 43
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-improving-neural-networks-with-dropout
+  numCitedBy: 239
+  pid: 5d5d4f49d6443c8529a6f5ebef5c499d47a869da
+  show_ref_link: false
+  title: Improving Neural Networks with Dropout
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17285
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-fast-dropout-training
+  numCitedBy: 378
+  pid: ec92efde21707ddf4b81f301cd58e2051c1a2443
+  show_ref_link: false
+  title: Fast dropout training
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-fast-learning-algorithm-for-deep-belief-nets
+  numCitedBy: 13458
+  pid: 8978cf7574ceb35f4c3096be768c7547b28a35d0
+  show_ref_link: true
+  title: A Fast Learning Algorithm for Deep Belief Nets
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-with-marginalized-corrupted-features
+  numCitedBy: 161
+  pid: 3c20df69865df6a627cc45c524869ccc0297048f
+  show_ref_link: false
+  title: Learning with Marginalized Corrupted Features
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-simplifying-neural-networks-by-soft-weight-sharing
+  numCitedBy: 645
+  pid: de75e4e15e22d4376300e5c968e2db44be29ac9e
+  show_ref_link: false
+  title: Simplifying Neural Networks by Soft Weight-Sharing
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-dropout-training-as-adaptive-regularization
+  numCitedBy: 488
+  pid: d124a098cdc6f99b9a152fcf8afa9327dac583be
+  show_ref_link: false
+  title: Dropout Training as Adaptive Regularization
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-deep-boltzmann-machines
+  numCitedBy: 2031
+  pid: 85021c84383d18a7a4434d76dc8135fc6bdc0aa6
+  show_ref_link: false
+  title: Deep Boltzmann Machines
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-bayesian-learning-for-neural-networks
+  numCitedBy: 3637
+  pid: db869fa192a3222ae4f2d766674a378e47013b1b
+  show_ref_link: false
+  title: Bayesian Learning for Neural Networks
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-stacked-denoising-autoencoders-learning-useful-representations-in-a-deep-network-with-a-local-denoising-criterion
+  numCitedBy: 5633
+  pid: e2b7f37cd97a7907b1b8a41138721ed06a0b76cd
+  show_ref_link: true
+  title: Stacked Denoising Autoencoders - Learning Useful Representations in a Deep Network with a Local Denoising Criterion
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  - Physics
+  meta_key: 2010-phone-recognition-with-the-mean-covariance-restricted-boltzmann-machine
+  numCitedBy: 315
+  pid: 90b63e917d5737b06357d50aa729619e933d9614
+  show_ref_link: false
+  title: Phone Recognition with the Mean-Covariance Restricted Boltzmann Machine
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-acoustic-modeling-using-deep-belief-networks
+  numCitedBy: 1645
+  pid: d2b62f77cb2864e465aa60bca6c26bb1d2f84963
+  show_ref_link: true
+  title: Acoustic Modeling Using Deep Belief Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5053
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-stochastic-pooling-for-regularization-of-deep-convolutional-neural-networks
+  numCitedBy: 823
+  pid: 0abb49fe138e8fb7332c26b148a48d0db39724fc
+  show_ref_link: false
+  title: Stochastic Pooling for Regularization of Deep Convolutional Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-best-practices-for-convolutional-neural-networks-applied-to-visual-document-analysis
+  numCitedBy: 2442
+  pid: 5562a56da3a96dae82add7de705e2bd841eb00fc
+  show_ref_link: false
+  title: Best practices for convolutional neural networks applied to visual document analysis
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-learning-to-classify-with-missing-and-corrupted-features
+  numCitedBy: 104
+  pid: c0d05cac959f07f924786d68f32f7a3c0d19f22b
+  show_ref_link: false
+  title: Learning to classify with missing and corrupted features
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-reducing-the-dimensionality-of-data-with-neural-networks
+  numCitedBy: 14701
+  pid: 46eb79e5eec8a4e2b2f5652b66441e8a4c921c3e
+  show_ref_link: true
+  title: Reducing the Dimensionality of Data with Neural Networks
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1825
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3936
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-extracting-and-composing-robust-features-with-denoising-autoencoders
+  numCitedBy: 5494
+  pid: 843959ffdccf31c6694d135fad07425924f785b1
+  show_ref_link: true
+  title: Extracting and composing robust features with denoising autoencoders
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-nightmare-at-test-time-robust-learning-by-feature-deletion
+  numCitedBy: 338
+  pid: 6dd9bb6b38e5b84616e207f00a181dbadce06937
+  show_ref_link: false
+  title: Nightmare at test time - robust learning by feature deletion
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-convolutional-neural-networks-applied-to-house-numbers-digit-classification
+  numCitedBy: 454
+  pid: 9f7f9aba0a6a966ce04e29e401ea28f9eae82f02
+  show_ref_link: false
+  title: Convolutional neural networks applied to house numbers digit classification
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-what-is-the-best-multi-stage-architecture-for-object-recognition
+  numCitedBy: 2090
+  pid: 1f88427d7aa8225e47f946ac41a0667d7b69ac52
+  show_ref_link: false
+  title: What is the best multi-stage architecture for object recognition?
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-marginalized-denoising-autoencoders-for-domain-adaptation
+  numCitedBy: 715
+  pid: 8db26a22942404bd435909a16bb3a50cd67b4318
+  show_ref_link: false
+  title: Marginalized Denoising Autoencoders for Domain Adaptation
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-bayesian-probabilistic-matrix-factorization-using-markov-chain-monte-carlo
+  numCitedBy: 1405
+  pid: 5262fe8369992259be27165ccd09d1d31c7a4def
+  show_ref_link: false
+  title: Bayesian probabilistic matrix factorization using Markov chain Monte Carlo
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-the-kaldi-speech-recognition-toolkit
+  numCitedBy: 5151
+  pid: 3a1a2cff2b70fb84a7ca7d97f8adcc5855851795
+  show_ref_link: true
+  title: The Kaldi Speech Recognition Toolkit
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-regression-shrinkage-and-selection-via-the-lasso
+  numCitedBy: 36597
+  pid: b365b8e45b7d81f081de44ac8f9eadf9144f3ca5
+  show_ref_link: true
+  title: Regression Shrinkage and Selection via the Lasso
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-high-dimensional-signature-compression-for-large-scale-image-classification
+  numCitedBy: 298
+  pid: eefcc7bcc05436dac9881acb4ff4e4a0b730e175
+  show_ref_link: false
+  title: High-dimensional signature compression for large-scale image classification
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-cudamat-a-cuda-based-matrix-class-for-python
+  numCitedBy: 84
+  pid: 0ea90fac0958d84bcf4a2875c2b169478358b480
+  show_ref_link: false
+  title: CUDAMat - a CUDA-based matrix class for Python
+  year: 2009
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2011-bayesian-prediction-of-tissue-regulated-splicing-using-rna-sequence-and-cellular-context
+  numCitedBy: 82
+  pid: 0805faaedd3d8a693fca38cf0a5e0d12d8ffc65e
+  show_ref_link: false
+  title: Bayesian prediction of tissue-regulated splicing using RNA sequence and cellular context
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2005-rank-trace-norm-and-max-norm
+  numCitedBy: 360
+  pid: 8423a5782a1acda21a6f68c307ce5376ebef13c7
+  show_ref_link: false
+  title: Rank, Trace-Norm and Max-Norm
+  year: 2005
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2010-sex-mixability-and-modularity
+  numCitedBy: 62
+  pid: 116b678d7a155845956de2204f6ee5151f8dd98b
+  show_ref_link: false
+  title: Sex, mixability, and modularity
+  year: 2010
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1980-the-stability-of-inverse-problems
+  numCitedBy: 481
+  pid: 1578e606cad01df459162404ed9edfcb17d787aa
+  show_ref_link: false
+  title: The Stability of Inverse Problems
+  year: 1980
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-ieee-workshop-on-automatic-speech-recognition-and-understanding
+  numCitedBy: 110
+  pid: 85c1c2d3a7bddfc3f276db479c60b3ec246bdf24
+  show_ref_link: false
+  title: IEEE Workshop on automatic speech recognition and understanding
+  year: 2009
+slug: Dropout:-a-simple-way-to-prevent-neural-networks-Srivastava-Hinton
+title: Dropout - a simple way to prevent neural networks from overfitting
+url: https://www.semanticscholar.org/paper/Dropout:-a-simple-way-to-prevent-neural-networks-Srivastava-Hinton/34f25a8704614163c4095b3ee2fc969b60de4698?sort=total-citations
+venue: J. Mach. Learn. Res.
+year: 2014

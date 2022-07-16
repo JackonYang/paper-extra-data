@@ -1,0 +1,559 @@
+authors:
+- "Djork-Arn\xE9 Clevert"
+- Thomas Unterthiner
+- S. Hochreiter
+badges:
+- id: OPEN_ACCESS
+corpusId: 5273326
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-fast-and-accurate-deep-network-learning-by-exponential-linear-units-elus
+numCitedBy: 3685
+numCiting: 74
+paperAbstract: We introduce the "exponential linear unit" (ELU) which speeds up learning in deep neural networks and leads to higher classification accuracies. Like rectified linear units (ReLUs), leaky ReLUs (LReLUs) and parametrized ReLUs (PReLUs), ELUs alleviate the vanishing gradient problem via the identity for positive values. However, ELUs have improved learning characteristics compared to the units with other activation functions. In contrast to ReLUs, ELUs have negative values which allows them to push mean unit activations closer to zero like batch normalization but with lower computational complexity. Mean shifts toward zero speed up learning by bringing the normal gradient closer to the unit natural gradient because of a reduced bias shift effect. While LReLUs and PReLUs have negative values, too, they do not ensure a noise-robust deactivation state. ELUs saturate to a negative value with smaller inputs and thereby decrease the forward propagated variation and information. Therefore, ELUs code the degree of presence of particular phenomena in the input, while they do not quantitatively model the degree of their absence. In experiments, ELUs lead not only to faster learning, but also to significantly better generalization performance than ReLUs and LReLUs on networks with more than 5 layers. On CIFAR-100 ELUs networks significantly outperform ReLU networks with batch normalization while batch normalization does not improve ELU networks. ELU networks are among the top 10 reported CIFAR-10 results and yield the best published result on CIFAR-100, without resorting to multi-view evaluation or model averaging. On ImageNet, ELU networks considerably speed up learning compared to a ReLU network with the same architecture, obtaining less than 10% classification error for a single crop, single model network.
+ref_count: 74
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-deep-learning-made-easier-by-linear-transformations-in-perceptrons
+  numCitedBy: 178
+  pid: b8ef1230a5cc9ea7cd8358f1ae7d1af97813ba14
+  show_ref_link: false
+  title: Deep Learning Made Easier by Linear Transformations in Perceptrons
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-empirical-evaluation-of-rectified-activations-in-convolutional-network
+  numCitedBy: 1863
+  pid: adf3b591281688b7e71b254ab931b2aa39b4b59f
+  show_ref_link: false
+  title: Empirical Evaluation of Rectified Activations in Convolutional Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-rectified-factor-networks
+  numCitedBy: 16
+  pid: e41f9fb884a3c6806048fd57041b797dd2b20bc6
+  show_ref_link: false
+  title: Rectified Factor Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-enhanced-gradient-and-adaptive-learning-rate-for-training-restricted-boltzmann-machines
+  numCitedBy: 79
+  pid: 1a700d6cce09f1711cdaf8f5f21b6ab2a8ce7bae
+  show_ref_link: false
+  title: Enhanced Gradient and Adaptive Learning Rate for Training Restricted Boltzmann Machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12461
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-improving-deep-neural-networks-for-lvcsr-using-rectified-linear-units-and-dropout
+  numCitedBy: 1183
+  pid: 1a3c74c7b11ad5635570932577cdde2a3f7a6a5c
+  show_ref_link: true
+  title: Improving deep neural networks for LVCSR using rectified linear units and dropout
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4232
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-rectified-linear-units-for-speech-processing
+  numCitedBy: 474
+  pid: 64da1980714cfc130632c5b92b9d98c2f6763de6
+  show_ref_link: false
+  title: On rectified linear units for speech processing
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deeply-supervised-nets
+  numCitedBy: 1449
+  pid: fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd
+  show_ref_link: true
+  title: Deeply-Supervised Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-recurrent-neural-networks-with-hessian-free-optimization
+  numCitedBy: 586
+  pid: 0d6203718c15f137fda2f295c96269bc2b254644
+  show_ref_link: false
+  title: Learning Recurrent Neural Networks with Hessian-Free Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-revisiting-natural-gradient-for-deep-networks
+  numCitedBy: 281
+  pid: e8f95ccfd13689f672c39dca3eccf1c484533bcc
+  show_ref_link: false
+  title: Revisiting Natural Gradient for Deep Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-neural-networks-tricks-of-the-trade
+  numCitedBy: 1306
+  pid: b1a5961609c623fc816aaa77565ba38b25531a8e
+  show_ref_link: false
+  title: Neural Networks - Tricks of the Trade
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-rectifier-nonlinearities-improve-neural-network-acoustic-models
+  numCitedBy: 4428
+  pid: 367f2c63a6f6a10b3b64b8729d601e69337ee3cc
+  show_ref_link: true
+  title: Rectifier Nonlinearities Improve Neural Network Acoustic Models
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-natural-neural-networks
+  numCitedBy: 148
+  pid: 941e30afcae061a115301c65a1afe49d8856f14e
+  show_ref_link: false
+  title: Natural Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-centering-neural-network-gradient-factors
+  numCitedBy: 46
+  pid: 75a026ddfdd9c219d69fe8af816f085ea1b3877d
+  show_ref_link: false
+  title: Centering Neural Network Gradient Factors
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-training-neural-networks-with-stochastic-hessian-free-optimization
+  numCitedBy: 40
+  pid: daa083e60ed6a85ddbbf370f8cb58dee37520f3a
+  show_ref_link: false
+  title: Training Neural Networks with Stochastic Hessian-Free Optimization
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-training-very-deep-networks
+  numCitedBy: 1314
+  pid: b92aa7024b87f50737b372e5df31ef091ab54e62
+  show_ref_link: true
+  title: Training Very Deep Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-striving-for-simplicity-the-all-convolutional-net
+  numCitedBy: 3293
+  pid: 0f84a81f431b18a78bd97f59ed4b9d8eda390970
+  show_ref_link: true
+  title: Striving for Simplicity - The All Convolutional Net
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-semantic-image-representations-at-a-large-scale
+  numCitedBy: 67
+  pid: 13a5b779b46b507f59df866e369ac4e78388240a
+  show_ref_link: false
+  title: Learning Semantic Image Representations at a Large Scale
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-riemannian-metrics-for-neural-networks
+  numCitedBy: 20
+  pid: b83c32b75ded6fd45062b7cdaf8794a85ea36264
+  show_ref_link: false
+  title: Riemannian metrics for neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-deep-learning-via-hessian-free-optimization
+  numCitedBy: 849
+  pid: 4c46347fbc272b21468efe3d9af34b4b2bad6684
+  show_ref_link: false
+  title: Deep learning via Hessian-free optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-the-vanishing-gradient-problem-during-learning-recurrent-neural-nets-and-problem-solutions
+  numCitedBy: 1471
+  pid: e9fac1091d9a1646314b1b91e58f40dae3a750cd
+  show_ref_link: false
+  title: The Vanishing Gradient Problem During Learning Recurrent Neural Nets and Problem Solutions
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  - Economics
+  meta_key: 2014-fractional-max-pooling
+  numCitedBy: 433
+  pid: 55dda8f230566867acbfaa7bdd08fd8c7b8721ed
+  show_ref_link: false
+  title: Fractional Max-Pooling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-incremental-natural-actor-critic-algorithms
+  numCitedBy: 166
+  pid: 1a74fef3639f99a67fb90460091b05f0916dd054
+  show_ref_link: false
+  title: Incremental Natural Actor-Critic Algorithms
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-metric-free-natural-gradient-for-joint-training-of-boltzmann-machines
+  numCitedBy: 30
+  pid: 7a7a2658df5d66541305962d4c9d43078adadac6
+  show_ref_link: false
+  title: Metric-Free Natural Gradient for Joint-Training of Boltzmann Machines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-natural-gradient-works-efficiently-in-learning
+  numCitedBy: 2734
+  pid: 5a767a341364de1f75bea85e0b12ba7d3586a461
+  show_ref_link: false
+  title: Natural Gradient Works Efficiently in Learning
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1825
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-fast-natural-newton-method
+  numCitedBy: 52
+  pid: f7cc843c318d8862357485488971b26527ef1a8e
+  show_ref_link: false
+  title: A fast natural Newton method
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-learning-to-learn-using-gradient-descent
+  numCitedBy: 494
+  pid: 044b2c29e0a54dc689786bd4d029b9ba6e355d58
+  show_ref_link: false
+  title: Learning to Learn Using Gradient Descent
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-feature-extraction-through-lococode
+  numCitedBy: 88
+  pid: a1c9b33100566fb8e40f86a56ef47b0cc95152b6
+  show_ref_link: false
+  title: Feature Extraction Through LOCOCODE
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12894
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deeptox-toxicity-prediction-using-deep-learning
+  numCitedBy: 459
+  pid: 1d298139fc73654db7d8d936b07fa9e85bba008c
+  show_ref_link: false
+  title: DeepTox - Toxicity Prediction using Deep Learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-iterative-scaled-trust-region-learning-in-krylov-subspaces-via-pearlmutter-s-implicit-sparse-hessian-vector-multiply
+  numCitedBy: 13
+  pid: d2308c22009f769f852c87747824680dfd4d8f4a
+  show_ref_link: false
+  title: Iterative Scaled Trust-Region Learning in Krylov Subspaces via Pearlmutter's Implicit Sparse Hessian-Vector Multiply
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-deep-boltzmann-machines-and-the-centering-trick
+  numCitedBy: 80
+  pid: 68e3fca8f6f60ca1c70854b9d09228ece37f02b2
+  show_ref_link: false
+  title: Deep Boltzmann Machines and the Centering Trick
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-adaptive-natural-gradient-learning-algorithms-for-various-stochastic-models
+  numCitedBy: 166
+  pid: 55a5dbc05fe8e362e0050b36dbbc4886011c4a32
+  show_ref_link: false
+  title: Adaptive natural gradient learning algorithms for various stochastic models
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2015-deep-learning-as-an-opportunity-in-virtual-screening
+  numCitedBy: 135
+  pid: 95f7b2c0fe75f08e3ce0d2ac4315166f4239db5c
+  show_ref_link: false
+  title: Deep Learning as an Opportunity in Virtual Screening
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-statistical-theory-of-learning-curves-under-entropic-loss-criterion
+  numCitedBy: 141
+  pid: 882b6899d07ce3498a04195885150ef87c02d1c3
+  show_ref_link: false
+  title: Statistical Theory of Learning Curves under Entropic Loss Criterion
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-natural-actor-critic
+  numCitedBy: 840
+  pid: f1a391bab223fc2609717316bec30ae36f8ea448
+  show_ref_link: false
+  title: Natural Actor-Critic
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-natural-evolution-strategies
+  numCitedBy: 620
+  pid: dd5cf95a7af93d2733120d177c593989b19b98fe
+  show_ref_link: false
+  title: Natural Evolution Strategies
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scaling-up-natural-gradient-by-sparsely-factorizing-the-inverse-fisher-matrix
+  numCitedBy: 59
+  pid: 5b93662a56a11d22efd49afa5aa79e64539260b8
+  show_ref_link: false
+  title: Scaling up Natural Gradient by Sparsely Factorizing the Inverse Fisher Matrix
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-under-review-as-a-conference-paper-at-iclr-2017-delving-into-transferable-adversarial-ex-amples-and-black-box-attacks
+  numCitedBy: 488
+  pid: 94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f
+  show_ref_link: true
+  title: Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-topmoumoute-online-natural-gradient-algorithm
+  numCitedBy: 180
+  pid: 6ed460701019072ee2e364a1a491f73dd931f27f
+  show_ref_link: false
+  title: Topmoumoute Online Natural Gradient Algorithm
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-iterative-weighted-least-squares-algorithms-for-neural-networks-classifiers
+  numCitedBy: 31
+  pid: de9b9ef2d13ecc69d94399af1d98f9158fc0a1d5
+  show_ref_link: false
+  title: Iterative weighted least squares algorithms for neural networks classifiers
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-neural-learning-in-structured-parameter-spaces-natural-riemannian-gradient
+  numCitedBy: 183
+  pid: fa0c75a9b5f39d166dd875005580687716a236bb
+  show_ref_link: false
+  title: Neural Learning in Structured Parameter Spaces - Natural Riemannian Gradient
+  year: 1996
+- fieldsOfStudy:
+  - Chemistry
+  meta_key: 2001-gradient-flow-in-recurrent-nets-the-difficulty-of-learning-long-term-dependencies
+  numCitedBy: 1576
+  pid: aed054834e2c696807cc8b227ac7a4197196e211
+  show_ref_link: false
+  title: Gradient Flow in Recurrent Nets - the Difficulty of Learning Long-Term Dependencies
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-natural-gradient-learning-with-a-nonholonomic-constraint-for-blind-deconvolution-of-multiple-channels
+  numCitedBy: 87
+  pid: ff926cb9b2d972378774e6fd5e66ac5920a7b35d
+  show_ref_link: false
+  title: NATURAL GRADIENT LEARNING WITH A NONHOLONOMIC CONSTRAINT FOR BLIND DECONVOLUTION OF MULTIPLE CHANNELS
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-a-new-learning-algorithm-for-blind-signal-separation
+  numCitedBy: 2222
+  pid: fac0e753905d1498e0b3debf01431696e1f0c645
+  show_ref_link: false
+  title: A New Learning Algorithm for Blind Signal Separation
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-a-natural-policy-gradient
+  numCitedBy: 884
+  pid: b18833db0de9393d614d511e60821a1504fc6cd1
+  show_ref_link: false
+  title: A Natural Policy Gradient
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 1999-natural-gradient-approach-to-blind-separation-of-over-and-under-complete-mixtures
+  numCitedBy: 21
+  pid: 9b81a3b4ab374d2de9912ef72e987cdf42a9bd4a
+  show_ref_link: false
+  title: Natural Gradient Approach To Blind Separation Of Over- And Under-Complete Mixtures
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-deep-sparse-rectifier-neural-networks
+  numCitedBy: 5954
+  pid: 67107f78a84bdb2411053cb54e94fa226eea6d8e
+  show_ref_link: true
+  title: Deep Sparse Rectifier Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-complexity-issues-in-natural-gradient-descent-method-for-training-multilayer-perceptrons
+  numCitedBy: 58
+  pid: 9e88407f3a5591ca5c46c4c26751bdeba1e42a41
+  show_ref_link: false
+  title: Complexity Issues in Natural Gradient Descent Method for Training Multilayer Perceptrons
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-a-fast-compact-approximation-of-the-exponential-function
+  numCitedBy: 88
+  pid: 20e7e590a11601d9b0a86be9a2b1fadead93e1b3
+  show_ref_link: false
+  title: A Fast, Compact Approximation of the Exponential Function
+  year: 1999
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1991-eigenvalues-of-covariance-matrices-application-to-neural-network-learning
+  numCitedBy: 159
+  pid: fe5f4a0e774d3124b2a0e6591636acd0cdc7fc27
+  show_ref_link: false
+  title: Eigenvalues of covariance matrices - Application to neural-network learning.
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-published-as-a-conference-paper-at-iclr-2018-s-imulating-a-ction-d-ynamics-with-n-eural-p-rocess-n-etworks
+  numCitedBy: 156
+  pid: bcd857d75841aa3e92cd4284a8818aba9f6c0c3f
+  show_ref_link: true
+  title: Published as a conference paper at ICLR 2018 S IMULATING A CTION D YNAMICS WITH N EURAL P ROCESS N ETWORKS
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-stochastic-search-using-the-natural-gradient
+  numCitedBy: 80
+  pid: c980686b001f55b1e514efaccb6cfbe1a8726db8
+  show_ref_link: false
+  title: Stochastic search using the natural gradient
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-improved-preconditioner-for-hessian-free-optimization
+  numCitedBy: 39
+  pid: b0ced8ba22674b3b948c22deb0f43df93c82f87f
+  show_ref_link: false
+  title: Improved Preconditioner for Hessian Free Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-on-a-fast-compact-approximation-of-the-exponential-function
+  numCitedBy: 61
+  pid: 16b384730624acac4e7d57f627bcd084f2253953
+  show_ref_link: false
+  title: On a Fast, Compact Approximation of the Exponential Function
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-untersuchungen-zu-dynamischen-neuronalen-netzen
+  numCitedBy: 605
+  pid: 3f3d13e95c25a8f6a753e38dfce88885097cbd43
+  show_ref_link: false
+  title: Untersuchungen zu dynamischen neuronalen Netzen
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-efficient-backprop
+  numCitedBy: 2638
+  pid: b87274e6d9aa4e6ba5148898aa92941617d2b6ed
+  show_ref_link: true
+  title: Efficient BackProp
+  year: 2012
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1985-differential-geometrical-methods-in-statistics
+  numCitedBy: 1487
+  pid: 420322994c59e9081786b46b31e2c82a9753e23a
+  show_ref_link: false
+  title: Differential-geometrical methods in statistics
+  year: 1985
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-toxicity-prediction-using-deep-learning
+  numCitedBy: 115
+  pid: 65c10300c2094d86c47928ddf70eeda7d083dec9
+  show_ref_link: false
+  title: Toxicity Prediction using Deep Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-riemannian-metrics-for-neural-networks-i-feedforward-networks
+  numCitedBy: 86
+  pid: d46317cc16c8dbfd019afe99699f56dbfd0bb9b6
+  show_ref_link: false
+  title: Riemannian metrics for neural networks I - feedforward networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-recurrent-neural-net-learning-and-vanishing
+  numCitedBy: 45
+  pid: 8aeb4b344fe4f310fed7f1d1072a6a71c2e62244
+  show_ref_link: false
+  title: Recurrent Neural Net Learning and Vanishing
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-krylov-subspace-descent-for-deep-learning
+  numCitedBy: 119
+  pid: a98483785378bde7e2384a3035b2b501ee03654b
+  show_ref_link: false
+  title: Krylov Subspace Descent for Deep Learning
+  year: 2012
+slug: Fast-and-Accurate-Deep-Network-Learning-by-Linear-Clevert-Unterthiner
+title: Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
+url: https://www.semanticscholar.org/paper/Fast-and-Accurate-Deep-Network-Learning-by-Linear-Clevert-Unterthiner/f63e917638553414526a0cc8550de4ad2d83fe7a?sort=total-citations
+venue: ICLR
+year: 2016

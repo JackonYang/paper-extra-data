@@ -1,0 +1,157 @@
+authors:
+- S. Kirkpatrick
+- C. D. Gelatt
+- M. Vecchi
+badges:
+- id: OPEN_ACCESS
+corpusId: 205939
+fieldsOfStudy:
+- Physics
+meta_key: 1983-optimization-by-simulated-annealing
+numCitedBy: 39691
+numCiting: 79
+paperAbstract: There is a deep and useful connection between statistical mechanics (the behavior of systems with many degrees of freedom in thermal equilibrium at a finite temperature) and multivariate or combinatorial optimization (finding the minimum of a given function depending on many parameters). A detailed analogy with annealing in solids provides a framework for optimization of the properties of very large and complex systems. This connection to statistical mechanics exposes new information and provides an unfamiliar perspective on traditional optimization problems and methods.
+ref_count: 79
+references:
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1953-equation-of-state-calculations-by-fast-computing-machines
+  numCitedBy: 32444
+  pid: f6a13f116e270dde9d67848495f801cdb8efa25d
+  show_ref_link: true
+  title: Equation of state calculations by fast computing machines
+  year: 1953
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1975-solvable-model-of-a-spin-glass
+  numCitedBy: 2973
+  pid: 200c47979f181cb087c062543adcb8f58e2d252c
+  show_ref_link: false
+  title: Solvable Model of a Spin-Glass
+  year: 1975
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1974-the-design-and-analysis-of-computer-algorithms
+  numCitedBy: 9248
+  pid: 10a463bb00b44bdd3a8620f2bedb9e1564bfcf32
+  show_ref_link: false
+  title: The Design and Analysis of Computer Algorithms
+  year: 1974
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1965-computer-solutions-of-the-traveling-salesman-problem
+  numCitedBy: 1932
+  pid: af05d9d8e9b4d21ee8081926de290f2fcab9e9dc
+  show_ref_link: false
+  title: Computer solutions of the traveling salesman problem
+  year: 1965
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1978-computers-and-intractability-a-guide-to-the-theory-of-np-completeness
+  numCitedBy: 47717
+  pid: bdede1e17c947540b50e6e2db9e8467ddc6e7336
+  show_ref_link: true
+  title: Computers and Intractability - A Guide to the Theory of NP-Completeness
+  year: 1978
+- fieldsOfStudy:
+  - Business
+  meta_key: 1973-an-effective-heuristic-algorithm-for-the-traveling-salesman-problem
+  numCitedBy: 3627
+  pid: 88c3ae44f61301aa2974f4e65f73d17f5944c0bb
+  show_ref_link: false
+  title: An Effective Heuristic Algorithm for the Traveling-Salesman Problem
+  year: 1973
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1980-solving-large-scale-symmetric-travelling-salesman-problems-to-optimality
+  numCitedBy: 298
+  pid: 4f62f7d0c012eb1116b7c69454f2b1cda07848a0
+  show_ref_link: false
+  title: Solving Large-Scale Symmetric Travelling Salesman Problems to Optimality
+  year: 1980
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1977-probabilistic-analysis-of-partitioning-algorithms-for-the-traveling-salesman-problem-in-the-plane
+  numCitedBy: 440
+  pid: 97b1ba1ae8850a787aec072eacc8a9da1fbfbad0
+  show_ref_link: false
+  title: Probabilistic Analysis of Partitioning Algorithms for the Traveling-Salesman Problem in the Plane
+  year: 1977
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1984-design-automation-for-digital-systems
+  numCitedBy: 25
+  pid: 89ac20f2f59554de9d1bb94ff84f2bda84d8fe9d
+  show_ref_link: false
+  title: Design Automation for Digital Systems
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1981-design-automation-in-ibm
+  numCitedBy: 23
+  pid: e351b95b946f43b9f2cf719a3f6a9ac956fa3985
+  show_ref_link: false
+  title: Design automation in IBM
+  year: 1981
+- fieldsOfStudy:
+  - Materials Science
+  meta_key: 1982-disordered-systems-and-localization
+  numCitedBy: 79
+  pid: 45f8fac3bcb10cdef82a62c9d6a423f71428be68
+  show_ref_link: false
+  title: Disordered Systems and Localization
+  year: 1982
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1982-low-temperature-behavior-of-the-infinite-range-ising-spin-glass-exact-statistical-mechanics-for-small-samples
+  numCitedBy: 68
+  pid: 70b4080228989474eb18a0fb3028f8d98b8d2aab
+  show_ref_link: false
+  title: Low-temperature behavior of the infinite-range Ising spin-glass - Exact statistical mechanics for small samples
+  year: 1982
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1978-infinite-ranged-models-of-spin-glasses
+  numCitedBy: 704
+  pid: fbce03299f7cd5faa63a873ee2114cb3fa6e409b
+  show_ref_link: false
+  title: Infinite-ranged models of spin-glasses
+  year: 1978
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1977-frustration-and-ground-state-degeneracy-in-spin-glasses
+  numCitedBy: 204
+  pid: 157b989c5f1a9b52b203340743101c541d265e07
+  show_ref_link: false
+  title: Frustration and ground-state degeneracy in spin glasses
+  year: 1977
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1959-the-shortest-path-through-many-points
+  numCitedBy: 867
+  pid: 98a27459a0f07c1ffb296393ce9f3549a4022b88
+  show_ref_link: false
+  title: The shortest path through many points
+  year: 1959
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 1975-heuristic-programming-as-an-aid-to-network-design
+  numCitedBy: 49
+  pid: d9294d7972429196c7fc41c5ce8ab8427ca8d877
+  show_ref_link: false
+  title: Heuristic Programming as an Aid to Network Design
+  year: 1975
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1979-computers-and-in-stractability-a-guide-to-the-theory-of-np-completeness-w-h-freeman-san-fran
+  numCitedBy: 3767
+  pid: 6377f038e601ca4341575c42d8053a7750b83219
+  show_ref_link: false
+  title: Computers and In stractability - A Guide to the Theory of NP-Completeness. W. H Freeman, San Fran
+  year: 1979
+slug: Optimization-by-Simulated-Annealing-Kirkpatrick-Gelatt
+title: Optimization by Simulated Annealing
+url: https://www.semanticscholar.org/paper/Optimization-by-Simulated-Annealing-Kirkpatrick-Gelatt/dd5061631a4d11fa394f4421700ebf7e78dcbc59?sort=total-citations
+venue: Science
+year: 1983

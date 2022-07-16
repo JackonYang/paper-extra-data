@@ -1,0 +1,278 @@
+authors:
+- Jifeng Dai
+- Kaiming He
+- Jian Sun
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 8510667
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-instance-aware-semantic-segmentation-via-multi-task-network-cascades
+numCitedBy: 987
+numCiting: 36
+paperAbstract: Semantic segmentation research has recently witnessed rapid progress, but many leading methods are unable to identify object instances. In this paper, we present Multitask Network Cascades for instance-aware semantic segmentation. Our model consists of three networks, respectively differentiating instances, estimating masks, and categorizing objects. These networks form a cascaded structure, and are designed to share their convolutional features. We develop an algorithm for the nontrivial end-to-end training of this causal, cascaded structure. Our solution is a clean, single-step training framework and can be generalized to cascades that have more stages. We demonstrate state-of-the-art instance-aware semantic segmentation accuracy on PASCAL VOC. Meanwhile, our method takes only 360ms testing an image using VGG-16, which is two orders of magnitude faster than previous systems for this challenging problem. As a by product, our method also achieves compelling object detection results which surpass the competitive Fast/Faster R-CNN systems. The method described in this paper is the foundation of our submissions to the MS COCO 2015 segmentation competition, where we won the 1st place.
+ref_count: 36
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17223
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-boxsup-exploiting-bounding-boxes-to-supervise-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 742
+  pid: f084f0126d48a0793cf7e60830089b93ef09c844
+  show_ref_link: false
+  title: BoxSup - Exploiting Bounding Boxes to Supervise Convolutional Networks for Semantic Segmentation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 15861
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-object-detection-via-a-multi-region-and-semantic-segmentation-aware-cnn-model
+  numCitedBy: 611
+  pid: e3ea1c7a3c6cc15590ab5e62a171536fe01b9b1c
+  show_ref_link: false
+  title: Object Detection via a Multi-region and Semantic Segmentation-Aware CNN Model
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-semantic-image-segmentation-with-deep-convolutional-nets-and-fully-connected-crfs
+  numCitedBy: 3368
+  pid: 39ad6c911f3351a3b390130a6e4265355b4d593b
+  show_ref_link: true
+  title: Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-convolutional-feature-masking-for-joint-object-and-stuff-segmentation
+  numCitedBy: 386
+  pid: 3ad998a9b2c071c4a1971048f8a2d754530f08e8
+  show_ref_link: false
+  title: Convolutional feature masking for joint object and stuff segmentation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-simultaneous-detection-and-segmentation
+  numCitedBy: 1066
+  pid: 342786659379879f58bf5c4ff43c84c83a6a7389
+  show_ref_link: true
+  title: Simultaneous Detection and Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 32899
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-weakly-and-semi-supervised-learning-of-a-dcnn-for-semantic-image-segmentation
+  numCitedBy: 401
+  pid: e56bb892c581f682052ddd3896c65a2b29e64612
+  show_ref_link: false
+  title: Weakly- and Semi-Supervised Learning of a DCNN for Semantic Image Segmentation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-to-segment-object-candidates
+  numCitedBy: 675
+  pid: 6b8d0df903496699e52b4daee5d1815b7b784cf7
+  show_ref_link: false
+  title: Learning to Segment Object Candidates
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-conditional-random-fields-as-recurrent-neural-networks
+  numCitedBy: 2229
+  pid: ca5c766b2d31a1f5ce8896a0a42b40a2bff9323a
+  show_ref_link: true
+  title: Conditional Random Fields as Recurrent Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-hypercolumns-for-object-segmentation-and-fine-grained-localization
+  numCitedBy: 1363
+  pid: 428db42e86f6d51292e23fa57797e35cecd0e2ee
+  show_ref_link: true
+  title: Hypercolumns for object segmentation and fine-grained localization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20013
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-cpmc-automatic-object-segmentation-using-constrained-parametric-min-cuts
+  numCitedBy: 627
+  pid: cb2115a6765e8484830865b8ad5e6cc5dd29b48d
+  show_ref_link: false
+  title: CPMC - Automatic Object Segmentation Using Constrained Parametric Min-Cuts
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-spatial-pyramid-pooling-in-deep-convolutional-networks-for-visual-recognition
+  numCitedBy: 4868
+  pid: cbb19236820a96038d000dc629225d36e0b6294a
+  show_ref_link: true
+  title: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12461
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2015-fast-r-cnn
+  numCitedBy: 14192
+  pid: 7ffdbc358b63378f07311e883dddacc9faeeaf4b
+  show_ref_link: true
+  title: Fast R-CNN
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-semantic-segmentation-with-second-order-pooling
+  numCitedBy: 472
+  pid: 28fa525ca1e101335e877bb1f6999b6ccf476959
+  show_ref_link: false
+  title: Semantic Segmentation with Second-Order Pooling
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96531
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-multiscale-combinatorial-grouping
+  numCitedBy: 1042
+  pid: 83d1118c2b2995a3e0cf9b6159e4c59e85cabb7e
+  show_ref_link: true
+  title: Multiscale Combinatorial Grouping
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-semantic-contours-from-inverse-detectors
+  numCitedBy: 1067
+  pid: 82fae97673a353271b1d4c001afda1af6ef6dc23
+  show_ref_link: true
+  title: Semantic contours from inverse detectors
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13778
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-spatial-transformer-networks
+  numCitedBy: 4612
+  pid: fe87ea16d5eb1c7509da9a0314bbf4c7b0676506
+  show_ref_link: true
+  title: Spatial Transformer Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-selective-search-for-object-recognition
+  numCitedBy: 4771
+  pid: 38b6540ddd5beebffd05047c78183f7575559fb2
+  show_ref_link: true
+  title: Selective Search for Object Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-edge-boxes-locating-object-proposals-from-edges
+  numCitedBy: 2419
+  pid: b183947ee15718b45546eda6b01e179b9a95421f
+  show_ref_link: true
+  title: Edge Boxes - Locating Object Proposals from Edges
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-multitask-learning
+  numCitedBy: 3378
+  pid: 161ffb54a3fdf0715b198bb57bd22f910242eb49
+  show_ref_link: true
+  title: Multitask Learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1825
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-compete-to-compute
+  numCitedBy: 164
+  pid: e9f60363fd3d448492d6d670e5b333b4b26a5064
+  show_ref_link: false
+  title: Compete to Compute
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-visualizing-and-understanding-convolutional-neural-networks
+  numCitedBy: 492
+  pid: fc26b9c1afe81e1b20195123fe6f3ced9520abb6
+  show_ref_link: false
+  title: Visualizing and Understanding Convolutional Neural Networks
+  year: 2013
+slug: Instance-Aware-Semantic-Segmentation-via-Multi-task-Dai-He
+title: Instance-Aware Semantic Segmentation via Multi-task Network Cascades
+url: https://www.semanticscholar.org/paper/Instance-Aware-Semantic-Segmentation-via-Multi-task-Dai-He/1e9b1f6061ef779e3ad0819c2832a29168eaeb9d?sort=total-citations
+venue: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2016

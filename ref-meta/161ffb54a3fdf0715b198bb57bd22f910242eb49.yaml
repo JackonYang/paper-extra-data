@@ -1,0 +1,595 @@
+authors:
+- R. Caruana
+badges:
+- id: OPEN_ACCESS
+corpusId: 45998148
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-multitask-learning
+numCitedBy: 3378
+numCiting: 99
+paperAbstract: Multitask Learning is an approach to inductive transfer that improves generalization by using the domain information contained in the training signals of related tasks as an inductive bias. It does this by learning tasks in parallel while using a shared representation; what is learned for each task can help other tasks be learned better. This paper reviews prior work on MTL, presents new evidence that MTL in backprop nets discovers task relatedness without the need of supervisory signals, and presents new results for MTL with k-nearest neighbor and kernel regression. In this paper we demonstrate multitask learning in three domains. We explain how multitask learning works, and show that there are many opportunities for multitask learning in real domains. We present an algorithm and results for multitask learning with case-based methods like k-nearest neighbor and kernel regression, and sketch an algorithm for multitask learning in decision trees. Because multitask learning works, can be applied to many different kinds of domains, and can be used with different learning algorithms, we conjecture there will be many opportunities for its use on real-world problems.
+ref_count: 99
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-multitask-learning-a-knowledge-based-source-of-inductive-bias
+  numCitedBy: 739
+  pid: 9464d15f4f8d578f93332db4aa1c9c182fd51735
+  show_ref_link: false
+  title: Multitask Learning - A Knowledge-Based Source of Inductive Bias
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-discovering-structure-in-multiple-learning-tasks-the-tc-algorithm
+  numCitedBy: 245
+  pid: 2f42a55da3a222184eee20c67d374a9134b77bdc
+  show_ref_link: false
+  title: Discovering Structure in Multiple Learning Tasks - The TC Algorithm
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-learning-many-related-tasks-at-the-same-time-with-backpropagation
+  numCitedBy: 252
+  pid: 210da45e57f86a50c04bdd7b37d498c8ecc288da
+  show_ref_link: false
+  title: Learning Many Related Tasks at the Same Time with Backpropagation
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-solving-multiclass-learning-problems-via-error-correcting-output-codes
+  numCitedBy: 2855
+  pid: d221bbcbd20c7157e4500f942de8ceec490f8936
+  show_ref_link: false
+  title: Solving Multiclass Learning Problems via Error-Correcting Output Codes
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-learning-internal-representations
+  numCitedBy: 344
+  pid: a24508e65e599b5b20c33af96dbe7017d5caca37
+  show_ref_link: false
+  title: Learning internal representations
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: -1-goal-directed-clustering
+  numCitedBy: 3
+  pid: a9f212f40a831d7751d89ed53f4ddb039cb6d8fd
+  show_ref_link: false
+  title: Goal-directed clustering
+  year: -1
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-lifelong-learning-a-case-study
+  numCitedBy: 54
+  pid: 21e66a6c0feab04c9603196968c906ae2ff30ff1
+  show_ref_link: false
+  title: Lifelong Learning - A Case Study.
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-explanation-based-neural-network-learning
+  numCitedBy: 42
+  pid: 939d7319b058d8f4d413daa7a153e25e798b9372
+  show_ref_link: false
+  title: Explanation-based neural network learning
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-learning-one-more-thing
+  numCitedBy: 158
+  pid: 2b65b99e772727dadc1b5e50a9d83367a892ec28
+  show_ref_link: false
+  title: Learning One More Thing
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-a-bayesian-information-theoretic-model-of-bias-learning
+  numCitedBy: 25
+  pid: a0ee1219f78e5b53938718e9a8f140491cef1523
+  show_ref_link: false
+  title: A Bayesian/information theoretic model of bias learning
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  - Education
+  meta_key: 1995-is-learning-the-n-th-thing-any-easier-than-learning-the-first
+  numCitedBy: 687
+  pid: 371c9dc680e916f79d9c78fcf6c894a2dd299095
+  show_ref_link: false
+  title: Is Learning The n-th Thing Any Easier Than Learning The First?
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  - Education
+  - Psychology
+  meta_key: 1995-explanation-based-neural-network-learning-a-lifelong-learning-approach
+  numCitedBy: 173
+  pid: 75e50717070e82cdf3945265a75def6960b55a9d
+  show_ref_link: false
+  title: Explanation-based neural network learning a lifelong learning approach
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-hints-and-the-vc-dimension
+  numCitedBy: 115
+  pid: ed0c5a44d2e1f9a3a284ee0e6bcff4978c8654bc
+  show_ref_link: false
+  title: Hints and the VC Dimension
+  year: 1993
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1989-what-size-net-gives-valid-generalization
+  numCitedBy: 1699
+  pid: 25406e6733a698bfc4ac836f8e74f458e75dad4f
+  show_ref_link: false
+  title: What Size Net Gives Valid Generalization?
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-the-strength-of-weak-learnability
+  numCitedBy: 2728
+  pid: 35702d642c5f1b7950d088497837486b4ca682a3
+  show_ref_link: false
+  title: The Strength of Weak Learnability
+  year: 2004
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1995-using-the-future-to-sort-out-the-present-rankprop-and-multitask-learning-for-medical-risk-evaluation
+  numCitedBy: 175
+  pid: 37bad2daf9b5d26a2d4c0e99c412751e95d76c38
+  show_ref_link: false
+  title: Using the Future to Sort Out the Present - Rankprop and Multitask Learning for Medical Risk Evaluation
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-rule-injection-hints-as-a-means-of-improving-network-performance-and-learning-time
+  numCitedBy: 88
+  pid: ffb199e36de4f34ea233a30d392fdcf0c3b25a14
+  show_ref_link: false
+  title: Rule-Injection Hints as a Means of Improving Network Performance and Learning Time
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-self-organizing-neural-network-that-discovers-surfaces-in-random-dot-stereograms
+  numCitedBy: 411
+  pid: 2c85b7fe70dda0adbbd7630e2a341a904c74fbd2
+  show_ref_link: false
+  title: Self-organizing neural network that discovers surfaces in random-dot stereograms
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-tangent-prop-a-formalism-for-specifying-selected-invariances-in-an-adaptive-network
+  numCitedBy: 287
+  pid: ff32cebbdb8a436ccd8ae797647428615ae32d74
+  show_ref_link: false
+  title: Tangent Prop - A Formalism for Specifying Selected Invariances in an Adaptive Network
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-a-comparative-study-of-id3-and-backpropagation-for-english-text-to-speech-mapping
+  numCitedBy: 110
+  pid: 77dcffce3fb186fb971ac48a3bd2a9cc364e4a07
+  show_ref_link: false
+  title: A Comparative Study of ID3 and Backpropagation for English Text-to-Speech Mapping
+  year: 1990
+- fieldsOfStudy:
+  - Economics
+  - Computer Science
+  meta_key: 1996-promoting-poor-features-to-supervisors-some-inputs-work-better-as-outputs
+  numCitedBy: 42
+  pid: 73efa0c00cf2709cd574af68664fd08673006d44
+  show_ref_link: false
+  title: Promoting Poor Features to Supervisors - Some Inputs Work Better as Outputs
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-learning-representations-by-back-propagating-errors
+  numCitedBy: 20383
+  pid: 052b1d8ce63b07fec3de9dbb583772d860b7c769
+  show_ref_link: false
+  title: Learning representations by back-propagating errors
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-competition-among-networks-improves-committee-performance
+  numCitedBy: 38
+  pid: dd0bf48e0e1c2e9aeee53afa401c2eeb3e687cf8
+  show_ref_link: false
+  title: Competition Among Networks Improves Committee Performance
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-c4-5-programs-for-machine-learning
+  numCitedBy: 21909
+  pid: 807c1f19047f96083e13614f7ce20f2ac98c239a
+  show_ref_link: true
+  title: C4.5 - Programs for Machine Learning
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-using-the-representation-in-a-neural-network-s-hidden-layer-for-task-specific-focus-of-attention
+  numCitedBy: 25
+  pid: a0f3ff5eaa7bf18fb95203a9c3ba73bc600708a7
+  show_ref_link: false
+  title: Using the Representation in a Neural Network's Hidden Layer for Task-Specific Focus of Attention
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-using-sampling-and-queries-to-extract-rules-from-trained-neural-networks
+  numCitedBy: 340
+  pid: ba176454d1ade52e6eec74e3f9eed5f61179761a
+  show_ref_link: false
+  title: Using Sampling and Queries to Extract Rules from Trained Neural Networks
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-a-probabilistic-approach-to-feature-selection-a-filter-solution
+  numCitedBy: 767
+  pid: 7285ee82aa0cde847fafb8b1109dd19dbdc04e35
+  show_ref_link: false
+  title: A Probabilistic Approach to Feature Selection - A Filter Solution
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-hints
+  numCitedBy: 102
+  pid: c8769dd708707779afad9133015886f00cf454a5
+  show_ref_link: false
+  title: Hints
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-modularity-and-scaling-in-large-phonemic-neural-networks
+  numCitedBy: 186
+  pid: 3f5966eba6336438ade570ea57e2e682fa0b5985
+  show_ref_link: false
+  title: Modularity and scaling in large phonemic neural networks
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-symbolic-neural-systems-and-the-use-of-hints-for-developing-complex-systems
+  numCitedBy: 83
+  pid: dfe7dbbd6e8d5d3720f58c2c9a0b9bec040a8ef8
+  show_ref_link: false
+  title: Symbolic-Neural Systems and the Use of Hints for Developing Complex Systems
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-a-comparison-of-id3-and-backpropagation-for-english-text-to-speech-mapping
+  numCitedBy: 38
+  pid: 88bcac4326acb3384fc44fa053f3df4833394550
+  show_ref_link: false
+  title: A Comparison of ID3 and Backpropagation for English Text-To-Speech Mapping
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-multi-task-learning-for-stock-selection
+  numCitedBy: 82
+  pid: e5d26994a2ed3b7657dbefde26fc7eb929d62b16
+  show_ref_link: false
+  title: Multi-Task Learning for Stock Selection
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-hierarchical-mixtures-of-experts-and-the-em-algorithm
+  numCitedBy: 2173
+  pid: f6d8a7fc2e2d53923832f9404376512068ca2a57
+  show_ref_link: false
+  title: Hierarchical Mixtures of Experts and the EM Algorithm
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-learning-from-hints-in-neural-networks
+  numCitedBy: 261
+  pid: e3cd36c092abd65d6ac8e648f3468eeee90ee1fc
+  show_ref_link: false
+  title: Learning from hints in neural networks
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-neural-network-perception-for-mobile-robot-guidance
+  numCitedBy: 597
+  pid: c67f0f00eaab360db1b9bd377e783c27c922dc86
+  show_ref_link: false
+  title: Neural Network Perception for Mobile Robot Guidance
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-programs-for-machine-learning
+  numCitedBy: 7076
+  pid: 7feb0fc888cd55360949554db032d7d1cba9e947
+  show_ref_link: false
+  title: Programs for Machine Learning
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-non-literal-transfer-among-neural-network-learners
+  numCitedBy: 15
+  pid: b89d8c17beea5d480fe6156098324782566feba6
+  show_ref_link: false
+  title: Non-literal Transfer Among Neural Network Learners
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-bagging-predictors
+  numCitedBy: 15251
+  pid: d1ee87290fa827f1217b8fa2bccb3485da1a300e
+  show_ref_link: true
+  title: Bagging predictors
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 2004-learning-representations-by-backpropagating-errors
+  numCitedBy: 1053
+  pid: ae3fe34be9230c98b04d68b4621c89b7dbc2d717
+  show_ref_link: false
+  title: Learning representations by backpropagating errors
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-induction-of-decision-trees
+  numCitedBy: 13546
+  pid: bcee7c85d237b79491a773ef51e746bbbcf48e35
+  show_ref_link: true
+  title: Induction of Decision Trees
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-causation-prediction-and-search
+  numCitedBy: 3250
+  pid: 5b3b9fe128e6849d59a26d7ceda57baad2524815
+  show_ref_link: false
+  title: Causation, prediction, and search
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-conceptual-clustering-learning-from-examples-and-inference
+  numCitedBy: 58
+  pid: 358b49ab2eb6d981130a6d7facf9e40c71afe493
+  show_ref_link: false
+  title: Conceptual Clustering, Learning from Examples, and Inference
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-experience-with-a-learning-personal-assistant
+  numCitedBy: 512
+  pid: a9565f70db3a6b5e4ff1df272238b8d7a84a1337
+  show_ref_link: false
+  title: Experience with a learning personal assistant
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-a-bayesian-method-for-the-induction-of-probabilistic-networks-from-data
+  numCitedBy: 2587
+  pid: 99588b3ac889ac70845fbbad4a1d67c1f8b37306
+  show_ref_link: false
+  title: A Bayesian method for the induction of probabilistic networks from data
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-training-neural-networks-with-deficient-data
+  numCitedBy: 124
+  pid: c840266125754b51a995684ad012155676b34f24
+  show_ref_link: false
+  title: Training Neural Networks with Deficient Data
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-nettalk-a-parallel-network-that-learns-to-read-aloud
+  numCitedBy: 762
+  pid: 406033f22b6a671b94bcbdfaf63070b7ce6f3e48
+  show_ref_link: false
+  title: NETtalk - a parallel network that learns to read aloud
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-a-personal-learning-apprentice
+  numCitedBy: 199
+  pid: 9cf3250f13d98bd2bd1b23ff81a333119f82ccc3
+  show_ref_link: false
+  title: A Personal Learning Apprentice
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-family-discovery
+  numCitedBy: 15
+  pid: 1cae71762b6dd2f415576de3915a59c7dd7da0f9
+  show_ref_link: false
+  title: Family Discovery
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-generalization-by-weight-elimination-with-application-to-forecasting
+  numCitedBy: 656
+  pid: f707a81a278d1598cd0a4493ba73f22dcdf90639
+  show_ref_link: false
+  title: Generalization by Weight-Elimination with Application to Forecasting
+  year: 1990
+- fieldsOfStudy:
+  - Economics
+  - Computer Science
+  meta_key: 1996-monotonicity-hints
+  numCitedBy: 72
+  pid: db3d06ae3ee8a77d0fbd1d521d8ff29d29d05f94
+  show_ref_link: false
+  title: Monotonicity Hints
+  year: 1996
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1997-predicting-multivariate-responses-in-multiple-linear-regression
+  numCitedBy: 475
+  pid: c5f1b46a306a486bcf91be71f2a726b11f462514
+  show_ref_link: false
+  title: Predicting Multivariate Responses in Multiple Linear Regression
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-acquiring-and-combining-overlapping-concepts
+  numCitedBy: 8
+  pid: 56095422a81cf993fddfa55d9dfb15b0d206678a
+  show_ref_link: false
+  title: Acquiring and Combining Overlapping Concepts
+  year: 2004
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1997-an-evaluation-of-machine-learning-methods-for-predicting-pneumonia-mortality
+  numCitedBy: 213
+  pid: 3a51a6d10f9739666c5e9176f2a86587eedb54e4
+  show_ref_link: false
+  title: An evaluation of machine-learning methods for predicting pneumonia mortality
+  year: 1997
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1994-a-powerful-heuristic-for-the-discovery-of-complex-patterned-behaviour
+  numCitedBy: 8
+  pid: 7169e879d26972b96834d9357d692152a945bfe8
+  show_ref_link: false
+  title: A Powerful Heuristic for the Discovery of Complex Patterned Behaviour
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-learning-a-preference-predicate
+  numCitedBy: 33
+  pid: 6445a1d765b78094c56cfa280c540e2dff193d4d
+  show_ref_link: false
+  title: Learning a Preference Predicate
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-sensor-fusion-for-autonomous-outdoor-navigation-using-neural-networks
+  numCitedBy: 31
+  pid: b7725f6bd3ec8e820a68411b904dc6e38209f244
+  show_ref_link: false
+  title: Sensor fusion for autonomous outdoor navigation using neural networks
+  year: 1995
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1993-validation-of-a-pneumonia-prognostic-index-using-the-medisgroups-comparative-hospital-database
+  numCitedBy: 183
+  pid: 29b113386947d64646a5a6c64fc5b4a520542d9e
+  show_ref_link: false
+  title: Validation of a pneumonia prognostic index using the MedisGroups Comparative Hospital Database.
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-handwritten-zip-code-recognition
+  numCitedBy: 26
+  pid: 01fba5ef76993b0cb36f6c1034dc239015a44ba3
+  show_ref_link: false
+  title: Handwritten ZIP code recognition
+  year: 1997
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1986-learning-representations-by-back-propagation-errors-nature
+  numCitedBy: 1335
+  pid: 749ce8ccd9453d1b34901143cddf5f9bee2977cf
+  show_ref_link: false
+  title: Learning representations by back-propagation errors, nature
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-19-statistical-analysis-with-missing-data
+  numCitedBy: 147
+  pid: 49bdcdcccfeccedeae6157cbbd6555ffaecaf359
+  show_ref_link: false
+  title: 19. Statistical Analysis with Missing Data
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-mixture-models-for-learning-from-incomplete-data
+  numCitedBy: 23
+  pid: 577897e776dc3cfda04c3b66750ca7fef1b155c8
+  show_ref_link: false
+  title: Mixture models for learning from incomplete data
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-learning-distributed-representations-of-concepts
+  numCitedBy: 903
+  pid: 4ade4934db522fe6d634ff6f48887da46eedb4d1
+  show_ref_link: false
+  title: Learning distributed representations of concepts.
+  year: 1989
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1995-neural-networks
+  numCitedBy: 4712
+  pid: 20b844e395355b40fa5940c61362ec40e56027aa
+  show_ref_link: false
+  title: Neural networks
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-using-additive-noise-in-back-propagation-training
+  numCitedBy: 351
+  pid: 11823e4fd9aa67ff429c6a63d99495187547c093
+  show_ref_link: false
+  title: Using additive noise in back-propagation training
+  year: 1992
+- fieldsOfStudy:
+  - Education
+  meta_key: 1997-learning-from-time
+  numCitedBy: 9
+  pid: 46e40e996e01222039962ab0030bffd4b596c5c4
+  show_ref_link: false
+  title: Learning from time.
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-direct-transfer-of-learned-information-among-neural-networks
+  numCitedBy: 180
+  pid: 052f4d936ceaccbce8d7a3ad2449fb7d7676eb0c
+  show_ref_link: false
+  title: Direct Transfer of Learned Information Among Neural Networks
+  year: 1991
+- fieldsOfStudy:
+  - Mathematics
+  - Medicine
+  - Business
+  - Psychology
+  meta_key: 1987-statistical-analysis-with-missing-data
+  numCitedBy: 3854
+  pid: c5c95938c03caa0b73303bab1e5ceeacb1879177
+  show_ref_link: false
+  title: Statistical Analysis with Missing Data
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-expectation-based-selective-attention
+  numCitedBy: 11
+  pid: f96cbb6c373c0e68c75ef23e5cdca7ed56af05a6
+  show_ref_link: false
+  title: Expectation-based selective attention
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-toward-optimal-feature-selection
+  numCitedBy: 1749
+  pid: 5ed4e1dbe10c0ac9fa00b30d1882cae1249a5a6a
+  show_ref_link: false
+  title: Toward Optimal Feature Selection
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-supervised-learning-from-incomplete-data-via-an-em-approach
+  numCitedBy: 636
+  pid: 5db7dc2239f820eae498b07a955f31b3d113179f
+  show_ref_link: false
+  title: Supervised learning from incomplete data via an EM approach
+  year: 1993
+slug: Multitask-Learning-Caruana
+title: Multitask Learning
+url: https://www.semanticscholar.org/paper/Multitask-Learning-Caruana/161ffb54a3fdf0715b198bb57bd22f910242eb49?sort=total-citations
+venue: Machine Learning
+year: 2004

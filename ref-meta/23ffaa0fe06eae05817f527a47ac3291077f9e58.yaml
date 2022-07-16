@@ -1,0 +1,184 @@
+authors:
+- Christian Szegedy
+- Vincent Vanhoucke
+- S. Ioffe
+- Jonathon Shlens
+- Z. Wojna
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 206593880
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+numCitedBy: 15703
+numCiting: 26
+paperAbstract: 'Convolutional networks are at the core of most state of-the-art computer vision solutions for a wide variety of tasks. Since 2014 very deep convolutional networks started to become mainstream, yielding substantial gains in various benchmarks. Although increased model size and computational cost tend to translate to immediate quality gains for most tasks (as long as enough labeled data is provided for training), computational efficiency and low parameter count are still enabling factors for various use cases such as mobile vision and big-data scenarios. Here we are exploring ways to scale up networks in ways that aim at utilizing the added computation as efficiently as possible by suitably factorized convolutions and aggressive regularization. We benchmark our methods on the ILSVRC 2012 classification challenge validation set demonstrate substantial gains over the state of the art: 21:2% top-1 and 5:6% top-5 error for single frame evaluation using a network with a computational cost of 5 billion multiply-adds per inference and with using less than 25 million parameters. With an ensemble of 4 models and multi-crop evaluation, we report 3:5% top-5 error and 17:3% top-1 error on the validation set and 3:6% top-5 error on the official test set.'
+ref_count: 26
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-scalable-object-detection-using-deep-neural-networks
+  numCitedBy: 968
+  pid: 67fc0ec1d26f334b05fe66d2b7e0767b60fb73b6
+  show_ref_link: false
+  title: Scalable Object Detection Using Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-large-scale-video-classification-with-convolutional-neural-networks
+  numCitedBy: 5169
+  pid: 6d4c9c923e9f145d1c01a2de2afc38ec23c44253
+  show_ref_link: true
+  title: Large-Scale Video Classification with Convolutional Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12461
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deeply-supervised-nets
+  numCitedBy: 1449
+  pid: fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd
+  show_ref_link: true
+  title: Deeply-Supervised Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17223
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-a-deep-convolutional-network-for-image-super-resolution
+  numCitedBy: 3295
+  pid: 0504945cc2d03550fecb6ff02e637f9421107c25
+  show_ref_link: false
+  title: Learning a Deep Convolutional Network for Image Super-Resolution
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-algorithms-for-convolutional-neural-networks
+  numCitedBy: 613
+  pid: d5eadd6f059d742d76441fd0a635a21694dd7392
+  show_ref_link: false
+  title: Fast Algorithms for Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25650
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-a-deep-compact-image-representation-for-visual-tracking
+  numCitedBy: 867
+  pid: b2180fc4f5cb46b5b5394487842399c501381d67
+  show_ref_link: false
+  title: Learning a Deep Compact Image Representation for Visual Tracking
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-importance-of-initialization-and-momentum-in-deep-learning
+  numCitedBy: 3576
+  pid: aa7bfd2304201afbb19971ebde87b17e40242e91
+  show_ref_link: true
+  title: On the importance of initialization and momentum in deep learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deeppose-human-pose-estimation-via-deep-neural-networks
+  numCitedBy: 1920
+  pid: 2a002ce457f7ab3088fbd2691734f1ce79f750c4
+  show_ref_link: true
+  title: DeepPose - Human Pose Estimation via Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-ontological-supervision-for-fine-grained-classification-of-street-view-storefronts
+  numCitedBy: 71
+  pid: 382bebe4df1ce90b2093f2167fee6da4d3c5dfed
+  show_ref_link: false
+  title: Ontological supervision for fine grained classification of Street View storefronts
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-compressing-neural-networks-with-the-hashing-trick
+  numCitedBy: 945
+  pid: efb5032e6199c80f83309fd866b25be9545831fd
+  show_ref_link: false
+  title: Compressing Neural Networks with the Hashing Trick
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-difficulty-of-training-recurrent-neural-networks
+  numCitedBy: 3820
+  pid: 84069287da0a6b488b8c933f3cb5be759cb6237e
+  show_ref_link: true
+  title: On the difficulty of training recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  - Engineering
+  meta_key: 1994-svd-net-an-algorithm-that-automatically-selects-network-structure
+  numCitedBy: 45
+  pid: 8f9f992fddfccd5cd85d3254c0b5f54334d7fa63
+  show_ref_link: false
+  title: SVD-NET - an algorithm that automatically selects network structure
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 9437
+  pid: 9201bf6f8222c2335913002e13fbac640fc0f4ec
+  show_ref_link: true
+  title: Fully convolutional networks for semantic segmentation
+  year: 2015
+slug: Rethinking-the-Inception-Architecture-for-Computer-Szegedy-Vanhoucke
+title: Rethinking the Inception Architecture for Computer Vision
+url: https://www.semanticscholar.org/paper/Rethinking-the-Inception-Architecture-for-Computer-Szegedy-Vanhoucke/23ffaa0fe06eae05817f527a47ac3291077f9e58?sort=total-citations
+venue: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2016

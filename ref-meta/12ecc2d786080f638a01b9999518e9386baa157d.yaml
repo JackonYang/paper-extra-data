@@ -1,0 +1,366 @@
+authors:
+- Jonathan Tompson
+- Arjun Jain
+- Yann LeCun
+- C. Bregler
+badges:
+- id: OPEN_ACCESS
+corpusId: 392527
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-joint-training-of-a-convolutional-network-and-a-graphical-model-for-human-pose-estimation
+numCitedBy: 1208
+numCiting: 47
+paperAbstract: This paper proposes a new hybrid architecture that consists of a deep Convolu-tional Network and a Markov Random Field. We show how this architecture is successfully applied to the challenging problem of articulated human pose estimation in monocular images. The architecture can exploit structural domain constraints such as geometric relationships between body joint locations. We show that joint training of these two model paradigms improves performance and allows us to significantly outperform existing state-of-the-art techniques.
+ref_count: 47
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-human-pose-estimation-features-with-convolutional-networks
+  numCitedBy: 180
+  pid: 49609ea8946d5c4d8fad96553b10e2b07f4e2485
+  show_ref_link: false
+  title: Learning Human Pose Estimation Features with Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deeppose-human-pose-estimation-via-deep-neural-networks
+  numCitedBy: 1920
+  pid: 2a002ce457f7ab3088fbd2691734f1ce79f750c4
+  show_ref_link: true
+  title: DeepPose - Human Pose Estimation via Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-clustered-pose-and-nonlinear-appearance-models-for-human-pose-estimation
+  numCitedBy: 679
+  pid: c32715b5106f46eb6761531704cd2a9b5571832e
+  show_ref_link: false
+  title: Clustered Pose and Nonlinear Appearance Models for Human Pose Estimation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-modec-multimodal-decomposable-models-for-human-pose-estimation
+  numCitedBy: 347
+  pid: 113c22eed8383c74fe6b218743395532e2897e71
+  show_ref_link: false
+  title: MODEC - Multimodal Decomposable Models for Human Pose Estimation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-human-pose-estimation-using-body-parts-dependent-joint-regressors
+  numCitedBy: 248
+  pid: 8d90c2b57a61d4203498ecd6a10803e130bab9b2
+  show_ref_link: false
+  title: Human Pose Estimation Using Body Parts Dependent Joint Regressors
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-strong-appearance-and-expressive-spatial-models-for-human-pose-estimation
+  numCitedBy: 205
+  pid: 016dd886d5cb01c55a0204e2988274cf9417b564
+  show_ref_link: false
+  title: Strong Appearance and Expressive Spatial Models for Human Pose Estimation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-effective-human-pose-estimation-from-inaccurate-annotation
+  numCitedBy: 367
+  pid: 50f3cd71a30ac6155e032c636d37d50e31cb09c2
+  show_ref_link: false
+  title: Learning effective human pose estimation from inaccurate annotation
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-articulated-pose-estimation-with-flexible-mixtures-of-parts
+  numCitedBy: 1119
+  pid: bf49f2789c72a8301c4dfbb5eabca76c92ed35ef
+  show_ref_link: true
+  title: Articulated pose estimation with flexible mixtures-of-parts
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-real-time-continuous-pose-recovery-of-human-hands-using-convolutional-networks
+  numCitedBy: 660
+  pid: ae639e4bdd2e6a11bc44ff7f1ae53cd25462042b
+  show_ref_link: false
+  title: Real-Time Continuous Pose Recovery of Human Hands Using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-pictorial-structures-revisited-people-detection-and-articulated-pose-estimation
+  numCitedBy: 468
+  pid: d9279fe29ae1e4ecd0ee34d546560f8a70d17d1d
+  show_ref_link: false
+  title: Pictorial structures revisited - People detection and articulated pose estimation
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-poselet-conditioned-pictorial-structures
+  numCitedBy: 315
+  pid: ed662a8f1444578f6b4b47a3bb87e72b583d28b4
+  show_ref_link: false
+  title: Poselet Conditioned Pictorial Structures
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-recovering-3d-human-pose-from-monocular-images
+  numCitedBy: 834
+  pid: b51d606db06e178c5dff1e9d8c1460352bdb85db
+  show_ref_link: false
+  title: Recovering 3D human pose from monocular images
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-poselets-body-part-detectors-trained-using-3d-human-pose-annotations
+  numCitedBy: 1048
+  pid: 55b29a2505149d06d8c1d616cd30edca40cb029c
+  show_ref_link: false
+  title: Poselets - Body part detectors trained using 3D human pose annotations
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-better-appearance-models-for-pictorial-structures
+  numCitedBy: 250
+  pid: 406767a9ea73cb77867aff9e73df40180185471a
+  show_ref_link: false
+  title: Better Appearance Models for Pictorial Structures
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-vision-based-human-motion-analysis-an-overview
+  numCitedBy: 903
+  pid: ea481ceaf3ad8bef871a9efdddb27c345e0c3b4e
+  show_ref_link: false
+  title: Vision-based human motion analysis - An overview
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-estimating-human-body-configurations-using-shape-context-matching
+  numCitedBy: 429
+  pid: 9cc1b4ca121fef59517f24863b113bce3e5acd1a
+  show_ref_link: false
+  title: Estimating Human Body Configurations Using Shape Context Matching
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-cascaded-classification-models-combining-models-for-holistic-scene-understanding
+  numCitedBy: 174
+  pid: 6b2b7c5efae0bd7be3156323cad75e10fe83ed66
+  show_ref_link: false
+  title: Cascaded Classification Models - Combining Models for Holistic Scene Understanding
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-humaneva-synchronized-video-and-motion-capture-dataset-and-baseline-algorithm-for-evaluation-of-articulated-human-motion
+  numCitedBy: 962
+  pid: 7722159088c18c9998a27047a2b18d8cce313935
+  show_ref_link: false
+  title: "HumanEva - Synchronized Video and Motion Capture Dataset and Baseline Algorithm for Evaluation of Articulated Human\_Motion"
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks
+  numCitedBy: 4366
+  pid: 1109b663453e78a59e4f66446d71720ac58cec25
+  show_ref_link: true
+  title: OverFeat - Integrated Recognition, Localization and Detection using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-discriminatively-trained-multiscale-deformable-part-model
+  numCitedBy: 2622
+  pid: 860a9d55d87663ca88e74b3ca357396cd51733d0
+  show_ref_link: false
+  title: A discriminatively trained, multiscale, deformable part model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-inferring-3d-structure-with-a-statistical-image-based-shape-model
+  numCitedBy: 236
+  pid: fd4a61eae6b7eb2501a53ed05ccb0313d62cb0d8
+  show_ref_link: false
+  title: Inferring 3D structure with a statistical image-based shape model
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-a-convolutional-neural-network-hand-tracker
+  numCitedBy: 117
+  pid: 2b234385356cb10d448908cef49584bece15d94b
+  show_ref_link: false
+  title: A Convolutional Neural Network Hand Tracker
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-strike-a-pose-tracking-people-by-finding-stylized-poses
+  numCitedBy: 364
+  pid: 14eacd0e48a160bfc935cd4d419772f0110b1a0f
+  show_ref_link: false
+  title: Strike a pose - tracking people by finding stylized poses
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-scape-shape-completion-and-animation-of-people
+  numCitedBy: 1491
+  pid: adddc04ec7f00f3c3823b66c3369f668df15f957
+  show_ref_link: false
+  title: SCAPE - shape completion and animation of people
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-cnn-features-off-the-shelf-an-astounding-baseline-for-recognition
+  numCitedBy: 4301
+  pid: 6270baedeba28001cd1b563a199335720d6e0fe0
+  show_ref_link: true
+  title: CNN Features Off-the-Shelf - An Astounding Baseline for Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-visualizing-and-understanding-convolutional-networks
+  numCitedBy: 11878
+  pid: 1a2a770d23b4a171fa81de62a78a3deb0588f238
+  show_ref_link: true
+  title: Visualizing and Understanding Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-fast-pose-estimation-with-parameter-sensitive-hashing
+  numCitedBy: 906
+  pid: 3e1556aea42601df3f457ad43dfb059498931a33
+  show_ref_link: false
+  title: Fast pose estimation with parameter-sensitive hashing
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-a-study-of-parts-based-object-class-detection-using-complete-graphs
+  numCitedBy: 140
+  pid: 88dc6973f51b6b2e86aa53d1e73d68520e326022
+  show_ref_link: false
+  title: A Study of Parts-Based Object Class Detection Using Complete Graphs
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-fast-training-of-convolutional-networks-through-ffts
+  numCitedBy: 458
+  pid: a7621b4ec18719b08f3a2a444b6d37a2e20227b7
+  show_ref_link: false
+  title: Fast Training of Convolutional Networks through FFTs
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-message-passing-inference-machines-for-structured-prediction
+  numCitedBy: 120
+  pid: 633664376ffadc1396d86e476925121ac3d4cf86
+  show_ref_link: false
+  title: Learning message-passing inference machines for structured prediction
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-hierarchical-probabilistic-neural-network-language-model
+  numCitedBy: 944
+  pid: c19fbefdeead6a4154a22a9c8551a18b1530033a
+  show_ref_link: false
+  title: Hierarchical Probabilistic Neural Network Language Model
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-importance-of-initialization-and-momentum-in-deep-learning
+  numCitedBy: 3576
+  pid: aa7bfd2304201afbb19971ebde87b17e40242e91
+  show_ref_link: true
+  title: On the importance of initialization and momentum in deep learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-object-recognition-from-local-scale-invariant-features
+  numCitedBy: 16285
+  pid: f9f836d28f52ad260213d32224a6d227f8e8849a
+  show_ref_link: true
+  title: Object recognition from local scale-invariant features
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-fast-image-scanning-with-deep-max-pooling-convolutional-neural-networks
+  numCitedBy: 296
+  pid: 68299ec9b72e3ac378a1fdc9d86039ebba203deb
+  show_ref_link: false
+  title: Fast image scanning with deep max-pooling convolutional neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-sign-language-by-watching-tv-using-weakly-aligned-subtitles
+  numCitedBy: 106
+  pid: d6b47a0ee5149be524aa585aef6ca35e6a903fe6
+  show_ref_link: false
+  title: Learning sign language by watching TV (using weakly aligned subtitles)
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-remap-recursive-estimation-and-maximization-of-a-posteriori-probabilities-in-connectionist-speech-recognition
+  numCitedBy: 32
+  pid: f6d8411ab842ae5f85dc10bc17ba2ad81bd25a3b
+  show_ref_link: false
+  title: REMAP - recursive estimation and maximization of a posteriori probabilities in connectionist speech recognition
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1493
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-visualizing-and-understanding-convolutional-neural-networks
+  numCitedBy: 492
+  pid: fc26b9c1afe81e1b20195123fe6f3ced9520abb6
+  show_ref_link: false
+  title: Visualizing and Understanding Convolutional Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-remap-recursive-estimation-and-maximization-of-a-posteriori-probabilities-in-transition-based-speech-recognition
+  numCitedBy: 22
+  pid: 0bd1b295547a7cc39c41e68236b798cdcf5b9121
+  show_ref_link: false
+  title: Remap - recursive estimation and maximization of a posteriori probabilities in transition-based speech recognition
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-real-time-human-pose-recognition-in-parts-from-single-depth-images
+  numCitedBy: 2799
+  pid: 2915510a39448503ee873f9693cd3808ca74bd81
+  show_ref_link: true
+  title: Real-time human pose recognition in parts from single depth images
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2005-toward-automatic-phenotyping-of-developing-embryos-from-videos
+  numCitedBy: 261
+  pid: c029513aef54460ef6a468ff83f549d7ffbb646b
+  show_ref_link: false
+  title: Toward automatic phenotyping of developing embryos from videos
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-articulated-pose-estimation-using-discriminative-armlet-classifiers
+  numCitedBy: 95
+  pid: 2b7c2e4e888f4ca6bc8def17497504ea4012aa0f
+  show_ref_link: false
+  title: Articulated Pose Estimation Using Discriminative Armlet Classifiers
+  year: 2013
+slug: Joint-Training-of-a-Convolutional-Network-and-a-for-Tompson-Jain
+title: Joint Training of a Convolutional Network and a Graphical Model for Human Pose Estimation
+url: https://www.semanticscholar.org/paper/Joint-Training-of-a-Convolutional-Network-and-a-for-Tompson-Jain/12ecc2d786080f638a01b9999518e9386baa157d?sort=total-citations
+venue: NIPS
+year: 2014

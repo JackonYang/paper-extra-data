@@ -1,0 +1,92 @@
+authors:
+- N. Cristianini
+- J. Shawe-Taylor
+badges:
+- id: OPEN_ACCESS
+corpusId: 14727192
+fieldsOfStudy:
+- Computer Science
+meta_key: 2000-an-introduction-to-support-vector-machines-and-other-kernel-based-learning-methods
+numCitedBy: 13461
+numCiting: 27
+paperAbstract: 'From the publisher: This is the first comprehensive introduction to Support Vector Machines (SVMs), a new generation learning system based on recent advances in statistical learning theory. SVMs deliver state-of-the-art performance in real-world applications such as text categorisation, hand-written character recognition, image classification, biosequences analysis, etc., and are now established as one of the standard tools for machine learning and data mining. Students will find the book both stimulating and accessible, while practitioners will be guided smoothly through the material required for a good grasp of the theory and its applications. The concepts are introduced gradually in accessible and self-contained stages, while the presentation is rigorous and thorough. Pointers to relevant literature and web sites containing software ensure that it forms an ideal starting point for further study. Equally, the book and its associated web site will guide practitioners to updated literature, new applications, and on-line software.'
+ref_count: 27
+references:
+- fieldsOfStudy:
+  - Art
+  meta_key: 1986-industrial-light-magic-the-art-of-special-effects
+  numCitedBy: 16
+  pid: 798bd1930f22c953a59f631a682ded17cd87744e
+  show_ref_link: false
+  title: Industrial Light & Magic-the Art of Special Effects
+  year: 1986
+- fieldsOfStudy:
+  - Psychology
+  - Medicine
+  meta_key: 2002-cognitive-therapy-with-schizophrenic-patients-the-evolution-of-a-new-treatment-approach
+  numCitedBy: 11
+  pid: d65ce2258639da4616319cc5ef4e6ed3a059dcae
+  show_ref_link: false
+  title: Cognitive therapy with schizophrenic patients - the evolution of a new treatment approach
+  year: 2002
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1997-the-marketing-of-nations-a-strategic-approach-to-building-national-wealth
+  numCitedBy: 149
+  pid: 2d176dfc3e828fbf7881434f1fbecd65fcbf666e
+  show_ref_link: false
+  title: The Marketing of Nations - A Strategic Approach to Building National Wealth
+  year: 1997
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1993-radio-receiver-projects-you-can-build
+  numCitedBy: 2
+  pid: a61014614b0b13ca552a626cd8746b7547fef058
+  show_ref_link: false
+  title: Radio Receiver Projects You Can Build
+  year: 1993
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1970-an-introduction-to-population-genetics-theory
+  numCitedBy: 5250
+  pid: 2cfa8d059c0a5df68c181bd674d2a18aca51c846
+  show_ref_link: false
+  title: An introduction to population genetics theory
+  year: 1970
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1989-the-way-of-the-craftsman-a-search-for-the-spiritual-essence-of-craft-freemasonry
+  numCitedBy: 3
+  pid: 1264b8541c6bb43bae57a76bca369c45f2cc63b2
+  show_ref_link: false
+  title: The Way of the Craftsman - A Search for the Spiritual Essence of Craft Freemasonry
+  year: 1989
+- fieldsOfStudy:
+  - Geology
+  meta_key: 1986-engineering-geology-an-environmental-approach
+  numCitedBy: 79
+  pid: 1b2331f8606c5c63f55b86632d7cbd02df245ce3
+  show_ref_link: false
+  title: Engineering Geology - An Environmental Approach
+  year: 1986
+- fieldsOfStudy:
+  - Political Science
+  meta_key: 1997-divine-governance-of-the-human-kingdom
+  numCitedBy: 14
+  pid: 78df860bf99b5d8743106485c2b3ed275e033c39
+  show_ref_link: false
+  title: Divine Governance of the Human Kingdom
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-uncertain-rule-based-fuzzy-logic-systems-introduction-and-new-directions
+  numCitedBy: 2563
+  pid: e867d7f519aa187c5c43cda9608e3da8f2a2f82d
+  show_ref_link: false
+  title: Uncertain Rule-Based Fuzzy Logic Systems - Introduction and New Directions
+  year: 2001
+slug: An-Introduction-to-Support-Vector-Machines-and-Cristianini-Shawe-Taylor
+title: An Introduction to Support Vector Machines and Other Kernel-based Learning Methods
+url: https://www.semanticscholar.org/paper/An-Introduction-to-Support-Vector-Machines-and-Cristianini-Shawe-Taylor/5c04f8002e24a8c09bfbfedca3c6c346fe1e5d53?sort=total-citations
+venue: ''
+year: 2000

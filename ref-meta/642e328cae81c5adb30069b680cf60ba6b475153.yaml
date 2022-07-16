@@ -1,0 +1,164 @@
+authors:
+- Josef Sivic
+- Andrew Zisserman
+badges:
+- id: OPEN_ACCESS
+corpusId: 14457153
+fieldsOfStudy:
+- Computer Science
+meta_key: 2003-video-google-a-text-retrieval-approach-to-object-matching-in-videos
+numCitedBy: 6772
+numCiting: 21
+paperAbstract: We describe an approach to object and scene retrieval which searches for and localizes all the occurrences of a user outlined object in a video. The object is represented by a set of viewpoint invariant region descriptors so that recognition can proceed successfully despite changes in viewpoint, illumination and partial occlusion. The temporal continuity of the video within a shot is used to track the regions in order to reject unstable regions and reduce the effects of noise in the descriptors. The analogy with text retrieval is in the implementation where matches on descriptors are pre-computed (using vector quantization), and inverted file systems and document rankings are used. The result is that retrieved is immediate, returning a ranked list of key frames/shots in the manner of Google. The method is illustrated for matching in two full length feature films.
+ref_count: 21
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-automated-scene-matching-in-movies
+  numCitedBy: 77
+  pid: f091b49d6a695a1f47087cf4c7c28f9eb219167e
+  show_ref_link: false
+  title: Automated Scene Matching in Movies
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-object-recognition-from-local-scale-invariant-features
+  numCitedBy: 16285
+  pid: f9f836d28f52ad260213d32224a6d227f8e8849a
+  show_ref_link: true
+  title: Object recognition from local scale-invariant features
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-performance-evaluation-of-local-descriptors
+  numCitedBy: 3683
+  pid: 69401bfdafab7cde00bb8e5b2f6c28e9d72d8cfb
+  show_ref_link: true
+  title: A performance evaluation of local descriptors
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-object-recognition-using-local-affine-frames-on-distinguished-regions
+  numCitedBy: 241
+  pid: 16cf7026acfdbcef00a6524c72dc7ee5a0660ef8
+  show_ref_link: false
+  title: Object Recognition using Local Affine Frames on Distinguished Regions
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-wide-baseline-stereo-matching-based-on-local-affinely-invariant-regions
+  numCitedBy: 569
+  pid: 9ad20e6f6f89631caf6960516bb9939b9430bba0
+  show_ref_link: false
+  title: Wide Baseline Stereo Matching based on Local, Affinely Invariant Regions
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-reliable-feature-matching-across-widely-separated-views
+  numCitedBy: 767
+  pid: 67f693427d956c0dbc822e7f3452aee8ca36204b
+  show_ref_link: false
+  title: Reliable feature matching across widely separated views
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-the-truth-about-corel-evaluation-in-image-retrieval
+  numCitedBy: 201
+  pid: c8d5814e795b1a9ea7c1b5652d03b572ee418c98
+  show_ref_link: false
+  title: The Truth about Corel - Evaluation in Image Retrieval
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-local-feature-view-clustering-for-3d-object-recognition
+  numCitedBy: 588
+  pid: 9188b661f2ae65a080676617cc83b7d09773c59f
+  show_ref_link: false
+  title: Local feature view clustering for 3D object recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-combining-appearance-and-topology-for-wide-baseline-matching
+  numCitedBy: 96
+  pid: 835ddd57d615cc7e93a2b7589bbcbe49992ad14d
+  show_ref_link: false
+  title: Combining Appearance and Topology for Wide Baseline Matching
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-local-grayvalue-invariants-for-image-retrieval
+  numCitedBy: 1794
+  pid: 49fcd806450d947e56c82ef2b438ad9c484069dc
+  show_ref_link: false
+  title: Local Grayvalue Invariants for Image Retrieval
+  year: 1997
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1994-shape-adapted-smoothing-in-estimation-of-3-d-depth-cues-from-affine-distortions-of-local-2-d-brightness-structure
+  numCitedBy: 116
+  pid: aacb988081214bfd87c9ae06310453d01119e326
+  show_ref_link: false
+  title: Shape-Adapted Smoothing in Estimation of 3-D Depth Cues from Affine Distortions of Local 2-D Brightness Structure
+  year: 1994
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 2002-an-affine-invariant-interest-point-detector
+  numCitedBy: 1684
+  pid: 9c7a96155f10f152cae0866102c061cdf6da02e8
+  show_ref_link: false
+  title: An Affine Invariant Interest Point Detector
+  year: 2002
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2002-robust-wide-baseline-stereo-from-maximally-stable-extremal-regions
+  numCitedBy: 3933
+  pid: 9d5ea177c7fcaf88ec6f56cbeb3e9b74c08e98a3
+  show_ref_link: true
+  title: Robust Wide Baseline Stereo from Maximally Stable Extremal Regions
+  year: 2002
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1997-shape-adapted-smoothing-in-estimation-of-3-d-shape-cues-from-affine-deformations-of-local-2-d-brightness-structure
+  numCitedBy: 290
+  pid: f87bcdf4a0dc79f85e171ec26733424d0e459cd2
+  show_ref_link: false
+  title: Shape-adapted smoothing in estimation of 3-D shape cues from affine deformations of local 2-D brightness structure
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-the-anatomy-of-a-large-scale-hypertextual-web-search-engine
+  numCitedBy: 15488
+  pid: 10d6778bc45aebcd58d336b4062b935861d2fe8a
+  show_ref_link: false
+  title: The Anatomy of a Large-Scale Hypertextual Web Search Engine
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-managing-gigabytes-compressing-and-indexing-documents-and-images
+  numCitedBy: 2227
+  pid: 8d94832e245906775b428e949ac1f635bfb28ad3
+  show_ref_link: false
+  title: Managing Gigabytes - Compressing and Indexing Documents and Images
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-content-based-query-of-image-databases-inspirations-from-text-retrieval
+  numCitedBy: 379
+  pid: a0bfdd9b33a671b4b5a7d2993843ca403633dfff
+  show_ref_link: false
+  title: Content-based query of image databases - inspirations from text retrieval
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-multi-view-matching-for-unordered-image-sets-or-how-do-i-organize-my-holiday-snaps
+  numCitedBy: 697
+  pid: 7e81996384b030b580a0e02c0dc367d59c0c15ba
+  show_ref_link: false
+  title: Multi-view Matching for Unordered Image Sets, or How Do I Organize My Holiday Snaps?
+  year: 2002
+slug: Video-Google:-a-text-retrieval-approach-to-object-Sivic-Zisserman
+title: Video Google - a text retrieval approach to object matching in videos
+url: https://www.semanticscholar.org/paper/Video-Google:-a-text-retrieval-approach-to-object-Sivic-Zisserman/642e328cae81c5adb30069b680cf60ba6b475153?sort=total-citations
+venue: Proceedings Ninth IEEE International Conference on Computer Vision
+year: 2003

@@ -1,0 +1,402 @@
+authors:
+- Tsung-Yi Lin
+- M. Maire
+- Serge J. Belongie
+- James Hays
+- P. Perona
+- D. Ramanan
+- "Piotr Doll\xE1r"
+- C. L. Zitnick
+badges:
+- id: OPEN_ACCESS
+corpusId: 14113767
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-microsoft-coco-common-objects-in-context
+numCitedBy: 20013
+numCiting: 59
+paperAbstract: We present a new dataset with the goal of advancing the state-of-the-art in object recognition by placing the question of object recognition in the context of the broader question of scene understanding. This is achieved by gathering images of complex everyday scenes containing common objects in their natural context. Objects are labeled using per-instance segmentations to aid in precise object localization. Our dataset contains photos of 91 objects types that would be easily recognizable by a 4 year old. With a total of 2.5 million labeled instances in 328k images, the creation of our dataset drew upon extensive crowd worker involvement via novel user interfaces for category detection, instance spotting and instance segmentation. We present a detailed statistical analysis of the dataset in comparison to PASCAL, ImageNet, and SUN. Finally, we provide baseline performance analysis for bounding box and segmentation detection results using a Deformable Parts Model.
+ref_count: 59
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-semantic-object-classes-in-video-a-high-definition-ground-truth-database
+  numCitedBy: 911
+  pid: e03bbca03dc10c4dfb10eca7439aa1a19233aa5a
+  show_ref_link: false
+  title: Semantic object classes in video - A high-definition ground truth database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-object-segmentation-by-alignment-of-poselet-activations-to-image-contours
+  numCitedBy: 112
+  pid: d2efe575c931cf923e47ec5c7f444d53aae549cd
+  show_ref_link: false
+  title: Object segmentation by alignment of poselet activations to image contours
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-using-segmentation-to-verify-object-hypotheses
+  numCitedBy: 93
+  pid: 03cf107beae8394c685cd3997c8c4740e2468a7c
+  show_ref_link: false
+  title: Using Segmentation to Verify Object Hypotheses
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-80-million-tiny-images-a-large-data-set-for-nonparametric-object-and-scene-recognition
+  numCitedBy: 1871
+  pid: 54d2b5c64a67f65c5dd812b89e07973f97699552
+  show_ref_link: false
+  title: 80 Million Tiny Images - A Large Data Set for Nonparametric Object and Scene Recognition
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17210
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-sun-database-large-scale-scene-recognition-from-abbey-to-zoo
+  numCitedBy: 2358
+  pid: 908091b4a8757c3b2f7d9cfa2c4f616ee12c5157
+  show_ref_link: false
+  title: SUN database - Large-scale scene recognition from abbey to zoo
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-the-pascal-visual-object-classes-voc-challenge
+  numCitedBy: 11743
+  pid: 82635fb63640ae95f90ee9bdc07832eb461ca881
+  show_ref_link: true
+  title: The Pascal Visual Object Classes (VOC) Challenge
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-learning-to-localize-detected-objects
+  numCitedBy: 49
+  pid: 531e412155cde56382906aeee2a1b28ec61259c5
+  show_ref_link: false
+  title: Learning to localize detected objects
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-textonboost-for-image-understanding-multi-class-object-recognition-and-segmentation-by-jointly-modeling-texture-layout-and-context
+  numCitedBy: 1087
+  pid: 0d1bfcdfc90e662defd26b8b0deae6ef6e661b23
+  show_ref_link: false
+  title: TextonBoost for Image Understanding - Multi-Class Object Recognition and Segmentation by Jointly Modeling Texture, Layout, and Context
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-pedestrian-detection-an-evaluation-of-the-state-of-the-art
+  numCitedBy: 2765
+  pid: 34e0ba2daabfa4d3d22913ade8265aff50b5f917
+  show_ref_link: true
+  title: Pedestrian Detection - An Evaluation of the State of the Art
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-layered-object-models-for-image-segmentation
+  numCitedBy: 147
+  pid: 489d6e4cc55c6eb945f12d2813e06cb482294d06
+  show_ref_link: false
+  title: Layered Object Models for Image Segmentation
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-unbiased-look-at-dataset-bias
+  numCitedBy: 1767
+  pid: 0302bb2d5476540cfb21467473f5eca843caf90b
+  show_ref_link: true
+  title: Unbiased look at dataset bias
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-to-detect-unseen-object-classes-by-between-class-attribute-transfer
+  numCitedBy: 1956
+  pid: 0566bf06a0368b518b8b474166f7b1dfef3f9283
+  show_ref_link: false
+  title: Learning to detect unseen object classes by between-class attribute transfer
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-indoor-segmentation-and-support-inference-from-rgbd-images
+  numCitedBy: 3535
+  pid: c1994ba5946456fc70948c549daf62363f13fa2d
+  show_ref_link: true
+  title: Indoor Segmentation and Support Inference from RGBD Images
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-im2text-describing-images-using-1-million-captioned-photographs
+  numCitedBy: 741
+  pid: 8e080b98efbe65c02a116439205ca2344b9f7cd4
+  show_ref_link: false
+  title: Im2Text - Describing Images Using 1 Million Captioned Photographs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-opensurfaces-a-richly-annotated-catalog-of-surface-appearance
+  numCitedBy: 179
+  pid: 43e48b702fbe1feba53afbf82ec322cc9a61ae6c
+  show_ref_link: false
+  title: OpenSurfaces - a richly annotated catalog of surface appearance
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-evaluation-of-gist-descriptors-for-web-scale-image-search
+  numCitedBy: 407
+  pid: 2270c94d3f9d9451b3d337aa5ba2d5681cb98497
+  show_ref_link: false
+  title: Evaluation of GIST descriptors for web-scale image search
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-poselets-body-part-detectors-trained-using-3d-human-pose-annotations
+  numCitedBy: 1048
+  pid: 55b29a2505149d06d8c1d616cd30edca40cb029c
+  show_ref_link: false
+  title: Poselets - Body part detectors trained using 3D human pose annotations
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-finding-iconic-images
+  numCitedBy: 75
+  pid: 453c90a8ad2d0b26a82d0478d05281736e411e6a
+  show_ref_link: false
+  title: Finding iconic images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-sun-attribute-database-discovering-annotating-and-recognizing-scene-attributes
+  numCitedBy: 630
+  pid: add89dbbd15b82d8275d712f7f969f1b511f96fd
+  show_ref_link: false
+  title: SUN attribute database - Discovering, annotating, and recognizing scene attributes
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-do-we-need-more-training-data-or-better-models-for-object-detection
+  numCitedBy: 180
+  pid: 4cb1494e547f1eaf51bab8038c8fab904dda9026
+  show_ref_link: false
+  title: Do We Need More Training Data or Better Models for Object Detection?
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-object-detection-with-discriminatively-trained-part-based-models
+  numCitedBy: 9385
+  pid: e79272fe3d65197100eae8be9fec6469107969ae
+  show_ref_link: true
+  title: Object Detection with Discriminatively Trained Part Based Models
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks
+  numCitedBy: 4363
+  pid: 1109b663453e78a59e4f66446d71720ac58cec25
+  show_ref_link: true
+  title: OverFeat - Integrated Recognition, Localization and Detection using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-describing-objects-by-their-attributes
+  numCitedBy: 1675
+  pid: c6a8aef1bf134294482d8088f982d5643347d2ff
+  show_ref_link: false
+  title: Describing objects by their attributes
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-detecting-avocados-to-zucchinis-what-have-we-done-and-where-are-we-going
+  numCitedBy: 78
+  pid: 4eeec2093a08b9d5a965776ad0e11eab749bd019
+  show_ref_link: false
+  title: Detecting Avocados to Zucchinis - What Have We Done, and Where Are We Going?
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-diagnosing-error-in-object-detectors
+  numCitedBy: 445
+  pid: 9f877575217f0868f496a6123954b2ea933fb21e
+  show_ref_link: false
+  title: Diagnosing Error in Object Detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-labeled-faces-in-the-wild-a-database-forstudying-face-recognition-in-unconstrained-environments
+  numCitedBy: 4919
+  pid: c6b3ca4f939e36a9679a70e14ce8b1bbbc5618f3
+  show_ref_link: true
+  title: Labeled Faces in the Wild - A Database forStudying Face Recognition in Unconstrained Environments
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-a-database-and-evaluation-methodology-for-optical-flow
+  numCitedBy: 2385
+  pid: 804836b8ad86ef8042e3dcbd45442a52f031ee03
+  show_ref_link: false
+  title: A Database and Evaluation Methodology for Optical Flow
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17266
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-generative-visual-models-from-few-training-examples-an-incremental-bayesian-approach-tested-on-101-object-categories
+  numCitedBy: 2355
+  pid: ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2
+  show_ref_link: false
+  title: Learning Generative Visual Models from Few Training Examples - An Incremental Bayesian Approach Tested on 101 Object Categories
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 27818
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-collecting-image-annotations-using-amazon-s-mechanical-turk
+  numCitedBy: 548
+  pid: bf60322f83714523e2d7c1d39983151fe9db7146
+  show_ref_link: false
+  title: Collecting Image Annotations Using Amazon's Mechanical Turk
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-face-detection-a-survey
+  numCitedBy: 1650
+  pid: 887567782cb859ecd339693589056903b0071353
+  show_ref_link: false
+  title: Face Detection - A Survey
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-a-taxonomy-and-evaluation-of-dense-two-frame-stereo-correspondence-algorithms
+  numCitedBy: 3105
+  pid: d2f78c2b2b325d72f359d4c797c9aab6a8e60942
+  show_ref_link: true
+  title: A Taxonomy and Evaluation of Dense Two-Frame Stereo Correspondence Algorithms
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  - Psychology
+  meta_key: 2013-from-large-scale-image-categorization-to-entry-level-categories
+  numCitedBy: 111
+  pid: 3bfeecf2aa26efe211985e19a967b2cb28012482
+  show_ref_link: false
+  title: From Large Scale Image Categorization to Entry-Level Categories
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-contour-detection-and-hierarchical-image-segmentation
+  numCitedBy: 4208
+  pid: 0e5a262bf59b68ba8a7a1103d16fa33a9f5ffc28
+  show_ref_link: true
+  title: Contour Detection and Hierarchical Image Segmentation
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-scalable-multi-label-annotation
+  numCitedBy: 122
+  pid: 8ab9d01469b542434e0e47428aa25e233824ea80
+  show_ref_link: false
+  title: Scalable multi-label annotation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-comparison-and-evaluation-of-multi-view-stereo-reconstruction-algorithms
+  numCitedBy: 2376
+  pid: 39265f8247f2dc6c394de0378a7027b435246fe3
+  show_ref_link: false
+  title: A Comparison and Evaluation of Multi-View Stereo Reconstruction Algorithms
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 2010-caltech-ucsd-birds-200
+  numCitedBy: 972
+  pid: a48a56b0727d09f599676524fe190308d9e88bf1
+  show_ref_link: false
+  title: Caltech-UCSD Birds 200
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-the-mnist-database-of-handwritten-digits
+  numCitedBy: 4436
+  pid: dc52d1ede1b90bf9d296bc5b34c9310b7eaa99a2
+  show_ref_link: true
+  title: The mnist database of handwritten digits
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-caltech-256-object-category-dataset
+  numCitedBy: 2550
+  pid: 5a5effa909cdeafaddbbb7855037e02f8e25d632
+  show_ref_link: false
+  title: Caltech-256 Object Category Dataset
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-learning-spatial-context-using-stuff-to-find-things
+  numCitedBy: 447
+  pid: 2a709dcc204af8bade3ed4040dc6bc738e80995a
+  show_ref_link: false
+  title: Learning Spatial Context - Using Stuff to Find Things
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-labelme-a-database-and-web-based-tool-for-image-annotation
+  numCitedBy: 3084
+  pid: 092c275005ae49dc1303214f6d02d134457c7053
+  show_ref_link: true
+  title: LabelMe - A Database and Web-Based Tool for Image Annotation
+  year: 2007
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1996-columbia-object-image-library-coil100
+  numCitedBy: 2008
+  pid: 77afac8f4d7f47c8b34371d8f8355cefbea1d4f6
+  show_ref_link: false
+  title: Columbia Object Image Library (COIL100)
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-wordnet-an-electronic-lexical-database
+  numCitedBy: 13600
+  pid: d87ceda3042f781c341ac17109d1e94a717f5f60
+  show_ref_link: true
+  title: WordNet - an electronic lexical database
+  year: 2000
+slug: Microsoft-COCO:-Common-Objects-in-Context-Lin-Maire
+title: Microsoft COCO - Common Objects in Context
+url: https://www.semanticscholar.org/paper/Microsoft-COCO:-Common-Objects-in-Context-Lin-Maire/71b7178df5d2b112d07e45038cb5637208659ff7?sort=total-citations
+venue: ECCV
+year: 2014

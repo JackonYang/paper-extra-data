@@ -1,0 +1,369 @@
+authors:
+- Saining Xie
+- Ross B. Girshick
+- "Piotr Doll\xE1r"
+- Z. Tu
+- Kaiming He
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 8485068
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-aggregated-residual-transformations-for-deep-neural-networks
+numCitedBy: 5545
+numCiting: 56
+paperAbstract: We present a simple, highly modularized network architecture for image classification. Our network is constructed by repeating a building block that aggregates a set of transformations with the same topology. Our simple design results in a homogeneous, multi-branch architecture that has only a few hyper-parameters to set. This strategy exposes a new dimension, which we call cardinality (the size of the set of transformations), as an essential factor in addition to the dimensions of depth and width. On the ImageNet-1K dataset, we empirically show that even under the restricted condition of maintaining complexity, increasing cardinality is able to improve classification accuracy. Moreover, increasing cardinality is more effective than going deeper or wider when we increase the capacity. Our models, named ResNeXt, are the foundations of our entry to the ILSVRC 2016 classification task in which we secured 2nd place. We further investigate ResNeXt on an ImageNet-5K set and the COCO detection set, also showing better results than its ResNet counterpart. The code and models are publicly available online.
+ref_count: 56
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-residual-networks
+  numCitedBy: 4297
+  pid: 1c4e9156ca07705531e45960b7a919dc473abb51
+  show_ref_link: false
+  title: Wide Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-understanding-deep-architectures-using-a-recursive-convolutional-network
+  numCitedBy: 125
+  pid: e2d894584986b44710f634b696db371f8aff92e0
+  show_ref_link: false
+  title: Understanding Deep Architectures using a Recursive Convolutional Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12461
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6499
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96474
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+  numCitedBy: 4251
+  pid: b8de958fead0d8a9619b55c7299df3257c624a96
+  show_ref_link: true
+  title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-roots-improving-cnn-efficiency-with-hierarchical-filter-groups
+  numCitedBy: 161
+  pid: f552d03c45298e919d7b4fc1a5b72a9539499a88
+  show_ref_link: false
+  title: Deep Roots - Improving CNN Efficiency with Hierarchical Filter Groups
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15703
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4230
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8131
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-residual-networks-behave-like-ensembles-of-relatively-shallow-networks
+  numCitedBy: 687
+  pid: 2a24b68ef180c0c8742bd494a55fb6f68864efed
+  show_ref_link: false
+  title: Residual Networks Behave Like Ensembles of Relatively Shallow Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 15861
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17266
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-speeding-up-convolutional-neural-networks-with-low-rank-expansions
+  numCitedBy: 1152
+  pid: 021fc345d40d3e6332cd2ef276e2eaa5e71102e4
+  show_ref_link: false
+  title: Speeding up Convolutional Neural Networks with Low Rank Expansions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks
+  numCitedBy: 4363
+  pid: 1109b663453e78a59e4f66446d71720ac58cec25
+  show_ref_link: true
+  title: OverFeat - Integrated Recognition, Localization and Detection using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-inside-outside-net-detecting-objects-in-context-with-skip-pooling-and-recurrent-neural-networks
+  numCitedBy: 908
+  pid: adc4e63b58cf4092420533fd877b8c29f8e2ec1d
+  show_ref_link: true
+  title: Inside-Outside Net - Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17223
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation
+  numCitedBy: 1268
+  pid: e5ae8ab688051931b4814f6d32b18391f8d1fa8d
+  show_ref_link: false
+  title: Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 32899
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13775
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-to-segment-object-candidates
+  numCitedBy: 675
+  pid: 6b8d0df903496699e52b4daee5d1815b7b784cf7
+  show_ref_link: false
+  title: Learning to Segment Object Candidates
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-very-deep-convolutional-networks-for-text-classification
+  numCitedBy: 734
+  pid: f797fd44b9ddd5845611eb7a705ca9464a8819d1
+  show_ref_link: false
+  title: Very Deep Convolutional Networks for Text Classification
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-very-deep-convolutional-networks-for-natural-language-processing
+  numCitedBy: 273
+  pid: 84ca430856a92000e90cd728445ca2241c10ddc3
+  show_ref_link: false
+  title: Very Deep Convolutional Networks for Natural Language Processing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20013
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wavenet-a-generative-model-for-raw-audio
+  numCitedBy: 4675
+  pid: df0402517a7338ae28bc54acaac400de6b456a46
+  show_ref_link: false
+  title: WaveNet - A Generative Model for Raw Audio
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25650
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2015-fast-r-cnn
+  numCitedBy: 14192
+  pid: 7ffdbc358b63378f07311e883dddacc9faeeaf4b
+  show_ref_link: true
+  title: Fast R-CNN
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-microsoft-2016-conversational-speech-recognition-system
+  numCitedBy: 280
+  pid: ac94ef90be9b0c3bf744d6744e47b38855f9a4c7
+  show_ref_link: false
+  title: The microsoft 2016 conversational speech recognition system
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-google-s-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation
+  numCitedBy: 4687
+  pid: dbde7dfa6cae81df8ac19ef500c42db96c3d1edd
+  show_ref_link: true
+  title: Google's Neural Machine Translation System - Bridging the Gap between Human and Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-distinctive-image-features-from-scale-invariant-keypoints
+  numCitedBy: 13044
+  pid: 8c04f169203f9e55056a6f7f956695babe622a38
+  show_ref_link: true
+  title: Distinctive Image Features from Scale-Invariant Keypoints
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rigid-motion-scattering-for-texture-classification
+  numCitedBy: 187
+  pid: bc90c96263679a51021a63884b36f3e6ed8444a0
+  show_ref_link: false
+  title: Rigid-Motion Scattering for Texture Classification
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 1984-uber-unendliche-lineare-punktmannigfaltigkeiten-arbeiten-zur-mengenlehre-aus-den-jahren-1872-1884
+  numCitedBy: 7
+  pid: a0fa137338253a2e4946fd4a935f1e8b20790eb5
+  show_ref_link: false
+  title: Uber unendliche, lineare Punktmannigfaltigkeiten - Arbeiten zur Mengenlehre aus den Jahren 1872-1884
+  year: 1984
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2012-et-al
+  numCitedBy: 57936
+  pid: bc6dff14a130c57a91d5a21339c23471faf1d46f
+  show_ref_link: false
+  title: Et al
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-visualizing-and-understanding-convolutional-neural-networks
+  numCitedBy: 492
+  pid: fc26b9c1afe81e1b20195123fe6f3ced9520abb6
+  show_ref_link: false
+  title: Visualizing and Understanding Convolutional Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-machine-translation-in-linear-time
+  numCitedBy: 454
+  pid: 98445f4172659ec5e891e031d8202c102135c644
+  show_ref_link: false
+  title: Neural Machine Translation in Linear Time
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-compression-of-deep-convolutional-neural-networks-for-fast-and-low-power-mobile-applications
+  numCitedBy: 669
+  pid: 4ca3b996d888d7178dbbf9855bb2ab253bdfa43d
+  show_ref_link: false
+  title: Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications
+  year: 2016
+- fieldsOfStudy:
+  - Education
+  - Computer Science
+  meta_key: 2002-torch-a-modular-machine-learning-software-library
+  numCitedBy: 520
+  pid: 464d94b3dc9a109dd64008a41a00181830f285aa
+  show_ref_link: false
+  title: Torch - a modular machine learning software library
+  year: 2002
+slug: Aggregated-Residual-Transformations-for-Deep-Neural-Xie-Girshick
+title: Aggregated Residual Transformations for Deep Neural Networks
+url: https://www.semanticscholar.org/paper/Aggregated-Residual-Transformations-for-Deep-Neural-Xie-Girshick/f6e0856b4a9199fa968ac00da612a9407b5cb85c?sort=total-citations
+venue: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2017

@@ -1,0 +1,131 @@
+authors:
+- Peter D. Turney
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 484335
+fieldsOfStudy:
+- Computer Science
+meta_key: 2002-thumbs-up-or-thumbs-down-semantic-orientation-applied-to-unsupervised-classification-of-reviews
+numCitedBy: 5427
+numCiting: 18
+paperAbstract: This paper presents a simple unsupervised learning algorithm for classifying reviews as recommended (thumbs up) or not recommended (thumbs down). The classification of a review is predicted by the average semantic orientation of the phrases in the review that contain adjectives or adverbs. A phrase has a positive semantic orientation when it has good associations (e.g., "subtle nuances") and a negative semantic orientation when it has bad associations (e.g., "very cavalier"). In this paper, the semantic orientation of a phrase is calculated as the mutual information between the given phrase and the word "excellent" minus the mutual information between the given phrase and the word "poor". A review is classified as recommended if the average semantic orientation of its phrases is positive. The algorithm achieves an average accuracy of 74% when evaluated on 410 reviews from Epinions, sampled from four different domains (reviews of automobiles, banks, movies, and travel destinations). The accuracy ranges from 84% for automobile reviews to 66% for movie reviews.
+ref_count: 18
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-mining-the-web-for-synonyms-pmi-ir-versus-lsa-on-toefl
+  numCitedBy: 1477
+  pid: e517e1645708e7b050787bb4734002ea194a1958
+  show_ref_link: false
+  title: Mining the Web for Synonyms - PMI-IR versus LSA on TOEFL
+  year: 2001
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 1989-word-association-norms-mutual-information-and-lexicography
+  numCitedBy: 4376
+  pid: 9e2caa39ac534744a180972a30a320ad0ae41ea3
+  show_ref_link: false
+  title: Word Association Norms, Mutual Information and Lexicography
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-predicting-the-semantic-orientation-of-adjectives
+  numCitedBy: 1324
+  pid: b62b80384f402d38c3425db6a99899d1cb9c50c6
+  show_ref_link: false
+  title: Predicting the Semantic Orientation of Adjectives
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-a-solution-to-plato-s-problem-the-latent-semantic-analysis-theory-of-acquisition-induction-and-representation-of-knowledge
+  numCitedBy: 5800
+  pid: 68dd4b89ce1407372a29d05ca9e4e1a2e0513617
+  show_ref_link: false
+  title: A Solution to Plato's Problem - The Latent Semantic Analysis Theory of Acquisition, Induction, and Representation of Knowledge.
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-direction-based-text-interpretation-as-an-information-access-refinement
+  numCitedBy: 151
+  pid: 3c4e3462e3e9f0dd7b379f3e300ff47eefa803e5
+  show_ref_link: false
+  title: Direction-based text interpretation as an information access refinement
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-a-simple-approach-to-ordinal-classification
+  numCitedBy: 510
+  pid: 76fc26939d73c565431e1f38107a4245e739284e
+  show_ref_link: false
+  title: A Simple Approach to Ordinal Classification
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-part-of-speech-tagging-guidelines-for-the-penn-treebank-project-3rd-revision
+  numCitedBy: 483
+  pid: a145854ede2f62098bf4e92de1584ab270b676c9
+  show_ref_link: false
+  title: Part-of-Speech Tagging Guidelines for the Penn Treebank Project (3rd Revision)
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-effects-of-adjective-orientation-and-gradability-on-sentence-subjectivity
+  numCitedBy: 753
+  pid: 3a8d4fd2c30e5031a574bc25363c8639912b3bbd
+  show_ref_link: false
+  title: Effects of Adjective Orientation and Gradability on Sentence Subjectivity
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-some-advances-in-transformation-based-part-of-speech-tagging
+  numCitedBy: 624
+  pid: 733234e097dceb9011baa8914930861996eb0b5e
+  show_ref_link: false
+  title: Some Advances in Transformation-Based Part of Speech Tagging
+  year: 1994
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 2001-a-corpus-study-of-evaluative-and-speculative-language
+  numCitedBy: 76
+  pid: 473801b545a666f5409ef7f3cbc5725976902a5a
+  show_ref_link: false
+  title: A Corpus Study of Evaluative and Speculative Language
+  year: 2001
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1990-an-introduction-to-categorical-data-analysis
+  numCitedBy: 6976
+  pid: e217ab0cbe2d9db16c37756e84341fda7999520d
+  show_ref_link: false
+  title: An introduction to categorical data analysis
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-smokey-automatic-recognition-of-hostile-messages
+  numCitedBy: 314
+  pid: 9567b8782f7bcf3f94c7543e36062f77bf584f5b
+  show_ref_link: false
+  title: Smokey - Automatic Recognition of Hostile Messages
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-learning-subjective-adjectives-from-corpora
+  numCitedBy: 598
+  pid: 5581992944c66522dd1b11f8a6150aeef2d95b7a
+  show_ref_link: false
+  title: Learning Subjective Adjectives from Corpora
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-text-based-intelligent-systems-current-research-and-practice-in-information-extraction-and-retrieval
+  numCitedBy: 159
+  pid: 666ca7242ced9a8e89aa0624395704cfc647ad73
+  show_ref_link: false
+  title: Text-based intelligent systems - current research and practice in information extraction and retrieval
+  year: 1992
+slug: Thumbs-Up-or-Thumbs-Down-Semantic-Orientation-to-of-Turney
+title: Thumbs Up or Thumbs Down? Semantic Orientation Applied to Unsupervised Classification of Reviews
+url: https://www.semanticscholar.org/paper/Thumbs-Up-or-Thumbs-Down-Semantic-Orientation-to-of-Turney/9e7c7853a16a378cc24a082153b282257a9675b7?sort=total-citations
+venue: ACL
+year: 2002

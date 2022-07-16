@@ -1,0 +1,171 @@
+authors:
+- "D. Nist\xE9r"
+- "Henrik Stew\xE9nius"
+badges:
+- id: OPEN_ACCESS
+corpusId: 1654266
+fieldsOfStudy:
+- Computer Science
+meta_key: 2006-scalable-recognition-with-a-vocabulary-tree
+numCitedBy: 3895
+numCiting: 22
+paperAbstract: "A recognition scheme that scales efficiently to a large number of objects is presented. The efficiency and quality is exhibited in a live demonstration that recognizes CD-covers from a database of 40000 images of popular music CD\u2019s. The scheme builds upon popular techniques of indexing descriptors extracted from local regions, and is robust to background clutter and occlusion. The local region descriptors are hierarchically quantized in a vocabulary tree. The vocabulary tree allows a larger and more discriminatory vocabulary to be used efficiently, which we show experimentally leads to a dramatic improvement in retrieval quality. The most significant property of the scheme is that the tree directly defines the quantization. The quantization and the indexing are therefore fully integrated, essentially being one and the same. The recognition quality is evaluated through retrieval on a database with ground truth, showing the power of the vocabulary tree approach, going as high as 1 million images."
+ref_count: 22
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-sub-linear-indexing-for-large-scale-object-recognition
+  numCitedBy: 92
+  pid: e5e964959f65cd4976e56cf1356a563d442a96d3
+  show_ref_link: false
+  title: Sub-linear Indexing for Large Scale Object Recognition
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-video-google-a-text-retrieval-approach-to-object-matching-in-videos
+  numCitedBy: 6772
+  pid: 642e328cae81c5adb30069b680cf60ba6b475153
+  show_ref_link: true
+  title: Video Google - a text retrieval approach to object matching in videos
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-performance-evaluation-of-local-descriptors
+  numCitedBy: 3683
+  pid: 69401bfdafab7cde00bb8e5b2f6c28e9d72d8cfb
+  show_ref_link: true
+  title: A performance evaluation of local descriptors
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-the-pyramid-match-kernel-discriminative-classification-with-sets-of-image-features
+  numCitedBy: 1596
+  pid: 625bce34ec80d29242340400d916e799d2975430
+  show_ref_link: false
+  title: The pyramid match kernel - discriminative classification with sets of image features
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-shape-matching-and-object-recognition-using-low-distortion-correspondences
+  numCitedBy: 957
+  pid: 12c7fc38debaf3589e712973642246bd54fe63b3
+  show_ref_link: false
+  title: Shape matching and object recognition using low distortion correspondences
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-reliable-feature-matching-across-widely-separated-views
+  numCitedBy: 767
+  pid: 67f693427d956c0dbc822e7f3452aee8ca36204b
+  show_ref_link: false
+  title: Reliable feature matching across widely separated views
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2005-3d-object-modeling-and-recognition-using-local-affine-invariant-image-descriptors-and-multi-view-spatial-constraints
+  numCitedBy: 402
+  pid: a6f3b1d94193a76f9f06d26e67cb22fd31aa735f
+  show_ref_link: false
+  title: 3D Object Modeling and Recognition Using Local Affine-Invariant Image Descriptors and Multi-View Spatial Constraints
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-comparison-of-affine-region-detectors
+  numCitedBy: 3362
+  pid: 514b8c50a5b427e2aae75f877454ec9ab3cb4e99
+  show_ref_link: true
+  title: A Comparison of Affine Region Detectors
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-locality-sensitive-hashing-scheme-based-on-p-stable-distributions
+  numCitedBy: 2809
+  pid: 3f1e54ed3bd801766e1897d53a9fc962524dd3c2
+  show_ref_link: false
+  title: Locality-sensitive hashing scheme based on p-stable distributions
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2002-robust-wide-baseline-stereo-from-maximally-stable-extremal-regions
+  numCitedBy: 3933
+  pid: 9d5ea177c7fcaf88ec6f56cbeb3e9b74c08e98a3
+  show_ref_link: true
+  title: Robust Wide Baseline Stereo from Maximally Stable Extremal Regions
+  year: 2002
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2004-scale-affine-invariant-interest-point-detectors
+  numCitedBy: 4162
+  pid: 8b440596b28dc6683caa2b5f6fbca70963e5909e
+  show_ref_link: true
+  title: Scale & Affine Invariant Interest Point Detectors
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1994-shape-adapted-smoothing-in-estimation-of-3-d-depth-cues-from-affine-distortions-of-local-2-d-brightness-structure
+  numCitedBy: 116
+  pid: aacb988081214bfd87c9ae06310453d01119e326
+  show_ref_link: false
+  title: Shape-Adapted Smoothing in Estimation of 3-D Depth Cues from Affine Distortions of Local 2-D Brightness Structure
+  year: 1994
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1997-shape-adapted-smoothing-in-estimation-of-3-d-shape-cues-from-affine-deformations-of-local-2-d-brightness-structure
+  numCitedBy: 290
+  pid: f87bcdf4a0dc79f85e171ec26733424d0e459cd2
+  show_ref_link: false
+  title: Shape-adapted smoothing in estimation of 3-D shape cues from affine deformations of local 2-D brightness structure
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-approximate-nearest-neighbors-towards-removing-the-curse-of-dimensionality
+  numCitedBy: 4281
+  pid: 1955266a8a58d94e41ad0efe20d707c92a069e95
+  show_ref_link: false
+  title: Approximate nearest neighbors - towards removing the curse of dimensionality
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-evaluation-of-local-detectors-on-non-planar-scenes
+  numCitedBy: 39
+  pid: 1615084e49996c62badebb81372274f12881eef3
+  show_ref_link: false
+  title: Evaluation of local detectors on non-planar scenes
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-distinctive-image-features-from-scale-invariant-keypoints
+  numCitedBy: 25615
+  pid: 4cab9c4b571761203ed4c3a4c5a07dd615f57a91
+  show_ref_link: true
+  title: Distinctive Image Features from Scale-Invariant Keypoints
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-evaluation-of-interest-point-detectors
+  numCitedBy: 1730
+  pid: 2713e7a59105a832e20c01c3c202b9dcd2b5f889
+  show_ref_link: false
+  title: Evaluation of Interest Point Detectors
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-matching-widely-separated-views-based-on-affine-invariant-regions
+  numCitedBy: 733
+  pid: 2893662ec4001949b4afcba124492340216dfd7e
+  show_ref_link: false
+  title: Matching Widely Separated Views Based on Affine Invariant Regions
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-randomized-trees-for-real-time-keypoint-recognition
+  numCitedBy: 515
+  pid: d0faf378ca4d6227b47bb36254a57f7ceeb0c566
+  show_ref_link: false
+  title: Randomized trees for real-time keypoint recognition
+  year: 2005
+slug: "Scalable-Recognition-with-a-Vocabulary-Tree-Nist\xE9r-Stew\xE9nius"
+title: Scalable Recognition with a Vocabulary Tree
+url: "https://www.semanticscholar.org/paper/Scalable-Recognition-with-a-Vocabulary-Tree-Nist\xE9r-Stew\xE9nius/b3e7d3e37e67af7f4546b46051063bea1b62dbae?sort=total-citations"
+venue: 2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'06)
+year: 2006

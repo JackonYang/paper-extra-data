@@ -1,0 +1,505 @@
+authors:
+- Aishwarya Agrawal
+- Jiasen Lu
+- Stanislaw Antol
+- Margaret Mitchell
+- C. L. Zitnick
+- Devi Parikh
+- Dhruv Batra
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 3180429
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-vqa-visual-question-answering
+numCitedBy: 2930
+numCiting: 76
+paperAbstract: "We propose the task of free-form and open-ended Visual Question Answering (VQA). Given an image and a natural language question about the image, the task is to provide an accurate natural language answer. Mirroring real-world scenarios, such as helping the visually impaired, both the questions and answers are open-ended. Visual questions selectively target different areas of an image, including background details and underlying context. As a result, a system that succeeds at VQA typically needs a more detailed understanding of the image and complex reasoning than a system producing generic image captions. Moreover, VQA is amenable to automatic evaluation, since many open-ended answers contain only a few words or a closed set of answers that can be provided in a multiple-choice format. We provide a dataset containing $$\\sim $$\u223C0.25\_M images, $$\\sim $$\u223C0.76\_M questions, and $$\\sim $$\u223C10\_M answers (www.visualqa.org), and discuss the information it provides. Numerous baselines and methods for VQA are provided and compared with human performance. Our VQA demo is available on CloudCV (http://cloudcv.org/vqa)."
+ref_count: 76
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-yin-and-yang-balancing-and-answering-binary-visual-questions
+  numCitedBy: 244
+  pid: 5fa973b8d284145bf0ced9acf2913a74674260f6
+  show_ref_link: true
+  title: Yin and Yang - Balancing and Answering Binary Visual Questions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-ask-your-neurons-a-neural-based-approach-to-answering-questions-about-images
+  numCitedBy: 520
+  pid: bd7bd1d2945a58cdcc1797ba9698b8810fe68f60
+  show_ref_link: false
+  title: Ask Your Neurons - A Neural-Based Approach to Answering Questions about Images
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-are-you-talking-to-a-machine-dataset-and-methods-for-multilingual-image-question
+  numCitedBy: 409
+  pid: 2fcd5cff2b4743ea640c4af68bf4143f4a2cccb1
+  show_ref_link: false
+  title: Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-mctest-a-challenge-dataset-for-the-open-domain-machine-comprehension-of-text
+  numCitedBy: 602
+  pid: 564257469fa44cdb57e4272f85253efb9acfd69d
+  show_ref_link: false
+  title: MCTest - A Challenge Dataset for the Open-Domain Machine Comprehension of Text
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-exploring-models-and-data-for-image-question-answering
+  numCitedBy: 531
+  pid: 62a956d7600b10ca455076cd56e604dfd106072a
+  show_ref_link: false
+  title: Exploring Models and Data for Image Question Answering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-towards-ai-complete-question-answering-a-set-of-prerequisite-toy-tasks
+  numCitedBy: 917
+  pid: abb33d75dc297993fcc3fb75e0f4498f413eb4f6
+  show_ref_link: true
+  title: Towards AI-Complete Question Answering - A Set of Prerequisite Toy Tasks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-framing-image-description-as-a-ranking-task-data-models-and-evaluation-metrics-extended-abstract
+  numCitedBy: 930
+  pid: 9814df8bd00ba999c4d1e305a7e9bca579dc7c75
+  show_ref_link: false
+  title: Framing Image Description as a Ranking Task - Data, Models and Evaluation Metrics (Extended Abstract)
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-from-captions-to-visual-concepts-and-back
+  numCitedBy: 1110
+  pid: 15f102c3c9f4d4fe6ba105e221df48c6e8902b3b
+  show_ref_link: true
+  title: From captions to visual concepts and back
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-open-question-answering-over-curated-and-extracted-knowledge-bases
+  numCitedBy: 380
+  pid: f86ec155cce6259e5230aaad3b762343757feb1d
+  show_ref_link: false
+  title: Open question answering over curated and extracted knowledge bases
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-and-tell-a-neural-image-caption-generator
+  numCitedBy: 4535
+  pid: d4dc1012d780e8e2547237eb5a6dc7b1bf47d2f0
+  show_ref_link: true
+  title: Show and tell - A neural image caption generator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-multi-world-approach-to-question-answering-about-real-world-scenes-based-on-uncertain-input
+  numCitedBy: 556
+  pid: ac64fb7e6d2ddf236332ec9f371fe85d308c114d
+  show_ref_link: false
+  title: A Multi-World Approach to Question Answering about Real-World Scenes based on Uncertain Input
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-don-t-just-listen-use-your-imagination-leveraging-visual-common-sense-for-non-visual-tasks
+  numCitedBy: 63
+  pid: e0cff50a6ce27a8cb2b26ca586dea8a0b7cd67bd
+  show_ref_link: false
+  title: Don't just listen, use your imagination - Leveraging visual common sense for non-visual tasks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-visual-turing-test-for-computer-vision-systems
+  numCitedBy: 246
+  pid: 050da5d159fb0dd96143948e1cffeb3dec814673
+  show_ref_link: false
+  title: Visual Turing test for computer vision systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-paraphrase-driven-learning-for-open-question-answering
+  numCitedBy: 327
+  pid: c0be2ac2f45681f1852fc1d298af5dceb85834f4
+  show_ref_link: false
+  title: Paraphrase-Driven Learning for Open Question Answering
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-viske-visual-knowledge-extraction-and-question-answering-by-visual-verification-of-relation-phrases
+  numCitedBy: 113
+  pid: 495015d21c26eac9a6bd64c836ee3370283641ec
+  show_ref_link: false
+  title: VisKE - Visual knowledge extraction and question answering by visual verification of relation phrases
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-mind-s-eye-a-recurrent-visual-representation-for-image-caption-generation
+  numCitedBy: 433
+  pid: a72b8bbd039989db39769da836cdb287737deb92
+  show_ref_link: false
+  title: Mind's eye - A recurrent visual representation for image caption generation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-translating-video-content-to-natural-language-descriptions
+  numCitedBy: 314
+  pid: e8cd37fbd8bd5e690eef5861cf92af8e002d4533
+  show_ref_link: false
+  title: Translating Video Content to Natural Language Descriptions
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-visual-semantic-alignments-for-generating-image-descriptions
+  numCitedBy: 2619
+  pid: 55e022fb7581bb9e1fce678d21fb25ffbb3fbb88
+  show_ref_link: true
+  title: Deep Visual-Semantic Alignments for Generating Image Descriptions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-the-visual-interpretation-of-sentences
+  numCitedBy: 145
+  pid: 6c39f56c3c21c3972c362f8e752be57a50c41f4f
+  show_ref_link: false
+  title: Learning the Visual Interpretation of Sentences
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-common-sense-through-visual-abstraction
+  numCitedBy: 72
+  pid: 0b888196dda951287dddb60bd44798aab16d6fca
+  show_ref_link: false
+  title: Learning Common Sense through Visual Abstraction
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-what-are-you-talking-about-text-to-image-coreference
+  numCitedBy: 165
+  pid: 13549b4e6fffbb7932b7a83a8eb6be27e6a60eca
+  show_ref_link: false
+  title: What Are You Talking About? Text-to-Image Coreference
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-vizwiz-nearly-real-time-answers-to-visual-questions
+  numCitedBy: 535
+  pid: 8a960ea40fe7b32a1ee702a84f64ec1de5c3e7fe
+  show_ref_link: false
+  title: VizWiz - nearly real-time answers to visual questions
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-linking-people-in-videos-with-their-names-using-coreference-resolution
+  numCitedBy: 87
+  pid: a0a083c7bb23db507a40a736953b1cca5a33b16d
+  show_ref_link: false
+  title: Linking People in Videos with Their Names Using Coreference Resolution
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-zero-shot-learning-via-visual-abstraction
+  numCitedBy: 76
+  pid: d3ab56d83a616dba391a3373037aceb662bcda9d
+  show_ref_link: false
+  title: Zero-Shot Learning via Visual Abstraction
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-bringing-semantics-into-focus-using-visual-abstraction
+  numCitedBy: 173
+  pid: 051830b0ea58d1568f19ec3297e301d9789c9a76
+  show_ref_link: false
+  title: Bringing Semantics into Focus Using Visual Abstraction
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-youtube2text-recognizing-and-describing-arbitrary-activities-using-semantic-hierarchies-and-zero-shot-recognition
+  numCitedBy: 406
+  pid: d6a7a563640bf53953c4fda0997e4db176488510
+  show_ref_link: false
+  title: YouTube2Text - Recognizing and Describing Arbitrary Activities Using Semantic Hierarchies and Zero-Shot Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-cider-consensus-based-image-description-evaluation
+  numCitedBy: 2185
+  pid: 258986132bf17755fe8263e42429fe73218c1534
+  show_ref_link: true
+  title: CIDEr - Consensus-based image description evaluation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-every-picture-tells-a-story-generating-sentences-from-images
+  numCitedBy: 987
+  pid: eaaed23a2d94feb2f1c3ff22a25777c7a78f3141
+  show_ref_link: false
+  title: Every Picture Tells a Story - Generating Sentences from Images
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-adopting-abstract-images-for-semantic-scene-understanding
+  numCitedBy: 77
+  pid: f8403bf4e3060487cbc8acceb1fb256a4f1cfc76
+  show_ref_link: false
+  title: Adopting Abstract Images for Semantic Scene Understanding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-unifying-visual-semantic-embeddings-with-multimodal-neural-language-models
+  numCitedBy: 1061
+  pid: 2e36ea91a3c8fbff92be2989325531b4002e2afc
+  show_ref_link: true
+  title: Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-skip-thought-vectors
+  numCitedBy: 1934
+  pid: 6e795c6e9916174ae12349f5dc3f516570c17ce8
+  show_ref_link: true
+  title: Skip-Thought Vectors
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-joint-video-and-text-parsing-for-understanding-events-and-answering-queries
+  numCitedBy: 107
+  pid: 2935d8071583e46c5a895730c65d2bd213757c07
+  show_ref_link: false
+  title: Joint Video and Text Parsing for Understanding Events and Answering Queries
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-comparing-automatic-evaluation-measures-for-image-description
+  numCitedBy: 113
+  pid: 52f86811b57034ba5c0478b37cab101d9a84024a
+  show_ref_link: false
+  title: Comparing Automatic Evaluation Measures for Image Description
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-explain-images-with-multimodal-recurrent-neural-networks
+  numCitedBy: 323
+  pid: 82fdca623c65b6acf6b06bdeed48b2a9ebdb80a9
+  show_ref_link: false
+  title: Explain Images with Multimodal Recurrent Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-baby-talk-understanding-and-generating-simple-image-descriptions
+  numCitedBy: 483
+  pid: 169b847e69c35cfd475eb4dcc561a24de11762ca
+  show_ref_link: false
+  title: Baby talk - Understanding and generating simple image descriptions
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-neil-extracting-visual-knowledge-from-web-data
+  numCitedBy: 440
+  pid: 53e4ab9730e983242a3409c7bf1af945041a6563
+  show_ref_link: false
+  title: NEIL - Extracting Visual Knowledge from Web Data
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20013
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-long-term-recurrent-convolutional-networks-for-visual-recognition-and-description
+  numCitedBy: 4113
+  pid: f01fc808592ea7c473a69a6e7484040a435f36d9
+  show_ref_link: true
+  title: Long-term recurrent convolutional networks for visual recognition and description
+  year: 2015
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 2013-typicality-and-object-reference
+  numCitedBy: 34
+  pid: 92704fd7a9dec32ddbea30516262cb7eaa7ee72e
+  show_ref_link: false
+  title: Typicality and Object Reference
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-conceptnet-a-practical-commonsense-reasoning-tool-kit
+  numCitedBy: 1552
+  pid: b3fea597033a46d5ae282464a8f16d6715187e70
+  show_ref_link: false
+  title: ConceptNet - A Practical Commonsense Reasoning Tool-Kit
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-distributed-representations-of-words-and-phrases-and-their-compositionality
+  numCitedBy: 26176
+  pid: 87f40e6f3022adbc1f1905e3e506abad05a9964f
+  show_ref_link: true
+  title: Distributed Representations of Words and Phrases and their Compositionality
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-hierarchical-semantic-indexing-for-large-scale-image-retrieval
+  numCitedBy: 222
+  pid: f8b5dee83543369488aff195564f6b90c6f9db49
+  show_ref_link: false
+  title: Hierarchical semantic indexing for large scale image retrieval
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-midge-generating-image-descriptions-from-computer-vision-detections
+  numCitedBy: 387
+  pid: 355de7460120ddc1150d9ce3756f9848983f7ff4
+  show_ref_link: false
+  title: Midge - Generating Image Descriptions From Computer Vision Detections
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13775
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-feature-rich-part-of-speech-tagging-with-a-cyclic-dependency-network
+  numCitedBy: 3442
+  pid: eb42a490cf4f186d3383c92963817d100afd81e2
+  show_ref_link: true
+  title: Feature-Rich Part-of-Speech Tagging with a Cyclic Dependency Network
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-microsoft-coco-captions-data-collection-and-evaluation-server
+  numCitedBy: 1189
+  pid: 696ca58d93f6404fea0fc75c62d1d7b378f47628
+  show_ref_link: true
+  title: Microsoft COCO Captions - Data Collection and Evaluation Server
+  year: 2015
+- fieldsOfStudy:
+  - Art
+  meta_key: 1990-building-large-knowledge-based-systems-representation-and-inference-in-the-cyc-project
+  numCitedBy: 1578
+  pid: cd4ba23c89b5b4eecd9b542e79dbdc195de65f6d
+  show_ref_link: false
+  title: Building Large Knowledge-Based Systems - Representation and Inference in the Cyc Project
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-freebase-a-collaboratively-created-graph-database-for-structuring-human-knowledge
+  numCitedBy: 3843
+  pid: 1976c9eeccc7115d18a04f1e7fb5145db6b96002
+  show_ref_link: true
+  title: Freebase - a collaboratively created graph database for structuring human knowledge
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dynamic-wordclouds-and-vennclouds-for-exploratory-data-analysis
+  numCitedBy: 19
+  pid: d8e8f7311d52871d86baf7571b87107e23ac99f3
+  show_ref_link: false
+  title: Dynamic Wordclouds and Vennclouds for Exploratory Data Analysis
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-building-large-knowledge-based-systems
+  numCitedBy: 784
+  pid: bdc4771b217252c2460281d19fc01d3e63888f4d
+  show_ref_link: false
+  title: Building large knowledge-based systems
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-cloudcv-large-scale-distributed-computer-vision-as-a-cloud-service
+  numCitedBy: 46
+  pid: 2019216f08b576e1d5503d291a9cca3d3ceafb12
+  show_ref_link: false
+  title: CloudCV - Large-Scale Distributed Computer Vision as a Cloud Service
+  year: 2015
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2013-generating-expressions-that-refer-to-visible-objects
+  numCitedBy: 63
+  pid: c40e743d12ae387cf844bdfd2e8a2c7c11add28a
+  show_ref_link: false
+  title: Generating Expressions that Refer to Visible Objects
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-reporting-bias-and-knowledge-extraction
+  numCitedBy: 17
+  pid: 46e123a8ba5d4277b935c97529d48f2e678a9b45
+  show_ref_link: false
+  title: Reporting Bias and Knowledge Extraction
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-douglas-b-lenat-and-r-v-guha-building-large-knowledge-based-systems-representation-and-inference-in-the-cyc-project-addison-wesley-1990
+  numCitedBy: 400
+  pid: 130abd596735a6adffb55a0a6a47bc285ddb365e
+  show_ref_link: false
+  title: Douglas B. Lenat and R. V. Guha - Building Large Knowledge-Based Systems, Representation and Inference in the Cyc Project, Addison-Wesley (1990).
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-visual-madlibs-fill-in-the-blank-description-generation-and-question-answering
+  numCitedBy: 122
+  pid: ced9f7178f8032d3408fcba493c02eb48e8a8636
+  show_ref_link: false
+  title: Visual Madlibs - Fill in the Blank Description Generation and Question Answering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-referitgame-referring-to-objects-in-photographs-of-natural-scenes
+  numCitedBy: 567
+  pid: 92c141447f51b6732242376164ff961e464731c8
+  show_ref_link: false
+  title: ReferItGame - Referring to Objects in Photographs of Natural Scenes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-what-are-you-talking-about
+  numCitedBy: 44
+  pid: 1879caf0debda3e10c49780669422f12e54af000
+  show_ref_link: false
+  title: What are you talking about?
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-toward-an-architecture-for-never-ending-language-learning
+  numCitedBy: 1744
+  pid: f7312b8568d63bbbb239583ed282f46cdc40978d
+  show_ref_link: false
+  title: Toward an Architecture for Never-Ending Language Learning
+  year: 2010
+slug: VQA:-Visual-Question-Answering-Agrawal-Lu
+title: VQA - Visual Question Answering
+url: https://www.semanticscholar.org/paper/VQA:-Visual-Question-Answering-Agrawal-Lu/97ad70a9fa3f99adf18030e5e38ebe3d90daa2db?sort=total-citations
+venue: 2015 IEEE International Conference on Computer Vision (ICCV)
+year: 2015

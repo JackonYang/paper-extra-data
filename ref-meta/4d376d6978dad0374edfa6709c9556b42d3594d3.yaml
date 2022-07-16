@@ -1,0 +1,227 @@
+authors:
+- S. Ioffe
+- Christian Szegedy
+badges:
+- id: OPEN_ACCESS
+corpusId: 5808102
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+numCitedBy: 29420
+numCiting: 33
+paperAbstract: 'Training Deep Neural Networks is complicated by the fact that the distribution of each layer''s inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phenomenon as internal covariate shift, and address the problem by normalizing layer inputs. Our method draws its strength from making normalization a part of the model architecture and performing the normalization for each training mini-batch. Batch Normalization allows us to use much higher learning rates and be less careful about initialization, and in some cases eliminates the need for Dropout. Applied to a state-of-the-art image classification model, Batch Normalization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensemble of batch-normalized networks, we improve upon the best published result on ImageNet classification: reaching 4.82% top-5 test error, exceeding the accuracy of human raters.'
+ref_count: 33
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-deep-learning-made-easier-by-linear-transformations-in-perceptrons
+  numCitedBy: 178
+  pid: b8ef1230a5cc9ea7cd8358f1ae7d1af97813ba14
+  show_ref_link: false
+  title: Deep Learning Made Easier by Linear Transformations in Perceptrons
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-importance-of-initialization-and-momentum-in-deep-learning
+  numCitedBy: 3575
+  pid: aa7bfd2304201afbb19971ebde87b17e40242e91
+  show_ref_link: true
+  title: On the importance of initialization and momentum in deep learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28285
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-understanding-the-difficulty-of-training-deep-feedforward-neural-networks
+  numCitedBy: 12495
+  pid: b71ac1e9fb49420d13e084ac67254a0bbd40f83f
+  show_ref_link: true
+  title: Understanding the difficulty of training deep feedforward neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-parallel-training-of-deep-neural-networks-with-natural-gradient-and-parameter-averaging
+  numCitedBy: 133
+  pid: 4030a62e75313110dc4a4c78483f4459dc4526bc
+  show_ref_link: false
+  title: Parallel training of Deep Neural Networks with Natural Gradient and Parameter Averaging
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-mean-normalized-stochastic-gradient-for-large-scale-deep-learning
+  numCitedBy: 61
+  pid: 04f16203f1e66e8d2151dc359fd0405a0f482da7
+  show_ref_link: false
+  title: Mean-normalized stochastic gradient for large-scale deep learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-natural-neural-networks
+  numCitedBy: 148
+  pid: 941e30afcae061a115301c65a1afe49d8856f14e
+  show_ref_link: false
+  title: Natural Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12454
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-knowledge-matters-importance-of-prior-information-for-optimization
+  numCitedBy: 145
+  pid: 523b12db4004b89284387f978c2af8ae0e79d54b
+  show_ref_link: false
+  title: Knowledge Matters - Importance of Prior Information for Optimization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-large-scale-distributed-deep-networks
+  numCitedBy: 3039
+  pid: 3127190433230b3dc1abd0680bb58dced4bcd90e
+  show_ref_link: true
+  title: Large Scale Distributed Deep Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-exact-solutions-to-the-nonlinear-dynamics-of-learning-in-deep-linear-neural-networks
+  numCitedBy: 1267
+  pid: 99c970348b8f70ce23d6641e201904ea49266b6e
+  show_ref_link: true
+  title: Exact solutions to the nonlinear dynamics of learning in deep linear neural networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3539
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-adaptive-subgradient-methods-for-online-learning-and-stochastic-optimization
+  numCitedBy: 8055
+  pid: 413c1142de9d91804d6d11c67ff3fed59c9fc279
+  show_ref_link: true
+  title: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35423
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-difficulty-of-training-recurrent-neural-networks
+  numCitedBy: 3818
+  pid: 84069287da0a6b488b8c933f3cb5be759cb6237e
+  show_ref_link: true
+  title: On the difficulty of training recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12891
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-a-literature-survey-on-domain-adaptation-of-statistical-classifiers
+  numCitedBy: 244
+  pid: 73e1644ad4aab9e11c1e46eea513141c4930602d
+  show_ref_link: false
+  title: A Literature Survey on Domain Adaptation of Statistical Classifiers
+  year: 2007
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-improving-predictive-inference-under-covariate-shift-by-weighting-the-log-likelihood-function
+  numCitedBy: 1421
+  pid: 235723a15c86c369c99a42e7b666dfe156ad2cba
+  show_ref_link: false
+  title: Improving predictive inference under covariate shift by weighting the log-likelihood function
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-image-scaling-up-image-recognition
+  numCitedBy: 309
+  pid: f5ce3abf942cdd685fb0f290f3e741f7b4749f0a
+  show_ref_link: false
+  title: Deep Image - Scaling up Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-nonlinear-image-representation-using-divisive-normalization
+  numCitedBy: 155
+  pid: 25d92fe0ab92ae57bd8fed87c95fa9a207ec61aa
+  show_ref_link: false
+  title: Nonlinear image representation using divisive normalization
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-independent-component-analysis-algorithms-and-applications
+  numCitedBy: 7627
+  pid: 577d19a115f9ef6f002483fcf88adbb3b5479556
+  show_ref_link: false
+  title: Independent component analysis - algorithms and applications
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25650
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2005-critical-points-of-the-singular-value-decomposition
+  numCitedBy: 17
+  pid: a29556b09f14253b4b52cd8375a3e08202b40da3
+  show_ref_link: false
+  title: Critical Points of the Singular Value Decomposition
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-efficient-backprop
+  numCitedBy: 2638
+  pid: b87274e6d9aa4e6ba5148898aa92941617d2b6ed
+  show_ref_link: true
+  title: Efficient BackProp
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-convergence-analysis-of-log-linear-training
+  numCitedBy: 51
+  pid: d530d20a4d5c09ff2e51e31e4980d1675a9be2ba
+  show_ref_link: false
+  title: A Convergence Analysis of Log-Linear Training
+  year: 2011
+slug: Batch-Normalization:-Accelerating-Deep-Network-by-Ioffe-Szegedy
+title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+url: https://www.semanticscholar.org/paper/Batch-Normalization:-Accelerating-Deep-Network-by-Ioffe-Szegedy/4d376d6978dad0374edfa6709c9556b42d3594d3?sort=total-citations
+venue: ICML
+year: 2015

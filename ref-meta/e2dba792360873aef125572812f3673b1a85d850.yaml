@@ -1,0 +1,426 @@
+authors:
+- Piotr Bojanowski
+- Edouard Grave
+- Armand Joulin
+- Tomas Mikolov
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 207556454
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-enriching-word-vectors-with-subword-information
+numCitedBy: 6664
+numCiting: 56
+paperAbstract: Continuous word representations, trained on large unlabeled corpora are useful for many natural language processing tasks. Popular models that learn such representations ignore the morphology of words, by assigning a distinct vector to each word. This is a limitation, especially for languages with large vocabularies and many rare words. In this paper, we propose a new approach based on the skipgram model, where each word is represented as a bag of character n-grams. A vector representation is associated to each character n-gram; words being represented as the sum of these representations. Our method is fast, allowing to train models on large corpora quickly and allows us to compute word representations for words that did not appear in the training data. We evaluate our word representations on nine different languages, both on word similarity and analogy tasks. By comparing to recently proposed morphological word representations, we show that our vectors achieve state-of-the-art performance on these tasks.
+ref_count: 56
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-better-word-representations-with-recursive-neural-networks-for-morphology
+  numCitedBy: 796
+  pid: 53ab89807caead278d3deb7b6a4180b277d3cb77
+  show_ref_link: false
+  title: Better Word Representations with Recursive Neural Networks for Morphology
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-co-learning-of-word-representations-and-morpheme-representations
+  numCitedBy: 95
+  pid: 750f26d613d3bda4ce043944aa3ef358b0c5de68
+  show_ref_link: false
+  title: Co-learning of Word Representations and Morpheme Representations
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-character-level-representations-for-part-of-speech-tagging
+  numCitedBy: 529
+  pid: f70391f9a6aeec75bc52b9fe38588b9d0b4d40c6
+  show_ref_link: false
+  title: Learning Character-level Representations for Part-of-Speech Tagging
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-joint-learning-of-character-and-word-embeddings
+  numCitedBy: 235
+  pid: 1e662c87a36779dbe9f56f7ffd3ade756059d094
+  show_ref_link: false
+  title: Joint Learning of Character and Word Embeddings
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-efficient-estimation-of-word-representations-in-vector-space
+  numCitedBy: 22055
+  pid: 330da625c15427c6e42ccfa3b747fb29e5835bf0
+  show_ref_link: true
+  title: Efficient Estimation of Word Representations in Vector Space
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-distributed-representations-of-words-and-phrases-and-their-compositionality
+  numCitedBy: 26176
+  pid: 87f40e6f3022adbc1f1905e3e506abad05a9964f
+  show_ref_link: true
+  title: Distributed Representations of Words and Phrases and their Compositionality
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-knet-a-general-framework-for-learning-word-embedding-using-morphological-knowledge
+  numCitedBy: 15
+  pid: 976ac6f1d38e6c45d203ba421a1ded8d38477252
+  show_ref_link: false
+  title: KNET - A General Framework for Learning Word Embedding Using Morphological Knowledge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-finding-function-in-form-compositional-character-models-for-open-vocabulary-word-representation
+  numCitedBy: 582
+  pid: 6dab1c6491929d396e9e5463bc2e87af88602aa2
+  show_ref_link: false
+  title: Finding Function in Form - Compositional Character Models for Open Vocabulary Word Representation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-word-embeddings-go-to-italy-a-comparison-of-models-and-training-datasets
+  numCitedBy: 45
+  pid: b04a6db56cb66429e5216cb505f041f05146b4a5
+  show_ref_link: false
+  title: Word Embeddings Go to Italy - A Comparison of Models and Training Datasets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-achieving-open-vocabulary-neural-machine-translation-with-hybrid-word-character-models
+  numCitedBy: 336
+  pid: 733b821faeebe49b6efcf5369e3b9902b476529e
+  show_ref_link: false
+  title: Achieving Open Vocabulary Neural Machine Translation with Hybrid Word-Character Models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-machine-translation-of-rare-words-with-subword-units
+  numCitedBy: 4834
+  pid: 1af68821518f03568f913ab03fc02080247a27ff
+  show_ref_link: true
+  title: Neural Machine Translation of Rare Words with Subword Units
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-letter-n-gram-based-input-encoding-for-continuous-space-language-models
+  numCitedBy: 20
+  pid: 3d5236e301aaccf2906aabc85a4d2be9dfc0b815
+  show_ref_link: false
+  title: Letter N-Gram-based Input Encoding for Continuous Space Language Models
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-character-aware-neural-language-models
+  numCitedBy: 1429
+  pid: 891ce1687e2befddd19f54e4eef1d3f39c8dbaf7
+  show_ref_link: true
+  title: Character-Aware Neural Language Models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-compositional-morphology-for-word-representations-and-language-modelling
+  numCitedBy: 221
+  pid: 46f418bf6fab132f193661226c5c27d67f870ea5
+  show_ref_link: false
+  title: Compositional Morphology for Word Representations and Language Modelling
+  year: 2014
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 2015-multilingual-reliability-and-semantic-structure-of-continuous-word-spaces
+  numCitedBy: 49
+  pid: db0b31ea7a04315ed9d751ff9c9185decb9827dc
+  show_ref_link: false
+  title: "Multilingual Reliability and \u201CSemantic\u201D Structure of Continuous Word Spaces"
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-distributional-memory-a-general-framework-for-corpus-based-semantics
+  numCitedBy: 618
+  pid: 553fb89d5858826c02f26e94262e8958debc777e
+  show_ref_link: false
+  title: Distributional Memory - A General Framework for Corpus-Based Semantics
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-producing-high-dimensional-semantic-spaces-from-lexical-co-occurrence
+  numCitedBy: 1724
+  pid: c7093913b4daa0f34d9d58a41ceb0475cc3cc9f4
+  show_ref_link: false
+  title: Producing high-dimensional semantic spaces from lexical co-occurrence
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-charagram-embedding-words-and-sentences-via-character-n-grams
+  numCitedBy: 172
+  pid: 12e9d005c77f76e344361f79c4b008034ae547eb
+  show_ref_link: false
+  title: Charagram - Embedding Words and Sentences via Character n-grams
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-alternative-structures-for-character-level-rnns
+  numCitedBy: 44
+  pid: 3da0d432d73d19c71fb72e8ff0cb431d1b3c080a
+  show_ref_link: false
+  title: Alternative structures for character-level RNNs
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  - Linguistics
+  meta_key: 2015-morphological-word-embeddings
+  numCitedBy: 86
+  pid: ec27e759576f14addeace610304365d96737f644
+  show_ref_link: false
+  title: Morphological Word-Embeddings
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-unified-architecture-for-natural-language-processing-deep-neural-networks-with-multitask-learning
+  numCitedBy: 5042
+  pid: 57458bc1cffe5caa45a885af986d70f723f406b4
+  show_ref_link: true
+  title: A unified architecture for natural language processing - deep neural networks with multitask learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-comparison-of-semantic-similarity-for-different-languages-using-the-google-n-gram-corpus-and-second-order-co-occurrence-measures
+  numCitedBy: 46
+  pid: 5d8b687058a0519a47f673dd88d1dc2856571286
+  show_ref_link: false
+  title: Comparison of Semantic Similarity for Different Languages Using the Google n-gram Corpus and Second-Order Co-occurrence Measures
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-normalizing-tweets-with-edit-scripts-and-recurrent-neural-embeddings
+  numCitedBy: 75
+  pid: 3779a1a74e9901db6d99c62fa36ef8475f4a4b35
+  show_ref_link: false
+  title: Normalizing tweets with edit scripts and recurrent neural embeddings
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-subword-language-modeling-with-neural-networks
+  numCitedBy: 180
+  pid: 1fd7fc06653723b05abe5f3d1de393ddcf6bdddb
+  show_ref_link: false
+  title: SUBWORD LANGUAGE MODELING WITH NEURAL NETWORKS
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-dimensions-of-meaning
+  numCitedBy: 455
+  pid: e569d99f3a0fcfa038631dda2b44c73a6e8e97b8
+  show_ref_link: false
+  title: Dimensions of meaning
+  year: 1992
+- fieldsOfStudy:
+  - Linguistics
+  - Computer Science
+  meta_key: 2010-morphology-based-and-sub-word-language-modeling-for-turkish-speech-recognition
+  numCitedBy: 42
+  pid: 805ccb88e942346413b8f951177fbe3715866eb3
+  show_ref_link: false
+  title: Morphology-based and sub-word language modeling for Turkish speech recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-improved-transition-based-parsing-by-modeling-characters-instead-of-words-with-lstms
+  numCitedBy: 285
+  pid: 96526726f87233fb017f6ea9483090f04e0f0530
+  show_ref_link: false
+  title: Improved Transition-based Parsing by Modeling Characters instead of Words with LSTMs
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  - Linguistics
+  meta_key: 2013-compositional-ly-derived-representations-of-morphologically-complex-words-in-distributional-semantics
+  numCitedBy: 102
+  pid: b4fcb3921b42d156a812484dcabf60c3f4410d42
+  show_ref_link: false
+  title: Compositional-ly Derived Representations of Morphologically Complex Words in Distributional Semantics
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-factored-neural-language-models
+  numCitedBy: 98
+  pid: a73ae2ce1cfafae61238b3fdb1bbb61093962b4d
+  show_ref_link: false
+  title: Factored Neural Language Models
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-word-space
+  numCitedBy: 307
+  pid: 5d24afe3a62331ebfad400c3fec77c836d2b99db
+  show_ref_link: false
+  title: Word Space
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-from-frequency-to-meaning-vector-space-models-of-semantics
+  numCitedBy: 2725
+  pid: 3a0e788268fafb23ab20da0e98bb578b06830f7d
+  show_ref_link: false
+  title: From Frequency to Meaning - Vector Space Models of Semantics
+  year: 2010
+- fieldsOfStudy:
+  - Linguistics
+  - Computer Science
+  meta_key: 2016-new-word-analogy-corpus-for-exploring-embeddings-of-czech-words
+  numCitedBy: 19
+  pid: aaf402a21587e242446606d58cf6193f91e344b0
+  show_ref_link: false
+  title: New word analogy corpus for exploring embeddings of Czech words
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-convolutional-neural-networks-for-sentiment-analysis-of-short-texts
+  numCitedBy: 1113
+  pid: b0aca3e7877c3c20958b0fae5cbf2dd602104859
+  show_ref_link: false
+  title: Deep Convolutional Neural Networks for Sentiment Analysis of Short Texts
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-unsupervised-morphology-induction-using-word-embeddings
+  numCitedBy: 115
+  pid: 39ef3906b13ac2758ebc0d8f75e738d4f6314b39
+  show_ref_link: false
+  title: Unsupervised Morphology Induction Using Word Embeddings
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-generating-text-with-recurrent-neural-networks
+  numCitedBy: 1258
+  pid: e0e5dd8b206806372b3e20b9a2fbdbd0cf9ce1de
+  show_ref_link: true
+  title: Generating Text with Recurrent Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-using-the-structure-of-a-conceptual-network-in-computing-semantic-relatedness
+  numCitedBy: 130
+  pid: 2ebe88fab46e53e980b5aef28c414c04d133fc6f
+  show_ref_link: false
+  title: Using the Structure of a Conceptual Network in Computing Semantic Relatedness
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-indexing-by-latent-semantic-analysis
+  numCitedBy: 7201
+  pid: 20a80a7356859daa4170fb4da6b87b84adbb547f
+  show_ref_link: false
+  title: Indexing by Latent Semantic Analysis
+  year: 1990
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 1954-distributional-structure
+  numCitedBy: 2711
+  pid: decd9bc0385612bdf936928206d83730718e737e
+  show_ref_link: false
+  title: Distributional Structure
+  year: 1954
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-character-level-convolutional-networks-for-text-classification
+  numCitedBy: 3501
+  pid: 51a55df1f023571a7e07e338ee45a3e3d66ef73e
+  show_ref_link: true
+  title: Character-level Convolutional Networks for Text Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-cross-lingual-semantic-relatedness-using-encyclopedic-knowledge
+  numCitedBy: 136
+  pid: e4443628698e77b7c25f61410cc45384dee80a99
+  show_ref_link: false
+  title: Cross-lingual Semantic Relatedness Using Encyclopedic Knowledge
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-automatically-creating-datasets-for-measures-of-semantic-relatedness
+  numCitedBy: 77
+  pid: e69b28380b4efc695a60054f85e8c46a9731c35b
+  show_ref_link: false
+  title: Automatically Creating Datasets for Measures of Semantic Relatedness
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-generating-sequences-with-recurrent-neural-networks
+  numCitedBy: 3163
+  pid: 89b1f4740ae37fd04f6ac007577bdd34621f0861
+  show_ref_link: true
+  title: Generating Sequences With Recurrent Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-learning-representations-by-back-propagating-errors
+  numCitedBy: 20383
+  pid: 052b1d8ce63b07fec3de9dbb583772d860b7c769
+  show_ref_link: false
+  title: Learning representations by back-propagating errors
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-placing-search-in-context-the-concept-revisited
+  numCitedBy: 1726
+  pid: e0c01df98a6b633b25c96c1a99b713ac96f1c5be
+  show_ref_link: false
+  title: Placing search in context - the concept revisited
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-neurocomputing-foundations-of-research
+  numCitedBy: 988
+  pid: 1d0e5a21512d2aea34026f83b1ff86ea30b8c0d6
+  show_ref_link: false
+  title: Neurocomputing - Foundations of Research
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent
+  numCitedBy: 2023
+  pid: 36f49b05d764bf5c10428b082c2d96c13c4203b9
+  show_ref_link: false
+  title: Hogwild - A Lock-Free Approach to Parallelizing Stochastic Gradient Descent
+  year: 2011
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 2015-identifying-opportunities-for-valuable-encounters-toward-context-aware-social-matching-systems
+  numCitedBy: 56
+  pid: 885446efab3abded405264f01c3ff731490746c9
+  show_ref_link: false
+  title: Identifying Opportunities for Valuable Encounters - Toward Context-Aware Social Matching Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1904-the-proof-and-measurement-of-association-between-two-things
+  numCitedBy: 240
+  pid: 1bec4d526a2490df741011b598326727fcdf1004
+  show_ref_link: false
+  title: The Proof and Measurement of Association between Two Things.
+  year: 1904
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-human-and-machine-judgements-for-russian-semantic-relatedness
+  numCitedBy: 45
+  pid: 40947612162cc4644f9489721ec1ca94fe7e765c
+  show_ref_link: false
+  title: Human and Machine Judgements for Russian Semantic Relatedness
+  year: 2016
+- fieldsOfStudy:
+  - Education
+  meta_key: 2010-the-proof-and-measurement-of-association-between-two-things
+  numCitedBy: 3624
+  pid: 751b04d346fc9a70781bbfea23953f424ff7deec
+  show_ref_link: false
+  title: The proof and measurement of association between two things.
+  year: 2010
+slug: Enriching-Word-Vectors-with-Subword-Information-Bojanowski-Grave
+title: Enriching Word Vectors with Subword Information
+url: https://www.semanticscholar.org/paper/Enriching-Word-Vectors-with-Subword-Information-Bojanowski-Grave/e2dba792360873aef125572812f3673b1a85d850?sort=total-citations
+venue: Transactions of the Association for Computational Linguistics
+year: 2017

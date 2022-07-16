@@ -1,0 +1,327 @@
+authors:
+- Joseph Redmon
+- S. Divvala
+- Ross B. Girshick
+- Ali Farhadi
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 206594738
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-you-only-look-once-unified-real-time-object-detection
+numCitedBy: 16710
+numCiting: 50
+paperAbstract: We present YOLO, a new approach to object detection. Prior work on object detection repurposes classifiers to perform detection. Instead, we frame object detection as a regression problem to spatially separated bounding boxes and associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance. Our unified architecture is extremely fast. Our base YOLO model processes images in real-time at 45 frames per second. A smaller version of the network, Fast YOLO, processes an astounding 155 frames per second while still achieving double the mAP of other real-time detectors. Compared to state-of-the-art detection systems, YOLO makes more localization errors but is less likely to predict false positives on background. Finally, YOLO learns very general representations of objects. It outperforms other detection methods, including DPM and R-CNN, when generalizing from natural images to other domains like artwork.
+ref_count: 50
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-simultaneous-detection-and-segmentation
+  numCitedBy: 1066
+  pid: 342786659379879f58bf5c4ff43c84c83a6a7389
+  show_ref_link: true
+  title: Simultaneous Detection and Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17210
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-scalable-object-detection-using-deep-neural-networks
+  numCitedBy: 968
+  pid: 67fc0ec1d26f334b05fe66d2b7e0767b60fb73b6
+  show_ref_link: false
+  title: Scalable Object Detection Using Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 32899
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-robust-real-time-object-detection
+  numCitedBy: 4021
+  pid: 4cb4d685b47001652b29dc41c1b3e786277e7647
+  show_ref_link: true
+  title: Robust Real-time Object Detection
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-learning-to-localize-objects-with-structured-output-regression
+  numCitedBy: 366
+  pid: 8483da1bc3302c34b437baf8e329390da8f2c9bf
+  show_ref_link: false
+  title: Learning to Localize Objects with Structured Output Regression
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks
+  numCitedBy: 4363
+  pid: 1109b663453e78a59e4f66446d71720ac58cec25
+  show_ref_link: true
+  title: OverFeat - Integrated Recognition, Localization and Detection using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-fast-accurate-detection-of-100-000-object-classes-on-a-single-machine
+  numCitedBy: 341
+  pid: 774f67303ea4a3a94874f08cf9a9dacc69b40782
+  show_ref_link: false
+  title: Fast, Accurate Detection of 100,000 Object Classes on a Single Machine
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-object-detection-with-discriminatively-trained-part-based-models
+  numCitedBy: 9385
+  pid: e79272fe3d65197100eae8be9fec6469107969ae
+  show_ref_link: true
+  title: Object Detection with Discriminatively Trained Part Based Models
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-diagnosing-error-in-object-detectors
+  numCitedBy: 445
+  pid: 9f877575217f0868f496a6123954b2ea933fb21e
+  show_ref_link: false
+  title: Diagnosing Error in Object Detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-object-detection-via-a-multi-region-and-semantic-segmentation-aware-cnn-model
+  numCitedBy: 611
+  pid: e3ea1c7a3c6cc15590ab5e62a171536fe01b9b1c
+  show_ref_link: false
+  title: Object Detection via a Multi-region and Semantic Segmentation-Aware CNN Model
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-selective-search-for-object-recognition
+  numCitedBy: 4771
+  pid: 38b6540ddd5beebffd05047c78183f7575559fb2
+  show_ref_link: true
+  title: Selective Search for Object Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-a-general-framework-for-object-detection
+  numCitedBy: 1614
+  pid: 76f560991d56ad689ec32f9e9d13291e0193f4cf
+  show_ref_link: false
+  title: A general framework for object detection
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-object-detection-networks-on-convolutional-feature-maps
+  numCitedBy: 315
+  pid: f075f89b4f4026748cbf2fb9f989a9934c42ee8f
+  show_ref_link: true
+  title: Object Detection Networks on Convolutional Feature Maps
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-edge-boxes-locating-object-proposals-from-edges
+  numCitedBy: 2419
+  pid: b183947ee15718b45546eda6b01e179b9a95421f
+  show_ref_link: true
+  title: Edge Boxes - Locating Object Proposals from Edges
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-do-more-dropouts-in-pool5-feature-maps-for-better-object-detection
+  numCitedBy: 5
+  pid: 0a8dad1cb9004ccf45611fe4d2652a82cd5326df
+  show_ref_link: false
+  title: Do More Dropouts in Pool5 Feature Maps for Better Object Detection
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-the-fastest-deformable-part-model-for-object-detection
+  numCitedBy: 251
+  pid: 2c58463e1f88ab5063c761648251fdc1929dfa6e
+  show_ref_link: false
+  title: The Fastest Deformable Part Model for Object Detection
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-the-pascal-visual-object-classes-challenge-a-retrospective
+  numCitedBy: 3790
+  pid: 616b246e332573af1f4859aa91440280774c183a
+  show_ref_link: true
+  title: The Pascal Visual Object Classes Challenge - A Retrospective
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-r-cnn-minus-r
+  numCitedBy: 84
+  pid: a0afd098e7f56ae5e68ee2c95c2566af28064d54
+  show_ref_link: false
+  title: R-CNN minus R
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-towards-unified-object-detection-and-semantic-segmentation
+  numCitedBy: 60
+  pid: aff7cad88753aa4af0b801c9ae32980fcddd6284
+  show_ref_link: false
+  title: Towards Unified Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+  numCitedBy: 4251
+  pid: b8de958fead0d8a9619b55c7299df3257c624a96
+  show_ref_link: true
+  title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25650
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-robust-real-time-face-detection
+  numCitedBy: 11305
+  pid: b09ec0b350f8352bce46a2f5bf7ae97c83a7b9ca
+  show_ref_link: true
+  title: Robust Real-Time Face Detection
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-30hz-object-detection-with-dpm-v5
+  numCitedBy: 104
+  pid: 827a23b33cc28fcb720baeeaeb7398f5cea67493
+  show_ref_link: false
+  title: 30Hz Object Detection with DPM V5
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-poselets-body-part-detectors-trained-using-3d-human-pose-annotations
+  numCitedBy: 1048
+  pid: 55b29a2505149d06d8c1d616cd30edca40cb029c
+  show_ref_link: false
+  title: Poselets - Body part detectors trained using 3D human pose annotations
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-an-extended-set-of-haar-like-features-for-rapid-object-detection
+  numCitedBy: 3209
+  pid: 9fb7b636edeaf344394fdf37481d7b83eec75358
+  show_ref_link: false
+  title: An extended set of Haar-like features for rapid object detection
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-real-time-grasp-detection-using-convolutional-neural-networks
+  numCitedBy: 500
+  pid: e402c388af4dccf616a7adf7bf334c0d2e6ff948
+  show_ref_link: false
+  title: Real-time grasp detection using convolutional neural networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-region-based-segmentation-and-object-detection
+  numCitedBy: 193
+  pid: 7ca434a6eaf5cf4d6e86aca524e753fadb607979
+  show_ref_link: false
+  title: Region-based Segmentation and Object Detection
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2015-fast-r-cnn
+  numCitedBy: 14192
+  pid: 7ffdbc358b63378f07311e883dddacc9faeeaf4b
+  show_ref_link: true
+  title: Fast R-CNN
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-the-cross-depiction-problem-computer-vision-algorithms-for-recognising-objects-in-artwork-and-in-photographs
+  numCitedBy: 37
+  pid: e2e4faed41fe4c553e9b95431cc688b0fb6ee447
+  show_ref_link: false
+  title: The Cross-Depiction Problem - Computer Vision Algorithms for Recognising Objects in Artwork and in Photographs
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-object-recognition-from-local-scale-invariant-features
+  numCitedBy: 16285
+  pid: f9f836d28f52ad260213d32224a6d227f8e8849a
+  show_ref_link: true
+  title: Object recognition from local scale-invariant features
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-spatial-pyramid-pooling-in-deep-convolutional-networks-for-visual-recognition
+  numCitedBy: 4868
+  pid: cbb19236820a96038d000dc629225d36e0b6294a
+  show_ref_link: true
+  title: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12461
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4230
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6205
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Art
+  meta_key: 2015-detecting-people-in-cubist-art
+  numCitedBy: 23
+  pid: 48c6c7d711663095cb06d448256c1307530f5208
+  show_ref_link: false
+  title: Detecting people in Cubist art
+  year: 2015
+slug: You-Only-Look-Once:-Unified,-Real-Time-Object-Redmon-Divvala
+title: You Only Look Once - Unified, Real-Time Object Detection
+url: https://www.semanticscholar.org/paper/You-Only-Look-Once:-Unified,-Real-Time-Object-Redmon-Divvala/f8e79ac0ea341056ef20f2616628b3e964764cfd?sort=total-citations
+venue: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2016

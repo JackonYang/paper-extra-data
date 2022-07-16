@@ -1,0 +1,171 @@
+authors:
+- Yuri Boykov
+- M. Jolly
+badges:
+- id: OPEN_ACCESS
+corpusId: 2245438
+fieldsOfStudy:
+- Computer Science
+meta_key: 2001-interactive-graph-cuts-for-optimal-boundary-region-segmentation-of-objects-in-n-d-images
+numCitedBy: 4187
+numCiting: 30
+paperAbstract: In this paper we describe a new technique for general purpose interactive segmentation of N-dimensional images. The user marks certain pixels as "object" or "background" to provide hard constraints for segmentation. Additional soft constraints incorporate both boundary and region information. Graph cuts are used to find the globally optimal segmentation of the N-dimensional image. The obtained solution gives the best balance of boundary and region properties among all segmentations satisfying the constraints. The topology of our segmentation is unrestricted and both "object" and "background" segments may consist of several isolated parts. Some experimental results are presented in the context of photo/video editing and medical image segmentation. We also demonstrate an interesting Gestalt example. A fast implementation of our segmentation method is possible via a new max-flow algorithm.
+ref_count: 30
+references:
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-interactive-organ-segmentation-using-graph-cuts
+  numCitedBy: 283
+  pid: 9894d300faa3e9e4993d4e53b3f1947e55da8d7a
+  show_ref_link: false
+  title: Interactive Organ Segmentation Using Graph Cuts
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-ratio-regions-a-technique-for-image-segmentation
+  numCitedBy: 152
+  pid: 04f3c32e51df9f93163cc424b8eb40d82ebf82f1
+  show_ref_link: false
+  title: Ratio regions - a technique for image segmentation
+  year: 1996
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1998-segmentation-by-grouping-junctions
+  numCitedBy: 202
+  pid: 6c9817b90cfc7cd78143f3749e602febd84d2a81
+  show_ref_link: false
+  title: Segmentation by grouping junctions
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-globally-optimal-regions-and-boundaries
+  numCitedBy: 66
+  pid: 35040466175963bd528c412cd929ae4d13c51666
+  show_ref_link: false
+  title: Globally optimal regions and boundaries
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-region-competition-unifying-snakes-region-growing-and-bayes-mdl-for-multiband-image-segmentation
+  numCitedBy: 2289
+  pid: 73bd5c30eb274671c30b8f7222b5e4b03a915a62
+  show_ref_link: false
+  title: Region Competition - Unifying Snakes, Region Growing, and Bayes/MDL for Multiband Image Segmentation
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-normalized-cuts-and-image-segmentation
+  numCitedBy: 12936
+  pid: b94c7ff9532ab26c3aedbee3988ec4c7a237c173
+  show_ref_link: true
+  title: Normalized cuts and image segmentation
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-user-steered-image-segmentation-paradigms-live-wire-and-live-lane
+  numCitedBy: 564
+  pid: b8cf16e7662f50e29141674061e5740f15e51bc3
+  show_ref_link: false
+  title: User-Steered Image Segmentation Paradigms - Live Wire and Live Lane
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-interactive-segmentation-with-intelligent-scissors
+  numCitedBy: 612
+  pid: 492a9a96dc0e1b1493748118e8b9aea85e6a5e10
+  show_ref_link: false
+  title: Interactive Segmentation with Intelligent Scissors
+  year: 1998
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-exact-voxel-occupancy-with-graph-cuts
+  numCitedBy: 228
+  pid: cfe5315080aa0b092dda19a127f9a7a2b61508bd
+  show_ref_link: false
+  title: Exact voxel occupancy with graph cuts
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-an-optimal-graph-theoretic-approach-to-data-clustering-theory-and-its-application-to-image-segmentation
+  numCitedBy: 1267
+  pid: 250748b4494cec56abd55ae049bdd38f4d42e5c8
+  show_ref_link: false
+  title: An Optimal Graph Theoretic Approach to Data Clustering - Theory and Its Application to Image Segmentation
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 1998-markov-random-fields-with-efficient-approximations
+  numCitedBy: 528
+  pid: b543d70d3e4fe6673a2e39832f005fa7ebc79cec
+  show_ref_link: false
+  title: Markov random fields with efficient approximations
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-a-new-approach-to-the-maximum-flow-problem
+  numCitedBy: 1597
+  pid: c8fb31bef2bf64bfbde869601cb624812a1d066e
+  show_ref_link: false
+  title: A new approach to the maximum flow problem
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-fronts-propagating-with-curvature-dependent-speed-algorithms-based-on-hamilton-jacobi-formulations-final-report
+  numCitedBy: 10361
+  pid: 2744091224f8554820a16525bac292c25df3c4ab
+  show_ref_link: false
+  title: Fronts propagating with curvature dependent speed - algorithms based on Hamilton-Jacobi formulations. Final report
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-computer-and-robot-vision
+  numCitedBy: 3343
+  pid: a9eaaecf23f3a4b7822e4bcca924e02cd5b4dc4e
+  show_ref_link: false
+  title: Computer and Robot Vision
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-computer-and-robot-vision
+  numCitedBy: 1750
+  pid: 0ab81a64aa4f5a9099e2099cd3fffbe21e5bcbb1
+  show_ref_link: false
+  title: Computer and Robot Vision
+  year: 1995
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1989-exact-maximum-a-posteriori-estimation-for-binary-images
+  numCitedBy: 1261
+  pid: a717b20e99b76cb228b47694140ed3dce082b530
+  show_ref_link: false
+  title: Exact Maximum A Posteriori Estimation for Binary Images
+  year: 1989
+- fieldsOfStudy: []
+  meta_key: 2003-fronts-propagating-with-curvature-dependent-speed-algorithms-based-on-hamilton-jacob1-formulations
+  numCitedBy: 3677
+  pid: dfd5af043c9596085bfffc62a7c81456eaaf90c9
+  show_ref_link: false
+  title: FRONTS PROPAGATING WITH CURVATURE DEPENDENT SPEED - ALGORITHMS BASED ON HAMILTON-JACOB1 FORMULATIONS
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-hierarchical-segmentation-satisfying-constraints
+  numCitedBy: 33
+  pid: 0df8ca3cf91f885160c96ac1be5b93d6b6134b67
+  show_ref_link: false
+  title: Hierarchical Segmentation Satisfying Constraints
+  year: 1994
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1991-on-active-contour-models-and-balloons
+  numCitedBy: 2533
+  pid: d7e89a5e1a0964f2afadcbcf68ad15ae412d2e6f
+  show_ref_link: false
+  title: On active contour models and balloons
+  year: 1991
+slug: Interactive-graph-cuts-for-optimal-boundary-&-of-in-Boykov-Jolly
+title: Interactive graph cuts for optimal boundary & region segmentation of objects in N-D images
+url: https://www.semanticscholar.org/paper/Interactive-graph-cuts-for-optimal-boundary-&-of-in-Boykov-Jolly/0d3b177e8d027d44c191e739a3a70ccacc2eac82?sort=total-citations
+venue: Proceedings Eighth IEEE International Conference on Computer Vision. ICCV 2001
+year: 2001

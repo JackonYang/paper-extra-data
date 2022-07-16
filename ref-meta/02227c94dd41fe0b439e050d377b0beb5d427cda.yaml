@@ -1,0 +1,240 @@
+authors:
+- Yuval Netzer
+- Tao Wang
+- Adam Coates
+- A. Bissacco
+- Bo Wu
+- A. Ng
+badges:
+- id: OPEN_ACCESS
+corpusId: 16852518
+fieldsOfStudy:
+- Computer Science
+meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+numCitedBy: 3936
+numCiting: 28
+paperAbstract: 'Detecting and reading text from natural images is a hard computer vision task that is central to a variety of emerging applications. Related problems like document character recognition have been widely studied by computer vision and machine learning researchers and are virtually solved for practical applications like reading handwritten digits. Reliably recognizing characters in more complex scenes like photographs, however, is far more difficult: the best existing methods lag well behind human performance on the same tasks. In this paper we attack the problem of recognizing digits in a real application using unsupervised feature learning methods: reading house numbers from street level photos. To this end, we introduce a new benchmark dataset for research use containing over 600,000 labeled digits cropped from Street View images. We then demonstrate the difficulty of recognizing these digits when the problem is approached with hand-designed features. Finally, we employ variants of two recently proposed unsupervised feature learning methods and find that they are convincingly superior on our benchmarks.'
+ref_count: 28
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-text-detection-and-character-recognition-in-scene-images-with-unsupervised-feature-learning
+  numCitedBy: 402
+  pid: 12244deb997152492d96c6246ec21b2b9804800d
+  show_ref_link: false
+  title: Text Detection and Character Recognition in Scene Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-end-to-end-scene-text-recognition
+  numCitedBy: 913
+  pid: 32b8f58a038df83138435b12a499c8bf0de13811
+  show_ref_link: false
+  title: End-to-end scene text recognition
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-unified-detection-and-recognition-for-reading-text-in-scene-images
+  numCitedBy: 12
+  pid: 40b2c3e558563404ac0ce1ba2b11c8642651d8f6
+  show_ref_link: false
+  title: Unified detection and recognition for reading text in scene images
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-80-million-tiny-images-a-large-data-set-for-nonparametric-object-and-scene-recognition
+  numCitedBy: 1871
+  pid: 54d2b5c64a67f65c5dd812b89e07973f97699552
+  show_ref_link: false
+  title: 80 Million Tiny Images - A Large Data Set for Nonparametric Object and Scene Recognition
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-measuring-invariances-in-deep-networks
+  numCitedBy: 413
+  pid: 3137bc367c61c0e507a5e3c1f8caeb26f292d79f
+  show_ref_link: false
+  title: Measuring Invariances in Deep Networks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-end-to-end-text-recognition-with-convolutional-neural-networks
+  numCitedBy: 793
+  pid: 26cb14c9d22cf946314d685fe3541ef9f641e429
+  show_ref_link: false
+  title: End-to-end text recognition with convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-linear-spatial-pyramid-matching-using-sparse-coding-for-image-classification
+  numCitedBy: 1498
+  pid: 0c9633aedafe4ee8cf238fa06c40b84f47e17362
+  show_ref_link: false
+  title: Linear spatial pyramid matching using sparse coding for image classification
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-unsupervised-feature-learning-for-audio-classification-using-convolutional-deep-belief-networks
+  numCitedBy: 1087
+  pid: bf38dfb13352449b965c08282b66d3ffc5a0539f
+  show_ref_link: false
+  title: Unsupervised feature learning for audio classification using convolutional deep belief networks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-robust-system-to-detect-and-localize-texts-in-natural-scene-images
+  numCitedBy: 94
+  pid: 751266eaeeacfe73d9cf879e905b17387bae6037
+  show_ref_link: false
+  title: A Robust System to Detect and Localize Texts in Natural Scene Images
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-an-analysis-of-single-layer-networks-in-unsupervised-feature-learning
+  numCitedBy: 2609
+  pid: be9a17321537d9289875fe475b71f4821457b435
+  show_ref_link: true
+  title: An Analysis of Single-Layer Networks in Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-hierarchical-invariant-spatio-temporal-features-for-action-recognition-with-independent-subspace-analysis
+  numCitedBy: 1067
+  pid: 42269d0438c0ae4ca892334946ed779999691074
+  show_ref_link: true
+  title: Learning hierarchical invariant spatio-temporal features for action recognition with independent subspace analysis
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-on-line-and-off-line-handwriting-recognition-a-comprehensive-survey
+  numCitedBy: 2747
+  pid: d12864a8acbab1830be755bfb9cb177e31ca5e20
+  show_ref_link: false
+  title: On-Line and Off-Line Handwriting Recognition - A Comprehensive Survey
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-an-mrf-model-for-binarization-of-natural-scene-text
+  numCitedBy: 109
+  pid: 7f57f38a4cfb97bf242c0acc720e9335cd9e7d0e
+  show_ref_link: false
+  title: An MRF Model for Binarization of Natural Scene Text
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-improvement-of-handwritten-japanese-character-recognition-using-weighted-direction-code-histogram
+  numCitedBy: 154
+  pid: 2dcd510383075495645f55ac4b3cc92ff5f5378a
+  show_ref_link: false
+  title: Improvement of handwritten Japanese character recognition using weighted direction code histogram
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-stacked-denoising-autoencoders-learning-useful-representations-in-a-deep-network-with-a-local-denoising-criterion
+  numCitedBy: 5633
+  pid: e2b7f37cd97a7907b1b8a41138721ed06a0b76cd
+  show_ref_link: true
+  title: Stacked Denoising Autoencoders - Learning Useful Representations in a Deep Network with a Local Denoising Criterion
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2009-a-high-throughput-screening-approach-to-discovering-good-forms-of-biologically-inspired-visual-representation
+  numCitedBy: 254
+  pid: d46fd54609e09bcd135fd28750003185a5ee4125
+  show_ref_link: false
+  title: A High-Throughput Screening Approach to Discovering Good Forms of Biologically Inspired Visual Representation
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-sparse-deep-belief-net-model-for-visual-area-v2
+  numCitedBy: 1032
+  pid: 202cbbf671743aefd380d2f23987bd46b9caaf97
+  show_ref_link: false
+  title: Sparse deep belief net model for visual area V2
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-at-the-frontiers-of-ocr
+  numCitedBy: 130
+  pid: 19b2308e9bbe77d2059706891a757bb90cb73049
+  show_ref_link: false
+  title: At the frontiers of OCR
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-large-scale-privacy-protection-in-google-street-view
+  numCitedBy: 198
+  pid: 01cb576adb5657959e0d925f0d510ed602648813
+  show_ref_link: false
+  title: Large-scale privacy protection in Google Street View
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-context-dependent-pre-trained-deep-neural-networks-for-large-vocabulary-speech-recognition
+  numCitedBy: 2679
+  pid: 6658bbf68995731b2083195054ff45b4eca38b3a
+  show_ref_link: true
+  title: Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-deep-big-simple-neural-nets-for-handwritten-digit-recognition
+  numCitedBy: 879
+  pid: b98cd08b75ebf2bd1d1ec47c51ef75777a7e64bd
+  show_ref_link: false
+  title: Deep, Big, Simple Neural Nets for Handwritten Digit Recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-efficient-implementation-of-local-adaptive-thresholding-techniques-using-integral-images
+  numCitedBy: 328
+  pid: 2a7d94a2b04d949ed54c8b009658cca67fe16ff6
+  show_ref_link: false
+  title: Efficient implementation of local adaptive thresholding techniques using integral images
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-artificial-intelligence-a-modern-approach
+  numCitedBy: 26784
+  pid: 3524cdf7cf8344e7eb74886f71fcbb5c6732c337
+  show_ref_link: true
+  title: Artificial Intelligence - A Modern Approach
+  year: 1995
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1992-historical-review-of-ocr-research-and-development
+  numCitedBy: 942
+  pid: 0627cb9872115ea4c4d3484538a2f440923d8f13
+  show_ref_link: false
+  title: Historical review of OCR research and development
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-the-ocropus-open-source-ocr-system
+  numCitedBy: 236
+  pid: 06f92305db8d7432668fe45b04a6c8647c2fcf15
+  show_ref_link: false
+  title: The OCRopus open source OCR system
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-google-street-view-capturing-the-world-at-street-level
+  numCitedBy: 515
+  pid: d4f81b7a3a35ead6e9598cb3c5f4eaefee1815aa
+  show_ref_link: false
+  title: Google Street View - Capturing the World at Street Level
+  year: 2010
+slug: Reading-Digits-in-Natural-Images-with-Unsupervised-Netzer-Wang
+title: Reading Digits in Natural Images with Unsupervised Feature Learning
+url: https://www.semanticscholar.org/paper/Reading-Digits-in-Natural-Images-with-Unsupervised-Netzer-Wang/02227c94dd41fe0b439e050d377b0beb5d427cda?sort=total-citations
+venue: ''
+year: 2011

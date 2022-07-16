@@ -1,0 +1,335 @@
+authors:
+- W. Liu
+- Chaofeng Chen
+- K. K. Wong
+- Zhizhong Su
+- Junyu Han
+badges:
+- id: OPEN_ACCESS
+corpusId: 22482128
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-star-net-a-spatial-attention-residue-network-for-scene-text-recognition
+numCitedBy: 139
+numCiting: 40
+paperAbstract: In this paper, we present a novel SpaTial Attention Residue Network (STAR-Net) for recognising scene texts. The overall architecture of our STAR-Net is illustrated in fig. 1. Our STARNet emphasises the importance of representative image-based feature extraction from text regions by the spatial attention mechanism and the residue learning strategy. It is by far the deepest neural network proposed for scene text recognition.
+ref_count: 40
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-accurate-scene-text-recognition-based-on-recurrent-neural-network
+  numCitedBy: 180
+  pid: 03f2fc62d66fd579f234dec51e8c5bf737a7bfa2
+  show_ref_link: false
+  title: Accurate Scene Text Recognition Based on Recurrent Neural Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-reading-text-in-the-wild-with-convolutional-neural-networks
+  numCitedBy: 889
+  pid: a5ae7436b5946bd37d17fc1ed26374389a86deff
+  show_ref_link: false
+  title: Reading Text in the Wild with Convolutional Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-end-to-end-text-recognition-with-convolutional-neural-networks
+  numCitedBy: 793
+  pid: 26cb14c9d22cf946314d685fe3541ef9f641e429
+  show_ref_link: false
+  title: End-to-end text recognition with convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-an-end-to-end-trainable-neural-network-for-image-based-sequence-recognition-and-its-application-to-scene-text-recognition
+  numCitedBy: 1393
+  pid: 8e9149ab00236d04db23394774e716c4f1d89231
+  show_ref_link: true
+  title: An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-reading-scene-text-in-deep-convolutional-sequences
+  numCitedBy: 211
+  pid: 8cab92de27a754ee2420fb807ade97969fcd251f
+  show_ref_link: true
+  title: Reading Scene Text in Deep Convolutional Sequences
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-recursive-recurrent-nets-with-attention-modeling-for-ocr-in-the-wild
+  numCitedBy: 323
+  pid: a8c9d85147039ca54b0439cde05ef8c33efecf00
+  show_ref_link: true
+  title: Recursive Recurrent Nets with Attention Modeling for OCR in the Wild
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-end-to-end-scene-text-recognition
+  numCitedBy: 913
+  pid: 32b8f58a038df83138435b12a499c8bf0de13811
+  show_ref_link: false
+  title: End-to-end scene text recognition
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-features-for-text-spotting
+  numCitedBy: 564
+  pid: 4b4738809317259d2b49017203da512b21ea51ed
+  show_ref_link: false
+  title: Deep Features for Text Spotting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-strokelets-a-learned-multi-scale-representation-for-scene-text-recognition
+  numCitedBy: 244
+  pid: ca0eb5d81484f62af7b10f18aa4ed65d7856c106
+  show_ref_link: false
+  title: Strokelets - A Learned Multi-scale Representation for Scene Text Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-region-based-discriminative-feature-pooling-for-scene-text-recognition
+  numCitedBy: 78
+  pid: 2945dee6f78a3e29cd5ea2f135c0bace3def5d4d
+  show_ref_link: false
+  title: Region-Based Discriminative Feature Pooling for Scene Text Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-whole-is-greater-than-sum-of-parts-recognizing-scene-text-words
+  numCitedBy: 89
+  pid: 817f83b13229f603d5a241812e81059d01e71c7a
+  show_ref_link: false
+  title: Whole is Greater than Sum of Parts - Recognizing Scene Text Words
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-recognizing-text-with-perspective-distortion-in-natural-scenes
+  numCitedBy: 234
+  pid: 5fce10b210128ab9dea6e5b8bf98324dc89c331b
+  show_ref_link: false
+  title: Recognizing Text with Perspective Distortion in Natural Scenes
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-scene-text-recognition-using-higher-order-language-priors
+  numCitedBy: 550
+  pid: bb5b2df137a4d54c3a9145fa363e66531b491580
+  show_ref_link: false
+  title: Scene Text Recognition using Higher Order Language Priors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-synthetic-data-and-artificial-neural-networks-for-natural-scene-text-recognition
+  numCitedBy: 687
+  pid: c0b8aad30d8dfd08535f361864f064b2fbbc9a75
+  show_ref_link: false
+  title: Synthetic Data and Artificial Neural Networks for Natural Scene Text Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-robust-scene-text-recognition-with-automatic-rectification
+  numCitedBy: 388
+  pid: edd0f6d316d33c61a4a69c9262d1b1e07a93bae6
+  show_ref_link: true
+  title: Robust Scene Text Recognition with Automatic Rectification
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-label-embedding-a-frugal-baseline-for-text-recognition
+  numCitedBy: 88
+  pid: c08694d52741fe68a2010c0f836f24d1bfa0ab04
+  show_ref_link: false
+  title: Label Embedding - A Frugal Baseline for Text Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-structured-output-learning-for-unconstrained-text-recognition
+  numCitedBy: 198
+  pid: 21da448e7c31e1ff6cc3b7155a9c9c49a0138060
+  show_ref_link: false
+  title: Deep Structured Output Learning for Unconstrained Text Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-supervised-mid-level-features-for-word-image-representation
+  numCitedBy: 89
+  pid: 384c841250a2689fc66fc93216d208b5e48edf1c
+  show_ref_link: false
+  title: Supervised mid-level features for word image representation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96474
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-photoocr-reading-text-in-uncontrolled-conditions
+  numCitedBy: 404
+  pid: 31a8803d7e2618bfa44c472d003055bb5961b9de
+  show_ref_link: false
+  title: PhotoOCR - Reading Text in Uncontrolled Conditions
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-large-lexicon-attribute-consistent-text-recognition-in-natural-images
+  numCitedBy: 122
+  pid: fef57f42188519899a3653872803445210cac857
+  show_ref_link: false
+  title: Large-Lexicon Attribute-Consistent Text Recognition in Natural Images
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-word-spotting-and-recognition-with-embedded-attributes
+  numCitedBy: 389
+  pid: e61061b2ddd5e789a071e0681f4eb405bf811339
+  show_ref_link: false
+  title: Word Spotting and Recognition with Embedded Attributes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-end-to-end-text-recognition-with-hybrid-hmm-maxout-models
+  numCitedBy: 101
+  pid: b1fa02bc9d34fa827694a6bf79253db37ec928eb
+  show_ref_link: false
+  title: End-to-End Text Recognition with Hybrid HMM Maxout Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-icdar-2013-robust-reading-competition
+  numCitedBy: 892
+  pid: fcd7b547bf0a6646a282f521db880e74974aa838
+  show_ref_link: false
+  title: ICDAR 2013 Robust Reading Competition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-spatial-transformer-networks
+  numCitedBy: 4612
+  pid: fe87ea16d5eb1c7509da9a0314bbf4c7b0676506
+  show_ref_link: true
+  title: Spatial Transformer Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-icdar-2003-robust-reading-competitions-entries-results-and-future-directions
+  numCitedBy: 235
+  pid: a01deac56a81646e8d84cb7bf2d905714ff00808
+  show_ref_link: false
+  title: ICDAR 2003 robust reading competitions - entries, results, and future directions
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8125
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-connectionist-temporal-classification-labelling-unsegmented-sequence-data-with-recurrent-neural-networks
+  numCitedBy: 3505
+  pid: 96494e722f58705fa20302fe6179d483f52705b4
+  show_ref_link: true
+  title: Connectionist temporal classification - labelling unsegmented sequence data with recurrent neural networks
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 14955
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-speech-recognition-with-deep-recurrent-neural-networks
+  numCitedBy: 6931
+  pid: 4177ec52d1b80ed57f2e72b0f9a42365f1a8598d
+  show_ref_link: true
+  title: Speech recognition with deep recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2012-supervised-sequence-labelling
+  numCitedBy: 458
+  pid: f4b4a1f89046325c5f6526b3df3eb09284cb73e9
+  show_ref_link: false
+  title: Supervised Sequence Labelling
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15147
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-adadelta-an-adaptive-learning-rate-method
+  numCitedBy: 5487
+  pid: 8729441d734782c3ed532a7d2d9611b438c0a09a
+  show_ref_link: true
+  title: ADADELTA - An Adaptive Learning Rate Method
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-speech-2-end-to-end-speech-recognition-in-english-and-mandarin
+  numCitedBy: 2236
+  pid: 8ff840a40d3f1557c55c19d4d636da77103168ce
+  show_ref_link: false
+  title: Deep Speech 2 - End-to-End Speech Recognition in English and Mandarin
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12891
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 1989-principal-warps-thin-plate-splines-and-the-decomposition-of-deformations
+  numCitedBy: 4785
+  pid: 708d9a8baac3b47e5095c943fbe027675dd9eb7f
+  show_ref_link: false
+  title: Principal Warps - Thin-Plate Splines and the Decomposition of Deformations
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1493
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+slug: STAR-Net:-A-SpaTial-Attention-Residue-Network-for-Liu-Chen
+title: STAR-Net - A SpaTial Attention Residue Network for Scene Text Recognition
+url: https://www.semanticscholar.org/paper/STAR-Net:-A-SpaTial-Attention-Residue-Network-for-Liu-Chen/d1e356ac88768b3cb5b59926641b48cbaa15670c?sort=total-citations
+venue: BMVC
+year: 2016

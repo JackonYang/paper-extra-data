@@ -1,0 +1,303 @@
+authors:
+- Zichao Yang
+- Xiaodong He
+- Jianfeng Gao
+- L. Deng
+- Alex Smola
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 8849206
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-stacked-attention-networks-for-image-question-answering
+numCitedBy: 1480
+numCiting: 45
+paperAbstract: This paper presents stacked attention networks (SANs) that learn to answer natural language questions from images. SANs use semantic representation of a question as query to search for the regions in an image that are related to the answer. We argue that image question answering (QA) often requires multiple steps of reasoning. Thus, we develop a multiple-layer SAN in which we query an image multiple times to infer the answer progressively. Experiments conducted on four image QA data sets demonstrate that the proposed SANs significantly outperform previous state-of-the-art approaches. The visualization of the attention layers illustrates the progress that the SAN locates the relevant visual clues that lead to the answer of the question layer-by-layer.
+ref_count: 45
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-exploring-models-and-data-for-image-question-answering
+  numCitedBy: 531
+  pid: 62a956d7600b10ca455076cd56e604dfd106072a
+  show_ref_link: false
+  title: Exploring Models and Data for Image Question Answering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-ask-your-neurons-a-neural-based-approach-to-answering-questions-about-images
+  numCitedBy: 520
+  pid: bd7bd1d2945a58cdcc1797ba9698b8810fe68f60
+  show_ref_link: false
+  title: Ask Your Neurons - A Neural-Based Approach to Answering Questions about Images
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-to-answer-questions-from-image-using-convolutional-neural-network
+  numCitedBy: 225
+  pid: 98bd5dd1740f585bf25320ba504e2c1ae57f2e5f
+  show_ref_link: true
+  title: Learning to Answer Questions from Image Using Convolutional Neural Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-are-you-talking-to-a-machine-dataset-and-methods-for-multilingual-image-question
+  numCitedBy: 409
+  pid: 2fcd5cff2b4743ea640c4af68bf4143f4a2cccb1
+  show_ref_link: false
+  title: Are You Talking to a Machine? Dataset and Methods for Multilingual Image Question
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-vqa-visual-question-answering
+  numCitedBy: 2930
+  pid: 97ad70a9fa3f99adf18030e5e38ebe3d90daa2db
+  show_ref_link: true
+  title: VQA - Visual Question Answering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-question-answering-with-subgraph-embeddings
+  numCitedBy: 591
+  pid: 33261d252218007147a71e40f8367ed152fa2fe0
+  show_ref_link: false
+  title: Question Answering with Subgraph Embeddings
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-multi-world-approach-to-question-answering-about-real-world-scenes-based-on-uncertain-input
+  numCitedBy: 556
+  pid: ac64fb7e6d2ddf236332ec9f371fe85d308c114d
+  show_ref_link: false
+  title: A Multi-World Approach to Question Answering about Real-World Scenes based on Uncertain Input
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-attend-and-tell-neural-image-caption-generation-with-visual-attention
+  numCitedBy: 7306
+  pid: 4d8f2d14af5991d4f0d050d22216825cac3157bd
+  show_ref_link: true
+  title: Show, Attend and Tell - Neural Image Caption Generation with Visual Attention
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-semantic-parsing-via-staged-query-graph-generation-question-answering-with-knowledge-base
+  numCitedBy: 575
+  pid: 2d2b1ce365b879dc8f337c293b69e9c0d62bfc91
+  show_ref_link: false
+  title: Semantic Parsing via Staged Query Graph Generation - Question Answering with Knowledge Base
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-semantic-parsing-for-single-relation-question-answering
+  numCitedBy: 352
+  pid: a129f612a9eff903d9133244a6f0914ef3cbda72
+  show_ref_link: false
+  title: Semantic Parsing for Single-Relation Question Answering
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-visual-semantic-alignments-for-generating-image-descriptions
+  numCitedBy: 2619
+  pid: 55e022fb7581bb9e1fce678d21fb25ffbb3fbb88
+  show_ref_link: true
+  title: Deep Visual-Semantic Alignments for Generating Image Descriptions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-and-tell-a-neural-image-caption-generator
+  numCitedBy: 4535
+  pid: d4dc1012d780e8e2547237eb5a6dc7b1bf47d2f0
+  show_ref_link: true
+  title: Show and tell - A neural image caption generator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-a-recurrent-visual-representation-for-image-caption-generation
+  numCitedBy: 173
+  pid: f4af49a1ead3c81cc5d023878cb67c5646dd8a04
+  show_ref_link: false
+  title: Learning a Recurrent Visual Representation for Image Caption Generation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-captioning-with-multimodal-recurrent-neural-networks-m-rnn
+  numCitedBy: 1011
+  pid: 54b2b6f35f1b5704dddfaa3a137a2f4ad3dfe745
+  show_ref_link: true
+  title: Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN)
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-from-captions-to-visual-concepts-and-back
+  numCitedBy: 1110
+  pid: 15f102c3c9f4d4fe6ba105e221df48c6e8902b3b
+  show_ref_link: true
+  title: From captions to visual concepts and back
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-unifying-visual-semantic-embeddings-with-multimodal-neural-language-models
+  numCitedBy: 1061
+  pid: 2e36ea91a3c8fbff92be2989325531b4002e2afc
+  show_ref_link: true
+  title: Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-latent-semantic-model-with-convolutional-pooling-structure-for-information-retrieval
+  numCitedBy: 596
+  pid: 7e8d5a108c28cdfb92f419ce919fbf7993dfebfc
+  show_ref_link: false
+  title: A Latent Semantic Model with Convolutional-Pooling Structure for Information Retrieval
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 14955
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-convolutional-neural-networks-for-sentence-classification
+  numCitedBy: 10116
+  pid: 1f6ba0782862ec12a5ec6d7fb608523d55b0c6ba
+  show_ref_link: true
+  title: Convolutional Neural Networks for Sentence Classification
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-semantic-parsing-via-paraphrasing
+  numCitedBy: 483
+  pid: 3d1d42c9435b419ac928ebf7bcf4c86a460d6ef4
+  show_ref_link: false
+  title: Semantic Parsing via Paraphrasing
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 19980
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19455
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28285
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-generating-sequences-with-recurrent-neural-networks
+  numCitedBy: 3163
+  pid: 89b1f4740ae37fd04f6ac007577bdd34621f0861
+  show_ref_link: true
+  title: Generating Sequences With Recurrent Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35423
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3539
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 1994-verb-semantics-and-lexical-selection
+  numCitedBy: 3710
+  pid: 0e3e3c3d8ae5cb7c4636870d69967c197484d3bb
+  show_ref_link: false
+  title: Verb Semantics and Lexical Selection
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-show
+  numCitedBy: 344
+  pid: 0da353e79f666a3ae7dd0a5d28c75b852a7f60bf
+  show_ref_link: false
+  title: SHOW
+  year: 2019
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2012-et-al
+  numCitedBy: 57936
+  pid: bc6dff14a130c57a91d5a21339c23471faf1d46f
+  show_ref_link: false
+  title: Et al
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ask-me-anything-dynamic-memory-networks-for-natural-language-processing
+  numCitedBy: 1004
+  pid: 452059171226626718eb677358836328f884298e
+  show_ref_link: true
+  title: Ask Me Anything - Dynamic Memory Networks for Natural Language Processing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-memory-networks
+  numCitedBy: 1156
+  pid: 71ae756c75ac89e2d731c9c79649562b5768ff39
+  show_ref_link: true
+  title: Memory Networks
+  year: 2015
+slug: Stacked-Attention-Networks-for-Image-Question-Yang-He
+title: Stacked Attention Networks for Image Question Answering
+url: https://www.semanticscholar.org/paper/Stacked-Attention-Networks-for-Image-Question-Yang-He/2c1890864c1c2b750f48316dc8b650ba4772adc5?sort=total-citations
+venue: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2016

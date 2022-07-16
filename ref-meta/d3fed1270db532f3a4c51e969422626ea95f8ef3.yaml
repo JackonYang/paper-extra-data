@@ -1,0 +1,363 @@
+authors:
+- Jianfeng Wang
+- Xiaolin Hu
+badges:
+- id: OPEN_ACCESS
+corpusId: 39506071
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-gated-recurrent-convolution-neural-network-for-ocr
+numCitedBy: 104
+numCiting: 44
+paperAbstract: Optical Character Recognition (OCR) aims to recognize text in natural images. Inspired by a recently proposed model for general image classification, Recurrent Convolution Neural Network (RCNN), we propose a new architecture named Gated RCNN (GRCNN) for solving this problem. Its critical component, Gated Recurrent Convolution Layer (GRCL), is constructed by adding a gate to the Recurrent Convolution Layer (RCL), the critical component of RCNN. The gate controls the context modulation in RCL and balances the feed-forward information and the recurrent information. In addition, an efficient Bidirectional Long Short-Term Memory (BLSTM) is built for sequence modeling. The GRCNN is combined with BLSTM to recognize text in natural images. The entire GRCNN-BLSTM model can be trained end-to-end. Experiments show that the proposed model outperforms existing methods on several benchmark datasets including the IIIT-5K, Street View Text (SVT) and ICDAR.
+ref_count: 44
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-recursive-recurrent-nets-with-attention-modeling-for-ocr-in-the-wild
+  numCitedBy: 323
+  pid: a8c9d85147039ca54b0439cde05ef8c33efecf00
+  show_ref_link: true
+  title: Recursive Recurrent Nets with Attention Modeling for OCR in the Wild
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-recurrent-convolutional-neural-network-for-object-recognition
+  numCitedBy: 740
+  pid: 4b39a79a1dc8e578e38ee4b7f00b4ec9ded50dd0
+  show_ref_link: false
+  title: Recurrent convolutional neural network for object recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-convolutional-neural-networks-with-intra-layer-recurrent-connections-for-scene-labeling
+  numCitedBy: 52
+  pid: eb436c84aad02611f5fddc676c47241b8b8f4f15
+  show_ref_link: false
+  title: Convolutional Neural Networks with Intra-Layer Recurrent Connections for Scene Labeling
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-structured-output-learning-for-unconstrained-text-recognition
+  numCitedBy: 198
+  pid: 21da448e7c31e1ff6cc3b7155a9c9c49a0138060
+  show_ref_link: false
+  title: Deep Structured Output Learning for Unconstrained Text Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-accurate-scene-text-recognition-based-on-recurrent-neural-network
+  numCitedBy: 180
+  pid: 03f2fc62d66fd579f234dec51e8c5bf737a7bfa2
+  show_ref_link: false
+  title: Accurate Scene Text Recognition Based on Recurrent Neural Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-features-for-text-spotting
+  numCitedBy: 564
+  pid: 4b4738809317259d2b49017203da512b21ea51ed
+  show_ref_link: false
+  title: Deep Features for Text Spotting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-an-end-to-end-trainable-neural-network-for-image-based-sequence-recognition-and-its-application-to-scene-text-recognition
+  numCitedBy: 1393
+  pid: 8e9149ab00236d04db23394774e716c4f1d89231
+  show_ref_link: true
+  title: An End-to-End Trainable Neural Network for Image-Based Sequence Recognition and Its Application to Scene Text Recognition
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-recurrent-convolutional-neural-network-for-speech-processing
+  numCitedBy: 25
+  pid: 193c42a6338b1c2baef9692b558b38397a159c46
+  show_ref_link: false
+  title: Recurrent convolutional neural network for speech processing
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-end-to-end-text-recognition-with-convolutional-neural-networks
+  numCitedBy: 793
+  pid: 26cb14c9d22cf946314d685fe3541ef9f641e429
+  show_ref_link: false
+  title: End-to-end text recognition with convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-synthetic-data-and-artificial-neural-networks-for-natural-scene-text-recognition
+  numCitedBy: 687
+  pid: c0b8aad30d8dfd08535f361864f064b2fbbc9a75
+  show_ref_link: false
+  title: Synthetic Data and Artificial Neural Networks for Natural Scene Text Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-alternative-neural-network-exploring-contexts-as-early-as-possible-for-action-recognition
+  numCitedBy: 21
+  pid: b03b4d8b4190361ed2de66fcbb6fda0c9a0a7d89
+  show_ref_link: false
+  title: Deep Alternative Neural Network - Exploring Contexts as Early as Possible for Action Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-bidirectional-recurrent-neural-networks
+  numCitedBy: 5413
+  pid: e23c34414e66118ecd9b08cf0cd4d016f59b0b85
+  show_ref_link: false
+  title: Bidirectional recurrent neural networks
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-whole-is-greater-than-sum-of-parts-recognizing-scene-text-words
+  numCitedBy: 89
+  pid: 817f83b13229f603d5a241812e81059d01e71c7a
+  show_ref_link: false
+  title: Whole is Greater than Sum of Parts - Recognizing Scene Text Words
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96474
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-label-embedding-a-frugal-baseline-for-text-recognition
+  numCitedBy: 88
+  pid: c08694d52741fe68a2010c0f836f24d1bfa0ab04
+  show_ref_link: false
+  title: Label Embedding - A Frugal Baseline for Text Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 18975
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-end-to-end-scene-text-recognition
+  numCitedBy: 913
+  pid: 32b8f58a038df83138435b12a499c8bf0de13811
+  show_ref_link: false
+  title: End-to-end scene text recognition
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-scene-text-recognition-using-part-based-tree-structured-character-detection
+  numCitedBy: 152
+  pid: 0285352c71a267ba0ff996344a02c978a9d11d90
+  show_ref_link: false
+  title: Scene Text Recognition Using Part-Based Tree-Structured Character Detection
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-large-lexicon-attribute-consistent-text-recognition-in-natural-images
+  numCitedBy: 122
+  pid: fef57f42188519899a3653872803445210cac857
+  show_ref_link: false
+  title: Large-Lexicon Attribute-Consistent Text Recognition in Natural Images
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-aggregated-residual-transformations-for-deep-neural-networks
+  numCitedBy: 5545
+  pid: f6e0856b4a9199fa968ac00da612a9407b5cb85c
+  show_ref_link: true
+  title: Aggregated Residual Transformations for Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-connectionist-temporal-classification-labelling-unsegmented-sequence-data-with-recurrent-neural-networks
+  numCitedBy: 3505
+  pid: 96494e722f58705fa20302fe6179d483f52705b4
+  show_ref_link: true
+  title: Connectionist temporal classification - labelling unsegmented sequence data with recurrent neural networks
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-supervised-mid-level-features-for-word-image-representation
+  numCitedBy: 89
+  pid: 384c841250a2689fc66fc93216d208b5e48edf1c
+  show_ref_link: false
+  title: Supervised mid-level features for word image representation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-photoocr-reading-text-in-uncontrolled-conditions
+  numCitedBy: 404
+  pid: 31a8803d7e2618bfa44c472d003055bb5961b9de
+  show_ref_link: false
+  title: PhotoOCR - Reading Text in Uncontrolled Conditions
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-region-based-discriminative-feature-pooling-for-scene-text-recognition
+  numCitedBy: 78
+  pid: 2945dee6f78a3e29cd5ea2f135c0bace3def5d4d
+  show_ref_link: false
+  title: Region-Based Discriminative Feature Pooling for Scene Text Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-end-to-end-text-recognition-with-hybrid-hmm-maxout-models
+  numCitedBy: 101
+  pid: b1fa02bc9d34fa827694a6bf79253db37ec928eb
+  show_ref_link: false
+  title: End-to-End Text Recognition with Hybrid HMM Maxout Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-scene-text-recognition-using-higher-order-language-priors
+  numCitedBy: 550
+  pid: bb5b2df137a4d54c3a9145fa363e66531b491580
+  show_ref_link: false
+  title: Scene Text Recognition using Higher Order Language Priors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-strokelets-a-learned-multi-scale-representation-for-scene-text-recognition
+  numCitedBy: 244
+  pid: ca0eb5d81484f62af7b10f18aa4ed65d7856c106
+  show_ref_link: false
+  title: Strokelets - A Learned Multi-scale Representation for Scene Text Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-word-spotting-and-recognition-with-embedded-attributes
+  numCitedBy: 389
+  pid: e61061b2ddd5e789a071e0681f4eb405bf811339
+  show_ref_link: false
+  title: Word Spotting and Recognition with Embedded Attributes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-top-down-and-bottom-up-cues-for-scene-text-recognition
+  numCitedBy: 306
+  pid: 66b71064b99331f908b60cb6d138f2ebea5bdcca
+  show_ref_link: false
+  title: Top-down and bottom-up cues for scene text recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-word-spotting-in-the-wild
+  numCitedBy: 426
+  pid: 0d307221fa52e3939d46180cb5921ebbd92c8adb
+  show_ref_link: false
+  title: Word Spotting in the Wild
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-visualizing-and-understanding-convolutional-networks
+  numCitedBy: 11872
+  pid: 1a2a770d23b4a171fa81de62a78a3deb0588f238
+  show_ref_link: true
+  title: Visualizing and Understanding Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15147
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-real-time-scene-text-localization-and-recognition
+  numCitedBy: 792
+  pid: d8b595c9e969e5605f62da51b6c16dad8aad3e0e
+  show_ref_link: false
+  title: Real-time scene text localization and recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-icdar-2003-robust-reading-competitions
+  numCitedBy: 593
+  pid: ce39eb5cc1049a1060a499d6b6e94c8b2ec11da1
+  show_ref_link: false
+  title: ICDAR 2003 robust reading competitions
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-recurrent-nets-that-time-and-count
+  numCitedBy: 508
+  pid: 545a4e23bf00ddbc1d3325324b4c61f57cf45081
+  show_ref_link: false
+  title: Recurrent nets that time and count
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-learning-continuous-phrase-representations-and-syntactic-parsing-with-recursive-neural-networks
+  numCitedBy: 316
+  pid: 81b3b3fe994a9eda6d3f9d2149aa4492d1933975
+  show_ref_link: false
+  title: Learning Continuous Phrase Representations and Syntactic Parsing with Recursive Neural Networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-adadelta-an-adaptive-learning-rate-method
+  numCitedBy: 5487
+  pid: 8729441d734782c3ed532a7d2d9611b438c0a09a
+  show_ref_link: true
+  title: ADADELTA - An Adaptive Learning Rate Method
+  year: 2012
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1965-receptive-fields-and-functional-architecture-in-two-nonstriate-visual-areas-18-and-19-of-the-cat
+  numCitedBy: 2615
+  pid: f70c54029c17f50914996c834930ecbfacda195f
+  show_ref_link: false
+  title: RECEPTIVE FIELDS AND FUNCTIONAL ARCHITECTURE IN TWO NONSTRIATE VISUAL AREAS (18 AND 19) OF THE CAT.
+  year: 1965
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2001-surround-suppression-in-primate-v1
+  numCitedBy: 330
+  pid: f0a91f7493741d7751dc6acf4710d973d489d338
+  show_ref_link: false
+  title: Surround suppression in primate V1.
+  year: 2001
+slug: Gated-Recurrent-Convolution-Neural-Network-for-OCR-Wang-Hu
+title: Gated Recurrent Convolution Neural Network for OCR
+url: https://www.semanticscholar.org/paper/Gated-Recurrent-Convolution-Neural-Network-for-OCR-Wang-Hu/d3fed1270db532f3a4c51e969422626ea95f8ef3?sort=total-citations
+venue: NIPS
+year: 2017

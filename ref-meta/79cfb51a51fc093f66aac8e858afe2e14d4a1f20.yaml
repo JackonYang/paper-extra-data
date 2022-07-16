@@ -1,0 +1,335 @@
+authors:
+- Tsung-Yi Lin
+- Priya Goyal
+- Ross B. Girshick
+- Kaiming He
+- "Piotr Doll\xE1r"
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 206771220
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-focal-loss-for-dense-object-detection
+numCitedBy: 3944
+numCiting: 49
+paperAbstract: The highest accuracy object detectors to date are based on a two-stage approach popularized by R-CNN, where a classifier is applied to a sparse set of candidate object locations. In contrast, one-stage detectors that are applied over a regular, dense sampling of possible object locations have the potential to be faster and simpler, but have trailed the accuracy of two-stage detectors thus far. In this paper, we investigate why this is the case. We discover that the extreme foreground-background class imbalance encountered during training of dense detectors is the central cause. We propose to address this class imbalance by reshaping the standard cross entropy loss such that it down-weights the loss assigned to well-classified examples. Our novel Focal Loss focuses training on a sparse set of hard examples and prevents the vast number of easy negatives from overwhelming the detector during training. To evaluate the effectiveness of our loss, we design and train a simple dense detector we call RetinaNet. Our results show that when trained with the focal loss, RetinaNet is able to match the speed of previous one-stage detectors while surpassing the accuracy of all existing state-of-the-art two-stage detectors.
+ref_count: 49
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17210
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-r-fcn-object-detection-via-region-based-fully-convolutional-networks
+  numCitedBy: 3892
+  pid: b724c3f7ff395235b62537203ddeb710f0eb27bb
+  show_ref_link: true
+  title: R-FCN - Object Detection via Region-based Fully Convolutional Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-to-segment-object-candidates
+  numCitedBy: 675
+  pid: 6b8d0df903496699e52b4daee5d1815b7b784cf7
+  show_ref_link: false
+  title: Learning to Segment Object Candidates
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-training-region-based-object-detectors-with-online-hard-example-mining
+  numCitedBy: 1583
+  pid: 63333669bcf694aba2e1928f6060ab1d6a5161fe
+  show_ref_link: true
+  title: Training Region-Based Object Detectors with Online Hard Example Mining
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ssd-single-shot-multibox-detector
+  numCitedBy: 15552
+  pid: 4d7a9197433acbfb24ef0e9d0f33ed1699e4a5b0
+  show_ref_link: true
+  title: SSD - Single Shot MultiBox Detector
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 32899
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-feature-pyramid-networks-for-object-detection
+  numCitedBy: 9467
+  pid: b9b4e05faa194e5022edd9eb9dd07e3d675c2b36
+  show_ref_link: true
+  title: Feature Pyramid Networks for Object Detection
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-scalable-object-detection-using-deep-neural-networks
+  numCitedBy: 968
+  pid: 67fc0ec1d26f334b05fe66d2b7e0767b60fb73b6
+  show_ref_link: false
+  title: Scalable Object Detection Using Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-rapid-object-detection-using-a-boosted-cascade-of-simple-features
+  numCitedBy: 17919
+  pid: dc6ea0e30e46163b706f2f8bdc9c67ca87f83d63
+  show_ref_link: true
+  title: Rapid object detection using a boosted cascade of simple features
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-speed-accuracy-trade-offs-for-modern-convolutional-object-detectors
+  numCitedBy: 2004
+  pid: a312a573ef81793d56401e932ef6c9498791a3d1
+  show_ref_link: true
+  title: Speed/Accuracy Trade-Offs for Modern Convolutional Object Detectors
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-dssd-deconvolutional-single-shot-detector
+  numCitedBy: 1210
+  pid: e94183191183a368bf07eb544654bae4b3cbf407
+  show_ref_link: true
+  title: DSSD - Deconvolutional Single Shot Detector
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-to-refine-object-segments
+  numCitedBy: 734
+  pid: 361b19d2c00d086fa8ef860374f5e1d862fd2f30
+  show_ref_link: true
+  title: Learning to Refine Object Segments
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-selective-search-for-object-recognition
+  numCitedBy: 4771
+  pid: 38b6540ddd5beebffd05047c78183f7575559fb2
+  show_ref_link: true
+  title: Selective Search for Object Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 19980
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-edge-boxes-locating-object-proposals-from-edges
+  numCitedBy: 2419
+  pid: b183947ee15718b45546eda6b01e179b9a95421f
+  show_ref_link: true
+  title: Edge Boxes - Locating Object Proposals from Edges
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-loss-max-pooling-for-semantic-image-segmentation
+  numCitedBy: 95
+  pid: a9c183700530ee1c90e357ce8333af1b8fe35479
+  show_ref_link: false
+  title: Loss Max-Pooling for Semantic Image Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-yolo9000-better-faster-stronger
+  numCitedBy: 8017
+  pid: 7d39d69b23424446f0400ef603b2e3e22d0309d6
+  show_ref_link: true
+  title: YOLO9000 - Better, Faster, Stronger
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96474
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks
+  numCitedBy: 4363
+  pid: 1109b663453e78a59e4f66446d71720ac58cec25
+  show_ref_link: true
+  title: OverFeat - Integrated Recognition, Localization and Detection using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-beyond-skip-connections-top-down-modulation-for-object-detection
+  numCitedBy: 268
+  pid: 47a1fa91816f50266aef3c31b6bd38895df63b00
+  show_ref_link: false
+  title: Beyond Skip Connections - Top-Down Modulation for Object Detection
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2015-fast-r-cnn
+  numCitedBy: 14180
+  pid: 7ffdbc358b63378f07311e883dddacc9faeeaf4b
+  show_ref_link: true
+  title: Fast R-CNN
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-inside-outside-net-detecting-objects-in-context-with-skip-pooling-and-recurrent-neural-networks
+  numCitedBy: 908
+  pid: adc4e63b58cf4092420533fd877b8c29f8e2ec1d
+  show_ref_link: true
+  title: Inside-Outside Net - Detecting Objects in Context with Skip Pooling and Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-the-pascal-visual-object-classes-voc-challenge
+  numCitedBy: 11743
+  pid: 82635fb63640ae95f90ee9bdc07832eb461ca881
+  show_ref_link: true
+  title: The Pascal Visual Object Classes (VOC) Challenge
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-learning-and-example-selection-for-object-and-pattern-detection
+  numCitedBy: 248
+  pid: f3317b98195fe0be4acf7b450f015c1abca13ab9
+  show_ref_link: false
+  title: Learning and example selection for object and pattern detection
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-cascade-object-detection-with-deformable-part-models
+  numCitedBy: 888
+  pid: 657a403fa4d37ef13493ec88276ea5c5017cda2f
+  show_ref_link: false
+  title: Cascade object detection with deformable part models
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-integral-channel-features
+  numCitedBy: 1234
+  pid: fd375345cbd203aa9c88e1aa3c2e4e1835548b10
+  show_ref_link: false
+  title: Integral Channel Features
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 15835
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-spatial-pyramid-pooling-in-deep-convolutional-networks-for-visual-recognition
+  numCitedBy: 4868
+  pid: cbb19236820a96038d000dc629225d36e0b6294a
+  show_ref_link: true
+  title: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-aggregated-residual-transformations-for-deep-neural-networks
+  numCitedBy: 5554
+  pid: f6e0856b4a9199fa968ac00da612a9407b5cb85c
+  show_ref_link: true
+  title: Aggregated Residual Transformations for Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8131
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-human-face-detection-in-visual-scenes
+  numCitedBy: 476
+  pid: f6af749b2b813af20c2f26962249fafdccdc6a1e
+  show_ref_link: false
+  title: Human Face Detection in Visual Scenes
+  year: 1995
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1994-original-approach-for-the-localisation-of-objects-in-images
+  numCitedBy: 287
+  pid: 09ebd9ad4fa21c0d56433ac57a4cd69e94c72281
+  show_ref_link: false
+  title: Original approach for the localisation of objects in images
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Business
+  meta_key: 2003-the-elements-of-statistical-learning
+  numCitedBy: 12580
+  pid: e41ba5dc12c79a64dfa905c0328f95976252ffe0
+  show_ref_link: true
+  title: The Elements of Statistical Learning
+  year: 2003
+- fieldsOfStudy: []
+  meta_key: 1962-k
+  numCitedBy: 2962
+  pid: 646f429c7beca6fe0a5b371eff363f1a07a62f31
+  show_ref_link: false
+  title: '[K]'
+  year: 1962
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: "2017-\u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0438\u0435-\u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442\u043D\u044B\u0445-\u0441\u0440\u0435\u0434\u0441\u0442\u0432-\u043D\u0430-\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\u0445-\u0437\u0430\u0433\u043E\u0440\u043E\u0434\u043D\u044B\u0445-\u0448\u043E\u0441\u0441\u0435-\u043D\u0430-\u043E\u0441\u043D\u043E\u0432\u0435-\u043C\u0435\u0442\u043E\u0434\u0430-single-shot-multibox-detector"
+  numCitedBy: 1444
+  pid: a84ccaecfd0199f5c7910fd34aa832ee7db4c406
+  show_ref_link: false
+  title: "\u041E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0438\u0435 \u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442\u043D\u044B\u0445 \u0441\u0440\u0435\u0434\u0441\u0442\u0432 \u043D\u0430 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F\u0445 \u0437\u0430\u0433\u043E\u0440\u043E\u0434\u043D\u044B\u0445 \u0448\u043E\u0441\u0441\u0435 \u043D\u0430 \u043E\u0441\u043D\u043E\u0432\u0435 \u043C\u0435\u0442\u043E\u0434\u0430 Single shot multibox Detector"
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-you-only-look-once-unified-real-time-object-detection
+  numCitedBy: 16710
+  pid: f8e79ac0ea341056ef20f2616628b3e964764cfd
+  show_ref_link: true
+  title: You Only Look Once - Unified, Real-Time Object Detection
+  year: 2016
+slug: Focal-Loss-for-Dense-Object-Detection-Lin-Goyal
+title: Focal Loss for Dense Object Detection
+url: https://www.semanticscholar.org/paper/Focal-Loss-for-Dense-Object-Detection-Lin-Goyal/79cfb51a51fc093f66aac8e858afe2e14d4a1f20?sort=total-citations
+venue: 2017 IEEE International Conference on Computer Vision (ICCV)
+year: 2017

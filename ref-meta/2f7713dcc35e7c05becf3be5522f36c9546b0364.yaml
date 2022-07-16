@@ -1,0 +1,240 @@
+authors:
+- Jinjun Wang
+- Jianchao Yang
+- Kai Yu
+- Fengjun Lv
+- Thomas S. Huang
+- Yihong Gong
+badges:
+- id: OPEN_ACCESS
+corpusId: 6718692
+fieldsOfStudy:
+- Computer Science
+meta_key: 2010-locality-constrained-linear-coding-for-image-classification
+numCitedBy: 3242
+numCiting: 29
+paperAbstract: The traditional SPM approach based on bag-of-features (BoF) requires nonlinear classifiers to achieve good image classification performance. This paper presents a simple but effective coding scheme called Locality-constrained Linear Coding (LLC) in place of the VQ coding in traditional SPM. LLC utilizes the locality constraints to project each descriptor into its local-coordinate system, and the projected coordinates are integrated by max pooling to generate the final representation. With linear classifier, the proposed approach performs remarkably better than the traditional nonlinear SPM, achieving state-of-the-art performance on several benchmarks. Compared with the sparse coding strategy [22], the objective function used by LLC has an analytical solution. In addition, the paper proposes a fast approximated LLC method by first performing a K-nearest-neighbor search and then solving a constrained least square fitting problem, bearing computational complexity of O(M + K2). Hence even with very large codebooks, our system can still process multiple frames per second. This efficiency significantly adds to the practical values of LLC for real applications.
+ref_count: 29
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-linear-spatial-pyramid-matching-using-sparse-coding-for-image-classification
+  numCitedBy: 1498
+  pid: 0c9633aedafe4ee8cf238fa06c40b84f47e17362
+  show_ref_link: false
+  title: Linear spatial pyramid matching using sparse coding for image classification
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-creating-efficient-codebooks-for-visual-recognition
+  numCitedBy: 896
+  pid: 8d32093cd04d6beffb6d757f58b5ac950543ff7d
+  show_ref_link: false
+  title: Creating efficient codebooks for visual recognition
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-unifying-discriminative-visual-codebook-generation-with-classifier-training-for-object-category-recognition
+  numCitedBy: 309
+  pid: f2e186f2ebdd4ea5d4d324711f14c20b33b647ab
+  show_ref_link: false
+  title: Unifying discriminative visual codebook generation with classifier training for object category recognition
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-hierarchical-gaussianization-for-image-classification
+  numCitedBy: 205
+  pid: 2b6e26b40aafa23d86d10cd4058d3b8944fe9370
+  show_ref_link: false
+  title: Hierarchical Gaussianization for image classification
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-nonlinear-learning-using-local-coordinate-coding
+  numCitedBy: 775
+  pid: a5e23ef59eaf3fd897c460c28d23a982c72e8f65
+  show_ref_link: false
+  title: Nonlinear Learning using Local Coordinate Coding
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-scene-classification-using-a-hybrid-generative-discriminative-approach
+  numCitedBy: 785
+  pid: 966eb7a1aad596d324b9e4330927246642998f72
+  show_ref_link: false
+  title: Scene Classification Using a Hybrid Generative/Discriminative Approach
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-in-defense-of-nearest-neighbor-based-image-classification
+  numCitedBy: 1206
+  pid: 7ae4d5ec354f2a54b5cd70395cb12283390d0638
+  show_ref_link: false
+  title: In defense of Nearest-Neighbor based image classification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-svm-knn-discriminative-nearest-neighbor-classification-for-visual-category-recognition
+  numCitedBy: 1279
+  pid: ceb0e1a86dc35e21ce5f0524c8476f15e1b08988
+  show_ref_link: false
+  title: SVM-KNN - Discriminative Nearest Neighbor Classification for Visual Category Recognition
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-pyramid-match-kernels-discriminative-classification-with-sets-of-image-features-version-2
+  numCitedBy: 177
+  pid: fc3098cff5469c55c3e81dc127563afe6dbadf22
+  show_ref_link: false
+  title: Pyramid Match Kernels - Discriminative Classification with Sets of Image Features (version 2)
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-the-pyramid-match-kernel-discriminative-classification-with-sets-of-image-features
+  numCitedBy: 1596
+  pid: 625bce34ec80d29242340400d916e799d2975430
+  show_ref_link: false
+  title: The pyramid match kernel - discriminative classification with sets of image features
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-beyond-bags-of-features-spatial-pyramid-matching-for-recognizing-natural-scene-categories
+  numCitedBy: 8341
+  pid: 6dbaff29d3898cf60f63f5a34cb9610ebb75220c
+  show_ref_link: true
+  title: Beyond Bags of Features - Spatial Pyramid Matching for Recognizing Natural Scene Categories
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-efficient-sparse-coding-algorithms
+  numCitedBy: 2686
+  pid: e64a9960734215e2b1866ea3cb723ffa5585ac14
+  show_ref_link: false
+  title: Efficient sparse coding algorithms
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-kernel-codebooks-for-scene-categorization
+  numCitedBy: 712
+  pid: c0a27dd14832dc00ffb4c659d3f675333654bf0a
+  show_ref_link: false
+  title: Kernel Codebooks for Scene Categorization
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-maximum-entropy-framework-for-part-based-texture-and-object-recognition
+  numCitedBy: 205
+  pid: 0a32f6f23c05827e466580647467a322b7db9f7d
+  show_ref_link: false
+  title: A maximum entropy framework for part-based texture and object recognition
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-fast-image-search-for-learned-metrics
+  numCitedBy: 305
+  pid: 11e7d074e4deebfed771d0aa226f4160f4c5c82b
+  show_ref_link: false
+  title: Fast image search for learned metrics
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-video-google-a-text-retrieval-approach-to-object-matching-in-videos
+  numCitedBy: 6772
+  pid: 642e328cae81c5adb30069b680cf60ba6b475153
+  show_ref_link: true
+  title: Video Google - a text retrieval approach to object matching in videos
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-shape-matching-and-object-recognition-using-low-distortion-correspondences
+  numCitedBy: 957
+  pid: 12c7fc38debaf3589e712973642246bd54fe63b3
+  show_ref_link: false
+  title: Shape matching and object recognition using low distortion correspondences
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-generative-visual-models-from-few-training-examples-an-incremental-bayesian-approach-tested-on-101-object-categories
+  numCitedBy: 2359
+  pid: aedb8df8f953429ec5a6df99fda5c5d71dbee4ff
+  show_ref_link: false
+  title: Learning Generative Visual Models from Few Training Examples - An Incremental Bayesian Approach Tested on 101 Object Categories
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-nonlinear-dimensionality-reduction-by-locally-linear-embedding
+  numCitedBy: 14001
+  pid: afcd6da7637ddeef6715109aca248da7a24b1c65
+  show_ref_link: true
+  title: Nonlinear dimensionality reduction by locally linear embedding.
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-what-is-the-spatial-extent-of-an-object
+  numCitedBy: 38
+  pid: 076f011e09b9788c022c0578ab8dd0bb3fdf8908
+  show_ref_link: false
+  title: What is the spatial extent of an object?
+  year: 2009
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1983-a-numerically-stable-dual-method-for-solving-strictly-convex-quadratic-programs
+  numCitedBy: 934
+  pid: d1984defd4ccd17ff944219ebd34420e3fb78239
+  show_ref_link: false
+  title: A numerically stable dual method for solving strictly convex quadratic programs
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-the-pascal-visual-object-classes-challenge-2006-voc2006-results
+  numCitedBy: 2176
+  pid: 6a2ed19ac684022aa3186887cd4893484ab8f80c
+  show_ref_link: false
+  title: The PASCAL visual object classes challenge 2006 (VOC2006) results
+  year: 2006
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 2006-the-pascal-visual-object-classes-challenge
+  numCitedBy: 3336
+  pid: 0ec48ac86456cea3d6d6172ca81ef68e98b21a61
+  show_ref_link: true
+  title: The PASCAL Visual Object Classes Challenge
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-caltech-256-object-category-dataset
+  numCitedBy: 2551
+  pid: 5a5effa909cdeafaddbbb7855037e02f8e25d632
+  show_ref_link: false
+  title: Caltech-256 Object Category Dataset
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-resolution-enhancement-based-on-learning-the-sparse-association-of-image-patches
+  numCitedBy: 83
+  pid: 35a73b1b25f98baeb87e10c86710c3597a4dac0b
+  show_ref_link: false
+  title: Resolution enhancement based on learning the sparse association of image patches
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-visual-categorization-with-bags-of-keypoints
+  numCitedBy: 5017
+  pid: b91180d8853d00e8f2df7ee3532e07d3d0cce2af
+  show_ref_link: true
+  title: Visual categorization with bags of keypoints
+  year: 2004
+slug: Locality-constrained-Linear-Coding-for-image-Wang-Yang
+title: Locality-constrained Linear Coding for image classification
+url: https://www.semanticscholar.org/paper/Locality-constrained-Linear-Coding-for-image-Wang-Yang/2f7713dcc35e7c05becf3be5522f36c9546b0364?sort=total-citations
+venue: 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
+year: 2010

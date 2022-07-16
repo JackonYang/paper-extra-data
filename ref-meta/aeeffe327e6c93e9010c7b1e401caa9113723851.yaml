@@ -1,0 +1,164 @@
+authors:
+- Pedro F. Felzenszwalb
+- D. Huttenlocher
+badges:
+- id: OPEN_ACCESS
+corpusId: 207663697
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-efficient-graph-based-image-segmentation
+numCitedBy: 3744
+numCiting: 26
+paperAbstract: This paper addresses the problem of segmenting an image into regions. We define a predicate for measuring the evidence for a boundary between two regions using a graph-based representation of the image. We then develop an efficient segmentation algorithm based on this predicate, and show that although this algorithm makes greedy decisions it produces segmentations that satisfy global properties. We apply the algorithm to image segmentation using two different kinds of local neighborhoods in constructing the graph, and illustrate the results with both real and synthetic images. The algorithm runs in time nearly linear in the number of graph edges and is also fast in practice. An important characteristic of the method is its ability to preserve detail in low-variability image regions while ignoring detail in high-variability regions.
+ref_count: 26
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-image-segmentation-using-local-variation
+  numCitedBy: 277
+  pid: 2f39500bbfbbcfce89d5a1edba18ca76892ee93c
+  show_ref_link: false
+  title: Image segmentation using local variation
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-normalized-cuts-and-image-segmentation
+  numCitedBy: 12936
+  pid: b94c7ff9532ab26c3aedbee3988ec4c7a237c173
+  show_ref_link: true
+  title: Normalized cuts and image segmentation
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-the-tractability-of-segmentation-and-scene-analysis
+  numCitedBy: 52
+  pid: 83d585082a8ccc617f288c0ea984d360832f92e0
+  show_ref_link: false
+  title: The Tractability of Segmentation and Scene Analysis
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-segmentation-using-eigenvectors-a-unifying-view
+  numCitedBy: 858
+  pid: e9d7f589a3d368a3701832e28d90ca09ec9e5577
+  show_ref_link: false
+  title: Segmentation using eigenvectors - a unifying view
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-an-optimal-graph-theoretic-approach-to-data-clustering-theory-and-its-application-to-image-segmentation
+  numCitedBy: 1267
+  pid: 250748b4494cec56abd55ae049bdd38f4d42e5c8
+  show_ref_link: false
+  title: An Optimal Graph Theoretic Approach to Data Clustering - Theory and Its Application to Image Segmentation
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-robust-analysis-of-feature-spaces-color-image-segmentation
+  numCitedBy: 819
+  pid: 410abafed76d3ffd075b0e155e7b71e465efd126
+  show_ref_link: false
+  title: Robust analysis of feature spaces - color image segmentation
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2001-globally-optimal-regions-and-boundaries-as-minimum-ratio-weight-cycles
+  numCitedBy: 197
+  pid: a156e15812ab648e0f455f08dbe50c3cdffade48
+  show_ref_link: false
+  title: Globally Optimal Regions and Boundaries as Minimum Ratio Weight Cycles
+  year: 2001
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1999-mean-shift-analysis-and-applications
+  numCitedBy: 1077
+  pid: cebc494c81f85fa9739b049a9930df6cbd68b587
+  show_ref_link: false
+  title: Mean shift analysis and applications
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1971-graph-theoretical-methods-for-detecting-and-describing-gestalt-clusters
+  numCitedBy: 1811
+  pid: 4ae384fb530f986e4f80d03ada0abd3acf89dbc0
+  show_ref_link: false
+  title: Graph-Theoretical Methods for Detecting and Describing Gestalt Clusters
+  year: 1971
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-a-framework-for-learning-query-concepts-in-image-classification
+  numCitedBy: 84
+  pid: 077436a29bb8e49d97687f2901f166ac245a6868
+  show_ref_link: false
+  title: A framework for learning query concepts in image classification
+  year: 1999
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1982-graph-theoretical-clustering-based-on-limited-neighbourhood-sets
+  numCitedBy: 208
+  pid: 43112fb3ad14da20b4200605a2e28b9a069d679a
+  show_ref_link: false
+  title: Graph theoretical clustering based on limited neighbourhood sets
+  year: 1982
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-a-factorization-approach-to-grouping
+  numCitedBy: 327
+  pid: 23d31d6c75a3c62ee2cedd22308c5c0ba34217e7
+  show_ref_link: false
+  title: A Factorization Approach to Grouping
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1981-structural-pattern-recognition
+  numCitedBy: 285
+  pid: 15db30ddcd46d8f3dfb611d6f437d14660807d2b
+  show_ref_link: false
+  title: Structural Pattern Recognition
+  year: 1981
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-approximate-nearest-neighbor-queries-in-fixed-dimensions
+  numCitedBy: 408
+  pid: b654d0a3de9acd9db6982d39bcf25e8ece9a31e6
+  show_ref_link: false
+  title: Approximate nearest neighbor queries in fixed dimensions
+  year: 1993
+- fieldsOfStudy:
+  - Education
+  meta_key: 1938-laws-of-organization-in-perceptual-forms
+  numCitedBy: 1469
+  pid: 43a0503e38b4c47a5b794c04439299bd78310189
+  show_ref_link: false
+  title: Laws of organization in perceptual forms.
+  year: 1938
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1977-structural-pattern-recognition
+  numCitedBy: 956
+  pid: 0e9e7ad902fd8f516577ce56dd8d9cba78164eca
+  show_ref_link: false
+  title: Structural pattern recognition
+  year: 1977
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-algorithms-for-clustering-data
+  numCitedBy: 10573
+  pid: aa4bddbd10eafd8e1b54338517eedfee408f03ae
+  show_ref_link: false
+  title: Algorithms for Clustering Data
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-complexity-and-approximation-combinatorial-optimization-problems-and-their-approximability-properties
+  numCitedBy: 1359
+  pid: 1f4b6049b2ae8e536e1f93097792743936de558c
+  show_ref_link: false
+  title: Complexity and approximation - combinatorial optimization problems and their approximability properties
+  year: 1999
+slug: Efficient-Graph-Based-Image-Segmentation-Felzenszwalb-Huttenlocher
+title: Efficient Graph-Based Image Segmentation
+url: https://www.semanticscholar.org/paper/Efficient-Graph-Based-Image-Segmentation-Felzenszwalb-Huttenlocher/aeeffe327e6c93e9010c7b1e401caa9113723851?sort=total-citations
+venue: International Journal of Computer Vision
+year: 2004

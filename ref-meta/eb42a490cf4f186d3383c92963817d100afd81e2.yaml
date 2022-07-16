@@ -1,0 +1,174 @@
+authors:
+- Kristina Toutanova
+- D. Klein
+- Christopher D. Manning
+- Y. Singer
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 14835360
+fieldsOfStudy:
+- Computer Science
+meta_key: 2003-feature-rich-part-of-speech-tagging-with-a-cyclic-dependency-network
+numCitedBy: 3442
+numCiting: 43
+paperAbstract: 'We present a new part-of-speech tagger that demonstrates the following ideas: (i) explicit use of both preceding and following tag contexts via a dependency network representation, (ii) broad use of lexical features, including jointly conditioning on multiple consecutive words, (iii) effective use of priors in conditional loglinear models, and (iv) fine-grained modeling of unknown word features. Using these ideas together, the resulting tagger gives a 97.24% accuracy on the Penn Treebank WSJ, an error reduction of 4.4% on the best previous single automatically learned tagging result.'
+ref_count: 43
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-enriching-the-knowledge-sources-used-in-a-maximum-entropy-part-of-speech-tagger
+  numCitedBy: 1575
+  pid: 1504a9d5829033a8cb4cf37b8bb13dfd4baddc7b
+  show_ref_link: false
+  title: Enriching the Knowledge Sources Used in a Maximum Entropy Part-of-Speech Tagger
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1993-equations-for-part-of-speech-tagging
+  numCitedBy: 212
+  pid: a5aa95289383a3fd91dd68a314b1031d3e165c3b
+  show_ref_link: false
+  title: Equations for Part-of-Speech Tagging
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-part-of-speech-tagging-based-on-hidden-markov-model-assuming-joint-independence
+  numCitedBy: 16
+  pid: ba8ae7c8261a77ec93727f741d50001b9353f65d
+  show_ref_link: false
+  title: Part-of-Speech Tagging Based on Hidden Markov Model Assuming Joint Independence
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-tnt-a-statistical-part-of-speech-tagger
+  numCitedBy: 1906
+  pid: d560a8d279075a529e9cadb0d664b27957aac5a2
+  show_ref_link: false
+  title: TnT - A Statistical Part-of-Speech Tagger
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-a-maximum-entropy-model-for-part-of-speech-tagging
+  numCitedBy: 1547
+  pid: a574e320d899e7e82e341eb64baef7dfe8a24642
+  show_ref_link: false
+  title: A Maximum Entropy Model for Part-Of-Speech Tagging
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-conditional-structure-versus-conditional-estimation-in-nlp-models
+  numCitedBy: 134
+  pid: 205b9f4891a2ead886604f161a44b3aed483609a
+  show_ref_link: false
+  title: Conditional Structure versus Conditional Estimation in NLP Models
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-a-second-order-hidden-markov-model-for-part-of-speech-tagging
+  numCitedBy: 163
+  pid: f0b5342b00268bd5125afc9670622e19b015d21b
+  show_ref_link: false
+  title: A Second-Order Hidden Markov Model for Part-of-Speech Tagging
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-a-stochastic-parts-program-and-noun-phrase-parser-for-unrestricted-text
+  numCitedBy: 1058
+  pid: a7e084fe51a40eeaaf79bf0b78e837d5bc4a8e10
+  show_ref_link: false
+  title: A Stochastic Parts Program and Noun Phrase Parser for Unrestricted Text
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-building-a-large-annotated-corpus-of-english-the-penn-treebank
+  numCitedBy: 8197
+  pid: 0b44fcbeea9415d400c5f5789d6b892b6f98daff
+  show_ref_link: false
+  title: Building a Large Annotated Corpus of English - The Penn Treebank
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-classifier-combination-for-improved-lexical-disambiguation
+  numCitedBy: 188
+  pid: 8e824aaf67f4f4f068455c6dbb7a6ed877794bd6
+  show_ref_link: false
+  title: Classifier Combination for Improved Lexical Disambiguation
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-discriminative-training-methods-for-hidden-markov-models-theory-and-experiments-with-perceptron-algorithms
+  numCitedBy: 2275
+  pid: 5a7958b418bceb48a315384568091ab1898b1640
+  show_ref_link: false
+  title: Discriminative Training Methods for Hidden Markov Models - Theory and Experiments with Perceptron Algorithms
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-conditional-random-fields-probabilistic-models-for-segmenting-and-labeling-sequence-data
+  numCitedBy: 13449
+  pid: f4ba954b0412773d047dc41231c733de0c1f4926
+  show_ref_link: true
+  title: Conditional Random Fields - Probabilistic Models for Segmenting and Labeling Sequence Data
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-boosting-applied-to-tagging-and-pp-attachment
+  numCitedBy: 151
+  pid: 5db4c0f527adc11923c97a05e947e21711572a97
+  show_ref_link: false
+  title: Boosting Applied to Tagging and PP Attachment
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-estimators-for-stochastic-unification-based-grammars
+  numCitedBy: 233
+  pid: 463dbd690d912b23d29b7581fb6b253b36f50394
+  show_ref_link: false
+  title: Estimators for Stochastic Unification-Based Grammars
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-dependency-networks-for-inference-collaborative-filtering-and-data-visualization
+  numCitedBy: 594
+  pid: 30afca3a4056bc54deadc1c5794048436d1c9eb4
+  show_ref_link: false
+  title: Dependency Networks for Inference, Collaborative Filtering, and Data Visualization
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-text-categorization-based-on-regularized-linear-classification-methods
+  numCitedBy: 412
+  pid: d49bfad00101a03ac3e964bea3717c75a5bb3210
+  show_ref_link: false
+  title: Text Categorization Based on Regularized Linear Classification Methods
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-probabilistic-networks-and-expert-systems
+  numCitedBy: 1483
+  pid: c3f680d9c248d396bb3920fcf98ce9a7ba0a9c88
+  show_ref_link: false
+  title: Probabilistic Networks and Expert Systems
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-fast-robust-logistic-regression-for-large-sparse-datasets-with-binary-outputs
+  numCitedBy: 69
+  pid: 0b6f2975f33db74f0ad7954053a80ce95d42eae6
+  show_ref_link: false
+  title: Fast Robust Logistic Regression for Large Sparse Datasets with Binary Outputs
+  year: 2003
+- fieldsOfStudy:
+  - Materials Science
+  meta_key: 1995-transformation-based-error-driven-learning-and-natural-language-processing-a-case-study-in-part-of-speech-tagging
+  numCitedBy: 1825
+  pid: 2b2eb4a9bb146e3ffaa0b025fba0ed14240c683f
+  show_ref_link: false
+  title: Transformation-Based Error-Driven Learning and Natural Language Processing - A Case Study in Part-of-Speech Tagging
+  year: 1995
+slug: Feature-Rich-Part-of-Speech-Tagging-with-a-Cyclic-Toutanova-Klein
+title: Feature-Rich Part-of-Speech Tagging with a Cyclic Dependency Network
+url: https://www.semanticscholar.org/paper/Feature-Rich-Part-of-Speech-Tagging-with-a-Cyclic-Toutanova-Klein/eb42a490cf4f186d3383c92963817d100afd81e2?sort=total-citations
+venue: NAACL
+year: 2003

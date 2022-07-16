@@ -1,0 +1,302 @@
+authors:
+- Oriol Vinyals
+- Alexander Toshev
+- Samy Bengio
+- D. Erhan
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 1169492
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-show-and-tell-a-neural-image-caption-generator
+numCitedBy: 4535
+numCiting: 36
+paperAbstract: Automatically describing the content of an image is a fundamental problem in artificial intelligence that connects computer vision and natural language processing. In this paper, we present a generative model based on a deep recurrent architecture that combines recent advances in computer vision and machine translation and that can be used to generate natural sentences describing an image. The model is trained to maximize the likelihood of the target description sentence given the training image. Experiments on several datasets show the accuracy of the model and the fluency of the language it learns solely from image descriptions. Our model is often quite accurate, which we verify both qualitatively and quantitatively. For instance, while the current state-of-the-art BLEU-1 score (the higher the better) on the Pascal dataset is 25, our approach yields 59, to be compared to human performance around 69. We also show BLEU-1 score improvements on Flickr30k, from 56 to 66, and on SBU, from 19 to 28. Lastly, on the newly released COCO dataset, we achieve a BLEU-4 of 27.7, which is the current state-of-the-art.
+ref_count: 36
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-explain-images-with-multimodal-recurrent-neural-networks
+  numCitedBy: 323
+  pid: 82fdca623c65b6acf6b06bdeed48b2a9ebdb80a9
+  show_ref_link: false
+  title: Explain Images with Multimodal Recurrent Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-framing-image-description-as-a-ranking-task-data-models-and-evaluation-metrics-extended-abstract
+  numCitedBy: 931
+  pid: 9814df8bd00ba999c4d1e305a7e9bca579dc7c75
+  show_ref_link: false
+  title: Framing Image Description as a Ranking Task - Data, Models and Evaluation Metrics (Extended Abstract)
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-unifying-visual-semantic-embeddings-with-multimodal-neural-language-models
+  numCitedBy: 1061
+  pid: 2e36ea91a3c8fbff92be2989325531b4002e2afc
+  show_ref_link: true
+  title: Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 14964
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-grounded-compositional-semantics-for-finding-and-describing-images-with-sentences
+  numCitedBy: 785
+  pid: 0ca7d208ff8d81377e0eaa9723820aeae7a7322d
+  show_ref_link: false
+  title: Grounded Compositional Semantics for Finding and Describing Images with Sentences
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-every-picture-tells-a-story-generating-sentences-from-images
+  numCitedBy: 988
+  pid: eaaed23a2d94feb2f1c3ff22a25777c7a78f3141
+  show_ref_link: false
+  title: Every Picture Tells a Story - Generating Sentences from Images
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+  numCitedBy: 4251
+  pid: b8de958fead0d8a9619b55c7299df3257c624a96
+  show_ref_link: true
+  title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19461
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-cider-consensus-based-image-description-evaluation
+  numCitedBy: 2187
+  pid: 258986132bf17755fe8263e42429fe73218c1534
+  show_ref_link: true
+  title: CIDEr - Consensus-based image description evaluation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-multimodal-neural-language-models
+  numCitedBy: 575
+  pid: fad611e35b3731740b4d8b754241e77add5a70b9
+  show_ref_link: false
+  title: Multimodal Neural Language Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-composing-simple-image-descriptions-using-web-scale-n-grams
+  numCitedBy: 319
+  pid: fbdbe747c6aa8b35b981d21e475ff1506a1bae66
+  show_ref_link: false
+  title: Composing Simple Image Descriptions using Web-scale N-grams
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-baby-talk-understanding-and-generating-simple-image-descriptions
+  numCitedBy: 483
+  pid: 169b847e69c35cfd475eb4dcc561a24de11762ca
+  show_ref_link: false
+  title: Baby talk - Understanding and generating simple image descriptions
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-fragment-embeddings-for-bidirectional-image-sentence-mapping
+  numCitedBy: 745
+  pid: 7f1b111f0bb703b0bd97aba505728a9b0d9b2a54
+  show_ref_link: false
+  title: Deep Fragment Embeddings for Bidirectional Image Sentence Mapping
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-improving-image-sentence-embeddings-using-large-weakly-annotated-photo-collections
+  numCitedBy: 235
+  pid: fa0cc5fcd2faa4591dd53504d0c5115783a2d2b6
+  show_ref_link: false
+  title: Improving Image-Sentence Embeddings Using Large Weakly Annotated Photo Collections
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-i2t-image-parsing-to-text-description
+  numCitedBy: 288
+  pid: 05e074abddd3fe987b9bebd46f6cf4bf8465c37e
+  show_ref_link: false
+  title: I2T - Image Parsing to Text Description
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15156
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-collective-generation-of-natural-image-descriptions
+  numCitedBy: 322
+  pid: 2a0d0f6c5a69b264710df0230696f47c5918e2f2
+  show_ref_link: false
+  title: Collective Generation of Natural Image Descriptions
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-image-description-using-visual-dependency-representations
+  numCitedBy: 252
+  pid: 3f6a4556769e819242d669d073b895f1e45a706f
+  show_ref_link: false
+  title: Image Description using Visual Dependency Representations
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-midge-generating-image-descriptions-from-computer-vision-detections
+  numCitedBy: 387
+  pid: 355de7460120ddc1150d9ce3756f9848983f7ff4
+  show_ref_link: false
+  title: Midge - Generating Image Descriptions From Computer Vision Detections
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20013
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-collecting-image-annotations-using-amazon-s-mechanical-turk
+  numCitedBy: 548
+  pid: bf60322f83714523e2d7c1d39983151fe9db7146
+  show_ref_link: false
+  title: Collecting Image Annotations Using Amazon's Mechanical Turk
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-im2text-describing-images-using-1-million-captioned-photographs
+  numCitedBy: 741
+  pid: 8e080b98efbe65c02a116439205ca2344b9f7cd4
+  show_ref_link: false
+  title: Im2Text - Describing Images Using 1 Million Captioned Photographs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks
+  numCitedBy: 4366
+  pid: 1109b663453e78a59e4f66446d71720ac58cec25
+  show_ref_link: true
+  title: OverFeat - Integrated Recognition, Localization and Detection using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-treetalk-composition-and-compression-of-trees-for-image-descriptions
+  numCitedBy: 221
+  pid: 59927ded86ab4f7253fc32efb351e5a13e746ead
+  show_ref_link: false
+  title: TreeTalk - Composition and Compression of Trees for Image Descriptions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25655
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-efficient-estimation-of-word-representations-in-vector-space
+  numCitedBy: 22055
+  pid: 330da625c15427c6e42ccfa3b747fb29e5835bf0
+  show_ref_link: true
+  title: Efficient Estimation of Word Representations in Vector Space
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-generating-image-descriptions-using-dependency-relational-patterns
+  numCitedBy: 86
+  pid: e8dbc756ea246f599250c09e3efd9bba9909a842
+  show_ref_link: false
+  title: Generating Image Descriptions Using Dependency Relational Patterns
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-generating-sequences-with-recurrent-neural-networks
+  numCitedBy: 3163
+  pid: 89b1f4740ae37fd04f6ac007577bdd34621f0861
+  show_ref_link: true
+  title: Generating Sequences With Recurrent Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-from-image-descriptions-to-visual-denotations-new-similarity-metrics-for-semantic-inference-over-event-descriptions
+  numCitedBy: 1342
+  pid: 44040913380206991b1991daf1192942e038fe31
+  show_ref_link: true
+  title: From image descriptions to visual denotations - New similarity metrics for semantic inference over event descriptions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-knowledge-representation-for-the-generation-of-quantified-natural-language-descriptions-of-vehicle-traffic-in-image-sequences
+  numCitedBy: 32
+  pid: 29a4296ee628f1254d8007211dde13293397c52b
+  show_ref_link: false
+  title: Knowledge representation for the generation of quantified natural language descriptions of vehicle traffic in image sequences
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-bleu-a-method-for-automatic-evaluation-of-machine-translation
+  numCitedBy: 16745
+  pid: d7da009f457917aa381619facfa5ffae9329a6e9
+  show_ref_link: true
+  title: Bleu - a Method for Automatic Evaluation of Machine Translation
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-neural-network-regularization
+  numCitedBy: 1990
+  pid: f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97
+  show_ref_link: true
+  title: Recurrent Neural Network Regularization
+  year: 2014
+slug: Show-and-tell:-A-neural-image-caption-generator-Vinyals-Toshev
+title: Show and tell - A neural image caption generator
+url: https://www.semanticscholar.org/paper/Show-and-tell:-A-neural-image-caption-generator-Vinyals-Toshev/d4dc1012d780e8e2547237eb5a6dc7b1bf47d2f0?sort=total-citations
+venue: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2015

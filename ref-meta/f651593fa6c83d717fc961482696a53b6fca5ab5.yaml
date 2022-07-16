@@ -1,0 +1,317 @@
+authors:
+- Hyeonseob Nam
+- Jung-Woo Ha
+- Jeonghee Kim
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 945386
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-dual-attention-networks-for-multimodal-reasoning-and-matching
+numCitedBy: 476
+numCiting: 38
+paperAbstract: We propose Dual Attention Networks (DANs) which jointly leverage visual and textual attention mechanisms to capture fine-grained interplay between vision and language. DANs attend to specific regions in images and words in text through multiple steps and gather essential information from both modalities. Based on this framework, we introduce two types of DANs for multimodal reasoning and matching, respectively. The reasoning model allows visual and textual attentions to steer each other during collaborative inference, which is useful for tasks such as Visual Question Answering (VQA). In addition, the matching model exploits the two attention mechanisms to estimate the similarity between images and sentences by focusing on their shared semantics. Our extensive experiments validate the effectiveness of DANs in combining vision and language, achieving the state-of-the-art performance on public benchmarks for VQA and image-text matching.
+ref_count: 38
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-hierarchical-question-image-co-attention-for-visual-question-answering
+  numCitedBy: 1130
+  pid: fb9d253258d6b3beceb9d6cd7bba6e0a29ab875b
+  show_ref_link: true
+  title: Hierarchical Question-Image Co-Attention for Visual Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dynamic-memory-networks-for-visual-and-textual-question-answering
+  numCitedBy: 664
+  pid: f96898d15a1bf1fa8925b1280d0e07a7a8e72194
+  show_ref_link: true
+  title: Dynamic Memory Networks for Visual and Textual Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-multimodal-compact-bilinear-pooling-for-visual-question-answering-and-visual-grounding
+  numCitedBy: 1092
+  pid: fddc15480d086629b960be5bff96232f967f2252
+  show_ref_link: true
+  title: Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-stacked-attention-networks-for-image-question-answering
+  numCitedBy: 1480
+  pid: 2c1890864c1c2b750f48316dc8b650ba4772adc5
+  show_ref_link: true
+  title: Stacked Attention Networks for Image Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-fragment-embeddings-for-bidirectional-image-sentence-mapping
+  numCitedBy: 745
+  pid: 7f1b111f0bb703b0bd97aba505728a9b0d9b2a54
+  show_ref_link: false
+  title: Deep Fragment Embeddings for Bidirectional Image Sentence Mapping
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-multimodal-residual-learning-for-visual-qa
+  numCitedBy: 227
+  pid: 1afb710a5b35a2352a6495e4bf6eef66808daf1b
+  show_ref_link: false
+  title: Multimodal Residual Learning for Visual QA
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-module-networks
+  numCitedBy: 744
+  pid: 21c99706bb26e9012bfb4d8d48009a3d45af59b2
+  show_ref_link: true
+  title: Neural Module Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-unifying-visual-semantic-embeddings-with-multimodal-neural-language-models
+  numCitedBy: 1061
+  pid: 2e36ea91a3c8fbff92be2989325531b4002e2afc
+  show_ref_link: true
+  title: Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-multimodal-convolutional-neural-networks-for-matching-image-and-sentence
+  numCitedBy: 284
+  pid: 153d6feb7149e063b33e8ee437b74e4a2def8057
+  show_ref_link: false
+  title: Multimodal Convolutional Neural Networks for Matching Image and Sentence
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-training-recurrent-answering-units-with-joint-loss-minimization-for-vqa
+  numCitedBy: 66
+  pid: b58e08741fb9803fa2a870eee139137d3bade332
+  show_ref_link: false
+  title: Training Recurrent Answering Units with Joint Loss Minimization for VQA
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-visual-semantic-alignments-for-generating-image-descriptions
+  numCitedBy: 2619
+  pid: 55e022fb7581bb9e1fce678d21fb25ffbb3fbb88
+  show_ref_link: true
+  title: Deep Visual-Semantic Alignments for Generating Image Descriptions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ask-me-anything-free-form-visual-question-answering-based-on-knowledge-from-external-sources
+  numCitedBy: 307
+  pid: 20dbdf02497aa84510970d0f5e8b599073bca1bc
+  show_ref_link: true
+  title: Ask Me Anything - Free-Form Visual Question Answering Based on Knowledge from External Sources
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-where-to-look-focus-regions-for-visual-question-answering
+  numCitedBy: 362
+  pid: 175e9bb50cc062c6c1742a5d90c8dfe31d2e4e22
+  show_ref_link: true
+  title: Where to Look - Focus Regions for Visual Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-attend-and-tell-neural-image-caption-generation-with-visual-attention
+  numCitedBy: 7309
+  pid: 4d8f2d14af5991d4f0d050d22216825cac3157bd
+  show_ref_link: true
+  title: Show, Attend and Tell - Neural Image Caption Generation with Visual Attention
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-framing-image-description-as-a-ranking-task-data-models-and-evaluation-metrics-extended-abstract
+  numCitedBy: 931
+  pid: 9814df8bd00ba999c4d1e305a7e9bca579dc7c75
+  show_ref_link: false
+  title: Framing Image Description as a Ranking Task - Data, Models and Evaluation Metrics (Extended Abstract)
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-flickr30k-entities-collecting-region-to-phrase-correspondences-for-richer-image-to-sentence-models
+  numCitedBy: 673
+  pid: 0612745dbd292fc0a548a16d39cd73e127faedde
+  show_ref_link: false
+  title: Flickr30k Entities - Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-vqa-visual-question-answering
+  numCitedBy: 2932
+  pid: 97ad70a9fa3f99adf18030e5e38ebe3d90daa2db
+  show_ref_link: true
+  title: VQA - Visual Question Answering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compositional-captioning-describing-novel-object-categories-without-paired-training-data
+  numCitedBy: 234
+  pid: e516d22697bad6d0f7956b0e8bfa93d6eb0b2f17
+  show_ref_link: false
+  title: Deep Compositional Captioning - Describing Novel Object Categories without Paired Training Data
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-natural-language-object-retrieval
+  numCitedBy: 422
+  pid: d696a1923288e6c15422660de9553f6fdb6a4fae
+  show_ref_link: true
+  title: Natural Language Object Retrieval
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-and-tell-a-neural-image-caption-generator
+  numCitedBy: 4535
+  pid: d4dc1012d780e8e2547237eb5a6dc7b1bf47d2f0
+  show_ref_link: true
+  title: Show and tell - A neural image caption generator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-deep-structure-preserving-image-text-embeddings
+  numCitedBy: 587
+  pid: b27e791e843c924ef052981b79490ab59fc0433d
+  show_ref_link: true
+  title: Learning Deep Structure-Preserving Image-Text Embeddings
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-captioning-with-multimodal-recurrent-neural-networks-m-rnn
+  numCitedBy: 1011
+  pid: 54b2b6f35f1b5704dddfaa3a137a2f4ad3dfe745
+  show_ref_link: true
+  title: Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN)
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-networks-with-internal-selective-attention-through-feedback-connections
+  numCitedBy: 217
+  pid: 70155488a49d51755c1dfea728e03a6dd72703a1
+  show_ref_link: false
+  title: Deep Networks with Internal Selective Attention through Feedback Connections
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-draw-a-recurrent-neural-network-for-image-generation
+  numCitedBy: 1632
+  pid: a2785f66c20fbdf30ec26c0931584c6d6a0f4fca
+  show_ref_link: true
+  title: DRAW - A Recurrent Neural Network For Image Generation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-neural-attention-model-for-abstractive-sentence-summarization
+  numCitedBy: 2122
+  pid: 5082a1a13daea5c7026706738f8528391a1e6d59
+  show_ref_link: true
+  title: A Neural Attention Model for Abstractive Sentence Summarization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-simple-baseline-for-visual-question-answering
+  numCitedBy: 267
+  pid: 267fb4ac632449dbe84f7acf17c8c7527cb25b0d
+  show_ref_link: false
+  title: Simple Baseline for Visual Question Answering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-models-of-visual-attention
+  numCitedBy: 2426
+  pid: 8a756d4d25511d92a45d0f4545fa819de993851d
+  show_ref_link: true
+  title: Recurrent Models of Visual Attention
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-associating-neural-word-embeddings-with-deep-image-representations-using-fisher-vectors
+  numCitedBy: 252
+  pid: 51239b320c73f3f2219286bf62f24d6763379328
+  show_ref_link: false
+  title: Associating neural word embeddings with deep image representations using Fisher Vectors
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-correlation-for-matching-images-and-text
+  numCitedBy: 339
+  pid: efb0e69bc640171d1f115bb286d865bec6f21a7f
+  show_ref_link: false
+  title: Deep correlation for matching images and text
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-image-question-answering-using-convolutional-neural-network-with-dynamic-parameter-prediction
+  numCitedBy: 278
+  pid: 385c18cc4024a3b3206c508c512e037b9c00b8f3
+  show_ref_link: true
+  title: Image Question Answering Using Convolutional Neural Network with Dynamic Parameter Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-hierarchical-neural-autoencoder-for-paragraphs-and-documents
+  numCitedBy: 550
+  pid: b21c78a62fbb945a19ae9a8935933711647e7d70
+  show_ref_link: false
+  title: A Hierarchical Neural Autoencoder for Paragraphs and Documents
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20013
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-from-image-descriptions-to-visual-denotations-new-similarity-metrics-for-semantic-inference-over-event-descriptions
+  numCitedBy: 1342
+  pid: 44040913380206991b1991daf1192942e038fe31
+  show_ref_link: true
+  title: From image descriptions to visual denotations - New similarity metrics for semantic inference over event descriptions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96531
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19461
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ask-me-anything-dynamic-memory-networks-for-natural-language-processing
+  numCitedBy: 1004
+  pid: 452059171226626718eb677358836328f884298e
+  show_ref_link: true
+  title: Ask Me Anything - Dynamic Memory Networks for Natural Language Processing
+  year: 2016
+slug: Dual-Attention-Networks-for-Multimodal-Reasoning-Nam-Ha
+title: Dual Attention Networks for Multimodal Reasoning and Matching
+url: https://www.semanticscholar.org/paper/Dual-Attention-Networks-for-Multimodal-Reasoning-Nam-Ha/f651593fa6c83d717fc961482696a53b6fca5ab5?sort=total-citations
+venue: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2017

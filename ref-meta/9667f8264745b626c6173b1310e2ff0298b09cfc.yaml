@@ -1,0 +1,214 @@
+authors:
+- Bolei Zhou
+- "\xC0. Lapedriza"
+- Jianxiong Xiao
+- A. Torralba
+- A. Oliva
+badges:
+- id: OPEN_ACCESS
+corpusId: 1849990
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-learning-deep-features-for-scene-recognition-using-places-database
+numCitedBy: 2613
+numCiting: 29
+paperAbstract: Scene recognition is one of the hallmark tasks of computer vision, allowing definition of a context for object recognition. Whereas the tremendous recent progress in object recognition tasks is due to the availability of large datasets like ImageNet and the rise of Convolutional Neural Networks (CNNs) for learning high-level features, performance at scene recognition has not attained the same level of success. This may be because current deep features trained from ImageNet are not competitive enough for such tasks. Here, we introduce a new scene-centric database called Places with over 7 million labeled pictures of scenes. We propose new methods to compare the density and diversity of image datasets and show that Places is as dense as other scene datasets and has more diversity. Using CNN, we learn deep features for scene recognition tasks, and establish new state-of-the-art results on several scene-centric datasets. A visualization of the CNN layers' responses allows us to show differences in the internal representations of object-centric and scene-centric networks.
+ref_count: 29
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-cnn-features-off-the-shelf-an-astounding-baseline-for-recognition
+  numCitedBy: 4301
+  pid: 6270baedeba28001cd1b563a199335720d6e0fe0
+  show_ref_link: true
+  title: CNN Features Off-the-Shelf - An Astounding Baseline for Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+  numCitedBy: 4251
+  pid: b8de958fead0d8a9619b55c7299df3257c624a96
+  show_ref_link: true
+  title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-sun-database-large-scale-scene-recognition-from-abbey-to-zoo
+  numCitedBy: 2361
+  pid: 908091b4a8757c3b2f7d9cfa2c4f616ee12c5157
+  show_ref_link: false
+  title: SUN database - Large-scale scene recognition from abbey to zoo
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-recognizing-indoor-scenes
+  numCitedBy: 699
+  pid: c82d90336ba365c7914fe4bd6c292a8c6916a801
+  show_ref_link: false
+  title: Recognizing indoor scenes
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-beyond-bags-of-features-spatial-pyramid-matching-for-recognizing-natural-scene-categories
+  numCitedBy: 8341
+  pid: 6dbaff29d3898cf60f63f5a34cb9610ebb75220c
+  show_ref_link: true
+  title: Beyond Bags of Features - Spatial Pyramid Matching for Recognizing Natural Scene Categories
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-unbiased-look-at-dataset-bias
+  numCitedBy: 1767
+  pid: 0302bb2d5476540cfb21467473f5eca843caf90b
+  show_ref_link: true
+  title: Unbiased look at dataset bias
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-what-where-and-who-classifying-events-by-scene-and-object-recognition
+  numCitedBy: 822
+  pid: ef4209ed288ef38fecdfae2409bce78633386c10
+  show_ref_link: false
+  title: What, where and who? Classifying events by scene and object recognition
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-image-classification-with-the-fisher-vector-theory-and-practice
+  numCitedBy: 1463
+  pid: d4cede3acfd94fccc927519e04384a8debfec705
+  show_ref_link: true
+  title: Image Classification with the Fisher Vector - Theory and Practice
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13778
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-sun-attribute-database-discovering-annotating-and-recognizing-scene-attributes
+  numCitedBy: 630
+  pid: add89dbbd15b82d8275d712f7f969f1b511f96fd
+  show_ref_link: false
+  title: SUN attribute database - Discovering, annotating, and recognizing scene attributes
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-mid-level-visual-element-discovery-as-discriminative-mode-seeking
+  numCitedBy: 268
+  pid: b222b3b05d8d313420dbde8b163e4336a85dcde9
+  show_ref_link: false
+  title: Mid-level Visual Element Discovery as Discriminative Mode Seeking
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-human-action-recognition-by-learning-bases-of-action-attributes-and-parts
+  numCitedBy: 546
+  pid: 8e15dc51de6da2bc5cabbb733cf2adf5a2c1f72c
+  show_ref_link: false
+  title: Human action recognition by learning bases of action attributes and parts
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 27839
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-modeling-the-shape-of-the-scene-a-holistic-representation-of-the-spatial-envelope
+  numCitedBy: 6524
+  pid: 869171b2f56cfeaa9b81b2626cb4956fea590a57
+  show_ref_link: true
+  title: Modeling the Shape of the Scene - A Holistic Representation of the Spatial Envelope
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-generative-visual-models-from-few-training-examples-an-incremental-bayesian-approach-tested-on-101-object-categories
+  numCitedBy: 2359
+  pid: ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2
+  show_ref_link: false
+  title: Learning Generative Visual Models from Few Training Examples - An Incremental Bayesian Approach Tested on 101 Object Categories
+  year: 2004
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 2010-scene-memory-is-more-detailed-than-you-think
+  numCitedBy: 242
+  pid: 78f31874e1dc14c1af387cbf2cc10ef12c4f72f2
+  show_ref_link: false
+  title: Scene Memory Is More Detailed Than You Think
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-learning-deep-architectures-for-ai
+  numCitedBy: 7579
+  pid: e60ff004dde5c13ec53087872cfcdd12e85beb57
+  show_ref_link: true
+  title: Learning Deep Architectures for AI
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-liblinear-a-library-for-large-linear-classification
+  numCitedBy: 7774
+  pid: 268a4f8da15a42f3e0e71691f760ff5edbf9cec8
+  show_ref_link: true
+  title: LIBLINEAR - A Library for Large Linear Classification
+  year: 2008
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 1998-indices-of-diversity-and-evenness
+  numCitedBy: 316
+  pid: 4a720e577a35cf74505b9ffae42f03b3ffecb371
+  show_ref_link: false
+  title: Indices of diversity and evenness
+  year: 1998
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 2001-the-measurement-of-diversity
+  numCitedBy: 3142
+  pid: c5b9abff19c8d486c4e7b86f4ffafc239ae32569
+  show_ref_link: false
+  title: The Measurement of Diversity
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-caltech-256-object-category-dataset
+  numCitedBy: 2551
+  pid: 5a5effa909cdeafaddbbb7855037e02f8e25d632
+  show_ref_link: false
+  title: Caltech-256 Object Category Dataset
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-analyzing-the-performance-of-multilayer-neural-networks-for-object-recognition
+  numCitedBy: 390
+  pid: dcbf587642c39f495117552ca453a4f955ffa76a
+  show_ref_link: false
+  title: Analyzing the Performance of Multilayer Neural Networks for Object Recognition
+  year: 2014
+slug: Learning-Deep-Features-for-Scene-Recognition-using-Zhou-Lapedriza
+title: Learning Deep Features for Scene Recognition using Places Database
+url: https://www.semanticscholar.org/paper/Learning-Deep-Features-for-Scene-Recognition-using-Zhou-Lapedriza/9667f8264745b626c6173b1310e2ff0298b09cfc?sort=total-citations
+venue: NIPS
+year: 2014

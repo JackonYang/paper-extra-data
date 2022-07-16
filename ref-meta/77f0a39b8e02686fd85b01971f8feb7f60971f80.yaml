@@ -1,0 +1,222 @@
+authors:
+- Kaiming He
+- X. Zhang
+- Shaoqing Ren
+- Jian Sun
+badges:
+- id: OPEN_ACCESS
+corpusId: 6447277
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-identity-mappings-in-deep-residual-networks
+numCitedBy: 6499
+numCiting: 33
+paperAbstract: 'Deep residual networks have emerged as a family of extremely deep architectures showing compelling accuracy and nice convergence behaviors. In this paper, we analyze the propagation formulations behind the residual building blocks, which suggest that the forward and backward signals can be directly propagated from one block to any other block, when using identity mappings as the skip connections and after-addition activation. A series of ablation experiments support the importance of these identity mappings. This motivates us to propose a new residual unit, which makes training easier and improves generalization. We report improved results using a 1001-layer ResNet on CIFAR-10 (4.62 % error) and CIFAR-100, and a 200-layer ResNet on ImageNet. Code is available at: https://github.com/KaimingHe/resnet-1k-layers.'
+ref_count: 33
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-strict-identity-mappings-in-deep-residual-networks
+  numCitedBy: 32
+  pid: 9341380e1a60aa6d3fbe079096229abb9cb2dca7
+  show_ref_link: false
+  title: Learning Strict Identity Mappings in Deep Residual Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8131
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4232
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-highway-networks
+  numCitedBy: 1155
+  pid: e0945081b5b87187a53d4329cf77cd8bff635795
+  show_ref_link: false
+  title: Highway Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-training-very-deep-networks
+  numCitedBy: 1314
+  pid: b92aa7024b87f50737b372e5df31ef091ab54e62
+  show_ref_link: true
+  title: Training Very Deep Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fitnets-hints-for-thin-deep-nets
+  numCitedBy: 2020
+  pid: cd85a549add0c7c7def36aca29837efd24b24080
+  show_ref_link: false
+  title: FitNets - Hints for Thin Deep Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deeply-supervised-nets
+  numCitedBy: 1449
+  pid: fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd
+  show_ref_link: true
+  title: Deeply-Supervised Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96531
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-all-you-need-is-a-good-init
+  numCitedBy: 490
+  pid: 97dc8df45972e4ed7423fc992a5092ba25b33411
+  show_ref_link: false
+  title: All you need is a good init
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15703
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-and-accurate-deep-network-learning-by-exponential-linear-units-elus
+  numCitedBy: 3685
+  pid: f63e917638553414526a0cc8550de4ad2d83fe7a
+  show_ref_link: true
+  title: Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-on-the-complexity-of-shallow-and-deep-neural-network-classifiers
+  numCitedBy: 47
+  pid: 2786feab5c644bf0bde98fb6f9d1dbd0b58ca80c
+  show_ref_link: false
+  title: On the complexity of shallow and deep neural network classifiers
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-striving-for-simplicity-the-all-convolutional-net
+  numCitedBy: 3293
+  pid: 0f84a81f431b18a78bd97f59ed4b9d8eda390970
+  show_ref_link: true
+  title: Striving for Simplicity - The All Convolutional Net
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17285
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12461
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  - Economics
+  meta_key: 2014-fractional-max-pooling
+  numCitedBy: 433
+  pid: 55dda8f230566867acbfaa7bdd08fd8c7b8721ed
+  show_ref_link: false
+  title: Fractional Max-Pooling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6207
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12894
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20013
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25655
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+slug: Identity-Mappings-in-Deep-Residual-Networks-He-Zhang
+title: Identity Mappings in Deep Residual Networks
+url: https://www.semanticscholar.org/paper/Identity-Mappings-in-Deep-Residual-Networks-He-Zhang/77f0a39b8e02686fd85b01971f8feb7f60971f80?sort=total-citations
+venue: ECCV
+year: 2016

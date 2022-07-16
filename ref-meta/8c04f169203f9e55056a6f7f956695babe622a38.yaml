@@ -1,0 +1,372 @@
+authors:
+- D. Lowe
+badges:
+- id: OPEN_ACCESS
+corpusId: 221242327
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-distinctive-image-features-from-scale-invariant-keypoints
+numCitedBy: 13044
+numCiting: 75
+paperAbstract: This paper presents a method for extracting distinctive invariant features from images that can be used to perform reliable matching between different views of an object or scene. The features are invariant to image scale and rotation, and are shown to provide robust matching across a substantial range of affine distortion, change in 3D viewpoint, addition of noise, and change in illumination. The features are highly distinctive, in the sense that a single feature can be correctly matched with high probability against a large database of features from many images. This paper also describes an approach to using these features for object recognition. The recognition proceeds by matching individual features to a database of features from known objects using a fast nearest-neighbor algorithm, followed by a Hough transform to identify clusters belonging to a single object, and finally performing verification through least-squares solution for consistent pose parameters. This approach to recognition can robustly identify objects among clutter and occlusion while achieving near real-time performance.
+ref_count: 75
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-object-recognition-from-local-scale-invariant-features
+  numCitedBy: 16285
+  pid: f9f836d28f52ad260213d32224a6d227f8e8849a
+  show_ref_link: true
+  title: Object recognition from local scale-invariant features
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-shape-recognition-with-edge-based-features
+  numCitedBy: 244
+  pid: 5e80772f40e8ef924727c6c24168cadc3be0b856
+  show_ref_link: false
+  title: Shape recognition with edge-based features
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-local-feature-view-clustering-for-3d-object-recognition
+  numCitedBy: 588
+  pid: 9188b661f2ae65a080676617cc83b7d09773c59f
+  show_ref_link: false
+  title: Local feature view clustering for 3D object recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-invariant-features-from-interest-point-groups
+  numCitedBy: 747
+  pid: 45cb5262b1fb9f149e8f4171e0b1e52d748e062d
+  show_ref_link: false
+  title: Invariant Features from Interest Point Groups
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-reliable-feature-matching-across-widely-separated-views
+  numCitedBy: 767
+  pid: 67f693427d956c0dbc822e7f3452aee8ca36204b
+  show_ref_link: false
+  title: Reliable feature matching across widely separated views
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-recognition-using-region-correspondences
+  numCitedBy: 58
+  pid: c1054962da302e12c743b7373b68e7679a32984b
+  show_ref_link: false
+  title: Recognition Using Region Correspondences
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-probabilistic-models-of-appearance-for-3-d-object-recognition
+  numCitedBy: 118
+  pid: 6d1e696747a5452364579bea583196ed8bc2b254
+  show_ref_link: false
+  title: Probabilistic Models of Appearance for 3-D Object Recognition
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-object-class-recognition-by-unsupervised-scale-invariant-learning
+  numCitedBy: 2489
+  pid: 62837ab473124ea43cb8d7c6a4b4ee0f6f14e8c5
+  show_ref_link: false
+  title: Object class recognition by unsupervised scale-invariant learning
+  year: 2003
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2002-robust-wide-baseline-stereo-from-maximally-stable-extremal-regions
+  numCitedBy: 3933
+  pid: 9d5ea177c7fcaf88ec6f56cbeb3e9b74c08e98a3
+  show_ref_link: true
+  title: Robust Wide Baseline Stereo from Maximally Stable Extremal Regions
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-phase-based-local-features
+  numCitedBy: 113
+  pid: f691349c928b1d65546f243075d5e8995b82f958
+  show_ref_link: false
+  title: Phase-Based Local Features
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-recognition-without-correspondence-using-multidimensional-receptive-field-histograms
+  numCitedBy: 496
+  pid: bd232cf2ab28cc0ba06942875f14206f04ebbae0
+  show_ref_link: false
+  title: Recognition without Correspondence using Multidimensional Receptive Field Histograms
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 2002-an-affine-invariant-interest-point-detector
+  numCitedBy: 1684
+  pid: 9c7a96155f10f152cae0866102c061cdf6da02e8
+  show_ref_link: false
+  title: An Affine Invariant Interest Point Detector
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-a-robust-technique-for-matching-two-uncalibrated-images-through-the-recovery-of-the-unknown-epipolar-geometry
+  numCitedBy: 1625
+  pid: b3ec4ceea040b7b4129ee5d71b4f95539bf876b7
+  show_ref_link: false
+  title: A Robust Technique for Matching two Uncalibrated Images Through the Recovery of the Unknown Epipolar Geometry
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-shape-indexing-using-approximate-nearest-neighbour-search-in-high-dimensional-spaces
+  numCitedBy: 1094
+  pid: ef05b72c9e5b267811d4a069fb1d8038f0e36bbd
+  show_ref_link: false
+  title: Shape indexing using approximate nearest-neighbour search in high-dimensional spaces
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1984-a-representation-for-shape-based-on-peaks-and-ridges-in-the-difference-of-low-pass-transform
+  numCitedBy: 349
+  pid: 252347ef2f962dde7f4c6c0467014e18bdc2cd4f
+  show_ref_link: false
+  title: A Representation for Shape Based on Peaks and Ridges in the Difference of Low-Pass Transform
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-unsupervised-learning-of-models-for-recognition
+  numCitedBy: 758
+  pid: 1cf1527807ebb16020b04d4166e7ba8d27652302
+  show_ref_link: false
+  title: Unsupervised Learning of Models for Recognition
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-a-combined-corner-and-edge-detector
+  numCitedBy: 14131
+  pid: 6818668fb895d95861a2eb9673ddc3a41e27b3b3
+  show_ref_link: false
+  title: A Combined Corner and Edge Detector
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-large-scale-tests-of-a-keyed-appearance-based-3-d-object-recognition-system
+  numCitedBy: 87
+  pid: 50b77b2bc08199fe04150929d4df3d66727f96e8
+  show_ref_link: false
+  title: Large-scale tests of a keyed, appearance-based 3-D object recognition system
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-detecting-salient-blob-like-image-structures-and-their-scales-with-a-scale-space-primal-sketch-a-method-for-focus-of-attention
+  numCitedBy: 491
+  pid: 8385d733a5d41f79ec6cc34be147ec39f592de56
+  show_ref_link: false
+  title: Detecting salient blob-like image structures and their scales with a scale-space primal sketch - A method for focus-of-attention
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-local-grayvalue-invariants-for-image-retrieval
+  numCitedBy: 1794
+  pid: 49fcd806450d947e56c82ef2b438ad9c484069dc
+  show_ref_link: false
+  title: Local Grayvalue Invariants for Image Retrieval
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-view-based-object-recognition-using-saliency-maps
+  numCitedBy: 122
+  pid: 0f3a2e8aafef284c76c1238922b2118587e54e0a
+  show_ref_link: false
+  title: View-based object recognition using saliency maps
+  year: 1999
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1991-fitting-parameterized-three-dimensional-models-to-images
+  numCitedBy: 999
+  pid: d11bf8b06cf96d90e1ee3dd6467c5c92ac53e9a1
+  show_ref_link: false
+  title: Fitting Parameterized Three-Dimensional Models to Images
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-global-localization-using-distinctive-visual-features
+  numCitedBy: 236
+  pid: 6aeafde8e2564c22d4d131bd3d7fd62696575fdd
+  show_ref_link: false
+  title: Global localization using distinctive visual features
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-the-fundamental-matrix-theory-algorithms-and-stability-analysis
+  numCitedBy: 578
+  pid: 9643cd37f8b36dfb8a4c8bcd087843dec40d6635
+  show_ref_link: false
+  title: The fundamental matrix - Theory, algorithms, and stability analysis
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-complex-cells-and-object-recognition
+  numCitedBy: 121
+  pid: 9347996c6a11a8ea47d97df6e0c6c739ad68864a
+  show_ref_link: false
+  title: Complex cells and Object Recognition
+  year: 1997
+- fieldsOfStudy:
+  - Art
+  meta_key: 1995-color-constant-color-indexing
+  numCitedBy: 698
+  pid: 11c4c7af9938b05b366c93aea70ad4e5075f6148
+  show_ref_link: false
+  title: Color Constant Color Indexing
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-object-recognition-by-computer-the-role-of-geometric-constraints
+  numCitedBy: 961
+  pid: 4462c82748d81489f4f453f516754438b35a8cec
+  show_ref_link: false
+  title: Object recognition by computer - the role of geometric constraints
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-vision-based-mobile-robot-localization-and-mapping-using-scale-invariant-features
+  numCitedBy: 586
+  pid: eb88cae3f3a196012bbf6cd2e7480e66b8a6ec31
+  show_ref_link: false
+  title: Vision-based mobile robot localization and mapping using scale-invariant features
+  year: 2001
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2004-active-vision
+  numCitedBy: 1025
+  pid: e65d5ca2a2efe6f5756f579029def41fac4b374e
+  show_ref_link: false
+  title: Active vision
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2004-the-structure-of-images
+  numCitedBy: 2005
+  pid: 58b6b9e9f5472048468bac161bdaa3ae99eecd01
+  show_ref_link: false
+  title: The structure of images
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-cloth-motion-capture
+  numCitedBy: 59
+  pid: 3ed86dc54c72fbafe03da1e9400cb0f1382c560c
+  show_ref_link: false
+  title: Cloth Motion Capture
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1983-scale-space-filtering
+  numCitedBy: 2873
+  pid: a26f893c224ed6e3df1f37479de0e774a4cae237
+  show_ref_link: false
+  title: Scale-Space Filtering
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-approximate-nearest-neighbor-queries-in-fixed-dimensions
+  numCitedBy: 408
+  pid: b654d0a3de9acd9db6982d39bcf25e8ece9a31e6
+  show_ref_link: false
+  title: Approximate nearest neighbor queries in fixed dimensions
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-multiple-view-geometry-in-computer-vision
+  numCitedBy: 16363
+  pid: 339093c7ed71919ce59a7e78979a77abd25bad0c
+  show_ref_link: true
+  title: Multiple View Geometry in Computer Vision
+  year: 2001
+- fieldsOfStudy:
+  - Art
+  meta_key: 1981-rover-visual-obstacle-avoidance
+  numCitedBy: 291
+  pid: e3bc3249755cdc7d1c787809fabb14918704df2a
+  show_ref_link: false
+  title: Rover Visual Obstacle Avoidance
+  year: 1981
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1977-an-algorithm-for-finding-best-matches-in-logarithmic-expected-time
+  numCitedBy: 2969
+  pid: cab3c73f1b2140231b98944c720100b356d91b28
+  show_ref_link: false
+  title: An Algorithm for Finding Best Matches in Logarithmic Expected Time
+  year: 1977
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1998-an-optimal-algorithm-for-approximate-nearest-neighbor-searching-fixed-dimensions
+  numCitedBy: 2728
+  pid: 219101fe724232acc330ff0910152931538f85c7
+  show_ref_link: false
+  title: An optimal algorithm for approximate nearest neighbor searching fixed dimensions
+  year: 1998
+- fieldsOfStudy:
+  - Philosophy
+  - Computer Science
+  meta_key: 2002-detection-of-local-features-invariant-to-affines-transformations
+  numCitedBy: 91
+  pid: 81e0b2275413d77ca21edc0442393d298db804b1
+  show_ref_link: false
+  title: Detection of local features invariant to affines transformations
+  year: 2002
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2002-detection-of-local-features-invariant-to-affine-transformations-application-to-matching-and-recognition
+  numCitedBy: 77
+  pid: c2ccfff437fa0d341db6fa3a77114186d9629019
+  show_ref_link: false
+  title: Detection of local features invariant to affine transformations - application to matching and recognition
+  year: 2002
+- fieldsOfStudy:
+  - Art
+  meta_key: 1993-geometry-from-visual-motion
+  numCitedBy: 173
+  pid: 7da6a6ae6d1dd46087cc3b8e0af165fda1ece75b
+  show_ref_link: false
+  title: Geometry from visual motion
+  year: 1993
+- fieldsOfStudy:
+  - Chemistry
+  meta_key: 2002-complex-in-cells
+  numCitedBy: 6
+  pid: 8a84f9a9cf6ce55c4e25d3b201e2f0b0543ad7e6
+  show_ref_link: false
+  title: Complex in Cells
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-multiple-view-geometry-in-computer-visiond
+  numCitedBy: 958
+  pid: ae954b89b906dbab214d03556ce94c5adf3c0676
+  show_ref_link: false
+  title: Multiple view geometry in computer visiond
+  year: 2001
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 1994-scale-space-theory-a-basic-tool-for-analysing-structures-at-different-scales
+  numCitedBy: 1373
+  pid: 75fa9982cb3f92e1b0fe67cebf23a4b862f8bd2f
+  show_ref_link: false
+  title: Scale-Space Theory - A Basic Tool for Analysing Structures at Different Scales
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-multi-view-matching-for-unordered-image-sets-or-how-do-i-organize-my-holiday-snaps
+  numCitedBy: 697
+  pid: 7e81996384b030b580a0e02c0dc367d59c0c15ba
+  show_ref_link: false
+  title: Multi-view Matching for Unordered Image Sets, or How Do I Organize My Holiday Snaps?
+  year: 2002
+slug: Distinctive-Image-Features-from-Scale-Invariant-Lowe
+title: Distinctive Image Features from Scale-Invariant Keypoints
+url: https://www.semanticscholar.org/paper/Distinctive-Image-Features-from-Scale-Invariant-Lowe/8c04f169203f9e55056a6f7f956695babe622a38?sort=total-citations
+venue: International Journal of Computer Vision
+year: 2004

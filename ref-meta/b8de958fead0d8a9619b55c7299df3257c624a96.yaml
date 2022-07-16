@@ -1,0 +1,402 @@
+authors:
+- Jeff Donahue
+- Yangqing Jia
+- Oriol Vinyals
+- Judy Hoffman
+- Ning Zhang
+- Eric Tzeng
+- Trevor Darrell
+badges:
+- id: OPEN_ACCESS
+corpusId: 6161478
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+numCitedBy: 4251
+numCiting: 55
+paperAbstract: We evaluate whether features extracted from the activation of a deep convolutional network trained in a fully supervised fashion on a large, fixed set of object recognition tasks can be repurposed to novel generic tasks. Our generic tasks may differ significantly from the originally trained tasks and there may be insufficient labeled or unlabeled data to conventionally train or adapt a deep architecture to the new tasks. We investigate and visualize the semantic clustering of deep convolutional features with respect to a variety of such tasks, including scene recognition, domain adaptation, and fine-grained recognition challenges. We compare the efficacy of relying on various network levels to define a fixed feature, and report novel results that significantly outperform the state-of-the-art on several important vision challenges. We are releasing DeCAF, an open-source implementation of these deep convolutional activation features, along with all associated network parameters to enable vision researchers to be able to conduct experimentation with deep representations across a range of visual concept learning paradigms.
+ref_count: 55
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-building-high-level-features-using-large-scale-unsupervised-learning
+  numCitedBy: 2105
+  pid: 72e93aa6767ee683de7f001fa72f1314e40a8f35
+  show_ref_link: true
+  title: Building high-level features using large scale unsupervised learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-hierarchical-invariant-spatio-temporal-features-for-action-recognition-with-independent-subspace-analysis
+  numCitedBy: 1067
+  pid: 42269d0438c0ae4ca892334946ed779999691074
+  show_ref_link: true
+  title: Learning hierarchical invariant spatio-temporal features for action recognition with independent subspace analysis
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-unsupervised-and-transfer-learning-challenge-a-deep-learning-approach
+  numCitedBy: 210
+  pid: 5c0fe8ba39bda83d6ca3b9705a780809d52a67b4
+  show_ref_link: false
+  title: Unsupervised and Transfer Learning Challenge - a Deep Learning Approach
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-dlid-deep-learning-for-domain-adaptation-by-interpolating-between-domains
+  numCitedBy: 183
+  pid: 7da1c2d2ea8f51011b1a3006eabc03b342f792d4
+  show_ref_link: false
+  title: DLID - Deep Learning for Domain Adaptation by Interpolating between Domains
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-adapting-visual-category-models-to-new-domains
+  numCitedBy: 1969
+  pid: 5d9a3036181676e187c9c0ff995d8bed1db3557d
+  show_ref_link: false
+  title: Adapting Visual Category Models to New Domains
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-transfer-learning-for-image-classification-with-sparse-prototype-representations
+  numCitedBy: 247
+  pid: 953e2cfa58679ff6ea8c0bb432afd641f15d3657
+  show_ref_link: false
+  title: Transfer learning for image classification with sparse prototype representations
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-geodesic-flow-kernel-for-unsupervised-domain-adaptation
+  numCitedBy: 1807
+  pid: 7de1d1612debcbde32cd588fa607a408df79c717
+  show_ref_link: false
+  title: Geodesic flow kernel for unsupervised domain adaptation
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-towards-scalable-representations-of-object-categories-learning-a-hierarchy-of-parts
+  numCitedBy: 215
+  pid: 0f602c33b1762d57223c9f9656579f9d1dc2e30a
+  show_ref_link: false
+  title: Towards Scalable Representations of Object Categories - Learning a Hierarchy of Parts
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deformable-part-descriptors-for-fine-grained-recognition-and-attribute-prediction
+  numCitedBy: 229
+  pid: 19c9ac899d5c1a008eaee887556bc1b61ff8132e
+  show_ref_link: false
+  title: Deformable Part Descriptors for Fine-Grained Recognition and Attribute Prediction
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-what-you-saw-is-not-what-you-get-domain-adaptation-using-asymmetric-kernel-transforms
+  numCitedBy: 682
+  pid: feca3cf344320e3d14045c3dcc8a9975f39c8791
+  show_ref_link: false
+  title: What you saw is not what you get - Domain adaptation using asymmetric kernel transforms
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-unsupervised-discovery-of-mid-level-discriminative-patches
+  numCitedBy: 575
+  pid: ce854ea2c797bd10cbdf4563a558cd8652c4946e
+  show_ref_link: false
+  title: Unsupervised Discovery of Mid-Level Discriminative Patches
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-efficient-learning-of-domain-invariant-image-representations
+  numCitedBy: 268
+  pid: 47b9ccff528dc4b104f13734f2f2f9b69a492553
+  show_ref_link: false
+  title: Efficient Learning of Domain-invariant Image Representations
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-multi-task-feature-learning
+  numCitedBy: 1381
+  pid: dbb3342599c9b431a3152a0d5c813d3e56967a27
+  show_ref_link: false
+  title: Multi-Task Feature Learning
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-object-bank-a-high-level-image-representation-for-scene-classification-semantic-feature-sparsification
+  numCitedBy: 998
+  pid: 6286a82f72f632672c1890f3dd6bbb15b8e5168b
+  show_ref_link: false
+  title: Object Bank - A High-Level Image Representation for Scene Classification & Semantic Feature Sparsification
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25655
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-poof-part-based-one-vs-one-features-for-fine-grained-categorization-face-verification-and-attribute-estimation
+  numCitedBy: 339
+  pid: 23efd4b0aef1ae0b356fe88141da085526ed3df0
+  show_ref_link: false
+  title: POOF - Part-Based One-vs.-One Features for Fine-Grained Categorization, Face Verification, and Attribute Estimation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-histograms-of-sparse-codes-for-object-detection
+  numCitedBy: 234
+  pid: 1ea21515ddad82f1e85b4c5883b93ea3909019b5
+  show_ref_link: false
+  title: Histograms of Sparse Codes for Object Detection
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-generative-visual-models-from-few-training-examples-an-incremental-bayesian-approach-tested-on-101-object-categories
+  numCitedBy: 2359
+  pid: ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2
+  show_ref_link: false
+  title: Learning Generative Visual Models from Few Training Examples - An Incremental Bayesian Approach Tested on 101 Object Categories
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-what-is-the-best-multi-stage-architecture-for-object-recognition
+  numCitedBy: 2090
+  pid: 1f88427d7aa8225e47f946ac41a0667d7b69ac52
+  show_ref_link: false
+  title: What is the best multi-stage architecture for object recognition?
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-kernel-descriptors-for-visual-recognition
+  numCitedBy: 352
+  pid: 80d46d268387a4ccb61acd7123d2a8a6130acb28
+  show_ref_link: false
+  title: Kernel Descriptors for Visual Recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-unbiased-look-at-dataset-bias
+  numCitedBy: 1767
+  pid: 0302bb2d5476540cfb21467473f5eca843caf90b
+  show_ref_link: true
+  title: Unbiased look at dataset bias
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6207
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-framework-for-learning-predictive-structures-from-multiple-tasks-and-unlabeled-data
+  numCitedBy: 1416
+  pid: 944e1a7b2c5c62e952418d7684e3cade89c76f87
+  show_ref_link: false
+  title: A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-object-detection-with-discriminatively-trained-part-based-models
+  numCitedBy: 9391
+  pid: e79272fe3d65197100eae8be9fec6469107969ae
+  show_ref_link: true
+  title: Object Detection with Discriminatively Trained Part Based Models
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-describing-people-a-poselet-based-approach-to-attribute-classification
+  numCitedBy: 356
+  pid: afcb15a67c8a68d01b3c9965d182e48c88502c38
+  show_ref_link: false
+  title: Describing people - A poselet-based approach to attribute classification
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-locality-constrained-linear-coding-for-image-classification
+  numCitedBy: 3242
+  pid: 2f7713dcc35e7c05becf3be5522f36c9546b0364
+  show_ref_link: true
+  title: Locality-constrained Linear Coding for image classification
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-unsupervised-learning-of-a-probabilistic-grammar-for-object-detection-and-parsing
+  numCitedBy: 56
+  pid: 39e8b5bed6a96d11766e12bd9dbe8b7994945aee
+  show_ref_link: false
+  title: Unsupervised Learning of a Probabilistic Grammar for Object Detection and Parsing
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-efficient-object-category-recognition-using-classemes
+  numCitedBy: 453
+  pid: f6908334853988faf987be40024ba88480170441
+  show_ref_link: false
+  title: Efficient Object Category Recognition Using Classemes
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-sun-database-large-scale-scene-recognition-from-abbey-to-zoo
+  numCitedBy: 2361
+  pid: 908091b4a8757c3b2f7d9cfa2c4f616ee12c5157
+  show_ref_link: false
+  title: SUN database - Large-scale scene recognition from abbey to zoo
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-multitask-learning
+  numCitedBy: 3378
+  pid: 161ffb54a3fdf0715b198bb57bd22f910242eb49
+  show_ref_link: true
+  title: Multitask Learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35433
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-group-sensitive-multiple-kernel-learning-for-object-categorization
+  numCitedBy: 169
+  pid: defaadaeaf5422f1172e61c2831f8170ed3b5406
+  show_ref_link: false
+  title: Group-sensitive multiple kernel learning for object categorization
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-reducing-the-dimensionality-of-data-with-neural-networks
+  numCitedBy: 14701
+  pid: 46eb79e5eec8a4e2b2f5652b66441e8a4c921c3e
+  show_ref_link: true
+  title: Reducing the Dimensionality of Data with Neural Networks
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 27839
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-modeling-the-shape-of-the-scene-a-holistic-representation-of-the-spatial-envelope
+  numCitedBy: 6524
+  pid: 869171b2f56cfeaa9b81b2626cb4956fea590a57
+  show_ref_link: true
+  title: Modeling the Shape of the Scene - A Holistic Representation of the Spatial Envelope
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  - Education
+  meta_key: 1995-is-learning-the-n-th-thing-any-easier-than-learning-the-first
+  numCitedBy: 687
+  pid: 371c9dc680e916f79d9c78fcf6c894a2dd299095
+  show_ref_link: false
+  title: Is Learning The n-th Thing Any Easier Than Learning The First?
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-frustratingly-easy-domain-adaptation
+  numCitedBy: 1621
+  pid: 9f62067945d991cd78a62cf647de17f01d1b54d3
+  show_ref_link: false
+  title: Frustratingly Easy Domain Adaptation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-visualizing-data-using-t-sne
+  numCitedBy: 22564
+  pid: 1c46943103bd7b7a2c7be86859995a4144d1938b
+  show_ref_link: true
+  title: Visualizing Data using t-SNE
+  year: 2008
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 2010-caltech-ucsd-birds-200
+  numCitedBy: 972
+  pid: a48a56b0727d09f599676524fe190308d9e88bf1
+  show_ref_link: false
+  title: Caltech-UCSD Birds 200
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-lscom-lexicon-definitions-and-annotations-version-1-0
+  numCitedBy: 106
+  pid: d38d131e5e1a05f03ccaefac981e9ab31a82403b
+  show_ref_link: false
+  title: LSCOM Lexicon Definitions and Annotations (Version 1.0)
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-machine-learning
+  numCitedBy: 15747
+  pid: aab43c9c33af00b718cf2ae374b861d49862a563
+  show_ref_link: true
+  title: Machine learning
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2009-multi-label-prediction-via-compressed-sensing
+  numCitedBy: 416
+  pid: cf40878c2de992b6be053f79d3e97d20307dba26
+  show_ref_link: false
+  title: Multi-Label Prediction via Compressed Sensing
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-surf-speeded-up-robust-features
+  numCitedBy: 6261
+  pid: 6c7cf406a47048730c1a08d46cb0166b16566524
+  show_ref_link: true
+  title: SURF - Speeded-Up Robust Features
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-self-taught-learning-transfer-learning-from-unlabeled-data
+  numCitedBy: 1616
+  pid: b3852f0113fcf8a3913c55ae92393ae6ccde347e
+  show_ref_link: false
+  title: Self-taught learning - transfer learning from unlabeled data
+  year: 2007
+slug: DeCAF:-A-Deep-Convolutional-Activation-Feature-for-Donahue-Jia
+title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+url: https://www.semanticscholar.org/paper/DeCAF:-A-Deep-Convolutional-Activation-Feature-for-Donahue-Jia/b8de958fead0d8a9619b55c7299df3257c624a96?sort=total-citations
+venue: ICML
+year: 2014

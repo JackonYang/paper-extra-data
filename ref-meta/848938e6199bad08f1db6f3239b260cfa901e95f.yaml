@@ -1,0 +1,405 @@
+authors:
+- Alejandro Newell
+- Kaiyu Yang
+- Jia Deng
+badges:
+- id: OPEN_ACCESS
+corpusId: 13613792
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-stacked-hourglass-networks-for-human-pose-estimation
+numCitedBy: 3350
+numCiting: 56
+paperAbstract: "This work introduces a novel convolutional network architecture for the task of human pose estimation. Features are processed across all scales and consolidated to best capture the various spatial relationships associated with the body. We show how repeated bottom-up, top-down processing used in conjunction with intermediate supervision is critical to improving the performance of the network. We refer to the architecture as a \u201Cstacked hourglass\u201D network based on the successive steps of pooling and upsampling that are done to produce a final set of predictions. State-of-the-art results are achieved on the FLIC and MPII benchmarks outcompeting all recent methods."
+ref_count: 56
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-flowing-convnets-for-human-pose-estimation-in-videos
+  numCitedBy: 446
+  pid: f22f25904f85c657e10fcc262653ebb6187193f9
+  show_ref_link: false
+  title: Flowing ConvNets for Human Pose Estimation in Videos
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-human-pose-estimation-with-iterative-error-feedback
+  numCitedBy: 565
+  pid: 66d4475f0eee4b65983e06b1fbafad533eb81b2a
+  show_ref_link: false
+  title: Human Pose Estimation with Iterative Error Feedback
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-efficient-object-localization-using-convolutional-networks
+  numCitedBy: 967
+  pid: ebcea2d842d3d4e320500086aff0deb4cb4412ff
+  show_ref_link: false
+  title: Efficient object localization using Convolutional Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-modeep-a-deep-learning-framework-using-motion-features-for-human-pose-estimation
+  numCitedBy: 148
+  pid: f8f4481e521ff34683df44c0e467d03ab5dee2b0
+  show_ref_link: false
+  title: MoDeep - A Deep Learning Framework Using Motion Features for Human Pose Estimation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-joint-training-of-a-convolutional-network-and-a-graphical-model-for-human-pose-estimation
+  numCitedBy: 1208
+  pid: 12ecc2d786080f638a01b9999518e9386baa157d
+  show_ref_link: true
+  title: Joint Training of a Convolutional Network and a Graphical Model for Human Pose Estimation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deeppose-human-pose-estimation-via-deep-neural-networks
+  numCitedBy: 1920
+  pid: 2a002ce457f7ab3088fbd2691734f1ce79f750c4
+  show_ref_link: true
+  title: DeepPose - Human Pose Estimation via Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-pose-machines
+  numCitedBy: 2022
+  pid: 864e7db59f2ccfec1ee9f6eba79566ac7b0634df
+  show_ref_link: false
+  title: Convolutional Pose Machines
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-learning-for-human-part-discovery-in-images
+  numCitedBy: 89
+  pid: b64eda68a08ebef69ae7553b1e495aa5434a898c
+  show_ref_link: false
+  title: Deep learning for human part discovery in images
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-convolutional-neural-networks-for-scene-labeling
+  numCitedBy: 651
+  pid: 1a9658c0b7bea22075c0ea3c229b8c70c1790153
+  show_ref_link: false
+  title: Recurrent Convolutional Neural Networks for Scene Labeling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-weakly-supervised-disentangling-with-recurrent-transformations-for-3d-view-synthesis
+  numCitedBy: 290
+  pid: 3411535f7888a943853895e8eef2bb0b6d328c2a
+  show_ref_link: false
+  title: Weakly-supervised Disentangling with Recurrent Transformations for 3D View Synthesis
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-modec-multimodal-decomposable-models-for-human-pose-estimation
+  numCitedBy: 347
+  pid: 113c22eed8383c74fe6b218743395532e2897e71
+  show_ref_link: false
+  title: MODEC - Multimodal Decomposable Models for Human Pose Estimation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-predicting-depth-surface-normals-and-semantic-labels-with-a-common-multi-scale-convolutional-architecture
+  numCitedBy: 1989
+  pid: 67711d42b77a13a04822ae00620660cef3abf8c4
+  show_ref_link: true
+  title: Predicting Depth, Surface Normals and Semantic Labels with a Common Multi-scale Convolutional Architecture
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-effective-human-pose-estimation-from-inaccurate-annotation
+  numCitedBy: 367
+  pid: 50f3cd71a30ac6155e032c636d37d50e31cb09c2
+  show_ref_link: false
+  title: Learning effective human pose estimation from inaccurate annotation
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 15835
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deepcut-joint-subset-partition-and-labeling-for-multi-person-pose-estimation
+  numCitedBy: 699
+  pid: c10d25ca31df02571df8958d531995e7bbf6d0b3
+  show_ref_link: false
+  title: DeepCut - Joint Subset Partition and Labeling for Multi Person Pose Estimation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-deconvolution-network-for-semantic-segmentation
+  numCitedBy: 2516
+  pid: cf986bfe13a24d4739f95df3a856a3c6e4ed4c1c
+  show_ref_link: true
+  title: Learning Deconvolution Network for Semantic Segmentation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-2d-human-pose-estimation-new-benchmark-and-state-of-the-art-analysis
+  numCitedBy: 1540
+  pid: da8d53f9a85b40a695585aa461286e373c6b74d4
+  show_ref_link: false
+  title: 2D Human Pose Estimation - New Benchmark and State of the Art Analysis
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2014-articulated-pose-estimation-by-a-graphical-model-with-image-dependent-pairwise-relations
+  numCitedBy: 442
+  pid: ed9a133865295aee70c62f8764a904be0498350e
+  show_ref_link: false
+  title: Articulated Pose Estimation by a Graphical Model with Image Dependent Pairwise Relations
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-stacked-what-where-auto-encoders
+  numCitedBy: 231
+  pid: cba5fbd40767a27d20e346a108b8867ac8591a27
+  show_ref_link: false
+  title: Stacked What-Where Auto-encoders
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-depth-map-prediction-from-a-single-image-using-a-multi-scale-deep-network
+  numCitedBy: 2406
+  pid: 06feba1ffd596b41884cea6e8ef0da89b6dd2233
+  show_ref_link: true
+  title: Depth Map Prediction from a Single Image using a Multi-Scale Deep Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentation
+  numCitedBy: 8445
+  pid: b0c065cd43aa7280e766b5dcbcc7e26abce59330
+  show_ref_link: false
+  title: SegNet - A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-hypercolumns-for-object-segmentation-and-fine-grained-localization
+  numCitedBy: 1363
+  pid: 428db42e86f6d51292e23fa57797e35cecd0e2ee
+  show_ref_link: true
+  title: Hypercolumns for object segmentation and fine-grained localization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-clustered-pose-and-nonlinear-appearance-models-for-human-pose-estimation
+  numCitedBy: 679
+  pid: c32715b5106f46eb6761531704cd2a9b5571832e
+  show_ref_link: false
+  title: Clustered Pose and Nonlinear Appearance Models for Human Pose Estimation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-bottom-up-and-top-down-reasoning-with-hierarchical-rectified-gaussians
+  numCitedBy: 96
+  pid: dc4fc132b961c165ce5848dde224e92d00ae910a
+  show_ref_link: false
+  title: Bottom-Up and Top-Down Reasoning with Hierarchical Rectified Gaussians
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-multi-scale-video-prediction-beyond-mean-square-error
+  numCitedBy: 1482
+  pid: 17fa1c2a24ba8f731c8b21f1244463bc4b465681
+  show_ref_link: false
+  title: Deep multi-scale video prediction beyond mean square error
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-poselets-body-part-detectors-trained-using-3d-human-pose-annotations
+  numCitedBy: 1048
+  pid: 55b29a2505149d06d8c1d616cd30edca40cb029c
+  show_ref_link: false
+  title: Poselets - Body part detectors trained using 3D human pose annotations
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-pose-machines-articulated-pose-estimation-via-inference-machines
+  numCitedBy: 224
+  pid: 1aa295c00c37e7a3b4dc56ec2e40793b1617bcb3
+  show_ref_link: false
+  title: Pose Machines - Articulated Pose Estimation via Inference Machines
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-reflectance-maps
+  numCitedBy: 92
+  pid: 0ef0f34f29858bd4cc627cf413b275ea0b1f7de0
+  show_ref_link: false
+  title: Deep Reflectance Maps
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-indoor-semantic-segmentation-using-depth-information
+  numCitedBy: 375
+  pid: 8f3c7fc72635c3b95dc3530fdaceee1d4681548e
+  show_ref_link: false
+  title: Indoor Semantic Segmentation using depth information
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-parsing-occluded-people-by-flexible-compositions
+  numCitedBy: 68
+  pid: 1b4f246b9487821d973c97de6331a9449472786f
+  show_ref_link: false
+  title: Parsing occluded people by flexible compositions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96474
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-deconvolutional-networks
+  numCitedBy: 1206
+  pid: 83dfe3980b875c4e5fe6f2cb1df131cc46d175c8
+  show_ref_link: false
+  title: Deconvolutional networks
+  year: 2010
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2013-human-pose-estimation-using-a-joint-pixel-wise-and-part-wise-formulation
+  numCitedBy: 98
+  pid: e7cb8042e24f800847ed52b9de96fd2b4886a2d2
+  show_ref_link: false
+  title: Human Pose Estimation Using a Joint Pixel-wise and Part-wise Formulation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-strong-appearance-and-expressive-spatial-models-for-human-pose-estimation
+  numCitedBy: 205
+  pid: 016dd886d5cb01c55a0204e2988274cf9417b564
+  show_ref_link: false
+  title: Strong Appearance and Expressive Spatial Models for Human Pose Estimation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deepedge-a-multi-scale-bifurcated-deep-network-for-top-down-contour-detection
+  numCitedBy: 341
+  pid: 17d7b57dcc5c50e3bf2dada669a7905a8f5b13ef
+  show_ref_link: false
+  title: DeepEdge - A multi-scale bifurcated deep network for top-down contour detection
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-semi-supervised-learning-with-ladder-networks
+  numCitedBy: 1004
+  pid: 99487be08cab00554c5c8db73161b2615c694f71
+  show_ref_link: false
+  title: Semi-supervised Learning with Ladder Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-articulated-human-detection-with-flexible-mixtures-of-parts
+  numCitedBy: 711
+  pid: 9f04d907ba87261d4e46ed03dd7de0ec7a1a125f
+  show_ref_link: false
+  title: Articulated Human Detection with Flexible Mixtures of Parts
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-discriminatively-trained-multiscale-deformable-part-model
+  numCitedBy: 2621
+  pid: 860a9d55d87663ca88e74b3ca357396cd51733d0
+  show_ref_link: false
+  title: A discriminatively trained, multiscale, deformable part model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35423
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1493
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-combining-local-appearance-and-holistic-view-dual-source-deep-neural-networks-for-human-pose-estimation
+  numCitedBy: 178
+  pid: f4de9e7360e66b47c3726ff3ab806f8ebe4b5a09
+  show_ref_link: false
+  title: Combining local appearance and holistic view - Dual-Source Deep Neural Networks for human pose estimation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-holistically-nested-edge-detection
+  numCitedBy: 1984
+  pid: 4100414ad0763bdc91bd15bb6e0424a44d7a35fe
+  show_ref_link: true
+  title: Holistically-Nested Edge Detection
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-hierarchical-features-for-scene-labeling
+  numCitedBy: 2410
+  pid: 237a04dd8291cbdb59b6dc4b53e689af743fe2a3
+  show_ref_link: true
+  title: Learning Hierarchical Features for Scene Labeling
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-progressive-search-space-reduction-for-human-pose-estimation
+  numCitedBy: 711
+  pid: a7b6bd15f32ec49906e3500cac1abd7ed6a7c01a
+  show_ref_link: false
+  title: Progressive search space reduction for human pose estimation
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-real-time-human-pose-recognition-in-parts-from-single-depth-images
+  numCitedBy: 2799
+  pid: 2915510a39448503ee873f9693cd3808ca74bd81
+  show_ref_link: true
+  title: Real-time human pose recognition in parts from single depth images
+  year: 2011
+slug: Stacked-Hourglass-Networks-for-Human-Pose-Newell-Yang
+title: Stacked Hourglass Networks for Human Pose Estimation
+url: https://www.semanticscholar.org/paper/Stacked-Hourglass-Networks-for-Human-Pose-Newell-Yang/848938e6199bad08f1db6f3239b260cfa901e95f?sort=total-citations
+venue: ECCV
+year: 2016

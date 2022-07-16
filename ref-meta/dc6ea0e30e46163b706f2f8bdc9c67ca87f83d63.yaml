@@ -1,0 +1,139 @@
+authors:
+- Paul A. Viola
+- Michael J. Jones
+badges:
+- id: OPEN_ACCESS
+corpusId: 2715202
+fieldsOfStudy:
+- Computer Science
+meta_key: 2001-rapid-object-detection-using-a-boosted-cascade-of-simple-features
+numCitedBy: 17922
+numCiting: 26
+paperAbstract: This paper describes a machine learning approach for visual object detection which is capable of processing images extremely rapidly and achieving high detection rates. This work is distinguished by three key contributions. The first is the introduction of a new image representation called the "integral image" which allows the features used by our detector to be computed very quickly. The second is a learning algorithm, based on AdaBoost, which selects a small number of critical visual features from a larger set and yields extremely efficient classifiers. The third contribution is a method for combining increasingly more complex classifiers in a "cascade" which allows background regions of the image to be quickly discarded while spending more computation on promising object-like regions. The cascade can be viewed as an object specific focus-of-attention mechanism which unlike previous approaches provides statistical guarantees that discarded regions are unlikely to contain the object of interest. In the domain of face detection the system yields detection rates comparable to the best previous systems. Used in real-time applications, the detector runs at 15 frames per second without resorting to image differencing or skin color detection.
+ref_count: 26
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-a-general-framework-for-object-detection
+  numCitedBy: 1614
+  pid: 76f560991d56ad689ec32f9e9d13291e0193f4cf
+  show_ref_link: false
+  title: A general framework for object detection
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-boosting-image-retrieval
+  numCitedBy: 397
+  pid: eda4ebc9529f7b4cd53e47f051999a26134c0191
+  show_ref_link: false
+  title: Boosting Image Retrieval
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-training-support-vector-machines-an-application-to-face-detection
+  numCitedBy: 2845
+  pid: 9008cdacbdcff8a218a6928e94fe7c6dfc237b24
+  show_ref_link: false
+  title: Training support vector machines - an application to face detection
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-statistical-method-for-3d-object-detection-applied-to-faces-and-cars
+  numCitedBy: 1292
+  pid: 3565c5a65842f26091578b9d71d496cc1561239d
+  show_ref_link: false
+  title: A statistical method for 3D object detection applied to faces and cars
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-example-based-learning-for-view-based-human-face-detection
+  numCitedBy: 2062
+  pid: 088eb2d102c6bb486f5270d0b2adff76961994cf
+  show_ref_link: false
+  title: Example-Based Learning for View-Based Human Face Detection
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-statistical-pattern-recognition
+  numCitedBy: 1457
+  pid: 421d7f83356fdcdf190865325d4aa638b0e9c39f
+  show_ref_link: false
+  title: Statistical Pattern Recognition
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-neural-network-based-face-detection
+  numCitedBy: 4164
+  pid: a3885c13438132b516e5ffc8b640d20b4e41a7a4
+  show_ref_link: false
+  title: Neural network-based face detection
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-joint-induction-of-shape-features-and-tree-classifiers
+  numCitedBy: 210
+  pid: 9f7c640ea1fe32e017c68005ef5e18969039b3f4
+  show_ref_link: false
+  title: Joint Induction of Shape Features and Tree Classifiers
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-modeling-visual-attention-via-selective-tuning
+  numCitedBy: 1214
+  pid: 8930f62a4b5eb1cbabf224cf84aa009ea798cfee
+  show_ref_link: false
+  title: Modeling Visual Attention via Selective Tuning
+  year: 1995
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 1984-summed-area-tables-for-texture-mapping
+  numCitedBy: 1472
+  pid: 8b22e1751f75be137b7b210981baccc1b9ab9222
+  show_ref_link: false
+  title: Summed-area tables for texture mapping
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-boosting-the-margin-a-new-explanation-for-the-effectiveness-of-voting-methods
+  numCitedBy: 2848
+  pid: 4d19272112b50547614479a0c409fca66e3b05f7
+  show_ref_link: false
+  title: Boosting the margin - A new explanation for the effectiveness of voting methods
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-a-decision-theoretic-generalization-of-on-line-learning-and-an-application-to-boosting
+  numCitedBy: 13363
+  pid: 4ba566223e426677d12a9a18418c023a4deec77e
+  show_ref_link: true
+  title: A decision-theoretic generalization of on-line learning and an application to boosting
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-overcomplete-steerable-pyramid-filters-and-rotation-invariance
+  numCitedBy: 275
+  pid: 2c7349eed0d13a1740286196db7bc83f40a88e85
+  show_ref_link: false
+  title: Overcomplete steerable pyramid filters and rotation invariance
+  year: 1994
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 1991-the-design-and-use-of-steerable-filters
+  numCitedBy: 3381
+  pid: 993b1083455b5c4d631eaf44f230b061994e75c3
+  show_ref_link: false
+  title: The Design and Use of Steerable Filters
+  year: 1991
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1968-pattern-recognition
+  numCitedBy: 5738
+  pid: ca23e7a71ace53d6a5b2a553ff37c63365d22b8a
+  show_ref_link: false
+  title: Pattern Recognition
+  year: 1968
+slug: Rapid-object-detection-using-a-boosted-cascade-of-Viola-Jones
+title: Rapid object detection using a boosted cascade of simple features
+url: https://www.semanticscholar.org/paper/Rapid-object-detection-using-a-boosted-cascade-of-Viola-Jones/dc6ea0e30e46163b706f2f8bdc9c67ca87f83d63?sort=total-citations
+venue: Proceedings of the 2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. CVPR 2001
+year: 2001

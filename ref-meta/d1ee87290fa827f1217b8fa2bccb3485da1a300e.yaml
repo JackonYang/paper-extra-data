@@ -1,0 +1,82 @@
+authors:
+- L. Breiman
+badges:
+- id: OPEN_ACCESS
+corpusId: 47328136
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-bagging-predictors
+numCitedBy: 15251
+numCiting: 16
+paperAbstract: Bagging predictors is a method for generating multiple versions of a predictor and using these to get an aggregated predictor. The aggregation averages over the versions when predicting a numerical outcome and does a plurality vote when predicting a class. The multiple versions are formed by making bootstrap replicates of the learning set and using these as new learning sets. Tests on real and simulated data sets using classification and regression trees and subset selection in linear regression show that bagging can give substantial gains in accuracy. The vital element is the instability of the prediction method. If perturbing the learning set can cause significant changes in the predictor constructed, then bagging can improve accuracy.
+ref_count: 16
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-learning-classification-trees
+  numCitedBy: 429
+  pid: 61039fd2773a00e111d2121a63982a7b7d0b9f92
+  show_ref_link: false
+  title: Learning classification trees
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-multiple-decision-trees
+  numCitedBy: 182
+  pid: d218f909deca0a646afe29a218872159fc8ebeff
+  show_ref_link: false
+  title: Multiple decision trees
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-using-the-adap-learning-algorithm-to-forecast-the-onset-of-diabetes-mellitus
+  numCitedBy: 683
+  pid: 8674223cb2a4ff09c7b8d82e3a6ad187cc9008b5
+  show_ref_link: false
+  title: Using the ADAP Learning Algorithm to Forecast the Onset of Diabetes Mellitus
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-error-correcting-output-codes-a-general-method-for-improving-multiclass-inductive-learning-programs
+  numCitedBy: 247
+  pid: 2ce4103e5bc275498adc81c422777ea404b5e599
+  show_ref_link: false
+  title: Error-Correcting Output Codes - A General Method for Improving Multiclass Inductive Learning Programs
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-classification-of-radar-returns-from-the-ionosphere-using-neural-networks
+  numCitedBy: 325
+  pid: e0d2de05caacdfa8073b2b4f77c5e72cb2449b81
+  show_ref_link: false
+  title: Classification of radar returns from the ionosphere using neural networks
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-machine-learning-neural-and-statistical-classification
+  numCitedBy: 2684
+  pid: fad1bd501aa769f7701c1016f8a4d1473ca77601
+  show_ref_link: false
+  title: Machine Learning, Neural and Statistical Classification
+  year: 1994
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1990-multisurface-method-of-pattern-separation-for-medical-diagnosis-applied-to-breast-cytology
+  numCitedBy: 1005
+  pid: 50537a16eb18e2bc4971165258cba7a071f38cb7
+  show_ref_link: false
+  title: Multisurface method of pattern separation for medical diagnosis applied to breast cytology.
+  year: 1990
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1992-submodel-selection-and-evaluation-in-regression-the-x-random-case
+  numCitedBy: 674
+  pid: cae7f8b4ee917793ad310ac571f1ed181f41c7c0
+  show_ref_link: false
+  title: Submodel selection and evaluation in regression. The X-random case
+  year: 1992
+slug: Bagging-predictors-Breiman
+title: Bagging predictors
+url: https://www.semanticscholar.org/paper/Bagging-predictors-Breiman/d1ee87290fa827f1217b8fa2bccb3485da1a300e?sort=total-citations
+venue: Machine Learning
+year: 2004

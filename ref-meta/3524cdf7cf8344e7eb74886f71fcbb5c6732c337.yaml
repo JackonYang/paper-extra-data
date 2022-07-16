@@ -1,0 +1,59 @@
+authors:
+- Stuart J. Russell
+- Peter Norvig
+badges:
+- id: OPEN_ACCESS
+corpusId: 53142908
+fieldsOfStudy:
+- Computer Science
+meta_key: 1995-artificial-intelligence-a-modern-approach
+numCitedBy: 26784
+numCiting: 19
+paperAbstract: 'The long-anticipated revision of this #1 selling book offers the most comprehensive, state of the art introduction to the theory and practice of artificial intelligence for modern applications. Intelligent Agents. Solving Problems by Searching. Informed Search Methods. Game Playing. Agents that Reason Logically. First-order Logic. Building a Knowledge Base. Inference in First-Order Logic. Logical Reasoning Systems. Practical Planning. Planning and Acting. Uncertainty. Probabilistic Reasoning Systems. Making Simple Decisions. Making Complex Decisions. Learning from Observations. Learning with Neural Networks. Reinforcement Learning. Knowledge in Learning. Agents that Communicate. Practical Communication in English. Perception. Robotics. For computer professionals, linguists, and cognitive scientists interested in artificial intelligence.'
+ref_count: 19
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1981-principles-of-artificial-intelligence
+  numCitedBy: 3836
+  pid: affcf19551b01c4c8009d061750700d91c2f79e9
+  show_ref_link: false
+  title: Principles of Artificial Intelligence
+  year: 1981
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-prolog-programming-for-artificial-intelligence
+  numCitedBy: 822
+  pid: 0d839753b1de2070810b97c3ca05c6b78f861667
+  show_ref_link: false
+  title: Prolog Programming for Artificial Intelligence
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-introduction-to-artificial-intelligence
+  numCitedBy: 1633
+  pid: 9e626c8016a5ae06198045fabcef09e3d00ad50b
+  show_ref_link: false
+  title: Introduction to artificial intelligence
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-logical-foundations-of-artificial-intelligence
+  numCitedBy: 1634
+  pid: 23945b28552a35a03ae65f282cc84da0dc5dd332
+  show_ref_link: false
+  title: Logical foundations of artificial intelligence
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-artificial-intelligence-2-ed
+  numCitedBy: 170
+  pid: 6da97c8b148b06b820b0d65f73caa41df5fa172a
+  show_ref_link: false
+  title: Artificial intelligence (2. ed.)
+  year: 1991
+slug: Artificial-Intelligence:-A-Modern-Approach-Russell-Norvig
+title: Artificial Intelligence - A Modern Approach
+url: https://www.semanticscholar.org/paper/Artificial-Intelligence:-A-Modern-Approach-Russell-Norvig/3524cdf7cf8344e7eb74886f71fcbb5c6732c337?sort=total-citations
+venue: ''
+year: 1995

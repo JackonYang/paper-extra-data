@@ -1,0 +1,124 @@
+authors:
+- A. Vedaldi
+- B. Fulkerson
+badges:
+- id: OPEN_ACCESS
+corpusId: 1458265
+fieldsOfStudy:
+- Computer Science
+meta_key: 2010-vlfeat-an-open-and-portable-library-of-computer-vision-algorithms
+numCitedBy: 3390
+numCiting: 16
+paperAbstract: VLFeat is an open and portable library of computer vision algorithms. It aims at facilitating fast prototyping and reproducible research for computer vision scientists and students. It includes rigorous implementations of common building blocks such as feature detectors, feature extractors, (hierarchical) k-means clustering, randomized kd-tree matching, and super-pixelization. The source code and interfaces are fully documented. The library integrates directly with MATLAB, a popular language for computer vision research.
+ref_count: 16
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-distinctive-image-features-from-scale-invariant-keypoints
+  numCitedBy: 15848
+  pid: bcae70dce393c1796d4f15c7b8bbf0ed6f468be1
+  show_ref_link: true
+  title: Distinctive Image Features from Scale-Invariant Keypoints
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-beyond-bags-of-features-spatial-pyramid-matching-for-recognizing-natural-scene-categories
+  numCitedBy: 8341
+  pid: 6dbaff29d3898cf60f63f5a34cb9610ebb75220c
+  show_ref_link: true
+  title: Beyond Bags of Features - Spatial Pyramid Matching for Recognizing Natural Scene Categories
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-fast-approximate-nearest-neighbors-with-automatic-algorithm-configuration
+  numCitedBy: 2838
+  pid: 35d81066cb1369acf4b6c5117fcbb862be2af350
+  show_ref_link: false
+  title: Fast Approximate Nearest Neighbors with Automatic Algorithm Configuration
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-image-classification-using-random-forests-and-ferns
+  numCitedBy: 1370
+  pid: d175a196816e44c08928ad05e30fd774468d69aa
+  show_ref_link: false
+  title: Image Classification using Random Forests and Ferns
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-video-google-a-text-retrieval-approach-to-object-matching-in-videos
+  numCitedBy: 6772
+  pid: 642e328cae81c5adb30069b680cf60ba6b475153
+  show_ref_link: true
+  title: Video Google - a text retrieval approach to object matching in videos
+  year: 2003
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2002-robust-wide-baseline-stereo-from-maximally-stable-extremal-regions
+  numCitedBy: 3933
+  pid: 9d5ea177c7fcaf88ec6f56cbeb3e9b74c08e98a3
+  show_ref_link: true
+  title: Robust Wide Baseline Stereo from Maximally Stable Extremal Regions
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-liblinear-a-library-for-large-linear-classification
+  numCitedBy: 7774
+  pid: 268a4f8da15a42f3e0e71691f760ff5edbf9cec8
+  show_ref_link: true
+  title: LIBLINEAR - A Library for Large Linear Classification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-on-feature-combination-for-multiclass-object-classification
+  numCitedBy: 900
+  pid: ba0548583a5ab3dca551f60e30f85ea42b2a4873
+  show_ref_link: false
+  title: On feature combination for multiclass object classification
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-using-the-triangle-inequality-to-accelerate-k-means
+  numCitedBy: 772
+  pid: 9b8d8f2fb88e03f8f3ad01efbfef52718b70d104
+  show_ref_link: false
+  title: Using the Triangle Inequality to Accelerate k-Means
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-quick-shift-and-kernel-methods-for-mode-seeking
+  numCitedBy: 782
+  pid: b6ccf4cb35365b81bb19e034dfdbf2aafe62b842
+  show_ref_link: false
+  title: Quick Shift and Kernel Methods for Mode Seeking
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1982-least-squares-quantization-in-pcm
+  numCitedBy: 11688
+  pid: 9241ea3d8cb85633d314ecb74b31567b8e73f6af
+  show_ref_link: false
+  title: Least squares quantization in PCM
+  year: 1982
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-a-bayesian-approach-to-unsupervised-one-shot-learning-of-object-categories
+  numCitedBy: 556
+  pid: d044d7d92dd1fb80275d04d035aed71bcd3374e5
+  show_ref_link: false
+  title: A Bayesian approach to unsupervised one-shot learning of object categories
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2010-efficient-additive-kernels-via-explicit-feature-maps
+  numCitedBy: 587
+  pid: 9217484cc329dc0aa37614ebac60f530106706a4
+  show_ref_link: false
+  title: Efficient additive kernels via explicit feature maps
+  year: 2010
+slug: Vlfeat:-an-open-and-portable-library-of-computer-Vedaldi-Fulkerson
+title: Vlfeat - an open and portable library of computer vision algorithms
+url: https://www.semanticscholar.org/paper/Vlfeat:-an-open-and-portable-library-of-computer-Vedaldi-Fulkerson/d720a95e1501922ea17ee31f299f43b2db5e15ef?sort=total-citations
+venue: ACM Multimedia
+year: 2010

@@ -1,0 +1,212 @@
+authors:
+- Ronan Collobert
+- J. Weston
+badges:
+- id: OPEN_ACCESS
+corpusId: 2617020
+fieldsOfStudy:
+- Computer Science
+meta_key: 2008-a-unified-architecture-for-natural-language-processing-deep-neural-networks-with-multitask-learning
+numCitedBy: 5042
+numCiting: 27
+paperAbstract: 'We describe a single convolutional neural network architecture that, given a sentence, outputs a host of language processing predictions: part-of-speech tags, chunks, named entity tags, semantic roles, semantically similar words and the likelihood that the sentence makes sense (grammatically and semantically) using a language model. The entire network is trained jointly on all these tasks using weight-sharing, an instance of multitask learning. All the tasks use labeled data except the language model which is learnt from unlabeled text and represents a novel form of semi-supervised learning for the shared tasks. We show how both multitask learning and semi-supervised learning improve the generalization of the shared tasks, resulting in state-of-the-art-performance.'
+ref_count: 27
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-fast-semantic-extraction-using-a-novel-neural-network-architecture
+  numCitedBy: 65
+  pid: 03539fc7a0dada577db3fc9bc2b3c8e091877108
+  show_ref_link: false
+  title: Fast Semantic Extraction Using a Novel Neural Network Architecture
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-neural-probabilistic-language-model
+  numCitedBy: 6028
+  pid: 6c2b28f9354f667cd5bd07afc0471d8334430da7
+  show_ref_link: false
+  title: A Neural Probabilistic Language Model
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-composition-of-conditional-random-fields-for-transfer-learning
+  numCitedBy: 59
+  pid: bf014a9eca15a451a98a98e3d5436a9b9a27c3d7
+  show_ref_link: false
+  title: Composition of Conditional Random Fields for Transfer Learning
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-connectionist-language-modeling-for-large-vocabulary-continuous-speech-recognition
+  numCitedBy: 156
+  pid: e41498c05d4c68e4750fb84a380317a112d97b01
+  show_ref_link: false
+  title: Connectionist language modeling for large vocabulary continuous speech recognition
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-a-discriminative-language-model-with-pseudo-negative-samples
+  numCitedBy: 56
+  pid: 060d5bb21f318efd785e86aa50cb97aed090a0fb
+  show_ref_link: false
+  title: A discriminative language model with pseudo-negative samples
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-framework-for-learning-predictive-structures-from-multiple-tasks-and-unlabeled-data
+  numCitedBy: 1416
+  pid: 944e1a7b2c5c62e952418d7684e3cade89c76f87
+  show_ref_link: false
+  title: A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-transductive-learning-for-statistical-machine-translation
+  numCitedBy: 127
+  pid: 022f600ff683d0b5158dac85832b8aecd00fe86f
+  show_ref_link: false
+  title: Transductive learning for statistical machine translation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-multitask-learning
+  numCitedBy: 3378
+  pid: 47aaeb6dc682162dfe5659c2cad64e5d825ad910
+  show_ref_link: false
+  title: Multitask Learning
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-joint-parsing-and-semantic-role-labeling
+  numCitedBy: 69
+  pid: 48b4524a3b1207157b1b2f87885c434c96fc7a19
+  show_ref_link: false
+  title: Joint Parsing and Semantic Role Labeling
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-dynamic-conditional-random-fields-factorized-probabilistic-models-for-labeling-and-segmenting-sequence-data
+  numCitedBy: 902
+  pid: 0329663498462521483612649c0dffc85d9d9419
+  show_ref_link: false
+  title: Dynamic conditional random fields - factorized probabilistic models for labeling and segmenting sequence data
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-the-proposition-bank-an-annotated-corpus-of-semantic-roles
+  numCitedBy: 2404
+  pid: 99d2dcdcf4cf05facaa101a48c7e31d140b4736d
+  show_ref_link: false
+  title: The Proposition Bank - An Annotated Corpus of Semantic Roles
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-phoneme-recognition-using-time-delay-neural-networks
+  numCitedBy: 2792
+  pid: cd62c9976534a6a2096a38244f6cbb03635a127e
+  show_ref_link: false
+  title: Phoneme recognition using time-delay neural networks
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-shallow-semantic-parsing-using-support-vector-machines
+  numCitedBy: 442
+  pid: a16e484824b2580e092c985aa659e8680aeda5ee
+  show_ref_link: false
+  title: Shallow Semantic Parsing using Support Vector Machines
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-using-corpus-statistics-on-entities-to-improve-semi-supervised-relation-extraction-from-the-web
+  numCitedBy: 53
+  pid: 3fcc3bbdfd2e0421dde947c5485e3ff1abe471d7
+  show_ref_link: false
+  title: Using Corpus Statistics on Entities to Improve Semi-supervised Relation Extraction from the Web
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35433
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-the-necessity-of-parsing-for-predicate-argument-recognition
+  numCitedBy: 242
+  pid: 3e5652cca6464981a065184dceb2672bd13984b7
+  show_ref_link: false
+  title: The Necessity of Parsing for Predicate Argument Recognition
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-robust-methods-in-analysis-of-natural-language-data
+  numCitedBy: 19
+  pid: 28487f55028b6cd974cda73725bd80bf4e20f890
+  show_ref_link: false
+  title: Robust methods in analysis of natural language data
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-robust-parsing-of-the-proposition-bank
+  numCitedBy: 5
+  pid: d20f3d1f6a8949bb7703910e154d0e3f4b14716b
+  show_ref_link: false
+  title: Robust Parsing of the Proposition Bank
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-transductive-inference-for-text-classification-using-support-vector-machines
+  numCitedBy: 3053
+  pid: 74b1a9e50f18af8a7b9f8dd38f40e0466ad7a8e8
+  show_ref_link: false
+  title: Transductive Inference for Text Classification using Support Vector Machines
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-effective-self-training-for-parsing
+  numCitedBy: 589
+  pid: 78a9513e70f596077179101f6cb6eadc51602039
+  show_ref_link: false
+  title: Effective Self-Training for Parsing
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2007-dynamic-conditional-random-fields-factorized-probabilistic-models-for-labeling-and-segmenting-sequence-data
+  numCitedBy: 23
+  pid: 57f30d3c5fe7f6e3a7a3a68c995240be34382c63
+  show_ref_link: false
+  title: Dynamic Conditional Random Fields - Factorized Probabilistic Models for Labeling and Segmenting Sequence Data
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-novel-use-of-statistical-parsing-to-extract-information-from-text
+  numCitedBy: 226
+  pid: f2124f8995a9cdf4e168baba426472d2d811c0f1
+  show_ref_link: false
+  title: A Novel Use of Statistical Parsing to Extract Information from Text
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-probabilistic-interpretation-of-feedforward-classification-network-outputs-with-relationships-to-statistical-pattern-recognition
+  numCitedBy: 1102
+  pid: 1f462943c8d0af69c12a09058251848324135e5a
+  show_ref_link: false
+  title: Probabilistic Interpretation of Feedforward Classification Network Outputs, with Relationships to Statistical Pattern Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-semi-supervised-learning-adaptive-computation-and-machine-learning
+  numCitedBy: 234
+  pid: 463565c30b7a9c12c2ef0558a51cfc7b05055737
+  show_ref_link: false
+  title: Semi-Supervised Learning (Adaptive Computation and Machine Learning)
+  year: 2006
+slug: A-unified-architecture-for-natural-language-deep-Collobert-Weston
+title: A unified architecture for natural language processing - deep neural networks with multitask learning
+url: https://www.semanticscholar.org/paper/A-unified-architecture-for-natural-language-deep-Collobert-Weston/57458bc1cffe5caa45a885af986d70f723f406b4?sort=total-citations
+venue: ICML '08
+year: 2008

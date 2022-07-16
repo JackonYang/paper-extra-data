@@ -1,0 +1,536 @@
+authors:
+- S. Kothari
+- H. Oh
+badges: []
+corpusId: 177751
+fieldsOfStudy:
+- Computer Science
+meta_key: 1993-neural-networks-for-pattern-recognition
+numCitedBy: 15363
+numCiting: 64
+paperAbstract: ''
+ref_count: 64
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-an-introduction-to-computing-with-neural-nets
+  numCitedBy: 3945
+  pid: b8778bb692cf105254fe767ef11a3a8afac4a068
+  show_ref_link: false
+  title: An introduction to computing with neural nets
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-neural-network-models-for-pattern-recognition-and-associative-memory
+  numCitedBy: 226
+  pid: 42a884615e99887a9b57d1e6d7e1f1b47196afac
+  show_ref_link: false
+  title: Neural network models for pattern recognition and associative memory
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-theory-of-the-backpropagation-neural-network
+  numCitedBy: 1822
+  pid: f4457792a247c0eb6c6fb11a1d92f6f45b82acc1
+  show_ref_link: false
+  title: Theory of the backpropagation neural network
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-the-cascade-correlation-learning-architecture
+  numCitedBy: 2940
+  pid: 995a3b11cc8a4751d8e167abc4aa937abc934df0
+  show_ref_link: false
+  title: The Cascade-Correlation Learning Architecture
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-neocognitron-a-hierarchical-neural-network-capable-of-visual-pattern-recognition
+  numCitedBy: 970
+  pid: 33c3e56439b11e2d77d99da667ae86afbf6e1ec3
+  show_ref_link: false
+  title: Neocognitron - A hierarchical neural network capable of visual pattern recognition
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-neurocomputing-formalisms-for-computational-learning-and-machine-intelligence
+  numCitedBy: 10
+  pid: a60469b25c5802276459bd37831c0ee59203da8b
+  show_ref_link: false
+  title: Neurocomputing Formalisms for Computational Learning and Machine Intelligence
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-implementing-neural-network-models-on-parallel-computers
+  numCitedBy: 66
+  pid: 1f44f79819a0b2e241c935a03f3f7b92813f05a8
+  show_ref_link: false
+  title: Implementing Neural Network Models on Parallel Computers
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1985-a-learning-algorithm-for-boltzmann-machines
+  numCitedBy: 3406
+  pid: a0d16f0e99f7ce5e6fb70b1a68c685e9ad610657
+  show_ref_link: false
+  title: A Learning Algorithm for Boltzmann Machines
+  year: 1985
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-back-propagation-fails-to-separate-where-perceptrons-succeed
+  numCitedBy: 106
+  pid: 761e27617a33e5d624a7a502c95c40b60800593f
+  show_ref_link: false
+  title: Back propagation fails to separate where perceptrons succeed
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-phoneme-recognition-using-time-delay-neural-networks
+  numCitedBy: 2792
+  pid: cd62c9976534a6a2096a38244f6cbb03635a127e
+  show_ref_link: false
+  title: Phoneme recognition using time-delay neural networks
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-simple-neural-optimization-networks-an-a-d-converter-signal-decision-circuit-and-a-linear-programming-circuit
+  numCitedBy: 2070
+  pid: 8879e718ab012e530608a72cddab3ac0edc30743
+  show_ref_link: false
+  title: Simple 'neural' optimization networks - An A/D converter, signal decision circuit, and a linear programming circuit
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-phoneme-recognition-neural-networks-vs-hidden-markov-models-vs-hidden-markov-models
+  numCitedBy: 172
+  pid: 834b3738673dacc767563c2714239852a8a6d4b4
+  show_ref_link: false
+  title: Phoneme recognition - neural networks vs. hidden Markov models vs. hidden Markov models
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-optimal-storage-properties-of-neural-network-models
+  numCitedBy: 403
+  pid: 24053f79a7235907d93f6cdfb4360055b11b8d4c
+  show_ref_link: false
+  title: Optimal storage properties of neural network models
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1968-some-nonlinear-networks-capable-of-learning-a-spatial-pattern-of-arbitrary-complexity
+  numCitedBy: 154
+  pid: 8507e665e304f35981e73752563453146d7185cb
+  show_ref_link: false
+  title: Some nonlinear networks capable of learning a spatial pattern of arbitrary complexity.
+  year: 1968
+- fieldsOfStudy:
+  - Materials Science
+  meta_key: 1987-associative-recall-of-memory-without-errors
+  numCitedBy: 316
+  pid: f3e2cfad939b7e4f0ea7783883afa997e48920c1
+  show_ref_link: false
+  title: Associative recall of memory without errors.
+  year: 1987
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1984-neurons-with-graded-response-have-collective-computational-properties-like-those-of-two-state-neurons
+  numCitedBy: 6281
+  pid: 24b9eebe49cf7e00cf50cf7b7d9243386a23fe7c
+  show_ref_link: false
+  title: Neurons with graded response have collective computational properties like those of two-state neurons.
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1982-neural-networks-and-physical-systems-with-emergent-collective-computational-abilities
+  numCitedBy: 16718
+  pid: 98b4d4e24aab57ab4e1124ff8106909050645cfa
+  show_ref_link: false
+  title: Neural networks and physical systems with emergent collective computational abilities.
+  year: 1982
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-determination-of-parameters-in-a-hopfield-tank-computational-network
+  numCitedBy: 81
+  pid: 1b05b0a800113f4d8f17c02bf671f165b86f70ff
+  show_ref_link: false
+  title: Determination of parameters in a Hopfield/Tank computational network
+  year: 1988
+- fieldsOfStudy:
+  - Biology
+  - Psychology
+  meta_key: 1981-toward-a-modern-theory-of-adaptive-networks-expectation-and-prediction
+  numCitedBy: 1448
+  pid: 60944c5243db70a687a320a2622d3bd1610802a8
+  show_ref_link: false
+  title: Toward a modern theory of adaptive networks - expectation and prediction.
+  year: 1981
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-consonant-recognition-by-modular-construction-of-large-phonemic-time-delay-neural-networks
+  numCitedBy: 184
+  pid: d4a7e54446d52f066ee692fa38d9aa972519c2f5
+  show_ref_link: false
+  title: Consonant recognition by modular construction of large phonemic time-delay neural networks
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-a-neural-network-solution-to-the-concentrator-assignment-problem
+  numCitedBy: 31
+  pid: 9054bd4535fa45b0312399a27984751a3f928463
+  show_ref_link: false
+  title: A Neural-Network Solution to the Concentrator Assignment Problem
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-bidirectional-associative-memories
+  numCitedBy: 1897
+  pid: 62fe57e40232add7ede5a683b31e643fc0712c9f
+  show_ref_link: false
+  title: Bidirectional associative memories
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-collective-computation-content-addressable-memory-and-optimization-problems
+  numCitedBy: 3
+  pid: 1f08533a5a731eb92983980c81538a649c1fcb73
+  show_ref_link: false
+  title: Collective computation, content-addressable memory, and optimization problems
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1972-learning-patterns-and-pattern-sequences-by-self-organizing-nets-of-threshold-elements
+  numCitedBy: 379
+  pid: 419c4635a6bcae1302f03681498de4ce16074e21
+  show_ref_link: false
+  title: Learning Patterns and Pattern Sequences by Self-Organizing Nets of Threshold Elements
+  year: 1972
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-content-addressability-and-learning-in-neural-networks
+  numCitedBy: 100
+  pid: 8cdf0289095f61eac1271048513a799e4e49d94c
+  show_ref_link: false
+  title: Content-addressability and learning in neural networks
+  year: 1988
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1977-storing-covariance-with-nonlinearly-interacting-neurons
+  numCitedBy: 508
+  pid: de13c62828f41c863cffb7444daaa37d928272d2
+  show_ref_link: false
+  title: Storing covariance with nonlinearly interacting neurons
+  year: 1977
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1985-information-storage-and-retrieval-in-spin-glass-like-neural-networks
+  numCitedBy: 266
+  pid: 7da0fa72e851b1bd42c297176cfd998c9930f3fb
+  show_ref_link: false
+  title: Information storage and retrieval in spin-glass like neural networks
+  year: 1985
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1977-a-mathematical-foundation-for-statistical-neurodynamics
+  numCitedBy: 94
+  pid: da19618f3ed4ab4dce3df0166c9c937f5c7e606a
+  show_ref_link: false
+  title: A Mathematical Foundation for Statistical Neurodynamics
+  year: 1977
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1986-an-introduction-to-hidden-markov-models
+  numCitedBy: 2939
+  pid: 9d076613d7c36dbda4a6ff42fbdd076604b96630
+  show_ref_link: false
+  title: An introduction to hidden Markov models
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-can-give-rise-to-spurious-local-minima-even-for-networks-without-hidden-layers
+  numCitedBy: 103
+  pid: 1943969ee23bf0e7bfe079d76cdd08bcd006d5c4
+  show_ref_link: false
+  title: Backpropagation Can Give Rise to Spurious Local Minima Even for Networks without Hidden Layers
+  year: 1989
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1989-partial-simultaneous-updating-in-hopfield-memories
+  numCitedBy: 18
+  pid: 5eba478a6f279bc039b3c00a547c84abf5494949
+  show_ref_link: false
+  title: Partial simultaneous updating in Hopfield memories
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-a-new-learning-approach-to-enhance-the-storage-capacity-of-the-hopfield-model
+  numCitedBy: 15
+  pid: da96928603e0daac3122c3e5f61a11e5e386c220
+  show_ref_link: false
+  title: A new learning approach to enhance the storage capacity of the Hopfield model
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-dynamic-heteroassociative-neural-memories
+  numCitedBy: 43
+  pid: 2ddd271867e6dfe5095e0e85857cd87544163982
+  show_ref_link: false
+  title: Dynamic heteroassociative neural memories
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 1987-neural-network-processing-as-a-tool-for-function-optimization
+  numCitedBy: 17
+  pid: 291c211a8311754f32ae1f456c91e0293a1a6315
+  show_ref_link: false
+  title: Neural network processing as a tool for function optimization
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-the-20brain-state-in-a-box-neural-model-is-a-gradient-descent-algorithm
+  numCitedBy: 77
+  pid: c134c0d4512f75d295aaa455bb4e72e3569c769e
+  show_ref_link: false
+  title: The - 20Brain-state-in-a-box Neural model is a gradient descent algorithm
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-the-capacity-of-the-hopfield-associative-memory
+  numCitedBy: 897
+  pid: d5db1cc4a5ea1fcf017ceac7f07496292f37a9a2
+  show_ref_link: false
+  title: The capacity of the Hopfield associative memory
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-a-bam-with-increased-information-storage-capacity
+  numCitedBy: 74
+  pid: 5ef19c35f196f0fb344d76bf1a054c866d658906
+  show_ref_link: false
+  title: A BAM with increased information storage capacity
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-optical-bidirectional-associative-memories
+  numCitedBy: 24
+  pid: 0ae4dfcda68c7e5d2b979dc76c0569a0d3beac53
+  show_ref_link: false
+  title: Optical Bidirectional Associative Memories
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  - Psychology
+  meta_key: 1983-unlearning-has-a-stabilizing-effect-in-collective-memories
+  numCitedBy: 400
+  pid: 786b660e60069ecf01673ade33e287d6adb022b7
+  show_ref_link: false
+  title: "\u2018Unlearning' has a stabilizing effect in collective memories"
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-two-coding-strategies-for-bidirectional-associative-memory
+  numCitedBy: 179
+  pid: f4a40820811a681a91baa4284f38985bea8e6e3f
+  show_ref_link: false
+  title: Two coding strategies for bidirectional associative memory
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-parallel-distributed-processing-explorations-in-the-microstructure-of-cognition-vol-1-foundations
+  numCitedBy: 15719
+  pid: ff2c2e3e83d1e8828695484728393c76ee07a101
+  show_ref_link: false
+  title: Parallel distributed processing - explorations in the microstructure of cognition, vol. 1 - foundations
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-handwritten-alphanumeric-character-recognition-by-the-neocognitron
+  numCitedBy: 263
+  pid: 2ea3ebebfa4493713dbaaf681488b30e641fc1c2
+  show_ref_link: false
+  title: Handwritten alphanumeric character recognition by the neocognitron
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1969-on-learning-and-energy-entropy-dependence-in-recurrent-and-nonrecurrent-signed-networks
+  numCitedBy: 186
+  pid: 360b5596bd022435ec5c5a8752a95f02f54d56ff
+  show_ref_link: false
+  title: On learning and energy-entropy dependence in recurrent and nonrecurrent signed networks
+  year: 1969
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1965-geometrical-and-statistical-properties-of-systems-of-linear-inequalities-with-applications-in-pattern-recognition
+  numCitedBy: 1844
+  pid: 445ad69010658097fc317f7b83f1198179eebae8
+  show_ref_link: false
+  title: Geometrical and Statistical Properties of Systems of Linear Inequalities with Applications in Pattern Recognition
+  year: 1965
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1988-feedback-stability-and-unsupervised-learning
+  numCitedBy: 36
+  pid: 8b01f0da1502554b70f65e47d4ff159a4f16d8f2
+  show_ref_link: false
+  title: Feedback stability and unsupervised learning
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1985-information-capacity-of-the-hopfield-model
+  numCitedBy: 260
+  pid: ad1698c1f463a396c25e18520ff73a30f8b5cb2c
+  show_ref_link: false
+  title: Information capacity of the Hopfield model
+  year: 1985
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-learning-symmetry-groups-with-hidden-units-beyond-the-perceptron
+  numCitedBy: 107
+  pid: b300e1bbb6ad0d513db2eeb64a2508b4fafb9da6
+  show_ref_link: false
+  title: Learning symmetry groups with hidden units - beyond the perceptron
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-an-analogue-approach-to-the-travelling-salesman-problem-using-an-elastic-net-method
+  numCitedBy: 856
+  pid: a94be030ccd68f3a5a3bf9245137fe114c549819
+  show_ref_link: false
+  title: An analogue approach to the travelling salesman problem using an elastic net method
+  year: 1987
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1990-on-the-convergence-properties-of-the-hopfield-model
+  numCitedBy: 116
+  pid: 69b9f6eb51e204e131ed94fa716ce790943e4206
+  show_ref_link: false
+  title: On the convergence properties of the Hopfield model
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-guaranteed-recall-of-all-training-pairs-for-bidirectional-associative-memory
+  numCitedBy: 108
+  pid: 7d4af89505b42a83e437b5524ed77d9533261096
+  show_ref_link: false
+  title: Guaranteed recall of all training pairs for bidirectional associative memory
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-unlearning-increases-the-storage-capacity-of-content-addressable-memories
+  numCitedBy: 28
+  pid: d66f19e2988e673db85a10cda9eed3238b27b8eb
+  show_ref_link: false
+  title: Unlearning increases the storage capacity of content addressable memories.
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1984-a-theory-of-the-learnable
+  numCitedBy: 4214
+  pid: 10ddb646feddc12337b5a755c72e153e37088c02
+  show_ref_link: false
+  title: A theory of the learnable
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-learning-and-relearning-in-boltzmann-machines
+  numCitedBy: 1339
+  pid: 8592e46a5435d18bba70557846f47290b34c1aa5
+  show_ref_link: false
+  title: Learning and relearning in Boltzmann machines
+  year: 1986
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1954-the-relaxation-method-for-linear-inequalities
+  numCitedBy: 461
+  pid: 3bd7fe1a5c67bb2f1d445e95816922c11db78ae8
+  show_ref_link: false
+  title: The Relaxation Method for Linear Inequalities
+  year: 1954
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1985-decreasing-energy-functions-as-a-tool-for-studying-threshold-networks
+  numCitedBy: 256
+  pid: 51f94ce356c802b13e738522cbcaa7f2057ae86b
+  show_ref_link: false
+  title: Decreasing energy functions as a tool for studying threshold networks
+  year: 1985
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1954-the-relaxation-method-for-linear-inequalities
+  numCitedBy: 408
+  pid: d1eef5712b9d7eabec2f40adb2352078ecafcb06
+  show_ref_link: false
+  title: The Relaxation Method for Linear Inequalities
+  year: 1954
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1985-dynamics-of-positive-automata-networks
+  numCitedBy: 40
+  pid: 12f1f198c452f6447ee017b6d8cad15184ab4dcf
+  show_ref_link: false
+  title: Dynamics of Positive Automata Networks
+  year: 1985
+- fieldsOfStudy:
+  - Psychology
+  - Biology
+  meta_key: 1983-the-function-of-dream-sleep
+  numCitedBy: 821
+  pid: 736ad2a6e6fa37e6b0fdf0cadcb788e248adfa06
+  show_ref_link: false
+  title: The function of dream sleep
+  year: 1983
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1987-differential-hebbian-learning
+  numCitedBy: 141
+  pid: 3d36250bc4501f5cec3dcb8df0b4ac1274b64e61
+  show_ref_link: false
+  title: Differential Hebbian learning
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-a-pseudo-relaxation-learning-algorithm-for-bidirectional-associative-memory
+  numCitedBy: 22
+  pid: 372b98d6be97720895b810fbaf54519aecd1970a
+  show_ref_link: false
+  title: A pseudo-relaxation learning algorithm for bidirectional associative memory
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-adaptive-switching-circuits
+  numCitedBy: 2599
+  pid: 2e14b2ff9dc2234df94fc24d89fc25e797d0e9e7
+  show_ref_link: false
+  title: Adaptive switching circuits
+  year: 1988
+- fieldsOfStudy:
+  - Biology
+  - Psychology
+  meta_key: 1986-a-drive-reinforcement-model-of-single-neuron-function
+  numCitedBy: 72
+  pid: 4265a9c6184dd136b4d4c55b4919c908591d11af
+  show_ref_link: false
+  title: A drive-reinforcement model of single neuron function
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-a-neural-network-approach-to-character-recognition
+  numCitedBy: 105
+  pid: b274c528653491c7091a0dec20fe6202b01145d9
+  show_ref_link: false
+  title: A neural network approach to character recognition
+  year: 1989
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1985-scaling-laws-for-the-attractors-of-hopfield-networks
+  numCitedBy: 95
+  pid: 20bc25da33314d4dc157419f1321f962c59cca3f
+  show_ref_link: false
+  title: Scaling laws for the attractors of Hopfield networks
+  year: 1985
+slug: Neural-Networks-for-Pattern-Recognition-Kothari-Oh
+title: Neural Networks for Pattern Recognition
+url: https://www.semanticscholar.org/paper/Neural-Networks-for-Pattern-Recognition-Kothari-Oh/dbc0a468ab103ae29717703d4aa9f682f6a2b664?sort=total-citations
+venue: Adv. Comput.
+year: 1993

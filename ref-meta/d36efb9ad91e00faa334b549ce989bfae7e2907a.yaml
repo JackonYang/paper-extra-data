@@ -1,0 +1,594 @@
+authors:
+- A. Dempster
+- N. Laird
+- D. Rubin
+badges:
+- id: OPEN_ACCESS
+corpusId: 4193919
+fieldsOfStudy:
+- Engineering
+meta_key: 1977-maximum-likelihood-from-incomplete-data-via-the-em-algorithm-plus-discussions-on-the-paper
+numCitedBy: 48471
+numCiting: 134
+paperAbstract: Vibratory power unit for vibrating conveyers and screens comprising an asynchronous polyphase motor, at least one pair of associated unbalanced masses disposed on the shaft of said motor, with the first mass of a pair of said unbalanced masses being rigidly fastened to said shaft and with said second mass of said pair being movably arranged relative to said first mass, means for controlling and regulating the conveying rate during conveyer operation by varying the rotational speed of said motor between predetermined minimum and maximum values, said second mass being movably outwardly by centrifugal force against the pressure of spring means, said spring means being prestressed in such a manner that said second mass is, at rotational motor speeds lower than said minimum speed, held in its initial position, and at motor speeds between said lower and upper values in positions which are radially offset with respect to the axis of said motor to an extent depending on the value of said rotational motor speed.
+ref_count: 134
+references:
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1972-theory-of-optimal-experiments
+  numCitedBy: 2571
+  pid: 65c1a71c5307492782177a9799bef2cdf539ea00
+  show_ref_link: false
+  title: Theory Of Optimal Experiments
+  year: 1972
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1976-restricted-maximum-likelihood-reml-estimation-of-variance-components-in-the-mixed-model
+  numCitedBy: 370
+  pid: 27f37d8a32a6e83cdc15f5492d0251f1a7afac31
+  show_ref_link: false
+  title: Restricted Maximum Likelihood (REML) Estimation of Variance Components in the Mixed Model
+  year: 1976
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1967-maximum-likelihood-estimation-for-the-mixed-analysis-of-variance-model
+  numCitedBy: 607
+  pid: b2bcc9fa711aa508d47bae12301dd5daca1182e8
+  show_ref_link: false
+  title: Maximum-likelihood estimation for the mixed analysis of variance model.
+  year: 1967
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1969-a-general-approach-to-confirmatory-maximum-likelihood-factor-analysis
+  numCitedBy: 2061
+  pid: 9f54b960ee86d8375e3d443fab5217f827538a00
+  show_ref_link: false
+  title: A general approach to confirmatory maximum likelihood factor analysis
+  year: 1969
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1966-estimation-of-parameters-for-a-mixture-of-normal-distributions
+  numCitedBy: 524
+  pid: 5567deb3f3f1fbe5671ad830970325d336870850
+  show_ref_link: false
+  title: Estimation of parameters for a mixture of normal distributions
+  year: 1966
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1969-estimating-the-components-of-a-mixture-of-normal-distributions
+  numCitedBy: 821
+  pid: fa8c415fb5c4d25a3a910d3c7764a1714093b07a
+  show_ref_link: false
+  title: Estimating the components of a mixture of normal distributions
+  year: 1969
+- fieldsOfStudy:
+  - Art
+  meta_key: 1972-biomathematics
+  numCitedBy: 21
+  pid: 1cd4617e2f5f7a54e7d12764f5ec043af43fa5d7
+  show_ref_link: false
+  title: Biomathematics
+  year: 1972
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1971-recovery-of-inter-block-information-when-block-sizes-are-unequal
+  numCitedBy: 3750
+  pid: 68f1683b30f3985f97043f5c22dd0c4cae6c3c0a
+  show_ref_link: false
+  title: Recovery of inter-block information when block sizes are unequal
+  year: 1971
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 1925-theory-of-statistical-estimation
+  numCitedBy: 2171
+  pid: 3744110be1b657ab6335ade4f43224a33d3edd87
+  show_ref_link: false
+  title: Theory of Statistical Estimation
+  year: 1925
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1966-linear-statistical-inference-and-its-applications
+  numCitedBy: 2095
+  pid: f95f7fa27a4ff248f57e22164a567d75e03ac46b
+  show_ref_link: false
+  title: Linear Statistical Inference and Its Applications
+  year: 1966
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1977-maximum-likelihood-approaches-to-variance-component-estimation-and-to-related-problems
+  numCitedBy: 2329
+  pid: 9903c333828bbe06bd54b90e0e50d62f8f95b759
+  show_ref_link: false
+  title: Maximum Likelihood Approaches to Variance Component Estimation and to Related Problems
+  year: 1977
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1976-an-iterative-method-for-solution-of-the-likelihood-equations-for-incomplete-data-from-exponential-families
+  numCitedBy: 110
+  pid: af0bf70910a8e58e97e1727d7fd9ce35a8fd333e
+  show_ref_link: false
+  title: An iterative method for solution of the likelihood equations for incomplete data from exponential families
+  year: 1976
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1973-computing-maximum-likelihood-estimates-for-the-mixed-a-o-v-model-using-the-w-transformation
+  numCitedBy: 152
+  pid: d90630643f0321de8837c6b48d9855570c6c5327
+  show_ref_link: false
+  title: Computing Maximum Likelihood Estimates for the Mixed A.O.V. Model Using the W Transformation
+  year: 1973
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1955-estimation-and-tests-of-significance-in-factor-analysis
+  numCitedBy: 284
+  pid: 3be92cfd880e3169ac6cb18fe42751a6d5bb3395
+  show_ref_link: false
+  title: Estimation and tests of significance in factor analysis
+  year: 1955
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1967-an-inequality-with-applications-to-statistical-estimation-for-probabilistic-functions-of-markov-processes-and-to-a-model-for-ecology
+  numCitedBy: 1123
+  pid: 69fc8c03d21e22e30d6642824c37158b314f36c3
+  show_ref_link: false
+  title: An inequality with applications to statistical estimation for probabilistic functions of Markov processes and to a model for ecology
+  year: 1967
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1961-applied-statistical-decision-theory
+  numCitedBy: 1124
+  pid: b3b885eba933831514ea3bc7ec289243a81176e9
+  show_ref_link: false
+  title: Applied Statistical Decision Theory.
+  year: 1961
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1973-maximum-likelihood-estimation-from-linear-combinations-of-discrete-probability-functions
+  numCitedBy: 5
+  pid: 1d8adf48ecff795174e0011dc24fc1b1fe2ed312
+  show_ref_link: false
+  title: Maximum Likelihood Estimation from Linear Combinations of Discrete Probability Functions
+  year: 1973
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1970-estimation-of-the-branch-points-of-a-branching-diffusion-process
+  numCitedBy: 144
+  pid: 17da5633aad4dbf7b580d61cb8cf5d3ccebd39f5
+  show_ref_link: false
+  title: Estimation of the Branch Points of a Branching Diffusion Process
+  year: 1970
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1975-discrete-multivariate-analysis-theory-and-practice
+  numCitedBy: 5287
+  pid: 5e72530255e271a09a5a1e3607c790bed7a13db3
+  show_ref_link: false
+  title: Discrete Multivariate Analysis - Theory and Practice
+  year: 1975
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1967-the-two-sample-problem-with-censored-data
+  numCitedBy: 731
+  pid: 0cd55752a7e26a7aa5600c52e48f0fc6c4bec2e3
+  show_ref_link: false
+  title: The two sample problem with censored data
+  year: 1967
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1967-finite-mixtures-of-distributions-from-the-exponential-family
+  numCitedBy: 186
+  pid: c9aac52c492626703709a3cd3595afb72ce55b23
+  show_ref_link: false
+  title: Finite mixtures of distributions from the exponential family
+  year: 1967
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1975-data-analysis-using-stein-s-estimator-and-its-generalizations
+  numCitedBy: 831
+  pid: 47774e9ac7ef9601024d2d9717a2869024af7a6b
+  show_ref_link: false
+  title: Data Analysis Using Stein's Estimator and its Generalizations
+  year: 1975
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1955-the-estimation-of-gene-frequencies-in-a-random-mating-population
+  numCitedBy: 318
+  pid: 01c63a899ee75d4ec1ecbf69313d7ad37a99d4c2
+  show_ref_link: false
+  title: "THE ESTIMATION OF GENE FREQUENCIES IN A RANDOM\u2010MATING POPULATION"
+  year: 1955
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1971-iterative-procedures-for-missing-values-in-experiments
+  numCitedBy: 32
+  pid: 9386a41096d853ad5437366a3cdd4d541a87f81d
+  show_ref_link: false
+  title: Iterative Procedures for Missing Values in Experiments
+  year: 1971
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1974-exploratory-latent-structure-analysis-using-both-identifiable-and-unidentifiable-models
+  numCitedBy: 1562
+  pid: 038742d1ccd731e65f9bbd112b4da91b50146643
+  show_ref_link: false
+  title: Exploratory latent structure analysis using both identifiable and unidentifiable models
+  year: 1974
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1974-nonorthogonal-analysis-of-variance-using-iterative-improvement-and-balanced-residuals
+  numCitedBy: 15
+  pid: f7e1d6a84b78c7c575ac199ca7f0af0487e7ba4b
+  show_ref_link: false
+  title: Nonorthogonal Analysis of Variance Using Iterative Improvement and Balanced Residuals
+  year: 1974
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1973-on-mle-of-the-parameters-of-a-mixture-of-two-normal-distributions-when-the-sample-size-is-small
+  numCitedBy: 69
+  pid: 054bf5efe7c7800edfa1bbc91a7735929651b011
+  show_ref_link: false
+  title: On mle of the parameters of a mixture of two normal distributions when the sample size is small
+  year: 1973
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1975-iterative-reclassification-procedure-for-constructing-an-asymptotically-optimal-rule-of-allocation-in-discriminant-analysis
+  numCitedBy: 128
+  pid: 59da587c46f695a0b7867b68a22d832ca92999f3
+  show_ref_link: false
+  title: Iterative Reclassification Procedure for Constructing An Asymptotically Optimal Rule of Allocation in Discriminant-Analysis
+  year: 1975
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1978-a-likelihood-ratio-statistic-for-testing-goodness-of-fit-with-randomly-censored-data
+  numCitedBy: 63
+  pid: 90573f5ba85f9dbf90205c48b2437b3ef476b01f
+  show_ref_link: false
+  title: A likelihood ratio statistic for testing goodness of fit with randomly censored data.
+  year: 1978
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1975-missing-values-in-multivariate-analysis
+  numCitedBy: 319
+  pid: 3ce70384499cbc83661726e9a7b9f214a261c6ca
+  show_ref_link: false
+  title: Missing Values in Multivariate Analysis
+  year: 1975
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1956-missing-values-in-experiments-analysed-on-automatic-computers
+  numCitedBy: 179
+  pid: f6fbd629bb18a5bf56cc9bd92cbacc1c7903fd57
+  show_ref_link: false
+  title: Missing Values in Experiments Analysed on Automatic Computers
+  year: 1956
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1955-some-contributions-to-factor-analysis
+  numCitedBy: 82
+  pid: 0b19782c398690c9f54171ee6ecc86a50b04b1bd
+  show_ref_link: false
+  title: SOME CONTRIBUTIONS TO FACTOR ANALYSIS
+  year: 1955
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1971-the-analysis-of-incomplete-data
+  numCitedBy: 310
+  pid: c807c29ca15416b7fe138057762360acc4260bc5
+  show_ref_link: false
+  title: The analysis of incomplete data.
+  year: 1971
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1974-nonparametric-estimation-of-a-survivorship-function-with-doubly-censored-data
+  numCitedBy: 425
+  pid: 5b683f3aa41d148c6a4ec1c180547c4ad8a66e9f
+  show_ref_link: false
+  title: Nonparametric Estimation of a Survivorship Function with Doubly Censored Data
+  year: 1974
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1976-the-empirical-distribution-function-with-arbitrarily-grouped-censored-and-truncated-data
+  numCitedBy: 1633
+  pid: 9d59e5c5d029345e176da0351a0831b9cf762096
+  show_ref_link: false
+  title: The Empirical Distribution Function with Arbitrarily Grouped, Censored, and Truncated Data
+  year: 1976
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1974-characterizing-the-estimation-of-parameters-in-incomplete-data-problems
+  numCitedBy: 210
+  pid: d42420791f6ee3da841cb891ff5404525c81a293
+  show_ref_link: false
+  title: Characterizing the Estimation of Parameters in Incomplete-Data Problems
+  year: 1974
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1970-estimation-from-a-censored-sample-for-the-exponential-family
+  numCitedBy: 30
+  pid: a155842318383cbceb3623afd4571f014764b692
+  show_ref_link: false
+  title: Estimation from a censored sample for the exponential family
+  year: 1970
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1970-pattern-clustering-by-multivariate-mixture-analysis
+  numCitedBy: 643
+  pid: 00b7d7d6ef41b2ef0f2d1fd07e190c9132b562c6
+  show_ref_link: false
+  title: PATTERN CLUSTERING BY MULTIVARIATE MIXTURE ANALYSIS.
+  year: 1970
+- fieldsOfStudy:
+  - Geology
+  meta_key: 1975-inference-and-missing-data
+  numCitedBy: 5222
+  pid: 7ce10624b09c54d2604f60b4c2d48409201fcc5b
+  show_ref_link: false
+  title: INFERENCE AND MISSING DATA
+  year: 1975
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1968-some-bayesian-stratified-two-phase-sampling-results
+  numCitedBy: 30
+  pid: cfa25dd2413590a0742a23b13555f040be4ddf61
+  show_ref_link: false
+  title: Some Bayesian stratified two-phase sampling results.
+  year: 1968
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1976-the-analysis-of-contingency-tables-with-incompletely-classified-data
+  numCitedBy: 49
+  pid: 89302c1b750307880315dc8e069435173dea9f11
+  show_ref_link: false
+  title: The Analysis of Contingency Tables with Incompletely Classified Data
+  year: 1976
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1975-bayesian-estimation-in-unrestricted-factor-analysis-a-treatment-for-heywood-cases
+  numCitedBy: 97
+  pid: 688a08610c59ee1823ea272c5cbf0f6cae0eb235
+  show_ref_link: false
+  title: Bayesian estimation in unrestricted factor analysis - A treatment for heywood cases
+  year: 1975
+- fieldsOfStudy:
+  - Sociology
+  - Computer Science
+  - Mathematics
+  - Political Science
+  - Philosophy
+  meta_key: 1966-inference-and-disputed-authorship-the-federalist
+  numCitedBy: 720
+  pid: d6fb495cbb103c36608147a1eafa95988b75d2d2
+  show_ref_link: false
+  title: Inference and Disputed Authorship - The Federalist
+  year: 1966
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1972-a-missing-information-principle-theory-and-applications
+  numCitedBy: 467
+  pid: 69f0ea1b895da0e68e05b57b97052cec2953a58e
+  show_ref_link: false
+  title: A missing information principle - theory and applications
+  year: 1972
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1975-human-evolutionary-trees
+  numCitedBy: 144
+  pid: a29ef568a905f411f51e221d50727561467140fd
+  show_ref_link: false
+  title: Human Evolutionary Trees
+  year: 1975
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1977-a-comparison-of-iterative-methods-for-obtaining-maximum-likelihood-estimates-in-contingency-tables-with-a-missing-diagonal
+  numCitedBy: 16
+  pid: f64aa7d9f90dabff29b9777dcb6242225458c0fb
+  show_ref_link: false
+  title: A comparison of iterative methods for obtaining maximum likelihood estimates in contingency tables with a missing diagonal
+  year: 1977
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1970-a-maximization-technique-occurring-in-the-statistical-analysis-of-probabilistic-functions-of-markov-chains
+  numCitedBy: 4557
+  pid: 3092a4929bdb3d6a8fe53f162586b7431b5ff8a4
+  show_ref_link: false
+  title: A Maximization Technique Occurring in the Statistical Analysis of Probabilistic Functions of Markov Chains
+  year: 1970
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1962-factor-analysis-as-a-statistical-method
+  numCitedBy: 977
+  pid: d4d48fe00800e03fa44e066264a7524fa09af166
+  show_ref_link: false
+  title: Factor Analysis as a Statistical Method.
+  year: 1962
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1967-equivalence-of-maximum-likelihood-and-the-method-of-moments-in-probit-analysis
+  numCitedBy: 4
+  pid: ff3448a8f0da4d2241fd3953cb6d05319107250e
+  show_ref_link: false
+  title: Equivalence of maximum likelihood and the method of moments in probit analysis.
+  year: 1967
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1972-factor-analysis-as-a-statistical-method-2nd-ed
+  numCitedBy: 327
+  pid: bcf16685fb1a401dbbbe2892af251cc887baacd4
+  show_ref_link: false
+  title: Factor Analysis as a Statistical Method. 2nd ed.
+  year: 1972
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1967-statistical-methods
+  numCitedBy: 7085
+  pid: 092500ba9f19ac6f963c518371c1d0c30396deb1
+  show_ref_link: false
+  title: STATISTICAL METHODS
+  year: 1967
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1971-block-designs-and-missing-data
+  numCitedBy: 10
+  pid: 975cb870d54cd32052a8f1edf09f2b861ad3e0fd
+  show_ref_link: false
+  title: Block Designs and Missing Data
+  year: 1971
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1956-on-the-estimation-of-small-frequencies-in-contingency-tables
+  numCitedBy: 60
+  pid: 777bdf51061a66947b51d0712c58704930fb121f
+  show_ref_link: false
+  title: On the Estimation of Small Frequencies in Contingency Tables
+  year: 1956
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1972-a-non-iterative-algorithm-for-least-squares-estimation-of-missing-values-in-any-analysis-of-variance-design
+  numCitedBy: 80
+  pid: a310a649a6597fdf9cb38ab62ee42c8abfb59e4c
+  show_ref_link: false
+  title: "A Non\u2010Iterative Algorithm for Least Squares Estimation of Missing Values in Any Analysis of Variance Design"
+  year: 1972
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1974-missing-values-in-multivariate-statistical-analysis
+  numCitedBy: 8
+  pid: e9438968b1f52ac632133b8010afa7fde7a07d94
+  show_ref_link: false
+  title: Missing values in multivariate statistical analysis
+  year: 1974
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1973-a-comparison-of-iterative-maximum-likelihood-estimates-of-the-parameters-of-a-mixture-of-two-normal-distributions-under-three-different-types-of-sample
+  numCitedBy: 190
+  pid: 97096bd37f85b741268cdd526025c96dbf36bc76
+  show_ref_link: false
+  title: A Comparison of Iterative Maximum Likelihood Estimates of the Parameters of a Mixture of Two Normal Distributions Under Three Different Types of Sample
+  year: 1973
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1959-138-note-on-the-estimation-of-the-mean-of-a-poisson-distribution-from-a-sample-with-the-zero-class-missing
+  numCitedBy: 33
+  pid: afab882735b4fe1a7f9ab786267301b8e1ab89ca
+  show_ref_link: false
+  title: 138. Note - On the Estimation of the Mean of a Poisson Distribution from a Sample with the Zero Class Missing
+  year: 1959
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1972-robust-estimates-of-location
+  numCitedBy: 384
+  pid: 8f4f0dbeee722c263ba9f9f82a75fb48bd3d4aa1
+  show_ref_link: false
+  title: Robust Estimates of Location
+  year: 1972
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1976-discrete-multivariate-analysis
+  numCitedBy: 2021
+  pid: b5893e8d0650a7396887b6fec2d08ddea81e48eb
+  show_ref_link: false
+  title: Discrete Multivariate Analysis.
+  year: 1976
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1977-maximum-likelihood-approaches-to-variance-component-estimation-and-to-related-problems-rejoinder
+  numCitedBy: 72
+  pid: ee17ee778c58b246e086a38fcbe024f8de357179
+  show_ref_link: false
+  title: Maximum Likelihood Approaches to Variance Component Estimation and to Related Problems - Rejoinder
+  year: 1977
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1963-the-place-of-mathematics-in-medical-and-biological-statistics
+  numCitedBy: 114
+  pid: 651a1a05a278c6bbe735729d3778f4463351e567
+  show_ref_link: false
+  title: The Place of Mathematics in Medical and Biological Statistics.
+  year: 1963
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1925-applications-of-mathematics-to-medical-problems
+  numCitedBy: 798
+  pid: 330ac1fdfa32c53dc4e4fe91e19b9c79811f8810
+  show_ref_link: false
+  title: Applications of Mathematics to Medical Problems
+  year: 1925
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: "1960-\xFCber-eine-kontingenztafel-mit-fehlenden-daten"
+  numCitedBy: 11
+  pid: d4ec37d593596d903001b98913235f0c9b6b08eb
+  show_ref_link: false
+  title: "\xDCber eine Kontingenztafel mit fehlenden Daten"
+  year: 1960
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1974-log-linear-models-for-frequency-tables-derived-by-indirect-observation-maximum-likelihood-equations
+  numCitedBy: 76
+  pid: fba75716f626aa6e2002f87bc12ea2ad287ab271
+  show_ref_link: false
+  title: Log-Linear Models for Frequency Tables Derived by Indirect Observation - Maximum Likelihood Equations
+  year: 1974
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1976-improved-algorithm-for-the-w-transform-in-variance-component-estimation
+  numCitedBy: 14
+  pid: a1e8a66f351670f2d7717afcf5245e2f5f005a5d
+  show_ref_link: false
+  title: Improved Algorithm for the W-Transform in Variance Component Estimation
+  year: 1976
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1971-a-remark-on-the-optimal-regression-designs-with-previous-observations-of-covey-crump-and-silvey
+  numCitedBy: 13
+  pid: f85f15468018a77b7a6f4621b4d19d1de2734f93
+  show_ref_link: false
+  title: A Remark on the Optimal Regression Designs with Previous Observations of Covey-Crump and Silvey
+  year: 1971
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1952-the-fitting-of-grouped-truncated-and-grouped-censored-normal-distributions
+  numCitedBy: 16
+  pid: 58783f3e9a4137cb9cba8f0062e89c5ee6c56bfe
+  show_ref_link: false
+  title: THE FITTING OF GROUPED TRUNCATED AND GROUPED CENSORED NORMAL DISTRIBUTIONS
+  year: 1952
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1968-the-analysis-of-cross-classified-data-independence-quasi-independence-and-interactions-in-contingency-tables-with-or-without-missing-entries
+  numCitedBy: 455
+  pid: 2f3c17c811d8c949a29ee407639417c5c329c7e7
+  show_ref_link: false
+  title: The Analysis of Cross-Classified Data - Independence, Quasi-Independence, and Interactions in Contingency Tables with or without Missing Entries
+  year: 1968
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1974-identification-of-the-sources-of-significance-in-two-way-contingency-tables
+  numCitedBy: 81
+  pid: aef88046f58d03d18555a4479ef84c780e358a2e
+  show_ref_link: false
+  title: "Identification of the Sources of Significance in Two\u2010Way Contingency Tables"
+  year: 1974
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1965-the-estimation-of-probabilities-an-essay-on-modern-bayesian-methods
+  numCitedBy: 634
+  pid: 52c80779f47d3c4edd5e37ebe7d341b378c3a5d7
+  show_ref_link: false
+  title: The Estimation of Probabilities - An Essay on Modern Bayesian Methods
+  year: 1965
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1972-an-inequality-and-associated-maximization-technique-in-statistical-estimation-of-probabilistic-functions-of-a-markov-process
+  numCitedBy: 1785
+  pid: 539036ab9e8f038c8a948596e77cc0dfcfa91fb3
+  show_ref_link: false
+  title: An inequality and associated maximization technique in statistical estimation of probabilistic functions of a Markov process
+  year: 1972
+slug: Maximum-likelihood-from-incomplete-data-via-the-EM-Dempster-Laird
+title: Maximum likelihood from incomplete data via the EM - algorithm plus discussions on the paper
+url: https://www.semanticscholar.org/paper/Maximum-likelihood-from-incomplete-data-via-the-EM-Dempster-Laird/d36efb9ad91e00faa334b549ce989bfae7e2907a?sort=total-citations
+venue: ''
+year: 1977

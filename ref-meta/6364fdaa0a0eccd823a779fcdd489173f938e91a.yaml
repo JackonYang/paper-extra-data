@@ -1,0 +1,140 @@
+authors:
+- O. Ronneberger
+- P. Fischer
+- T. Brox
+badges:
+- id: OPEN_ACCESS
+corpusId: 3719281
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-u-net-convolutional-networks-for-biomedical-image-segmentation
+numCitedBy: 33887
+numCiting: 16
+paperAbstract: There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. Using the same network trained on transmitted light microscopy images (phase contrast and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin. Moreover, the network is fast. Segmentation of a 512x512 image takes less than a second on a recent GPU. The full implementation (based on Caffe) and the trained networks are available at http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net .
+ref_count: 16
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 15835
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-deep-neural-networks-segment-neuronal-membranes-in-electron-microscopy-images
+  numCitedBy: 1226
+  pid: 09193e19b59fc8f05bee9d6efbfb1607ca5b6501
+  show_ref_link: true
+  title: Deep Neural Networks Segment Neuronal Membranes in Electron Microscopy Images
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13775
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17210
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-hypercolumns-for-object-segmentation-and-fine-grained-localization
+  numCitedBy: 1363
+  pid: 428db42e86f6d51292e23fa57797e35cecd0e2ee
+  show_ref_link: true
+  title: Hypercolumns for object segmentation and fine-grained localization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-image-segmentation-with-cascaded-hierarchical-models-and-logistic-disjunctive-normal-networks
+  numCitedBy: 76
+  pid: 4f03888450fde9e8234f616badaae499740e57a4
+  show_ref_link: false
+  title: Image Segmentation with Cascaded Hierarchical Models and Logistic Disjunctive Normal Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fully-convolutional-multi-class-multiple-instance-learning
+  numCitedBy: 260
+  pid: f341bfc9284972bd7e470082caf3c805a94662b4
+  show_ref_link: false
+  title: Fully Convolutional Multi-Class Multiple Instance Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-benchmark-for-comparison-of-cell-tracking-algorithms
+  numCitedBy: 334
+  pid: 3bffa23a16c273ac2228a13e65dade6766ce7777
+  show_ref_link: false
+  title: A benchmark for comparison of cell tracking algorithms
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-discriminative-unsupervised-feature-learning-with-convolutional-neural-networks
+  numCitedBy: 728
+  pid: a6fd96a900d4130940b488863b71fd09ad41ccb9
+  show_ref_link: false
+  title: Discriminative Unsupervised Feature Learning with Convolutional Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12454
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-to-generate-chairs-with-convolutional-neural-networks
+  numCitedBy: 631
+  pid: b437b5a0445f17b06b12791bc48aeb8110e95dc5
+  show_ref_link: false
+  title: Learning to generate chairs with convolutional neural networks
+  year: 2015
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2010-an-integrated-micro-and-macroarchitectural-analysis-of-the-drosophila-brain-by-computer-assisted-serial-section-electron-microscopy
+  numCitedBy: 354
+  pid: 3874df6410a20b1d7ba7091d596398f72bcb93cf
+  show_ref_link: false
+  title: An Integrated Micro- and Macroarchitectural Analysis of the Drosophila Brain by Computer-Assisted Serial Section Electron Microscopy
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+slug: U-Net:-Convolutional-Networks-for-Biomedical-Image-Ronneberger-Fischer
+title: U-Net - Convolutional Networks for Biomedical Image Segmentation
+url: https://www.semanticscholar.org/paper/U-Net:-Convolutional-Networks-for-Biomedical-Image-Ronneberger-Fischer/6364fdaa0a0eccd823a779fcdd489173f938e91a?sort=total-citations
+venue: MICCAI
+year: 2015

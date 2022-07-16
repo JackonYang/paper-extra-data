@@ -1,0 +1,392 @@
+authors:
+- Yonghui Wu
+- M. Schuster
+- Z. Chen
+- Quoc V. Le
+- Mohammad Norouzi
+- Wolfgang Macherey
+- M. Krikun
+- Yuan Cao
+- Qin Gao
+- Klaus Macherey
+- J. Klingner
+- Apurva Shah
+- Melvin Johnson
+- Xiaobing Liu
+- Lukasz Kaiser
+- Stephan Gouws
+- Y. Kato
+- Taku Kudo
+- H. Kazawa
+- K. Stevens
+- George Kurian
+- Nishant Patil
+- Wei Wang
+- C. Young
+- Jason R. Smith
+- Jason Riesa
+- Alex Rudnick
+- Oriol Vinyals
+- G. Corrado
+- Macduff Hughes
+- J. Dean
+badges:
+- id: OPEN_ACCESS
+corpusId: 3603249
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-google-s-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation
+numCitedBy: 4687
+numCiting: 65
+paperAbstract: Neural Machine Translation (NMT) is an end-to-end learning approach for automated translation, with the potential to overcome many of the weaknesses of conventional phrase-based translation systems. Unfortunately, NMT systems are known to be computationally expensive both in training and in translation inference. Also, most NMT systems have difficulty with rare words. These issues have hindered NMT's use in practical deployments and services, where both accuracy and speed are essential. In this work, we present GNMT, Google's Neural Machine Translation system, which attempts to address many of these issues. Our model consists of a deep LSTM network with 8 encoder and 8 decoder layers using attention and residual connections. To improve parallelism and therefore decrease training time, our attention mechanism connects the bottom layer of the decoder to the top layer of the encoder. To accelerate the final translation speed, we employ low-precision arithmetic during inference computations. To improve handling of rare words, we divide words into a limited set of common sub-word units ("wordpieces") for both input and output. This method provides a good balance between the flexibility of "character"-delimited models and the efficiency of "word"-delimited models, naturally handles translation of rare words, and ultimately improves the overall accuracy of the system. Our beam search technique employs a length-normalization procedure and uses a coverage penalty, which encourages generation of an output sentence that is most likely to cover all the words in the source sentence. On the WMT'14 English-to-French and English-to-German benchmarks, GNMT achieves competitive results to state-of-the-art. Using a human side-by-side evaluation on a set of isolated simple sentences, it reduces translation errors by an average of 60% compared to Google's phrase-based production system.
+ref_count: 65
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-addressing-the-rare-word-problem-in-neural-machine-translation
+  numCitedBy: 681
+  pid: 1956c239b3552e030db1b78951f64781101125ed
+  show_ref_link: false
+  title: Addressing the Rare Word Problem in Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19461
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-machine-translation-of-rare-words-with-subword-units
+  numCitedBy: 4834
+  pid: 1af68821518f03568f913ab03fc02080247a27ff
+  show_ref_link: true
+  title: Neural Machine Translation of Rare Words with Subword Units
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-effective-approaches-to-attention-based-neural-machine-translation
+  numCitedBy: 5923
+  pid: 93499a7c7f699b6630a86fad964536f9423bb6d0
+  show_ref_link: true
+  title: Effective Approaches to Attention-based Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-achieving-open-vocabulary-neural-machine-translation-with-hybrid-word-character-models
+  numCitedBy: 336
+  pid: 733b821faeebe49b6efcf5369e3b9902b476529e
+  show_ref_link: false
+  title: Achieving Open Vocabulary Neural Machine Translation with Hybrid Word-Character Models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-on-using-very-large-target-vocabulary-for-neural-machine-translation
+  numCitedBy: 859
+  pid: 1938624bb9b0f999536dcc8d8f519810bb4e1b3b
+  show_ref_link: false
+  title: On Using Very Large Target Vocabulary for Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-character-level-decoder-without-explicit-segmentation-for-neural-machine-translation
+  numCitedBy: 307
+  pid: acec46ffd3f6046af97529127d98f1d623816ea4
+  show_ref_link: false
+  title: A Character-level Decoder without Explicit Segmentation for Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-character-based-neural-machine-translation
+  numCitedBy: 267
+  pid: 4d070993cb75407b285e14cb8aac0077624ef4d9
+  show_ref_link: false
+  title: Character-based Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-coverage-based-neural-machine-translation
+  numCitedBy: 65
+  pid: 44a9d4711a5e9fa36bbd56aed8d5291acd9e8876
+  show_ref_link: false
+  title: Coverage-based Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 14964
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-multi-task-learning-for-multiple-language-translation
+  numCitedBy: 474
+  pid: 83cf4b2f39bcc802b09fd59b69e23068447b26b7
+  show_ref_link: false
+  title: Multi-Task Learning for Multiple Language Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-pointing-the-unknown-words
+  numCitedBy: 454
+  pid: aa5b35dcf8b024f5352db73cc3944e8fad4f3793
+  show_ref_link: false
+  title: Pointing the Unknown Words
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-multi-task-sequence-to-sequence-learning
+  numCitedBy: 685
+  pid: d76c07211479e233f7c6a6f32d5346c983c5598f
+  show_ref_link: false
+  title: Multi-task Sequence to Sequence Learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-recurrent-continuous-translation-models
+  numCitedBy: 1240
+  pid: 944a1cfd79dbfb6fef460360a0765ba790f4027a
+  show_ref_link: true
+  title: Recurrent Continuous Translation Models
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-edinburgh-s-phrase-based-machine-translation-systems-for-wmt-14
+  numCitedBy: 50
+  pid: 97cedf99252026f58e8154bc61d49cf885d42030
+  show_ref_link: false
+  title: Edinburgh's Phrase-based Machine Translation Systems for WMT-14
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-sequence-level-training-with-recurrent-neural-networks
+  numCitedBy: 1233
+  pid: 35c1668dc64d24a28c6041978e5fcca754eb2f4b
+  show_ref_link: false
+  title: Sequence Level Training with Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-minimum-risk-training-for-neural-machine-translation
+  numCitedBy: 376
+  pid: 9f2a8e923965b23c11066a2ead79658208f1fae1
+  show_ref_link: false
+  title: Minimum Risk Training for Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15156
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-a-statistical-approach-to-language-translation
+  numCitedBy: 299
+  pid: 2166fa493a8c6e40f7f8562d15712dd3c75f03df
+  show_ref_link: false
+  title: A Statistical Approach to Language Translation
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-fast-and-robust-neural-network-joint-models-for-statistical-machine-translation
+  numCitedBy: 514
+  pid: 0894b06cff1cd0903574acaa7fcf071b144ae775
+  show_ref_link: false
+  title: Fast and Robust Neural Network Joint Models for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-statistical-phrase-based-translation
+  numCitedBy: 3757
+  pid: a4b828609b60b06e61bea7a4029cc9e1cad5df87
+  show_ref_link: true
+  title: Statistical Phrase-Based Translation
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-a-system-for-large-scale-machine-learning
+  numCitedBy: 12694
+  pid: 46200b99c40e8586c8a0f588488ab6414119fb28
+  show_ref_link: false
+  title: TensorFlow - A system for large-scale machine learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-n-gram-counts-and-language-models-from-the-common-crawl
+  numCitedBy: 147
+  pid: 8e4fb17fff38a7834af5b4eaafcbbde02bf00975
+  show_ref_link: false
+  title: N-gram Counts and Language Models from the Common Crawl
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-learning-to-forget-continual-prediction-with-lstm
+  numCitedBy: 3269
+  pid: 11540131eae85b2e11d53df7f1360eeb6476e7f4
+  show_ref_link: false
+  title: Learning to Forget - Continual Prediction with LSTM
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5697
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: false
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-the-mathematics-of-statistical-machine-translation-parameter-estimation
+  numCitedBy: 4748
+  pid: ab7b5917515c460b90451e67852171a531671ab8
+  show_ref_link: false
+  title: The Mathematics of Statistical Machine Translation - Parameter Estimation
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 90882
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-japanese-and-korean-voice-search
+  numCitedBy: 477
+  pid: ed6262b569c0a62c51d941228c54f34e563af022
+  show_ref_link: false
+  title: Japanese and Korean voice search
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-bidirectional-recurrent-neural-networks
+  numCitedBy: 5413
+  pid: e23c34414e66118ecd9b08cf0cd4d016f59b0b85
+  show_ref_link: false
+  title: Bidirectional recurrent neural networks
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96474
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Chemistry
+  meta_key: 2001-gradient-flow-in-recurrent-nets-the-difficulty-of-learning-long-term-dependencies
+  numCitedBy: 1576
+  pid: aed054834e2c696807cc8b227ac7a4197196e211
+  show_ref_link: false
+  title: Gradient Flow in Recurrent Nets - the Difficulty of Learning Long-Term Dependencies
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-learning-recursive-distributed-representations-for-holistic-computation
+  numCitedBy: 105
+  pid: 26affdaceca32cd4a5fde0db61ffef02a59baa13
+  show_ref_link: false
+  title: Learning Recursive Distributed Representations for Holistic Computation
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-reward-augmented-maximum-likelihood-for-neural-structured-prediction
+  numCitedBy: 191
+  pid: 1d9600229a4cf8ba5e8f5ad4d05b41af9c8f80a6
+  show_ref_link: false
+  title: Reward Augmented Maximum Likelihood for Neural Structured Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-large-scale-distributed-deep-networks
+  numCitedBy: 3039
+  pid: 3127190433230b3dc1abd0680bb58dced4bcd90e
+  show_ref_link: true
+  title: Large Scale Distributed Deep Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-learning-with-limited-numerical-precision
+  numCitedBy: 1497
+  pid: b7cf49e30355633af2db19f35189410c8515e91f
+  show_ref_link: false
+  title: Deep Learning with Limited Numerical Precision
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-the-cascade-correlation-learning-architecture
+  numCitedBy: 2940
+  pid: 995a3b11cc8a4751d8e167abc4aa937abc934df0
+  show_ref_link: false
+  title: The Cascade-Correlation Learning Architecture
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-quantized-convolutional-neural-networks-for-mobile-devices
+  numCitedBy: 818
+  pid: d3cb9bad655197b52932978dd8186b36c512bf92
+  show_ref_link: false
+  title: Quantized Convolutional Neural Networks for Mobile Devices
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ternary-weight-networks
+  numCitedBy: 717
+  pid: 10a2482088e469dd40f49bdc9978b292b3f7bb1f
+  show_ref_link: false
+  title: Ternary Weight Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-understanding-the-exploding-gradient-problem
+  numCitedBy: 461
+  pid: c5145b1d15fea9340840cc8bb6f0e46e8934827f
+  show_ref_link: false
+  title: Understanding the exploding gradient problem
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-a-statistical-approach-to-machine-translation
+  numCitedBy: 1941
+  pid: a1066659ec1afee9dce586f6f49b7d44527827e1
+  show_ref_link: false
+  title: A Statistical Approach to Machine Translation
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-recurrent-models-with-fast-forward-connections-for-neural-machine-translation
+  numCitedBy: 175
+  pid: b60abe57bc195616063be10638c6437358c81d1e
+  show_ref_link: false
+  title: Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-neural-network-regularization
+  numCitedBy: 1990
+  pid: f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97
+  show_ref_link: true
+  title: Recurrent Neural Network Regularization
+  year: 2014
+slug: Google's-Neural-Machine-Translation-System:-the-Gap-Wu-Schuster
+title: Google's Neural Machine Translation System - Bridging the Gap between Human and Machine Translation
+url: https://www.semanticscholar.org/paper/Google's-Neural-Machine-Translation-System:-the-Gap-Wu-Schuster/dbde7dfa6cae81df8ac19ef500c42db96c3d1edd?sort=total-citations
+venue: ArXiv
+year: 2016

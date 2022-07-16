@@ -1,0 +1,633 @@
+authors:
+- Jeff Donahue
+- Lisa Anne Hendricks
+- Marcus Rohrbach
+- Subhashini Venugopalan
+- S. Guadarrama
+- Kate Saenko
+- Trevor Darrell
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 5736847
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-long-term-recurrent-convolutional-networks-for-visual-recognition-and-description
+numCitedBy: 4113
+numCiting: 95
+paperAbstract: "Models based on deep convolutional networks have dominated recent image interpretation tasks; we investigate whether models which are also recurrent, or \u201Ctemporally deep\u201D, are effective for tasks involving sequences, visual and otherwise. We develop a novel recurrent convolutional architecture suitable for large-scale visual learning which is end-to-end trainable, and demonstrate the value of these models on benchmark video recognition tasks, image description and retrieval problems, and video narration challenges. In contrast to current models which assume a fixed spatio-temporal receptive field or simple temporal averaging for sequential processing, recurrent convolutional models are \u201Cdoubly deep\u201D in that they can be compositional in spatial and temporal \u201Clayers\u201D. Such models may have advantages when target concepts are complex and/or training data are limited. Learning long-term dependencies is possible when nonlinearities are incorporated into the network state updates. Long-term RNN models are appealing in that they directly can map variable-length inputs (e.g., video frames) to variable length outputs (e.g., natural language text) and can model complex temporal dynamics; yet they can be optimized with backpropagation. Our recurrent long-term models are directly connected to modern visual convnet models and can be jointly trained to simultaneously learn temporal dynamics and convolutional perceptual representations. Our results show such models have distinct advantages over state-of-the-art models for recognition or generation which are separately defined and/or optimized."
+ref_count: 95
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-describing-videos-by-exploiting-temporal-structure
+  numCitedBy: 889
+  pid: 5f425b7abf2ed3172ed060df85bb1885860a297e
+  show_ref_link: false
+  title: Describing Videos by Exploiting Temporal Structure
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-beyond-short-snippets-deep-networks-for-video-classification
+  numCitedBy: 1943
+  pid: 5418b2a482720e013d487a385c26fae0f017c6a6
+  show_ref_link: false
+  title: Beyond short snippets - Deep networks for video classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-explain-images-with-multimodal-recurrent-neural-networks
+  numCitedBy: 323
+  pid: 82fdca623c65b6acf6b06bdeed48b2a9ebdb80a9
+  show_ref_link: false
+  title: Explain Images with Multimodal Recurrent Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-large-scale-video-classification-with-convolutional-neural-networks
+  numCitedBy: 5169
+  pid: 6d4c9c923e9f145d1c01a2de2afc38ec23c44253
+  show_ref_link: true
+  title: Large-Scale Video Classification with Convolutional Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-captioning-with-multimodal-recurrent-neural-networks-m-rnn
+  numCitedBy: 1011
+  pid: 54b2b6f35f1b5704dddfaa3a137a2f4ad3dfe745
+  show_ref_link: true
+  title: Deep Captioning with Multimodal Recurrent Neural Networks (m-RNN)
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-two-stream-convolutional-networks-for-action-recognition-in-videos
+  numCitedBy: 5506
+  pid: 67dccc9a856b60bdc4d058d83657a089b8ad4486
+  show_ref_link: true
+  title: Two-Stream Convolutional Networks for Action Recognition in Videos
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-translating-videos-to-natural-language-using-deep-recurrent-neural-networks
+  numCitedBy: 203
+  pid: 8cef41606f1e1324b683441e694f0e1c96387abf
+  show_ref_link: false
+  title: Translating Videos to Natural Language Using Deep Recurrent Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-and-tell-a-neural-image-caption-generator
+  numCitedBy: 4535
+  pid: d4dc1012d780e8e2547237eb5a6dc7b1bf47d2f0
+  show_ref_link: true
+  title: Show and tell - A neural image caption generator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-devise-a-deep-visual-semantic-embedding-model
+  numCitedBy: 1963
+  pid: 4aa4069693bee00d1b0759ca3df35e59284e9845
+  show_ref_link: true
+  title: DeViSE - A Deep Visual-Semantic Embedding Model
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-discriminative-distributed-training-of-long-short-term-memory-recurrent-neural-networks
+  numCitedBy: 136
+  pid: 965c9aec5e68d49142c5af6a9f0a984f6c2c743a
+  show_ref_link: false
+  title: Sequence discriminative distributed training of long short-term memory recurrent neural networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-unifying-visual-semantic-embeddings-with-multimodal-neural-language-models
+  numCitedBy: 1061
+  pid: 2e36ea91a3c8fbff92be2989325531b4002e2afc
+  show_ref_link: true
+  title: Unifying Visual-Semantic Embeddings with Multimodal Neural Language Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-3d-convolutional-neural-networks-for-human-action-recognition
+  numCitedBy: 4228
+  pid: 80bfcf1be2bf1b95cc6f36d229665cdf22d76190
+  show_ref_link: true
+  title: 3D Convolutional Neural Networks for Human Action Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 14964
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-sequence-to-sequence-video-to-text
+  numCitedBy: 1103
+  pid: e58a110fa1e4ddf247d5c614d117d64bfbe135c4
+  show_ref_link: false
+  title: Sequence to Sequence -- Video to Text
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-generating-text-with-recurrent-neural-networks
+  numCitedBy: 1258
+  pid: e0e5dd8b206806372b3e20b9a2fbdbd0cf9ce1de
+  show_ref_link: true
+  title: Generating Text with Recurrent Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-a-thousand-frames-in-just-a-few-words-lingual-description-of-videos-through-latent-topics-and-sparse-object-stitching
+  numCitedBy: 227
+  pid: a23ab0fb7d9e9961e92d704ed71e3dbc15c0d908
+  show_ref_link: false
+  title: A Thousand Frames in Just a Few Words - Lingual Description of Videos through Latent Topics and Sparse Object Stitching
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-integrating-language-and-vision-to-generate-natural-language-descriptions-of-videos-in-the-wild
+  numCitedBy: 183
+  pid: 20ab42c9b93b6e41f6e1d7b546f87c5a871db020
+  show_ref_link: false
+  title: Integrating Language and Vision to Generate Natural Language Descriptions of Videos in the Wild
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-language-models-for-image-captioning-the-quirks-and-what-works
+  numCitedBy: 243
+  pid: f142c849ffef66f7520aff4e0b40ac964ccb8cc1
+  show_ref_link: false
+  title: Language Models for Image Captioning - The Quirks and What Works
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-grounding-of-textual-phrases-in-images-by-reconstruction
+  numCitedBy: 381
+  pid: 14c2321851fb5ae580a19726dd2753a525d6ad76
+  show_ref_link: true
+  title: Grounding of Textual Phrases in Images by Reconstruction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-from-captions-to-visual-concepts-and-back
+  numCitedBy: 1110
+  pid: 15f102c3c9f4d4fe6ba105e221df48c6e8902b3b
+  show_ref_link: true
+  title: From captions to visual concepts and back
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-grounded-compositional-semantics-for-finding-and-describing-images-with-sentences
+  numCitedBy: 785
+  pid: 0ca7d208ff8d81377e0eaa9723820aeae7a7322d
+  show_ref_link: false
+  title: Grounded Compositional Semantics for Finding and Describing Images with Sentences
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-multimodal-neural-language-models
+  numCitedBy: 575
+  pid: fad611e35b3731740b4d8b754241e77add5a70b9
+  show_ref_link: false
+  title: Multimodal Neural Language Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-visualizing-and-understanding-convolutional-networks
+  numCitedBy: 11878
+  pid: 1a2a770d23b4a171fa81de62a78a3deb0588f238
+  show_ref_link: true
+  title: Visualizing and Understanding Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-sequential-deep-learning-for-human-action-recognition
+  numCitedBy: 692
+  pid: 12b6551a0f9f5aa62f7d37f03ebc66631e529c4b
+  show_ref_link: false
+  title: Sequential Deep Learning for Human Action Recognition
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compositional-captioning-describing-novel-object-categories-without-paired-training-data
+  numCitedBy: 234
+  pid: e516d22697bad6d0f7956b0e8bfa93d6eb0b2f17
+  show_ref_link: false
+  title: Deep Compositional Captioning - Describing Novel Object Categories without Paired Training Data
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-revisiting-recurrent-neural-networks-for-robust-asr
+  numCitedBy: 154
+  pid: dbee79ac1865cd42780215d8fb2da4bc2ab7f381
+  show_ref_link: false
+  title: Revisiting Recurrent Neural Networks for robust ASR
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-to-execute
+  numCitedBy: 463
+  pid: 0d0b3ff23fbf1ec7a0dfebd923a3ef224306491a
+  show_ref_link: false
+  title: Learning to Execute
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-fragment-embeddings-for-bidirectional-image-sentence-mapping
+  numCitedBy: 745
+  pid: 7f1b111f0bb703b0bd97aba505728a9b0d9b2a54
+  show_ref_link: false
+  title: Deep Fragment Embeddings for Bidirectional Image Sentence Mapping
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-action-classification-in-soccer-videos-with-long-short-term-memory-recurrent-neural-networks
+  numCitedBy: 117
+  pid: f45a2f4591cd2975cf2e5e7c9097a2dc4584284e
+  show_ref_link: false
+  title: Action Classification in Soccer Videos with Long Short-Term Memory Recurrent Neural Networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-attend-and-tell-neural-image-caption-generation-with-visual-attention
+  numCitedBy: 7309
+  pid: 4d8f2d14af5991d4f0d050d22216825cac3157bd
+  show_ref_link: true
+  title: Show, Attend and Tell - Neural Image Caption Generation with Visual Attention
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-framing-image-description-as-a-ranking-task-data-models-and-evaluation-metrics-extended-abstract
+  numCitedBy: 931
+  pid: 9814df8bd00ba999c4d1e305a7e9bca579dc7c75
+  show_ref_link: false
+  title: Framing Image Description as a Ranking Task - Data, Models and Evaluation Metrics (Extended Abstract)
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13778
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-natural-language-object-retrieval
+  numCitedBy: 422
+  pid: d696a1923288e6c15422660de9553f6fdb6a4fae
+  show_ref_link: true
+  title: Natural Language Object Retrieval
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-every-moment-counts-dense-detailed-labeling-of-actions-in-complex-videos
+  numCitedBy: 315
+  pid: aa2d1dac4e27aebfb759d6e0b41b8a8ab1b01406
+  show_ref_link: false
+  title: Every Moment Counts - Dense Detailed Labeling of Actions in Complex Videos
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-youtube2text-recognizing-and-describing-arbitrary-activities-using-semantic-hierarchies-and-zero-shot-recognition
+  numCitedBy: 406
+  pid: d6a7a563640bf53953c4fda0997e4db176488510
+  show_ref_link: false
+  title: YouTube2Text - Recognizing and Describing Arbitrary Activities Using Semantic Hierarchies and Zero-Shot Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-translating-video-content-to-natural-language-descriptions
+  numCitedBy: 314
+  pid: e8cd37fbd8bd5e690eef5861cf92af8e002d4533
+  show_ref_link: false
+  title: Translating Video Content to Natural Language Descriptions
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-hmdb-a-large-video-database-for-human-motion-recognition
+  numCitedBy: 2566
+  pid: 8b3b8848a311c501e704c45c6d50430ab7068956
+  show_ref_link: false
+  title: HMDB - A large video database for human motion recognition
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15156
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-corpus-guided-sentence-generation-of-natural-images
+  numCitedBy: 356
+  pid: 76a1dca3a9c2b0229c1b12c95752dcf40dc95a11
+  show_ref_link: false
+  title: Corpus-Guided Sentence Generation of Natural Images
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-towards-end-to-end-speech-recognition-with-recurrent-neural-networks
+  numCitedBy: 1763
+  pid: 0fa553cfa0cf3cbdf7a913aa2ae789a757dfb32f
+  show_ref_link: true
+  title: Towards End-To-End Speech Recognition with Recurrent Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-on-the-properties-of-neural-machine-translation-encoder-decoder-approaches
+  numCitedBy: 4150
+  pid: 1eb09fecd75eb27825dce4f964b97f4f5cc399d7
+  show_ref_link: true
+  title: On the Properties of Neural Machine Translation - Encoder-Decoder Approaches
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-cider-consensus-based-image-description-evaluation
+  numCitedBy: 2187
+  pid: 258986132bf17755fe8263e42429fe73218c1534
+  show_ref_link: true
+  title: CIDEr - Consensus-based image description evaluation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-collective-generation-of-natural-image-descriptions
+  numCitedBy: 322
+  pid: 2a0d0f6c5a69b264710df0230696f47c5918e2f2
+  show_ref_link: false
+  title: Collective Generation of Natural Image Descriptions
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-a-learning-algorithm-for-continually-running-fully-recurrent-neural-networks
+  numCitedBy: 3844
+  pid: ce9a21b93ba29d4145a8ef6bf401e77f261848de
+  show_ref_link: false
+  title: A Learning Algorithm for Continually Running Fully Recurrent Neural Networks
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-generating-sequences-with-recurrent-neural-networks
+  numCitedBy: 3163
+  pid: 89b1f4740ae37fd04f6ac007577bdd34621f0861
+  show_ref_link: true
+  title: Generating Sequences With Recurrent Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25655
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-coherent-multi-sentence-video-description-with-variable-level-of-detail
+  numCitedBy: 167
+  pid: 889e723cd6d581e120ee6776b231fdf69707ab50
+  show_ref_link: false
+  title: Coherent Multi-sentence Video Description with Variable Level of Detail
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20013
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-dense-trajectories-and-motion-boundary-descriptors-for-action-recognition
+  numCitedBy: 1556
+  pid: bbe0819a47a9f3f11dd34bb3ab44a997ef111088
+  show_ref_link: false
+  title: Dense Trajectories and Motion Boundary Descriptors for Action Recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-human-focused-video-description
+  numCitedBy: 28
+  pid: fbadf89b990acedf23e1df03d4869010d2dbc59e
+  show_ref_link: false
+  title: Human Focused Video Description
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-every-picture-tells-a-story-generating-sentences-from-images
+  numCitedBy: 988
+  pid: eaaed23a2d94feb2f1c3ff22a25777c7a78f3141
+  show_ref_link: false
+  title: Every Picture Tells a Story - Generating Sentences from Images
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-towards-textually-describing-complex-video-contents-with-audio-visual-concept-classifiers
+  numCitedBy: 38
+  pid: 261ae2f6f426b5efd32ea5b981751d1c63c5309d
+  show_ref_link: false
+  title: Towards textually describing complex video contents with audio-visual concept classifiers
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-treetalk-composition-and-compression-of-trees-for-image-descriptions
+  numCitedBy: 221
+  pid: 59927ded86ab4f7253fc32efb351e5a13e746ead
+  show_ref_link: false
+  title: TreeTalk - Composition and Compression of Trees for Image Descriptions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 27839
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-baby-talk-understanding-and-generating-simple-image-descriptions
+  numCitedBy: 483
+  pid: 169b847e69c35cfd475eb4dcc561a24de11762ca
+  show_ref_link: false
+  title: Baby talk - Understanding and generating simple image descriptions
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-midge-generating-image-descriptions-from-computer-vision-detections
+  numCitedBy: 387
+  pid: 355de7460120ddc1150d9ce3756f9848983f7ff4
+  show_ref_link: false
+  title: Midge - Generating Image Descriptions From Computer Vision Detections
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-from-image-descriptions-to-visual-denotations-new-similarity-metrics-for-semantic-inference-over-event-descriptions
+  numCitedBy: 1342
+  pid: 44040913380206991b1991daf1192942e038fe31
+  show_ref_link: true
+  title: From image descriptions to visual denotations - New similarity metrics for semantic inference over event descriptions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-high-accuracy-optical-flow-estimation-based-on-a-theory-for-warping
+  numCitedBy: 2738
+  pid: 91228e00fe33ed6072cfe849ab9e98160461549d
+  show_ref_link: false
+  title: High Accuracy Optical Flow Estimation Based on a Theory for Warping
+  year: 2004
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 2012-video-in-sentences-out
+  numCitedBy: 127
+  pid: 793c1c908672ea71aef9e1b41a46272aa27598f7
+  show_ref_link: false
+  title: Video In Sentences Out
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-exploring-nearest-neighbor-approaches-for-image-captioning
+  numCitedBy: 167
+  pid: 3ca194773fe583661b988fbdf33f7680764438b3
+  show_ref_link: false
+  title: Exploring Nearest Neighbor Approaches for Image Captioning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-rouge-a-package-for-automatic-evaluation-of-summaries
+  numCitedBy: 7019
+  pid: 60b05f32c32519a809f21642ef1eb3eaf3848008
+  show_ref_link: true
+  title: ROUGE - A Package for Automatic Evaluation of Summaries
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-moses-open-source-toolkit-for-statistical-machine-translation
+  numCitedBy: 5941
+  pid: 4ee2eab4c298c1824a9fb8799ad8eed21be38d21
+  show_ref_link: true
+  title: Moses - Open Source Toolkit for Statistical Machine Translation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-bleu-a-method-for-automatic-evaluation-of-machine-translation
+  numCitedBy: 16745
+  pid: d7da009f457917aa381619facfa5ffae9329a6e9
+  show_ref_link: true
+  title: Bleu - a Method for Automatic Evaluation of Machine Translation
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-like-a-child-fast-novel-visual-concept-learning-from-sentence-descriptions-of-images
+  numCitedBy: 137
+  pid: eb847564774394c484e701437dbcffbf040ff3cc
+  show_ref_link: false
+  title: Learning Like a Child - Fast Novel Visual Concept Learning from Sentence Descriptions of Images
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-visual-semantic-alignments-for-generating-image-descriptions
+  numCitedBy: 2619
+  pid: 55e022fb7581bb9e1fce678d21fb25ffbb3fbb88
+  show_ref_link: true
+  title: Deep Visual-Semantic Alignments for Generating Image Descriptions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-action-recognition-with-improved-trajectories
+  numCitedBy: 2837
+  pid: d721f4d64b8e722222c876f0a0f226ed49476347
+  show_ref_link: false
+  title: Action Recognition with Improved Trajectories
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-meteor-an-automatic-metric-for-mt-evaluation-with-improved-correlation-with-human-judgments
+  numCitedBy: 3017
+  pid: 0cd18e4400ff75b2f8b58d60ddb9b0bc12f489e7
+  show_ref_link: true
+  title: METEOR - An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments
+  year: 2005
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2013-framing-image-description-as-a-ranking-task
+  numCitedBy: 55
+  pid: 802e85172bb1418bdfb8211062aa3049e9bd765d
+  show_ref_link: false
+  title: Framing image description as a ranking task
+  year: 2013
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1986-learning-internal-representations-by-error-propagation
+  numCitedBy: 19372
+  pid: 111fd833a4ae576cfdbb27d87d2f8fc0640af355
+  show_ref_link: false
+  title: Learning internal representations by error propagation
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-neural-network-regularization
+  numCitedBy: 1990
+  pid: f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97
+  show_ref_link: true
+  title: Recurrent Neural Network Regularization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-ieee-transactions-on-pattern-analysis-and-machine-intelligence
+  numCitedBy: 170
+  pid: 9e7e1d962ab25ae00e6fb5713116967e9b64be50
+  show_ref_link: false
+  title: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-ucf101-a-dataset-of-101-human-actions-classes-from-videos-in-the-wild
+  numCitedBy: 3663
+  pid: da9e411fcf740569b6b356f330a1d0fc077c8d7c
+  show_ref_link: false
+  title: UCF101 - A Dataset of 101 Human Actions Classes From Videos in The Wild
+  year: 2012
+slug: Long-term-recurrent-convolutional-networks-for-and-Donahue-Hendricks
+title: Long-term recurrent convolutional networks for visual recognition and description
+url: https://www.semanticscholar.org/paper/Long-term-recurrent-convolutional-networks-for-and-Donahue-Hendricks/f01fc808592ea7c473a69a6e7484040a435f36d9?sort=total-citations
+venue: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2015

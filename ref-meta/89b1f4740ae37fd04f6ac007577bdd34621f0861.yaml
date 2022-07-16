@@ -1,0 +1,267 @@
+authors:
+- A. Graves
+badges:
+- id: OPEN_ACCESS
+corpusId: 1697424
+fieldsOfStudy:
+- Computer Science
+meta_key: 2013-generating-sequences-with-recurrent-neural-networks
+numCitedBy: 3163
+numCiting: 36
+paperAbstract: This paper shows how Long Short-term Memory recurrent neural networks can be used to generate complex sequences with long-range structure, simply by predicting one data point at a time. The approach is demonstrated for text (where the data are discrete) and online handwriting (where the data are real-valued). It is then extended to handwriting synthesis by allowing the network to condition its predictions on a text sequence. The resulting system is able to generate highly realistic cursive handwriting in a wide variety of styles.
+ref_count: 36
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-learning-long-term-dependencies-with-gradient-descent-is-difficult
+  numCitedBy: 6165
+  pid: d0be39ee052d246ae99c082a565aba25b811be2d
+  show_ref_link: false
+  title: Learning long-term dependencies with gradient descent is difficult
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-speech-recognition-with-deep-recurrent-neural-networks
+  numCitedBy: 6934
+  pid: 4177ec52d1b80ed57f2e72b0f9a42365f1a8598d
+  show_ref_link: true
+  title: Speech recognition with deep recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-generating-text-with-recurrent-neural-networks
+  numCitedBy: 1258
+  pid: e0e5dd8b206806372b3e20b9a2fbdbd0cf9ce1de
+  show_ref_link: true
+  title: Generating Text with Recurrent Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2012-sequence-transduction-with-recurrent-neural-networks
+  numCitedBy: 983
+  pid: 7b4f3d0e4e2486a8d5d3f8e00549cf9a117bf88f
+  show_ref_link: false
+  title: Sequence Transduction with Recurrent Neural Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-learning-precise-timing-with-lstm-recurrent-networks
+  numCitedBy: 1275
+  pid: 047655e733a9eed9a500afd916efa566915b9110
+  show_ref_link: false
+  title: Learning Precise Timing with LSTM Recurrent Networks
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-subword-language-modeling-with-neural-networks
+  numCitedBy: 180
+  pid: 1fd7fc06653723b05abe5f3d1de393ddcf6bdddb
+  show_ref_link: false
+  title: SUBWORD LANGUAGE MODELING WITH NEURAL NETWORKS
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52035
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-offline-handwriting-recognition-with-multidimensional-recurrent-neural-networks
+  numCitedBy: 742
+  pid: c08d0525bd42fa1c24f9f5df72f4c8fcf7063b22
+  show_ref_link: false
+  title: Offline Handwriting Recognition with Multidimensional Recurrent Neural Networks
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-modeling-temporal-dependencies-in-high-dimensional-sequences-application-to-polyphonic-music-generation-and-transcription
+  numCitedBy: 610
+  pid: 18c82d4b6cf94fb84ba6ea230e80cb07ed9a9cf8
+  show_ref_link: false
+  title: Modeling Temporal Dependencies in High-Dimensional Sequences - Application to Polyphonic Music Generation and Transcription
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-framewise-phoneme-classification-with-bidirectional-lstm-and-other-neural-network-architectures
+  numCitedBy: 3310
+  pid: 2f83f6e1afadf0963153974968af6b8342775d82
+  show_ref_link: true
+  title: Framewise phoneme classification with bidirectional LSTM and other neural network architectures
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-a-first-look-at-music-composition-using-lstm-recurrent-neural-networks
+  numCitedBy: 228
+  pid: c135eede17f30b901275057553d37c07c0b90198
+  show_ref_link: false
+  title: A First Look at Music Composition using LSTM Recurrent Neural Networks
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-statistical-language-models-based-on-neural-networks
+  numCitedBy: 576
+  pid: 96364af2d208ea75ca3aeb71892d2f7ce7326b55
+  show_ref_link: false
+  title: Statistical Language Models Based on Neural Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-better-generative-models-for-sequential-data-problems-bidirectional-recurrent-mixture-density-networks
+  numCitedBy: 24
+  pid: bdc53fb58689cfc12cc88d774f179b3f0baae472
+  show_ref_link: false
+  title: Better Generative Models for Sequential Data Problems - Bidirectional Recurrent Mixture Density Networks
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-the-recurrent-temporal-restricted-boltzmann-machine
+  numCitedBy: 390
+  pid: 0228810a988f6b8f06337e14f564e2fd3f6e1056
+  show_ref_link: false
+  title: The Recurrent Temporal Restricted Boltzmann Machine
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-neural-networks-for-pattern-recognition
+  numCitedBy: 15363
+  pid: dbc0a468ab103ae29717703d4aa9f682f6a2b664
+  show_ref_link: true
+  title: Neural Networks for Pattern Recognition
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-fast-and-simple-algorithm-for-training-neural-probabilistic-language-models
+  numCitedBy: 519
+  pid: 5b0d644f5c4b9880cbaf79932c0a4fa98996f068
+  show_ref_link: false
+  title: A fast and simple algorithm for training neural probabilistic language models
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-scalable-hierarchical-distributed-language-model
+  numCitedBy: 939
+  pid: a9fc84f8abe740cdc7ee82e69444d1d00dbe0ceb
+  show_ref_link: false
+  title: A Scalable Hierarchical Distributed Language Model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-practical-variational-inference-for-neural-networks
+  numCitedBy: 1080
+  pid: 5a9ef216bf11f222438fff130c778267d39a9564
+  show_ref_link: true
+  title: Practical Variational Inference for Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-an-analysis-of-noise-in-recurrent-neural-networks-convergence-and-generalization
+  numCitedBy: 128
+  pid: 030a977bf32e81fb694117d78ac84a3fbe2a1d81
+  show_ref_link: false
+  title: An analysis of noise in recurrent neural networks - convergence and generalization
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-iam-ondb-an-on-line-english-sentence-database-acquired-from-handwritten-text-on-a-whiteboard
+  numCitedBy: 180
+  pid: 9eb7daa88879f283ae05e359d6c502a320b833c9
+  show_ref_link: false
+  title: IAM-OnDB - an on-line English sentence database acquired from handwritten text on a whiteboard
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-building-a-large-annotated-corpus-of-english-the-penn-treebank
+  numCitedBy: 8197
+  pid: 0b44fcbeea9415d400c5f5789d6b892b6f98daff
+  show_ref_link: false
+  title: Building a Large Annotated Corpus of English - The Penn Treebank
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-low-rank-matrix-factorization-for-deep-neural-network-training-with-high-dimensional-output-targets
+  numCitedBy: 483
+  pid: 5cea23330c76994cb626df20bed31cc2588033df
+  show_ref_link: false
+  title: Low-rank matrix factorization for Deep Neural Network training with high-dimensional output targets
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1984-data-compression-using-adaptive-coding-and-partial-string-matching
+  numCitedBy: 1276
+  pid: 50e2733d2a8a9b3929bda278d382c37711f3fa8e
+  show_ref_link: false
+  title: Data Compression Using Adaptive Coding and Partial String Matching
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-factored-conditional-restricted-boltzmann-machines-for-modeling-motion-style
+  numCitedBy: 391
+  pid: 346fbcffe4237aa60e8bcb3d4294a8b99436f1d0
+  show_ref_link: false
+  title: Factored conditional restricted Boltzmann Machines for modeling motion style
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-practical-guide-to-training-restricted-boltzmann-machines
+  numCitedBy: 2746
+  pid: e95d3934e51107da7610acd0b1bcb6551671f9f1
+  show_ref_link: false
+  title: A Practical Guide to Training Restricted Boltzmann Machines
+  year: 2012
+- fieldsOfStudy:
+  - Chemistry
+  meta_key: 2001-gradient-flow-in-recurrent-nets-the-difficulty-of-learning-long-term-dependencies
+  numCitedBy: 1576
+  pid: aed054834e2c696807cc8b227ac7a4197196e211
+  show_ref_link: false
+  title: Gradient Flow in Recurrent Nets - the Difficulty of Learning Long-Term Dependencies
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-machine-learning-perspective-on-predictive-coding-with-paq8
+  numCitedBy: 28
+  pid: 76f9f7f03a660306c3e351e3b7ab6c7df048b411
+  show_ref_link: false
+  title: A Machine Learning Perspective on Predictive Coding with PAQ8
+  year: 2012
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1994-mixture-density-networks
+  numCitedBy: 700
+  pid: d4ca18249446328c86d9da295a21c679aea1ed77
+  show_ref_link: false
+  title: Mixture Density Networks
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-the-minimum-description-length-principle-adaptive-computation-and-machine-learning
+  numCitedBy: 193
+  pid: ed14f8d87e84b4ee2698d97477414f3a472007da
+  show_ref_link: false
+  title: The Minimum Description Length Principle (Adaptive Computation and Machine Learning)
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-the-tagged-lob-corpus-user-s-manual
+  numCitedBy: 163
+  pid: 9c2dff1c9b04da49f50fd85ba010d2a041fc5c39
+  show_ref_link: false
+  title: The tagged LOB Corpus - user's manual
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-gradient-based-learning-algorithms-for-recurrent-networks-and-their-computational-complexity
+  numCitedBy: 570
+  pid: 10dae7fca6b65b61d155a622f0c6ca2bc3922251
+  show_ref_link: false
+  title: Gradient-based learning algorithms for recurrent networks and their computational complexity
+  year: 1995
+slug: Generating-Sequences-With-Recurrent-Neural-Networks-Graves
+title: Generating Sequences With Recurrent Neural Networks
+url: https://www.semanticscholar.org/paper/Generating-Sequences-With-Recurrent-Neural-Networks-Graves/89b1f4740ae37fd04f6ac007577bdd34621f0861?sort=total-citations
+venue: ArXiv
+year: 2013

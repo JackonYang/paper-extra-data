@@ -1,0 +1,410 @@
+authors:
+- Weijie Su
+- Xizhou Zhu
+- Yue Cao
+- B. Li
+- Lewei Lu
+- Furu Wei
+- Jifeng Dai
+badges:
+- id: OPEN_ACCESS
+corpusId: 201317624
+fieldsOfStudy:
+- Computer Science
+meta_key: 2020-vl-bert-pre-training-of-generic-visual-linguistic-representations
+numCitedBy: 735
+numCiting: 56
+paperAbstract: We introduce a new pre-trainable generic representation for visual-linguistic tasks, called Visual-Linguistic BERT (VL-BERT for short). VL-BERT adopts the simple yet powerful Transformer model as the backbone, and extends it to take both visual and linguistic embedded features as input. In it, each element of the input is either of a word from the input sentence, or a region-of-interest (RoI) from the input image. It is designed to fit for most of the visual-linguistic downstream tasks. To better exploit the generic representation, we pre-train VL-BERT on the massive-scale Conceptual Captions dataset, together with text-only corpus. Extensive empirical analysis demonstrates that the pre-training procedure can better align the visual-linguistic clues and benefit the downstream tasks, such as visual commonsense reasoning, visual question answering and referring expression comprehension. It is worth noting that VL-BERT achieved the first place of single model on the leaderboard of the VCR benchmark. Code is released at \url{this https URL}.
+ref_count: 56
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-vilbert-pretraining-task-agnostic-visiolinguistic-representations-for-vision-and-language-tasks
+  numCitedBy: 1319
+  pid: 65a9c7b0800c86a196bc14e7621ff895cc6ab287
+  show_ref_link: true
+  title: ViLBERT - Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-visualbert-a-simple-and-performant-baseline-for-vision-and-language
+  numCitedBy: 664
+  pid: 5aec474c31a2f4b74703c6f786c0a8ff85c450da
+  show_ref_link: true
+  title: VisualBERT - A Simple and Performant Baseline for Vision and Language
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2020-unicoder-vl-a-universal-encoder-for-vision-and-language-by-cross-modal-pre-training
+  numCitedBy: 394
+  pid: 2bc1c8bd00bbf7401afcb5460277840fd8bab029
+  show_ref_link: true
+  title: Unicoder-VL - A Universal Encoder for Vision and Language by Cross-modal Pre-training
+  year: 2020
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding
+  numCitedBy: 34640
+  pid: df2b0e26d0599ce3e70df8a9da02e51594e0e992
+  show_ref_link: true
+  title: BERT - Pre-training of Deep Bidirectional Transformers for Language Understanding
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-visual7w-grounded-question-answering-in-images
+  numCitedBy: 598
+  pid: def584565d05d6a8ba94de6621adab9e301d375d
+  show_ref_link: true
+  title: Visual7W - Grounded Question Answering in Images
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-improving-language-understanding-by-generative-pre-training
+  numCitedBy: 3591
+  pid: cd18800a0fe0b668a1cc19f2ec95b5003d0a5035
+  show_ref_link: true
+  title: Improving Language Understanding by Generative Pre-Training
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-language-models-are-unsupervised-multitask-learners
+  numCitedBy: 6429
+  pid: 9405cc0d6169988371b2755e573cc28650d14dfe
+  show_ref_link: true
+  title: Language Models are Unsupervised Multitask Learners
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-fusion-of-detected-objects-in-text-for-visual-question-answering
+  numCitedBy: 114
+  pid: b82153bf85d5d1edd3f170aace830e5328ca9ed0
+  show_ref_link: true
+  title: Fusion of Detected Objects in Text for Visual Question Answering
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-mattnet-modular-attention-network-for-referring-expression-comprehension
+  numCitedBy: 374
+  pid: fdce9cbe5c726201575b3c8a8c1af0752f1af53f
+  show_ref_link: true
+  title: MAttNet - Modular Attention Network for Referring Expression Comprehension
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-skip-thought-vectors
+  numCitedBy: 1934
+  pid: 6e795c6e9916174ae12349f5dc3f516570c17ce8
+  show_ref_link: true
+  title: Skip-Thought Vectors
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-lxmert-learning-cross-modality-encoder-representations-from-transformers
+  numCitedBy: 952
+  pid: 79c93274429d6355959f1e4374c2147bb81ea649
+  show_ref_link: true
+  title: LXMERT - Learning Cross-Modality Encoder Representations from Transformers
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+  numCitedBy: 4251
+  pid: b8de958fead0d8a9619b55c7299df3257c624a96
+  show_ref_link: true
+  title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-vqa-visual-question-answering
+  numCitedBy: 2930
+  pid: 97ad70a9fa3f99adf18030e5e38ebe3d90daa2db
+  show_ref_link: true
+  title: VQA - Visual Question Answering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-visual-genome-connecting-language-and-vision-using-crowdsourced-dense-image-annotations
+  numCitedBy: 2810
+  pid: afcf4dbd2ef300e5c4b35043d4fbe516807cdf7d
+  show_ref_link: true
+  title: Visual Genome - Connecting Language and Vision Using Crowdsourced Dense Image Annotations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attention-is-all-you-need
+  numCitedBy: 35966
+  pid: 204e3073870fae3d05bcbc2f6a8e263d9b72e776
+  show_ref_link: true
+  title: Attention is All you Need
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-from-recognition-to-cognition-visual-commonsense-reasoning
+  numCitedBy: 379
+  pid: 6dfc2ff03534a4325d06c6f88c3144831996629b
+  show_ref_link: true
+  title: From Recognition to Cognition - Visual Commonsense Reasoning
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-bottom-up-and-top-down-attention-for-image-captioning-and-visual-question-answering
+  numCitedBy: 2310
+  pid: a82c1d1ccaa3a3d1d6ee6677de0eed2e93ddb6e8
+  show_ref_link: true
+  title: Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-making-the-v-in-vqa-matter-elevating-the-role-of-image-understanding-in-visual-question-answering
+  numCitedBy: 1178
+  pid: a27ed1310b9c0832bde8f906e0fcd23d1f3aa79c
+  show_ref_link: true
+  title: Making the V in VQA Matter - Elevating the Role of Image Understanding in Visual Question Answering
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-gqa-a-new-dataset-for-real-world-visual-reasoning-and-compositional-question-answering
+  numCitedBy: 462
+  pid: 1ab7f7c1d328589f25c79515b9a5d824d7ffbbd1
+  show_ref_link: true
+  title: GQA - A New Dataset for Real-World Visual Reasoning and Compositional Question Answering
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-from-two-graphs-to-n-questions-a-vqa-dataset-for-compositional-reasoning-on-vision-and-commonsense
+  numCitedBy: 9
+  pid: 06b3ecff93bc79a1242b06702f160ffc43c487b9
+  show_ref_link: false
+  title: From Two Graphs to N Questions - A VQA Dataset for Compositional Reasoning on Vision and Commonsense
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-contrastive-bidirectional-transformer-for-temporal-representation-learning
+  numCitedBy: 117
+  pid: f259bc7ef31c4ec7dd041c94bfd6b2f93b99b47c
+  show_ref_link: false
+  title: Contrastive Bidirectional Transformer for Temporal Representation Learning
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-cross-lingual-language-model-pretraining
+  numCitedBy: 1539
+  pid: ec4eba83f6b3266d9ae7cabb2b2cb1518f727edc
+  show_ref_link: true
+  title: Cross-lingual Language Model Pretraining
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-xlnet-generalized-autoregressive-pretraining-for-language-understanding
+  numCitedBy: 4296
+  pid: e0c6abdbdecf04ffac65c440da77fb9d66bb474c
+  show_ref_link: true
+  title: XLNet - Generalized Autoregressive Pretraining for Language Understanding
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 15835
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-clevr-a-diagnostic-dataset-for-compositional-language-and-elementary-visual-reasoning
+  numCitedBy: 1242
+  pid: 03eb382e04cca8cca743f7799070869954f1402a
+  show_ref_link: true
+  title: CLEVR - A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-glove-global-vectors-for-word-representation
+  numCitedBy: 22724
+  pid: f37e1b62a767a307c046404ca96bc140b3e68cb5
+  show_ref_link: true
+  title: GloVe - Global Vectors for Word Representation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-aligning-books-and-movies-towards-story-like-visual-explanations-by-watching-movies-and-reading-books
+  numCitedBy: 1441
+  pid: 0e6824e137847be0599bb0032e37042ed2ef5045
+  show_ref_link: true
+  title: Aligning Books and Movies - Towards Story-Like Visual Explanations by Watching Movies and Reading Books
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17210
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-google-s-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation
+  numCitedBy: 4687
+  pid: dbde7dfa6cae81df8ac19ef500c42db96c3d1edd
+  show_ref_link: true
+  title: Google's Neural Machine Translation System - Bridging the Gap between Human and Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 19980
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-simultaneous-detection-and-segmentation
+  numCitedBy: 1066
+  pid: 342786659379879f58bf5c4ff43c84c83a6a7389
+  show_ref_link: true
+  title: Simultaneous Detection and Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-from-image-descriptions-to-visual-denotations-new-similarity-metrics-for-semantic-inference-over-event-descriptions
+  numCitedBy: 1342
+  pid: 44040913380206991b1991daf1192942e038fe31
+  show_ref_link: true
+  title: From image descriptions to visual denotations - New similarity metrics for semantic inference over event descriptions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-roberta-a-robustly-optimized-bert-pretraining-approach
+  numCitedBy: 7554
+  pid: 077f8329a7b6fa3b7c877a57b81eb6c18b5f87de
+  show_ref_link: true
+  title: RoBERTa - A Robustly Optimized BERT Pretraining Approach
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-a-multiscale-visualization-of-attention-in-the-transformer-model
+  numCitedBy: 242
+  pid: 0de0a44b859a3719d11834479112314b4caba669
+  show_ref_link: false
+  title: A Multiscale Visualization of Attention in the Transformer Model
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2018-conceptual-captions-a-cleaned-hypernymed-image-alt-text-dataset-for-automatic-image-captioning
+  numCitedBy: 648
+  pid: b4df354db88a70183a64dbc9e56cf14e7669a6c0
+  show_ref_link: true
+  title: Conceptual Captions - A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 27818
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-bert-has-a-mouth-and-it-must-speak-bert-as-a-markov-random-field-language-model
+  numCitedBy: 197
+  pid: d79ac7a7bafdc9a782fb8c53285ca11c7f2e3f18
+  show_ref_link: false
+  title: BERT has a Mouth, and It Must Speak - BERT as a Markov Random Field Language Model
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-learning-video-representations-using-contrastive-bidirectional-transformer
+  numCitedBy: 171
+  pid: 025a0dc4a2a98742f1b410b6318a46de2c854b22
+  show_ref_link: false
+  title: Learning Video Representations using Contrastive Bidirectional Transformer
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-relation-networks-for-object-detection
+  numCitedBy: 708
+  pid: 6a0aaefce8a27a8727d896fa444ba27558b2d381
+  show_ref_link: false
+  title: Relation Networks for Object Detection
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-referitgame-referring-to-objects-in-photographs-of-natural-scenes
+  numCitedBy: 567
+  pid: 92c141447f51b6732242376164ff961e464731c8
+  show_ref_link: false
+  title: ReferItGame - Referring to Objects in Photographs of Natural Scenes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 90882
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2015-fast-r-cnn
+  numCitedBy: 14180
+  pid: 7ffdbc358b63378f07311e883dddacc9faeeaf4b
+  show_ref_link: true
+  title: Fast R-CNN
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-microsoft-coco-captions-data-collection-and-evaluation-server
+  numCitedBy: 1189
+  pid: 696ca58d93f6404fea0fc75c62d1d7b378f47628
+  show_ref_link: true
+  title: Microsoft COCO Captions - Data Collection and Evaluation Server
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 32899
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-videobert-a-joint-model-for-video-and-language-representation-learning
+  numCitedBy: 584
+  pid: c41a11c0e9b8b92b4faaf97749841170b760760a
+  show_ref_link: true
+  title: VideoBERT - A Joint Model for Video and Language Representation Learning
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-rethinking-imagenet-pre-training
+  numCitedBy: 584
+  pid: 4152d2c8585f7e3f85d3b3d84036171de104cbd7
+  show_ref_link: false
+  title: Rethinking ImageNet Pre-Training
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-efficient-estimation-of-word-representations-in-vector-space
+  numCitedBy: 22047
+  pid: 330da625c15427c6e42ccfa3b747fb29e5835bf0
+  show_ref_link: true
+  title: Efficient Estimation of Word Representations in Vector Space
+  year: 2013
+slug: VL-BERT:-Pre-training-of-Generic-Visual-Linguistic-Su-Zhu
+title: VL-BERT - Pre-training of Generic Visual-Linguistic Representations
+url: https://www.semanticscholar.org/paper/VL-BERT:-Pre-training-of-Generic-Visual-Linguistic-Su-Zhu/2527626c11a84f15709e943fbfa2356e19930e3b?sort=total-citations
+venue: ICLR
+year: 2020

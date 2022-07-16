@@ -1,0 +1,275 @@
+authors:
+- I. Loshchilov
+- F. Hutter
+badges: []
+corpusId: 53592270
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-decoupled-weight-decay-regularization
+numCitedBy: 3608
+numCiting: 33
+paperAbstract: L$_2$ regularization and weight decay regularization are equivalent for standard stochastic gradient descent (when rescaled by the learning rate), but as we demonstrate this is \emph{not} the case for adaptive gradient algorithms, such as Adam. While common implementations of these algorithms employ L$_2$ regularization (often calling it "weight decay" in what may be misleading due to the inequivalence we expose), we propose a simple modification to recover the original formulation of weight decay regularization by \emph{decoupling} the weight decay from the optimization steps taken w.r.t. the loss function. We provide empirical evidence that our proposed modification (i) decouples the optimal choice of weight decay factor from the setting of the learning rate for both standard SGD and Adam and (ii) substantially improves Adam's generalization performance, allowing it to compete with SGD with momentum on image classification datasets (on which it was previously typically outperformed by the latter). Our proposed decoupled weight decay has already been adopted by many researchers, and the community has implemented it in TensorFlow and PyTorch; the complete source code for our experiments is available at this https URL
+ref_count: 33
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-three-mechanisms-of-weight-decay-regularization
+  numCitedBy: 145
+  pid: f270537f0d80dffc9748d4d2794093031becde69
+  show_ref_link: false
+  title: Three Mechanisms of Weight Decay Regularization
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-normalized-direction-preserving-adam
+  numCitedBy: 21
+  pid: 51ed8996e6bb192c4d56cf16d27ce31c4fdb687e
+  show_ref_link: false
+  title: Normalized Direction-preserving Adam
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 90955
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-weight-normalization-a-simple-reparameterization-to-accelerate-training-of-deep-neural-networks
+  numCitedBy: 1296
+  pid: 3d2c6941a9b4608ba52b328369a3352db2092ae0
+  show_ref_link: true
+  title: Weight Normalization - A Simple Reparameterization to Accelerate Training of Deep Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning
+  numCitedBy: 729
+  pid: 1ecc2bd0bc6ffa0a2f466a058589c20593e3e57c
+  show_ref_link: false
+  title: The Marginal Value of Adaptive Gradient Methods in Machine Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-a-unified-theory-of-adaptive-stochastic-gradient-descent-as-bayesian-filtering
+  numCitedBy: 5
+  pid: 4f48446ebbff9475b4c10b6504cb4b15d6a5c87a
+  show_ref_link: false
+  title: A unified theory of adaptive stochastic gradient descent as Bayesian filtering
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-on-large-batch-training-for-deep-learning-generalization-gap-and-sharp-minima
+  numCitedBy: 1725
+  pid: 8ec5896b4490c6e127d1718ffc36a3439d84cb81
+  show_ref_link: false
+  title: On Large-Batch Training for Deep Learning - Generalization Gap and Sharp Minima
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-adaptive-subgradient-methods-for-online-learning-and-stochastic-optimization
+  numCitedBy: 8057
+  pid: 413c1142de9d91804d6d11c67ff3fed59c9fc279
+  show_ref_link: true
+  title: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-snapshot-ensembles-train-1-get-m-for-free
+  numCitedBy: 538
+  pid: b134d0911e2e13ac169ffa5f478a39e6ef77869a
+  show_ref_link: false
+  title: Snapshot Ensembles - Train 1, get M for free
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-sharp-minima-can-generalize-for-deep-nets
+  numCitedBy: 478
+  pid: 58123025178256279bb060ca5da971b62bc329ee
+  show_ref_link: false
+  title: Sharp Minima Can Generalize For Deep Nets
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-optimizing-neural-networks-with-kronecker-factored-approximate-curvature
+  numCitedBy: 564
+  pid: cb4dc7277d1c8c3bc76dd7425eb1cc7cbaf99487
+  show_ref_link: false
+  title: Optimizing Neural Networks with Kronecker-factored Approximate Curvature
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-cyclical-learning-rates-for-training-neural-networks
+  numCitedBy: 1419
+  pid: 37b5dfe87d82ba8f310155165d5bf841dc92dea2
+  show_ref_link: false
+  title: Cyclical Learning Rates for Training Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-visualizing-the-loss-landscape-of-neural-nets
+  numCitedBy: 872
+  pid: 6baca6351dc55baac44f0416e74a7e0ba2bfd03e
+  show_ref_link: false
+  title: Visualizing the Loss Landscape of Neural Nets
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-sgdr-stochastic-gradient-descent-with-warm-restarts
+  numCitedBy: 2773
+  pid: b022f2a277a4bf5f42382e86e4380b96340b9e86
+  show_ref_link: false
+  title: SGDR - Stochastic Gradient Descent with Warm Restarts
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-autoaugment-learning-augmentation-policies-from-data
+  numCitedBy: 939
+  pid: f723eb3e7159f07b97464c8d947d15e78612abe4
+  show_ref_link: false
+  title: AutoAugment - Learning Augmentation Policies from Data
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2020-high-dimensional-dynamics-of-generalization-error-in-neural-networks
+  numCitedBy: 298
+  pid: 6104568e318f140d7adcf646412f182906db69b1
+  show_ref_link: false
+  title: High-dimensional dynamics of generalization error in neural networks
+  year: 2020
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-shake-shake-regularization
+  numCitedBy: 292
+  pid: 3fea412361b2d14cb3c6723968b421c1c8cb38e8
+  show_ref_link: false
+  title: Shake-Shake regularization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attention-is-all-you-need
+  numCitedBy: 35966
+  pid: 204e3073870fae3d05bcbc2f6a8e263d9b72e776
+  show_ref_link: true
+  title: Attention is All you Need
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-beyond-convexity-stochastic-quasi-convex-optimization
+  numCitedBy: 118
+  pid: 76690f5e2d33da6b7bd4cdec5affe5aa9ed83ff9
+  show_ref_link: false
+  title: Beyond Convexity - Stochastic Quasi-Convex Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 19002
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17285
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-unsupervised-representation-learning-with-deep-convolutional-generative-adversarial-networks
+  numCitedBy: 9917
+  pid: 8388f1be26329fa45e5807e968a641ce170ea078
+  show_ref_link: false
+  title: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2017-a-downsampled-variant-of-imagenet-as-an-alternative-to-the-cifar-datasets
+  numCitedBy: 309
+  pid: e644a409b4a4c6eaedffe27efbc5c76280b34c61
+  show_ref_link: false
+  title: A Downsampled Variant of ImageNet as an Alternative to the CIFAR datasets
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-transferable-architectures-for-scalable-image-recognition
+  numCitedBy: 3499
+  pid: d0611891b9e8a7c5731146097b6f201578f47b2f
+  show_ref_link: false
+  title: Learning Transferable Architectures for Scalable Image Recognition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-comparing-biases-for-minimal-network-construction-with-back-propagation
+  numCitedBy: 517
+  pid: f4ea5a6ff3ffcd11ec2e6ed7828a7d41279fb3ad
+  show_ref_link: false
+  title: Comparing Biases for Minimal Network Construction with Back-Propagation
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-attend-and-tell-neural-image-caption-generation-with-visual-attention
+  numCitedBy: 7309
+  pid: 4d8f2d14af5991d4f0d050d22216825cac3157bd
+  show_ref_link: true
+  title: Show, Attend and Tell - Neural Image Caption Generation with Visual Attention
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-intracranial-error-detection-via-deep-learning
+  numCitedBy: 9
+  pid: 9ecdcb2d03e6b4816cac030e62392ee8fe6fff89
+  show_ref_link: false
+  title: Intracranial Error Detection via Deep Learning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-draw-a-recurrent-neural-network-for-image-generation
+  numCitedBy: 1632
+  pid: a2785f66c20fbdf30ec26c0931584c6d6a0f4fca
+  show_ref_link: true
+  title: DRAW - A Recurrent Neural Network For Image Generation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-sface-an-efficient-network-for-face-detection-in-large-scale-variations
+  numCitedBy: 16
+  pid: e065a2cb4534492ccf46d0afc81b9ad8b420c5ec
+  show_ref_link: false
+  title: SFace - An Efficient Network for Face Detection in Large Scale Variations
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-generalization-in-deep-learning
+  numCitedBy: 295
+  pid: 430de87a0a8996bc93b1998f9a6261f7558a5679
+  show_ref_link: false
+  title: Generalization in Deep Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wider-face-a-face-detection-benchmark
+  numCitedBy: 943
+  pid: 52d7eb0fbc3522434c13cc247549f74bb9609c5d
+  show_ref_link: false
+  title: WIDER FACE - A Face Detection Benchmark
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-on-the-convergence-of-adam-and-beyond
+  numCitedBy: 1523
+  pid: 0162b26ab4099cbfdf7d6bc6ae4bf5107e3569a3
+  show_ref_link: false
+  title: On the Convergence of Adam and Beyond
+  year: 2018
+slug: Decoupled-Weight-Decay-Regularization-Loshchilov-Hutter
+title: Decoupled Weight Decay Regularization
+url: https://www.semanticscholar.org/paper/Decoupled-Weight-Decay-Regularization-Loshchilov-Hutter/d07284a6811f1b2745d91bdb06b040b57f226882?sort=total-citations
+venue: ICLR
+year: 2019

@@ -1,0 +1,67 @@
+authors:
+- S. Banerjee
+- A. Lavie
+badges:
+- id: OPEN_ACCESS
+corpusId: 7164502
+fieldsOfStudy:
+- Computer Science
+meta_key: 2005-meteor-an-automatic-metric-for-mt-evaluation-with-improved-correlation-with-human-judgments
+numCitedBy: 3017
+numCiting: 7
+paperAbstract: We describe METEOR, an automatic metric for machine translation evaluation that is based on a generalized concept of unigram matching between the machineproduced translation and human-produced reference translations. Unigrams can be matched based on their surface forms, stemmed forms, and meanings; furthermore, METEOR can be easily extended to include more advanced matching strategies. Once all generalized unigram matches between the two strings have been found, METEOR computes a score for this matching using a combination of unigram-precision, unigram-recall, and a measure of fragmentation that is designed to directly capture how well-ordered the matched words in the machine translation are in relation to the reference. We evaluate METEOR by measuring the correlation between the metric scores and human judgments of translation quality. We compute the Pearson R correlation value between its scores and human quality assessments of the LDC TIDES 2003 Arabic-to-English and Chinese-to-English datasets. We perform segment-bysegment correlation, and show that METEOR gets an R correlation value of 0.347 on the Arabic data and 0.331 on the Chinese data. This is shown to be an improvement on using simply unigramprecision, unigram-recall and their harmonic F1 combination. We also perform experiments to show the relative contributions of the various mapping modules.
+ref_count: 7
+references:
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 2002-automatic-evaluation-of-machine-translation-quality-using-n-gram-co-occurrence-statistics
+  numCitedBy: 1574
+  pid: 417f9ce1b1cb3c98e5c2a66d586c7a2eb7438a9f
+  show_ref_link: false
+  title: Automatic evaluation of machine translation quality using n-gram co-occurrence statistics
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-the-significance-of-recall-in-automatic-metrics-for-mt-evaluation
+  numCitedBy: 125
+  pid: dbc6ffa9b66734b4c9381cf525159dba8288917e
+  show_ref_link: false
+  title: The significance of recall in automatic metrics for MT evaluation
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-evaluation-of-machine-translation-and-its-evaluation
+  numCitedBy: 325
+  pid: b038147589432947cd47b2c75d46e43613a1a91b
+  show_ref_link: false
+  title: Evaluation of machine translation and its evaluation
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-bleu-a-method-for-automatic-evaluation-of-machine-translation
+  numCitedBy: 16745
+  pid: d7da009f457917aa381619facfa5ffae9329a6e9
+  show_ref_link: true
+  title: Bleu - a Method for Automatic Evaluation of Machine Translation
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-femti-creating-and-using-a-framework-for-mt-evaluation
+  numCitedBy: 41
+  pid: 24da373b7b6350394a36088b221efef8c7bbe0c9
+  show_ref_link: false
+  title: FEMTI - creating and using a framework for MT evaluation
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-syntax-based-alignment-of-multiple-translations-extracting-paraphrases-and-generating-new-sentences
+  numCitedBy: 259
+  pid: b48af24cd360d6b0a3dd25424550c28bf97bc1ce
+  show_ref_link: false
+  title: Syntax-based Alignment of Multiple Translations - Extracting Paraphrases and Generating New Sentences
+  year: 2003
+slug: METEOR:-An-Automatic-Metric-for-MT-Evaluation-with-Banerjee-Lavie
+title: METEOR - An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments
+url: https://www.semanticscholar.org/paper/METEOR:-An-Automatic-Metric-for-MT-Evaluation-with-Banerjee-Lavie/0cd18e4400ff75b2f8b58d60ddb9b0bc12f489e7?sort=total-citations
+venue: IEEvaluation@ACL
+year: 2005

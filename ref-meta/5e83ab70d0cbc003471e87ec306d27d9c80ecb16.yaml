@@ -1,0 +1,180 @@
+authors:
+- Min Lin
+- Qiang Chen
+- Shuicheng Yan
+badges:
+- id: OPEN_ACCESS
+corpusId: 16636683
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-network-in-network
+numCitedBy: 4232
+numCiting: 20
+paperAbstract: We propose a novel deep network structure called "Network In Network" (NIN) to enhance model discriminability for local patches within the receptive field. The conventional convolutional layer uses linear filters followed by a nonlinear activation function to scan the input. Instead, we build micro neural networks with more complex structures to abstract the data within the receptive field. We instantiate the micro neural network with a multilayer perceptron, which is a potent function approximator. The feature maps are obtained by sliding the micro networks over the input in a similar manner as CNN; they are then fed into the next layer. Deep NIN can be implemented by stacking mutiple of the above described structure. With enhanced local modeling via the micro network, we are able to utilize global average pooling over feature maps in the classification layer, which is easier to interpret and less prone to overfitting than traditional fully connected layers. We demonstrated the state-of-the-art classification performances with NIN on CIFAR-10 and CIFAR-100, and reasonable performances on SVHN and MNIST datasets.
+ref_count: 20
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learnable-pooling-regions-for-image-classification
+  numCitedBy: 40
+  pid: f9def788d4ae040edb8bde18b8aeea635444a4d1
+  show_ref_link: false
+  title: Learnable Pooling Regions for Image Classification
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17285
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-discriminative-transfer-learning-with-tree-based-priors
+  numCitedBy: 198
+  pid: 822f3b9a392a9abccdaa7ef5ae4183d2d4d3d6db
+  show_ref_link: false
+  title: Discriminative Transfer Learning with Tree-based Priors
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-visualizing-and-understanding-convolutional-networks
+  numCitedBy: 11878
+  pid: 1a2a770d23b4a171fa81de62a78a3deb0588f238
+  show_ref_link: true
+  title: Visualizing and Understanding Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-stochastic-pooling-for-regularization-of-deep-convolutional-neural-networks
+  numCitedBy: 823
+  pid: 0abb49fe138e8fb7332c26b148a48d0db39724fc
+  show_ref_link: false
+  title: Stochastic Pooling for Regularization of Deep Convolutional Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-improving-neural-networks-with-dropout
+  numCitedBy: 239
+  pid: 5d5d4f49d6443c8529a6f5ebef5c499d47a869da
+  show_ref_link: false
+  title: Improving Neural Networks with Dropout
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-knowledge-matters-importance-of-prior-information-for-optimization
+  numCitedBy: 145
+  pid: 523b12db4004b89284387f978c2af8ae0e79d54b
+  show_ref_link: false
+  title: Knowledge Matters - Importance of Prior Information for Optimization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-multi-digit-number-recognition-from-street-view-imagery-using-deep-convolutional-neural-networks
+  numCitedBy: 582
+  pid: b3d8dffb73bc93de239998548386c84177caa2ad
+  show_ref_link: false
+  title: Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-of-neural-networks-using-dropconnect
+  numCitedBy: 2101
+  pid: 38f35dd624cd1cf827416e31ac5e0e0454028eca
+  show_ref_link: true
+  title: Regularization of Neural Networks using DropConnect
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6207
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-ica-with-reconstruction-cost-for-efficient-overcomplete-feature-learning
+  numCitedBy: 329
+  pid: 51e93552fe55be91a5711ff2aabc04b742503e68
+  show_ref_link: false
+  title: ICA with Reconstruction Cost for Efficient Overcomplete Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35433
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-representation-learning-a-review-and-new-perspectives
+  numCitedBy: 8798
+  pid: 184ac0766262312ba76bbdece4e7ffad0aa8180b
+  show_ref_link: true
+  title: Representation Learning - A Review and New Perspectives
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-human-face-detection-in-visual-scenes
+  numCitedBy: 476
+  pid: f6af749b2b813af20c2f26962249fafdccdc6a1e
+  show_ref_link: false
+  title: Human Face Detection in Visual Scenes
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3936
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5053
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1963-principles-of-neurodynamics-perceptrons-and-the-theory-of-brain-mechanisms
+  numCitedBy: 1916
+  pid: 9b486c647916df9f8be0f8d4fc5c94c493bfaa80
+  show_ref_link: false
+  title: PRINCIPLES OF NEURODYNAMICS. PERCEPTRONS AND THE THEORY OF BRAIN MECHANISMS
+  year: 1963
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-piecewise-linear-multilayer-perceptrons-and-dropout
+  numCitedBy: 6
+  pid: 5878fb8038fafa96767a17bdb07478847290cc1f
+  show_ref_link: false
+  title: Piecewise Linear Multilayer Perceptrons and Dropout
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-hierarchical-features-for-scene-labeling
+  numCitedBy: 2412
+  pid: 237a04dd8291cbdb59b6dc4b53e689af743fe2a3
+  show_ref_link: true
+  title: Learning Hierarchical Features for Scene Labeling
+  year: 2013
+slug: Network-In-Network-Lin-Chen
+title: Network In Network
+url: https://www.semanticscholar.org/paper/Network-In-Network-Lin-Chen/5e83ab70d0cbc003471e87ec306d27d9c80ecb16?sort=total-citations
+venue: ICLR
+year: 2014

@@ -1,0 +1,190 @@
+authors:
+- Jiri Matas
+- O. Chum
+- Martin Urban
+- T. Pajdla
+badges:
+- id: OPEN_ACCESS
+corpusId: 2104851
+fieldsOfStudy:
+- Mathematics
+meta_key: 2002-robust-wide-baseline-stereo-from-maximally-stable-extremal-regions
+numCitedBy: 3933
+numCiting: 25
+paperAbstract: "The wide-baseline stereo problem, i.e. the problem of establishing correspondences between a pair of images taken from different viewpoints is studied. A new set of image elements that are put into correspondence, the so called extremal regions, is introduced. Extremal regions possess highly desirable properties: the set is closed under 1. continuous (and thus projective) transformation of image coordinates and 2. monotonic transformation of image intensities. An efficient (near linear complexity) and practically fast detection algorithm (near frame rate) is presented for an affinely-invariant stable subset of extremal regions, the maximally stable extremal regions (MSER). A new robust similarity measure for establishing tentative correspondences is proposed. The robustness ensures that invariants from multiple measurement regions (regions obtained by invariant constructions from extremal regions), some that are significantly larger (and hence discriminative) than the MSERs, may be used to establish tentative correspondences. The high utility of MSERs, multiple measurement regions and the robust metric is demonstrated in wide-baseline experiments on image pairs from both indoor and outdoor scenes. Significant change of scale (3.5\xD7), illumination conditions, out-of-plane rotation, occlusion , locally anisotropic scale change and 3D translation of the viewpoint are all present in the test problems. Good estimates of epipolar geometry (average distance from corresponding points to the epipolar line below 0.09 of the inter-pixel distance) are obtained."
+ref_count: 25
+references:
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2002-local-affine-frames-for-wide-baseline-stereo
+  numCitedBy: 78
+  pid: 1117cef9b6ba9292365c1ac4650ec2ff34e0c83d
+  show_ref_link: false
+  title: Local affine frames for wide-baseline stereo
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-wide-baseline-point-matching-using-affine-invariants-computed-from-intensity-profiles
+  numCitedBy: 112
+  pid: 1a6ea7bd5be7631f671ea0069bc296cc51654895
+  show_ref_link: false
+  title: Wide Baseline Point Matching Using Affine Invariants Computed from Intensity Profiles
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-wide-baseline-stereo-matching
+  numCitedBy: 353
+  pid: 4da91ba2e80a4d8deb597b1c884cda890f086653
+  show_ref_link: false
+  title: Wide baseline stereo matching
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-viewpoint-invariant-texture-matching-and-wide-baseline-stereo
+  numCitedBy: 236
+  pid: aac66ac5e90cc4c187a5aa063b522e5193ef8834
+  show_ref_link: false
+  title: Viewpoint invariant texture matching and wide baseline stereo
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-reliable-feature-matching-across-widely-separated-views
+  numCitedBy: 767
+  pid: 67f693427d956c0dbc822e7f3452aee8ca36204b
+  show_ref_link: false
+  title: Reliable feature matching across widely separated views
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 2002-an-affine-invariant-interest-point-detector
+  numCitedBy: 1684
+  pid: 9c7a96155f10f152cae0866102c061cdf6da02e8
+  show_ref_link: false
+  title: An Affine Invariant Interest Point Detector
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-object-recognition-from-local-scale-invariant-features
+  numCitedBy: 16285
+  pid: f9f836d28f52ad260213d32224a6d227f8e8849a
+  show_ref_link: true
+  title: Object recognition from local scale-invariant features
+  year: 1999
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2001-indexing-based-on-scale-invariant-interest-points
+  numCitedBy: 776
+  pid: ddeea66c9550f99f9a6768d4b240a9fe9957487d
+  show_ref_link: false
+  title: Indexing based on scale invariant interest points
+  year: 2001
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-matching-images-with-different-resolutions
+  numCitedBy: 190
+  pid: 501e089c923e099ad235e0269df8ed37a10a98fb
+  show_ref_link: false
+  title: Matching images with different resolutions
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-recognizing-color-patterns-irrespective-of-viewpoint-and-illumination
+  numCitedBy: 129
+  pid: ee146084f94c240857206208c214aa37951db244
+  show_ref_link: false
+  title: Recognizing color patterns irrespective of viewpoint and illumination
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-in-defence-of-the-8-point-algorithm
+  numCitedBy: 800
+  pid: 2ca5d1a77e5c8792e7f70f87e29bb26e38700010
+  show_ref_link: false
+  title: In defence of the 8-point algorithm
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-content-based-image-retrieval-based-on-local-affinely-invariant-regions
+  numCitedBy: 239
+  pid: 979089260419884b43cfeb3b23df23b6a7734f9f
+  show_ref_link: false
+  title: Content-Based Image Retrieval Based on Local Affinely Invariant Regions
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-robust-parameterization-and-computation-of-the-trifocal-tensor
+  numCitedBy: 210
+  pid: 3c4a422aa3130c440754f84d0dcf346766e2381f
+  show_ref_link: false
+  title: Robust parameterization and computation of the trifocal tensor
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-object-recognition
+  numCitedBy: 168
+  pid: e0d2f046362515a8597673c6d5cc30a7eecdab47
+  show_ref_link: false
+  title: Object Recognition
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-local-grayvalue-invariants-for-image-retrieval
+  numCitedBy: 1794
+  pid: 49fcd806450d947e56c82ef2b438ad9c484069dc
+  show_ref_link: false
+  title: Local Grayvalue Invariants for Image Retrieval
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-watersheds-in-digital-spaces-an-efficient-algorithm-based-on-immersion-simulations
+  numCitedBy: 5738
+  pid: a3819dda9a5f00dbb8cd3413ca7422e37a0d5794
+  show_ref_link: false
+  title: Watersheds in Digital Spaces - An Efficient Algorithm Based on Immersion Simulations
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-shape-adapted-smoothing-in-estimation-of-3-d-depth-cues-from-affine-distortions-of-local-2-d-structure
+  numCitedBy: 55
+  pid: 2fb7c43decc5c7bc6d206efe78d37c1e4dd74b28
+  show_ref_link: false
+  title: Shape-adapted smoothing in estimation of 3-D depth cues from affine distortions of local 2-D structure
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-multiple-view-geometry-in-computer-vision
+  numCitedBy: 16363
+  pid: 339093c7ed71919ce59a7e78979a77abd25bad0c
+  show_ref_link: true
+  title: Multiple View Geometry in Computer Vision
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-algorithms
+  numCitedBy: 2153
+  pid: d351ae5bc75b126d8a5487f3d50f174733a8af8c
+  show_ref_link: false
+  title: Algorithms
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-multi-view-matching-for-unordered-image-sets-or-how-do-i-organize-my-holiday-snaps
+  numCitedBy: 697
+  pid: 7e81996384b030b580a0e02c0dc367d59c0c15ba
+  show_ref_link: false
+  title: Multi-view Matching for Unordered Image Sets, or How Do I Organize My Holiday Snaps?
+  year: 2002
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2003-joint-orientation-of-epipoles
+  numCitedBy: 17
+  pid: c5796cf7f7c32cd00a3b81d1cf8f546e174c996a
+  show_ref_link: false
+  title: Joint Orientation of Epipoles
+  year: 2003
+slug: Robust-Wide-Baseline-Stereo-from-Maximally-Stable-Matas-Chum
+title: Robust Wide Baseline Stereo from Maximally Stable Extremal Regions
+url: https://www.semanticscholar.org/paper/Robust-Wide-Baseline-Stereo-from-Maximally-Stable-Matas-Chum/9d5ea177c7fcaf88ec6f56cbeb3e9b74c08e98a3?sort=total-citations
+venue: BMVC
+year: 2002

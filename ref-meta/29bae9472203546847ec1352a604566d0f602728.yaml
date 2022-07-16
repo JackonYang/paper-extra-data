@@ -1,0 +1,321 @@
+authors:
+- Daniel D. Lee
+- H. Seung
+badges:
+- id: OPEN_ACCESS
+corpusId: 4428232
+fieldsOfStudy:
+- Computer Science
+meta_key: 1999-learning-the-parts-of-objects-by-non-negative-matrix-factorization
+numCitedBy: 11333
+numCiting: 47
+paperAbstract: 'Is perception of the whole based on perception of its parts? There is psychological and physiological evidence for parts-based representations in the brain, and certain computational theories of object recognition rely on such representations. But little is known about how brains or computers might learn the parts of objects. Here we demonstrate an algorithm for non-negative matrix factorization that is able to learn parts of faces and semantic features of text. This is in contrast to other methods, such as principal components analysis and vector quantization, that learn holistic, not parts-based, representations. Non-negative matrix factorization is distinguished from the other methods by its use of non-negativity constraints. These constraints lead to a parts-based representation because they allow only additive, not subtractive, combinations. When non-negative matrix factorization is implemented as a neural network, parts-based representations emerge by virtue of two properties: the firing rates of neurons are never negative and synaptic strengths do not change sign.'
+ref_count: 47
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-independent-component-representations-for-face-recognition
+  numCitedBy: 413
+  pid: 76050b8fc3992a5d04b229fb3bfc2bda0511b7c3
+  show_ref_link: false
+  title: Independent component representations for face recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-recognition-by-components-a-theory-of-human-image-understanding
+  numCitedBy: 5634
+  pid: 8b37258659bcdbc380b1e6c4e22cce9ea06397a1
+  show_ref_link: false
+  title: Recognition-by-components - a theory of human image understanding.
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-eigenfaces-for-recognition
+  numCitedBy: 14963
+  pid: a6f1dfcc44277d4cfd8507284d994c9283dc3a2f
+  show_ref_link: true
+  title: Eigenfaces for Recognition
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-emergence-of-simple-cell-receptive-field-properties-by-learning-a-sparse-code-for-natural-images
+  numCitedBy: 5635
+  pid: 8012c4a1e2ca663f1a04e80cbb19631a00cbab27
+  show_ref_link: false
+  title: Emergence of simple-cell receptive field properties by learning a sparse code for natural images
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-high-level-vision-object-recognition-and-visual-cognition
+  numCitedBy: 413
+  pid: b95bb08703c92d3429865cdc4b8a0910e4ed7059
+  show_ref_link: false
+  title: High-Level Vision - Object Recognition and Visual Cognition
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-what-is-the-goal-of-sensory-coding
+  numCitedBy: 1343
+  pid: ff1152582155acaa0e9d0ccbc900a4641504256d
+  show_ref_link: false
+  title: What Is the Goal of Sensory Coding?
+  year: 1994
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1997-least-squares-formulation-of-robust-non-negative-factor-analysis
+  numCitedBy: 1671
+  pid: 6982720b38510a887d79013e03ec2f9a5147edf2
+  show_ref_link: false
+  title: Least squares formulation of robust non-negative factor analysis
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-an-information-maximization-approach-to-blind-separation-and-blind-deconvolution
+  numCitedBy: 8763
+  pid: 1d7d0e8c4791700defd4b0df82a26b50055346e0
+  show_ref_link: false
+  title: An Information-Maximization Approach to Blind Separation and Blind Deconvolution
+  year: 1995
+- fieldsOfStudy:
+  - Psychology
+  - Biology
+  meta_key: 1996-visual-object-recognition
+  numCitedBy: 596
+  pid: e0314ee5840bbe4a722539c2ee060c9b820f1f1a
+  show_ref_link: false
+  title: Visual object recognition.
+  year: 1996
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1977-hierarchical-structure-in-perceptual-representation
+  numCitedBy: 656
+  pid: e2eef466573de571ad5621e4780dc0a465b9a253
+  show_ref_link: false
+  title: Hierarchical structure in perceptual representation
+  year: 1977
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-a-solution-to-plato-s-problem-the-latent-semantic-analysis-theory-of-acquisition-induction-and-representation-of-knowledge
+  numCitedBy: 5799
+  pid: 68dd4b89ce1407372a29d05ca9e4e1a2e0513617
+  show_ref_link: false
+  title: A Solution to Plato's Problem - The Latent Semantic Analysis Theory of Acquisition, Induction, and Representation of Knowledge.
+  year: 1997
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1994-recognition-of-objects-and-their-component-parts-responses-of-single-units-in-the-temporal-cortex-of-the-macaque
+  numCitedBy: 294
+  pid: cd5a48558380c81f29ba9de6b64b561aed0657b5
+  show_ref_link: false
+  title: Recognition of objects and their component parts - responses of single units in the temporal cortex of the macaque.
+  year: 1994
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1998-sparse-coding-in-the-primate-cortex
+  numCitedBy: 262
+  pid: 552e26d425c6cd6d79e428716adcd2897ee62e0e
+  show_ref_link: false
+  title: Sparse coding in the primate cortex
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-unsupervised-learning-by-convex-and-conic-coding
+  numCitedBy: 139
+  pid: 4cf7e8e452c31ac2adb736ec006eccd3a26bea36
+  show_ref_link: false
+  title: Unsupervised Learning by Convex and Conic Coding
+  year: 1996
+- fieldsOfStudy:
+  - Art
+  meta_key: 1992-experiencing-and-perceiving-visual-surfaces
+  numCitedBy: 372
+  pid: f9182e326a4b82e59769da1080daa52d74a4cbe3
+  show_ref_link: false
+  title: Experiencing and perceiving visual surfaces.
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-blind-separation-of-sources-part-i-an-adaptive-algorithm-based-on-neuromimetic-architecture
+  numCitedBy: 2688
+  pid: 2e73081ed096c62c073b3faa1b3b80aab89998c5
+  show_ref_link: false
+  title: Blind separation of sources, part I - An adaptive algorithm based on neuromimetic architecture
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-aggregate-and-mixed-order-markov-models-for-statistical-language-processing
+  numCitedBy: 199
+  pid: f7463aad3b5182820995101602788ea4c9bb4d9f
+  show_ref_link: false
+  title: Aggregate and mixed-order Markov models for statistical language processing
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-the-wake-sleep-algorithm-for-unsupervised-neural-networks
+  numCitedBy: 1001
+  pid: 6dd01cd9c17d1491ead8c9f97597fbc61dead8ea
+  show_ref_link: false
+  title: The wake-sleep algorithm for unsupervised neural networks.
+  year: 1995
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1974-an-iterative-technique-for-the-rectification-of-observed-distributions
+  numCitedBy: 3187
+  pid: 30ad4474c7d6e9fd68b3e0fa2db235f1c8bc32f0
+  show_ref_link: false
+  title: An iterative technique for the rectification of observed distributions
+  year: 1974
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1982-maximum-likelihood-reconstruction-for-emission-tomography
+  numCitedBy: 1195
+  pid: a41fd7e04f18ee369c0a48a1e83b05eb6b1fded3
+  show_ref_link: false
+  title: Maximum Likelihood Reconstruction for Emission Tomography
+  year: 1982
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1983-introduction-to-modern-information-retrieval
+  numCitedBy: 12625
+  pid: 49af3e80343eb80c61e727ae0c27541628c7c5e2
+  show_ref_link: false
+  title: Introduction to Modern Information Retrieval
+  year: 1983
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 1997-the-latent-semantic-analysis-theory-of-knowledge
+  numCitedBy: 369
+  pid: c8eafcd758663642141cbdb1cab4f79c90d3cc0c
+  show_ref_link: false
+  title: The latent semantic analysis theory of knowledge
+  year: 1997
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 1977-maximum-likelihood-from-incomplete-data-via-the-em-algorithm-plus-discussions-on-the-paper
+  numCitedBy: 48471
+  pid: d36efb9ad91e00faa334b549ce989bfae7e2907a
+  show_ref_link: true
+  title: Maximum likelihood from incomplete data via the EM - algorithm plus discussions on the paper
+  year: 1977
+- fieldsOfStudy:
+  - Environmental Science
+  - Geography
+  meta_key: 1996-bathymetric-patterns-of-sponge-distribution-on-the-bahamian-slope
+  numCitedBy: 63
+  pid: d77dd7e340819b25214a31893efdbb572f0cdc0a
+  show_ref_link: false
+  title: Bathymetric patterns of sponge distribution on the Bahamian slope
+  year: 1996
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1972-bayesian-based-iterative-method-of-image-restoration
+  numCitedBy: 3344
+  pid: eb5f518e9fdd764835f719bfef59b1276cb562b3
+  show_ref_link: false
+  title: Bayesian-Based Iterative Method of Image Restoration
+  year: 1972
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 1995-production-and-dissolution-of-biogenic-silica-in-the-ocean-revised-global-estimates-comparison-with-regional-data-and-relationship-to-biogenic-sedimentation
+  numCitedBy: 1374
+  pid: 0851711ebca519e65edea21106df1b5420d377ed
+  show_ref_link: false
+  title: Production and dissolution of biogenic silica in the ocean - Revised global estimates, comparison with regional data and relationship to biogenic sedimentation
+  year: 1995
+- fieldsOfStudy:
+  - Environmental Science
+  - Geography
+  - Geology
+  meta_key: 1989-secular-change-in-chert-distribution-a-reflection-of-evolving-biological-participation-in-the-silica-cycle
+  numCitedBy: 264
+  pid: 23138a8d8131d5b36729bfbea65cc062544d57e6
+  show_ref_link: false
+  title: Secular change in chert distribution - a reflection of evolving biological participation in the silica cycle.
+  year: 1989
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 1995-the-silica-balance-in-the-world-ocean-a-reestimate
+  numCitedBy: 1296
+  pid: 1e1e24b7d54abfb8079bb35fd140c53ded229e11
+  show_ref_link: false
+  title: The Silica Balance in the World Ocean - A Reestimate
+  year: 1995
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 1997-silica-uptake-kinetics-of-halichondria-panicea-in-kiel-bight
+  numCitedBy: 64
+  pid: befcc519b761fb12eea6ad60b078e1df6094aba0
+  show_ref_link: false
+  title: Silica uptake kinetics of Halichondria panicea in Kiel Bight
+  year: 1997
+- fieldsOfStudy:
+  - Geography
+  meta_key: "1988-indications-de-profondeur-donn\xE9es-par-les-spongiaires-dans-les-milieux-benthiques-actuels"
+  numCitedBy: 39
+  pid: a52ad6bcbabd8372e494abfba0f7b86111baf3a5
+  show_ref_link: false
+  title: "Indications de profondeur donn\xE9es par les Spongiaires dans les milieux benthiques actuels"
+  year: 1988
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1994-phylogeny-and-classification-of-lithistid-sponges-porifera-demospongiae-a-preliminary-assessment-using-ribosomal-dna-sequence-comparisons
+  numCitedBy: 60
+  pid: 5e73789c873984388b25384dd2cd1e739de4ab4b
+  show_ref_link: false
+  title: Phylogeny and classification of lithistid sponges (porifera - Demospongiae) - a preliminary assessment using ribosomal DNA sequence comparisons.
+  year: 1994
+- fieldsOfStudy:
+  - Environmental Science
+  - Geography
+  - Geology
+  meta_key: 1975-silica-diatoms-and-cenozoic-radiolarian-evolution
+  numCitedBy: 92
+  pid: c534a675b4ca4a652b0488495e46b21d9d6562d1
+  show_ref_link: false
+  title: Silica, diatoms, and Cenozoic radiolarian evolution
+  year: 1975
+- fieldsOfStudy:
+  - Education
+  meta_key: 1999-an-experimental-approach-to-the-ecological-significance-of-microhabitat-scale-movement-in-an-encrusting-sponge
+  numCitedBy: 27
+  pid: b423547245328d6698574dbf972411c2c9a84c83
+  show_ref_link: false
+  title: An experimental approach to the ecological significance of microhabitat-scale movement in an encrusting sponge
+  year: 1999
+- fieldsOfStudy:
+  - Geology
+  meta_key: 1993-upper-jurassic-reef-types-and-controlling-factors-a-preliminary-report
+  numCitedBy: 100
+  pid: 1832a4c1073240b9f4f7299cc97453d29df6f1da
+  show_ref_link: false
+  title: Upper Jurassic reef types and controlling factors A preliminary report
+  year: 1993
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 1981-ecology-of-sponge-reefs-from-the-upper-bathonian-of-normandy
+  numCitedBy: 56
+  pid: 9a7c65651cc3bbcc0d32d6fd5e2d985baf5684aa
+  show_ref_link: false
+  title: Ecology of sponge reefs from the Upper Bathonian of Normandy
+  year: 1981
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1981-living-and-fossil-sponges-notes-for-a-short-course-willard-d-hartman-jobst-w-wendt-felix-wiedenmayer-robert-n-ginsburg-pamela-reid
+  numCitedBy: 16
+  pid: 3b5c3808b514ff6ed6c66d415576f718ccc08dc1
+  show_ref_link: false
+  title: Living and Fossil Sponges - Notes for a Short Course.Willard D. Hartman , Jobst W. Wendt , Felix Wiedenmayer , Robert N. Ginsburg , Pamela Reid
+  year: 1981
+- fieldsOfStudy:
+  - Geology
+  meta_key: 1892-on-the-sponge-remains-in-the-lower-tertiary-strata-near-oamaru-otago-new-zealand
+  numCitedBy: 62
+  pid: ab1b221555c1254cd85ee62c9bea8d19ff11c687
+  show_ref_link: false
+  title: On the Sponge-remains in the Lower Tertiary Strata near Oamaru, Otago, New Zealand.
+  year: 1892
+slug: Learning-the-parts-of-objects-by-non-negative-Lee-Seung
+title: Learning the parts of objects by non-negative matrix factorization
+url: https://www.semanticscholar.org/paper/Learning-the-parts-of-objects-by-non-negative-Lee-Seung/29bae9472203546847ec1352a604566d0f602728?sort=total-citations
+venue: Nature
+year: 1999

@@ -1,0 +1,247 @@
+authors:
+- Jost Tobias Springenberg
+- A. Dosovitskiy
+- T. Brox
+- Martin A. Riedmiller
+badges:
+- id: OPEN_ACCESS
+corpusId: 12998557
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-striving-for-simplicity-the-all-convolutional-net
+numCitedBy: 3293
+numCiting: 31
+paperAbstract: 'Most modern convolutional neural networks (CNNs) used for object recognition are built using the same principles: Alternating convolution and max-pooling layers followed by a small number of fully connected layers. We re-evaluate the state of the art for object recognition from small images with convolutional networks, questioning the necessity of different components in the pipeline. We find that max-pooling can simply be replaced by a convolutional layer with increased stride without loss in accuracy on several image recognition benchmarks. Following this finding -- and building on other recent work for finding simple network structures -- we propose a new architecture that consists solely of convolutional layers and yields competitive or state of the art performance on several object recognition datasets (CIFAR-10, CIFAR-100, ImageNet). To analyze the network we introduce a new variant of the "deconvolution approach" for visualizing features learned by CNNs, which can be applied to a broader range of network structures than existing approaches.'
+ref_count: 31
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4232
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deeply-supervised-nets
+  numCitedBy: 1449
+  pid: fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd
+  show_ref_link: true
+  title: Deeply-Supervised Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learned-norm-pooling-for-deep-feedforward-and-recurrent-neural-networks
+  numCitedBy: 124
+  pid: 1b3aab4ff8f77b81501f271877321609cc1a1a2b
+  show_ref_link: false
+  title: Learned-Norm Pooling for Deep Feedforward and Recurrent Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Economics
+  meta_key: 2014-fractional-max-pooling
+  numCitedBy: 433
+  pid: 55dda8f230566867acbfaa7bdd08fd8c7b8721ed
+  show_ref_link: false
+  title: Fractional Max-Pooling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-visualizing-and-understanding-convolutional-networks
+  numCitedBy: 11878
+  pid: 1a2a770d23b4a171fa81de62a78a3deb0588f238
+  show_ref_link: true
+  title: Visualizing and Understanding Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-high-performance-neural-networks-for-visual-object-classification
+  numCitedBy: 257
+  pid: 82b9099ddf092463f497bd48bb112c46ca52c4d1
+  show_ref_link: false
+  title: High-Performance Neural Networks for Visual Object Classification
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17285
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-networks-with-internal-selective-attention-through-feedback-connections
+  numCitedBy: 217
+  pid: 70155488a49d51755c1dfea728e03a6dd72703a1
+  show_ref_link: false
+  title: Deep Networks with Internal Selective Attention through Feedback Connections
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13778
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-stochastic-pooling-for-regularization-of-deep-convolutional-neural-networks
+  numCitedBy: 823
+  pid: 0abb49fe138e8fb7332c26b148a48d0db39724fc
+  show_ref_link: false
+  title: Stochastic Pooling for Regularization of Deep Convolutional Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-inside-convolutional-networks-visualising-image-classification-models-and-saliency-maps
+  numCitedBy: 4535
+  pid: dc6ac3437f0a6e64e4404b1b9d188394f8a3bf71
+  show_ref_link: true
+  title: Deep Inside Convolutional Networks - Visualising Image Classification Models and Saliency Maps
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-improving-deep-neural-networks-with-probabilistic-maxout-units
+  numCitedBy: 96
+  pid: cab783289febf6c650a8bfd4e37c5c8e187a8066
+  show_ref_link: false
+  title: Improving Deep Neural Networks with Probabilistic Maxout Units
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-beyond-spatial-pyramids-receptive-field-learning-for-pooled-image-features
+  numCitedBy: 291
+  pid: 68447483e80991ca718cad40e73ac14c08da7413
+  show_ref_link: false
+  title: Beyond spatial pyramids - Receptive field learning for pooled image features
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-discriminative-transfer-learning-with-tree-based-priors
+  numCitedBy: 198
+  pid: 822f3b9a392a9abccdaa7ef5ae4183d2d4d3d6db
+  show_ref_link: false
+  title: Discriminative Transfer Learning with Tree-based Priors
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-what-is-the-best-multi-stage-architecture-for-object-recognition
+  numCitedBy: 2090
+  pid: 1f88427d7aa8225e47f946ac41a0667d7b69ac52
+  show_ref_link: false
+  title: What is the best multi-stage architecture for object recognition?
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28304
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35433
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-of-neural-networks-using-dropconnect
+  numCitedBy: 2101
+  pid: 38f35dd624cd1cf827416e31ac5e0e0454028eca
+  show_ref_link: true
+  title: Regularization of Neural Networks using DropConnect
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6207
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1825
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 27839
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2014-signal-recovery-from-pooling-representations
+  numCitedBy: 79
+  pid: 47f1b4ce7674b15d293f5a3c53d6da44bc8e137e
+  show_ref_link: false
+  title: Signal recovery from Pooling Representations
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-under-review-as-a-conference-paper-at-iclr-2017-delving-into-transferable-adversarial-ex-amples-and-black-box-attacks
+  numCitedBy: 488
+  pid: 94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f
+  show_ref_link: true
+  title: Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-hierarchical-neural-networks-for-image-interpretation
+  numCitedBy: 198
+  pid: 43b87f5f4da973a513eaddb779032f0ceacfa394
+  show_ref_link: false
+  title: Hierarchical Neural Networks for Image Interpretation
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-compete-to-compute
+  numCitedBy: 164
+  pid: e9f60363fd3d448492d6d670e5b333b4b26a5064
+  show_ref_link: false
+  title: Compete to Compute
+  year: 2013
+slug: Striving-for-Simplicity:-The-All-Convolutional-Net-Springenberg-Dosovitskiy
+title: Striving for Simplicity - The All Convolutional Net
+url: https://www.semanticscholar.org/paper/Striving-for-Simplicity:-The-All-Convolutional-Net-Springenberg-Dosovitskiy/0f84a81f431b18a78bd97f59ed4b9d8eda390970?sort=total-citations
+venue: ICLR
+year: 2015

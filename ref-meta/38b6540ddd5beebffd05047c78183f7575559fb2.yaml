@@ -1,0 +1,373 @@
+authors:
+- J. Uijlings
+- K. V. D. Sande
+- T. Gevers
+- A. Smeulders
+badges:
+- id: OPEN_ACCESS
+corpusId: 216077384
+fieldsOfStudy:
+- Computer Science
+meta_key: 2013-selective-search-for-object-recognition
+numCitedBy: 4771
+numCiting: 55
+paperAbstract: "This paper addresses the problem of generating possible object locations for use in object recognition. We introduce selective search which combines the strength of both an exhaustive search and segmentation. Like segmentation, we use the image structure to guide our sampling process. Like exhaustive search, we aim to capture all possible object locations. Instead of a single technique to generate possible object locations, we diversify our search and use a variety of complementary image partitionings to deal with as many image conditions as possible. Our selective search results in a small set of data-driven, class-independent, high quality locations, yielding 99\_% recall and a Mean Average Best Overlap of 0.879 at 10,097 locations. The reduced number of locations compared to an exhaustive search enables the use of stronger machine learning techniques and stronger appearance models for object recognition. In this paper we show that our selective search enables the use of the powerful Bag-of-Words model for recognition. The selective search software is made publicly available (Software: http://disi.unitn.it/~uijlings/SelectiveSearch.html)."
+ref_count: 55
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-efficient-subwindow-search-a-branch-and-bound-framework-for-object-localization
+  numCitedBy: 411
+  pid: 6ad32b70ee21b6fc16ff4caf7b4ada2aaf13cabc
+  show_ref_link: false
+  title: Efficient Subwindow Search - A Branch and Bound Framework for Object Localization
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-recognition-using-regions
+  numCitedBy: 433
+  pid: 0e19e69403501be0c4e9cb19bd5a11632721ba58
+  show_ref_link: false
+  title: Recognition using regions
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-rapid-object-detection-using-a-boosted-cascade-of-simple-features
+  numCitedBy: 17922
+  pid: dc6ea0e30e46163b706f2f8bdc9c67ca87f83d63
+  show_ref_link: true
+  title: Rapid object detection using a boosted cascade of simple features
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-an-exemplar-model-for-learning-object-classes
+  numCitedBy: 319
+  pid: 0b43f48c933c615e305ebd25521635cff8df4707
+  show_ref_link: false
+  title: An Exemplar Model for Learning Object Classes
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-object-recognition-as-ranking-holistic-figure-ground-hypotheses
+  numCitedBy: 146
+  pid: 8ec1f8cbe8c9da709d519f99fc670604c268742f
+  show_ref_link: false
+  title: Object recognition as ranking holistic figure-ground hypotheses
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-measuring-the-objectness-of-image-windows
+  numCitedBy: 1196
+  pid: 2eb6caace8296fd4dfd4947efa4fe911c8e133b2
+  show_ref_link: true
+  title: Measuring the Objectness of Image Windows
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-constrained-parametric-min-cuts-for-automatic-object-segmentation
+  numCitedBy: 478
+  pid: 4131a2862d9f926c6727da6dc75c8fda25f4a9e5
+  show_ref_link: false
+  title: Constrained parametric min-cuts for automatic object segmentation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-what-is-an-object
+  numCitedBy: 934
+  pid: 2dd55b3bcaf50c1228569d0efe5620a910c1cd07
+  show_ref_link: false
+  title: What is an object?
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-latent-hierarchical-structural-learning-for-object-detection
+  numCitedBy: 294
+  pid: 120081166fc0d780c84e198622d638152a7cdf3e
+  show_ref_link: false
+  title: Latent hierarchical structural learning for object detection
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-combining-efficient-object-localization-and-image-classification
+  numCitedBy: 339
+  pid: 5fae850e7b85e91b11a2874252ec617c3cb064c6
+  show_ref_link: false
+  title: Combining efficient object localization and image classification
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-object-detection-with-discriminatively-trained-part-based-models
+  numCitedBy: 9391
+  pid: e79272fe3d65197100eae8be9fec6469107969ae
+  show_ref_link: true
+  title: Object Detection with Discriminatively Trained Part Based Models
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-object-detection-using-a-max-margin-hough-transform
+  numCitedBy: 155
+  pid: 1adec942e0225bc6fde6560ffea5d496b122cdcc
+  show_ref_link: false
+  title: Object detection using a max-margin Hough transform
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-exploring-features-in-a-bayesian-framework-for-material-recognition
+  numCitedBy: 232
+  pid: ba6e446a9c0aeb181e420dfb42c4c0d0a2742b28
+  show_ref_link: false
+  title: Exploring features in a Bayesian framework for material recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-semantic-segmentation-using-regions-and-parts
+  numCitedBy: 300
+  pid: 1395f0561db13cad21a519e18be111cbe1e6d818
+  show_ref_link: false
+  title: Semantic segmentation using regions and parts
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-video-google-a-text-retrieval-approach-to-object-matching-in-videos
+  numCitedBy: 6772
+  pid: 642e328cae81c5adb30069b680cf60ba6b475153
+  show_ref_link: true
+  title: Video Google - a text retrieval approach to object matching in videos
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-improving-the-fisher-kernel-for-large-scale-image-classification
+  numCitedBy: 2665
+  pid: 39f3b1804b8df5be645a1dcb4a876e128385d9be
+  show_ref_link: false
+  title: Improving the Fisher Kernel for Large-Scale Image Classification
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-multiple-kernels-for-object-detection
+  numCitedBy: 884
+  pid: c9c7ab03bdb5fee15174d910d7fea14a16b086b7
+  show_ref_link: false
+  title: Multiple kernels for object detection
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-robust-real-time-face-detection
+  numCitedBy: 11305
+  pid: b09ec0b350f8352bce46a2f5bf7ae97c83a7b9ca
+  show_ref_link: true
+  title: Robust Real-Time Face Detection
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-real-time-visual-concept-classification
+  numCitedBy: 157
+  pid: 066d5c23cb37047271e2008ab302e473739e4032
+  show_ref_link: false
+  title: Real-Time Visual Concept Classification
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-beyond-bags-of-features-spatial-pyramid-matching-for-recognizing-natural-scene-categories
+  numCitedBy: 8337
+  pid: 6dbaff29d3898cf60f63f5a34cb9610ebb75220c
+  show_ref_link: true
+  title: Beyond Bags of Features - Spatial Pyramid Matching for Recognizing Natural Scene Categories
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-evaluating-color-descriptors-for-object-and-scene-recognition
+  numCitedBy: 2099
+  pid: 1aa5a8ad5b7031ba39e1dc0537484694364a1312
+  show_ref_link: false
+  title: Evaluating Color Descriptors for Object and Scene Recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-the-pascal-visual-object-classes-voc-challenge
+  numCitedBy: 11755
+  pid: 82635fb63640ae95f90ee9bdc07832eb461ca881
+  show_ref_link: true
+  title: The Pascal Visual Object Classes (VOC) Challenge
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-poselets-body-part-detectors-trained-using-3d-human-pose-annotations
+  numCitedBy: 1048
+  pid: 55b29a2505149d06d8c1d616cd30edca40cb029c
+  show_ref_link: false
+  title: Poselets - Body part detectors trained using 3D human pose annotations
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-semantic-segmentation-with-second-order-pooling
+  numCitedBy: 472
+  pid: 28fa525ca1e101335e877bb1f6999b6ccf476959
+  show_ref_link: false
+  title: Semantic Segmentation with Second-Order Pooling
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-category-independent-object-proposals
+  numCitedBy: 496
+  pid: f0640da2565bad7037d969e9f07276c10102083d
+  show_ref_link: false
+  title: Category Independent Object Proposals
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-image-parsing-unifying-segmentation-detection-and-recognition
+  numCitedBy: 657
+  pid: 47f3de18f63136823c523f74460ddb7a014bda7a
+  show_ref_link: false
+  title: Image Parsing - Unifying Segmentation, Detection, and Recognition
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-mean-shift-a-robust-approach-toward-feature-space-analysis
+  numCitedBy: 11491
+  pid: 74f4ecc3e4e5b91fbb54330b285ed5214afe2001
+  show_ref_link: true
+  title: Mean Shift - A Robust Approach Toward Feature Space Analysis
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-multiresolution-gray-scale-and-rotation-invariant-texture-classification-with-local-binary-patterns
+  numCitedBy: 13085
+  pid: f11a7136b6b7854bd0998ef463ffa8e907c411a2
+  show_ref_link: true
+  title: Multiresolution Gray-Scale and Rotation Invariant Texture Classification with Local Binary Patterns
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-normalized-cuts-and-image-segmentation
+  numCitedBy: 12936
+  pid: b94c7ff9532ab26c3aedbee3988ec4c7a237c173
+  show_ref_link: true
+  title: Normalized cuts and image segmentation
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-contour-detection-and-hierarchical-image-segmentation
+  numCitedBy: 4211
+  pid: 0e5a262bf59b68ba8a7a1103d16fa33a9f5ffc28
+  show_ref_link: true
+  title: Contour Detection and Hierarchical Image Segmentation
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-classification-using-intersection-kernel-support-vector-machines-is-efficient
+  numCitedBy: 1084
+  pid: a7086378e68dae59975cf749c101c53a0fa90eab
+  show_ref_link: false
+  title: Classification using intersection kernel support vector machines is efficient
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-image-classification-using-super-vector-coding-of-local-image-descriptors
+  numCitedBy: 557
+  pid: 4e65c9f0a64b6a4333b12e2adc3861ad75aca83b
+  show_ref_link: false
+  title: Image Classification Using Super-Vector Coding of Local Image Descriptors
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-graph-based-image-segmentation
+  numCitedBy: 26
+  pid: 8e59851a9b59d818f2c0beaf23760e9326439a86
+  show_ref_link: false
+  title: Graph based image segmentation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-representation-learning-a-review-and-new-perspectives
+  numCitedBy: 8798
+  pid: 184ac0766262312ba76bbdece4e7ffad0aa8180b
+  show_ref_link: true
+  title: Representation Learning - A Review and New Perspectives
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-the-shogun-machine-learning-toolbox
+  numCitedBy: 287
+  pid: e6cb9e80d1894bbb01882523137145d81dfb0a3c
+  show_ref_link: false
+  title: The SHOGUN Machine Learning Toolbox
+  year: 2010
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 2011-illumination-invariant-descriptors-for-discriminative-visual-object-categorization
+  numCitedBy: 5
+  pid: 59cc16a23373ab7d50d8e5977f900b17c1c81d0a
+  show_ref_link: false
+  title: "Illumination-Invariant Descriptors for Discriminative Visual Object Categorization\u2217"
+  year: 2011
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2001-color-invariance
+  numCitedBy: 584
+  pid: 281b195c5b155c461d679444c3e2aeb06aa7e351
+  show_ref_link: false
+  title: Color Invariance
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-the-pascal-visual-object-classes-challenge-2006-voc2006-results
+  numCitedBy: 2176
+  pid: 6a2ed19ac684022aa3186887cd4893484ab8f80c
+  show_ref_link: false
+  title: The PASCAL visual object classes challenge 2006 (VOC2006) results
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-distinctive-image-features-from-scale-invariant-keypoints
+  numCitedBy: 25615
+  pid: 4cab9c4b571761203ed4c3a4c5a07dd615f57a91
+  show_ref_link: true
+  title: Distinctive Image Features from Scale-Invariant Keypoints
+  year: 2004
+- fieldsOfStudy:
+  - Engineering
+  meta_key: "2014-efficient-graph-based-image-segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  numCitedBy: 1761
+  pid: b3df1ffb8a6856f20be51243406f2fdbe2a335ba
+  show_ref_link: false
+  title: "Efficient Graph-Based Image Segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  year: 2014
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 2006-the-pascal-visual-object-classes-challenge
+  numCitedBy: 3336
+  pid: 0ec48ac86456cea3d6d6172ca81ef68e98b21a61
+  show_ref_link: true
+  title: The PASCAL Visual Object Classes Challenge
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-visual-categorization-with-bags-of-keypoints
+  numCitedBy: 5017
+  pid: b91180d8853d00e8f2df7ee3532e07d3d0cce2af
+  show_ref_link: true
+  title: Visual categorization with bags of keypoints
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-empowering-visual-categorization-with-the-gpu
+  numCitedBy: 106
+  pid: 338f33472ccaddbde45736a50885a6f9bb28db10
+  show_ref_link: false
+  title: Empowering Visual Categorization With the GPU
+  year: 2011
+slug: Selective-Search-for-Object-Recognition-Uijlings-Sande
+title: Selective Search for Object Recognition
+url: https://www.semanticscholar.org/paper/Selective-Search-for-Object-Recognition-Uijlings-Sande/38b6540ddd5beebffd05047c78183f7575559fb2?sort=total-citations
+venue: International Journal of Computer Vision
+year: 2013

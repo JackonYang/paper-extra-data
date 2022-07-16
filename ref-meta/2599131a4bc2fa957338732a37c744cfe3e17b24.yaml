@@ -1,0 +1,209 @@
+authors:
+- B. Boser
+- I. Guyon
+- V. Vapnik
+badges:
+- id: OPEN_ACCESS
+corpusId: 207165665
+fieldsOfStudy:
+- Computer Science
+meta_key: 1992-a-training-algorithm-for-optimal-margin-classifiers
+numCitedBy: 10868
+numCiting: 40
+paperAbstract: A training algorithm that maximizes the margin between the training patterns and the decision boundary is presented. The technique is applicable to a wide variety of the classification functions, including Perceptrons, polynomials, and Radial Basis Functions. The effective number of parameters is adjusted automatically to match the complexity of the problem. The solution is expressed as a linear combination of supporting patterns. These are the subset of training patterns that are closest to the decision boundary. Bounds on the generalization performance based on the leave-one-out method and the VC-dimension are given. Experimental results on optical character recognition problems demonstrate the good generalization obtained when compared with other learning algorithms.
+ref_count: 40
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-structural-risk-minimization-for-character-recognition
+  numCitedBy: 123
+  pid: 04641b38cdab7b5b6c7d0d09193d3220ef40efc5
+  show_ref_link: false
+  title: Structural Risk Minimization for Character Recognition
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-computer-aided-cleaning-of-large-databases-for-character-recognition
+  numCitedBy: 36
+  pid: 229bd4528fc48d4ab79f67268038f1fcb06e9e0e
+  show_ref_link: false
+  title: Computer aided cleaning of large databases for character recognition
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-comparing-different-neural-network-architectures-for-classifying-handwritten-digits
+  numCitedBy: 68
+  pid: 590bd948e06e9d07e305fe175c2a86d751ccac2d
+  show_ref_link: false
+  title: Comparing different neural network architectures for classifying handwritten digits
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-regularization-algorithms-for-learning-that-are-equivalent-to-multilayer-networks
+  numCitedBy: 1172
+  pid: 4abd4e51705e74f1739bd3a1e47ac10e45f6468b
+  show_ref_link: false
+  title: Regularization Algorithms for Learning That Are Equivalent to Multilayer Networks
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-consistent-inference-of-probabilities-in-layered-networks-predictions-and-generalizations
+  numCitedBy: 172
+  pid: b10440620da8a43a1b97e3da4b1ff13746306475
+  show_ref_link: false
+  title: Consistent inference of probabilities in layered networks - predictions and generalizations
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-tangent-prop-a-formalism-for-specifying-selected-invariances-in-an-adaptive-network
+  numCitedBy: 287
+  pid: ff32cebbdb8a436ccd8ae797647428615ae32d74
+  show_ref_link: false
+  title: Tangent Prop - A Formalism for Specifying Selected Invariances in an Adaptive Network
+  year: 1991
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1989-what-size-net-gives-valid-generalization
+  numCitedBy: 1699
+  pid: 25406e6733a698bfc4ac836f8e74f458e75dad4f
+  show_ref_link: false
+  title: What Size Net Gives Valid Generalization?
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-predicting-0-1-functions-on-randomly-drawn-points
+  numCitedBy: 227
+  pid: c5609ee7a8c7432c0f502b2a6dcfe9c0039206ab
+  show_ref_link: false
+  title: Predicting {0,1}-functions on randomly drawn points
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  - Psychology
+  meta_key: 1992-neural-networks-and-the-bias-variance-dilemma
+  numCitedBy: 3528
+  pid: a34e35dbbc6911fa7b94894dffdc0076a261b6f0
+  show_ref_link: false
+  title: Neural Networks and the Bias/Variance Dilemma
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-fast-learning-in-networks-of-locally-tuned-processing-units
+  numCitedBy: 4530
+  pid: 1e7c4f513f24c3b82a1138b9f22ed87ed00cbe76
+  show_ref_link: false
+  title: Fast Learning in Networks of Locally-Tuned Processing Units
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-bumptrees-for-efficient-function-constraint-and-classification-learning
+  numCitedBy: 88
+  pid: af7ea76ecaa3436db2efe30d44dc39a2d68a6ef9
+  show_ref_link: false
+  title: Bumptrees for Efficient Function, Constraint and Classification Learning
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-handwritten-digit-recognition-with-a-back-propagation-network
+  numCitedBy: 2941
+  pid: 86ab4cae682fbd49c5a5bedb630e5a40fa7529f6
+  show_ref_link: false
+  title: Handwritten Digit Recognition with a Back-Propagation Network
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-a-practical-bayesian-framework-for-backprop-networks
+  numCitedBy: 254
+  pid: b0f2433c088591d265891231f1c22424047f1bc1
+  show_ref_link: false
+  title: A Practical Bayesian Framework for Backprop Networks
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1973-pattern-classification-and-scene-analysis
+  numCitedBy: 16954
+  pid: b07ce649d6f6eb636872527104b0209d3edc8188
+  show_ref_link: false
+  title: Pattern classification and scene analysis
+  year: 1973
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-learning-algorithms-with-optimal-stability-in-neural-networks
+  numCitedBy: 395
+  pid: 4402eb69536144313321f446802b0971b07ff589
+  show_ref_link: false
+  title: Learning algorithms with optimal stability in neural networks
+  year: 1987
+- fieldsOfStudy:
+  - Education
+  meta_key: 1947-methods-of-mathematical-physics
+  numCitedBy: 202
+  pid: 2317eb16a0997d6557034358969d63022b0b4f1d
+  show_ref_link: false
+  title: Methods of Mathematical Physics
+  year: 1947
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1964-theoretical-foundations-of-the-potential-function-method-in-pattern-recognition-learning
+  numCitedBy: 1690
+  pid: c3caf34c1c86633b6e80dca29e3cb2b6367a0f93
+  show_ref_link: false
+  title: Theoretical Foundations of the Potential Function Method in Pattern Recognition Learning
+  year: 1964
+- fieldsOfStudy:
+  - Education
+  - Physics
+  meta_key: 1947-methods-of-mathematical-physics
+  numCitedBy: 2460
+  pid: 757dd5fbc67d8f2591eb2077180af74c1797fcd1
+  show_ref_link: false
+  title: Methods of Mathematical Physics
+  year: 1947
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1972-numerical-methods-for-non-linear-optimization
+  numCitedBy: 115
+  pid: 0b79c5974c0a9685b35793ce172caa5a61488633
+  show_ref_link: false
+  title: Numerical methods for non-linear optimization
+  year: 1972
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1962-principles-of-neurodynamics
+  numCitedBy: 2372
+  pid: cccc0a4817fd5f6d8758c66b4065a23897d49f1d
+  show_ref_link: false
+  title: Principles of neurodynamics
+  year: 1962
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1973-numerical-methods-for-non-linear-optimization
+  numCitedBy: 40
+  pid: 0221dc67db0acc1d9495f896a3f4e4fb151abf7d
+  show_ref_link: false
+  title: Numerical Methods for Non-Linear Optimization
+  year: 1973
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1983-problem-complexity-and-method-efficiency-in-optimization
+  numCitedBy: 2169
+  pid: 29f8b7112fb4660a64df8ac34a5d85c119019efe
+  show_ref_link: false
+  title: Problem Complexity and Method Efficiency in Optimization
+  year: 1983
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1988-multivariable-functional-interpolation-and-adaptive-networks
+  numCitedBy: 2309
+  pid: b08ba914037af6d88d16e2657a65cd9dc5cf5da1
+  show_ref_link: false
+  title: Multivariable Functional Interpolation and Adaptive Networks
+  year: 1988
+slug: A-training-algorithm-for-optimal-margin-classifiers-Boser-Guyon
+title: A training algorithm for optimal margin classifiers
+url: https://www.semanticscholar.org/paper/A-training-algorithm-for-optimal-margin-classifiers-Boser-Guyon/2599131a4bc2fa957338732a37c744cfe3e17b24?sort=total-citations
+venue: COLT '92
+year: 1992

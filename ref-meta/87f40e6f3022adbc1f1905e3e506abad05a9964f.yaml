@@ -1,0 +1,198 @@
+authors:
+- Tomas Mikolov
+- Ilya Sutskever
+- Kai Chen
+- G. Corrado
+- J. Dean
+badges:
+- id: OPEN_ACCESS
+corpusId: 16447573
+fieldsOfStudy:
+- Computer Science
+meta_key: 2013-distributed-representations-of-words-and-phrases-and-their-compositionality
+numCitedBy: 26176
+numCiting: 32
+paperAbstract: "The recently introduced continuous Skip-gram model is an efficient method for learning high-quality distributed vector representations that capture a large number of precise syntactic and semantic word relationships. In this paper we present several extensions that improve both the quality of the vectors and the training speed. By subsampling of the frequent words we obtain significant speedup and also learn more regular word representations. We also describe a simple alternative to the hierarchical softmax called negative sampling. \n \nAn inherent limitation of word representations is their indifference to word order and their inability to represent idiomatic phrases. For example, the meanings of \"Canada\" and \"Air\" cannot be easily combined to obtain \"Air Canada\". Motivated by this example, we present a simple method for finding phrases in text, and show that learning good vector representations for millions of phrases is possible."
+ref_count: 32
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-semantic-compositionality-through-recursive-matrix-vector-spaces
+  numCitedBy: 1265
+  pid: 27e38351e48fe4b7da2775bf94341738bc4da07e
+  show_ref_link: true
+  title: Semantic Compositionality through Recursive Matrix-Vector Spaces
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-linguistic-regularities-in-continuous-space-word-representations
+  numCitedBy: 3064
+  pid: c4fd9c86b2b41df51a6fe212406dda81b1997fd4
+  show_ref_link: true
+  title: Linguistic Regularities in Continuous Space Word Representations
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-efficient-estimation-of-word-representations-in-vector-space
+  numCitedBy: 22055
+  pid: 330da625c15427c6e42ccfa3b747fb29e5835bf0
+  show_ref_link: true
+  title: Efficient Estimation of Word Representations in Vector Space
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-neural-probabilistic-language-model
+  numCitedBy: 6028
+  pid: 6c2b28f9354f667cd5bd07afc0471d8334430da7
+  show_ref_link: false
+  title: A Neural Probabilistic Language Model
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-fast-and-simple-algorithm-for-training-neural-probabilistic-language-models
+  numCitedBy: 519
+  pid: 5b0d644f5c4b9880cbaf79932c0a4fa98996f068
+  show_ref_link: false
+  title: A fast and simple algorithm for training neural probabilistic language models
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-distributional-semantics-beyond-words-supervised-learning-of-analogy-and-paraphrase
+  numCitedBy: 80
+  pid: 9606ff5bdeb6b9bde63c5bf6ad22edeca51d35db
+  show_ref_link: false
+  title: Distributional Semantics Beyond Words - Supervised Learning of Analogy and Paraphrase
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-hierarchical-probabilistic-neural-network-language-model
+  numCitedBy: 944
+  pid: c19fbefdeead6a4154a22a9c8551a18b1530033a
+  show_ref_link: false
+  title: Hierarchical Probabilistic Neural Network Language Model
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-word-representations-a-simple-and-general-method-for-semi-supervised-learning
+  numCitedBy: 2165
+  pid: dac72f2c509aee67524d3321f77e97e8eff51de6
+  show_ref_link: false
+  title: Word Representations - A Simple and General Method for Semi-Supervised Learning
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-scalable-hierarchical-distributed-language-model
+  numCitedBy: 939
+  pid: a9fc84f8abe740cdc7ee82e69444d1d00dbe0ceb
+  show_ref_link: false
+  title: A Scalable Hierarchical Distributed Language Model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-continuous-space-language-models
+  numCitedBy: 555
+  pid: 0fcc184b3b90405ec3ceafd6a4007c749df7c363
+  show_ref_link: false
+  title: Continuous space language models
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-from-frequency-to-meaning-vector-space-models-of-semantics
+  numCitedBy: 2725
+  pid: 3a0e788268fafb23ab20da0e98bb578b06830f7d
+  show_ref_link: false
+  title: From Frequency to Meaning - Vector Space Models of Semantics
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-unified-architecture-for-natural-language-processing-deep-neural-networks-with-multitask-learning
+  numCitedBy: 5042
+  pid: 57458bc1cffe5caa45a885af986d70f723f406b4
+  show_ref_link: true
+  title: A unified architecture for natural language processing - deep neural networks with multitask learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-parsing-natural-scenes-and-natural-language-with-recursive-neural-networks
+  numCitedBy: 1326
+  pid: 9c0ddf74f87d154db88d79c640578c1610451eec
+  show_ref_link: true
+  title: Parsing Natural Scenes and Natural Language with Recursive Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-strategies-for-training-large-scale-neural-network-language-models
+  numCitedBy: 475
+  pid: cb45e9217fe323fbc199d820e7735488fca2a9b3
+  show_ref_link: false
+  title: Strategies for training large scale neural network language models
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-statistical-language-models-based-on-neural-networks
+  numCitedBy: 576
+  pid: 96364af2d208ea75ca3aeb71892d2f7ce7326b55
+  show_ref_link: false
+  title: Statistical Language Models Based on Neural Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-learning-representations-by-back-propagating-errors
+  numCitedBy: 20380
+  pid: 052b1d8ce63b07fec3de9dbb583772d860b7c769
+  show_ref_link: false
+  title: Learning representations by back-propagating errors
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-extensions-of-recurrent-neural-network-language-model
+  numCitedBy: 1428
+  pid: 07ca885cb5cc4328895bfaec9ab752d5801b14cd
+  show_ref_link: true
+  title: Extensions of recurrent neural network language model
+  year: 2011
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 2004-learning-representations-by-backpropagating-errors
+  numCitedBy: 1053
+  pid: ae3fe34be9230c98b04d68b4621c89b7dbc2d717
+  show_ref_link: false
+  title: Learning representations by backpropagating errors
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-domain-adaptation-for-large-scale-sentiment-classification-a-deep-learning-approach
+  numCitedBy: 1608
+  pid: 6f4065f0cc99a0839b0248ffb4457e5f0277b30d
+  show_ref_link: false
+  title: Domain Adaptation for Large-Scale Sentiment Classification - A Deep Learning Approach
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2012-noise-contrastive-estimation-of-unnormalized-statistical-models-with-applications-to-natural-image-statistics
+  numCitedBy: 599
+  pid: 23a99224c7b7d148675c1798c796ec1b0904620a
+  show_ref_link: false
+  title: Noise-Contrastive Estimation of Unnormalized Statistical Models, with Applications to Natural Image Statistics
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-wsabie-scaling-up-to-large-vocabulary-image-annotation
+  numCitedBy: 729
+  pid: 51480ee8f067453c2878f0148ffcfa3a856a02dc
+  show_ref_link: false
+  title: WSABIE - Scaling Up to Large Vocabulary Image Annotation
+  year: 2011
+- fieldsOfStudy: []
+  meta_key: 2015-and
+  numCitedBy: 3491
+  pid: dfbfcd288ed9b37106564bf6dc95041f6d33b6b2
+  show_ref_link: false
+  title: and
+  year: 2015
+slug: Distributed-Representations-of-Words-and-Phrases-Mikolov-Sutskever
+title: Distributed Representations of Words and Phrases and their Compositionality
+url: https://www.semanticscholar.org/paper/Distributed-Representations-of-Words-and-Phrases-Mikolov-Sutskever/87f40e6f3022adbc1f1905e3e506abad05a9964f?sort=total-citations
+venue: NIPS
+year: 2013

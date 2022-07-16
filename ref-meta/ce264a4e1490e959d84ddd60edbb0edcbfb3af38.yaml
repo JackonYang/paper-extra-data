@@ -1,0 +1,311 @@
+authors:
+- Ronghang Hu
+- Marcus Rohrbach
+- Jacob Andreas
+- Trevor Darrell
+- Kate Saenko
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 10248021
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-modeling-relationships-in-referential-expressions-with-compositional-modular-networks
+numCitedBy: 268
+numCiting: 39
+paperAbstract: 'People often refer to entities in an image in terms of their relationships with other entities. For example, the black cat sitting under the table refers to both a black cat entity and its relationship with another table entity. Understanding these relationships is essential for interpreting and grounding such natural language expressions. Most prior work focuses on either grounding entire referential expressions holistically to one region, or localizing relationships based on a fixed set of categories. In this paper we instead present a modular deep architecture capable of analyzing referential expressions into their component parts, identifying entities and relationships mentioned in the input expression and grounding them all in the scene. We call this approach Compositional Modular Networks (CMNs): a novel architecture that learns linguistic analysis and visual inference end-to-end. Our approach is built around two types of neural modules that inspect local regions and pairwise interactions between regions. We evaluate CMNs on multiple referential expression datasets, outperforming state-of-the-art approaches on all tasks.'
+ref_count: 39
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-viske-visual-knowledge-extraction-and-question-answering-by-visual-verification-of-relation-phrases
+  numCitedBy: 113
+  pid: 495015d21c26eac9a6bd64c836ee3370283641ec
+  show_ref_link: false
+  title: VisKE - Visual knowledge extraction and question answering by visual verification of relation phrases
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-modeling-context-in-referring-expressions
+  numCitedBy: 384
+  pid: 29efbe391950ae438c63d86ad5c82b2942efb0b4
+  show_ref_link: true
+  title: Modeling Context in Referring Expressions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-jointly-learning-to-parse-and-perceive-connecting-natural-language-to-the-physical-world
+  numCitedBy: 162
+  pid: c45fd881bcc20bc1a754ee4b446d99aaff1d3dd5
+  show_ref_link: false
+  title: Jointly Learning to Parse and Perceive - Connecting Natural Language to the Physical World
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-modeling-context-between-objects-for-referring-expression-understanding
+  numCitedBy: 210
+  pid: 86eef3a1dff2bd2808847358cdb7f5ba2b7e0214
+  show_ref_link: false
+  title: Modeling Context Between Objects for Referring Expression Understanding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-segmentation-from-natural-language-expressions
+  numCitedBy: 186
+  pid: b133e361e2f8af22b823d25060b2e7c47f690985
+  show_ref_link: false
+  title: Segmentation from Natural Language Expressions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-grounding-of-textual-phrases-in-images-by-reconstruction
+  numCitedBy: 381
+  pid: 14c2321851fb5ae580a19726dd2753a525d6ad76
+  show_ref_link: true
+  title: Grounding of Textual Phrases in Images by Reconstruction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-visual-relationship-detection-with-language-priors
+  numCitedBy: 718
+  pid: 4d9506257186023b78cf19ed4f9e77a4ae4fa0f0
+  show_ref_link: false
+  title: Visual Relationship Detection with Language Priors
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-module-networks
+  numCitedBy: 744
+  pid: 21c99706bb26e9012bfb4d8d48009a3d45af59b2
+  show_ref_link: true
+  title: Neural Module Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-visual7w-grounded-question-answering-in-images
+  numCitedBy: 598
+  pid: def584565d05d6a8ba94de6621adab9e301d375d
+  show_ref_link: true
+  title: Visual7W - Grounded Question Answering in Images
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-natural-language-object-retrieval
+  numCitedBy: 422
+  pid: d696a1923288e6c15422660de9553f6fdb6a4fae
+  show_ref_link: true
+  title: Natural Language Object Retrieval
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-visual-genome-connecting-language-and-vision-using-crowdsourced-dense-image-annotations
+  numCitedBy: 2810
+  pid: afcf4dbd2ef300e5c4b35043d4fbe516807cdf7d
+  show_ref_link: true
+  title: Visual Genome - Connecting Language and Vision Using Crowdsourced Dense Image Annotations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-generation-and-comprehension-of-unambiguous-object-descriptions
+  numCitedBy: 558
+  pid: e65142010431ffc089b272a1174214e00693e503
+  show_ref_link: true
+  title: Generation and Comprehension of Unambiguous Object Descriptions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-densecap-fully-convolutional-localization-networks-for-dense-captioning
+  numCitedBy: 907
+  pid: d7ce5665a72c0b607f484c1b448875f02ddfac3b
+  show_ref_link: true
+  title: DenseCap - Fully Convolutional Localization Networks for Dense Captioning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-multimodal-compact-bilinear-pooling-for-visual-question-answering-and-visual-grounding
+  numCitedBy: 1092
+  pid: fddc15480d086629b960be5bff96232f967f2252
+  show_ref_link: true
+  title: Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding
+  year: 2016
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 2012-the-oxford-handbook-of-compositionality
+  numCitedBy: 133
+  pid: d699018f41f17066d905e32855d09afbdcffbbcb
+  show_ref_link: false
+  title: The Oxford Handbook of Compositionality
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-glove-global-vectors-for-word-representation
+  numCitedBy: 22729
+  pid: f37e1b62a767a307c046404ca96bc140b3e68cb5
+  show_ref_link: true
+  title: GloVe - Global Vectors for Word Representation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-to-compose-neural-networks-for-question-answering
+  numCitedBy: 478
+  pid: 75ddc7ee15be14013a3462c01b38b0548486fbcb
+  show_ref_link: true
+  title: Learning to Compose Neural Networks for Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20013
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-you-only-look-once-unified-real-time-object-detection
+  numCitedBy: 16710
+  pid: f8e79ac0ea341056ef20f2616628b3e964764cfd
+  show_ref_link: true
+  title: You Only Look Once - Unified, Real-Time Object Detection
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17223
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-attend-and-tell-neural-image-caption-generation-with-visual-attention
+  numCitedBy: 7309
+  pid: 4d8f2d14af5991d4f0d050d22216825cac3157bd
+  show_ref_link: true
+  title: Show, Attend and Tell - Neural Image Caption Generation with Visual Attention
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ssd-single-shot-multibox-detector
+  numCitedBy: 15569
+  pid: 4d7a9197433acbfb24ef0e9d0f33ed1699e4a5b0
+  show_ref_link: true
+  title: SSD - Single Shot MultiBox Detector
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-stating-the-obvious-extracting-visual-common-sense-knowledge
+  numCitedBy: 41
+  pid: 0dcc768631d9ede8a3679e980b37204b782781b2
+  show_ref_link: false
+  title: Stating the Obvious - Extracting Visual Common Sense Knowledge
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 32899
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-edge-boxes-locating-object-proposals-from-edges
+  numCitedBy: 2419
+  pid: b183947ee15718b45546eda6b01e179b9a95421f
+  show_ref_link: true
+  title: Edge Boxes - Locating Object Proposals from Edges
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-r-fcn-object-detection-via-region-based-fully-convolutional-networks
+  numCitedBy: 3892
+  pid: b724c3f7ff395235b62537203ddeb710f0eb27bb
+  show_ref_link: true
+  title: R-FCN - Object Detection via Region-based Fully Convolutional Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-fast-and-accurate-shift-reduce-constituent-parsing
+  numCitedBy: 155
+  pid: 174bbdb96252454cbb40a9c4e53335996235a008
+  show_ref_link: false
+  title: Fast and Accurate Shift-Reduce Constituent Parsing
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-selective-search-for-object-recognition
+  numCitedBy: 4771
+  pid: 38b6540ddd5beebffd05047c78183f7575559fb2
+  show_ref_link: true
+  title: Selective Search for Object Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-multiple-object-recognition-with-visual-attention
+  numCitedBy: 851
+  pid: 7845f1d3e796b5704d4bd37a945e0cf3fb8bbf1f
+  show_ref_link: false
+  title: Multiple Object Recognition with Visual Attention
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9216
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-multiscale-combinatorial-grouping
+  numCitedBy: 1042
+  pid: 83d1118c2b2995a3e0cf9b6159e4c59e85cabb7e
+  show_ref_link: true
+  title: Multiscale Combinatorial Grouping
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-geodesic-object-proposals
+  numCitedBy: 380
+  pid: ca73a2fc47f005a2ae1816f552b1be94d4607dc1
+  show_ref_link: false
+  title: Geodesic Object Proposals
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-bidirectional-recurrent-neural-networks
+  numCitedBy: 5413
+  pid: e23c34414e66118ecd9b08cf0cd4d016f59b0b85
+  show_ref_link: false
+  title: Bidirectional recurrent neural networks
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-understanding-the-difficulty-of-training-deep-feedforward-neural-networks
+  numCitedBy: 12501
+  pid: b71ac1e9fb49420d13e084ac67254a0bbd40f83f
+  show_ref_link: true
+  title: Understanding the difficulty of training deep feedforward neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-the-stanford-corenlp-natural-language-processing-toolkit
+  numCitedBy: 6086
+  pid: 2f5102ec3f70d0dea98c957cc2cab4d15d83a2da
+  show_ref_link: true
+  title: The Stanford CoreNLP Natural Language Processing Toolkit
+  year: 2014
+slug: Modeling-Relationships-in-Referential-Expressions-Hu-Rohrbach
+title: Modeling Relationships in Referential Expressions with Compositional Modular Networks
+url: https://www.semanticscholar.org/paper/Modeling-Relationships-in-Referential-Expressions-Hu-Rohrbach/ce264a4e1490e959d84ddd60edbb0edcbfb3af38?sort=total-citations
+venue: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2017

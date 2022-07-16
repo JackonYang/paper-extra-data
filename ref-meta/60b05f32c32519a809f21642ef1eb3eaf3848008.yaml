@@ -1,0 +1,98 @@
+authors:
+- Chin-Yew Lin
+badges:
+- id: OPEN_ACCESS
+corpusId: 964287
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-rouge-a-package-for-automatic-evaluation-of-summaries
+numCitedBy: 7019
+numCiting: 16
+paperAbstract: 'ROUGE stands for Recall-Oriented Understudy for Gisting Evaluation. It includes measures to automatically determine the quality of a summary by comparing it to other (ideal) summaries created by humans. The measures count the number of overlapping units such as n-gram, word sequences, and word pairs between the computer-generated summary to be evaluated and the ideal summaries created by humans. This paper introduces four different ROUGE measures: ROUGE-N, ROUGE-L, ROUGE-W, and ROUGE-S included in the ROUGE summarization evaluation package and their evaluations. Three of them have been used in the Document Understanding Conference (DUC) 2004, a large-scale summarization evaluation sponsored by NIST.'
+ref_count: 16
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-looking-for-a-few-good-metrics-rouge-and-its-evaluation
+  numCitedBy: 89
+  pid: cfad182f567b6a6d54a4dd517e0122692afca9fb
+  show_ref_link: false
+  title: Looking for a Few Good Metrics - ROUGE and its Evaluation
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-automatic-evaluation-of-summaries-using-n-gram-co-occurrence-statistics
+  numCitedBy: 1633
+  pid: c63bb976dc0d3a897f3b0920170a4c573ef904c6
+  show_ref_link: false
+  title: Automatic Evaluation of Summaries Using N-gram Co-occurrence Statistics
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-automatic-evaluation-of-machine-translation-quality-using-longest-common-subsequence-and-skip-bigram-statistics
+  numCitedBy: 523
+  pid: 9ca86842aad16797d0fe0323358f3beb1ac6a5c6
+  show_ref_link: false
+  title: Automatic Evaluation of Machine Translation Quality Using Longest Common Subsequence and Skip-Bigram Statistics
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-automatic-evaluation-and-uniform-filter-cascades-for-inducing-n-best-translation-lexicons
+  numCitedBy: 168
+  pid: 42fd4d469c53e4eedd7eb76e7859e3270367f795
+  show_ref_link: false
+  title: Automatic Evaluation and Uniform Filter Cascades for Inducing N-Best Translation Lexicons
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-automatic-summarization
+  numCitedBy: 1015
+  pid: e53dbd9f57937931a124aed93d744fe50e031af0
+  show_ref_link: false
+  title: Automatic Summarization
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-bleu-a-method-for-automatic-evaluation-of-machine-translation
+  numCitedBy: 16745
+  pid: d7da009f457917aa381619facfa5ffae9329a6e9
+  show_ref_link: true
+  title: Bleu - a Method for Automatic Evaluation of Machine Translation
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-meta-evaluation-of-summaries-in-a-cross-lingual-environment-using-content-based-metrics
+  numCitedBy: 61
+  pid: 836173541b0cbf1c14dcd4f5b46cc67e469c392e
+  show_ref_link: false
+  title: Meta-evaluation of Summaries in a Cross-lingual Environment using Content-based Metrics
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-precision-and-recall-of-machine-translation
+  numCitedBy: 267
+  pid: e0cf7771a02921f9d4725f973a01c240d1a20634
+  show_ref_link: false
+  title: Precision and Recall of Machine Translation
+  year: 2003
+- fieldsOfStudy:
+  - Economics
+  meta_key: 2000-bootstrap-methods-and-their-application
+  numCitedBy: 2149
+  pid: 309886b7268a16a7d2bfd047e80d54ce381efc66
+  show_ref_link: false
+  title: Bootstrap Methods and Their Application
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-intrinsic-evaluation-of-generic-news-text-summarization-systems
+  numCitedBy: 136
+  pid: 23996d66d95bbd5dd85cf7c53ecae976c924008d
+  show_ref_link: false
+  title: Intrinsic Evaluation of Generic News Text Summarization Systems
+  year: 2003
+slug: ROUGE:-A-Package-for-Automatic-Evaluation-of-Lin
+title: ROUGE - A Package for Automatic Evaluation of Summaries
+url: https://www.semanticscholar.org/paper/ROUGE:-A-Package-for-Automatic-Evaluation-of-Lin/60b05f32c32519a809f21642ef1eb3eaf3848008?sort=total-citations
+venue: ACL 2004
+year: 2004

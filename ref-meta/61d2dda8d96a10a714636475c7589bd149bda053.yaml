@@ -1,0 +1,182 @@
+authors:
+- Zhilin Yang
+- Ye Yuan
+- Yuexin Wu
+- William W. Cohen
+- R. Salakhutdinov
+badges:
+- id: OPEN_ACCESS
+corpusId: 17369385
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-review-networks-for-caption-generation
+numCitedBy: 213
+numCiting: 23
+paperAbstract: 'We propose a novel extension of the encoder-decoder framework, called a review network. The review network is generic and can enhance any existing encoder- decoder model: in this paper, we consider RNN decoders with both CNN and RNN encoders. The review network performs a number of review steps with attention mechanism on the encoder hidden states, and outputs a thought vector after each review step; the thought vectors are used as the input of the attention mechanism in the decoder. We show that conventional encoder-decoders are a special case of our framework. Empirically, we show that our framework improves over state-of- the-art encoder-decoder systems on the tasks of image captioning and source code captioning.'
+ref_count: 23
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15162
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-and-tell-a-neural-image-caption-generator
+  numCitedBy: 4535
+  pid: d4dc1012d780e8e2547237eb5a6dc7b1bf47d2f0
+  show_ref_link: true
+  title: Show and tell - A neural image caption generator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-end-to-end-memory-networks
+  numCitedBy: 1998
+  pid: 4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e
+  show_ref_link: true
+  title: End-To-End Memory Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-from-captions-to-visual-concepts-and-back
+  numCitedBy: 1110
+  pid: 15f102c3c9f4d4fe6ba105e221df48c6e8902b3b
+  show_ref_link: true
+  title: From captions to visual concepts and back
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-image-captioning-with-semantic-attention
+  numCitedBy: 1225
+  pid: bf55591e09b58ea9ce8d66110d6d3000ee804bdd
+  show_ref_link: true
+  title: Image Captioning with Semantic Attention
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-neural-attention-model-for-abstractive-sentence-summarization
+  numCitedBy: 2122
+  pid: 5082a1a13daea5c7026706738f8528391a1e6d59
+  show_ref_link: true
+  title: A Neural Attention Model for Abstractive Sentence Summarization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 14964
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-attend-and-tell-neural-image-caption-generation-with-visual-attention
+  numCitedBy: 7309
+  pid: 4d8f2d14af5991d4f0d050d22216825cac3157bd
+  show_ref_link: true
+  title: Show, Attend and Tell - Neural Image Caption Generation with Visual Attention
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-effective-approaches-to-attention-based-neural-machine-translation
+  numCitedBy: 5923
+  pid: 93499a7c7f699b6630a86fad964536f9423bb6d0
+  show_ref_link: true
+  title: Effective Approaches to Attention-based Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15713
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19461
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-order-matters-sequence-to-sequence-for-sets
+  numCitedBy: 661
+  pid: d01379ebb53c66a4ccf5f4959d904dcf9e161e41
+  show_ref_link: false
+  title: Order Matters - Sequence to sequence for sets
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-microsoft-coco-captions-data-collection-and-evaluation-server
+  numCitedBy: 1191
+  pid: 696ca58d93f6404fea0fc75c62d1d7b378f47628
+  show_ref_link: true
+  title: Microsoft COCO Captions - Data Collection and Evaluation Server
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-adaptive-computation-time-for-recurrent-neural-networks
+  numCitedBy: 334
+  pid: 04cca8e341a5da42b29b0bc831cb25a0f784fa01
+  show_ref_link: false
+  title: Adaptive Computation Time for Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-adaptive-subgradient-methods-for-online-learning-and-stochastic-optimization
+  numCitedBy: 8057
+  pid: 413c1142de9d91804d6d11c67ff3fed59c9fc279
+  show_ref_link: true
+  title: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-structured-generative-models-of-natural-source-code
+  numCitedBy: 148
+  pid: 215999a0e155a21255e4655d4eac312858058a84
+  show_ref_link: false
+  title: Structured Generative Models of Natural Source Code
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-natural-language-models-for-predicting-programming-comments
+  numCitedBy: 99
+  pid: 9d555ed29496850c4ef8a3facd7dce734c86aae7
+  show_ref_link: false
+  title: Natural Language Models for Predicting Programming Comments
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ask-me-anything-dynamic-memory-networks-for-natural-language-processing
+  numCitedBy: 1004
+  pid: 452059171226626718eb677358836328f884298e
+  show_ref_link: true
+  title: Ask Me Anything - Dynamic Memory Networks for Natural Language Processing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-memory-networks
+  numCitedBy: 1156
+  pid: 71ae756c75ac89e2d731c9c79649562b5768ff39
+  show_ref_link: true
+  title: Memory Networks
+  year: 2015
+slug: Review-Networks-for-Caption-Generation-Yang-Yuan
+title: Review Networks for Caption Generation
+url: https://www.semanticscholar.org/paper/Review-Networks-for-Caption-Generation-Yang-Yuan/61d2dda8d96a10a714636475c7589bd149bda053?sort=total-citations
+venue: NIPS
+year: 2016

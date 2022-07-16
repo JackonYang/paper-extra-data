@@ -1,0 +1,245 @@
+authors:
+- S. Lazebnik
+- C. Schmid
+- J. Ponce
+badges:
+- id: OPEN_ACCESS
+corpusId: 2421251
+fieldsOfStudy:
+- Computer Science
+meta_key: 2006-beyond-bags-of-features-spatial-pyramid-matching-for-recognizing-natural-scene-categories
+numCitedBy: 8341
+numCiting: 38
+paperAbstract: "This paper presents a method for recognizing scene categories based on approximate global geometric correspondence. This technique works by partitioning the image into increasingly fine sub-regions and computing histograms of local features found inside each sub-region. The resulting \"spatial pyramid\" is a simple and computationally efficient extension of an orderless bag-of-features image representation, and it shows significantly improved performance on challenging scene categorization tasks. Specifically, our proposed method exceeds the state of the art on the Caltech-101 database and achieves high accuracy on a large database of fifteen natural scene categories. The spatial pyramid framework also offers insights into the success of several recently proposed image descriptions, including Torralba\u2019s \"gist\" and Lowe\u2019s SIFT descriptors."
+ref_count: 38
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-categorizing-nine-visual-classes-using-local-appearance-descriptors
+  numCitedBy: 212
+  pid: ee3391a1c0288ccf150b7d4c883918cfedb655bc
+  show_ref_link: false
+  title: Categorizing Nine Visual Classes using Local Appearance Descriptors
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-modeling-the-shape-of-the-scene-a-holistic-representation-of-the-spatial-envelope
+  numCitedBy: 6524
+  pid: 869171b2f56cfeaa9b81b2626cb4956fea590a57
+  show_ref_link: true
+  title: Modeling the Shape of the Scene - A Holistic Representation of the Spatial Envelope
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-local-features-and-kernels-for-classification-of-texture-and-object-categories-an-in-depth-study
+  numCitedBy: 190
+  pid: 35e855b0c1af4cc7bf62a8eb459c949776fbe7ee
+  show_ref_link: false
+  title: Local Features and Kernels for Classification of Texture and Object Categories - An In-Depth Study
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-maximum-entropy-framework-for-part-based-texture-and-object-recognition
+  numCitedBy: 205
+  pid: 0a32f6f23c05827e466580647467a322b7db9f7d
+  show_ref_link: false
+  title: A maximum entropy framework for part-based texture and object recognition
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-modeling-scenes-with-local-descriptors-and-latent-aspects
+  numCitedBy: 452
+  pid: ba6417baed41a8f0fd4cab342aa214704389dcf9
+  show_ref_link: false
+  title: Modeling scenes with local descriptors and latent aspects
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-recognition-without-correspondence-using-multidimensional-receptive-field-histograms
+  numCitedBy: 496
+  pid: bd232cf2ab28cc0ba06942875f14206f04ebbae0
+  show_ref_link: false
+  title: Recognition without Correspondence using Multidimensional Receptive Field Histograms
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-indoor-outdoor-image-classification
+  numCitedBy: 774
+  pid: 0f45a46dedadf599c12874b22645d596205ed8d5
+  show_ref_link: false
+  title: Indoor-outdoor image classification
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-discovering-objects-and-their-location-in-images
+  numCitedBy: 1142
+  pid: a737c107623bcffefa0bac20f1b64677f6a1255a
+  show_ref_link: false
+  title: Discovering objects and their location in images
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-shape-matching-and-object-recognition-using-low-distortion-correspondences
+  numCitedBy: 957
+  pid: 12c7fc38debaf3589e712973642246bd54fe63b3
+  show_ref_link: false
+  title: Shape matching and object recognition using low distortion correspondences
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-pyramid-match-kernels-discriminative-classification-with-sets-of-image-features-version-2
+  numCitedBy: 177
+  pid: fc3098cff5469c55c3e81dc127563afe6dbadf22
+  show_ref_link: false
+  title: Pyramid Match Kernels - Discriminative Classification with Sets of Image Features (version 2)
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-bayesian-hierarchical-model-for-learning-natural-scene-categories
+  numCitedBy: 3892
+  pid: 7a2252ccce2b65abc3759149b5c06587cc318e2f
+  show_ref_link: true
+  title: A Bayesian hierarchical model for learning natural scene categories
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-the-pyramid-match-kernel-discriminative-classification-with-sets-of-image-features
+  numCitedBy: 1596
+  pid: 625bce34ec80d29242340400d916e799d2975430
+  show_ref_link: false
+  title: The pyramid match kernel - discriminative classification with sets of image features
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-svm-knn-discriminative-nearest-neighbor-classification-for-visual-category-recognition
+  numCitedBy: 1279
+  pid: ceb0e1a86dc35e21ce5f0524c8476f15e1b08988
+  show_ref_link: false
+  title: SVM-KNN - Discriminative Nearest Neighbor Classification for Visual Category Recognition
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-object-class-recognition-by-unsupervised-scale-invariant-learning
+  numCitedBy: 2489
+  pid: 62837ab473124ea43cb8d7c6a4b4ee0f6f14e8c5
+  show_ref_link: false
+  title: Object class recognition by unsupervised scale-invariant learning
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-multiresolution-histograms-and-their-use-for-recognition
+  numCitedBy: 259
+  pid: 6a574787aad58643373d4bfc0a7e5c64a5b69d6d
+  show_ref_link: false
+  title: Multiresolution histograms and their use for recognition
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-towards-a-computational-model-for-object-recognition-in-it-cortex
+  numCitedBy: 85
+  pid: 3d5d623643939358bb057e7b48aa7887e358f97e
+  show_ref_link: false
+  title: Towards a Computational Model for Object Recognition in IT Cortex
+  year: 2000
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1994-texture-orientation-for-sorting-photos-at-a-glance
+  numCitedBy: 243
+  pid: c21738e116aeabca1e523f612610605718ae00ff
+  show_ref_link: false
+  title: Texture orientation for sorting photos at a glance
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-weak-hypotheses-and-boosting-for-generic-object-detection-and-recognition
+  numCitedBy: 333
+  pid: 0c91808994a250d7be332400a534a9291ca3b60e
+  show_ref_link: false
+  title: Weak Hypotheses and Boosting for Generic Object Detection and Recognition
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-context-based-vision-system-for-place-and-object-recognition
+  numCitedBy: 978
+  pid: 37684bb33f21dc70619597498f1b95fb44fbb139
+  show_ref_link: false
+  title: Context-based vision system for place and object recognition
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-color-indexing
+  numCitedBy: 5044
+  pid: 5b1e1696564e5a3021ac3a501c9deeb6c0fbc637
+  show_ref_link: true
+  title: Color indexing
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-recognition-with-local-features-the-kernel-recipe
+  numCitedBy: 462
+  pid: c393b31ca71e8c4dd7c8c5a11653b18447c90466
+  show_ref_link: false
+  title: Recognition with local features - the kernel recipe
+  year: 2003
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2004-the-structure-of-locally-orderless-images
+  numCitedBy: 165
+  pid: ad6190216bd1b1f589f131c7b96bde8b702547d4
+  show_ref_link: false
+  title: The Structure of Locally Orderless Images
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-generative-visual-models-from-few-training-examples-an-incremental-bayesian-approach-tested-on-101-object-categories
+  numCitedBy: 2359
+  pid: aedb8df8f953429ec5a6df99fda5c5d71dbee4ff
+  show_ref_link: false
+  title: Learning Generative Visual Models from Few Training Examples - An Incremental Bayesian Approach Tested on 101 Object Categories
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-unsupervised-learning-by-probabilistic-latent-semantic-analysis
+  numCitedBy: 2499
+  pid: e6dd83b2aa34c806596fc619ff3fbccf5f9830ab
+  show_ref_link: false
+  title: Unsupervised Learning by Probabilistic Latent Semantic Analysis
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2002-biologically-motivated-computer-vision
+  numCitedBy: 170
+  pid: ecacee864757cc320fca7d7063a4cf969cb591c8
+  show_ref_link: false
+  title: Biologically Motivated Computer Vision
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-latent-dirichlet-allocation
+  numCitedBy: 31038
+  pid: f198043a866e9187925a8d8db9a55e3bfdd47f2c
+  show_ref_link: true
+  title: Latent Dirichlet Allocation
+  year: 2003
+- fieldsOfStudy:
+  - Physics
+  meta_key: 2004-bidirectional-reflection-distribution-function-of-thoroughly-pitted-surfaces
+  numCitedBy: 98
+  pid: 3abfd03c050f03e8bcd900340fab76c6c00f2d8f
+  show_ref_link: false
+  title: Bidirectional Reflection Distribution Function of Thoroughly Pitted Surfaces
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-content-based-query-of-image-databases-inspirations-from-text-retrieval
+  numCitedBy: 379
+  pid: a0bfdd9b33a671b4b5a7d2993843ca403633dfff
+  show_ref_link: false
+  title: Content-based query of image databases - inspirations from text retrieval
+  year: 2000
+slug: Beyond-Bags-of-Features:-Spatial-Pyramid-Matching-Lazebnik-Schmid
+title: Beyond Bags of Features - Spatial Pyramid Matching for Recognizing Natural Scene Categories
+url: https://www.semanticscholar.org/paper/Beyond-Bags-of-Features:-Spatial-Pyramid-Matching-Lazebnik-Schmid/6dbaff29d3898cf60f63f5a34cb9610ebb75220c?sort=total-citations
+venue: 2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'06)
+year: 2006

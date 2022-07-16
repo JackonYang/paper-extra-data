@@ -1,0 +1,345 @@
+authors:
+- Rico Sennrich
+- B. Haddow
+- Alexandra Birch
+badges:
+- id: OPEN_ACCESS
+corpusId: 1114678
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-neural-machine-translation-of-rare-words-with-subword-units
+numCitedBy: 4834
+numCiting: 53
+paperAbstract: Neural machine translation (NMT) models typically operate with a fixed vocabulary, but translation is an open-vocabulary problem. Previous work addresses the translation of out-of-vocabulary words by backing off to a dictionary. In this paper, we introduce a simpler and more effective approach, making the NMT model capable of open-vocabulary translation by encoding rare and unknown words as sequences of subword units. This is based on the intuition that various word classes are translatable via smaller units than words, for instance names (via character copying or transliteration), compounds (via compositional translation), and cognates and loanwords (via phonological and morphological transformations). We discuss the suitability of different word segmentation techniques, including simple character n-gram models and a segmentation based on the byte pair encoding compression algorithm, and empirically show that subword models improve over a back-off dictionary baseline for the WMT 15 translation tasks English-German and English-Russian by 1.1 and 1.3 BLEU, respectively.
+ref_count: 53
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-addressing-the-rare-word-problem-in-neural-machine-translation
+  numCitedBy: 681
+  pid: 1956c239b3552e030db1b78951f64781101125ed
+  show_ref_link: false
+  title: Addressing the Rare Word Problem in Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-variable-length-word-encodings-for-neural-translation-models
+  numCitedBy: 37
+  pid: 93a9694b6a4149e815c30a360347593b75860761
+  show_ref_link: false
+  title: Variable-Length Word Encodings for Neural Translation Models
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19461
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-character-based-neural-machine-translation
+  numCitedBy: 107
+  pid: ff1577528a34a11c2a81d2451d346c412c674c02
+  show_ref_link: false
+  title: Character-based Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-variable-length-word-encodings-for-neural-translation-models
+  numCitedBy: 8
+  pid: 8c3cf30db12d17638b01e0e464e09d6b58a88187
+  show_ref_link: false
+  title: Variable length word encodings for neural translation models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-on-using-very-large-target-vocabulary-for-neural-machine-translation
+  numCitedBy: 859
+  pid: 1938624bb9b0f999536dcc8d8f519810bb4e1b3b
+  show_ref_link: false
+  title: On Using Very Large Target Vocabulary for Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-effective-approaches-to-attention-based-neural-machine-translation
+  numCitedBy: 5923
+  pid: 93499a7c7f699b6630a86fad964536f9423bb6d0
+  show_ref_link: true
+  title: Effective Approaches to Attention-based Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-recurrent-continuous-translation-models
+  numCitedBy: 1240
+  pid: 944a1cfd79dbfb6fef460360a0765ba790f4027a
+  show_ref_link: true
+  title: Recurrent Continuous Translation Models
+  year: 2013
+- fieldsOfStudy:
+  - Linguistics
+  - Computer Science
+  meta_key: 2007-morphology-aware-statistical-machine-translation-based-on-morphs-induced-in-an-unsupervised-manner
+  numCitedBy: 105
+  pid: dca029eafe302034f0e7784b9266403938c55263
+  show_ref_link: false
+  title: Morphology-aware statistical machine translation based on morphs induced in an unsupervised manner
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-character-aware-neural-language-models
+  numCitedBy: 1429
+  pid: 891ce1687e2befddd19f54e4eef1d3f39c8dbaf7
+  show_ref_link: true
+  title: Character-Aware Neural Language Models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-better-word-representations-with-recursive-neural-networks-for-morphology
+  numCitedBy: 796
+  pid: 53ab89807caead278d3deb7b6a4180b277d3cb77
+  show_ref_link: false
+  title: Better Word Representations with Recursive Neural Networks for Morphology
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-compositional-morphology-for-word-representations-and-language-modelling
+  numCitedBy: 221
+  pid: 46f418bf6fab132f193661226c5c27d67f870ea5
+  show_ref_link: false
+  title: Compositional Morphology for Word Representations and Language Modelling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-modelling-out-of-vocabulary-words-for-robust-speech-recognition
+  numCitedBy: 200
+  pid: ec5f929b57cf12b4d624ab125f337c14ad642ab1
+  show_ref_link: false
+  title: Modelling out-of-vocabulary words for robust speech recognition
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-montreal-neural-machine-translation-systems-for-wmt-15
+  numCitedBy: 134
+  pid: 25eb839f39507fe6983ad3e692b2f8d93a5cb0cc
+  show_ref_link: false
+  title: Montreal Neural Machine Translation Systems for WMT'15
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 14964
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Linguistics
+  - Computer Science
+  meta_key: 2015-a-joint-dependency-model-of-morphological-and-syntactic-structure-for-statistical-machine-translation
+  numCitedBy: 13
+  pid: 726244c312dc1145e9e9ee32ce641ab8dd9c6e74
+  show_ref_link: false
+  title: A Joint Dependency Model of Morphological and Syntactic Structure for Statistical Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-finding-function-in-form-compositional-character-models-for-open-vocabulary-word-representation
+  numCitedBy: 582
+  pid: 6dab1c6491929d396e9e5463bc2e87af88602aa2
+  show_ref_link: false
+  title: Finding Function in Form - Compositional Character Models for Open Vocabulary Word Representation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15156
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-character-based-psmt-for-closely-related-languages
+  numCitedBy: 63
+  pid: 71088c81d1fb157844c61ac24fb1dd2a70d0e59f
+  show_ref_link: false
+  title: Character-Based PSMT for Closely Related Languages
+  year: 2009
+- fieldsOfStudy:
+  - Linguistics
+  - Computer Science
+  meta_key: 2000-improving-smt-quality-with-morpho-syntactic-analysis
+  numCitedBy: 105
+  pid: 3dffe5ebf00f10dd137beff00d94952f1af658c3
+  show_ref_link: false
+  title: Improving SMT quality with morpho-syntactic analysis
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-the-edinburgh-jhu-phrase-based-machine-translation-systems-for-wmt-2015
+  numCitedBy: 18
+  pid: d8c5e6adf7023def3be0bee91799e18607cf588f
+  show_ref_link: false
+  title: The Edinburgh/JHU Phrase-based Machine Translation Systems for WMT 2015
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-subword-language-modeling-with-neural-networks
+  numCitedBy: 180
+  pid: 1fd7fc06653723b05abe5f3d1de393ddcf6bdddb
+  show_ref_link: false
+  title: SUBWORD LANGUAGE MODELING WITH NEURAL NETWORKS
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-character-based-pivot-translation-for-under-resourced-languages-and-domains
+  numCitedBy: 53
+  pid: b0b3c2e5e924621b234a24037fa4f4410b478b49
+  show_ref_link: false
+  title: Character-Based Pivot Translation for Under-Resourced Languages and Domains
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-integrating-an-unsupervised-transliteration-model-into-statistical-machine-translation
+  numCitedBy: 95
+  pid: fa144b01862baa5de61d22fd3f922a3ddd54ac4d
+  show_ref_link: false
+  title: Integrating an Unsupervised Transliteration Model into Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Linguistics
+  meta_key: 2008-unsupervised-multilingual-learning-for-morphological-segmentation
+  numCitedBy: 163
+  pid: 36ffcc1cc218ca36de384a107fb48e5abe2e6359
+  show_ref_link: false
+  title: Unsupervised Multilingual Learning for Morphological Segmentation
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-chrf-character-n-gram-f-score-for-automatic-mt-evaluation
+  numCitedBy: 438
+  pid: 285c165c81fc9275955147a892b9a039ec8b1052
+  show_ref_link: false
+  title: chrF - character n-gram F-score for automatic MT evaluation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1983-word-hy-phen-a-tion-by-com-put-er-hyphenation-computer
+  numCitedBy: 111
+  pid: 6c0f01c67f43e35859025d3424e0268b4d1ee2f1
+  show_ref_link: false
+  title: Word hy-phen-a-tion by com-put-er (hyphenation, computer)
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-moses-open-source-toolkit-for-statistical-machine-translation
+  numCitedBy: 5941
+  pid: 4ee2eab4c298c1824a9fb8799ad8eed21be38d21
+  show_ref_link: true
+  title: Moses - Open Source Toolkit for Statistical Machine Translation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-empirical-methods-for-compound-splitting
+  numCitedBy: 368
+  pid: cdaae7a8f0db8b280266606004f1c6f164a13f6d
+  show_ref_link: false
+  title: Empirical Methods for Compound Splitting
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-unsupervised-morphology-rivals-supervised-morphology-for-arabic-mt
+  numCitedBy: 24
+  pid: 5ab5cc1c135a1af68fdea604474b70f4121db623
+  show_ref_link: false
+  title: Unsupervised Morphology Rivals Supervised Morphology for Arabic MT
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-a-simple-fast-and-effective-reparameterization-of-ibm-model-2
+  numCitedBy: 821
+  pid: 7b5e31257f01aba987f16e175a3e49e00a5bd3bb
+  show_ref_link: false
+  title: A Simple, Fast, and Effective Reparameterization of IBM Model 2
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-unsupervised-discovery-of-morphemes
+  numCitedBy: 390
+  pid: 0c5043108eda7d2fa467fe91e3c47d4ba08e0b48
+  show_ref_link: false
+  title: Unsupervised Discovery of Morphemes
+  year: 2002
+- fieldsOfStudy:
+  - Geology
+  meta_key: 2001-association-for-computational-linguistics
+  numCitedBy: 2215
+  pid: 566eb7be43b8a2b2daff82b03711098a84859b2a
+  show_ref_link: false
+  title: Association for Computational Linguistics
+  year: 2001
+- fieldsOfStudy:
+  - Psychology
+  - Computer Science
+  meta_key: 2015-results-of-the-wmt15-metrics-shared-task
+  numCitedBy: 79
+  pid: 2da338d8972e473df62a566290c9de95a52209e5
+  show_ref_link: false
+  title: Results of the WMT15 Metrics Shared Task
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-difficulty-of-training-recurrent-neural-networks
+  numCitedBy: 3820
+  pid: 84069287da0a6b488b8c933f3cb5be759cb6237e
+  show_ref_link: true
+  title: On the difficulty of training recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-a-new-algorithm-for-data-compression
+  numCitedBy: 486
+  pid: 1aa9c0045f1fe8c79cce03c7c14ef4b4643a21f8
+  show_ref_link: false
+  title: A new algorithm for data compression
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-adadelta-an-adaptive-learning-rate-method
+  numCitedBy: 5487
+  pid: 8729441d734782c3ed532a7d2d9611b438c0a09a
+  show_ref_link: true
+  title: ADADELTA - An Adaptive Learning Rate Method
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-a-new-algorithm-for-data-compression
+  numCitedBy: 33
+  pid: db734a0e1dc65fe3fe2eef474aefba6d083f54dd
+  show_ref_link: false
+  title: A New Algorithm For Data Compression
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-machine-translation-without-words-through-substring-alignment
+  numCitedBy: 45
+  pid: 88b66f705a329da8292e7b8aa4bfe26de4759cfa
+  show_ref_link: false
+  title: Machine Translation without Words through Substring Alignment
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-can-we-translate-letters
+  numCitedBy: 92
+  pid: e9ad27106dd487893bcc1cc12bbf645168c60f87
+  show_ref_link: false
+  title: Can We Translate Letters?
+  year: 2007
+slug: Neural-Machine-Translation-of-Rare-Words-with-Units-Sennrich-Haddow
+title: Neural Machine Translation of Rare Words with Subword Units
+url: https://www.semanticscholar.org/paper/Neural-Machine-Translation-of-Rare-Words-with-Units-Sennrich-Haddow/1af68821518f03568f913ab03fc02080247a27ff?sort=total-citations
+venue: ACL
+year: 2016

@@ -1,0 +1,311 @@
+authors:
+- Chen-Yu Lee
+- Saining Xie
+- Patrick W. Gallagher
+- Zhengyou Zhang
+- Z. Tu
+badges:
+- id: OPEN_ACCESS
+corpusId: 1289873
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-deeply-supervised-nets
+numCitedBy: 1449
+numCiting: 48
+paperAbstract: 'Our proposed deeply-supervised nets (DSN) method simultaneously minimizes classification error while making the learning process of hidden layers direct and transparent. We make an attempt to boost the classification performance by studying a new formulation in deep networks. Three aspects in convolutional neural networks (CNN) style architectures are being looked at: (1) transparency of the intermediate layers to the overall classification; (2) discriminativeness and robustness of learned features, especially in the early layers; (3) effectiveness in training due to the presence of the exploding and vanishing gradients. We introduce "companion objective" to the individual hidden layers, in addition to the overall objective at the output layer (a different strategy to layer-wise pre-training). We extend techniques from stochastic gradient methods to analyze our algorithm. The advantage of our method is evident and our experimental result on benchmark datasets shows significant performance gain over existing methods (e.g. all state-of-the-art results on MNIST, CIFAR-10, CIFAR-100, and SVHN).'
+ref_count: 48
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29682
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4232
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+  numCitedBy: 4251
+  pid: b8de958fead0d8a9619b55c7299df3257c624a96
+  show_ref_link: true
+  title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-learning-using-linear-support-vector-machines
+  numCitedBy: 693
+  pid: 4417f78b31546227784941bbd6f6532a177e60b8
+  show_ref_link: false
+  title: Deep Learning using Linear Support Vector Machines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-visualizing-and-understanding-convolutional-networks
+  numCitedBy: 11878
+  pid: 1a2a770d23b4a171fa81de62a78a3deb0588f238
+  show_ref_link: true
+  title: Visualizing and Understanding Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-discriminative-transfer-learning-with-tree-based-priors
+  numCitedBy: 198
+  pid: 822f3b9a392a9abccdaa7ef5ae4183d2d4d3d6db
+  show_ref_link: false
+  title: Discriminative Transfer Learning with Tree-based Priors
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-understanding-deep-architectures-using-a-recursive-convolutional-network
+  numCitedBy: 125
+  pid: e2d894584986b44710f634b696db371f8aff92e0
+  show_ref_link: false
+  title: Understanding Deep Architectures using a Recursive Convolutional Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-traffic-sign-recognition-with-multi-scale-convolutional-networks
+  numCitedBy: 649
+  pid: 9ab0de951cc9cdf16887b1f841f8da6affc9c0de
+  show_ref_link: false
+  title: Traffic sign recognition with multi-scale Convolutional Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-greedy-layer-wise-training-of-deep-networks
+  numCitedBy: 3457
+  pid: 355d44f53428b1ac4fb2ab468d593c720640e5bd
+  show_ref_link: true
+  title: Greedy Layer-Wise Training of Deep Networks
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-stochastic-pooling-for-regularization-of-deep-convolutional-neural-networks
+  numCitedBy: 823
+  pid: 0abb49fe138e8fb7332c26b148a48d0db39724fc
+  show_ref_link: false
+  title: Stochastic Pooling for Regularization of Deep Convolutional Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-understanding-the-difficulty-of-training-deep-feedforward-neural-networks
+  numCitedBy: 12501
+  pid: b71ac1e9fb49420d13e084ac67254a0bbd40f83f
+  show_ref_link: true
+  title: Understanding the difficulty of training deep feedforward neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-deep-learning-via-semi-supervised-embedding
+  numCitedBy: 620
+  pid: 7ee368e60d0b826e78f965aad8d6c7d406127104
+  show_ref_link: false
+  title: Deep learning via semi-supervised embedding
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-tiled-convolutional-neural-networks
+  numCitedBy: 310
+  pid: 05cc38e249a6f642363b5a5cbd71cda67cea5893
+  show_ref_link: false
+  title: Tiled convolutional neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-multi-column-deep-neural-networks-for-image-classification
+  numCitedBy: 3379
+  pid: 398c296d0cc7f9d180f84969f8937e6d3a413796
+  show_ref_link: true
+  title: Multi-column deep neural networks for image classification
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-fast-learning-algorithm-for-deep-belief-nets
+  numCitedBy: 13458
+  pid: 8978cf7574ceb35f4c3096be768c7547b28a35d0
+  show_ref_link: true
+  title: A Fast Learning Algorithm for Deep Belief Nets
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-convolutional-deep-belief-networks-for-scalable-unsupervised-learning-of-hierarchical-representations
+  numCitedBy: 2517
+  pid: 1e80f755bcbf10479afd2338cec05211fdbd325c
+  show_ref_link: false
+  title: Convolutional deep belief networks for scalable unsupervised learning of hierarchical representations
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-difficulty-of-training-recurrent-neural-networks
+  numCitedBy: 3820
+  pid: 84069287da0a6b488b8c933f3cb5be759cb6237e
+  show_ref_link: true
+  title: On the difficulty of training recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1825
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-context-dependent-pre-trained-deep-neural-networks-for-large-vocabulary-speech-recognition
+  numCitedBy: 2679
+  pid: 6658bbf68995731b2083195054ff45b4eca38b3a
+  show_ref_link: true
+  title: Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35433
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-nonparametric-guidance-of-autoencoder-representations-using-label-information
+  numCitedBy: 60
+  pid: f042d83e05fa0059f2bd2b74a451f22bf09ae241
+  show_ref_link: false
+  title: Nonparametric guidance of autoencoder representations using label information
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-of-neural-networks-using-dropconnect
+  numCitedBy: 2101
+  pid: 38f35dd624cd1cf827416e31ac5e0e0454028eca
+  show_ref_link: true
+  title: Regularization of Neural Networks using DropConnect
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-large-scale-learning-with-svm-and-convolutional-for-generic-object-categorization
+  numCitedBy: 350
+  pid: cf03fdf52dd6e4249cbbdbd0bffbbbe5ca389feb
+  show_ref_link: false
+  title: Large-scale Learning with SVM and Convolutional for Generic Object Categorization
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-what-is-the-best-multi-stage-architecture-for-object-recognition
+  numCitedBy: 2090
+  pid: 1f88427d7aa8225e47f946ac41a0667d7b69ac52
+  show_ref_link: false
+  title: What is the best multi-stage architecture for object recognition?
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-distributed-optimization-of-deeply-nested-systems
+  numCitedBy: 150
+  pid: 39d5edde1d2ef1233ac9b7c5b4f3208aea77c384
+  show_ref_link: false
+  title: Distributed optimization of deeply nested systems
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6207
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-making-gradient-descent-optimal-for-strongly-convex-stochastic-optimization
+  numCitedBy: 565
+  pid: e08f14111728901945f8c3b384b2f75746935e0d
+  show_ref_link: false
+  title: Making Gradient Descent Optimal for Strongly Convex Stochastic Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-stochastic-gradient-descent-for-non-smooth-optimization-convergence-results-and-optimal-averaging-schemes
+  numCitedBy: 437
+  pid: 2672ba89286367fe312f167d85a75b3fbe64b2ab
+  show_ref_link: false
+  title: Stochastic Gradient Descent for Non-smooth Optimization - Convergence Results and Optimal Averaging Schemes
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2015-regularized-m-estimators-with-nonconvexity-statistical-and-algorithmic-theory-for-local-optima
+  numCitedBy: 401
+  pid: 07405cd9e1104f62cbb0b7cd9053be08c794a75e
+  show_ref_link: false
+  title: Regularized M-estimators with nonconvexity - statistical and algorithmic theory for local optima
+  year: 2015
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 2005-distributed-representations-simple-recurrent-networks-and-grammatical-structure
+  numCitedBy: 470
+  pid: 605d738a39df3c5e596613ab0ca6925f0eecdf35
+  show_ref_link: false
+  title: Distributed representations, simple recurrent networks, and grammatical structure
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-distributed-representations
+  numCitedBy: 1244
+  pid: 3106e66537a0c8f53278e553bcb38f0b0992ec0e
+  show_ref_link: false
+  title: Distributed Representations
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-adaptive-algorithms-and-stochastic-approximations
+  numCitedBy: 1945
+  pid: 990b10ce4ef643e148b6c719e99dbf2430671a74
+  show_ref_link: false
+  title: Adaptive Algorithms and Stochastic Approximations
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-the-nature-of-statistical-learning-theory
+  numCitedBy: 38821
+  pid: 8213dbed4db44e113af3ed17d6dad57471a0c048
+  show_ref_link: true
+  title: The Nature of Statistical Learning Theory
+  year: 2000
+slug: Deeply-Supervised-Nets-Lee-Xie
+title: Deeply-Supervised Nets
+url: https://www.semanticscholar.org/paper/Deeply-Supervised-Nets-Lee-Xie/fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd?sort=total-citations
+venue: AISTATS
+year: 2015

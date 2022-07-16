@@ -1,0 +1,244 @@
+authors:
+- C. L. Zitnick
+- "Piotr Doll\xE1r"
+badges:
+- id: OPEN_ACCESS
+corpusId: 5984060
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-edge-boxes-locating-object-proposals-from-edges
+numCitedBy: 2419
+numCiting: 30
+paperAbstract: "The use of object proposals is an effective recent approach for increasing the computational efficiency of object detection. We propose a novel method for generating object bounding box proposals using edges. Edges provide a sparse yet informative representation of an image. Our main observation is that the number of contours that are wholly contained in a bounding box is indicative of the likelihood of the box containing an object. We propose a simple box objectness score that measures the number of edges that exist in the box minus those that are members of contours that overlap the box\u2019s boundary. Using efficient data structures, millions of candidate boxes can be evaluated in a fraction of a second, returning a ranked set of a few thousand top-scoring proposals. Using standard metrics, we show results that are significantly more accurate than the current state-of-the-art while being faster to compute. In particular, given just 1000 proposals we achieve over 96% object recall at overlap threshold of 0.5 and over 75% recall at the more challenging overlap of 0.7. Our approach runs in 0.25 seconds and we additionally demonstrate a near real-time variant with only minor loss in accuracy."
+ref_count: 28
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-prime-object-proposals-with-randomized-prim-s-algorithm
+  numCitedBy: 302
+  pid: 3aa259af5b7f1778eca7926ed1b6a6cbaebf28ab
+  show_ref_link: false
+  title: Prime Object Proposals with Randomized Prim's Algorithm
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-generating-object-segmentation-proposals-using-global-and-local-search
+  numCitedBy: 166
+  pid: 7cce984b5257a4d3ac50ae9cce031a1b7cc8a57a
+  show_ref_link: false
+  title: Generating Object Segmentation Proposals Using Global and Local Search
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-improving-spatial-support-for-objects-via-multiple-segmentations
+  numCitedBy: 332
+  pid: 562b04ee16f27c47625b4989ab011510518d0b0a
+  show_ref_link: false
+  title: Improving Spatial Support for Objects via Multiple Segmentations
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-measuring-the-objectness-of-image-windows
+  numCitedBy: 1196
+  pid: 2eb6caace8296fd4dfd4947efa4fe911c8e133b2
+  show_ref_link: true
+  title: Measuring the Objectness of Image Windows
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regionlets-for-generic-object-detection
+  numCitedBy: 377
+  pid: f99408de2ae6c5c036e1825bdadf7b193c3ba734
+  show_ref_link: false
+  title: Regionlets for Generic Object Detection
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fast-edge-detection-using-structured-forests
+  numCitedBy: 707
+  pid: 8b1ab1fba09c8620d2c695d2a13e8965128197b4
+  show_ref_link: false
+  title: Fast Edge Detection Using Structured Forests
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-selective-search-for-object-recognition
+  numCitedBy: 4771
+  pid: 38b6540ddd5beebffd05047c78183f7575559fb2
+  show_ref_link: true
+  title: Selective Search for Object Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-recognition-using-regions
+  numCitedBy: 433
+  pid: 42a5da01c672b2d37e76c62f851c1f88e6b988c0
+  show_ref_link: false
+  title: Recognition using regions
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-structured-forests-for-fast-edge-detection
+  numCitedBy: 873
+  pid: 9e8ce202fb51cd11d2b926e7ad21e08a58a43903
+  show_ref_link: false
+  title: Structured Forests for Fast Edge Detection
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-cpmc-automatic-object-segmentation-using-constrained-parametric-min-cuts
+  numCitedBy: 627
+  pid: cb2115a6765e8484830865b8ad5e6cc5dd29b48d
+  show_ref_link: false
+  title: CPMC - Automatic Object Segmentation Using Constrained Parametric Min-Cuts
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-a-computational-approach-to-edge-detection
+  numCitedBy: 27710
+  pid: fcf9fc4e23b45345c2404ce7d6cb0fc9dea2c9ec
+  show_ref_link: false
+  title: A Computational Approach to Edge Detection
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17223
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-bing-binarized-normed-gradients-for-objectness-estimation-at-300fps
+  numCitedBy: 776
+  pid: 636cea485f77373ae18e32ac8e1c4e37555db5bd
+  show_ref_link: false
+  title: BING - Binarized normed gradients for objectness estimation at 300fps
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-how-good-are-detection-proposals-really
+  numCitedBy: 259
+  pid: 7b1e6ed85dae91843f3d986a001fb59439adbc39
+  show_ref_link: false
+  title: How good are detection proposals, really?
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-a-category-independent-object-detection-cascade
+  numCitedBy: 181
+  pid: 6741e2d0cf378e96541286e399f3ac16dbb06045
+  show_ref_link: false
+  title: Learning a category independent object detection cascade
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-category-independent-object-proposals-with-diverse-ranking
+  numCitedBy: 235
+  pid: 18fe8a42cb3b7ce14e29a11faa3d7cc45f1be22f
+  show_ref_link: false
+  title: Category-Independent Object Proposals with Diverse Ranking
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-weakly-supervised-object-detector-learning-with-model-drift-detection
+  numCitedBy: 156
+  pid: 43aeb06eb886e56414951550f34548939840308d
+  show_ref_link: false
+  title: Weakly supervised object detector learning with model drift detection
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-classcut-for-unsupervised-class-segmentation
+  numCitedBy: 1008
+  pid: d957ad316f7145c054d2dcbd47949869e46776b0
+  show_ref_link: false
+  title: ClassCut for Unsupervised Class Segmentation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29348
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-using-multiple-segmentations-to-discover-objects-and-their-extent-in-image-collections
+  numCitedBy: 740
+  pid: 56766bab76cdcd541bf791730944a5e453006239
+  show_ref_link: false
+  title: Using Multiple Segmentations to Discover Objects and their Extent in Image Collections
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-localizing-objects-while-learning-their-appearance
+  numCitedBy: 204
+  pid: 42bb241681c4bec1fa36211a204fa0dc8158e5ff
+  show_ref_link: false
+  title: Localizing Objects While Learning Their Appearance
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-object-detection-with-discriminatively-trained-part-based-models
+  numCitedBy: 9391
+  pid: e79272fe3d65197100eae8be9fec6469107969ae
+  show_ref_link: true
+  title: Object Detection with Discriminatively Trained Part Based Models
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2005-geometric-context-from-a-single-image
+  numCitedBy: 757
+  pid: ae89592317675c9c7642a3976c3a064cef736f92
+  show_ref_link: false
+  title: Geometric context from a single image
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-efficient-graph-based-image-segmentation
+  numCitedBy: 3744
+  pid: aeeffe327e6c93e9010c7b1e401caa9113723851
+  show_ref_link: true
+  title: Efficient Graph-Based Image Segmentation
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-how-do-humans-sketch-objects
+  numCitedBy: 719
+  pid: 56ac97a7d53702a0941c7bdebe41c682d9831627
+  show_ref_link: false
+  title: How do humans sketch objects?
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-the-pascal-visual-object-classes-voc-challenge
+  numCitedBy: 11755
+  pid: 82635fb63640ae95f90ee9bdc07832eb461ca881
+  show_ref_link: true
+  title: The Pascal Visual Object Classes (VOC) Challenge
+  year: 2009
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1983-vision-a-computational-investigation-into-the-human-representation-and-processing-of-visual-information-david-marr
+  numCitedBy: 2715
+  pid: 2f08f12553521a82249ca9b9cd1083f8b2e1ed86
+  show_ref_link: false
+  title: Vision. A Computational Investigation Into the Human Representation and Processing of Visual Information. David Marr
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-edge-detection-using-structured-forests
+  numCitedBy: 28
+  pid: 1d3b0e7c49f8de3cf17303e560bef528deaaf75d
+  show_ref_link: false
+  title: Fast Edge Detection Using Structured Forests
+  year: 2016
+slug: "Edge-Boxes:-Locating-Object-Proposals-from-Edges-Zitnick-Doll\xE1r"
+title: Edge Boxes - Locating Object Proposals from Edges
+url: "https://www.semanticscholar.org/paper/Edge-Boxes:-Locating-Object-Proposals-from-Edges-Zitnick-Doll\xE1r/b183947ee15718b45546eda6b01e179b9a95421f?sort=total-citations"
+venue: ECCV
+year: 2014

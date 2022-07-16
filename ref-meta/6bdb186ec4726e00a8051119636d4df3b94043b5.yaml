@@ -1,0 +1,105 @@
+authors:
+- Yangqing Jia
+- Evan Shelhamer
+- Jeff Donahue
+- Sergey Karayev
+- Jonathan Long
+- Ross B. Girshick
+- S. Guadarrama
+- Trevor Darrell
+badges:
+- id: OPEN_ACCESS
+corpusId: 1799558
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+numCitedBy: 13778
+numCiting: 15
+paperAbstract: Caffe provides multimedia scientists and practitioners with a clean and modifiable framework for state-of-the-art deep learning algorithms and a collection of reference models. The framework is a BSD-licensed C++ library with Python and MATLAB bindings for training and deploying general-purpose convolutional neural networks and other deep models efficiently on commodity architectures. Caffe fits industry and internet-scale media needs by CUDA GPU computation, processing over 40 million images a day on a single K40 or Titan GPU (approx 2 ms per image). By separating model representation from actual implementation, Caffe allows experimentation and seamless switching among platforms for ease of development and deployment from prototyping machines to cloud environments. Caffe is maintained and developed by the Berkeley Vision and Learning Center (BVLC) with the help of an active community of contributors on GitHub. It powers ongoing research projects, large-scale industrial applications, and startup prototypes in vision, speech, and multimedia.
+ref_count: 15
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+  numCitedBy: 4251
+  pid: b8de958fead0d8a9619b55c7299df3257c624a96
+  show_ref_link: true
+  title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-panda-pose-aligned-networks-for-deep-attribute-modeling
+  numCitedBy: 465
+  pid: 89d5b41b7fb0a122f811be270e6d5f72fc59d680
+  show_ref_link: false
+  title: PANDA - Pose Aligned Networks for Deep Attribute Modeling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17223
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks
+  numCitedBy: 4366
+  pid: 1109b663453e78a59e4f66446d71720ac58cec25
+  show_ref_link: true
+  title: OverFeat - Integrated Recognition, Localization and Detection using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recognizing-image-style
+  numCitedBy: 375
+  pid: c62a99e6491e14c32aac6bfea01ef3f943ce9129
+  show_ref_link: false
+  title: Recognizing Image Style
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-selective-search-for-object-recognition
+  numCitedBy: 4771
+  pid: 38b6540ddd5beebffd05047c78183f7575559fb2
+  show_ref_link: true
+  title: Selective Search for Object Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1493
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-open-vocabulary-object-retrieval
+  numCitedBy: 72
+  pid: a55879fff371aafffe8b5b2476cd20d03bf8ad8c
+  show_ref_link: false
+  title: Open-vocabulary Object Retrieval
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-pylearn2-a-machine-learning-research-library
+  numCitedBy: 298
+  pid: 836acf6fc99ebf81d219e2b67f7ab25efc29a6a4
+  show_ref_link: false
+  title: Pylearn2 - a machine learning research library
+  year: 2013
+slug: Caffe:-Convolutional-Architecture-for-Fast-Feature-Jia-Shelhamer
+title: Caffe - Convolutional Architecture for Fast Feature Embedding
+url: https://www.semanticscholar.org/paper/Caffe:-Convolutional-Architecture-for-Fast-Feature-Jia-Shelhamer/6bdb186ec4726e00a8051119636d4df3b94043b5?sort=total-citations
+venue: ACM Multimedia
+year: 2014

@@ -1,0 +1,124 @@
+authors:
+- K. Fukushima
+badges:
+- id: OPEN_ACCESS
+corpusId: 206775608
+fieldsOfStudy:
+- Computer Science
+- Biology
+meta_key: 2004-neocognitron-a-self-organizing-neural-network-model-for-a-mechanism-of-pattern-recognition-unaffected-by-shift-in-position
+numCitedBy: 3728
+numCiting: 22
+paperAbstract: "A neural network model for a mechanism of visual pattern recognition is proposed in this paper. The network is self-organized by \u201Clearning without a teacher\u201D, and acquires an ability to recognize stimulus patterns based on the geometrical similarity (Gestalt) of their shapes without affected by their positions. This network is given a nickname \u201Cneocognitron\u201D. After completion of self-organization, the network has a structure similar to the hierarchy model of the visual nervous system proposed by Hubel and Wiesel. The network consits of an input layer (photoreceptor array) followed by a cascade connection of a number of modular structures, each of which is composed of two layers of cells connected in a cascade. The first layer of each module consists of \u201CS-cells\u201D, which show characteristics similar to simple cells or lower order hypercomplex cells, and the second layer consists of \u201CC-cells\u201D similar to complex cells or higher order hypercomplex cells. The afferent synapses to each S-cell have plasticity and are modifiable. The network has an ability of unsupervised learning: We do not need any \u201Cteacher\u201D during the process of self-organization, and it is only needed to present a set of stimulus patterns repeatedly to the input layer of the network. The network has been simulated on a digital computer. After repetitive presentation of a set of stimulus patterns, each stimulus pattern has become to elicit an output only from one of the C-cell of the last layer, and conversely, this C-cell has become selectively responsive only to that stimulus pattern. That is, none of the C-cells of the last layer responds to more than one stimulus pattern. The response of the C-cells of the last layer is not affected by the pattern's position at all. Neither is it affected by a small change in shape nor in size of the stimulus pattern."
+ref_count: 22
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1979-self-organization-of-a-neural-network-which-gives-position-invariant-response
+  numCitedBy: 8
+  pid: d39bddc51dcd84e4bc51a3dd0b30a6534594ff2e
+  show_ref_link: false
+  title: Self-Organization of a Neural Network which Gives Position-Invariant Response
+  year: 1979
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2004-cognitron-a-self-organizing-multilayered-neural-network
+  numCitedBy: 331
+  pid: 03b4a233b19cf202ba9117d501a82a48ef3ed6e9
+  show_ref_link: false
+  title: Cognitron - A self-organizing multilayered neural network
+  year: 2004
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1962-receptive-fields-binocular-interaction-and-functional-architecture-in-the-cat-s-visual-cortex
+  numCitedBy: 12440
+  pid: 6b4fe4aa4d66fecc7b2869569002714d91d0b3f7
+  show_ref_link: false
+  title: Receptive fields, binocular interaction and functional architecture in the cat's visual cortex
+  year: 1962
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1972-visual-properties-of-neurons-in-inferotemporal-cortex-of-the-macaque
+  numCitedBy: 1471
+  pid: 3c523f408efb0b32eccdbc12e9e57fb9b3b19c46
+  show_ref_link: false
+  title: Visual properties of neurons in inferotemporal cortex of the Macaque.
+  year: 1972
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1977-ferrier-lecture-functional-architecture-of-macaque-monkey-visual-cortex
+  numCitedBy: 2194
+  pid: 362e5e735cd4dc3b291df916b34511bb2a9286a8
+  show_ref_link: false
+  title: Ferrier lecture - Functional architecture of macaque monkey visual cortex
+  year: 1977
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1977-functional-architecture-of-macaque-monkey-visual-cortex
+  numCitedBy: 1441
+  pid: e9c63ea314bd66b56e1751e8b9f1cc8598df4486
+  show_ref_link: false
+  title: Functional architecture of macaque monkey visual cortex
+  year: 1977
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1965-receptive-fields-and-functional-architecture-in-two-nonstriate-visual-areas-18-and-19-of-the-cat
+  numCitedBy: 2615
+  pid: f70c54029c17f50914996c834930ecbfacda195f
+  show_ref_link: false
+  title: RECEPTIVE FIELDS AND FUNCTIONAL ARCHITECTURE IN TWO NONSTRIATE VISUAL AREAS (18 AND 19) OF THE CAT.
+  year: 1965
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1967-a-proposed-model-for-visual-information-processing-in-the-human-brain
+  numCitedBy: 18
+  pid: 77404d63067a188c2412413c462ab5278a96c701
+  show_ref_link: false
+  title: A Proposed Model for Visual Information Processing in the Human Brain
+  year: 1967
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1988-japan
+  numCitedBy: 2521
+  pid: efea68a58d7cd8f035019a640475e3c9acec7aed
+  show_ref_link: false
+  title: Japan
+  year: 1988
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 1978-invited-an-advanced-mos-ic-process-technology-using-oxidation-of-oxygen-doped-polycrystalline-silicon-films
+  numCitedBy: 3
+  pid: 951bcca40adb760bffa0a5580690d1b8e83e53e7
+  show_ref_link: false
+  title: (Invited) An Advanced MOS-IC Process Technology Using Oxidation of Oxygen-Doped Polycrystalline Silicon Films
+  year: 1978
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1965-nouvelles-observations-concernant-l-action-du-laurylsulfate-de-sodium-sur-la-paroi-et-la-membrane-d-e-coli
+  numCitedBy: 149
+  pid: 053ad3c16c76353dc2d61d3055a414f6f027628f
+  show_ref_link: false
+  title: Nouvelles observations concernant l'action du laurylsulfate de sodium sur la paroi et la membrane d'E. coli
+  year: 1965
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1962-principles-of-neurodynamics
+  numCitedBy: 2372
+  pid: cccc0a4817fd5f6d8758c66b4065a23897d49f1d
+  show_ref_link: false
+  title: Principles of neurodynamics
+  year: 1962
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1971-feature-extraction-and-recognition-of-handwritten-characters-by-homogeneous-layers
+  numCitedBy: 10
+  pid: 4a5185961bc5f14650500f73f61e281119daca2d
+  show_ref_link: false
+  title: Feature Extraction and Recognition of Handwritten Characters by Homogeneous Layers
+  year: 1971
+slug: Neocognitron:-A-self-organizing-neural-network-for-Fukushima
+title: Neocognitron - A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position
+url: https://www.semanticscholar.org/paper/Neocognitron:-A-self-organizing-neural-network-for-Fukushima/69e68bfaadf2dccff800158749f5a50fe82d173b?sort=total-citations
+venue: Biological Cybernetics
+year: 2004

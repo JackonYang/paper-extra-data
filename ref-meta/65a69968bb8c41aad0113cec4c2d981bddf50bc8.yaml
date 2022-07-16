@@ -1,0 +1,67 @@
+authors:
+- Shigeo Abe DrEng
+badges:
+- id: OPEN_ACCESS
+corpusId: 9384346
+fieldsOfStudy:
+- Mathematics
+- Environmental Science
+meta_key: 2001-pattern-classification
+numCitedBy: 13128
+numCiting: 35
+paperAbstract: "Classification \u2022 Supervised \u2013 parallelpiped \u2013 minimum distance \u2013 maximum likelihood (Bayes Rule) > non-parametric > parametric \u2013 support vector machines \u2013 neural networks \u2013 context classification \u2022 Unsupervised (clustering) \u2013 K-Means \u2013 ISODATA \u2022 Pattern recognition in remote sensing has been based on the intuitive notion that pixels belonging to the same class should have similar gray values in a given band. \u2013 Given two spectral bands, pixels from the same class plotted in a two-dimensional histogram should appear as a localized cluster. \u2013 If n images, each in a different spectral band, are available, pixels from the same class should form a localized cluster in n-space."
+ref_count: 35
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-neural-networks-for-pattern-recognition
+  numCitedBy: 15363
+  pid: dbc0a468ab103ae29717703d4aa9f682f6a2b664
+  show_ref_link: true
+  title: Neural Networks for Pattern Recognition
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-generation-of-training-and-test-data-sets
+  numCitedBy: 1
+  pid: 02fb0829a91166340eef5d73f8ac0f120483d27e
+  show_ref_link: false
+  title: Generation of Training and Test Data Sets
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1976-a-pattern-recognition-approach-to-voiced-unvoiced-silence-classification-with-applications-to-speech-recognition
+  numCitedBy: 456
+  pid: e1a6ba42e66713d81cecedc4451ed06fc2d6823d
+  show_ref_link: false
+  title: A pattern recognition approach to voiced-unvoiced-silence classification with applications to speech recognition
+  year: 1976
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-statistical-methods-for-speech-recognition
+  numCitedBy: 2251
+  pid: 231f6de83cfa4d641da1681e97a11b689a48e3aa
+  show_ref_link: false
+  title: Statistical methods for speech recognition
+  year: 1997
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1989-some-statistical-issues-in-the-comparison-of-speech-recognition-algorithms
+  numCitedBy: 700
+  pid: 774c6a9405b6d52d5d30a15e82601ca4635369c6
+  show_ref_link: false
+  title: Some statistical issues in the comparison of speech recognition algorithms
+  year: 1989
+- fieldsOfStudy:
+  - Physics
+  meta_key: 2001-spoken-language-processing
+  numCitedBy: 960
+  pid: 74fe8a40571758823eb1858ccc9411e2b43fe7ea
+  show_ref_link: false
+  title: Spoken Language Processing
+  year: 2001
+slug: Pattern-Classification-DrEng
+title: Pattern Classification
+url: https://www.semanticscholar.org/paper/Pattern-Classification-DrEng/65a69968bb8c41aad0113cec4c2d981bddf50bc8?sort=total-citations
+venue: Springer London
+year: 2001

@@ -1,0 +1,598 @@
+authors:
+- Bryan McCann
+- James Bradbury
+- Caiming Xiong
+- R. Socher
+badges:
+- id: OPEN_ACCESS
+corpusId: 9447219
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-learned-in-translation-contextualized-word-vectors
+numCitedBy: 712
+numCiting: 74
+paperAbstract: 'Computer vision has benefited from initializing multiple deep layers with weights pretrained on large supervised training sets like ImageNet. Natural language processing (NLP) typically sees initialization of only the lowest layer of deep models with pretrained word vectors. In this paper, we use a deep LSTM encoder from an attentional sequence-to-sequence model trained for machine translation (MT) to contextualize word vectors. We show that adding these context vectors (CoVe) improves performance over using only unsupervised word and character vectors on a wide variety of common NLP tasks: sentiment analysis (SST, IMDb), question classification (TREC), entailment (SNLI), and question answering (SQuAD). For fine-grained sentiment analysis and entailment, CoVe improves performance of our baseline models to the state of the art.'
+ref_count: 74
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-towards-universal-paraphrastic-sentence-embeddings
+  numCitedBy: 482
+  pid: 395044a2e3f5624b2471fb28826e7dbb1009356e
+  show_ref_link: false
+  title: Towards Universal Paraphrastic Sentence Embeddings
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-supervised-learning-of-universal-sentence-representations-from-natural-language-inference-data
+  numCitedBy: 1528
+  pid: ee7b883e35d754ae4f71c21bb71f9f03e4ffbb2c
+  show_ref_link: true
+  title: Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-skip-thought-vectors
+  numCitedBy: 1934
+  pid: 6e795c6e9916174ae12349f5dc3f516570c17ce8
+  show_ref_link: true
+  title: Skip-Thought Vectors
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-semantic-encoders
+  numCitedBy: 130
+  pid: cff79255a94b9b05a4ce893eb403a522e0923f04
+  show_ref_link: false
+  title: Neural Semantic Encoders
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 14964
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-recursive-deep-models-for-semantic-compositionality-over-a-sentiment-treebank
+  numCitedBy: 5397
+  pid: 687bac2d3320083eb4530bf18bb8f8f721477600
+  show_ref_link: true
+  title: Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-glove-global-vectors-for-word-representation
+  numCitedBy: 22729
+  pid: f37e1b62a767a307c046404ca96bc140b3e68cb5
+  show_ref_link: true
+  title: GloVe - Global Vectors for Word Representation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-word-vectors-for-sentiment-analysis
+  numCitedBy: 3033
+  pid: 649d03490ef72c5274e3bccd03d7a299d2f8da91
+  show_ref_link: true
+  title: Learning Word Vectors for Sentiment Analysis
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-encoding-syntactic-knowledge-in-neural-networks-for-sentiment-classification
+  numCitedBy: 91
+  pid: 9f46d7793995677d15a3fa10c3cb2605a44610e8
+  show_ref_link: false
+  title: Encoding Syntactic Knowledge in Neural Networks for Sentiment Classification
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-unsupervised-pretraining-for-sequence-to-sequence-learning
+  numCitedBy: 249
+  pid: 85f94d8098322f8130512b4c6c4627548ce4a6cc
+  show_ref_link: false
+  title: Unsupervised Pretraining for Sequence to Sequence Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-representational-geometry-of-word-meanings-acquired-by-neural-machine-translation-models
+  numCitedBy: 44
+  pid: 032e9974cedb31f5c6e354626760e54e5ebf1e3c
+  show_ref_link: false
+  title: The representational geometry of word meanings acquired by neural machine translation models
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dependency-sensitive-convolutional-neural-networks-for-modeling-sentences-and-documents
+  numCitedBy: 113
+  pid: ec64f650fea9b49cbf7d8bddf458388c4b362475
+  show_ref_link: false
+  title: Dependency Sensitive Convolutional Neural Networks for Modeling Sentences and Documents
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-effective-approaches-to-attention-based-neural-machine-translation
+  numCitedBy: 5923
+  pid: 93499a7c7f699b6630a86fad964536f9423bb6d0
+  show_ref_link: true
+  title: Effective Approaches to Attention-based Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-language-to-logical-form-with-neural-attention
+  numCitedBy: 559
+  pid: 558ac446dc26bee9789d660a251b75728cb6eeb2
+  show_ref_link: false
+  title: Language to Logical Form with Neural Attention
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-natural-language-processing-almost-from-scratch
+  numCitedBy: 6679
+  pid: bc1022b031dc6c7019696492e8116598097a8c12
+  show_ref_link: true
+  title: Natural Language Processing (Almost) from Scratch
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-to-generate-reviews-and-discovering-sentiment
+  numCitedBy: 370
+  pid: 664ec878de4b7170712baae4a7821fc2602bba25
+  show_ref_link: false
+  title: Learning to Generate Reviews and Discovering Sentiment
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-supervised-and-semi-supervised-text-categorization-using-lstm-for-region-embeddings
+  numCitedBy: 203
+  pid: d7db74be6cda0ec2bd28ec187563def85ccef78f
+  show_ref_link: false
+  title: Supervised and Semi-Supervised Text Categorization using LSTM for Region Embeddings
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-reading-and-thinking-re-read-lstm-unit-for-textual-entailment-recognition
+  numCitedBy: 59
+  pid: 4c7e85ff37dd8b99d8f443eabd3b163ff8b71538
+  show_ref_link: false
+  title: Reading and Thinking - Re-read LSTM Unit for Textual Entailment Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-large-annotated-corpus-for-learning-natural-language-inference
+  numCitedBy: 2551
+  pid: f04df4e20a18358ea2f689b4c129781628ef7fc1
+  show_ref_link: true
+  title: A large annotated corpus for learning natural language inference
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-semi-supervised-sequence-learning
+  numCitedBy: 888
+  pid: 4aa9f5150b46320f534de4747a2dd0cd7f3fe292
+  show_ref_link: false
+  title: Semi-supervised Sequence Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19461
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-text-classification-improved-by-integrating-bidirectional-lstm-with-two-dimensional-max-pooling
+  numCitedBy: 386
+  pid: 786f95cada23d4639aa1a8b922cdb9fb9a9c03fa
+  show_ref_link: false
+  title: Text Classification Improved by Integrating Bidirectional LSTM with Two-dimensional Max Pooling
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-topicrnn-a-recurrent-neural-network-with-long-range-semantic-dependency
+  numCitedBy: 190
+  pid: 7ab2166f6cdb1737e000df66d29c6538afc6811d
+  show_ref_link: false
+  title: TopicRNN - A Recurrent Neural Network with Long-Range Semantic Dependency
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-efficient-estimation-of-word-representations-in-vector-space
+  numCitedBy: 22055
+  pid: 330da625c15427c6e42ccfa3b747fb29e5835bf0
+  show_ref_link: true
+  title: Efficient Estimation of Word Representations in Vector Space
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-framewise-phoneme-classification-with-bidirectional-lstm-and-other-neural-network-architectures
+  numCitedBy: 3310
+  pid: 2f83f6e1afadf0963153974968af6b8342775d82
+  show_ref_link: true
+  title: Framewise phoneme classification with bidirectional LSTM and other neural network architectures
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-distributed-representations-of-sentences-from-unlabelled-data
+  numCitedBy: 459
+  pid: 26e743d5bd465f49b9538deaf116c15e61b7951f
+  show_ref_link: true
+  title: Learning Distributed Representations of Sentences from Unlabelled Data
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-question-answering-through-transfer-learning-from-large-fine-grained-supervision-data
+  numCitedBy: 105
+  pid: bb1087e8dee2039f773c381a3449a1c382482da6
+  show_ref_link: false
+  title: Question Answering through Transfer Learning from Large Fine-grained Supervision Data
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-decomposable-attention-model-for-natural-language-inference
+  numCitedBy: 1070
+  pid: 2cd8e8f510c89c7c18268e8ad51c061e459ad321
+  show_ref_link: false
+  title: A Decomposable Attention Model for Natural Language Inference
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-grounded-compositional-semantics-for-finding-and-describing-images-with-sentences
+  numCitedBy: 785
+  pid: 0ca7d208ff8d81377e0eaa9723820aeae7a7322d
+  show_ref_link: false
+  title: Grounded Compositional Semantics for Finding and Describing Images with Sentences
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-machine-comprehension-using-match-lstm-and-answer-pointer
+  numCitedBy: 542
+  pid: ff1861b71eaedba46cb679bbe2c585dbe18f9b19
+  show_ref_link: false
+  title: Machine Comprehension Using Match-LSTM and Answer Pointer
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-semeval-2014-task-10-multilingual-semantic-textual-similarity
+  numCitedBy: 358
+  pid: 16084914bc3729f86f46ac6267ea7a42e7951d41
+  show_ref_link: false
+  title: SemEval-2014 Task 10 - Multilingual Semantic Textual Similarity
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-a-joint-many-task-model-growing-a-neural-network-for-multiple-nlp-tasks
+  numCitedBy: 463
+  pid: ade0c116120b54b57a91da51235108b75c28375a
+  show_ref_link: false
+  title: A Joint Many-Task Model - Growing a Neural Network for Multiple NLP Tasks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-the-iwslt-2015-evaluation-campaign
+  numCitedBy: 133
+  pid: b54268e3b8d148c0695ca52bebb0f80e26a4b987
+  show_ref_link: false
+  title: The IWSLT 2015 Evaluation Campaign
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-discriminative-neural-sentence-modeling-by-tree-based-convolution
+  numCitedBy: 117
+  pid: bd32ebb9fac53a14202fb1a4f76ef96d1ff68c6c
+  show_ref_link: false
+  title: Discriminative Neural Sentence Modeling by Tree-Based Convolution
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-adversarial-training-methods-for-semi-supervised-text-classification
+  numCitedBy: 589
+  pid: 2cd55ded95d5d13430edfa223ba591b514ebe8a5
+  show_ref_link: false
+  title: Adversarial Training Methods for Semi-Supervised Text Classification
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-tree-indexers-for-text-understanding
+  numCitedBy: 98
+  pid: 705dcc8eadba137834e4b0359e2d696d4b209f5b
+  show_ref_link: false
+  title: Neural Tree Indexers for Text Understanding
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-squad-100-000-questions-for-machine-comprehension-of-text
+  numCitedBy: 4308
+  pid: 05dd7254b632376973f3a1b4d39485da17814df5
+  show_ref_link: true
+  title: SQuAD - 100,000+ Questions for Machine Comprehension of Text
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-enhancing-and-combining-sequential-and-tree-lstm-for-natural-language-inference
+  numCitedBy: 120
+  pid: 162db03ef3cb50a07ff54ae4a1d4ea120e4162f2
+  show_ref_link: false
+  title: Enhancing and Combining Sequential and Tree LSTM for Natural Language Inference
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-bidirectional-attention-flow-for-machine-comprehension
+  numCitedBy: 1726
+  pid: 3a7b63b50c64f4ec3358477790e84cbd6be2a0b4
+  show_ref_link: true
+  title: Bidirectional Attention Flow for Machine Comprehension
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-multimodal-compact-bilinear-pooling-for-visual-question-answering-and-visual-grounding
+  numCitedBy: 1092
+  pid: fddc15480d086629b960be5bff96232f967f2252
+  show_ref_link: true
+  title: Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-knowing-when-to-look-adaptive-attention-via-a-visual-sentinel-for-image-captioning
+  numCitedBy: 971
+  pid: 9f4d7d622d1f7319cc511bfef661cd973e881a4c
+  show_ref_link: true
+  title: Knowing When to Look - Adaptive Attention via a Visual Sentinel for Image Captioning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-end-to-end-multi-view-networks-for-text-classification
+  numCitedBy: 10
+  pid: 032e2f60781257dcb14035fce73b9b7b708303eb
+  show_ref_link: false
+  title: End-to-End Multi-View Networks for Text Classification
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dynamic-memory-networks-for-visual-and-textual-question-answering
+  numCitedBy: 664
+  pid: f96898d15a1bf1fa8925b1280d0e07a7a8e72194
+  show_ref_link: true
+  title: Dynamic Memory Networks for Visual and Textual Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recursive-neural-networks-for-learning-logical-semantics
+  numCitedBy: 32
+  pid: 4ea80c206b8ad73a6d320c9d8ed0321d84fe6d85
+  show_ref_link: false
+  title: Recursive Neural Networks for Learning Logical Semantics
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-from-symbolic-to-sub-symbolic-information-in-question-classification
+  numCitedBy: 174
+  pid: 044b239c207a9decc77a7c2eb6de1f95b92c9fc3
+  show_ref_link: false
+  title: From symbolic to sub-symbolic information in question classification
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-moses-open-source-toolkit-for-statistical-machine-translation
+  numCitedBy: 5941
+  pid: 4ee2eab4c298c1824a9fb8799ad8eed21be38d21
+  show_ref_link: true
+  title: Moses - Open Source Toolkit for Statistical Machine Translation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-learning-question-classifiers-the-role-of-semantic-information
+  numCitedBy: 284
+  pid: f2b18264de28827a061fe9e22c437d1f616fdb4a
+  show_ref_link: false
+  title: Learning question classifiers - the role of semantic information
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  - Psychology
+  meta_key: 2016-a-shared-task-on-multimodal-machine-translation-and-crosslingual-image-description
+  numCitedBy: 188
+  pid: 95d3001ed7782fecea29bdb41e598aa5b41a615b
+  show_ref_link: false
+  title: A Shared Task on Multimodal Machine Translation and Crosslingual Image Description
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-gated-self-matching-networks-for-reading-comprehension-and-question-answering
+  numCitedBy: 574
+  pid: b798cfd967e1a9ca5e7bc995d33a907bf65d1c7f
+  show_ref_link: false
+  title: Gated Self-Matching Networks for Reading Comprehension and Question Answering
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-question-classification-by-weighted-combination-of-lexical-syntactic-and-semantic-features
+  numCitedBy: 31
+  pid: 39206a33b1a5223eb4d793ee49d508527c8e3ee3
+  show_ref_link: false
+  title: Question Classification by Weighted Combination of Lexical, Syntactic and Semantic Features
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-opennmt-open-source-toolkit-for-neural-machine-translation
+  numCitedBy: 1407
+  pid: aab5002a22b9b4244a8329b140bd0a86021aa2d1
+  show_ref_link: false
+  title: OpenNMT - Open-Source Toolkit for Neural Machine Translation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29420
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96531
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-high-accuracy-rule-based-question-classification-using-question-syntax-and-semantics
+  numCitedBy: 36
+  pid: 38596280ca0b3c3f988ef72a8f5a4459350a5361
+  show_ref_link: false
+  title: High Accuracy Rule-based Question Classification using Question Syntax and Semantics
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-heterogeneous-transfer-learning-for-image-classification
+  numCitedBy: 293
+  pid: 9c34c43afd96a6845080842748d0f2f2fcd09d50
+  show_ref_link: false
+  title: Heterogeneous Transfer Learning for Image Classification
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 62697
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17223
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 27839
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1825
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-learning-with-dynamic-computation-graphs
+  numCitedBy: 107
+  pid: 08d2bae3ddf44d67b9b192a6ff26e954192e4806
+  show_ref_link: false
+  title: Deep Learning with Dynamic Computation Graphs
+  year: 2017
+- fieldsOfStudy:
+  - Political Science
+  meta_key: 1999-the-trec-8-question-answering-track-evaluation
+  numCitedBy: 365
+  pid: 46be284f1e1ece64465af6fe3a69ce544e0c7e33
+  show_ref_link: false
+  title: The TREC-8 Question Answering Track Evaluation
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-adapting-visual-category-models-to-new-domains
+  numCitedBy: 1969
+  pid: 5d9a3036181676e187c9c0ff995d8bed1db3557d
+  show_ref_link: false
+  title: Adapting Visual Category Models to New Domains
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12894
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-hedged-deep-tracking
+  numCitedBy: 579
+  pid: 35097ca8d9c8380d8d012a67b7b616f9d662f2fc
+  show_ref_link: false
+  title: Hedged Deep Tracking
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-dynamic-coattention-networks-for-question-answering
+  numCitedBy: 614
+  pid: e978d832a4d86571e1b52aa1685dc32ccb250f50
+  show_ref_link: false
+  title: Dynamic Coattention Networks For Question Answering
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-abstractive-text-summarization-using-sequence-to-sequence-rnns-and-beyond
+  numCitedBy: 1569
+  pid: f37076f426023241f19cdc2fb0a0fd733a6fa7fa
+  show_ref_link: false
+  title: Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-improving-question-classification-by-feature-extraction-and-selection
+  numCitedBy: 30
+  pid: dd164677214f6ed8d47a3c3c0663e50f3c41cb00
+  show_ref_link: false
+  title: Improving Question Classification by Feature Extraction and Selection
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-open-source-toolkit-for-statistical-machine-translation-factored-translation-models-and-lattice-decoding
+  numCitedBy: 546
+  pid: 99e8d34817ae10d7304521e89c5fbf908b9d856b
+  show_ref_link: false
+  title: Open Source Toolkit for Statistical Machine Translation - Factored Translation Models and Lattice Decoding
+  year: 2006
+- fieldsOfStudy:
+  - Education
+  meta_key: 2016-end-to-end-reading-comprehension-with-dynamic-answer-chunk-ranking
+  numCitedBy: 32
+  pid: a8c33413a626bafc67d46029ed28c2a28cc08899
+  show_ref_link: false
+  title: End-to-End Reading Comprehension with Dynamic Answer Chunk Ranking
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-neural-architecture-mimicking-humans-end-to-end-for-natural-language-inference
+  numCitedBy: 13
+  pid: 8dbb0b9ca61e2753c6759446c6909acda616095a
+  show_ref_link: false
+  title: A Neural Architecture Mimicking Humans End-to-End for Natural Language Inference
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ask-me-anything-dynamic-memory-networks-for-natural-language-processing
+  numCitedBy: 1004
+  pid: 452059171226626718eb677358836328f884298e
+  show_ref_link: true
+  title: Ask Me Anything - Dynamic Memory Networks for Natural Language Processing
+  year: 2016
+slug: Learned-in-Translation:-Contextualized-Word-Vectors-McCann-Bradbury
+title: Learned in Translation - Contextualized Word Vectors
+url: https://www.semanticscholar.org/paper/Learned-in-Translation:-Contextualized-Word-Vectors-McCann-Bradbury/bc8fa64625d9189f5801837e7b133e7fe3c581f7?sort=total-citations
+venue: NIPS
+year: 2017

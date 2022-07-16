@@ -1,0 +1,325 @@
+authors:
+- Saurabh Gupta
+- Ross B. Girshick
+- "Pablo Arbel\xE1ez"
+- Jitendra Malik
+badges:
+- id: OPEN_ACCESS
+corpusId: 13259596
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-learning-rich-features-from-rgb-d-images-for-object-detection-and-segmentation
+numCitedBy: 1300
+numCiting: 47
+paperAbstract: In this paper we study the problem of object detection for RGB-D images using semantically rich image and depth features. We propose a new geocentric embedding for depth images that encodes height above ground and angle with gravity for each pixel in addition to the horizontal disparity. We demonstrate that this geocentric embedding works better than using raw depth images for learning feature representations with convolutional neural networks. Our final object detection system achieves an average precision of 37.3%, which is a 56% relative improvement over existing methods. We then focus on the task of instance segmentation where we label pixels belonging to object instances found by our detector. For this task, we propose a decision forest approach that classifies pixels in the detection window as foreground or background using a family of unary and binary tests that query shape and geocentric pose features. Finally, we use the output from our object detectors in an existing superpixel classification framework for semantic scene segmentation and achieve a 24% relative improvement over current state-of-the-art for the object categories that we study. We believe advances such as those represented in this paper will facilitate the use of perception in fields like robotics.
+ref_count: 47
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-perceptual-organization-and-recognition-of-indoor-scenes-from-rgb-d-images
+  numCitedBy: 531
+  pid: b9d35e88d4dc2156469446270fd67b8e45ca7811
+  show_ref_link: false
+  title: Perceptual Organization and Recognition of Indoor Scenes from RGB-D Images
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17223
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-rgb-d-scene-labeling-features-and-algorithms
+  numCitedBy: 450
+  pid: e36111cc8acd864f047ff138cd6edc668891c32c
+  show_ref_link: false
+  title: RGB-(D) scene labeling - Features and algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-accurate-localization-of-3d-objects-from-rgb-d-data-using-segmentation-hypotheses
+  numCitedBy: 68
+  pid: 5dceb47284dfa7fa4c042ffd339429af30508c89
+  show_ref_link: false
+  title: Accurate Localization of 3D Objects from RGB-D Data Using Segmentation Hypotheses
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-semantic-labeling-of-3d-point-clouds-for-indoor-scenes
+  numCitedBy: 403
+  pid: c1154caa764391f8523100d52bab543b0a6bdb66
+  show_ref_link: false
+  title: Semantic Labeling of 3D Point Clouds for Indoor Scenes
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-simultaneous-detection-and-segmentation
+  numCitedBy: 1066
+  pid: 342786659379879f58bf5c4ff43c84c83a6a7389
+  show_ref_link: true
+  title: Simultaneous Detection and Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-large-scale-hierarchical-multi-view-rgb-d-object-dataset
+  numCitedBy: 1371
+  pid: 055fec9810fe1e98944a229303b0000afbb47b31
+  show_ref_link: false
+  title: A large-scale hierarchical multi-view RGB-D object dataset
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-convolutional-recursive-deep-learning-for-3d-object-classification
+  numCitedBy: 593
+  pid: cc75c81148245198d4c6d4c8fcbbae487215903b
+  show_ref_link: false
+  title: Convolutional-Recursive Deep Learning for 3D Object Classification
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-indoor-semantic-segmentation-using-depth-information
+  numCitedBy: 375
+  pid: 8f3c7fc72635c3b95dc3530fdaceee1d4681548e
+  show_ref_link: false
+  title: Indoor Semantic Segmentation using depth information
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-unsupervised-feature-learning-for-rgb-d-based-object-recognition
+  numCitedBy: 391
+  pid: 829a5836ab1ce85398a21d6dc9368555aeff424e
+  show_ref_link: false
+  title: Unsupervised Feature Learning for RGB-D Based Object Recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-structured-hough-voting-for-joint-object-detection-and-occlusion-reasoning
+  numCitedBy: 34
+  pid: 260e90354a605009629e925b73c01468e1cb6a87
+  show_ref_link: false
+  title: Learning Structured Hough Voting for Joint Object Detection and Occlusion Reasoning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-histogram-of-oriented-normal-vectors-for-object-recognition-with-a-depth-sensor
+  numCitedBy: 196
+  pid: e64fa00da02cc774559db5be88bc2862afbfd432
+  show_ref_link: false
+  title: Histogram of Oriented Normal Vectors for Object Recognition with a Depth Sensor
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fast-edge-detection-using-structured-forests
+  numCitedBy: 707
+  pid: 23a2a87ea5347a6f7b1f703a91e8894baba68fe1
+  show_ref_link: false
+  title: Fast Edge Detection Using Structured Forests
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-holistic-scene-understanding-for-3d-object-detection-with-rgbd-cameras
+  numCitedBy: 276
+  pid: a8cf06b148b1771345e54062bf0dc9889d26804b
+  show_ref_link: false
+  title: Holistic Scene Understanding for 3D Object Detection with RGBD Cameras
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-structured-forests-for-fast-edge-detection
+  numCitedBy: 873
+  pid: 9e8ce202fb51cd11d2b926e7ad21e08a58a43903
+  show_ref_link: false
+  title: Structured Forests for Fast Edge Detection
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-category-level-3-d-object-dataset-putting-the-kinect-to-work
+  numCitedBy: 276
+  pid: 7f6c911761d3dad5054daa78632846bae8c4fc2a
+  show_ref_link: false
+  title: A category-level 3-D object dataset - Putting the Kinect to work
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-indoor-segmentation-and-support-inference-from-rgbd-images
+  numCitedBy: 3535
+  pid: c1994ba5946456fc70948c549daf62363f13fa2d
+  show_ref_link: true
+  title: Indoor Segmentation and Support Inference from RGBD Images
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-sketch-tokens-a-learned-mid-level-representation-for-contour-and-object-detection
+  numCitedBy: 374
+  pid: 6b71a01be65d5040809b409105b77f0da810d057
+  show_ref_link: false
+  title: Sketch Tokens - A Learned Mid-level Representation for Contour and Object Detection
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-discriminatively-trained-sparse-code-gradients-for-contour-detection
+  numCitedBy: 228
+  pid: b493e970256a99ec69e518f63364d380d08cd1d2
+  show_ref_link: false
+  title: Discriminatively Trained Sparse Code Gradients for Contour Detection
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-support-surface-prediction-in-indoor-scenes
+  numCitedBy: 86
+  pid: 073a288b813607e60d27a5b72229ba8cf2d5cb5e
+  show_ref_link: false
+  title: Support Surface Prediction in Indoor Scenes
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25655
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-scene-parsing-with-object-instances-and-occlusion-ordering
+  numCitedBy: 122
+  pid: 9f6674449c973fffa40aa890470009c962d809b5
+  show_ref_link: false
+  title: Scene Parsing with Object Instances and Occlusion Ordering
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-object-detection-with-discriminatively-trained-part-based-models
+  numCitedBy: 9391
+  pid: e79272fe3d65197100eae8be9fec6469107969ae
+  show_ref_link: true
+  title: Object Detection with Discriminatively Trained Part Based Models
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+  numCitedBy: 4251
+  pid: b8de958fead0d8a9619b55c7299df3257c624a96
+  show_ref_link: true
+  title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-contour-detection-and-hierarchical-image-segmentation
+  numCitedBy: 4211
+  pid: 0e5a262bf59b68ba8a7a1103d16fa33a9f5ffc28
+  show_ref_link: true
+  title: Contour Detection and Hierarchical Image Segmentation
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 81429
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Education
+  meta_key: 2013-object-detection-in-rgb-d-indoor-scenes-1
+  numCitedBy: 16
+  pid: 5f3323965eb104f8bd9b1b2816d00fce848855b7
+  show_ref_link: false
+  title: Object Detection in RGB-D Indoor Scenes 1
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-multiscale-combinatorial-grouping
+  numCitedBy: 1042
+  pid: 83d1118c2b2995a3e0cf9b6159e4c59e85cabb7e
+  show_ref_link: true
+  title: Multiscale Combinatorial Grouping
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13778
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-joint-induction-of-shape-features-and-tree-classifiers
+  numCitedBy: 210
+  pid: 9f7c640ea1fe32e017c68005ef5e18969039b3f4
+  show_ref_link: false
+  title: Joint Induction of Shape Features and Tree Classifiers
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-random-forests
+  numCitedBy: 65460
+  pid: 13d4c2f76a7c1a4d0a71204e1d5d263a3f5a7986
+  show_ref_link: true
+  title: Random Forests
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7869
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-liblinear-a-library-for-large-linear-classification
+  numCitedBy: 7774
+  pid: 268a4f8da15a42f3e0e71691f760ff5edbf9cec8
+  show_ref_link: true
+  title: LIBLINEAR - A Library for Large Linear Classification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-cpmc-3d-o2p-semantic-segmentation-of-rgb-d-images-using-cpmc-and-second-order-pooling
+  numCitedBy: 22
+  pid: 661ce2ff29b60e17cedb032b398c034dd16c4a7d
+  show_ref_link: false
+  title: CPMC-3D-O2P - Semantic segmentation of RGB-D images using CPMC and Second Order Pooling
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-edge-detection-using-structured-forests
+  numCitedBy: 28
+  pid: 1d3b0e7c49f8de3cf17303e560bef528deaaf75d
+  show_ref_link: false
+  title: Fast Edge Detection Using Structured Forests
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-building-part-based-object-detectors-via-3d-geometry
+  numCitedBy: 41
+  pid: f00f58a2b291173cf2a8b1841ccd9782467cfb9f
+  show_ref_link: false
+  title: Building Part-Based Object Detectors via 3D Geometry
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-hierarchical-features-for-scene-labeling
+  numCitedBy: 2412
+  pid: 237a04dd8291cbdb59b6dc4b53e689af743fe2a3
+  show_ref_link: true
+  title: Learning Hierarchical Features for Scene Labeling
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-real-time-human-pose-recognition-in-parts-from-single-depth-images
+  numCitedBy: 2799
+  pid: 2915510a39448503ee873f9693cd3808ca74bd81
+  show_ref_link: true
+  title: Real-time human pose recognition in parts from single depth images
+  year: 2011
+slug: Learning-Rich-Features-from-RGB-D-Images-for-Object-Gupta-Girshick
+title: Learning Rich Features from RGB-D Images for Object Detection and Segmentation
+url: https://www.semanticscholar.org/paper/Learning-Rich-Features-from-RGB-D-Images-for-Object-Gupta-Girshick/2c0b510ebf995ef172cb64ed7ce24aa7903dced8?sort=total-citations
+venue: ECCV
+year: 2014

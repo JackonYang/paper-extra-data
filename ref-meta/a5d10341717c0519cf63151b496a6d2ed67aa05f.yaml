@@ -1,0 +1,341 @@
+authors:
+- Jin-Hwa Kim
+- Jaehyun Jun
+- Byoung-Tak Zhang
+badges:
+- id: OPEN_ACCESS
+corpusId: 29150617
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-bilinear-attention-networks
+numCitedBy: 418
+numCiting: 52
+paperAbstract: Attention networks in multimodal learning provide an efficient way to utilize given visual information selectively. However, the computational cost to learn attention distributions for every pair of multimodal input channels is prohibitively expensive. To solve this problem, co-attention builds two separate attention distributions for each modality neglecting the interaction between multimodal inputs. In this paper, we propose bilinear attention networks (BAN) that find bilinear attention distributions to utilize given vision-language information seamlessly. BAN considers bilinear interactions among two groups of input channels, while low-rank bilinear pooling extracts the joint representations for each pair of channels. Furthermore, we propose a variant of multimodal residual networks to exploit eight-attention maps of the BAN efficiently. We quantitatively and qualitatively evaluate our model on visual question answering (VQA 2.0) and Flickr30k Entities datasets, showing that BAN significantly outperforms previous methods and achieves new state-of-the-arts on both datasets.
+ref_count: 52
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-dual-attention-networks-for-multimodal-reasoning-and-matching
+  numCitedBy: 476
+  pid: f651593fa6c83d717fc961482696a53b6fca5ab5
+  show_ref_link: true
+  title: Dual Attention Networks for Multimodal Reasoning and Matching
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-multimodal-residual-learning-for-visual-qa
+  numCitedBy: 227
+  pid: 1afb710a5b35a2352a6495e4bf6eef66808daf1b
+  show_ref_link: false
+  title: Multimodal Residual Learning for Visual QA
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-beyond-bilinear-generalized-multimodal-factorized-high-order-pooling-for-visual-question-answering
+  numCitedBy: 267
+  pid: 0c0f41d3162e76500d4639557ff4463bd246e395
+  show_ref_link: false
+  title: Beyond Bilinear - Generalized Multimodal Factorized High-Order Pooling for Visual Question Answering
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-multimodal-compact-bilinear-pooling-for-visual-question-answering-and-visual-grounding
+  numCitedBy: 1092
+  pid: fddc15480d086629b960be5bff96232f967f2252
+  show_ref_link: true
+  title: Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-hierarchical-question-image-co-attention-for-visual-question-answering
+  numCitedBy: 1130
+  pid: fb9d253258d6b3beceb9d6cd7bba6e0a29ab875b
+  show_ref_link: true
+  title: Hierarchical Question-Image Co-Attention for Visual Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ask-attend-and-answer-exploring-question-guided-spatial-attention-for-visual-question-answering
+  numCitedBy: 654
+  pid: 1cf6bc0866226c1f8e282463adc8b75d92fba9bb
+  show_ref_link: true
+  title: Ask, Attend and Answer - Exploring Question-Guided Spatial Attention for Visual Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-top-down-neural-attention-by-excitation-backprop
+  numCitedBy: 477
+  pid: 7361e42c5eb0d5438c4294cc7ea3f9a53d326309
+  show_ref_link: false
+  title: Top-Down Neural Attention by Excitation Backprop
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-a-simple-loss-function-for-improving-the-convergence-and-accuracy-of-visual-question-answering-models
+  numCitedBy: 10
+  pid: 6e390a6a6d783bc0898915dc48f7f1844db5137c
+  show_ref_link: false
+  title: A Simple Loss Function for Improving the Convergence and Accuracy of Visual Question Answering Models
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-to-count-objects-in-natural-images-for-visual-question-answering
+  numCitedBy: 150
+  pid: 30a3eee5e9302108416f6234d739373dde68d373
+  show_ref_link: false
+  title: Learning to Count Objects in Natural Images for Visual Question Answering
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-making-the-v-in-vqa-matter-elevating-the-role-of-image-understanding-in-visual-question-answering
+  numCitedBy: 1178
+  pid: a27ed1310b9c0832bde8f906e0fcd23d1f3aa79c
+  show_ref_link: true
+  title: Making the V in VQA Matter - Elevating the Role of Image Understanding in Visual Question Answering
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-spatial-transformer-networks
+  numCitedBy: 4612
+  pid: fe87ea16d5eb1c7509da9a0314bbf4c7b0676506
+  show_ref_link: true
+  title: Spatial Transformer Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-grounding-of-textual-phrases-in-images-by-reconstruction
+  numCitedBy: 381
+  pid: 14c2321851fb5ae580a19726dd2753a525d6ad76
+  show_ref_link: true
+  title: Grounding of Textual Phrases in Images by Reconstruction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-bottom-up-and-top-down-attention-for-image-captioning-and-visual-question-answering
+  numCitedBy: 2310
+  pid: a82c1d1ccaa3a3d1d6ee6677de0eed2e93ddb6e8
+  show_ref_link: true
+  title: Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 32899
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-interpretable-and-globally-optimal-prediction-for-textual-grounding-using-image-concepts
+  numCitedBy: 52
+  pid: e81df94c24c08963c7d338d601bb030a8d919720
+  show_ref_link: false
+  title: Interpretable and Globally Optimal Prediction for Textual Grounding using Image Concepts
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 96474
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-vqa-machine-learning-how-to-use-existing-vision-algorithms-to-answer-new-questions
+  numCitedBy: 74
+  pid: 7d52fa1a9021d3596930ad2d5121e9d125113ab2
+  show_ref_link: false
+  title: The VQA-Machine - Learning How to Use Existing Vision Algorithms to Answer New Questions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tips-and-tricks-for-visual-question-answering-learnings-from-the-2017-challenge
+  numCitedBy: 287
+  pid: b14a60a1c3e6bb45baddd754a1cfe83ffc1bbb81
+  show_ref_link: false
+  title: Tips and Tricks for Visual Question Answering - Learnings from the 2017 Challenge
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-deep-structure-preserving-image-text-embeddings
+  numCitedBy: 587
+  pid: b27e791e843c924ef052981b79490ab59fc0433d
+  show_ref_link: true
+  title: Learning Deep Structure-Preserving Image-Text Embeddings
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-visual-genome-connecting-language-and-vision-using-crowdsourced-dense-image-annotations
+  numCitedBy: 2810
+  pid: afcf4dbd2ef300e5c4b35043d4fbe516807cdf7d
+  show_ref_link: true
+  title: Visual Genome - Connecting Language and Vision Using Crowdsourced Dense Image Annotations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-bilinear-classifiers-for-visual-recognition
+  numCitedBy: 142
+  pid: 094f5e36dae2602e179f2c1d95a616df3dbe967f
+  show_ref_link: false
+  title: Bilinear classifiers for visual recognition
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-residual-networks-are-exponential-ensembles-of-relatively-shallow-networks
+  numCitedBy: 99
+  pid: ec6bb39f18f20dbb504790a5f7089e40de33b169
+  show_ref_link: false
+  title: Residual Networks are Exponential Ensembles of Relatively Shallow Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-interpretable-counting-for-visual-question-answering
+  numCitedBy: 46
+  pid: 0605a012aeeee9bef773812a533c4f3cb7fa5a5f
+  show_ref_link: false
+  title: Interpretable Counting for Visual Question Answering
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-natural-language-object-retrieval
+  numCitedBy: 422
+  pid: d696a1923288e6c15422660de9553f6fdb6a4fae
+  show_ref_link: true
+  title: Natural Language Object Retrieval
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-modeling-appearances-with-low-rank-svm
+  numCitedBy: 70
+  pid: 0234a8b7d43b22fb4f3998e768f668b38d362770
+  show_ref_link: false
+  title: Modeling Appearances with Low-Rank SVM
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-query-adaptive-r-cnn-for-open-vocabulary-object-detection-and-retrieval
+  numCitedBy: 2
+  pid: 8a1a1fcfd30232165b9691fb568885c3aef46c8b
+  show_ref_link: false
+  title: Query-Adaptive R-CNN for Open-Vocabulary Object Detection and Retrieval
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-vqa-visual-question-answering
+  numCitedBy: 2930
+  pid: 97ad70a9fa3f99adf18030e5e38ebe3d90daa2db
+  show_ref_link: true
+  title: VQA - Visual Question Answering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 90882
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-weight-normalization-a-simple-reparameterization-to-accelerate-training-of-deep-neural-networks
+  numCitedBy: 1296
+  pid: 3d2c6941a9b4608ba52b328369a3352db2092ae0
+  show_ref_link: true
+  title: Weight Normalization - A Simple Reparameterization to Accelerate Training of Deep Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2015-fast-r-cnn
+  numCitedBy: 14192
+  pid: 7ffdbc358b63378f07311e883dddacc9faeeaf4b
+  show_ref_link: true
+  title: Fast R-CNN
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28300
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-glove-global-vectors-for-word-representation
+  numCitedBy: 22729
+  pid: f37e1b62a767a307c046404ca96bc140b3e68cb5
+  show_ref_link: true
+  title: GloVe - Global Vectors for Word Representation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-multiscale-combinatorial-grouping
+  numCitedBy: 1042
+  pid: 83d1118c2b2995a3e0cf9b6159e4c59e85cabb7e
+  show_ref_link: true
+  title: Multiscale Combinatorial Grouping
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-yolo9000-better-faster-stronger
+  numCitedBy: 8017
+  pid: 7d39d69b23424446f0400ef603b2e3e22d0309d6
+  show_ref_link: true
+  title: YOLO9000 - Better, Faster, Stronger
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-structured-matching-for-phrase-localization
+  numCitedBy: 74
+  pid: 3dd4f855d0c794060a8a2fabe0639f4a4e792b45
+  show_ref_link: false
+  title: Structured Matching for Phrase Localization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15156
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-edge-boxes-locating-object-proposals-from-edges
+  numCitedBy: 2419
+  pid: b183947ee15718b45546eda6b01e179b9a95421f
+  show_ref_link: true
+  title: Edge Boxes - Locating Object Proposals from Edges
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12891
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-from-image-descriptions-to-visual-denotations-new-similarity-metrics-for-semantic-inference-over-event-descriptions
+  numCitedBy: 1342
+  pid: 44040913380206991b1991daf1192942e038fe31
+  show_ref_link: true
+  title: From image descriptions to visual denotations - New similarity metrics for semantic inference over event descriptions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mutan-multimodal-tucker-fusion-for-visual-question-answering
+  numCitedBy: 392
+  pid: fe466e84fa2e838adc3c37ee327cd68004ae08fe
+  show_ref_link: false
+  title: MUTAN - Multimodal Tucker Fusion for Visual Question Answering
+  year: 2017
+slug: Bilinear-Attention-Networks-Kim-Jun
+title: Bilinear Attention Networks
+url: https://www.semanticscholar.org/paper/Bilinear-Attention-Networks-Kim-Jun/a5d10341717c0519cf63151b496a6d2ed67aa05f?sort=total-citations
+venue: NeurIPS
+year: 2018

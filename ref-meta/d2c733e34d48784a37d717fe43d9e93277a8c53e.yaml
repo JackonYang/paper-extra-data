@@ -1,0 +1,223 @@
+authors:
+- Jia Deng
+- Wei Dong
+- R. Socher
+- Li-Jia Li
+- K. Li
+- Li Fei-Fei
+badges:
+- id: OPEN_ACCESS
+corpusId: 57246310
+fieldsOfStudy:
+- Computer Science
+meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+numCitedBy: 27839
+numCiting: 27
+paperAbstract: "The explosion of image data on the Internet has the potential to foster more sophisticated and robust models and algorithms to index, retrieve, organize and interact with images and multimedia data. But exactly how such data can be harnessed and organized remains a critical problem. We introduce here a new database called \u201CImageNet\u201D, a large-scale ontology of images built upon the backbone of the WordNet structure. ImageNet aims to populate the majority of the 80,000 synsets of WordNet with an average of 500-1000 clean and full resolution images. This will result in tens of millions of annotated images organized by the semantic hierarchy of WordNet. This paper offers a detailed analysis of ImageNet in its current state: 12 subtrees with 5247 synsets and 3.2 million images in total. We show that ImageNet is much larger in scale and diversity and much more accurate than the current image datasets. Constructing such a large-scale database is a challenging task. We describe the data collection scheme with Amazon Mechanical Turk. Lastly, we illustrate the usefulness of ImageNet through three simple applications in object recognition, image classification and automatic object clustering. We hope that the scale, accuracy, diversity and hierarchical structure of ImageNet can offer unparalleled opportunities to researchers in the computer vision community and beyond."
+ref_count: 27
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-80-million-tiny-images-a-large-data-set-for-nonparametric-object-and-scene-recognition
+  numCitedBy: 1871
+  pid: 54d2b5c64a67f65c5dd812b89e07973f97699552
+  show_ref_link: false
+  title: 80 Million Tiny Images - A Large Data Set for Nonparametric Object and Scene Recognition
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-optimol-automatic-online-picture-collection-via-incremental-model-learning
+  numCitedBy: 343
+  pid: d4ed0b69a2e9a3d75ac13c4ff43044fea9b5df6e
+  show_ref_link: false
+  title: OPTIMOL - Automatic Online Picture Collection via Incremental Model Learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-scalable-recognition-with-a-vocabulary-tree
+  numCitedBy: 3895
+  pid: b3e7d3e37e67af7f4546b46051063bea1b62dbae
+  show_ref_link: true
+  title: Scalable Recognition with a Vocabulary Tree
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-introduction-to-a-large-scale-general-purpose-ground-truth-database-methodology-annotation-tool-and-benchmarks
+  numCitedBy: 240
+  pid: 9d1813749fcb36351fff850f0391968b62fc73b7
+  show_ref_link: false
+  title: Introduction to a Large-Scale General Purpose Ground Truth Database - Methodology, Annotation Tool and Benchmarks
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-learning-object-categories-from-google-s-image-search
+  numCitedBy: 830
+  pid: 7c6f0c1917bb0f7e23c4c35b553045fa39663211
+  show_ref_link: false
+  title: Learning object categories from Google's image search
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-constructing-category-hierarchies-for-visual-recognition
+  numCitedBy: 180
+  pid: dc22b98797333881542ccacea3179ba1cec522ae
+  show_ref_link: false
+  title: Constructing Category Hierarchies for Visual Recognition
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-semantic-hierarchies-for-visual-object-recognition
+  numCitedBy: 309
+  pid: 530b99c3819bd4c4f1884fa89c9a0d6e024156bd
+  show_ref_link: false
+  title: Semantic Hierarchies for Visual Object Recognition
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-towards-scalable-dataset-construction-an-active-learning-approach
+  numCitedBy: 135
+  pid: 804d14a9033b4ff532ba39c2f7d0aeac8a5548f7
+  show_ref_link: false
+  title: Towards Scalable Dataset Construction - An Active Learning Approach
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-one-shot-learning-of-object-categories
+  numCitedBy: 2370
+  pid: 812355cec91fa30bb50e9e992a3549af39e4f6eb
+  show_ref_link: false
+  title: One-shot learning of object categories
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-from-aardvark-to-zorro-a-benchmark-for-mammal-image-classification
+  numCitedBy: 22
+  pid: 2aa330150205f30ce23a6fce88c1de6776744574
+  show_ref_link: false
+  title: From Aardvark to Zorro - A Benchmark for Mammal Image Classification
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-textonboost-joint-appearance-shape-and-context-modeling-for-multi-class-object-recognition-and-segmentation
+  numCitedBy: 1352
+  pid: fb444dc25bab36a8e273ed654d49e3841905e5af
+  show_ref_link: false
+  title: TextonBoost - Joint Appearance, Shape and Context Modeling for Multi-class Object Recognition and Segmentation
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-exploiting-object-hierarchy-combining-models-from-different-category-levels
+  numCitedBy: 132
+  pid: 352c53e56c52a49d33dcdbec5690c2ba604b07d0
+  show_ref_link: false
+  title: Exploiting Object Hierarchy - Combining Models from Different Category Levels
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-labeled-faces-in-the-wild-a-database-forstudying-face-recognition-in-unconstrained-environments
+  numCitedBy: 4920
+  pid: c6b3ca4f939e36a9679a70e14ce8b1bbbc5618f3
+  show_ref_link: true
+  title: Labeled Faces in the Wild - A Database forStudying Face Recognition in Unconstrained Environments
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-in-defense-of-nearest-neighbor-based-image-classification
+  numCitedBy: 1206
+  pid: 7ae4d5ec354f2a54b5cd70395cb12283390d0638
+  show_ref_link: false
+  title: In defense of Nearest-Neighbor based image classification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-the-cornetto-database-architecture-and-user-scenarios
+  numCitedBy: 39
+  pid: 2bef0591b8bbab4760a84488949ad06cb3928909
+  show_ref_link: false
+  title: The Cornetto Database - Architecture and User-Scenarios
+  year: 2007
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2008-utility-data-annotation-with-amazon-mechanical-turk
+  numCitedBy: 645
+  pid: d513d8b6470c7cbbeca8563505de8711325a3179
+  show_ref_link: false
+  title: Utility data annotation with Amazon Mechanical Turk
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-wordnet-for-italian-and-its-use-for-lexical-deiscrimination
+  numCitedBy: 29
+  pid: 1f835635e98e7cd47721a121dd8031f9c2d9af9f
+  show_ref_link: false
+  title: WordNet for Italian and Its Use for Lexical Deiscrimination
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-the-feret-database-and-evaluation-procedure-for-face-recognition-algorithms
+  numCitedBy: 2403
+  pid: dc8b25e35a3acb812beb499844734081722319b4
+  show_ref_link: false
+  title: The FERET database and evaluation procedure for face-recognition algorithms
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-distinctive-image-features-from-scale-invariant-keypoints
+  numCitedBy: 25615
+  pid: 4cab9c4b571761203ed4c3a4c5a07dd615f57a91
+  show_ref_link: true
+  title: Distinctive Image Features from Scale-Invariant Keypoints
+  year: 2004
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1978-principles-of-categorization
+  numCitedBy: 5728
+  pid: 3f3421a27033ea4e7112024fc60d85efd12192f3
+  show_ref_link: false
+  title: Principles of Categorization
+  year: 1978
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-labeling-images-with-a-computer-game
+  numCitedBy: 2388
+  pid: c2d4a6e4900ec0f096c87bb2b1272eeceaa584a6
+  show_ref_link: false
+  title: Labeling images with a computer game
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-wordnet-an-electronic-lexical-database
+  numCitedBy: 13603
+  pid: d87ceda3042f781c341ac17109d1e94a717f5f60
+  show_ref_link: true
+  title: WordNet - an electronic lexical database
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-caltech-256-object-category-dataset
+  numCitedBy: 2551
+  pid: 5a5effa909cdeafaddbbb7855037e02f8e25d632
+  show_ref_link: false
+  title: Caltech-256 Object Category Dataset
+  year: 2007
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 2006-the-pascal-visual-object-classes-challenge
+  numCitedBy: 3336
+  pid: 0ec48ac86456cea3d6d6172ca81ef68e98b21a61
+  show_ref_link: true
+  title: The PASCAL Visual Object Classes Challenge
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-labelme-a-database-and-web-based-tool-for-image-annotation
+  numCitedBy: 3088
+  pid: 092c275005ae49dc1303214f6d02d134457c7053
+  show_ref_link: true
+  title: LabelMe - A Database and Web-Based Tool for Image Annotation
+  year: 2007
+slug: ImageNet:-A-large-scale-hierarchical-image-database-Deng-Dong
+title: ImageNet - A large-scale hierarchical image database
+url: https://www.semanticscholar.org/paper/ImageNet:-A-large-scale-hierarchical-image-database-Deng-Dong/d2c733e34d48784a37d717fe43d9e93277a8c53e?sort=total-citations
+venue: 2009 IEEE Conference on Computer Vision and Pattern Recognition
+year: 2009

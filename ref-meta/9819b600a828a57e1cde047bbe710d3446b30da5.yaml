@@ -1,0 +1,142 @@
+authors:
+- Tomas Mikolov
+- "M. Karafi\xE1t"
+- L. Burget
+- "J. Cernock\xFD"
+- S. Khudanpur
+badges:
+- id: OPEN_ACCESS
+corpusId: 17048224
+fieldsOfStudy:
+- Computer Science
+meta_key: 2010-recurrent-neural-network-based-language-model
+numCitedBy: 4919
+numCiting: 20
+paperAbstract: 'A new recurrent neural network based language model (RNN LM) with applications to speech recognition is presented. Results indicate that it is possible to obtain around 50% reduction of perplexity by using mixture of several RNN LMs, compared to a state of the art backoff language model. Speech recognition experiments show around 18% reduction of word error rate on the Wall Street Journal task when comparing models trained on the same amount of data, and around 5% on the much harder NIST RT05 task, even when the backoff model is trained on much more data than the RNN LM. We provide ample empirical evidence to suggest that connectionist language models are superior to standard n-gram techniques, except their high computational (training) complexity. Index Terms: language modeling, recurrent neural networks, speech recognition'
+ref_count: 20
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-training-neural-network-language-models-on-very-large-corpora
+  numCitedBy: 128
+  pid: 8b395470a57c48d174c4216ea21a7a58bc046917
+  show_ref_link: false
+  title: Training Neural Network Language Models on Very Large Corpora
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-hierarchical-probabilistic-neural-network-language-model
+  numCitedBy: 944
+  pid: c19fbefdeead6a4154a22a9c8551a18b1530033a
+  show_ref_link: false
+  title: Hierarchical Probabilistic Neural Network Language Model
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-neural-network-based-language-models-for-highly-inflective-languages
+  numCitedBy: 85
+  pid: 7fefba4d85d8eb32efe43fd54a13c9b396ac19dc
+  show_ref_link: false
+  title: Neural network based language models for highly inflective languages
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-adaptive-importance-sampling-to-accelerate-training-of-a-neural-probabilistic-language-model
+  numCitedBy: 193
+  pid: 699d5ab38deee78b1fd17cc8ad233c74196d16e9
+  show_ref_link: false
+  title: Adaptive Importance Sampling to Accelerate Training of a Neural Probabilistic Language Model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-self-supervised-discriminative-training-of-statistical-language-models
+  numCitedBy: 35
+  pid: 0963942fdcba17f7b94d1d636431d4a772476711
+  show_ref_link: false
+  title: Self-supervised discriminative training of statistical language models
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-neural-probabilistic-language-model
+  numCitedBy: 6028
+  pid: 6c2b28f9354f667cd5bd07afc0471d8334430da7
+  show_ref_link: false
+  title: A Neural Probabilistic Language Model
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-learning-long-term-dependencies-with-gradient-descent-is-difficult
+  numCitedBy: 6165
+  pid: d0be39ee052d246ae99c082a565aba25b811be2d
+  show_ref_link: false
+  title: Learning long-term dependencies with gradient descent is difficult
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-the-2005-ami-system-for-the-transcription-of-speech-in-meetings
+  numCitedBy: 76
+  pid: fc999072ce188ee1d57b6bb744cb276b09a491bb
+  show_ref_link: false
+  title: The 2005 AMI System for the Transcription of Speech in Meetings
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-a-bit-of-progress-in-language-modeling
+  numCitedBy: 549
+  pid: 09c76da2361d46689825c4efc37ad862347ca577
+  show_ref_link: false
+  title: A bit of progress in language modeling
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-fast-text-compression-with-neural-networks
+  numCitedBy: 54
+  pid: 119b5e8927f98e3fea76cbb57d7e053c24ac5c18
+  show_ref_link: false
+  title: Fast Text Compression with Neural Networks
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-a-guide-to-recurrent-neural-networks-and-backpropagation
+  numCitedBy: 248
+  pid: 8a0e2e4dd10e1be7fd28474504cbdaa1237e4926
+  show_ref_link: false
+  title: A guide to recurrent neural networks and backpropagation
+  year: 2001
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1990-finding-structure-in-time
+  numCitedBy: 9874
+  pid: 668087f0ae7ce1de6e0bd0965dbb480c08103260
+  show_ref_link: false
+  title: Finding Structure in Time
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-text-compression-as-a-test-for-artificial-intelligence
+  numCitedBy: 49
+  pid: 43e5b43965aa4099e75110e4fd8e5458efb82fd8
+  show_ref_link: false
+  title: Text Compression as a Test for Artificial Intelligence
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-a-joint-language-model-with-fine-grain-syntactic-tags
+  numCitedBy: 46
+  pid: 927c25cdd384e8f39ed7db7ab1558eb7fd8f048c
+  show_ref_link: false
+  title: A Joint Language Model With Fine-grain Syntactic Tags
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-the-ami-system-for-the-transcription-of-speech-in-meetings
+  numCitedBy: 121
+  pid: 1564b8ff799983f335dbf3bb7a5c92b689c4a19f
+  show_ref_link: false
+  title: The AMI System for the Transcription of Speech in Meetings
+  year: 2007
+slug: "Recurrent-neural-network-based-language-model-Mikolov-Karafi\xE1t"
+title: Recurrent neural network based language model
+url: "https://www.semanticscholar.org/paper/Recurrent-neural-network-based-language-model-Mikolov-Karafi\xE1t/9819b600a828a57e1cde047bbe710d3446b30da5?sort=total-citations"
+venue: INTERSPEECH
+year: 2010
