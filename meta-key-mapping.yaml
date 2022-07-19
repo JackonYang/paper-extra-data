@@ -4,10 +4,15 @@
 2016-deep-residual-learning-for-image-recognition: 2015-resnet
 2016-ssd: 2016-ssd-net
 2016-ssd-single-shot-multibox-detector: 2016-ssd-net
+2017-attention-is-all-you-need: 2017-transformer
 2019-bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding: 2019-bert
 2019-character-region-awareness-for-text-detection: 2019-craft-ocr
-attention-is-all-you-need: 2017-attention-is-all-you-need
+2019-craft-character-region-awareness: 2019-craft-ocr
+a-tour-of-c: a-tour-of-cpp
+attention-is-all-you-need: 2017-transformer
 bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding: 2019-bert
 character-region-awareness-for-text-detection: 2019-craft-ocr
+dragon-book-compiles: 2009-compilers-dragon-book
+essentials-of-programming-languages-3e-mit-2008: 2008-essentials-of-programming-languages-en
 imagenet-classification-with-deep-convolutional-neural-networks: 2012-alexnet
 what-is-wrong-with-scene-text-recognition-model-comparisons: 2019-what-is-wrong-with-scene-text-recognition-model-comparisons-dataset-and-model-analysis

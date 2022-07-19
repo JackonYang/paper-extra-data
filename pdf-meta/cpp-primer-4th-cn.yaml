@@ -1,0 +1,15 @@
+content_md5: eba5a018057db5f700885411fac82513
+edition: 4th
+filesize: 2980574
+filesize_readable: 2.8 MB
+language: cn
+meta_key: cpp-primer-4th-cn
+meta_relpath: paper-extra-data/pdf-meta/cpp-primer-4th-cn.yaml
+pdf_relpath: paper-repo/pdfs/cpp-primer-4th-cn.pdf
+raw_ext: .pdf
+raw_filename: cpp-primer-4th-cn
+tags:
+- other-default
+- paper
+title: Cpp Primer
+url_slug: cpp-primer-4th-cn
