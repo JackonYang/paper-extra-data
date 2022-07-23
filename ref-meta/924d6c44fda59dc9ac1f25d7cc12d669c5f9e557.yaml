@@ -1,0 +1,401 @@
+authors:
+- Hardik Sharma
+- Jongse Park
+- Divya Mahajan
+- Emmanuel Amaro
+- J. Kim
+- Chenkai Shao
+- Asit K. Mishra
+- H. Esmaeilzadeh
+badges:
+- id: OPEN_ACCESS
+corpusId: 525898
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-from-high-level-deep-neural-models-to-fpgas
+numCitedBy: 341
+numCiting: 53
+paperAbstract: Deep Neural Networks (DNNs) are compute-intensive learning models with growing applicability in a wide range of domains. FPGAs are an attractive choice for DNNs since they offer a programmable substrate for acceleration and are becoming available across different market segments. However, obtaining both performance and energy efficiency with FPGAs is a laborious task even for expert hardware designers. Furthermore, the large memory footprint of DNNs, coupled with the FPGAs' limited on-chip storage makes DNN acceleration using FPGAs more challenging. This work tackles these challenges by devising DnnWeaver, a framework that automatically generates a synthesizable accelerator for a given (DNN, FPGA) pair from a high-level specification in Caffe [1]. To achieve large benefits while preserving automation, DNNWEAVER generates accelerators using hand-optimized design templates. First, DnnWeaver translates a given high-level DNN specification to its novel ISA that represents a macro dataflow graph of the DNN. The DnnWeaver compiler is equipped with our optimization algorithm that tiles, schedules, and batches DNN operations to maximize data reuse and best utilize target FPGA's memory and other resources. The final result is a custom synthesizable accelerator that best matches the needs of the DNN while providing high performance and efficiency gains for the target FPGA. We use DnnWeaver to generate accelerators for a set of eight different DNN models and three different FPGAs, Xilinx Zynq, Altera Stratix V, and Altera Arria 10. We use hardware measurements to compare the generated accelerators to both multicore CPUs (ARM Cortex A15 and Xeon E3) and many-core GPUs (Tegra K1, GTX 650Ti, and Tesla K40). In comparison, the generated accelerators deliver superior performance and efficiency without requiring the programmers to participate in the arduous task of hardware design.
+ref_count: 53
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deepburning-automatic-generation-of-fpga-based-learning-accelerators-for-the-neural-network-family
+  numCitedBy: 169
+  pid: cb7ee710f96dfe999b2b047155fbba079e806b9d
+  show_ref_link: false
+  title: DeepBurning - Automatic generation of FPGA-based learning accelerators for the Neural Network family
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-throughput-optimized-opencl-based-fpga-accelerator-for-large-scale-convolutional-neural-networks
+  numCitedBy: 411
+  pid: b4eac8295c90dbfb7d8d22ba560e025621287c58
+  show_ref_link: false
+  title: Throughput-Optimized OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-optimizing-fpga-based-accelerator-design-for-deep-convolutional-neural-networks
+  numCitedBy: 1482
+  pid: 7c91eb0f9bbae8e2d3d007db73b8422b61ed1d68
+  show_ref_link: true
+  title: Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-minerva-enabling-low-power-highly-accurate-deep-neural-network-accelerators
+  numCitedBy: 312
+  pid: 91d03e4bf98a03c827983457e6de43cbd4c6ccd7
+  show_ref_link: false
+  title: Minerva - Enabling Low-Power, Highly-Accurate Deep Neural Network Accelerators
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-going-deeper-with-embedded-fpga-platform-for-convolutional-neural-network
+  numCitedBy: 897
+  pid: c382406fd8db2744b2a609837395e5da05e1d2ed
+  show_ref_link: false
+  title: Going Deeper with Embedded FPGA Platform for Convolutional Neural Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-diannao-a-small-footprint-high-throughput-accelerator-for-ubiquitous-machine-learning
+  numCitedBy: 1235
+  pid: 22e477a9fdde86ab1f8f4dafdb4d88ea37e31fbd
+  show_ref_link: true
+  title: DianNao - a small-footprint high-throughput accelerator for ubiquitous machine-learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-c-brain-a-deep-learning-accelerator-that-tames-the-diversity-of-cnns-through-adaptive-data-level-parallelization
+  numCitedBy: 102
+  pid: 2e11ca64a35299b612f92ee0782a6ad3c2878f18
+  show_ref_link: false
+  title: C-Brain - A deep learning accelerator that tames the diversity of CNNs through adaptive data-level parallelization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-eie-efficient-inference-engine-on-compressed-deep-neural-network
+  numCitedBy: 1816
+  pid: 2e2b189f668cf2c06ebc44dc9b166648256cf457
+  show_ref_link: true
+  title: EIE - Efficient Inference Engine on Compressed Deep Neural Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tabla-a-unified-template-based-framework-for-accelerating-statistical-machine-learning
+  numCitedBy: 133
+  pid: 160bd7cc365e55c966fea5e4624a8f736a7d979d
+  show_ref_link: false
+  title: TABLA - A unified template-based framework for accelerating statistical machine learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-cambricon-an-instruction-set-architecture-for-neural-networks
+  numCitedBy: 197
+  pid: da6e8bcf1c92167553a5b383fe6fe5109a4c0321
+  show_ref_link: false
+  title: Cambricon - An Instruction Set Architecture for Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dadiannao-a-machine-learning-supercomputer
+  numCitedBy: 1065
+  pid: 4157ed3db4c656854e69931cb6089b64b08784b9
+  show_ref_link: true
+  title: DaDianNao - A Machine-Learning Supercomputer
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-240-g-ops-s-mobile-coprocessor-for-deep-neural-networks
+  numCitedBy: 253
+  pid: 233b1774f28c9972df2dfcf20dfbb0df45792bd0
+  show_ref_link: false
+  title: A 240 G-ops/s Mobile Coprocessor for Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-shidiannao-shifting-vision-processing-closer-to-the-sensor
+  numCitedBy: 743
+  pid: bd6507b5c9deaf87bda81e59ce15b2309df0bf37
+  show_ref_link: false
+  title: ShiDianNao - Shifting vision processing closer to the sensor
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-learning-with-cots-hpc-systems
+  numCitedBy: 679
+  pid: d1208ac421cf8ff67b27d93cd19ae42b8d596f95
+  show_ref_link: false
+  title: Deep learning with COTS HPC systems
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-cnvlutin-ineffectual-neuron-free-deep-neural-network-computing
+  numCitedBy: 444
+  pid: 49b4094f2c313a92da4461572c0bef80b0d7d649
+  show_ref_link: false
+  title: Cnvlutin - Ineffectual-Neuron-Free Deep Neural Network Computing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-ultra-low-energy-convolution-engine-for-fast-brain-inspired-vision-in-multicore-clusters
+  numCitedBy: 86
+  pid: ee6fc98691d9a40e76d0f3e74e23cc1c94d1ed92
+  show_ref_link: false
+  title: A ultra-low-energy convolution engine for fast brain-inspired vision in multicore clusters
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-eyeriss-a-spatial-architecture-for-energy-efficient-dataflow-for-convolutional-neural-networks
+  numCitedBy: 838
+  pid: 5ec594e9f5ca4b629be28625cd78c882514ea3be
+  show_ref_link: true
+  title: Eyeriss - A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-high-level-synthesis-with-a-dataflow-architectural-template
+  numCitedBy: 8
+  pid: 20941b4ca2fb99512bdceeec3f038921b2dff293
+  show_ref_link: false
+  title: High Level Synthesis with a Dataflow Architectural Template
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-14-6-a-1-42tops-w-deep-convolutional-neural-network-recognition-processor-for-intelligent-ioe-systems
+  numCitedBy: 142
+  pid: 46494c6c0e2dd1dca8cd39d40a9681c7d5d6ba62
+  show_ref_link: false
+  title: 14.6 A 1.42TOPS/W deep convolutional neural network recognition processor for intelligent IoE systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-bundled-execution-of-recurring-traces-for-energy-efficient-general-purpose-processing
+  numCitedBy: 103
+  pid: 31f3e5c2f4b7c216fa8a50150b4f3944c24cb6b4
+  show_ref_link: false
+  title: Bundled execution of recurring traces for energy-efficient general purpose processing
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-dynamically-configurable-coprocessor-for-convolutional-neural-networks
+  numCitedBy: 350
+  pid: e1c4e2fa071046569a05e9cfdf13496d094025dd
+  show_ref_link: false
+  title: A dynamically configurable coprocessor for convolutional neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-pudiannao-a-polyvalent-machine-learning-accelerator
+  numCitedBy: 266
+  pid: 68837728232463651283edbb7ef0c93b2f502b2b
+  show_ref_link: false
+  title: PuDianNao - A Polyvalent Machine Learning Accelerator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-dynamically-specialized-datapaths-for-energy-efficient-computing
+  numCitedBy: 208
+  pid: 319993de8b5ba6f42a416f6cb7f856268c348baa
+  show_ref_link: false
+  title: Dynamically Specialized Datapaths for energy efficient computing
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82053
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-convolution-engine-balancing-efficiency-flexibility-in-specialized-computing
+  numCitedBy: 165
+  pid: d50d7cd78126cd4df5dda62f1a75c89d095bc8a5
+  show_ref_link: false
+  title: Convolution engine - balancing efficiency & flexibility in specialized computing
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-neuflow-a-runtime-reconfigurable-dataflow-processor-for-vision
+  numCitedBy: 349
+  pid: 204710a6a6d935150b5b16daf74493dea6d1b7a2
+  show_ref_link: false
+  title: NeuFlow - A runtime reconfigurable dataflow processor for vision
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-sirius-an-open-end-to-end-voice-and-vision-personal-assistant-and-its-implications-for-future-warehouse-scale-computers
+  numCitedBy: 209
+  pid: 7c80811585c37cb6e87f318194489fa6b7967879
+  show_ref_link: false
+  title: Sirius - An Open End-to-End Voice and Vision Personal Assistant and Its Implications for Future Warehouse Scale Computers
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-hardware-accelerated-convolutional-neural-networks-for-synthetic-vision-systems
+  numCitedBy: 223
+  pid: c3c82b476162d2d006e02180530875a64af18154
+  show_ref_link: false
+  title: Hardware accelerated convolutional neural networks for synthetic vision systems
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-conservation-cores-reducing-the-energy-of-mature-computations
+  numCitedBy: 428
+  pid: 135de4744217bec58b8ed5ffc7f9aea11afd0896
+  show_ref_link: false
+  title: Conservation cores - reducing the energy of mature computations
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-djinn-and-tonic-dnn-as-a-service-and-its-implications-for-future-warehouse-scale-computers
+  numCitedBy: 159
+  pid: 0c6c30e3052fcc01aa5ee38252d77f75322d7b3f
+  show_ref_link: false
+  title: DjiNN and Tonic - DNN as a service and its implications for future warehouse scale computers
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-return-of-the-devil-in-the-details-delving-deep-into-convolutional-nets
+  numCitedBy: 3066
+  pid: 14d9be7962a4ec5a6e55755f4c7588ea00793652
+  show_ref_link: true
+  title: Return of the Devil in the Details - Delving Deep into Convolutional Nets
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-speech-recognition-with-deep-recurrent-neural-networks
+  numCitedBy: 6960
+  pid: 4177ec52d1b80ed57f2e72b0f9a42365f1a8598d
+  show_ref_link: true
+  title: Speech recognition with deep recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17475
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-fast-learning-algorithm-for-deep-belief-nets
+  numCitedBy: 13502
+  pid: 8978cf7574ceb35f4c3096be768c7547b28a35d0
+  show_ref_link: true
+  title: A Fast Learning Algorithm for Deep Belief Nets
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35624
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-reconfigurable-fabric-for-accelerating-large-scale-datacenter-services
+  numCitedBy: 966
+  pid: e25c39846d814f0eda33871c4b11c37855b9a70e
+  show_ref_link: false
+  title: A Reconfigurable Fabric for Accelerating Large-Scale Datacenter Services
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3561
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-image-scaling-up-image-recognition
+  numCitedBy: 310
+  pid: f5ce3abf942cdd685fb0f290f3e741f7b4749f0a
+  show_ref_link: false
+  title: Deep Image - Scaling up Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks
+  numCitedBy: 4388
+  pid: 1109b663453e78a59e4f66446d71720ac58cec25
+  show_ref_link: true
+  title: OverFeat - Integrated Recognition, Localization and Detection using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-dark-silicon-and-the-end-of-multicore-scaling
+  numCitedBy: 1714
+  pid: 9ae04be7cd5430355ee380b283475e031b8dff4f
+  show_ref_link: false
+  title: Dark Silicon and the End of Multicore Scaling
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-one-weird-trick-for-parallelizing-convolutional-neural-networks
+  numCitedBy: 889
+  pid: 80d800dfadbe2e6c7b2367d9229cc82912d55889
+  show_ref_link: false
+  title: One weird trick for parallelizing convolutional neural networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7922
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-eyeriss-an-energy-efficient-reconfigurable-accelerator-for-deep-convolutional-neural-networks
+  numCitedBy: 1227
+  pid: 3aada7d05f0478baaa3e92f51b66112171e4e53e
+  show_ref_link: false
+  title: Eyeriss - An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Physics
+  meta_key: 2011-toward-dark-silicon-in-servers
+  numCitedBy: 305
+  pid: 40fb6da9c66d8e57b374d154f9a321560b425d9f
+  show_ref_link: false
+  title: Toward Dark Silicon in Servers
+  year: 2011
+slug: From-high-level-deep-neural-models-to-FPGAs-Sharma-Park
+title: From high-level deep neural models to FPGAs
+url: https://www.semanticscholar.org/paper/From-high-level-deep-neural-models-to-FPGAs-Sharma-Park/924d6c44fda59dc9ac1f25d7cc12d669c5f9e557?sort=total-citations
+venue: 2016 49th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)
+year: 2016

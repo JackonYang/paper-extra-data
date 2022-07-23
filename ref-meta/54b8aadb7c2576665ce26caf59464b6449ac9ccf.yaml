@@ -133,7 +133,7 @@ references:
   meta_key: 2016-semantic-object-parsing-with-graph-lstm
   numCitedBy: 282
   pid: 3cea26512e9fd8bcb4081af44286d395004a5433
-  show_ref_link: false
+  show_ref_link: true
   title: Semantic Object Parsing with Graph LSTM
   year: 2016
 - fieldsOfStudy:

@@ -41,7 +41,7 @@ references:
   meta_key: 2016-from-high-level-deep-neural-models-to-fpgas
   numCitedBy: 341
   pid: 924d6c44fda59dc9ac1f25d7cc12d669c5f9e557
-  show_ref_link: false
+  show_ref_link: true
   title: From high-level deep neural models to FPGAs
   year: 2016
 - fieldsOfStudy:
@@ -81,7 +81,7 @@ references:
   meta_key: 2017-finn-a-framework-for-fast-scalable-binarized-neural-network-inference
   numCitedBy: 590
   pid: 3b2491ddeeaa7beae4d311b217c292a9e16112cf
-  show_ref_link: false
+  show_ref_link: true
   title: FINN - A Framework for Fast, Scalable Binarized Neural Network Inference
   year: 2017
 - fieldsOfStudy:
@@ -137,7 +137,7 @@ references:
   meta_key: 2016-eyeriss-a-spatial-architecture-for-energy-efficient-dataflow-for-convolutional-neural-networks
   numCitedBy: 838
   pid: 5ec594e9f5ca4b629be28625cd78c882514ea3be
-  show_ref_link: false
+  show_ref_link: true
   title: Eyeriss - A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks
   year: 2016
 - fieldsOfStudy:

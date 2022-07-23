@@ -92,7 +92,7 @@ references:
   meta_key: 2017-dynet-the-dynamic-neural-network-toolkit
   numCitedBy: 347
   pid: 480d545ac4a4ffff5b1bc291c2de613192e35d91
-  show_ref_link: false
+  show_ref_link: true
   title: DyNet - The Dynamic Neural Network Toolkit
   year: 2017
 - fieldsOfStudy:

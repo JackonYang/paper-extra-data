@@ -1,0 +1,165 @@
+authors:
+- Zhouhan Lin
+- Matthieu Courbariaux
+- R. Memisevic
+- Yoshua Bengio
+badges:
+- id: OPEN_ACCESS
+corpusId: 2753399
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-neural-networks-with-few-multiplications
+numCitedBy: 280
+numCiting: 21
+paperAbstract: 'For most deep learning algorithms training is notoriously time consuming. Since most of the computation in training neural networks is typically spent on floating point multiplications, we investigate an approach to training that eliminates the need for most of these. Our method consists of two parts: First we stochastically binarize weights to convert multiplications involved in computing hidden states to sign changes. Second, while back-propagating error derivatives, in addition to binarizing the weights, we quantize the representations at each layer to convert the remaining multiplications into binary shifts. Experimental results across 3 popular datasets (MNIST, CIFAR10, SVHN) show that this approach not only does not hurt classification performance but can result in even better performance than standard stochastic gradient descent training, paving the way to fast, hardware-friendly training of neural networks.'
+ref_count: 21
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations
+  numCitedBy: 2135
+  pid: a5733ff08daff727af834345b9cfff1d0aa109ec
+  show_ref_link: true
+  title: BinaryConnect - Training Deep Neural Networks with binary weights during propagations
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-bitwise-neural-networks
+  numCitedBy: 186
+  pid: 8fcfd67f21738eff12d853fdf2b31ee192e2312a
+  show_ref_link: true
+  title: Bitwise Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-backpropagation-without-multiplication
+  numCitedBy: 25
+  pid: 771dc579bf86d269c9565b824f48f0666e84e58c
+  show_ref_link: false
+  title: Backpropagation without Multiplication
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adding-gradient-noise-improves-learning-for-very-deep-networks
+  numCitedBy: 390
+  pid: 6f5a0fbb1473e95d0a14ef2081985d16bc063bfb
+  show_ref_link: false
+  title: Adding Gradient Noise Improves Learning for Very Deep Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-fast-neural-networks-without-multipliers
+  numCitedBy: 141
+  pid: a129781d52d8a1cd24582b940dabb32e8f8c35d2
+  show_ref_link: false
+  title: Fast neural networks without multipliers
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82053
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-computational-cost-reduction-in-learned-transform-classifications
+  numCitedBy: 4
+  pid: 16a40c48e9809e4cc558bb28bf10e4a32092dba2
+  show_ref_link: false
+  title: Computational Cost Reduction in Learned Transform Classifications
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-training-binary-multilayer-neural-networks-for-image-classification-using-expectation-backpropagation
+  numCitedBy: 46
+  pid: 87e35aded44808e9c35ef00d505b6c60f376de2f
+  show_ref_link: false
+  title: Training Binary Multilayer Neural Networks for Image Classification using Expectation Backpropagation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17475
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35624
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-building-high-level-features-using-large-scale-unsupervised-learning
+  numCitedBy: 2112
+  pid: 72e93aa6767ee683de7f001fa72f1314e40a8f35
+  show_ref_link: true
+  title: Building high-level features using large scale unsupervised learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3973
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-theano-new-features-and-speed-improvements
+  numCitedBy: 1375
+  pid: 855d0f722d75cc56a66a00ede18ace96bafee6bd
+  show_ref_link: true
+  title: Theano - new features and speed improvements
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-on-using-monolingual-corpora-in-neural-machine-translation
+  numCitedBy: 445
+  pid: 5fcd41ca42659ff792fc8ee7d535156e8e69f987
+  show_ref_link: false
+  title: On Using Monolingual Corpora in Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-multiplierless-multilayer-feedforward-neural-network-design-suitable-for-continuous-input-output-mapping
+  numCitedBy: 21
+  pid: b9366bd95d7d61737701d331d72447c6af0acb0e
+  show_ref_link: false
+  title: Multiplierless multilayer feedforward neural network design suitable for continuous input-output mapping
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-generating-binary-sequences-for-stochastic-computing
+  numCitedBy: 54
+  pid: bcedfbfb3f1d6cceaba31e068dd3137f25386504
+  show_ref_link: false
+  title: Generating binary sequences for stochastic computing
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-a-device-for-generating-binary-sequences-for-stochastic-computing
+  numCitedBy: 40
+  pid: 615a664cdc121916ad0abfc91fd63a262acab28f
+  show_ref_link: false
+  title: A Device for Generating Binary Sequences for Stochastic Computing
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-published-as-a-conference-paper-at-iclr-2018-s-imulating-a-ction-d-ynamics-with-n-eural-p-rocess-n-etworks
+  numCitedBy: 156
+  pid: bcd857d75841aa3e92cd4284a8818aba9f6c0c3f
+  show_ref_link: true
+  title: Published as a conference paper at ICLR 2018 S IMULATING A CTION D YNAMICS WITH N EURAL P ROCESS N ETWORKS
+  year: 2018
+slug: Neural-Networks-with-Few-Multiplications-Lin-Courbariaux
+title: Neural Networks with Few Multiplications
+url: https://www.semanticscholar.org/paper/Neural-Networks-with-Few-Multiplications-Lin-Courbariaux/67c191bcce6821f736798cb9b31472bcdd1e52a6?sort=total-citations
+venue: ICLR
+year: 2016

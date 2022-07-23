@@ -1,0 +1,325 @@
+authors:
+- Chris Lattner
+- V. Adve
+badges:
+- id: OPEN_ACCESS
+corpusId: 978769
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-llvm-a-compilation-framework-for-lifelong-program-analysis-transformation
+numCitedBy: 4656
+numCiting: 54
+paperAbstract: 'We describe LLVM (low level virtual machine), a compiler framework designed to support transparent, lifelong program analysis and transformation for arbitrary programs, by providing high-level information to compiler transformations at compile-time, link-time, run-time, and in idle time between runs. LLVM defines a common, low-level code representation in static single assignment (SSA) form, with several novel features: a simple, language-independent type-system that exposes the primitives commonly used to implement high-level language features; an instruction for typed address arithmetic; and a simple mechanism that can be used to implement the exception handling features of high-level languages (and setjmp/longjmp in C) uniformly and efficiently. The LLVM compiler framework and code representation together provide a combination of key capabilities that are important for practical, lifelong analysis and transformation of programs. To our knowledge, no existing compilation approach provides all these capabilities. We describe the design of the LLVM representation and compiler framework, and evaluate the design in three ways: (a) the size and effectiveness of the representation, including the type information it provides; (b) compiler performance for several interprocedural problems; and (c) illustrative examples of the benefits LLVM provides for several challenging compiler problems.'
+ref_count: 54
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-a-provably-sound-tal-for-back-end-optimization
+  numCitedBy: 50
+  pid: 661f13c265ca3dadd7c16ac20bbd258b8a1d70e0
+  show_ref_link: false
+  title: A provably sound TAL for back-end optimization
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-efficient-and-language-independent-mobile-programs
+  numCitedBy: 111
+  pid: 67abc1785a17e3aab704bd68a9d6c219ce4b884e
+  show_ref_link: false
+  title: Efficient and language-independent mobile programs
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-daisy-dynamic-compilation-for-10o-40-architectural-compatibility
+  numCitedBy: 301
+  pid: ec65a506f6f852bbca3cc731e8dace0a562e787a
+  show_ref_link: false
+  title: Daisy - Dynamic Compilation For 10o?40 Architectural Compatibility
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-a-practical-system-fljr-intermodule-code-optimization-at-link-time
+  numCitedBy: 167
+  pid: 6b0083de6e9fa76813551088983a2df54b8e05d0
+  show_ref_link: false
+  title: A practical system fljr intermodule code optimization at link-time
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-llva-a-low-level-virtual-instruction-set-architecture
+  numCitedBy: 94
+  pid: 5d29583818f4b3c7a22de39cd82046bb582adcef
+  show_ref_link: false
+  title: LLVA - a low-level virtual instruction set architecture
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-simple-and-effective-link-time-optimization-of-modula-3-programs
+  numCitedBy: 134
+  pid: 422cbe99a30143ca032437bb8a1768e112741232
+  show_ref_link: false
+  title: Simple and effective link-time optimization of Modula-3 programs
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-the-transmeta-code-morphing-8482-software-using-speculation-recovery-and-adaptive-retranslation-to-address-real-life-challenges
+  numCitedBy: 200
+  pid: 421f6c91b785a893dfa04a50abeb3f40c6ff62c7
+  show_ref_link: false
+  title: The Transmeta Code Morphing#8482; Software - using speculation, recovery, and adaptive retranslation to address real-life challenges
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-implementing-typed-intermediate-languages
+  numCitedBy: 79
+  pid: 311b26799d2d6f168a74d9685121600c8f2e237d
+  show_ref_link: false
+  title: Implementing typed intermediate languages
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-region-based-memory-management-in-cyclone
+  numCitedBy: 404
+  pid: 562a27c239847fb5940af3601b30f43f7d24f6f7
+  show_ref_link: false
+  title: Region-based memory management in cyclone
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-the-transmeta-code-morphing-spl-trade-software-using-speculation-recovery-and-adaptive-retranslation-to-address-real-life-challenges
+  numCitedBy: 314
+  pid: 5c17b90a86ab37488215f6a060ecd3350a994ebf
+  show_ref_link: false
+  title: The Transmeta Code Morphing/spl trade/ Software - using speculation, recovery, and adaptive retranslation to address real-life challenges
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-ensuring-code-safety-without-runtime-checks-for-real-time-control-systems
+  numCitedBy: 58
+  pid: c02ebb1c0e7b9be721fdedbb1afdd231a8ce19d5
+  show_ref_link: false
+  title: Ensuring code safety without runtime checks for real-time control systems
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-memory-safety-without-runtime-checks-or-garbage-collection
+  numCitedBy: 88
+  pid: 2ce7803031fcba0fa5a397e85039e762cee59f83
+  show_ref_link: false
+  title: Memory safety without runtime checks or garbage collection
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-data-structure-analysis-a-fast-and-scalable-context-sensitive-heap-analysis
+  numCitedBy: 28
+  pid: 5516d34a6699c317c7852c4d04a7aaa50f479334
+  show_ref_link: false
+  title: Data Structure Analysis - A Fast and Scalable Context-Sensitive Heap Analysis
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-scalable-cross-module-optimization
+  numCitedBy: 40
+  pid: b4cb3217d77b28623da535563d23f913e1aa55c3
+  show_ref_link: false
+  title: Scalable cross-module optimization
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-achieving-high-performance-via-co-designed-virtual-machines
+  numCitedBy: 37
+  pid: 140944f7d6eb92000ac28c60ba9c3e5dae8906e6
+  show_ref_link: false
+  title: Achieving high performance via co-designed virtual machines
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-a-practical-flow-sensitive-and-context-sensitive-c-and-c-memory-leak-detector
+  numCitedBy: 175
+  pid: 12b3a54b72f2fc99c2c689731d6df5e3d7e1dfa8
+  show_ref_link: false
+  title: A practical flow-sensitive and context-sensitive C and C++ memory leak detector
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-continuous-program-optimization-a-case-study
+  numCitedBy: 107
+  pid: a4aadc836ddee9f9b9a9ed0d8020fd053fbf4b92
+  show_ref_link: false
+  title: Continuous program optimization - A case study
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-automatic-pool-allocation-for-disjoint-data-structures
+  numCitedBy: 30
+  pid: d12c194de115bc60a566a67e98afe0cbcc884e1c
+  show_ref_link: false
+  title: Automatic pool allocation for disjoint data structures
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-implementation-of-exception-handling
+  numCitedBy: 10
+  pid: 0f1fc934a4ccdf99c28ecf6972ad583d4b80e17e
+  show_ref_link: false
+  title: Implementation of exception handling
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-global-register-allocation-at-link-time
+  numCitedBy: 194
+  pid: 83c970a83e1949f59dc5964b4b61865213dce835
+  show_ref_link: false
+  title: Global register allocation at link time
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-enforcing-high-level-protocols-in-low-level-software
+  numCitedBy: 479
+  pid: 34ea8ffd27f9bbb7fef494cfca41bed5f356be56
+  show_ref_link: false
+  title: Enforcing high-level protocols in low-level software
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1984-efficient-implementation-of-the-smalltalk-80-system
+  numCitedBy: 602
+  pid: 2f4002755b309cdb91e18116b8028005497d8400
+  show_ref_link: false
+  title: Efficient implementation of the smalltalk-80 system
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-efficiently-computing-static-single-assignment-form-and-the-control-dependence-graph
+  numCitedBy: 2354
+  pid: cd65db4d7091b8f42333ed755ed7150f14b3be5c
+  show_ref_link: false
+  title: Efficiently computing static single assignment form and the control dependence graph
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-instrumentation-and-optimization-of-win32-intel-executables-using-etch
+  numCitedBy: 231
+  pid: 611d5db3b12d3727310e618807191dc93dd37911
+  show_ref_link: false
+  title: Instrumentation and optimization of Win32/intel executables using Etch
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-cache-conscious-structure-definition
+  numCitedBy: 263
+  pid: e704ac5d200267df68da3176c89dedcff255ff3c
+  show_ref_link: false
+  title: Cache-conscious structure definition
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-which-pointer-analysis-should-i-use
+  numCitedBy: 213
+  pid: b5829a1f245a04266b5268098009736114feaf76
+  show_ref_link: false
+  title: Which pointer analysis should I use?
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1961-uncol-the-myth-and-the-fact
+  numCitedBy: 35
+  pid: 2c897818d567a0362dbb988d088493b1cb54403e
+  show_ref_link: false
+  title: UNCOL - The myth and the fact
+  year: 1961
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-the-java-virtual-machine-specification
+  numCitedBy: 3466
+  pid: 9c08eff8b9f3591cdb6bff607fd53b96c9c06c52
+  show_ref_link: false
+  title: The Java Virtual Machine Specification
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-self-the-power-of-simplicity
+  numCitedBy: 732
+  pid: 0442ff9c4ce57e3b080523a170c4204fa83c9e55
+  show_ref_link: false
+  title: Self - The power of simplicity
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-spike-an-optimizer-for-alpha-nt-executables
+  numCitedBy: 80
+  pid: b488238485110f43aa014d2797d3bd4755dd9dd9
+  show_ref_link: false
+  title: Spike - an optimizer for alpha/NT executables
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-optimizing-alpha-executables-on-windows-nt-with-spike
+  numCitedBy: 73
+  pid: 0f7a505425507445d7a1109c492f9ae51037daa4
+  show_ref_link: false
+  title: Optimizing Alpha Executables on Windows NT with Spike
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-alto-a-platform-for-object-code-modification
+  numCitedBy: 26
+  pid: 16314fc2bfaf094b15478d4377d50533cce9302b
+  show_ref_link: false
+  title: Alto - a platform for object code modification
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-safetsa-a-type-safe-and-referentially-secure-mobile-code-representation-based-on-static-single-assignment-form
+  numCitedBy: 104
+  pid: e00a51f450e7503a4f37fcfc01ada25b24becf6b
+  show_ref_link: false
+  title: SafeTSA - a type safe and referentially secure mobile-code representation based on static single assignment form
+  year: 2001
+- fieldsOfStudy:
+  - Geology
+  - Computer Science
+  - Linguistics
+  meta_key: 1997-slim-binaries
+  numCitedBy: 177
+  pid: 1955247dc923423b7aeb5b99105b872cb88c7b94
+  show_ref_link: false
+  title: Slim binaries
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-fx-32-a-profile-directed-binary-translator
+  numCitedBy: 216
+  pid: df7eba8343d5e4be442f8f96ca68dcffcd60d0df
+  show_ref_link: false
+  title: FX!32 a profile-directed binary translator
+  year: 1998
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 1999-from-system-f-to-typed-assembly-language
+  numCitedBy: 702
+  pid: c6600b0979f5cb7618cbbff98427518452deb2ce
+  show_ref_link: false
+  title: From system F to typed assembly language
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-daisy-dynamic-compilation-for-100-architectural-compatibility
+  numCitedBy: 355
+  pid: efecca9c50a6b9310226f0273c7125f4be079e69
+  show_ref_link: false
+  title: DAISY - Dynamic Compilation for 100% Architectural Compatibility
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-interprocedural-optimization-eliminating-unnecessary-recompilation
+  numCitedBy: 65
+  pid: c5190c993471c816694f6e7f09a671e1aeb5ef26
+  show_ref_link: false
+  title: Interprocedural optimization - eliminating unnecessary recompilation
+  year: 1993
+slug: LLVM:-a-compilation-framework-for-lifelong-program-Lattner-Adve
+title: LLVM - a compilation framework for lifelong program analysis & transformation
+url: https://www.semanticscholar.org/paper/LLVM:-a-compilation-framework-for-lifelong-program-Lattner-Adve/d755f461dddae76068f401409ba59c85a2436305?sort=total-citations
+venue: International Symposium on Code Generation and Optimization, 2004. CGO 2004.
+year: 2004

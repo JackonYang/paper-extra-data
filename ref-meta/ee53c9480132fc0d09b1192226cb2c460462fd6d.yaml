@@ -436,7 +436,7 @@ references:
   meta_key: 2011-scikit-learn-machine-learning-in-python
   numCitedBy: 43894
   pid: 168f28ac3c8c7ea63bf7ed25f2288e8b67e2fe74
-  show_ref_link: false
+  show_ref_link: true
   title: Scikit-learn - Machine Learning in Python
   year: 2011
 - fieldsOfStudy:

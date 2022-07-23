@@ -1,0 +1,590 @@
+authors:
+- Itay Hubara
+- Matthieu Courbariaux
+- Daniel Soudry
+- Ran El-Yaniv
+- Yoshua Bengio
+badges:
+- id: OPEN_ACCESS
+corpusId: 15817277
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-quantized-neural-networks-training-neural-networks-with-low-precision-weights-and-activations
+numCitedBy: 1279
+numCiting: 85
+paperAbstract: We introduce a method to train Quantized Neural Networks (QNNs) -- neural networks with extremely low precision (e.g., 1-bit) weights and activations, at run-time. At traintime the quantized weights and activations are used for computing the parameter gradients. During the forward pass, QNNs drastically reduce memory size and accesses, and replace most arithmetic operations with bit-wise operations. As a result, power consumption is expected to be drastically reduced. We trained QNNs over the MNIST, CIFAR-10, SVHN and ImageNet datasets. The resulting QNNs achieve prediction accuracy comparable to their 32-bit counterparts. For example, our quantized version of AlexNet with 1-bit weights and 2-bit activations achieves 51% top-1 accuracy. Moreover, we quantize the parameter gradients to 6-bits as well which enables gradients computation using only bit-wise operation. Quantized recurrent neural networks were tested over the Penn Treebank dataset, and achieved comparable accuracy as their 32-bit counterparts using only 4-bits. Last but not least, we programmed a binary matrix multiplication GPU kernel with which it is possible to run our MNIST QNN 7 times faster than with an unoptimized GPU kernel, without suffering any loss in classification accuracy. The QNN code is available online.
+ref_count: 85
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-bitwise-neural-networks
+  numCitedBy: 186
+  pid: 8fcfd67f21738eff12d853fdf2b31ee192e2312a
+  show_ref_link: true
+  title: Bitwise Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-neural-networks-using-logarithmic-data-representation
+  numCitedBy: 285
+  pid: eb21fe36822a05a14b5ab548696e8fa8d555d6d4
+  show_ref_link: false
+  title: Convolutional Neural Networks using Logarithmic Data Representation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-recurrent-neural-networks-with-limited-numerical-precision
+  numCitedBy: 64
+  pid: 7874340679ed0d90ce33b090ab875d0094a8e709
+  show_ref_link: false
+  title: Recurrent Neural Networks With Limited Numerical Precision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dorefa-net-training-low-bitwidth-convolutional-neural-networks-with-low-bitwidth-gradients
+  numCitedBy: 1360
+  pid: 8b053389eb8c18c61b84d7e59a95cb7e13f205b7
+  show_ref_link: true
+  title: DoReFa-Net - Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations
+  numCitedBy: 2135
+  pid: a5733ff08daff727af834345b9cfff1d0aa109ec
+  show_ref_link: true
+  title: BinaryConnect - Training Deep Neural Networks with binary weights during propagations
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-xnor-net-imagenet-classification-using-binary-convolutional-neural-networks
+  numCitedBy: 2591
+  pid: b649a98ce77ece8cd7638bb74ab77d22d9be77e7
+  show_ref_link: true
+  title: XNOR-Net - ImageNet Classification Using Binary Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-improving-the-speed-of-neural-networks-on-cpus
+  numCitedBy: 692
+  pid: fbeaa499e10e98515f7e1c4ad89165e8c0677427
+  show_ref_link: false
+  title: Improving the speed of neural networks on CPUs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4077
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-compressing-deep-convolutional-networks-using-vector-quantization
+  numCitedBy: 878
+  pid: e7bf9803705f2eb608db1e59e5c7636a3f171916
+  show_ref_link: false
+  title: Compressing Deep Convolutional Networks using Vector Quantization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-neural-networks-are-robust-to-weight-binarization-and-other-non-linear-distortions
+  numCitedBy: 83
+  pid: 4500d9f74ee8cfeeba24643f3248fdb439f31976
+  show_ref_link: false
+  title: Deep neural networks are robust to weight binarization and other non-linear distortions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-fixed-point-feedforward-deep-neural-network-design-using-weights-1-0-and-1
+  numCitedBy: 221
+  pid: a4db2d26b5d169de6b64de361dc7d4fd5b1f61a3
+  show_ref_link: false
+  title: "Fixed-point feedforward deep neural network design using weights +1, 0, and \u22121"
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-training-deep-neural-networks-with-low-precision-multiplications
+  numCitedBy: 469
+  pid: 1b82d54e9a3b06c603d7987ba3ecf437425f6330
+  show_ref_link: false
+  title: Training deep neural networks with low precision multiplications
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29651
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28464
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82053
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-networks-with-few-multiplications
+  numCitedBy: 280
+  pid: 67c191bcce6821f736798cb9b31472bcdd1e52a6
+  show_ref_link: true
+  title: Neural Networks with Few Multiplications
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-understanding-the-difficulty-of-training-deep-feedforward-neural-networks
+  numCitedBy: 12592
+  pid: b71ac1e9fb49420d13e084ac67254a0bbd40f83f
+  show_ref_link: true
+  title: Understanding the difficulty of training deep feedforward neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-convolutional-neural-networks-for-lvcsr
+  numCitedBy: 1011
+  pid: 57a5fa22f10ce6ccf27286f74a050d2dac037e06
+  show_ref_link: true
+  title: Deep convolutional neural networks for LVCSR
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-spatially-sparse-convolutional-neural-networks
+  numCitedBy: 178
+  pid: c8cb691eae3a2e79adf07548d348ab58e90ee2ba
+  show_ref_link: false
+  title: Spatially-sparse convolutional neural networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-learning-with-limited-numerical-precision
+  numCitedBy: 1510
+  pid: b7cf49e30355633af2db19f35189410c8515e91f
+  show_ref_link: true
+  title: Deep Learning with Limited Numerical Precision
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 15043
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-compressing-neural-networks-with-the-hashing-trick
+  numCitedBy: 948
+  pid: efb5032e6199c80f83309fd866b25be9545831fd
+  show_ref_link: false
+  title: Compressing Neural Networks with the Hashing Trick
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-learning-using-linear-support-vector-machines
+  numCitedBy: 697
+  pid: 4417f78b31546227784941bbd6f6532a177e60b8
+  show_ref_link: false
+  title: Deep Learning using Linear Support Vector Machines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-backpropagation-for-energy-efficient-neuromorphic-computing
+  numCitedBy: 255
+  pid: 04105898efe96c7f2d876e6bcb9e19afd3e23635
+  show_ref_link: false
+  title: Backpropagation for Energy-Efficient Neuromorphic Computing
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-yodann-an-ultra-low-power-convolutional-neural-network-accelerator-based-on-binary-weights
+  numCitedBy: 167
+  pid: 1853613a290537b4353763340ab8b37ad236bca2
+  show_ref_link: false
+  title: YodaNN - An Ultra-Low Power Convolutional Neural Network Accelerator Based on Binary Weights
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dadiannao-a-machine-learning-supercomputer
+  numCitedBy: 1065
+  pid: 4157ed3db4c656854e69931cb6089b64b08784b9
+  show_ref_link: true
+  title: DaDianNao - A Machine-Learning Supercomputer
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-hardware-oriented-approximation-of-convolutional-neural-networks
+  numCitedBy: 274
+  pid: 9ef78ff09225149271c1216416b9bd3dee31f1c9
+  show_ref_link: false
+  title: Hardware-oriented Approximation of Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-generalizing-pooling-functions-in-convolutional-neural-networks-mixed-gated-and-tree
+  numCitedBy: 391
+  pid: 4b88e948121a87f00fb5aa0081d2044dde51ee36
+  show_ref_link: true
+  title: Generalizing Pooling Functions in Convolutional Neural Networks - Mixed, Gated, and Tree
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-training-binary-multilayer-neural-networks-for-image-classification-using-expectation-backpropagation
+  numCitedBy: 46
+  pid: 87e35aded44808e9c35ef00d505b6c60f376de2f
+  show_ref_link: false
+  title: Training Binary Multilayer Neural Networks for Image Classification using Expectation Backpropagation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91746
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deeply-supervised-nets
+  numCitedBy: 1455
+  pid: fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd
+  show_ref_link: true
+  title: Deeply-Supervised Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-yodann-an-architecture-for-ultralow-power-binary-weight-cnn-acceleration
+  numCitedBy: 171
+  pid: 34043aeb14dc563f5cd2f8962112cbc284b14f98
+  show_ref_link: false
+  title: YodaNN - An Architecture for Ultralow Power Binary-Weight CNN Acceleration
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52391
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-efficient-and-accurate-approximations-of-nonlinear-convolutional-networks
+  numCitedBy: 216
+  pid: b64601d509711468f5d085261d463846f36785b2
+  show_ref_link: false
+  title: Efficient and accurate approximations of nonlinear convolutional networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35624
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-expectation-backpropagation-parameter-free-training-of-multilayer-neural-networks-with-continuous-or-discrete-weights
+  numCitedBy: 206
+  pid: feaa7e295c7a43ec52091ed9ade1a9a1e5d9bed2
+  show_ref_link: false
+  title: Expectation Backpropagation - Parameter-Free Training of Multilayer Neural Networks with Continuous or Discrete Weights
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-diannao-a-small-footprint-high-throughput-accelerator-for-ubiquitous-machine-learning
+  numCitedBy: 1235
+  pid: 22e477a9fdde86ab1f8f4dafdb4d88ea37e31fbd
+  show_ref_link: true
+  title: DianNao - a small-footprint high-throughput accelerator for ubiquitous machine-learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fitnets-hints-for-thin-deep-nets
+  numCitedBy: 2037
+  pid: cd85a549add0c7c7def36aca29837efd24b24080
+  show_ref_link: true
+  title: FitNets - Hints for Thin Deep Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-practical-variational-inference-for-neural-networks
+  numCitedBy: 1087
+  pid: 5a9ef216bf11f222438fff130c778267d39a9564
+  show_ref_link: true
+  title: Practical Variational Inference for Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-context-dependent-recurrent-neural-network-language-model
+  numCitedBy: 550
+  pid: d1275b2a2ab53013310e759e5c6878b96df643d4
+  show_ref_link: false
+  title: Context dependent recurrent neural network language model
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63201
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-of-neural-networks-using-dropconnect
+  numCitedBy: 2105
+  pid: 38f35dd624cd1cf827416e31ac5e0e0454028eca
+  show_ref_link: true
+  title: Regularization of Neural Networks using DropConnect
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-estimating-or-propagating-gradients-through-stochastic-neurons
+  numCitedBy: 70
+  pid: 3832057ac487f43e885cdb485a6ca1462834bb8d
+  show_ref_link: false
+  title: Estimating or Propagating Gradients Through Stochastic Neurons
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19563
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-subdominant-dense-clusters-allow-for-simple-learning-and-high-computational-performance-in-neural-networks-with-discrete-synapses
+  numCitedBy: 95
+  pid: 599e769b65ab64f247926f38c9c080c45a12271a
+  show_ref_link: false
+  title: Subdominant Dense Clusters Allow for Simple Learning and High Computational Performance in Neural Networks with Discrete Synapses.
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-learning-with-cots-hpc-systems
+  numCitedBy: 679
+  pid: d1208ac421cf8ff67b27d93cd19ae42b8d596f95
+  show_ref_link: false
+  title: Deep learning with COTS HPC systems
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-deep-neural-networks-for-acoustic-modeling-in-speech-recognition
+  numCitedBy: 2230
+  pid: e33cbb25a8c7390aec6a398e36381f4f7770c283
+  show_ref_link: true
+  title: Deep Neural Networks for Acoustic Modeling in Speech Recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29921
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-scaling-up-machine-learning-parallel-and-distributed-approaches
+  numCitedBy: 372
+  pid: b5be3165d56580b60e29ad1a4a08b124d6cb8264
+  show_ref_link: false
+  title: Scaling up machine learning - parallel and distributed approaches
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
+  numCitedBy: 11517
+  pid: 846aedd869a00c09b40f1f1f35673cb22bc87490
+  show_ref_link: true
+  title: Mastering the game of Go with deep neural networks and tree search
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1834
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-large-scale-fpga-based-convolutional-networks
+  numCitedBy: 121
+  pid: b970c9d53c699a8e09f1d8dbe440b6f309712a89
+  show_ref_link: false
+  title: Large-Scale FPGA-based Convolutional Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-domain-adaptation-for-large-scale-sentiment-classification-a-deep-learning-approach
+  numCitedBy: 1613
+  pid: 6f4065f0cc99a0839b0248ffb4457e5f0277b30d
+  show_ref_link: true
+  title: Domain Adaptation for Large-Scale Sentiment Classification - A Deep Learning Approach
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-human-level-control-through-deep-reinforcement-learning
+  numCitedBy: 16394
+  pid: e0e9a94c4a6ba219e768b4e59f72c18f0a22e23d
+  show_ref_link: true
+  title: Human-level control through deep reinforcement learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-analysis-of-high-performance-floating-point-arithmetic-on-fpgas
+  numCitedBy: 163
+  pid: 69c172ef78887d7e257baa656bbf08bea38af6f3
+  show_ref_link: false
+  title: Analysis of high-performance floating-point arithmetic on FPGAs
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-asic-implementation-of-random-number-generators-using-sr-latches-and-its-evaluation
+  numCitedBy: 11
+  pid: 93037c7b17c295e72997d191ba67325200e9398d
+  show_ref_link: false
+  title: ASIC implementation of random number generators using SR latches and its evaluation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1966-reduction-of-quantizing-noise-by-use-of-feedback
+  numCitedBy: 36
+  pid: f6d5054172b09ee41c6aeb623dc19d36250909de
+  show_ref_link: false
+  title: Reduction of Quantizing Noise by Use of Feedback
+  year: 1966
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-theano-new-features-and-speed-improvements
+  numCitedBy: 1375
+  pid: 855d0f722d75cc56a66a00ede18ace96bafee6bd
+  show_ref_link: true
+  title: Theano - new features and speed improvements
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-neuflow-dataflow-vision-processing-system-on-a-chip
+  numCitedBy: 85
+  pid: 90ddfda9c97e96fbba0b5a314853e5867d813a2b
+  show_ref_link: false
+  title: NeuFlow - Dataflow vision processing system-on-a-chip
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-fast-and-robust-neural-network-joint-models-for-statistical-machine-translation
+  numCitedBy: 515
+  pid: 0894b06cff1cd0903574acaa7fcf071b144ae775
+  show_ref_link: false
+  title: Fast and Robust Neural Network Joint Models for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1494
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-neuflow-a-runtime-reconfigurable-dataflow-processor-for-vision
+  numCitedBy: 349
+  pid: 204710a6a6d935150b5b16daf74493dea6d1b7a2
+  show_ref_link: false
+  title: NeuFlow - A runtime reconfigurable dataflow processor for vision
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-neural-networks-in-machine-learning
+  numCitedBy: 286
+  pid: 5df0a0e9ceec70a9321b0555288222bf53216342
+  show_ref_link: false
+  title: Neural Networks in Machine Learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-one-weird-trick-for-parallelizing-convolutional-neural-networks
+  numCitedBy: 889
+  pid: 80d800dfadbe2e6c7b2367d9229cc82912d55889
+  show_ref_link: false
+  title: One weird trick for parallelizing convolutional neural networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-embedded-floating-point-units-in-fpgas
+  numCitedBy: 82
+  pid: 257fbb0d992e473a289a622a5ce150ff66491cde
+  show_ref_link: false
+  title: Embedded floating-point units in FPGAs
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-building-a-large-annotated-corpus-of-english-the-penn-treebank
+  numCitedBy: 8207
+  pid: 0b44fcbeea9415d400c5f5789d6b892b6f98daff
+  show_ref_link: false
+  title: Building a Large Annotated Corpus of English - The Penn Treebank
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-1-1-computing-s-energy-problem-and-what-we-can-do-about-it
+  numCitedBy: 716
+  pid: 947620a1854655ed91a86b90d12695e05be85983
+  show_ref_link: false
+  title: 1.1 Computing's energy problem (and what we can do about it)
+  year: 2014
+- fieldsOfStudy:
+  - Business
+  meta_key: 2015-inceptionism-going-deeper-into-neural-networks
+  numCitedBy: 545
+  pid: ad2469bff83c9d5a55dd81040d369c8af29be132
+  show_ref_link: false
+  title: Inceptionism - Going Deeper into Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-lasagne-first-release
+  numCitedBy: 396
+  pid: 5ef5e2fa01f1b3b512786bf9f8e2c98f7557f4f9
+  show_ref_link: false
+  title: Lasagne - First release.
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-pylearn2-a-machine-learning-research-library
+  numCitedBy: 299
+  pid: 836acf6fc99ebf81d219e2b67f7ab25efc29a6a4
+  show_ref_link: false
+  title: Pylearn2 - a machine learning research library
+  year: 2013
+slug: Quantized-Neural-Networks:-Training-Neural-Networks-Hubara-Courbariaux
+title: Quantized Neural Networks - Training Neural Networks with Low Precision Weights and Activations
+url: https://www.semanticscholar.org/paper/Quantized-Neural-Networks:-Training-Neural-Networks-Hubara-Courbariaux/d2e4147eecae6f914e9e1e9aece8fdd2eaed809f?sort=total-citations
+venue: J. Mach. Learn. Res.
+year: 2017

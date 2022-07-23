@@ -1,0 +1,289 @@
+authors:
+- Yaman Umuroglu
+- Nicholas J. Fraser
+- G. Gambardella
+- Michaela Blott
+- P. Leong
+- Magnus Jahre
+- K. Vissers
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 10530917
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-finn-a-framework-for-fast-scalable-binarized-neural-network-inference
+numCitedBy: 590
+numCiting: 35
+paperAbstract: "Research has shown that convolutional neural networks contain significant redundancy, and high classification accuracy can be obtained even when weights and activations are reduced from floating point to binary values. In this paper, we present FINN, a framework for building fast and flexible FPGA accelerators using a flexible heterogeneous streaming architecture. By utilizing a novel set of optimizations that enable efficient mapping of binarized neural networks to hardware, we implement fully connected, convolutional and pooling layers, with per-layer compute resources being tailored to user-provided throughput requirements. On a ZC706 embedded FPGA platform drawing less than 25 W total system power, we demonstrate up to 12.3 million image classifications per second with 0.31 \u03BCs latency on the MNIST dataset with 95.8% accuracy, and 21906 image classifications per second with 283 \u03BCs latency on the CIFAR-10 and SVHN datasets with respectively 80.1% and 94.9% accuracy. To the best of our knowledge, ours are the fastest classification rates reported to date on these benchmarks."
+ref_count: 35
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-binarized-neural-networks-training-deep-neural-networks-with-weights-and-activations-constrained-to-1-or-1
+  numCitedBy: 1753
+  pid: 6eecc808d4c74e7d0d7ef6b8a4112c985ced104d
+  show_ref_link: true
+  title: Binarized Neural Networks - Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fpgaconvnet-a-framework-for-mapping-convolutional-neural-networks-on-fpgas
+  numCitedBy: 175
+  pid: 28a57b3b18d091b98b8230c4cdb0ff8445b9efd9
+  show_ref_link: false
+  title: fpgaConvNet - A Framework for Mapping Convolutional Neural Networks on FPGAs
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-accelerating-binarized-neural-networks-comparison-of-fpga-cpu-gpu-and-asic
+  numCitedBy: 187
+  pid: db4e71799cabeebf5530c26cccda0f8023c5af9f
+  show_ref_link: false
+  title: Accelerating Binarized Neural Networks - Comparison of FPGA, CPU, GPU, and ASIC
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-accelerating-deep-convolutional-neural-networks-using-specialized-hardware
+  numCitedBy: 303
+  pid: 209932cd2e3f5da071c4f6341a3b8b29cf50cc4a
+  show_ref_link: false
+  title: Accelerating Deep Convolutional Neural Networks Using Specialized Hardware
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-yodann-an-ultra-low-power-convolutional-neural-network-accelerator-based-on-binary-weights
+  numCitedBy: 167
+  pid: 1853613a290537b4353763340ab8b37ad236bca2
+  show_ref_link: false
+  title: YodaNN - An Ultra-Low Power Convolutional Neural Network Accelerator Based on Binary Weights
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-throughput-optimized-opencl-based-fpga-accelerator-for-large-scale-convolutional-neural-networks
+  numCitedBy: 411
+  pid: b4eac8295c90dbfb7d8d22ba560e025621287c58
+  show_ref_link: false
+  title: Throughput-Optimized OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-eyeriss-a-spatial-architecture-for-energy-efficient-dataflow-for-convolutional-neural-networks
+  numCitedBy: 838
+  pid: 5ec594e9f5ca4b629be28625cd78c882514ea3be
+  show_ref_link: true
+  title: Eyeriss - A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-ternary-neural-networks-for-resource-efficient-ai-applications
+  numCitedBy: 141
+  pid: f73e69f2376e793590aa751effd05aef57c639ff
+  show_ref_link: false
+  title: Ternary neural networks for resource-efficient AI applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-cnp-an-fpga-based-processor-for-convolutional-networks
+  numCitedBy: 328
+  pid: 07956c7cf9bf4267b86d52aa4143c17a4aa5d0d6
+  show_ref_link: false
+  title: CNP - An FPGA-based processor for Convolutional Networks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-optimizing-fpga-based-accelerator-design-for-deep-convolutional-neural-networks
+  numCitedBy: 1482
+  pid: 7c91eb0f9bbae8e2d3d007db73b8422b61ed1d68
+  show_ref_link: true
+  title: Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dorefa-net-training-low-bitwidth-convolutional-neural-networks-with-low-bitwidth-gradients
+  numCitedBy: 1360
+  pid: 8b053389eb8c18c61b84d7e59a95cb7e13f205b7
+  show_ref_link: true
+  title: DoReFa-Net - Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-binarynet-training-deep-neural-networks-with-weights-and-activations-constrained-to-1-or-1
+  numCitedBy: 563
+  pid: 123ae35aa7d6838c817072032ce5615bb891652d
+  show_ref_link: true
+  title: BinaryNet - Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-caffepresso-an-optimized-library-for-deep-learning-on-embedded-accelerator-based-platforms
+  numCitedBy: 51
+  pid: fc3c1aacec68085dee4d97189de95bed7f5dc719
+  show_ref_link: false
+  title: CaffePresso - An optimized library for Deep Learning on embedded accelerator-based platforms
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-xnor-net-imagenet-classification-using-binary-convolutional-neural-networks
+  numCitedBy: 2591
+  pid: b649a98ce77ece8cd7638bb74ab77d22d9be77e7
+  show_ref_link: true
+  title: XNOR-Net - ImageNet Classification Using Binary Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82053
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-networks-for-fast-energy-efficient-neuromorphic-computing
+  numCitedBy: 552
+  pid: 29316449c7cc52ad326c5d1bd5b0dc5af27c1496
+  show_ref_link: false
+  title: Convolutional networks for fast, energy-efficient neuromorphic computing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-bitwise-neural-networks
+  numCitedBy: 186
+  pid: 8fcfd67f21738eff12d853fdf2b31ee192e2312a
+  show_ref_link: true
+  title: Bitwise Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-squeezenet-alexnet-level-accuracy-with-50x-fewer-parameters-and-1mb-model-size
+  numCitedBy: 4092
+  pid: 969fbdcd0717bec06228053788c2ff78bbb4daac
+  show_ref_link: true
+  title: SqueezeNet - AlexNet-level accuracy with 50x fewer parameters and <1MB model size
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fpga-based-implementation-of-deep-neural-networks-using-on-chip-memory-only
+  numCitedBy: 51
+  pid: f2df5f1f1c1d93b3e09c489b1c7111e92f46f200
+  show_ref_link: false
+  title: FPGA based implementation of deep neural networks using on-chip memory only
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-resiliency-of-deep-neural-networks-under-quantization
+  numCitedBy: 117
+  pid: 1d29498544257bba3761f25d939bc10e1d46dd39
+  show_ref_link: false
+  title: Resiliency of Deep Neural Networks under Quantization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-high-performance-convolutional-neural-networks-for-document-processing
+  numCitedBy: 418
+  pid: 2cc157afda51873c30b195fff56e917b9c06b853
+  show_ref_link: false
+  title: High Performance Convolutional Neural Networks for Document Processing
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63201
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29651
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17475
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-artificial-neural-networks-in-hardware-a-survey-of-two-decades-of-progress
+  numCitedBy: 548
+  pid: 36a44b761e553eaefc4053ce0172b43295049335
+  show_ref_link: false
+  title: Artificial neural networks in hardware - A survey of two decades of progress
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35624
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-planet-photo-geolocation-with-convolutional-neural-networks
+  numCitedBy: 323
+  pid: 1b93a123d352ea09b4c8aaac933f1d4c8bd42009
+  show_ref_link: false
+  title: PlaNet - Photo Geolocation with Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3973
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-learning-in-neural-networks-an-overview
+  numCitedBy: 11913
+  pid: 193edd20cae92c6759c18ce93eeea96afd9528eb
+  show_ref_link: true
+  title: Deep learning in neural networks - An overview
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-semi-automated-tool-flow-for-roofline-anaylsis-of-opencl-kernels-on-accelerators
+  numCitedBy: 12
+  pid: 0c82e430b376604f0ab0d35e6f227b5dc53f0bcd
+  show_ref_link: false
+  title: A Semi-Automated Tool Flow for Roofline Anaylsis of OpenCL Kernels on Accelerators
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-roofline-an-insightful-visual-performance-model-for-multicore-architectures
+  numCitedBy: 1897
+  pid: 092217c2267f6e0673590aa151d811e579ff7760
+  show_ref_link: false
+  title: Roofline - an insightful visual performance model for multicore architectures
+  year: 2009
+slug: FINN:-A-Framework-for-Fast,-Scalable-Binarized-Umuroglu-Fraser
+title: FINN - A Framework for Fast, Scalable Binarized Neural Network Inference
+url: https://www.semanticscholar.org/paper/FINN:-A-Framework-for-Fast,-Scalable-Binarized-Umuroglu-Fraser/3b2491ddeeaa7beae4d311b217c292a9e16112cf?sort=total-citations
+venue: FPGA
+year: 2017

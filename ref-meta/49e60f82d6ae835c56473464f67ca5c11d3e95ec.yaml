@@ -45,7 +45,7 @@ references:
   meta_key: 2017-quantized-neural-networks-training-neural-networks-with-low-precision-weights-and-activations
   numCitedBy: 1279
   pid: d2e4147eecae6f914e9e1e9aece8fdd2eaed809f
-  show_ref_link: false
+  show_ref_link: true
   title: Quantized Neural Networks - Training Neural Networks with Low Precision Weights and Activations
   year: 2017
 - fieldsOfStudy:
@@ -117,7 +117,7 @@ references:
   meta_key: 2016-bitwise-neural-networks
   numCitedBy: 186
   pid: 8fcfd67f21738eff12d853fdf2b31ee192e2312a
-  show_ref_link: false
+  show_ref_link: true
   title: Bitwise Neural Networks
   year: 2016
 - fieldsOfStudy:

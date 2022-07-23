@@ -28,7 +28,7 @@ references:
   meta_key: 2004-llvm-a-compilation-framework-for-lifelong-program-analysis-transformation
   numCitedBy: 4656
   pid: d755f461dddae76068f401409ba59c85a2436305
-  show_ref_link: false
+  show_ref_link: true
   title: LLVM - a compilation framework for lifelong program analysis & transformation
   year: 2004
 - fieldsOfStudy:

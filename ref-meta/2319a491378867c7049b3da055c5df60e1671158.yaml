@@ -1,0 +1,281 @@
+authors:
+- Volodymyr Mnih
+- K. Kavukcuoglu
+- David Silver
+- A. Graves
+- Ioannis Antonoglou
+- Daan Wierstra
+- Martin A. Riedmiller
+badges:
+- id: OPEN_ACCESS
+corpusId: 15238391
+fieldsOfStudy:
+- Computer Science
+meta_key: 2013-playing-atari-with-deep-reinforcement-learning
+numCitedBy: 6930
+numCiting: 37
+paperAbstract: We present the first deep learning model to successfully learn control policies directly from high-dimensional sensory input using reinforcement learning. The model is a convolutional neural network, trained with a variant of Q-learning, whose input is raw pixels and whose output is a value function estimating future rewards. We apply our method to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. We find that it outperforms all previous approaches on six of the games and surpasses a human expert on three of them.
+ref_count: 37
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-deep-auto-encoder-neural-networks-in-reinforcement-learning
+  numCitedBy: 279
+  pid: 36086ff255207cc1adb818c4d0cd62287d437d38
+  show_ref_link: false
+  title: Deep auto-encoder neural networks in reinforcement learning
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-neural-fitted-q-iteration-first-experiences-with-a-data-efficient-neural-reinforcement-learning-method
+  numCitedBy: 901
+  pid: 282001869bd502c7917db8b32b75593addfbbc68
+  show_ref_link: false
+  title: Neural Fitted Q Iteration - First Experiences with a Data Efficient Neural Reinforcement Learning Method
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-actor-critic-reinforcement-learning-with-energy-based-policies
+  numCitedBy: 59
+  pid: b55dcba008184f55741abc3ab99eeff111d00151
+  show_ref_link: false
+  title: Actor-Critic Reinforcement Learning with Energy-Based Policies
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-reinforcement-learning-for-robots-using-neural-networks
+  numCitedBy: 909
+  pid: 54c4cf3a8168c1b70f91cf78a3dc98b671935492
+  show_ref_link: false
+  title: Reinforcement learning for robots using neural networks
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-learning-multiple-layers-of-representation
+  numCitedBy: 911
+  pid: 0fe5c42e0821f6580eb8ab4c4261771f0d0472bd
+  show_ref_link: false
+  title: Learning multiple layers of representation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-reinforcement-learning-with-factored-states-and-actions
+  numCitedBy: 147
+  pid: 60922d2ca51acbebff794f4c43f6daadf4b8d103
+  show_ref_link: false
+  title: Reinforcement Learning with Factored States and Actions
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-bayesian-learning-of-recursively-factored-environments
+  numCitedBy: 26
+  pid: 7c9e3b33ea2522e86b4ebf586e6371d49d3ef89f
+  show_ref_link: false
+  title: Bayesian Learning of Recursively Factored Environments
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-reinforcement-learning-an-introduction
+  numCitedBy: 33131
+  pid: 97efafdb4a3942ab3efba53ded7413199f79c054
+  show_ref_link: true
+  title: Reinforcement Learning - An Introduction
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-neuroevolution-approach-to-general-atari-game-playing
+  numCitedBy: 170
+  pid: cf6c64b87459a3164ad54128fa085328c401c09f
+  show_ref_link: false
+  title: A Neuroevolution Approach to General Atari Game Playing
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-why-did-td-gammon-work
+  numCitedBy: 35
+  pid: 9773fa4a86987f76a0eaf72c67ab6acd55d20a9f
+  show_ref_link: false
+  title: Why did TD-Gammon Work?
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-the-arcade-learning-environment-an-evaluation-platform-for-general-agents-extended-abstract
+  numCitedBy: 2086
+  pid: f82e4ff4f003581330338aaae71f60316e58dd26
+  show_ref_link: false
+  title: The Arcade Learning Environment - An Evaluation Platform for General Agents (Extended Abstract)
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-toward-off-policy-learning-control-with-function-approximation
+  numCitedBy: 223
+  pid: 6ab7795306d04ff9bc5121e446eb5fc624487ace
+  show_ref_link: false
+  title: Toward Off-Policy Learning Control with Function Approximation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82053
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-q-learning
+  numCitedBy: 7263
+  pid: 03b7e51c52084ac1db5118342a00b5fbcfc587aa
+  show_ref_link: true
+  title: Q-learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-speech-recognition-with-deep-recurrent-neural-networks
+  numCitedBy: 6960
+  pid: 4177ec52d1b80ed57f2e72b0f9a42365f1a8598d
+  show_ref_link: true
+  title: Speech recognition with deep recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-prioritized-sweeping-reinforcement-learning-with-less-data-and-less-time
+  numCitedBy: 461
+  pid: e21956fdbc06204db7984aacea09db7eda6355ad
+  show_ref_link: false
+  title: Prioritized Sweeping - Reinforcement Learning with Less Data and Less Time
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-new-types-of-deep-neural-network-learning-for-speech-recognition-and-related-applications-an-overview
+  numCitedBy: 889
+  pid: eb9243a3b98a819539ad57b7b4f05b969510d075
+  show_ref_link: false
+  title: New types of deep neural network learning for speech recognition and related applications - an overview
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2009-convergent-temporal-difference-learning-with-arbitrary-smooth-function-approximation
+  numCitedBy: 240
+  pid: e1262319851d78ffa40c89d98d8afba10d0aec2d
+  show_ref_link: false
+  title: Convergent Temporal-Difference Learning with Arbitrary Smooth Function Approximation
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-residual-algorithms-reinforcement-learning-with-function-approximation
+  numCitedBy: 1066
+  pid: f518bffb712a298bff18248c67f6fc0181018ae6
+  show_ref_link: false
+  title: Residual Algorithms - Reinforcement Learning with Function Approximation
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-prioritized-sweeping-reinforcement-learning-with-less-data-and-less-real-time
+  numCitedBy: 263
+  pid: 049c6719ac3470e03316d75b3d605b79eccd24e5
+  show_ref_link: false
+  title: Prioritized Sweeping - Reinforcement Learning with Less Data and Less Real Time
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-pedestrian-detection-with-unsupervised-multi-stage-feature-learning
+  numCitedBy: 778
+  pid: a1306ce652f556fbb9e794d91084a29294298e6d
+  show_ref_link: false
+  title: Pedestrian Detection with Unsupervised Multi-stage Feature Learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-context-dependent-pre-trained-deep-neural-networks-for-large-vocabulary-speech-recognition
+  numCitedBy: 2684
+  pid: 6658bbf68995731b2083195054ff45b4eca38b3a
+  show_ref_link: true
+  title: Context-Dependent Pre-Trained Deep Neural Networks for Large-Vocabulary Speech Recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-sketch-based-linear-value-function-approximation
+  numCitedBy: 22
+  pid: be3bd82d18cabd3ed78105dcaca760fef26f4ac7
+  show_ref_link: false
+  title: Sketch-Based Linear Value Function Approximation
+  year: 2012
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1996-analysis-of-temporal-diffference-learning-with-function-approximation
+  numCitedBy: 1444
+  pid: ceee9569717991607b399d9a6890f1dcb9541ac0
+  show_ref_link: false
+  title: Analysis of Temporal-Diffference Learning with Function Approximation
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-investigating-contingency-awareness-using-atari-2600-games
+  numCitedBy: 74
+  pid: 3689115fa21e16d50030aaec01822af996f3e4e7
+  show_ref_link: false
+  title: Investigating Contingency Awareness Using Atari 2600 Games
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-temporal-difference-learning-and-td-gammon
+  numCitedBy: 906
+  pid: 0507efeaeb8f0c11443de6d3ecf1dcb91d96c4e8
+  show_ref_link: false
+  title: Temporal Difference Learning and TD-Gammon
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12986
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-machine-learning-for-aerial-image-labeling
+  numCitedBy: 394
+  pid: 6eabf6e67c29778265bc9fef3b58b2756c739c83
+  show_ref_link: false
+  title: Machine learning for aerial image labeling
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-what-is-the-best-multi-stage-architecture-for-object-recognition
+  numCitedBy: 2093
+  pid: 1f88427d7aa8225e47f946ac41a0667d7b69ac52
+  show_ref_link: false
+  title: What is the best multi-stage architecture for object recognition?
+  year: 2009
+- fieldsOfStudy: []
+  meta_key: 2015-and
+  numCitedBy: 3499
+  pid: dfbfcd288ed9b37106564bf6dc95041f6d33b6b2
+  show_ref_link: false
+  title: and
+  year: 2015
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1998-reinforcement-learning-an-introduction
+  numCitedBy: 365
+  pid: 8c63689611fd1bf40d6a5ca14ba730ca7e62d283
+  show_ref_link: false
+  title: Reinforcement Learning - - An Introduction
+  year: 1998
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1998-convolutional-networks-for-images-speech-and-time-series
+  numCitedBy: 4130
+  pid: 563e821bb5ea825efb56b77484f5287f08cf3753
+  show_ref_link: false
+  title: Convolutional networks for images, speech, and time series
+  year: 1998
+slug: Playing-Atari-with-Deep-Reinforcement-Learning-Mnih-Kavukcuoglu
+title: Playing Atari with Deep Reinforcement Learning
+url: https://www.semanticscholar.org/paper/Playing-Atari-with-Deep-Reinforcement-Learning-Mnih-Kavukcuoglu/2319a491378867c7049b3da055c5df60e1671158?sort=total-citations
+venue: ArXiv
+year: 2013

@@ -1,0 +1,556 @@
+authors:
+- Graham Neubig
+- Chris Dyer
+- Yoav Goldberg
+- Austin Matthews
+- Waleed Ammar
+- Antonios Anastasopoulos
+- Miguel Ballesteros
+- David Chiang
+- Daniel Clothiaux
+- Trevor Cohn
+- Kevin Duh
+- Manaal Faruqui
+- Cynthia Gan
+- Dan Garrette
+- Yangfeng Ji
+- Lingpeng Kong
+- A. Kuncoro
+- Manish Kumar
+- Chaitanya Malaviya
+- Paul Michel
+- Yusuke Oda
+- Matthew Richardson
+- Naomi Saphra
+- Swabha Swayamdipta
+- Pengcheng Yin
+badges:
+- id: OPEN_ACCESS
+corpusId: 2170930
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-dynet-the-dynamic-neural-network-toolkit
+numCitedBy: 347
+numCiting: 72
+paperAbstract: We describe DyNet, a toolkit for implementing neural network models based on dynamic declaration of network structure. In the static declaration strategy that is used in toolkits like Theano, CNTK, and TensorFlow, the user first defines a computation graph (a symbolic representation of the computation), and then examples are fed into an engine that executes this computation and computes its derivatives. In DyNet's dynamic declaration strategy, computation graph construction is mostly transparent, being implicitly constructed by executing procedural code that computes the network outputs, and the user is free to use different network structures for each input. Dynamic declaration thus facilitates the implementation of more complicated network architectures, and DyNet is specifically designed to allow users to implement their models in a way that is idiomatic in their preferred programming language (C++ or Python). One challenge with dynamic declaration is that because the symbolic computation graph is defined anew for every training example, its construction must have low overhead. To achieve this, DyNet has an optimized C++ backend and lightweight graph representation. Experiments show that DyNet's speeds are faster than or comparable with static declaration toolkits, and significantly faster than Chainer, another dynamic declaration toolkit. DyNet is released open-source under the Apache 2.0 license and available at this http URL.
+ref_count: 72
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-learning-with-dynamic-computation-graphs
+  numCitedBy: 107
+  pid: 08d2bae3ddf44d67b9b192a6ff26e954192e4806
+  show_ref_link: true
+  title: Deep Learning with Dynamic Computation Graphs
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-an-introduction-to-computational-networks-and-the-computational-network-toolkit-invited-talk
+  numCitedBy: 383
+  pid: 3fc68a68225edce1635bc32054c1425db287fba3
+  show_ref_link: false
+  title: An introduction to computational networks and the computational network toolkit (invited talk)
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-theano-a-cpu-and-gpu-math-compiler-in-python
+  numCitedBy: 826
+  pid: 63936fa32f9e75ab2a864daae6791ce02112183d
+  show_ref_link: false
+  title: Theano - A CPU and GPU Math Compiler in Python
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-mxnet-a-flexible-and-efficient-machine-learning-library-for-heterogeneous-distributed-systems
+  numCitedBy: 1891
+  pid: 62df84d6a4d26f95e4714796c2337c9848cc13b5
+  show_ref_link: true
+  title: MXNet - A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9256
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-lstm-neural-networks-for-language-modeling
+  numCitedBy: 1516
+  pid: f9a1b3850dfd837793743565a8af95973d395a4e
+  show_ref_link: true
+  title: LSTM Neural Networks for Language Modeling
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 15043
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-semantic-object-parsing-with-graph-lstm
+  numCitedBy: 285
+  pid: 3cea26512e9fd8bcb4081af44286d395004a5433
+  show_ref_link: true
+  title: Semantic Object Parsing with Graph LSTM
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-fast-unified-model-for-parsing-and-sentence-understanding
+  numCitedBy: 281
+  pid: 36c097a225a95735271960e2b63a2cb9e98bff83
+  show_ref_link: false
+  title: A Fast Unified Model for Parsing and Sentence Understanding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-compiling-comp-ling-practical-weighted-dynamic-programming-and-the-dyna-language
+  numCitedBy: 59
+  pid: b5060ee412d6207ebff3d39850dd27939e64fad0
+  show_ref_link: false
+  title: Compiling Comp Ling - practical weighted dynamic programming and the Dyna language
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91746
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-segmental-recurrent-neural-networks
+  numCitedBy: 112
+  pid: 6b904d6e84c98c6ce22ce6923224b205a2a24ee1
+  show_ref_link: false
+  title: Segmental Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-asynchronous-parallel-learning-for-neural-networks-and-structured-models-with-dense-features
+  numCitedBy: 15
+  pid: a355f0e14de3a48df2f36c3d17ed68e163b84015
+  show_ref_link: false
+  title: Asynchronous Parallel Learning for Neural Networks and Structured Models with Dense Features
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-extensions-of-recurrent-neural-network-language-model
+  numCitedBy: 1433
+  pid: 07ca885cb5cc4328895bfaec9ab752d5801b14cd
+  show_ref_link: true
+  title: Extensions of recurrent neural network language model
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
+  numCitedBy: 11517
+  pid: 846aedd869a00c09b40f1f1f35673cb22bc87490
+  show_ref_link: true
+  title: Mastering the game of Go with deep neural networks and tree search
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-approximation-aware-dependency-parsing-by-belief-propagation
+  numCitedBy: 27
+  pid: 1abe41711155afe82222ac0f99b978b32b1e68b5
+  show_ref_link: false
+  title: Approximation-Aware Dependency Parsing by Belief Propagation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19563
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1990-finding-structure-in-time
+  numCitedBy: 9891
+  pid: 668087f0ae7ce1de6e0bd0965dbb480c08103260
+  show_ref_link: false
+  title: Finding Structure in Time
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-parsing-natural-scenes-and-natural-language-with-recursive-neural-networks
+  numCitedBy: 1331
+  pid: 9c0ddf74f87d154db88d79c640578c1610451eec
+  show_ref_link: true
+  title: Parsing Natural Scenes and Natural Language with Recursive Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent
+  numCitedBy: 2027
+  pid: 36f49b05d764bf5c10428b082c2d96c13c4203b9
+  show_ref_link: true
+  title: Hogwild - A Lock-Free Approach to Parallelizing Stochastic Gradient Descent
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52391
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-neural-network-for-coordination-boundary-prediction
+  numCitedBy: 18
+  pid: f7e37cd317e037e05e30198b4259032d5f5e4e9e
+  show_ref_link: false
+  title: A Neural Network for Coordination Boundary Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-neural-probabilistic-language-model
+  numCitedBy: 6054
+  pid: 6c2b28f9354f667cd5bd07afc0471d8334430da7
+  show_ref_link: false
+  title: A Neural Probabilistic Language Model
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-simple-and-accurate-dependency-parsing-using-bidirectional-lstm-feature-representations
+  numCitedBy: 584
+  pid: eec3a236ecd185712ce65fb336141f8656eea13d
+  show_ref_link: false
+  title: Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-improved-semantic-representations-from-tree-structured-long-short-term-memory-networks
+  numCitedBy: 2533
+  pid: 32de44f01a96d4473d21099d15e25bc2b9f08e2f
+  show_ref_link: true
+  title: Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-generalizing-and-hybridizing-count-based-and-neural-language-models
+  numCitedBy: 26
+  pid: 95cedaeb3178a4671703a05171a144e6b964a819
+  show_ref_link: false
+  title: Generalizing and Hybridizing Count-based and Neural Language Models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-chainer-a-next-generation-open-source-framework-for-deep-learning
+  numCitedBy: 751
+  pid: 67156902beca9bc90b728c8d5dd4ac9d8b27d3a3
+  show_ref_link: false
+  title: Chainer - a Next-Generation Open Source Framework for Deep Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-natural-language-processing-almost-from-scratch
+  numCitedBy: 6699
+  pid: bc1022b031dc6c7019696492e8116598097a8c12
+  show_ref_link: true
+  title: Natural Language Processing (Almost) from Scratch
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-character-based-neural-machine-translation
+  numCitedBy: 107
+  pid: ff1577528a34a11c2a81d2451d346c412c674c02
+  show_ref_link: false
+  title: Character-based Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-to-compose-neural-networks-for-question-answering
+  numCitedBy: 480
+  pid: 75ddc7ee15be14013a3462c01b38b0548486fbcb
+  show_ref_link: true
+  title: Learning to Compose Neural Networks for Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 2016-improving-sequence-to-sequence-learning-for-morphological-inflection-generation-the-biu-mit-systems-for-the-sigmorphon-2016-shared-task-for-morphological-reinflection
+  numCitedBy: 33
+  pid: 71cd024b29488c2ea1f83db1c20990a0adde05ab
+  show_ref_link: false
+  title: Improving Sequence to Sequence Learning for Morphological Inflection Generation - The BIU-MIT Systems for the SIGMORPHON 2016 Shared Task for Morphological Reinflection
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82053
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-easy-first-dependency-parsing-with-hierarchical-tree-lstms
+  numCitedBy: 60
+  pid: 94960fcdf0ea3b346fca77ae8c63ae7943eb0d28
+  show_ref_link: false
+  title: Easy-First Dependency Parsing with Hierarchical Tree LSTMs
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-empirical-evaluation-of-gated-recurrent-neural-networks-on-sequence-modeling
+  numCitedBy: 7498
+  pid: adfcf065e15fd3bc9badf6145034c84dfb08f204
+  show_ref_link: true
+  title: Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-fast-reverse-mode-automatic-differentiation-using-expression-templates-in-c
+  numCitedBy: 145
+  pid: 7b9362c1d6d73288a8f765e06b1a9c17333a8968
+  show_ref_link: false
+  title: Fast Reverse-Mode Automatic Differentiation using Expression Templates in C++
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-bidirectional-lstm-crf-models-for-sequence-tagging
+  numCitedBy: 2463
+  pid: af88ce6116c2cd2927a4198745e99e5465173783
+  show_ref_link: false
+  title: Bidirectional LSTM-CRF Models for Sequence Tagging
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-recurrent-neural-network-grammars
+  numCitedBy: 428
+  pid: 7345843e87c81e24e42264859b214d26042f8d51
+  show_ref_link: false
+  title: Recurrent Neural Network Grammars
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-greedy-joint-syntactic-semantic-parsing-with-stack-lstms
+  numCitedBy: 61
+  pid: ba049e9e4ac472eea8b9e92aa8daec736d2cdefd
+  show_ref_link: false
+  title: Greedy, Joint Syntactic-Semantic Parsing with Stack LSTMs
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-pegasos-primal-estimated-sub-gradient-solver-for-svm
+  numCitedBy: 2024
+  pid: 9691f67f5075bde2fd70da0135a4a70f25ef042b
+  show_ref_link: false
+  title: Pegasos - primal estimated sub-gradient solver for SVM
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-adaptive-subgradient-methods-for-online-learning-and-stochastic-optimization
+  numCitedBy: 8094
+  pid: 413c1142de9d91804d6d11c67ff3fed59c9fc279
+  show_ref_link: true
+  title: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-human-level-control-through-deep-reinforcement-learning
+  numCitedBy: 16394
+  pid: e0e9a94c4a6ba219e768b4e59f72c18f0a22e23d
+  show_ref_link: true
+  title: Human-level control through deep reinforcement learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-connectionist-temporal-classification-labelling-unsegmented-sequence-data-with-recurrent-neural-networks
+  numCitedBy: 3534
+  pid: 96494e722f58705fa20302fe6179d483f52705b4
+  show_ref_link: true
+  title: Connectionist temporal classification - labelling unsegmented sequence data with recurrent neural networks
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-multilingual-part-of-speech-tagging-with-bidirectional-long-short-term-memory-models-and-auxiliary-loss
+  numCitedBy: 364
+  pid: acd87e4f672f0b92ea4164414c213560c23bee52
+  show_ref_link: false
+  title: Multilingual Part-of-Speech Tagging with Bidirectional Long Short-Term Memory Models and Auxiliary Loss
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-neural-network-for-factoid-question-answering-over-paragraphs
+  numCitedBy: 326
+  pid: af44f5db5b4396e1670cda07eff5ad84145ba843
+  show_ref_link: false
+  title: A Neural Network for Factoid Question Answering over Paragraphs
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-multilingual-named-entity-recognition-from-wikipedia
+  numCitedBy: 297
+  pid: 696b505083d34c6f995aef88d0352d70d7f7e8c8
+  show_ref_link: false
+  title: Learning multilingual named entity recognition from Wikipedia
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-incorporating-structural-alignment-biases-into-an-attentional-neural-translation-model
+  numCitedBy: 161
+  pid: ada937c9f51316c6ac87f9d1d4509383d23e0c21
+  show_ref_link: false
+  title: Incorporating Structural Alignment Biases into an Attentional Neural Translation Model
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-classes-for-fast-maximum-entropy-training
+  numCitedBy: 234
+  pid: 4af41f4d838daa7ca6995aeb4918b61989d1ed80
+  show_ref_link: false
+  title: Classes for fast maximum entropy training
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-deep-neural-networks-for-acoustic-modeling-in-speech-recognition-the-shared-views-of-four-research-groups
+  numCitedBy: 7484
+  pid: 31868290adf1c000c611dfc966b514d5a34e8d23
+  show_ref_link: true
+  title: Deep Neural Networks for Acoustic Modeling in Speech Recognition - The Shared Views of Four Research Groups
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-morphological-inflection-generation-using-character-sequence-to-sequence-learning
+  numCitedBy: 129
+  pid: 6413e6a4f68be0ea6aed0082b205147d9f893699
+  show_ref_link: false
+  title: Morphological Inflection Generation Using Character Sequence to Sequence Learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-improving-hypernymy-detection-with-an-integrated-path-based-and-distributional-method
+  numCitedBy: 213
+  pid: a782d0fc34c0ed5cd94a1e4237cb40900a248836
+  show_ref_link: false
+  title: Improving Hypernymy Detection with an Integrated Path-based and Distributional Method
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-statistical-parametric-speech-synthesis-using-deep-neural-networks
+  numCitedBy: 805
+  pid: 20969e35837d93b6e4eb52d75c8713abc6069f4a
+  show_ref_link: false
+  title: Statistical parametric speech synthesis using deep neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  - Psychology
+  meta_key: 2016-cogalex-v-shared-task-lexnet-integrated-path-based-and-distributional-method-for-the-identification-of-semantic-relations
+  numCitedBy: 17
+  pid: f1c1dea4317899be2acb6e862de7b0e252c593e7
+  show_ref_link: false
+  title: CogALex-V Shared Task - LexNET - Integrated Path-based and Distributional Method for the Identification of Semantic Relations
+  year: 2016
+- fieldsOfStudy:
+  - Physics
+  meta_key: 2015-transition-based-dependency-parsing-with-stack-long-short-term-memory
+  numCitedBy: 711
+  pid: b36b7f7c68923d14ba2859b5d28a1124616a8c89
+  show_ref_link: false
+  title: Transition-Based Dependency Parsing with Stack Long Short-Term Memory
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-transition-based-dependency-parsing-with-heuristic-backtracking
+  numCitedBy: 7
+  pid: 6a932c699e8cc8fb8ef66642b3db701a5fa04c8b
+  show_ref_link: false
+  title: Transition-Based Dependency Parsing with Heuristic Backtracking
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-multi-task-learning-with-low-level-tasks-supervised-at-lower-layers
+  numCitedBy: 397
+  pid: 03ad06583c9721855ccd82c3d969a01360218d86
+  show_ref_link: false
+  title: Deep multi-task learning with low level tasks supervised at lower layers
+  year: 2016
+- fieldsOfStudy:
+  - Chemistry
+  meta_key: 1964-a-simple-automatic-derivative-evaluation-program
+  numCitedBy: 309
+  pid: 5472ce10f0ba7bb245cf6ac4cb193ff411038d93
+  show_ref_link: false
+  title: A simple automatic derivative evaluation program
+  year: 1964
+- fieldsOfStudy:
+  - Education
+  - Computer Science
+  meta_key: 2002-torch-a-modular-machine-learning-software-library
+  numCitedBy: 522
+  pid: 464d94b3dc9a109dd64008a41a00181830f285aa
+  show_ref_link: false
+  title: Torch - a modular machine learning software library
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-neural-conditional-random-fields
+  numCitedBy: 134
+  pid: c3227702dd212965157a615332f3dd78b0f11b5e
+  show_ref_link: false
+  title: Neural conditional random fields
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-semi-supervised-preposition-sense-disambiguation-using-multilingual-data
+  numCitedBy: 15
+  pid: 779ea6e2ae1ebcca69db2739dab487f1608c00e6
+  show_ref_link: false
+  title: Semi Supervised Preposition-Sense Disambiguation using Multilingual Data
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-neural-network-architecture-for-multilingual-punctuation-generation
+  numCitedBy: 11
+  pid: 080e5c10e846aab3acb6deca315105d145e02e26
+  show_ref_link: false
+  title: A Neural Network Architecture for Multilingual Punctuation Generation
+  year: 2016
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2016-neural-architectures-for-named-entity-recognition
+  numCitedBy: 2938
+  pid: 24158c9fc293c8a998ac552b1188404a877da292
+  show_ref_link: true
+  title: Neural Architectures for Named Entity Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-improving-sentence-compression-by-learning-to-predict-gaze
+  numCitedBy: 96
+  pid: 9ec751343e8343d74b7763cba511a9653a491ca4
+  show_ref_link: false
+  title: Improving sentence compression by learning to predict gaze
+  year: 2016
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1983-a-method-for-solving-the-convex-programming-problem-with-convergence-rate-o-1-k-2
+  numCitedBy: 3215
+  pid: 8d3a318b62d2e970122da35b2a2e70a5d12cc16f
+  show_ref_link: false
+  title: A method for solving the convex programming problem with convergence rate O(1/k^2)
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-automatic-differentiation-of-algorithms-theory-implementation-and-application
+  numCitedBy: 388
+  pid: b93bfbc6e4bbb17b4ac75d691d02bab13e5b48de
+  show_ref_link: false
+  title: Automatic differentiation of algorithms - theory, implementation, and application
+  year: 1994
+slug: DyNet:-The-Dynamic-Neural-Network-Toolkit-Neubig-Dyer
+title: DyNet - The Dynamic Neural Network Toolkit
+url: https://www.semanticscholar.org/paper/DyNet:-The-Dynamic-Neural-Network-Toolkit-Neubig-Dyer/480d545ac4a4ffff5b1bc291c2de613192e35d91?sort=total-citations
+venue: ArXiv
+year: 2017

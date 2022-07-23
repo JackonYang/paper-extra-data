@@ -102,7 +102,7 @@ references:
   meta_key: 2015-optimizing-fpga-based-accelerator-design-for-deep-convolutional-neural-networks
   numCitedBy: 1482
   pid: 7c91eb0f9bbae8e2d3d007db73b8422b61ed1d68
-  show_ref_link: false
+  show_ref_link: true
   title: Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks
   year: 2015
 - fieldsOfStudy:

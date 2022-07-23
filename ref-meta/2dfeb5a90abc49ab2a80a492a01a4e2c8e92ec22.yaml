@@ -82,7 +82,7 @@ corpusId: 4202768
 fieldsOfStudy:
 - Computer Science
 meta_key: 2017-in-datacenter-performance-analysis-of-a-tensor-processing-unit
-numCitedBy: 2951
+numCitedBy: 2954
 numCiting: 119
 paperAbstract: "Many architects believe that major improvements in cost-energy-performance must now come from domain-specific hardware. This paper evaluates a custom ASIC-called a Tensor Processing Unit (TPU)-deployed in datacenters since 2015 that accelerates the inference phase of neural networks (NN). The heart of the TPU is a 65,536 8-bit MAC matrix multiply unit that offers a peak throughput of 92 TeraOps/second (TOPS) and a large (28 MiB) software-managed on-chip memory. The TPU's deterministic execution model is a better match to the 99th-percentile response-time requirement of our NN applications than are the time-varying optimizations of CPUs and GPUs that help average throughput more than guaranteed latency. The lack of such features helps explain why, despite having myriad MACs and a big memory, the TPU is relatively small and low power. We compare the TPU to a server-class Intel Haswell CPU and an Nvidia K80 GPU, which are contemporaries deployed in the same datacenters. Our workload, written in the high-level TensorFlow framework, uses production NN applications (MLPs, CNNs, and LSTMs) that represent 95% of our datacenters' NN inference demand. Despite low utilization for some applications, the TPU is on average about 15X\u201330X faster than its contemporary GPU or CPU, with TOPS/Watt about 30X\u201380X higher. Moreover, using the GPU's GDDR5 memory in the TPU would triple achieved TOPS and raise TOPS/Watt to nearly 70X the GPU and 200X the CPU."
 ref_count: 119
@@ -228,7 +228,7 @@ references:
   meta_key: 2016-eyeriss-a-spatial-architecture-for-energy-efficient-dataflow-for-convolutional-neural-networks
   numCitedBy: 838
   pid: 5ec594e9f5ca4b629be28625cd78c882514ea3be
-  show_ref_link: false
+  show_ref_link: true
   title: Eyeriss - A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks
   year: 2016
 - fieldsOfStudy:
@@ -260,7 +260,7 @@ references:
   meta_key: 2015-optimizing-fpga-based-accelerator-design-for-deep-convolutional-neural-networks
   numCitedBy: 1482
   pid: 7c91eb0f9bbae8e2d3d007db73b8422b61ed1d68
-  show_ref_link: false
+  show_ref_link: true
   title: Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks
   year: 2015
 - fieldsOfStudy:

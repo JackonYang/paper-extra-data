@@ -28,7 +28,7 @@ references:
   meta_key: 2016-bitwise-neural-networks
   numCitedBy: 186
   pid: 8fcfd67f21738eff12d853fdf2b31ee192e2312a
-  show_ref_link: false
+  show_ref_link: true
   title: Bitwise Neural Networks
   year: 2016
 - fieldsOfStudy:
@@ -44,7 +44,7 @@ references:
   meta_key: 2016-neural-networks-with-few-multiplications
   numCitedBy: 280
   pid: 67c191bcce6821f736798cb9b31472bcdd1e52a6
-  show_ref_link: false
+  show_ref_link: true
   title: Neural Networks with Few Multiplications
   year: 2016
 - fieldsOfStudy:

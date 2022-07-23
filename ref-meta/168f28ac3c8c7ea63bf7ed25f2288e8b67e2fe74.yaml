@@ -1,0 +1,146 @@
+authors:
+- Fabian Pedregosa
+- G. Varoquaux
+- Alexandre Gramfort
+- V. Michel
+- B. Thirion
+- O. Grisel
+- Mathieu Blondel
+- Gilles Louppe
+- P. Prettenhofer
+- Ron Weiss
+- Ron J. Weiss
+- J. Vanderplas
+- Alexandre Passos
+- D. Cournapeau
+- M. Brucher
+- M. Perrot
+- E. Duchesnay
+badges:
+- id: OPEN_ACCESS
+corpusId: 10659969
+fieldsOfStudy:
+- Computer Science
+meta_key: 2011-scikit-learn-machine-learning-in-python
+numCitedBy: 43555
+numCiting: 25
+paperAbstract: Scikit-learn is a Python module integrating a wide range of state-of-the-art machine learning algorithms for medium-scale supervised and unsupervised problems. This package focuses on bringing machine learning to non-specialists using a general-purpose high-level language. Emphasis is put on ease of use, performance, documentation, and API consistency. It has minimal dependencies and is distributed under the simplified BSD license, encouraging its use in both academic and commercial settings. Source code, binaries, and documentation can be downloaded from http://scikit-learn.sourceforge.net.
+ref_count: 25
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-the-shogun-machine-learning-toolbox
+  numCitedBy: 288
+  pid: e6cb9e80d1894bbb01882523137145d81dfb0a3c
+  show_ref_link: false
+  title: The SHOGUN Machine Learning Toolbox
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-liblinear-a-library-for-large-linear-classification
+  numCitedBy: 7779
+  pid: 268a4f8da15a42f3e0e71691f760ff5edbf9cec8
+  show_ref_link: true
+  title: LIBLINEAR - A Library for Large Linear Classification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-modular-toolkit-for-data-processing-mdp-a-python-data-processing-framework
+  numCitedBy: 131
+  pid: fd3209f16a991c5e036e3b8d360e968b21194876
+  show_ref_link: false
+  title: Modular Toolkit for Data Processing (MDP) - A Python Data Processing Framework
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-libsvm-a-library-for-support-vector-machines
+  numCitedBy: 40242
+  pid: 273dfbcb68080251f5e9ff38b4413d7bd84b10a1
+  show_ref_link: true
+  title: LIBSVM - A library for support vector machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-guest-editor-s-introduction-python-batteries-included
+  numCitedBy: 33
+  pid: 456b2c18fe5e2487bb9ae2f7c42bf64480343d43
+  show_ref_link: false
+  title: Guest Editor's Introduction - Python - Batteries Included
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-result-analysis-of-the-nips-2003-feature-selection-challenge
+  numCitedBy: 586
+  pid: e1bfd52ce6e38e3e542df2b977ee2c1481f8782a
+  show_ref_link: false
+  title: Result Analysis of the NIPS 2003 Feature Selection Challenge
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-pymvpa-a-python-toolbox-for-multivariate-pattern-analysis-of-fmri-data
+  numCitedBy: 424
+  pid: 2094bfcda9b544223a2de9ea3f57dc643bcbd1ba
+  show_ref_link: false
+  title: PyMVPA - a Python Toolbox for Multivariate Pattern Analysis of fMRI Data
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-the-numpy-array-a-structure-for-efficient-numerical-computation
+  numCitedBy: 6222
+  pid: cef52bea3f13b20d6a31391034b0fccec71c6781
+  show_ref_link: false
+  title: The NumPy Array - A Structure for Efficient Numerical Computation
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-regularization-paths-for-generalized-linear-models-via-coordinate-descent
+  numCitedBy: 11383
+  pid: 0a14824290453b95d051ec9cc299d0f61ad82b23
+  show_ref_link: false
+  title: Regularization Paths for Generalized Linear Models via Coordinate Descent.
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-supervised-clustering-approach-for-fmri-based-inference-of-brain-states
+  numCitedBy: 125
+  pid: 6cd6301c1910cc4070c629a368881de40febf13e
+  show_ref_link: false
+  title: A supervised clustering approach for fMRI-based inference of brain states
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-five-balltree-construction-algorithms
+  numCitedBy: 351
+  pid: 28fd6c26d45eec7b7586e28e3a5cfef2a7b1375c
+  show_ref_link: false
+  title: Five Balltree Construction Algorithms
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-a-randomized-algorithm-for-principal-component-analysis
+  numCitedBy: 366
+  pid: 08a757bb53efafbb0eec6cd0a9ab3f128b6d01d3
+  show_ref_link: false
+  title: A Randomized Algorithm for Principal Component Analysis
+  year: 2009
+- fieldsOfStudy:
+  - Environmental Science
+  meta_key: 2007-python-batteries-included
+  numCitedBy: 15
+  pid: beb370f31d5cc02c0efd77527c1a74dddeccdac3
+  show_ref_link: false
+  title: Python - Batteries Included
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-least-angle-regression
+  numCitedBy: 7911
+  pid: 1c7c5595dc7a1f5d360acf5c360ca1ca49536ba5
+  show_ref_link: true
+  title: Least angle regression
+  year: 2004
+slug: Scikit-learn:-Machine-Learning-in-Python-Pedregosa-Varoquaux
+title: Scikit-learn - Machine Learning in Python
+url: https://www.semanticscholar.org/paper/Scikit-learn:-Machine-Learning-in-Python-Pedregosa-Varoquaux/168f28ac3c8c7ea63bf7ed25f2288e8b67e2fe74?sort=total-citations
+venue: J. Mach. Learn. Res.
+year: 2011
