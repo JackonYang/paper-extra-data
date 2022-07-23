@@ -23,5 +23,6 @@ character-region-awareness-for-text-detection: 2019-craft-ocr
 dragon-book-compiles: 2009-compilers-dragon-book
 essentials-of-programming-languages-3e-mit-2008: 2008-essentials-of-programming-languages-en
 imagenet-classification-with-deep-convolutional-neural-networks: 2012-alexnet
+learning-to-optimize-tensor-programs: 2018-learning-to-optimize-tensor-programs
 tvm_paper: 2018-tvm
 what-is-wrong-with-scene-text-recognition-model-comparisons: 2019-what-is-wrong-with-scene-text-recognition-model-comparisons-dataset-and-model-analysis
