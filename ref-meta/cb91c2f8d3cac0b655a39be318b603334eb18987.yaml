@@ -1,0 +1,353 @@
+authors:
+- Tianqi Chen
+- Lianmin Zheng
+- Eddie Q. Yan
+- Ziheng Jiang
+- T. Moreau
+- L. Ceze
+- Carlos Guestrin
+- A. Krishnamurthy
+badges:
+- id: OPEN_ACCESS
+corpusId: 29160233
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-learning-to-optimize-tensor-programs
+numCitedBy: 181
+numCiting: 46
+paperAbstract: We introduce a learning-based framework to optimize tensor programs for deep learning workloads. Efficient implementations of tensor operators, such as matrix multiplication and high dimensional convolution, are key enablers of effective deep learning systems. However, existing systems rely on manually optimized libraries such as cuDNN where only a narrow range of server class GPUs are well-supported. The reliance on hardware-specific operator libraries limits the applicability of high-level graph optimizations and incurs significant engineering costs when deploying to new hardware targets. We use learning to remove this engineering burden. We learn domain-specific statistical cost models to guide the search of tensor operator implementations over billions of possible program variants. We further accelerate the search by effective model transfer across workloads. Experimental results show that our framework delivers performance competitive with state-of-the-art hand-tuned libraries for low-power CPU, mobile GPU, and server-class GPU.
+ref_count: 46
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-a-system-for-large-scale-machine-learning
+  numCitedBy: 12805
+  pid: 46200b99c40e8586c8a0f588488ab6414119fb28
+  show_ref_link: true
+  title: TensorFlow - A system for large-scale machine learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tvm-an-automated-end-to-end-optimizing-compiler-for-deep-learning
+  numCitedBy: 713
+  pid: df013a17ab84d5403361da4538a04d574f58be83
+  show_ref_link: true
+  title: TVM - An Automated End-to-End Optimizing Compiler for Deep Learning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tensor-comprehensions-framework-agnostic-high-performance-machine-learning-abstractions
+  numCitedBy: 284
+  pid: cae9d90524cccac5081666985d5d055b71697cee
+  show_ref_link: true
+  title: Tensor Comprehensions - Framework-Agnostic High-Performance Machine Learning Abstractions
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-tensor-algebra-compiler
+  numCitedBy: 201
+  pid: c2e1139691c3a337831e36ee7afeab8817ab5d48
+  show_ref_link: true
+  title: The tensor algebra compiler
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-device-placement-optimization-with-reinforcement-learning
+  numCitedBy: 312
+  pid: bfbd10ebffc9494423770a5bd30ebd0f9cbce66d
+  show_ref_link: true
+  title: Device Placement Optimization with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-optiml-an-implicitly-parallel-domain-specific-language-for-machine-learning
+  numCitedBy: 218
+  pid: 63dc0896fd3fd7a6c40beff5beca638e778db4fc
+  show_ref_link: false
+  title: OptiML - An Implicitly Parallel Domain-Specific Language for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-mxnet-a-flexible-and-efficient-machine-learning-library-for-heterogeneous-distributed-systems
+  numCitedBy: 1891
+  pid: 62df84d6a4d26f95e4714796c2337c9848cc13b5
+  show_ref_link: true
+  title: MXNet - A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scalable-bayesian-optimization-using-deep-neural-networks
+  numCitedBy: 711
+  pid: 93bc65d2842b8cc5f3cf72ebc5b8f75daeacea35
+  show_ref_link: false
+  title: Scalable Bayesian Optimization Using Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-to-represent-programs-with-graphs
+  numCitedBy: 460
+  pid: d0f2d7236e43f129744e88130fb71f8f872d2b31
+  show_ref_link: true
+  title: Learning to Represent Programs with Graphs
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-xgboost-a-scalable-tree-boosting-system
+  numCitedBy: 14160
+  pid: 26bc9195c6343e4d7f434dd65b4ad67efe2be27a
+  show_ref_link: true
+  title: XGBoost - A Scalable Tree Boosting System
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-lift-a-functional-data-parallel-ir-for-high-performance-gpu-code-generation
+  numCitedBy: 132
+  pid: aa3553beb4bfa0793a4bed05704e35412342800e
+  show_ref_link: true
+  title: LIFT - A functional data-parallel IR for high-performance GPU code generation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-an-introduction-to-computational-networks-and-the-computational-network-toolkit-invited-talk
+  numCitedBy: 383
+  pid: 3fc68a68225edce1635bc32054c1425db287fba3
+  show_ref_link: false
+  title: An introduction to computational networks and the computational network toolkit (invited talk)
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 15043
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-algorithms-for-convolutional-neural-networks
+  numCitedBy: 617
+  pid: d5eadd6f059d742d76441fd0a635a21694dd7392
+  show_ref_link: true
+  title: Fast Algorithms for Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-algorithm-runtime-prediction-methods-and-evaluation-extended-abstract
+  numCitedBy: 55
+  pid: d3e7d210ffcda4caedbb6719750a7ddfa125d365
+  show_ref_link: false
+  title: Algorithm Runtime Prediction - Methods and Evaluation (Extended Abstract)
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-unsupervised-representation-learning-with-deep-convolutional-generative-adversarial-networks
+  numCitedBy: 9978
+  pid: 8388f1be26329fa45e5807e968a641ce170ea078
+  show_ref_link: true
+  title: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-halide-a-language-and-compiler-for-optimizing-parallelism-locality-and-recomputation-in-image-processing-pipelines
+  numCitedBy: 878
+  pid: d032f74b16457584f8a60ae07cfef9b617033638
+  show_ref_link: false
+  title: Halide - a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-automatically-scheduling-halide-image-processing-pipelines
+  numCitedBy: 129
+  pid: 9b240a87b11d085641d6640f73cc3cc2d678e305
+  show_ref_link: true
+  title: Automatically scheduling halide image processing pipelines
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-automatically-tuned-linear-algebra-software
+  numCitedBy: 1138
+  pid: 214a0d9c93720aa8c3d10710bca8308e3f2618f5
+  show_ref_link: false
+  title: Automatically Tuned Linear Algebra Software
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-practical-automatic-polyhedral-parallelizer-and-locality-optimizer
+  numCitedBy: 860
+  pid: f0f4757aa2f923a349e8357e73850a78e9b80fee
+  show_ref_link: false
+  title: A practical automatic polyhedral parallelizer and locality optimizer
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-efficient-hyperparameter-optimization-and-infinitely-many-armed-bandits
+  numCitedBy: 122
+  pid: b6670222f0cae0ce4a886405e8c8f5d273feeded
+  show_ref_link: true
+  title: Efficient Hyperparameter Optimization and Infinitely Many Armed Bandits
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tree-to-tree-neural-networks-for-program-translation
+  numCitedBy: 153
+  pid: 6c6170ffb39cdc8cfffbeda9c7a2259eda5875f2
+  show_ref_link: true
+  title: Tree-to-tree Neural Networks for Program Translation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-futhark-purely-functional-gpu-programming-with-nested-parallelism-and-in-place-array-updates
+  numCitedBy: 99
+  pid: f463b6d692704baf9463e7d8b39e6032c23c4ec9
+  show_ref_link: false
+  title: Futhark - purely functional GPU-programming with nested parallelism and in-place array updates
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
+  numCitedBy: 2055
+  pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
+  show_ref_link: true
+  title: Sequential Model-Based Optimization for General Algorithm Configuration
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-theano-new-features-and-speed-improvements
+  numCitedBy: 1375
+  pid: 855d0f722d75cc56a66a00ede18ace96bafee6bd
+  show_ref_link: true
+  title: Theano - new features and speed improvements
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-google-vizier-a-service-for-black-box-optimization
+  numCitedBy: 524
+  pid: 938f6ef7eed095919e6a482c7f1836a01d62db4b
+  show_ref_link: true
+  title: Google Vizier - A Service for Black-Box Optimization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-polyhedral-parallel-code-generation-for-cuda
+  numCitedBy: 323
+  pid: 963a1e639971e7e3a4e6c871cf9c0b410e5532d0
+  show_ref_link: false
+  title: Polyhedral parallel code generation for CUDA
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-greedy-function-approximation-a-gradient-boosting-machine
+  numCitedBy: 13931
+  pid: 1679beddda3a183714d380e944fe6bf586c083cd
+  show_ref_link: true
+  title: Greedy function approximation - A gradient boosting machine.
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-learning-to-rank-using-gradient-descent
+  numCitedBy: 2489
+  pid: 63aaf12163fe9735dfe9a69114937c4fa34f303a
+  show_ref_link: false
+  title: Learning to rank using gradient descent
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-tractability-practical-approaches-to-hard-problems
+  numCitedBy: 197
+  pid: 74bc45a8614e54b2fd50a275de4529eb05ae0ba9
+  show_ref_link: false
+  title: Tractability - Practical Approaches to Hard Problems
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-taking-the-human-out-of-the-loop-a-review-of-bayesian-optimization
+  numCitedBy: 2376
+  pid: 0a2586e0a5f8bb4e35aa0763a6b8bca428af6bd2
+  show_ref_link: true
+  title: Taking the Human Out of the Loop - A Review of Bayesian Optimization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-fftw-an-adaptive-software-architecture-for-the-fft
+  numCitedBy: 1753
+  pid: eeb2eb44102bf289db4a22635261d82ffa7dc7db
+  show_ref_link: false
+  title: FFTW - an adaptive software architecture for the FFT
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-improved-semantic-representations-from-tree-structured-long-short-term-memory-networks
+  numCitedBy: 2533
+  pid: 32de44f01a96d4473d21099d15e25bc2b9f08e2f
+  show_ref_link: true
+  title: Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-neural-network-regularization
+  numCitedBy: 1997
+  pid: f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97
+  show_ref_link: true
+  title: Recurrent Neural Network Regularization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-human-level-control-through-deep-reinforcement-learning
+  numCitedBy: 16393
+  pid: e0e9a94c4a6ba219e768b4e59f72c18f0a22e23d
+  show_ref_link: true
+  title: Human-level control through deep reinforcement learning
+  year: 2015
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1978-an-analysis-of-approximations-for-maximizing-submodular-set-functions-i
+  numCitedBy: 4028
+  pid: b9e43395663f74c581982e9ca97a0d7057a0008c
+  show_ref_link: false
+  title: An analysis of approximations for maximizing submodular set functions-I
+  year: 1978
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1983-optimization-by-simulated-annealing
+  numCitedBy: 39780
+  pid: dd5061631a4d11fa394f4421700ebf7e78dcbc59
+  show_ref_link: true
+  title: Optimization by Simulated Annealing
+  year: 1983
+slug: Learning-to-Optimize-Tensor-Programs-Chen-Zheng
+title: Learning to Optimize Tensor Programs
+url: https://www.semanticscholar.org/paper/Learning-to-Optimize-Tensor-Programs-Chen-Zheng/cb91c2f8d3cac0b655a39be318b603334eb18987
+venue: NeurIPS
+year: 2018

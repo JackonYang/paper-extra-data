@@ -92,7 +92,7 @@ references:
   meta_key: 2020-squeeze-and-excitation-networks
   numCitedBy: 7526
   pid: df67d46e78aae0d2fccfb6212d101a342259c01b
-  show_ref_link: false
+  show_ref_link: true
   title: Squeeze-and-Excitation Networks
   year: 2020
 - fieldsOfStudy:

@@ -1,0 +1,359 @@
+authors:
+- Bowen Baker
+- Otkrist Gupta
+- Nikhil Naik
+- R. Raskar
+badges:
+- id: OPEN_ACCESS
+corpusId: 1740355
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-designing-neural-network-architectures-using-reinforcement-learning
+numCitedBy: 1064
+numCiting: 47
+paperAbstract: At present, designing convolutional neural network (CNN) architectures requires both human expertise and labor. New architectures are handcrafted by careful experimentation or modified from a handful of existing networks. We introduce MetaQNN, a meta-modeling algorithm based on reinforcement learning to automatically generate high-performing CNN architectures for a given learning task. The learning agent is trained to sequentially choose CNN layers using $Q$-learning with an $\epsilon$-greedy exploration strategy and experience replay. The agent explores a large but finite space of possible architectures and iteratively discovers designs with improved performance on the learning task. On image classification benchmarks, the agent-designed networks (consisting of only standard convolution, pooling, and fully-connected layers) beat existing networks designed with the same layer types and are competitive against the state-of-the-art methods that use more complex layer types. We also outperform existing meta-modeling approaches for network design on image classification tasks.
+ref_count: 47
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-generative-neuroevolution-for-deep-learning
+  numCitedBy: 45
+  pid: fb300dc8dcf884cc8ddb3bff92e3e5df08d34dae
+  show_ref_link: false
+  title: Generative NeuroEvolution for Deep Learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-recurrent-convolutional-neural-network-for-object-recognition
+  numCitedBy: 750
+  pid: 4b39a79a1dc8e578e38ee4b7f00b4ec9ded50dd0
+  show_ref_link: false
+  title: Recurrent convolutional neural network for object recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-generalizing-pooling-functions-in-convolutional-neural-networks-mixed-gated-and-tree
+  numCitedBy: 391
+  pid: 4b88e948121a87f00fb5aa0081d2044dde51ee36
+  show_ref_link: true
+  title: Generalizing Pooling Functions in Convolutional Neural Networks - Mixed, Gated, and Tree
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-striving-for-simplicity-the-all-convolutional-net
+  numCitedBy: 3314
+  pid: 0f84a81f431b18a78bd97f59ed4b9d8eda390970
+  show_ref_link: true
+  title: Striving for Simplicity - The All Convolutional Net
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-human-level-control-through-deep-reinforcement-learning
+  numCitedBy: 16393
+  pid: e0e9a94c4a6ba219e768b4e59f72c18f0a22e23d
+  show_ref_link: true
+  title: Human-level control through deep reinforcement learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-reinforcement-learning-for-robots-using-neural-networks
+  numCitedBy: 909
+  pid: 54c4cf3a8168c1b70f91cf78a3dc98b671935492
+  show_ref_link: false
+  title: Reinforcement learning for robots using neural networks
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fitnets-hints-for-thin-deep-nets
+  numCitedBy: 2037
+  pid: cd85a549add0c7c7def36aca29837efd24b24080
+  show_ref_link: true
+  title: FitNets - Hints for Thin Deep Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-end-to-end-training-of-deep-visuomotor-policies
+  numCitedBy: 2526
+  pid: b6b8a1b80891c96c28cc6340267b58186157e536
+  show_ref_link: false
+  title: End-to-End Training of Deep Visuomotor Policies
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-understanding-the-difficulty-of-training-deep-feedforward-neural-networks
+  numCitedBy: 12591
+  pid: b71ac1e9fb49420d13e084ac67254a0bbd40f83f
+  show_ref_link: true
+  title: Understanding the difficulty of training deep feedforward neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-speeding-up-automatic-hyperparameter-optimization-of-deep-neural-networks-by-extrapolation-of-learning-curves
+  numCitedBy: 438
+  pid: efb4431579a46d9cfa51b4ebbd4ddb9f44a30246
+  show_ref_link: false
+  title: Speeding Up Automatic Hyperparameter Optimization of Deep Neural Networks by Extrapolation of Learning Curves
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
+  numCitedBy: 11516
+  pid: 846aedd869a00c09b40f1f1f35673cb22bc87490
+  show_ref_link: true
+  title: Mastering the game of Go with deep neural networks and tree search
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-continuous-control-with-deep-reinforcement-learning
+  numCitedBy: 6727
+  pid: 024006d4c2a89f7acacc6e4438d156525b60a98f
+  show_ref_link: false
+  title: Continuous control with deep reinforcement learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-algorithms-for-hyper-parameter-optimization
+  numCitedBy: 2516
+  pid: 03911c85305d42aa2eeb02be82ef6fb7da644dd0
+  show_ref_link: true
+  title: Algorithms for Hyper-Parameter Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-neural-fabrics
+  numCitedBy: 193
+  pid: 197c8988ef21d0b58d363c21bafe1900c3089e3e
+  show_ref_link: true
+  title: Convolutional Neural Fabrics
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-convolutional-neural-networks-applied-to-house-numbers-digit-classification
+  numCitedBy: 458
+  pid: 9f7f9aba0a6a966ce04e29e401ea28f9eae82f02
+  show_ref_link: false
+  title: Convolutional neural networks applied to house numbers digit classification
+  year: 2012
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2002-evolving-neural-networks-through-augmenting-topologies
+  numCitedBy: 2994
+  pid: d03c916d49268d48fde3b76a68e64af7761835e7
+  show_ref_link: false
+  title: Evolving Neural Networks through Augmenting Topologies
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-and-accurate-deep-network-learning-by-exponential-linear-units-elus
+  numCitedBy: 3703
+  pid: f63e917638553414526a0cc8550de4ad2d83fe7a
+  show_ref_link: true
+  title: Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-self-improving-reactive-agents-based-on-reinforcement-learning-planning-and-teaching
+  numCitedBy: 1012
+  pid: 9cd8193a66cf53143cbba6ccb0c7b9c2ebf2452b
+  show_ref_link: false
+  title: Self-improving reactive agents based on reinforcement learning, planning and teaching
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-multi-task-bayesian-optimization
+  numCitedBy: 526
+  pid: d08d5f5aa142d6c44336cbed286d6c40ca6f5bf0
+  show_ref_link: false
+  title: Multi-Task Bayesian Optimization
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-of-neural-networks-using-dropconnect
+  numCitedBy: 2105
+  pid: 38f35dd624cd1cf827416e31ac5e0e0454028eca
+  show_ref_link: true
+  title: Regularization of Neural Networks using DropConnect
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1834
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2009-a-high-throughput-screening-approach-to-discovering-good-forms-of-biologically-inspired-visual-representation
+  numCitedBy: 254
+  pid: d46fd54609e09bcd135fd28750003185a5ee4125
+  show_ref_link: false
+  title: A High-Throughput Screening Approach to Discovering Good Forms of Biologically Inspired Visual Representation
+  year: 2009
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1996-reinforcement-learning-a-survey
+  numCitedBy: 7412
+  pid: 12d1d070a53d4084d88a77b8b143bad51c40c38f
+  show_ref_link: false
+  title: Reinforcement Learning - A Survey
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-experience-replay-for-real-time-reinforcement-learning-control
+  numCitedBy: 182
+  pid: b1d730ad00d877b5ac6a1abb720483945a1904fd
+  show_ref_link: false
+  title: Experience Replay for Real-Time Reinforcement Learning Control
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-making-a-science-of-model-search-hyperparameter-optimization-in-hundreds-of-dimensions-for-vision-architectures
+  numCitedBy: 1286
+  pid: 29935173af73aef20336db72d608e0ef5b0e0c16
+  show_ref_link: true
+  title: Making a Science of Model Search - Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-under-review-as-a-conference-paper-at-iclr-2017
+  numCitedBy: 23
+  pid: 0edd4d2a71e92faf4b818722464d5917ce0e9308
+  show_ref_link: false
+  title: Under review as a conference paper at ICLR 2017
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-under-review-as-a-conference-paper-at-iclr-2017-delving-into-transferable-adversarial-ex-amples-and-black-box-attacks
+  numCitedBy: 488
+  pid: 94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f
+  show_ref_link: true
+  title: Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-pedestrian-detection-with-unsupervised-multi-stage-feature-learning
+  numCitedBy: 778
+  pid: a1306ce652f556fbb9e794d91084a29294298e6d
+  show_ref_link: false
+  title: Pedestrian Detection with Unsupervised Multi-stage Feature Learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-multi-armed-bandit-algorithms-and-empirical-evaluation
+  numCitedBy: 483
+  pid: 5e6b0cc6b13ed794cc21eed16c896c7c57eb754c
+  show_ref_link: false
+  title: Multi-armed Bandit Algorithms and Empirical Evaluation
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-combinations-of-genetic-algorithms-and-neural-networks-a-survey-of-the-state-of-the-art
+  numCitedBy: 621
+  pid: afdf48aaf69a520ed6d5b4a50189facc0ebf4e37
+  show_ref_link: false
+  title: Combinations of genetic algorithms and neural networks - a survey of the state of the art
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-taking-the-human-out-of-the-loop-a-review-of-bayesian-optimization
+  numCitedBy: 2376
+  pid: 0a2586e0a5f8bb4e35aa0763a6b8bca428af6bd2
+  show_ref_link: true
+  title: Taking the Human Out of the Loop - A Review of Bayesian Optimization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-published-as-a-conference-paper-at-iclr-2018-s-imulating-a-ction-d-ynamics-with-n-eural-p-rocess-n-etworks
+  numCitedBy: 156
+  pid: bcd857d75841aa3e92cd4284a8818aba9f6c0c3f
+  show_ref_link: true
+  title: Published as a conference paper at ICLR 2018 S IMULATING A CTION D YNAMICS WITH N EURAL P ROCESS N ETWORKS
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  - Engineering
+  meta_key: 1995-learning-from-delayed-rewards
+  numCitedBy: 3520
+  pid: 59b50a775542e87f078db35b868ac10ab43d4c75
+  show_ref_link: false
+  title: Learning from delayed rewards
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-convex-optimization-algorithms
+  numCitedBy: 514
+  pid: ef6008a4385e21aabda61daf7c5a1c075c08c860
+  show_ref_link: false
+  title: Convex Optimization Algorithms
+  year: 2015
+- fieldsOfStudy:
+  - Education
+  meta_key: 2016-deep-learning
+  numCitedBy: 31384
+  pid: 4f8d648c52edf74e41b0996128aa536e13cc7e82
+  show_ref_link: true
+  title: Deep Learning
+  year: 2016
+slug: Designing-Neural-Network-Architectures-using-Baker-Gupta
+title: Designing Neural Network Architectures using Reinforcement Learning
+url: https://www.semanticscholar.org/paper/Designing-Neural-Network-Architectures-using-Baker-Gupta/6cd5dfccd9f52538b19a415e00031d0ee4e5b181?sort=total-citations
+venue: ICLR
+year: 2017

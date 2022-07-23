@@ -1,0 +1,405 @@
+authors:
+- Yunji Chen
+- Tao Luo
+- Shaoli Liu
+- Shijin Zhang
+- Liqiang He
+- Jia Wang
+- Ling Li
+- Tianshi Chen
+- Zhiwei Xu
+- Ninghui Sun
+- O. Temam
+badges:
+- id: OPEN_ACCESS
+corpusId: 6838992
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-dadiannao-a-machine-learning-supercomputer
+numCitedBy: 1065
+numCiting: 56
+paperAbstract: Many companies are deploying services, either for consumers or industry, which are largely based on machine-learning algorithms for sophisticated processing of large amounts of data. The state-of-the-art and most popular such machine-learning algorithms are Convolutional and Deep Neural Networks (CNNs and DNNs), which are known to be both computationally and memory intensive. A number of neural network accelerators have been recently proposed which can offer high computational capacity/area ratio, but which remain hampered by memory accesses. However, unlike the memory wall faced by processors on general-purpose workloads, the CNNs and DNNs memory footprint, while large, is not beyond the capability of the on chip storage of a multi-chip system. This property, combined with the CNN/DNN algorithmic characteristics, can lead to high internal bandwidth and low external communications, which can in turn enable high-degree parallelism at a reasonable area cost. In this article, we introduce a custom multi-chip machine-learning architecture along those lines. We show that, on a subset of the largest known neural network layers, it is possible to achieve a speedup of 450.65x over a GPU, and reduce the energy by 150.31x on average for a 64-chip system. We implement the node down to the place and route at 28nm, containing a combination of custom storage and computational units, with industry-grade interconnects.
+ref_count: 56
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-diannao-a-small-footprint-high-throughput-accelerator-for-ubiquitous-machine-learning
+  numCitedBy: 1235
+  pid: 22e477a9fdde86ab1f8f4dafdb4d88ea37e31fbd
+  show_ref_link: true
+  title: DianNao - a small-footprint high-throughput accelerator for ubiquitous machine-learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-improving-the-speed-of-neural-networks-on-cpus
+  numCitedBy: 692
+  pid: fbeaa499e10e98515f7e1c4ad89165e8c0677427
+  show_ref_link: false
+  title: Improving the speed of neural networks on CPUs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-massively-parallel-energy-efficient-programmable-accelerator-for-learning-and-classification
+  numCitedBy: 42
+  pid: 53f0a82495bf6f4d1a265aeeaeee0f11695741ec
+  show_ref_link: false
+  title: A Massively Parallel, Energy Efficient Programmable Accelerator for Learning and Classification
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-learning-with-cots-hpc-systems
+  numCitedBy: 679
+  pid: d1208ac421cf8ff67b27d93cd19ae42b8d596f95
+  show_ref_link: false
+  title: Deep learning with COTS HPC systems
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-digital-neurosynaptic-core-using-embedded-crossbar-memory-with-45pj-per-spike-in-45nm
+  numCitedBy: 393
+  pid: 41d044095628119bda85189d7b4e8acd7bd8d79e
+  show_ref_link: false
+  title: A digital neurosynaptic core using embedded crossbar memory with 45pJ per spike in 45nm
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-defect-tolerant-accelerator-for-emerging-high-performance-applications
+  numCitedBy: 156
+  pid: 32c3d778d8cce464b3ad3de277666295f3a0b02a
+  show_ref_link: false
+  title: A defect-tolerant accelerator for emerging high-performance applications
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-understanding-sources-of-inefficiency-in-general-purpose-chips
+  numCitedBy: 464
+  pid: f59cd7ebe88df0a4da66657faa4d4a50c7c36004
+  show_ref_link: false
+  title: Understanding sources of inefficiency in general-purpose chips
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-spinnaker-mapping-neural-networks-onto-a-massively-parallel-chip-multiprocessor
+  numCitedBy: 269
+  pid: fa6509ebe8c0264da3ce7e1c5794100d25ff1997
+  show_ref_link: false
+  title: SpiNNaker - Mapping neural networks onto a massively-parallel chip multiprocessor
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-large-scale-distributed-deep-networks
+  numCitedBy: 3057
+  pid: 3127190433230b3dc1abd0680bb58dced4bcd90e
+  show_ref_link: true
+  title: Large Scale Distributed Deep Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-bridging-the-computation-gap-between-programmable-processors-and-hardwired-accelerators
+  numCitedBy: 78
+  pid: 1209ca733b9ab0ad12b637319fbbec1758c00a7f
+  show_ref_link: false
+  title: Bridging the computation gap between programmable processors and hardwired accelerators
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-case-for-neuromorphic-isas
+  numCitedBy: 41
+  pid: 741092a808d3d8b98448011d1e70ba31efb346de
+  show_ref_link: false
+  title: A case for neuromorphic ISAs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  - Engineering
+  meta_key: 2013-continuous-real-world-inputs-can-open-up-alternative-accelerator-designs
+  numCitedBy: 73
+  pid: ba963bee51cb990fc71a44e0f5ee35c8e595c287
+  show_ref_link: false
+  title: Continuous real-world inputs can open up alternative accelerator designs
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-flexible-high-performance-convolutional-neural-networks-for-image-classification
+  numCitedBy: 1188
+  pid: 5a47ba057a858f8c024d2518cc3731fc7eb40de1
+  show_ref_link: true
+  title: Flexible, High Performance Convolutional Neural Networks for Image Classification
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-convolution-engine-balancing-efficiency-flexibility-in-specialized-computing
+  numCitedBy: 165
+  pid: d50d7cd78126cd4df5dda62f1a75c89d095bc8a5
+  show_ref_link: false
+  title: Convolution engine - balancing efficiency & flexibility in specialized computing
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-multi-column-deep-neural-networks-for-image-classification
+  numCitedBy: 3404
+  pid: 398c296d0cc7f9d180f84969f8937e6d3a413796
+  show_ref_link: true
+  title: Multi-column deep neural networks for image classification
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-building-high-level-features-using-large-scale-unsupervised-learning
+  numCitedBy: 2112
+  pid: 72e93aa6767ee683de7f001fa72f1314e40a8f35
+  show_ref_link: true
+  title: Building high-level features using large scale unsupervised learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-neuflow-a-runtime-reconfigurable-dataflow-processor-for-vision
+  numCitedBy: 349
+  pid: 204710a6a6d935150b5b16daf74493dea6d1b7a2
+  show_ref_link: false
+  title: NeuFlow - A runtime reconfigurable dataflow processor for vision
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-logic-based-edram-origins-and-rationale-for-use
+  numCitedBy: 87
+  pid: 474e79b4e27457221d4f6f7899532a0794085aaa
+  show_ref_link: false
+  title: Logic-based eDRAM - Origins and rationale for use
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3561
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-low-cost-binary128-floating-point-fma-unit-design-with-simd-support
+  numCitedBy: 31
+  pid: fcd0807f968a99cdbfa7c2c099686e5286b63bb1
+  show_ref_link: false
+  title: Low-Cost Binary128 Floating-Point FMA Unit Design with SIMD Support
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-automatic-abstraction-and-fault-tolerance-in-cortical-microachitectures
+  numCitedBy: 51
+  pid: a6cf8b32f9f5bbe4e17be5309fe87fd890706282
+  show_ref_link: false
+  title: Automatic abstraction and fault tolerance in cortical microachitectures
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-wafer-scale-integration-of-analog-neural-networks
+  numCitedBy: 263
+  pid: 706491314ee0b0a879db41054b570af656f72922
+  show_ref_link: false
+  title: Wafer-scale integration of analog neural networks
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-neural-acceleration-for-general-purpose-approximate-programs
+  numCitedBy: 335
+  pid: 15b275f0421c606f5903532e9964b140cbb2f878
+  show_ref_link: false
+  title: Neural Acceleration for General-Purpose Approximate Programs
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-an-efficient-learning-procedure-for-deep-boltzmann-machines
+  numCitedBy: 400
+  pid: d4599b177559dd5ede4dda9d6d96aa149fc71942
+  show_ref_link: false
+  title: An Efficient Learning Procedure for Deep Boltzmann Machines
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-the-parsec-benchmark-suite-characterization-and-architectural-implications
+  numCitedBy: 3372
+  pid: 588dda88f15f1622ee7de7631f2824c23eea60df
+  show_ref_link: false
+  title: The PARSEC benchmark suite - Characterization and architectural implications
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-an-empirical-evaluation-of-deep-architectures-on-problems-with-many-factors-of-variation
+  numCitedBy: 983
+  pid: b8012351bc5ebce4a4b3039bbbba3ce393bc3315
+  show_ref_link: false
+  title: An empirical evaluation of deep architectures on problems with many factors of variation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-improving-deep-neural-networks-for-lvcsr-using-rectified-linear-units-and-dropout
+  numCitedBy: 1192
+  pid: 1a3c74c7b11ad5635570932577cdde2a3f7a6a5c
+  show_ref_link: true
+  title: Improving deep neural networks for LVCSR using rectified linear units and dropout
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-scaling-deep-trench-based-edram-on-soi-to-32nm-and-beyond
+  numCitedBy: 48
+  pid: b0892930ceea2f6fade652df8009033267bc9c98
+  show_ref_link: false
+  title: Scaling deep trench based eDRAM on SOI to 32nm and Beyond
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-introduction-to-this-is-watson
+  numCitedBy: 456
+  pid: bde2d81eaf6086e664af87c04241d4ce4e1bd01b
+  show_ref_link: false
+  title: Introduction to This is Watson
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-what-is-the-best-multi-stage-architecture-for-object-recognition
+  numCitedBy: 2093
+  pid: 1f88427d7aa8225e47f946ac41a0667d7b69ac52
+  show_ref_link: false
+  title: What is the best multi-stage architecture for object recognition?
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-dark-silicon-and-the-end-of-multicore-scaling
+  numCitedBy: 1714
+  pid: 9ae04be7cd5430355ee380b283475e031b8dff4f
+  show_ref_link: false
+  title: Dark Silicon and the End of Multicore Scaling
+  year: 2012
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2011-qscores-trading-dark-silicon-for-scalable-energy-efficiency-with-quasi-specific-cores
+  numCitedBy: 129
+  pid: 1087e2e1244665c9574ab5914ae13c6c88bcc096
+  show_ref_link: false
+  title: QSCORES - Trading dark silicon for scalable energy efficiency with quasi-specific cores
+  year: 2011
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2011-a-high-performance-high-density-28nm-edram-technology-with-high-k-metal-gate
+  numCitedBy: 15
+  pid: 7d118412a341763111606c658e5cc7868ad7efe8
+  show_ref_link: false
+  title: A high-performance, high-density 28nm eDRAM technology with high-K/metal-gate
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-orion-2-0-a-power-area-simulator-for-interconnection-networks
+  numCitedBy: 265
+  pid: 088712e2e0a670e2cb73b90798f2e76dd2a4432e
+  show_ref_link: false
+  title: ORION 2.0 - A Power-Area Simulator for Interconnection Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-long-range-vision-for-autonomous-off-road-driving
+  numCitedBy: 164
+  pid: a90998e0023db48b207cee3b39b0441b3935aaa7
+  show_ref_link: false
+  title: Learning long-range vision for autonomous off-road driving
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-deep-structured-semantic-models-for-web-search-using-clickthrough-data
+  numCitedBy: 1482
+  pid: fdb813d8b927bdd21ae1858cafa6c34b66a36268
+  show_ref_link: false
+  title: Learning deep structured semantic models for web search using clickthrough data
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-long-range-vision-for-autonomous-off-road-driving
+  numCitedBy: 227
+  pid: 2d8f527d1a96b0dae209daa6a241cf3255a6ec0d
+  show_ref_link: false
+  title: "Learning long\u2010range vision for autonomous off\u2010road driving"
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-learning-to-label-aerial-images-from-noisy-data
+  numCitedBy: 340
+  pid: cdfdaccd946dc2fe4863aed048b12b5d2282f285
+  show_ref_link: false
+  title: Learning to Label Aerial Images from Noisy Data
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-the-ibm-blue-gene-q-interconnection-fabric
+  numCitedBy: 99
+  pid: fd1f2cf5d7962b0c36093ba4805de0a5ba5e994c
+  show_ref_link: false
+  title: The IBM Blue Gene/Q Interconnection Fabric
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-compute-and-forward-strategies-for-cooperative-distributed-antenna-systems
+  numCitedBy: 148
+  pid: f65c03cbf4d3289bb868b87fa277c85d4f9b52a3
+  show_ref_link: false
+  title: Compute-and-Forward Strategies for Cooperative Distributed Antenna Systems
+  year: 2013
+- fieldsOfStudy:
+  - Business
+  meta_key: 2004-principles-and-practices-of-interconnection-networks
+  numCitedBy: 3290
+  pid: 850225c7c13b4cffa2ee101798f488dfa289ee3e
+  show_ref_link: false
+  title: Principles and Practices of Interconnection Networks
+  year: 2004
+- fieldsOfStudy:
+  - Engineering
+  meta_key: "2012-a-0-41\xB5a-standby-leakage-32kb-embedded-sram-with-low-voltage-resume-standby-utilizing-all-digital-current-comparator-in-28nm-hkmg-cmos"
+  numCitedBy: 9
+  pid: 26488c46d3d7701bd553b53042ef9d77d5c9baca
+  show_ref_link: false
+  title: "A 0.41\xB5A standby leakage 32Kb embedded SRAM with Low-Voltage resume-standby utilizing all digital current comparator in 28nm HKMG CMOS"
+  year: 2012
+- fieldsOfStudy:
+  - Physics
+  meta_key: 2008-anton-a-specialized-asic-for-molecular-dynamics
+  numCitedBy: 5
+  pid: 4891a93bf31cde9d928f14eba02c0ad36f5232ab
+  show_ref_link: false
+  title: Anton - A specialized ASIC for molecular dynamics
+  year: 2008
+- fieldsOfStudy:
+  - Education
+  meta_key: 2005-recognition-mining-and-synthesis-moves-comp-uters-to-the-era-of-tera
+  numCitedBy: 155
+  pid: b568a32f663511430a2bc94ad02d833ed590a4ce
+  show_ref_link: false
+  title: Recognition, Mining and Synthesis Moves Comp uters to the Era of Tera
+  year: 2005
+slug: DaDianNao:-A-Machine-Learning-Supercomputer-Chen-Luo
+title: DaDianNao - A Machine-Learning Supercomputer
+url: https://www.semanticscholar.org/paper/DaDianNao:-A-Machine-Learning-Supercomputer-Chen-Luo/4157ed3db4c656854e69931cb6089b64b08784b9?sort=total-citations
+venue: 2014 47th Annual IEEE/ACM International Symposium on Microarchitecture
+year: 2014

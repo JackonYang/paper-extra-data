@@ -163,7 +163,7 @@ references:
   meta_key: 2011-domain-adaptation-for-large-scale-sentiment-classification-a-deep-learning-approach
   numCitedBy: 1608
   pid: 6f4065f0cc99a0839b0248ffb4457e5f0277b30d
-  show_ref_link: false
+  show_ref_link: true
   title: Domain Adaptation for Large-Scale Sentiment Classification - A Deep Learning Approach
   year: 2011
 - fieldsOfStudy:

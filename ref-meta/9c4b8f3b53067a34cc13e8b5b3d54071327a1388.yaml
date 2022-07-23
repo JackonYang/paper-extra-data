@@ -1,0 +1,137 @@
+authors:
+- P. Vikhar
+badges: []
+corpusId: 22100336
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-evolutionary-algorithms-a-critical-review-and-its-future-prospects
+numCitedBy: 141
+numCiting: 20
+paperAbstract: Evolutionary algorithm (EA) emerges as an important optimization and search technique in the last decade. EA is a subset of Evolutionary Computations (EC) and belongs to set of modern heuristics based search method. Due to flexible nature and robust behavior inherited from Evolutionary Computation, it becomes efficient means of problem solving method for widely used global optimization problems. It can be used successfully in many applications of high complexity. This paper presents a critical overview of Evolutionary algorithms and its generic procedure for implementation. It further discusses the various practical advantages using evolutionary algorithms over classical methods of optimization. It also includes unusual study of various invariants of EA like Genetic Programming (GP), Genetic Algorithm (GA), Evolutionary Programming (EP) and Evolution Strategies (ES). Extensions of EAs in the form of Memetic algorithms (MA) and distributed EA are also discussed. Further the paper focuses on various refinements done in area of EA to solve real life problems.
+ref_count: 20
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-generalized-theory-for-hybridization-of-evolutionary-algorithms
+  numCitedBy: 6
+  pid: a415635a3d0b67867b4128dada9d9d110df83e8c
+  show_ref_link: false
+  title: Generalized theory for hybridization of evolutionary algorithms
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-introduction-to-evolutionary-algorithms
+  numCitedBy: 290
+  pid: 15d1a9d555c193bef38f028c61638434b8b2c261
+  show_ref_link: false
+  title: Introduction to evolutionary algorithms
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-evolutionary-programming-made-faster
+  numCitedBy: 3178
+  pid: d437d9222472afc281145254dbb17a45f6786719
+  show_ref_link: false
+  title: Evolutionary programming made faster
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-experimental-optimization-by-evolutionary-algorithms
+  numCitedBy: 13
+  pid: 359560fb724e06f92e1f9e368e8997e19b8d7688
+  show_ref_link: false
+  title: Experimental optimization by evolutionary algorithms
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-evolutionary-algorithm-definition
+  numCitedBy: 25
+  pid: 97f2936e273c9fa4a406e2bf4e34e63977f9bc1d
+  show_ref_link: false
+  title: Evolutionary Algorithm Definition
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-comparison-of-multiobjective-particle-swarm-optimization-and-evolutionary-algorithms-for-optimal-reactive-power-dispatch-problem
+  numCitedBy: 19
+  pid: 94460ff562208a428cec9f296461409bddf3536f
+  show_ref_link: false
+  title: Comparison of multiobjective particle swarm optimization and evolutionary algorithms for optimal reactive power dispatch problem
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-introduction-to-evolutionary-algorithms
+  numCitedBy: 6
+  pid: 5076681a60baf80ddcc3965215c85f9fd00251da
+  show_ref_link: false
+  title: Introduction to evolutionary algorithms
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-theoretical-assessment-of-solution-quality-in-evolutionary-algorithms-for-the-knapsack-problem
+  numCitedBy: 15
+  pid: 44c01802b3ab6c03f1d81e113ef1663ea4cf7363
+  show_ref_link: false
+  title: A theoretical assessment of solution quality in evolutionary algorithms for the knapsack problem
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-primary-theoretical-study-on-decomposition-based-multiobjective-evolutionary-algorithms
+  numCitedBy: 28
+  pid: 0f028a6dbd8e204fd4d19ad13f939e77abd1c7fd
+  show_ref_link: false
+  title: A Primary Theoretical Study on Decomposition-Based Multiobjective Evolutionary Algorithms
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improved-differential-evolution-algorithms
+  numCitedBy: 25
+  pid: 94c9e185dea8e5147a8bd7832edce3cc4f22da38
+  show_ref_link: false
+  title: Improved differential evolution algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-an-introduction-to-evolutionary-algorithms-and-their-applications
+  numCitedBy: 24
+  pid: 0d018581fdf5551938d6beb34ac0215e64058128
+  show_ref_link: false
+  title: An Introduction to Evolutionary Algorithms and Their Applications
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-an-overview-of-evolutionary-algorithms-practical-issues-and-common-pitfalls
+  numCitedBy: 429
+  pid: 7417f4bae3d12366afe3194649c1f5a20654a635
+  show_ref_link: false
+  title: An overview of evolutionary algorithms - practical issues and common pitfalls
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-parallel-evolutionary-algorithms
+  numCitedBy: 40
+  pid: 8b1a32d45d60b9d065bfb90d6158e506b20fd4d5
+  show_ref_link: false
+  title: Parallel Evolutionary Algorithms
+  year: 2015
+- fieldsOfStudy:
+  - Art
+  meta_key: 2003-introduction-to-evolutionary-computing
+  numCitedBy: 4669
+  pid: 81d51bf638a6a7c405e1e1d461ae979f83fd929b
+  show_ref_link: false
+  title: Introduction to Evolutionary Computing
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-dynamic-multiagent-genetic-algorithm-for-gene-regulatory-network-reconstruction-based-on-fuzzy-cognitive-maps
+  numCitedBy: 56
+  pid: 5f11e466d2521d439ac290ca826b679c564e7206
+  show_ref_link: false
+  title: A Dynamic Multiagent Genetic Algorithm for Gene Regulatory Network Reconstruction Based on Fuzzy Cognitive Maps
+  year: 2016
+slug: Evolutionary-algorithms:-A-critical-review-and-its-Vikhar
+title: Evolutionary algorithms - A critical review and its future prospects
+url: https://www.semanticscholar.org/paper/Evolutionary-algorithms:-A-critical-review-and-its-Vikhar/9c4b8f3b53067a34cc13e8b5b3d54071327a1388?sort=total-citations
+venue: 2016 International Conference on Global Trends in Signal Processing, Information Computing and Communication (ICGTSPICC)
+year: 2016

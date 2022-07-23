@@ -1,0 +1,278 @@
+authors:
+- Kuan Wang
+- Zhijian Liu
+- Yujun Lin
+- Ji Lin
+- Song Han
+badges:
+- id: OPEN_ACCESS
+corpusId: 102350477
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-haq-hardware-aware-automated-quantization-with-mixed-precision
+numCitedBy: 394
+numCiting: 36
+paperAbstract: 'Model quantization is a widely used technique to compress and accelerate deep neural network (DNN) inference. Emergent DNN hardware accelerators begin to support mixed precision (1-8 bits) to further improve the computation efficiency, which raises a great challenge to find the optimal bitwidth for each layer: it requires domain experts to explore the vast design space trading off among accuracy, latency, energy, and model size, which is both time-consuming and sub-optimal. There are plenty of specialized hardware for neural networks, but little research has been done for specialized neural network optimization for a particular hardware architecture. Conventional quantization algorithm ignores the different hardware architectures and quantizes all the layers in a uniform way. In this paper, we introduce the Hardware-Aware Automated Quantization (HAQ) framework which leverages the reinforcement learning to automatically determine the quantization policy, and we take the hardware accelerator''s feedback in the design loop. Rather than relying on proxy signals such as FLOPs and model size, we employ a hardware simulator to generate direct feedback signals (latency and energy) to the RL agent. Compared with conventional methods, our framework is fully automated and can specialize the quantization policy for different neural network architectures and hardware architectures. Our framework effectively reduced the latency by 1.4-1.95x and the energy consumption by 1.9x with negligible loss of accuracy compared with the fixed bitwidth (8 bits) quantization. Our framework reveals that the optimal policies on different hardware architectures (i.e., edge and cloud architectures) under different resource constraints (i.e., latency, energy and model size) are drastically different. We interpreted the implication of different quantization policies, which offer insights for both neural network architecture design and hardware architecture design.'
+ref_count: 36
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-quantizing-deep-convolutional-networks-for-efficient-inference-a-whitepaper
+  numCitedBy: 450
+  pid: 3d8b62c060f8444907e7c975c6ae590373b51ed4
+  show_ref_link: true
+  title: Quantizing deep convolutional networks for efficient inference - A whitepaper
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-explicit-loss-error-aware-quantization-for-low-bit-deep-neural-networks
+  numCitedBy: 60
+  pid: c9de6315d55c55a465eb646eec76d66d435a7800
+  show_ref_link: false
+  title: Explicit Loss-Error-Aware Quantization for Low-Bit Deep Neural Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-pact-parameterized-clipping-activation-for-quantized-neural-networks
+  numCitedBy: 435
+  pid: 49e60f82d6ae835c56473464f67ca5c11d3e95ec
+  show_ref_link: true
+  title: PACT - Parameterized Clipping Activation for Quantized Neural Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-bit-fusion-bit-level-dynamically-composable-architecture-for-accelerating-deep-neural-network
+  numCitedBy: 258
+  pid: 69e220145b5a7886f9c92da8a253b6cc97181f57
+  show_ref_link: false
+  title: Bit Fusion - Bit-Level Dynamically Composable Architecture for Accelerating Deep Neural Network
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-quantization-and-training-of-neural-networks-for-efficient-integer-arithmetic-only-inference
+  numCitedBy: 1284
+  pid: 59d0d7ccec2db66cad20cac5721ce54a8a058294
+  show_ref_link: true
+  title: Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-amc-automl-for-model-compression-and-acceleration-on-mobile-devices
+  numCitedBy: 843
+  pid: 1717255b6aea01fe956cef998abbc3c399b5d7cf
+  show_ref_link: true
+  title: AMC - AutoML for Model Compression and Acceleration on Mobile Devices
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-trained-ternary-quantization
+  numCitedBy: 801
+  pid: d418295cd3027c43eccc5592ae5b8303ba8192be
+  show_ref_link: true
+  title: Trained Ternary Quantization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-efficient-convolutional-networks-through-network-slimming
+  numCitedBy: 1257
+  pid: 90a16f34d109b63d95ab4da2d491cbe3a1c8b656
+  show_ref_link: true
+  title: Learning Efficient Convolutional Networks through Network Slimming
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-designing-energy-efficient-convolutional-neural-networks-using-energy-aware-pruning
+  numCitedBy: 478
+  pid: 3ac1df952ffb63abb4231a4410f6f8375ccdfe79
+  show_ref_link: false
+  title: Designing Energy-Efficient Convolutional Neural Networks Using Energy-Aware Pruning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-proxylessnas-direct-neural-architecture-search-on-target-task-and-hardware
+  numCitedBy: 1117
+  pid: dc8b789446416383bfafe9b1c504c4a2b17e68d1
+  show_ref_link: true
+  title: ProxylessNAS - Direct Neural Architecture Search on Target Task and Hardware
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dorefa-net-training-low-bitwidth-convolutional-neural-networks-with-low-bitwidth-gradients
+  numCitedBy: 1360
+  pid: 8b053389eb8c18c61b84d7e59a95cb7e13f205b7
+  show_ref_link: true
+  title: DoReFa-Net - Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-binarized-neural-networks-training-deep-neural-networks-with-weights-and-activations-constrained-to-1-or-1
+  numCitedBy: 1753
+  pid: 6eecc808d4c74e7d0d7ef6b8a4112c985ced104d
+  show_ref_link: true
+  title: Binarized Neural Networks - Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-runtime-neural-pruning
+  numCitedBy: 299
+  pid: 88cd4209db62a34d9cba0b9cbe9d45d1e57d21e5
+  show_ref_link: true
+  title: Runtime Neural Pruning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-netadapt-platform-aware-neural-network-adaptation-for-mobile-applications
+  numCitedBy: 324
+  pid: d16b21f3e99171c86365679435f9f03766750639
+  show_ref_link: true
+  title: NetAdapt - Platform-Aware Neural Network Adaptation for Mobile Applications
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-channel-pruning-for-accelerating-very-deep-neural-networks
+  numCitedBy: 1507
+  pid: ee53c9480132fc0d09b1192226cb2c460462fd6d
+  show_ref_link: true
+  title: Channel Pruning for Accelerating Very Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-xnor-net-imagenet-classification-using-binary-convolutional-neural-networks
+  numCitedBy: 2591
+  pid: b649a98ce77ece8cd7638bb74ab77d22d9be77e7
+  show_ref_link: true
+  title: XNOR-Net - ImageNet Classification Using Binary Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-efficient-neural-architecture-search-via-parameter-sharing
+  numCitedBy: 1735
+  pid: fe9b8aac9fa3bfd9724db5a881a578e471e612d7
+  show_ref_link: true
+  title: Efficient Neural Architecture Search via Parameter Sharing
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-xception-deep-learning-with-depthwise-separable-convolutions
+  numCitedBy: 6758
+  pid: 5b6ec746d309b165f9f9def873a2375b6fb40f3d
+  show_ref_link: true
+  title: Xception - Deep Learning with Depthwise Separable Convolutions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-bismo-a-scalable-bit-serial-matrix-multiplication-overlay-for-reconfigurable-computing
+  numCitedBy: 55
+  pid: fe63080debb0020d585c68a311116550f31a2d62
+  show_ref_link: false
+  title: BISMO - A Scalable Bit-Serial Matrix Multiplication Overlay for Reconfigurable Computing
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-path-level-network-transformation-for-efficient-architecture-search
+  numCitedBy: 155
+  pid: dcc808993310a8a64fdd5efa9e46d0022ff12c27
+  show_ref_link: false
+  title: Path-Level Network Transformation for Efficient Architecture Search
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-mobilenetv2-inverted-residuals-and-linear-bottlenecks
+  numCitedBy: 7406
+  pid: dd9cfe7124c734f5a6fc90227d541d3dbcd72ba4
+  show_ref_link: true
+  title: MobileNetV2 - Inverted Residuals and Linear Bottlenecks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-progressive-neural-architecture-search
+  numCitedBy: 1377
+  pid: 5f79398057bf0bbda9ff50067bc1f2950c2a2266
+  show_ref_link: true
+  title: Progressive Neural Architecture Search
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-continuous-control-with-deep-reinforcement-learning
+  numCitedBy: 6727
+  pid: 024006d4c2a89f7acacc6e4438d156525b60a98f
+  show_ref_link: false
+  title: Continuous control with deep reinforcement learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2021-continuous-control-with-deep-reinforcement-learning-for-autonomous-vessels
+  numCitedBy: 4
+  pid: 85b8d4c3992766b236036446b44c5ca934e5e2ed
+  show_ref_link: false
+  title: Continuous Control with Deep Reinforcement Learning for Autonomous Vessels
+  year: 2021
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-roofline-an-insightful-visual-performance-model-for-multicore-architectures
+  numCitedBy: 1897
+  pid: 092217c2267f6e0673590aa151d811e579ff7760
+  show_ref_link: false
+  title: Roofline - an insightful visual performance model for multicore architectures
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-efficient-methods-and-hardware-for-deep-learning
+  numCitedBy: 46
+  pid: f5de316cd6d6b79e0b0cddb08b402c7d57348998
+  show_ref_link: false
+  title: Efficient methods and hardware for deep learning
+  year: 2017
+slug: HAQ:-Hardware-Aware-Automated-Quantization-With-Wang-Liu
+title: HAQ - Hardware-Aware Automated Quantization With Mixed Precision
+url: https://www.semanticscholar.org/paper/HAQ:-Hardware-Aware-Automated-Quantization-With-Wang-Liu/54c4642d017830e1faddbb49f0377228d2b01493?sort=total-citations
+venue: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2019

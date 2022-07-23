@@ -7,7 +7,7 @@ corpusId: 37925315
 fieldsOfStudy:
 - Computer Science
 meta_key: 2006-convex-optimization
-numCitedBy: 38796
+numCitedBy: 38849
 numCiting: 277
 paperAbstract: Convex optimization problems arise frequently in many different fields. A comprehensive introduction to the subject, this book shows in detail how such problems can be solved numerically with great efficiency. The focus is on recognizing convex optimization problems and then finding the most appropriate technique for solving them. The text contains many worked examples and homework exercises and will appeal to students, researchers and practitioners in fields such as engineering, computer science, mathematics, statistics, finance, and economics.
 ref_count: 277
@@ -1142,7 +1142,7 @@ references:
   meta_key: 2001-numerical-optimization
   numCitedBy: 11071
   pid: bf86896c23300a46b7fc76298e365984c0b05105
-  show_ref_link: false
+  show_ref_link: true
   title: Numerical Optimization
   year: 2001
 - fieldsOfStudy:

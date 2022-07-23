@@ -323,7 +323,7 @@ references:
   meta_key: 2015-pointer-networks
   numCitedBy: 1722
   pid: 9653d5c2c7844347343d073bbedd96e05d52f69b
-  show_ref_link: false
+  show_ref_link: true
   title: Pointer Networks
   year: 2015
 - fieldsOfStudy:

@@ -11,7 +11,7 @@ corpusId: 3356463
 fieldsOfStudy:
 - Computer Science
 meta_key: 2017-lstm-a-search-space-odyssey
-numCitedBy: 3313
+numCitedBy: 3337
 numCiting: 64
 paperAbstract: 'Several variants of the long short-term memory (LSTM) architecture for recurrent neural networks have been proposed since its inception in 1995. In recent years, these networks have become the state-of-the-art models for a variety of machine learning problems. This has led to a renewed interest in understanding the role and utility of various computational components of typical LSTM variants. In this paper, we present the first large-scale analysis of eight LSTM variants on three representative tasks: speech recognition, handwriting recognition, and polyphonic music modeling. The hyperparameters of all LSTM variants for each task were optimized separately using random search, and their importance was assessed using the powerful functional ANalysis Of VAriance framework. In total, we summarize the results of 5400 experimental runs ( $\approx 15$  years of CPU time), which makes our study the largest of its kind on LSTM networks. Our results show that none of the variants can improve upon the standard LSTM architecture significantly, and demonstrate the forget gate and the output activation function to be its most critical components. We further observe that the studied hyperparameters are virtually independent and derive guidelines for their efficient adjustment.'
 ref_count: 64
@@ -21,7 +21,7 @@ references:
   meta_key: 2015-an-empirical-exploration-of-recurrent-network-architectures
   numCitedBy: 1385
   pid: 5b8364c21155d3d2cd38ea4c8b8580beba9a3250
-  show_ref_link: false
+  show_ref_link: true
   title: An Empirical Exploration of Recurrent Network Architectures
   year: 2015
 - fieldsOfStudy:
@@ -278,7 +278,7 @@ references:
   meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
   numCitedBy: 2047
   pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
-  show_ref_link: false
+  show_ref_link: true
   title: Sequential Model-Based Optimization for General Algorithm Configuration
   year: 2011
 - fieldsOfStudy:
@@ -286,7 +286,7 @@ references:
   meta_key: 2012-random-search-for-hyper-parameter-optimization
   numCitedBy: 5690
   pid: 188e247506ad992b8bc62d6c74789e89891a984f
-  show_ref_link: false
+  show_ref_link: true
   title: Random Search for Hyper-Parameter Optimization
   year: 2012
 - fieldsOfStudy:

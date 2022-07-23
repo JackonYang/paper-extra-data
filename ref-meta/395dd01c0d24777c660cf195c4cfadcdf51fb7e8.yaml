@@ -1,0 +1,329 @@
+authors:
+- Marcin Andrychowicz
+- Misha Denil
+- Sergio Gomez Colmenarejo
+- Matthew W. Hoffman
+- D. Pfau
+- T. Schaul
+- N. D. Freitas
+badges:
+- id: OPEN_ACCESS
+corpusId: 2928017
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-learning-to-learn-by-gradient-descent-by-gradient-descent
+numCitedBy: 1347
+numCiting: 48
+paperAbstract: The move from hand-designed features to learned features in machine learning has been wildly successful. In spite of this, optimization algorithms are still designed by hand. In this paper we show how the design of an optimization algorithm can be cast as a learning problem, allowing the algorithm to learn to exploit structure in the problems of interest in an automatic way. Our learned algorithms, implemented by LSTMs, outperform generic, hand-designed competitors on the tasks for which they are trained, and also generalize well to new tasks with similar structure. We demonstrate this on a number of tasks, including simple convex problems, training neural networks, and styling images with neural art.
+ref_count: 48
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-learning-to-learn-using-gradient-descent
+  numCitedBy: 497
+  pid: 044b2c29e0a54dc689786bd4d029b9ba6e355d58
+  show_ref_link: false
+  title: Learning to Learn Using Gradient Descent
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-meta-learning-with-backpropagation
+  numCitedBy: 43
+  pid: c50e547cef9b1119324b7e483bf5503c1afc53be
+  show_ref_link: false
+  title: Meta-learning with backpropagation
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-local-gain-adaptation-in-stochastic-gradient-descent
+  numCitedBy: 184
+  pid: 812b49a877b98941f258f7c2bfc8e890963142bd
+  show_ref_link: false
+  title: Local Gain Adaptation in Stochastic Gradient Descent
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-adaptive-subgradient-methods-for-online-learning-and-stochastic-optimization
+  numCitedBy: 8094
+  pid: 413c1142de9d91804d6d11c67ff3fed59c9fc279
+  show_ref_link: true
+  title: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 1991-learning-a-synaptic-learning-rule
+  numCitedBy: 248
+  pid: d130325c41947a41a55a4431e9e8e15be89da8ea
+  show_ref_link: false
+  title: Learning a synaptic learning rule
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-meta-neural-networks-that-learn-by-learning
+  numCitedBy: 149
+  pid: b64e846fe88acaf302248249696c3b7badde41b5
+  show_ref_link: false
+  title: Meta-neural networks that learn by learning
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-an-incremental-gradient-projection-method-with-momentum-term-and-adaptive-stepsize-rule
+  numCitedBy: 154
+  pid: 1a296a1577478654a54a9f801f93f71b7d853c53
+  show_ref_link: false
+  title: An Incremental Gradient(-Projection) Method with Momentum Term and Adaptive Stepsize Rule
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-adadelta-an-adaptive-learning-rate-method
+  numCitedBy: 5509
+  pid: 8729441d734782c3ed532a7d2d9611b438c0a09a
+  show_ref_link: true
+  title: ADADELTA - An Adaptive Learning Rate Method
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-adapting-bias-by-gradient-descent-an-incremental-version-of-delta-bar-delta
+  numCitedBy: 234
+  pid: c2dd697bbe99c2ec71c807580a00f7e723cc20ae
+  show_ref_link: false
+  title: Adapting Bias by Gradient Descent - An Incremental Version of Delta-Bar-Delta
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-optimizing-neural-networks-with-kronecker-factored-approximate-curvature
+  numCitedBy: 566
+  pid: cb4dc7277d1c8c3bc76dd7425eb1cc7cbaf99487
+  show_ref_link: false
+  title: Optimizing Neural Networks with Kronecker-factored Approximate Curvature
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-step-size-controllers-for-robust-neural-network-training
+  numCitedBy: 70
+  pid: fa2e56dce0718b922a2b61af48631f48126aff72
+  show_ref_link: false
+  title: Learning Step Size Controllers for Robust Neural Network Training
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-fixed-weight-on-line-learning
+  numCitedBy: 37
+  pid: f67e7dd2495500f3975f39e541fa38073d49a2ee
+  show_ref_link: false
+  title: Fixed-weight on-line learning
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-meta-learning-with-memory-augmented-neural-networks
+  numCitedBy: 928
+  pid: 3904315e2eca50d0086e4b7273f7fd707c652230
+  show_ref_link: false
+  title: Meta-Learning with Memory-Augmented Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-a-direct-adaptive-method-for-faster-backpropagation-learning-the-rprop-algorithm
+  numCitedBy: 4456
+  pid: 916ceefae4b11dadc3ee754ce590381c568c90de
+  show_ref_link: false
+  title: A direct adaptive method for faster backpropagation learning - the RPROP algorithm
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-advances-in-optimizing-recurrent-networks
+  numCitedBy: 445
+  pid: ded103d0613e1a8f51f586cc1678aee3ff26e811
+  show_ref_link: false
+  title: Advances in optimizing recurrent networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-building-machines-that-learn-and-think-like-people
+  numCitedBy: 1588
+  pid: 7260c0692f8d265e11c4e9c4c8ef4c185bd587ad
+  show_ref_link: true
+  title: Building machines that learn and think like people
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-evolution-and-design-of-distributed-learning-rules
+  numCitedBy: 47
+  pid: 8ad9b6c56748ff12fb10536d0c189fb6835b2e43
+  show_ref_link: false
+  title: Evolution and design of distributed learning rules
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-learning-to-control-fast-weight-memories-an-alternative-to-dynamic-recurrent-networks
+  numCitedBy: 271
+  pid: bc22e87a26d020215afe91c751e5bdaddd8e4922
+  show_ref_link: false
+  title: Learning to Control Fast-Weight Memories - An Alternative to Dynamic Recurrent Networks
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-optimization-with-sparsity-inducing-penalties
+  numCitedBy: 901
+  pid: 224547e2d6991c0612830c28c269a569c5a33edc
+  show_ref_link: false
+  title: Optimization with Sparsity-Inducing Penalties
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-optimization-with-sparsity-inducing-penalties-foundations-and-trends-r-in-machine-learning
+  numCitedBy: 255
+  pid: aad9544d3ffa4c146d5b528afe83ba4e656c62ee
+  show_ref_link: false
+  title: Optimization with Sparsity-Inducing Penalties (Foundations and Trends(R) in Machine Learning)
+  year: 2011
+- fieldsOfStudy:
+  - Art
+  meta_key: 2015-a-neural-algorithm-of-artistic-style
+  numCitedBy: 1908
+  pid: f37e90c0bd5c4a9619ccfb763c45cb2d84abd3e6
+  show_ref_link: false
+  title: A Neural Algorithm of Artistic Style
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-on-the-search-for-new-learning-rules-for-anns
+  numCitedBy: 28
+  pid: 04df5041de8c0ba7bdc6edb76ba3e77728b9e93f
+  show_ref_link: false
+  title: On the search for new learning rules for ANNs
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52390
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-a-signal-processing-framework-based-on-dynamic-neural-networks-with-application-to-problems-in-adaptation-filtering-and-classification
+  numCitedBy: 114
+  pid: bbc0a570896ca9ecf87d8321ec49074214da31ee
+  show_ref_link: false
+  title: A signal processing framework based on dynamic neural networks with application to problems in adaptation, filtering, and classification
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-to-learn
+  numCitedBy: 2272
+  pid: 53bb7789be36a58f865f2ec84f6d8f816ddaae6a
+  show_ref_link: false
+  title: Learning to Learn
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-no-free-lunch-theorems-for-optimization
+  numCitedBy: 9370
+  pid: 8315dff3d304baf47c025f4b33535b9d693350c1
+  show_ref_link: false
+  title: No free lunch theorems for optimization
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-neural-turing-machines
+  numCitedBy: 1651
+  pid: c3823aacea60bc1f2cabb9283144690a3d015db5
+  show_ref_link: true
+  title: Neural Turing Machines
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-fixed-weight-networks-can-learn
+  numCitedBy: 30
+  pid: 8001b80755bb8b189f3e1a51db8d108303b9fe7b
+  show_ref_link: false
+  title: Fixed-weight networks can learn
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-a-neural-network-that-embeds-its-own-meta-levels
+  numCitedBy: 68
+  pid: 32437ae95b6c70517a325bb14d2b9c33473fb96f
+  show_ref_link: false
+  title: A neural network that embeds its own meta-levels
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-numerical-optimization
+  numCitedBy: 10609
+  pid: 43c3bfffdcd313c549b2045980855ea001d6f13b
+  show_ref_link: false
+  title: Numerical Optimization
+  year: 1999
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 2004-shifting-inductive-bias-with-success-story-algorithm-adaptive-levin-search-and-incremental-self-improvement
+  numCitedBy: 159
+  pid: 6e7241121c688abbd9329bdcebce4b6320fc619d
+  show_ref_link: false
+  title: Shifting Inductive Bias with Success-Story Algorithm, Adaptive Levin Search, and Incremental Self-Improvement
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-adaptive-behavior-with-fixed-weights-in-rnn-an-overview
+  numCitedBy: 50
+  pid: 07a575ff2b4fdd892dfccefa38e4b24ec472663b
+  show_ref_link: false
+  title: Adaptive behavior with fixed weights in RNN - an overview
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Business
+  meta_key: 2013-integer-and-combinatorial-optimization
+  numCitedBy: 1301
+  pid: 4de3ad300efdafef428cce497af6d306442e59f0
+  show_ref_link: false
+  title: Integer and Combinatorial Optimization
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-compressed-sensing
+  numCitedBy: 7872
+  pid: e1630fbfb75c2c06bda9f76da139283f245b7cea
+  show_ref_link: false
+  title: Compressed Sensing
+  year: 2015
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1983-a-method-for-solving-the-convex-programming-problem-with-convergence-rate-o-1-k-2
+  numCitedBy: 3213
+  pid: 8d3a318b62d2e970122da35b2a2e70a5d12cc16f
+  show_ref_link: false
+  title: A method for solving the convex programming problem with convergence rate O(1/k^2)
+  year: 1983
+slug: Learning-to-learn-by-gradient-descent-by-gradient-Andrychowicz-Denil
+title: Learning to learn by gradient descent by gradient descent
+url: https://www.semanticscholar.org/paper/Learning-to-learn-by-gradient-descent-by-gradient-Andrychowicz-Denil/395dd01c0d24777c660cf195c4cfadcdf51fb7e8?sort=total-citations
+venue: NIPS
+year: 2016

@@ -10,7 +10,7 @@ corpusId: 17048224
 fieldsOfStudy:
 - Computer Science
 meta_key: 2010-recurrent-neural-network-based-language-model
-numCitedBy: 4919
+numCitedBy: 4935
 numCiting: 20
 paperAbstract: 'A new recurrent neural network based language model (RNN LM) with applications to speech recognition is presented. Results indicate that it is possible to obtain around 50% reduction of perplexity by using mixture of several RNN LMs, compared to a state of the art backoff language model. Speech recognition experiments show around 18% reduction of word error rate on the Wall Street Journal task when comparing models trained on the same amount of data, and around 5% on the much harder NIST RT05 task, even when the backoff model is trained on much more data than the RNN LM. We provide ample empirical evidence to suggest that connectionist language models are superior to standard n-gram techniques, except their high computational (training) complexity. Index Terms: language modeling, recurrent neural networks, speech recognition'
 ref_count: 20

@@ -1,0 +1,1309 @@
+authors:
+- Bobak Shahriari
+- Kevin Swersky
+- Ziyun Wang
+- Ryan P. Adams
+- N. D. Freitas
+badges:
+- id: OPEN_ACCESS
+corpusId: 14843594
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-taking-the-human-out-of-the-loop-a-review-of-bayesian-optimization
+numCitedBy: 2376
+numCiting: 197
+paperAbstract: Big Data applications are typically associated with systems involving large numbers of users, massive complex software systems, and large-scale heterogeneous computing and storage architectures. The construction of such systems involves many distributed design choices. The end products (e.g., recommendation systems, medical analysis tools, real-time game engines, speech recognizers) thus involve many tunable configuration parameters. These parameters are often specified and hard-coded into the software by various developers or teams. If optimized jointly, these parameters can result in significant improvements. Bayesian optimization is a powerful tool for the joint optimization of design choices that is gaining great popularity in recent years. It promises greater automation so as to increase both product quality and human productivity. This review paper introduces Bayesian optimization, highlights some of its methodological aspects, and showcases a wide range of applications.
+ref_count: 197
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-optimization-under-unknown-constraints
+  numCitedBy: 121
+  pid: d14c006bb1eccb2a543ebe339c7c9024a8018c0f
+  show_ref_link: false
+  title: Optimization Under Unknown Constraints
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-automated-configuration-of-algorithms-for-solving-hard-computational-problems
+  numCitedBy: 104
+  pid: 08c4fdd974d874c87ea87faa6b404a7b8eb72c73
+  show_ref_link: false
+  title: Automated configuration of algorithms for solving hard computational problems
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-making-a-science-of-model-search-hyperparameter-optimization-in-hundreds-of-dimensions-for-vision-architectures
+  numCitedBy: 1286
+  pid: 29935173af73aef20336db72d608e0ef5b0e0c16
+  show_ref_link: true
+  title: Making a Science of Model Search - Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-on-correlation-and-budget-constraints-in-model-based-bandit-optimization-with-application-to-automatic-machine-learning
+  numCitedBy: 89
+  pid: 5f06a88d506b52c6106624f1e6c0ea7ced2fb5e1
+  show_ref_link: false
+  title: On correlation and budget constraints in model-based bandit optimization with application to automatic machine learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scalable-bayesian-optimization-using-deep-neural-networks
+  numCitedBy: 711
+  pid: 93bc65d2842b8cc5f3cf72ebc5b8f75daeacea35
+  show_ref_link: false
+  title: Scalable Bayesian Optimization Using Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-bayesian-multi-scale-optimistic-optimization
+  numCitedBy: 78
+  pid: 39174fc632574834c891bc7e9b5a4b2b68377f34
+  show_ref_link: false
+  title: Bayesian Multi-Scale Optimistic Optimization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-parallel-algorithm-configuration
+  numCitedBy: 86
+  pid: 6a2a5cf65a6160669eea80997d6a2b996026d1eb
+  show_ref_link: false
+  title: Parallel Algorithm Configuration
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-computer-experiments-and-global-optimization
+  numCitedBy: 410
+  pid: e89ecae12b44191809befa31404bbc91bec395df
+  show_ref_link: false
+  title: Computer experiments and global optimization
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-hybrid-batch-bayesian-optimization
+  numCitedBy: 60
+  pid: ea43add1837c0e074826ec8f18d0485e840639e7
+  show_ref_link: false
+  title: Hybrid Batch Bayesian Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-parameter-space-exploration-with-gaussian-process-trees
+  numCitedBy: 64
+  pid: 320c39f8768ceff3da719623a2615b072ce682cc
+  show_ref_link: false
+  title: Parameter space exploration with Gaussian process trees
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-speeding-up-automatic-hyperparameter-optimization-of-deep-neural-networks-by-extrapolation-of-learning-curves
+  numCitedBy: 438
+  pid: efb4431579a46d9cfa51b4ebbd4ddb9f44a30246
+  show_ref_link: false
+  title: Speeding Up Automatic Hyperparameter Optimization of Deep Neural Networks by Extrapolation of Learning Curves
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-heteroscedastic-treed-bayesian-optimisation
+  numCitedBy: 36
+  pid: 9eafd854d54a71178d5a403a722ff01371c1bf92
+  show_ref_link: false
+  title: Heteroscedastic Treed Bayesian Optimisation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-tutorial-on-bayesian-optimization-of-expensive-cost-functions-with-application-to-active-user-modeling-and-hierarchical-reinforcement-learning
+  numCitedBy: 1765
+  pid: cd5a26b89f0799db1cbc1dff5607cb6815739fe7
+  show_ref_link: false
+  title: A Tutorial on Bayesian Optimization of Expensive Cost Functions, with Application to Active User Modeling and Hierarchical Reinforcement Learning
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-collaborative-hyperparameter-tuning
+  numCitedBy: 267
+  pid: ea57e9e2d557fa6e944b69bbe4420ef61c122e4c
+  show_ref_link: false
+  title: Collaborative hyperparameter tuning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-portfolio-allocation-for-bayesian-optimization
+  numCitedBy: 204
+  pid: aa068e347fe8fcec0b5c6497a9d3c7790dc46f56
+  show_ref_link: false
+  title: Portfolio Allocation for Bayesian Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-multi-task-bayesian-optimization
+  numCitedBy: 526
+  pid: d08d5f5aa142d6c44336cbed286d6c40ca6f5bf0
+  show_ref_link: false
+  title: Multi-Task Bayesian Optimization
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-theoretical-analysis-of-bayesian-optimisation-with-unknown-gaussian-process-hyper-parameters
+  numCitedBy: 61
+  pid: 309d46e17ec29e88df4ecc41f284a5fa56a6d938
+  show_ref_link: false
+  title: Theoretical Analysis of Bayesian Optimisation with Unknown Gaussian Process Hyper-Parameters
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-initializing-bayesian-hyperparameter-optimization-via-meta-learning
+  numCitedBy: 325
+  pid: 9be7e7579fbec5d45e3e6ea1c4465258225a183d
+  show_ref_link: false
+  title: Initializing Bayesian Hyperparameter Optimization via Meta-Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-predictive-entropy-search-for-bayesian-optimization-with-unknown-constraints
+  numCitedBy: 103
+  pid: fc2b95001c942f7431c28a7ddb4d43c68e060ba6
+  show_ref_link: false
+  title: Predictive Entropy Search for Bayesian Optimization with Unknown Constraints
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-bayesian-interactive-optimization-approach-to-procedural-animation-design
+  numCitedBy: 129
+  pid: 122c45495b725e1c999c4f2a65c3a380631262d5
+  show_ref_link: false
+  title: A Bayesian interactive optimization approach to procedural animation design
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-contextual-gaussian-process-bandit-optimization
+  numCitedBy: 295
+  pid: 5a1a51422cbdfc651d7726e8c613fc44f7fb4fc1
+  show_ref_link: false
+  title: Contextual Gaussian Process Bandit Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-sequential-parameter-optimization
+  numCitedBy: 325
+  pid: 1a99e54554731bda87e72024bb58da8c902d9800
+  show_ref_link: false
+  title: Sequential parameter optimization
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
+  numCitedBy: 2055
+  pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
+  show_ref_link: true
+  title: Sequential Model-Based Optimization for General Algorithm Configuration
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-practical-bayesian-optimization
+  numCitedBy: 256
+  pid: 767256cacd1eeaaab0e1ecb158317389e0a9bf69
+  show_ref_link: false
+  title: Practical bayesian optimization
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-identifying-key-algorithm-parameters-and-instance-features-using-forward-selection
+  numCitedBy: 60
+  pid: 205172102afca365014b0ee9f470c94a00aff8c6
+  show_ref_link: false
+  title: Identifying Key Algorithm Parameters and Instance Features Using Forward Selection
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-predictive-entropy-search-for-efficient-global-optimization-of-black-box-functions
+  numCitedBy: 449
+  pid: 19930c1c481daeba3118ac71aa52603472170024
+  show_ref_link: false
+  title: Predictive Entropy Search for Efficient Global Optimization of Black-box Functions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-bayesian-optimization-in-high-dimensions-via-random-embeddings
+  numCitedBy: 271
+  pid: 75a0a299e4bbcd1123e9000766ddaad13ec8ae10
+  show_ref_link: false
+  title: Bayesian Optimization in High Dimensions via Random Embeddings
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2010-bayesian-optimization-for-sensor-set-selection
+  numCitedBy: 134
+  pid: 6fc4c7a500a90bb23dbd33d3020338ea3f707019
+  show_ref_link: false
+  title: Bayesian optimization for sensor set selection
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-parallelizing-exploration-exploitation-tradeoffs-with-gaussian-process-bandit-optimization
+  numCitedBy: 372
+  pid: 2a802bd3c0d63ee1e43f1e31633e90b399c1a789
+  show_ref_link: false
+  title: Parallelizing Exploration-Exploitation Tradeoffs with Gaussian Process Bandit Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-input-warping-for-bayesian-optimization-of-non-stationary-functions
+  numCitedBy: 181
+  pid: 17a5868dc7abfa9495af6b1ae71042a006238ebc
+  show_ref_link: false
+  title: Input Warping for Bayesian Optimization of Non-Stationary Functions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-auto-weka-combined-selection-and-hyperparameter-optimization-of-classification-algorithms
+  numCitedBy: 1151
+  pid: a42ca00fc188beb5586ad4c7108b70aeb5317da0
+  show_ref_link: false
+  title: Auto-WEKA - combined selection and hyperparameter optimization of classification algorithms
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-sequential-design-of-computer-experiments-to-minimize-integrated-response-functions
+  numCitedBy: 184
+  pid: 9ef6e6f619e84ceb990fa62a3f57548b02c14c3a
+  show_ref_link: false
+  title: Sequential design of computer experiments to minimize integrated response functions
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-raiders-of-the-lost-architecture-kernels-for-bayesian-optimization-in-conditional-parameter-spaces
+  numCitedBy: 68
+  pid: 61b0a3062378927334a6cc7cd3ebeebbb5f745a7
+  show_ref_link: false
+  title: Raiders of the Lost Architecture - Kernels for Bayesian Optimization in Conditional Parameter Spaces
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-an-informational-approach-to-the-global-optimization-of-expensive-to-evaluate-functions
+  numCitedBy: 304
+  pid: 55290c9496fdf0df54dfdbb57117aa58386f98bc
+  show_ref_link: false
+  title: An informational approach to the global optimization of expensive-to-evaluate functions
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-bayesian-learning-for-neural-networks
+  numCitedBy: 3633
+  pid: db869fa192a3222ae4f2d766674a378e47013b1b
+  show_ref_link: false
+  title: Bayesian Learning for Neural Networks
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-multi-task-gaussian-process-prediction
+  numCitedBy: 901
+  pid: 10d10df314c1b58f5c83629e73a35185876cd4e2
+  show_ref_link: false
+  title: Multi-task Gaussian Process Prediction
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-bayesian-optimization-of-text-representations
+  numCitedBy: 38
+  pid: 2f1701b96ff8fef9eb94bf371d9de837ecc7b570
+  show_ref_link: false
+  title: Bayesian Optimization of Text Representations
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-bayesian-optimization-with-unknown-constraints
+  numCitedBy: 273
+  pid: 050ee7cb77800f4d07b517d028d1da8c0c48345b
+  show_ref_link: false
+  title: Bayesian Optimization with Unknown Constraints
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-bayesian-optimization-with-inequality-constraints
+  numCitedBy: 266
+  pid: 5918ae75d71ff737ed002a0d2d4d720d8a94c6b6
+  show_ref_link: false
+  title: Bayesian Optimization with Inequality Constraints
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-robust-gaussian-process-based-global-optimization-using-a-fully-bayesian-expected-improvement-criterion
+  numCitedBy: 60
+  pid: e69596762f29162fe8e6ec48b7d69024bcd022ed
+  show_ref_link: false
+  title: Robust Gaussian Process-Based Global Optimization Using a Fully Bayesian Expected Improvement Criterion
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-kriging-is-well-suited-to-parallelize-optimization
+  numCitedBy: 301
+  pid: 787ee940ff557f0dcf8d07e9c7ade39d00d5e3df
+  show_ref_link: false
+  title: Kriging is well-suited to parallelize optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-from-bandits-to-monte-carlo-tree-search-the-optimistic-principle-applied-to-optimization-and-planning
+  numCitedBy: 228
+  pid: 541571ba3ca170e5429454d9ad190a867263effd
+  show_ref_link: false
+  title: From Bandits to Monte-Carlo Tree Search - The Optimistic Principle Applied to Optimization and Planning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-algorithms-for-hyper-parameter-optimization
+  numCitedBy: 2516
+  pid: 03911c85305d42aa2eeb02be82ef6fb7da644dd0
+  show_ref_link: true
+  title: Algorithms for Hyper-Parameter Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-dealing-with-asynchronicity-in-parallel-gaussian-process-based-global-optimization
+  numCitedBy: 48
+  pid: 14b08c8271a09853ce9e4c002c0e44b896b90d04
+  show_ref_link: false
+  title: Dealing with asynchronicity in parallel Gaussian Process based global optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-controlled-experiments-on-the-web-survey-and-practical-guide
+  numCitedBy: 630
+  pid: abc853bd9a67dd87ebce025a7dc94fb467b067b9
+  show_ref_link: false
+  title: Controlled experiments on the web - survey and practical guide
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-hoeffding-races-accelerating-model-selection-search-for-classification-and-function-approximation
+  numCitedBy: 355
+  pid: 2b31b23e0cb60fbc857728d6b16bc5d61f71a643
+  show_ref_link: false
+  title: Hoeffding Races - Accelerating Model Selection Search for Classification and Function Approximation
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-surrogating-the-surrogate-accelerating-gaussian-process-based-global-optimization-with-a-mixture-cross-entropy-algorithm
+  numCitedBy: 42
+  pid: 560ac582a82dc0ce9765fc942f07f94908eaeeb3
+  show_ref_link: false
+  title: Surrogating the surrogate - accelerating Gaussian-process-based global optimization with a mixture cross-entropy algorithm
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-efficient-global-optimization-of-expensive-black-box-functions
+  numCitedBy: 5764
+  pid: daa63f57c3fbe994c4356f8d986a22e696e776d2
+  show_ref_link: false
+  title: Efficient Global Optimization of Expensive Black-Box Functions
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-active-model-selection
+  numCitedBy: 73
+  pid: d2ecc72ead9620e51072e5593b7158daf548672e
+  show_ref_link: false
+  title: Active Model Selection
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-gaussian-processes-for-global-optimization
+  numCitedBy: 225
+  pid: e109a80439cc73611f70315cff2cc7e9b4e34f7d
+  show_ref_link: false
+  title: Gaussian Processes for Global Optimization
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-gaussian-processes-for-regression-and-optimisation
+  numCitedBy: 61
+  pid: eb529f514ae4b5f2c61ecde551157e1dd2e9b3f1
+  show_ref_link: false
+  title: Gaussian Processes for Regression and Optimisation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-random-search-for-hyper-parameter-optimization
+  numCitedBy: 5726
+  pid: 188e247506ad992b8bc62d6c74789e89891a984f
+  show_ref_link: true
+  title: Random Search for Hyper-Parameter Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-fast-forward-selection-to-speed-up-sparse-gaussian-process-regression
+  numCitedBy: 455
+  pid: 145512a08a7cd79a0efb1f0503ddc6a4e4ef02dc
+  show_ref_link: false
+  title: Fast Forward Selection to Speed Up Sparse Gaussian Process Regression
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-bayesian-optimization-and-semiparametric-models-with-applications-to-assistive-technology
+  numCitedBy: 41
+  pid: 2e079604c7a00c43f06e214280cea18a89dcecef
+  show_ref_link: false
+  title: Bayesian Optimization and Semiparametric Models with Applications to Assistive Technology
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-marginalized-neural-network-mixtures-for-large-scale-regression
+  numCitedBy: 27
+  pid: 22a0a54add27feb2d73dc727f58b69d0df4f4f4b
+  show_ref_link: false
+  title: Marginalized Neural Network Mixtures for Large-Scale Regression
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-active-preference-learning-with-discrete-choice-data
+  numCitedBy: 149
+  pid: 859d4b4b03cadff589164d71f97214a1c7b7b9b6
+  show_ref_link: false
+  title: Active Preference Learning with Discrete Choice Data
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-gaussian-process-optimization-in-the-bandit-setting-no-regret-and-experimental-design
+  numCitedBy: 1656
+  pid: 0c8413ab8de0c1b8f2e86402b8d737d94371610f
+  show_ref_link: false
+  title: Gaussian Process Optimization in the Bandit Setting - No Regret and Experimental Design
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-sparse-gaussian-processes-using-pseudo-inputs
+  numCitedBy: 1512
+  pid: b6a2d80854651a56e0f023543131744f14f20ab4
+  show_ref_link: false
+  title: Sparse Gaussian Processes using Pseudo-inputs
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-an-experimental-methodology-for-response-surface-optimization-methods
+  numCitedBy: 52
+  pid: 004c4ea284409e9ae338147bdd4f4d2aae955fd3
+  show_ref_link: false
+  title: An experimental methodology for response surface optimization methods
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-automatic-gait-optimization-with-gaussian-process-regression
+  numCitedBy: 274
+  pid: d89e23d3267c75db75e2055951facc2d74f2908b
+  show_ref_link: false
+  title: Automatic Gait Optimization with Gaussian Process Regression
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-global-optimization-of-stochastic-black-box-systems-via-sequential-kriging-meta-models
+  numCitedBy: 584
+  pid: 0c51104c58c3e05f487d87ee94ce2e3b2d11dce6
+  show_ref_link: false
+  title: Global Optimization of Stochastic Black-Box Systems via Sequential Kriging Meta-Models
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2011-convergence-rates-of-efficient-global-optimization-algorithms
+  numCitedBy: 445
+  pid: 81f9e2051a47ab85e90f5f19256d2b113aea4f9b
+  show_ref_link: false
+  title: Convergence Rates of Efficient Global Optimization Algorithms
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-adaptive-mcmc-with-bayesian-optimization
+  numCitedBy: 68
+  pid: e37bb83b713e3b83706dfc0ee807bb497ed3873f
+  show_ref_link: false
+  title: Adaptive MCMC with Bayesian Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-hierarchical-adaptive-experimental-design-for-gaussian-process-emulators
+  numCitedBy: 74
+  pid: b10547c6ff093c24d30835389b86cfe778100554
+  show_ref_link: false
+  title: Hierarchical adaptive experimental design for Gaussian process emulators
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-efficient-transfer-learning-method-for-automatic-hyperparameter-tuning
+  numCitedBy: 149
+  pid: 4d289c568cf52f9b448e81e5fdfbbac9f99c3090
+  show_ref_link: false
+  title: Efficient Transfer Learning Method for Automatic Hyperparameter Tuning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-modeling-an-augmented-lagrangian-for-improved-blackbox-constrained-optimization
+  numCitedBy: 12
+  pid: 4955ab553c8ed1adb55325a26c75d837e0e471b4
+  show_ref_link: false
+  title: Modeling an augmented Lagrangian for improved blackbox constrained optimization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-gaussian-processes-for-machine-learning
+  numCitedBy: 18076
+  pid: 82266f6103bade9005ec555ed06ba20b5210ff22
+  show_ref_link: true
+  title: Gaussian Processes for Machine Learning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-modern-bayesian-look-at-the-multi-armed-bandit
+  numCitedBy: 418
+  pid: edc92399f12c2f4f9c232feab790e7015c5ec36b
+  show_ref_link: false
+  title: A modern Bayesian look at the multi-armed bandit
+  year: 2010
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1997-bayesian-algorithms-for-one-dimensional-global-optimization
+  numCitedBy: 122
+  pid: b94597ae958ed215bf57035774759fa8e5d89156
+  show_ref_link: false
+  title: Bayesian Algorithms for One-Dimensional Global Optimization
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-high-dimensional-gaussian-process-bandits
+  numCitedBy: 141
+  pid: d707502c9257ad843fb9dea35664c0c98b3ea4f7
+  show_ref_link: false
+  title: High-Dimensional Gaussian Process Bandits
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-random-forests
+  numCitedBy: 65885
+  pid: 13d4c2f76a7c1a4d0a71204e1d5d263a3f5a7986
+  show_ref_link: true
+  title: Random Forests
+  year: 2004
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2012-parallel-machine-learning-algorithms-in-bioinformatics-and-global-optimization
+  numCitedBy: 2
+  pid: fd7d3da4504e7ca7f8794633c131986a56126d71
+  show_ref_link: false
+  title: Parallel Machine Learning Algorithms In Bioinformatics And Global Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-most-likely-heteroscedastic-gaussian-process-regression
+  numCitedBy: 294
+  pid: e0d24b4407a1abae48633de29b2722000984476f
+  show_ref_link: false
+  title: Most likely heteroscedastic Gaussian process regression
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-to-optimize-via-posterior-sampling
+  numCitedBy: 510
+  pid: 28cf1bd6110e734e20fc63f727d0d5bba612b921
+  show_ref_link: false
+  title: Learning to Optimize via Posterior Sampling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-joint-optimization-and-variable-selection-of-high-dimensional-gaussian-processes
+  numCitedBy: 71
+  pid: c416b2d027bcd82633f39f869750e0458a06f1ab
+  show_ref_link: false
+  title: Joint Optimization and Variable Selection of High-dimensional Gaussian Processes
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-using-confidence-bounds-for-exploitation-exploration-trade-offs
+  numCitedBy: 1420
+  pid: 103f6fe35033f9327611ddafde74a2b544072980
+  show_ref_link: false
+  title: Using Confidence Bounds for Exploitation-Exploration Trade-offs
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-entropy-search-for-information-efficient-global-optimization
+  numCitedBy: 475
+  pid: 510ebe952f10eb5401f65fe5e31aee5bfa72322d
+  show_ref_link: false
+  title: Entropy Search for Information-Efficient Global Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-freeze-thaw-bayesian-optimization
+  numCitedBy: 205
+  pid: 52d97890dbc290108136739ec2afe0f2b6c4f570
+  show_ref_link: false
+  title: Freeze-Thaw Bayesian Optimization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2011-optimistic-optimization-of-a-deterministic-function-without-the-knowledge-of-its-smoothness
+  numCitedBy: 148
+  pid: 5dc2dafbdc96d1bf6d960c64b1612dce542408c0
+  show_ref_link: false
+  title: Optimistic Optimization of a Deterministic Function without the Knowledge of its Smoothness
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-best-arm-identification-a-unified-approach-to-fixed-budget-and-fixed-confidence
+  numCitedBy: 219
+  pid: d4a145888d2724843213b818367138dee5465df0
+  show_ref_link: false
+  title: Best Arm Identification - A Unified Approach to Fixed Budget and Fixed Confidence
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-optimistic-bayesian-sampling-in-contextual-bandit-problems
+  numCitedBy: 233
+  pid: c445fdeb8dbca92404de6a466f1ad2cca687a78f
+  show_ref_link: false
+  title: Optimistic Bayesian Sampling in Contextual-Bandit Problems
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-learning-the-empirical-hardness-of-optimization-problems-the-case-of-combinatorial-auctions
+  numCitedBy: 207
+  pid: 5580b7fda70be1dacb2d9424d13b5f0ca2cd51c8
+  show_ref_link: false
+  title: Learning the Empirical Hardness of Optimization Problems - The Case of Combinatorial Auctions
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-explore-exploit-in-top-n-recommender-systems-via-gaussian-processes
+  numCitedBy: 71
+  pid: 5be0ae8724ac03cfc61fe360373083a786d8fef4
+  show_ref_link: false
+  title: Explore-exploit in top-N recommender systems via Gaussian processes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-design-and-analysis-of-computer-experiments
+  numCitedBy: 2858
+  pid: b617b85b5add24d55bdbd952cb5bde52b01e4869
+  show_ref_link: false
+  title: Design and analysis of computer experiments
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-bayesian-optimization-with-an-empirical-hardness-model-for-approximate-nearest-neighbour-search
+  numCitedBy: 2
+  pid: 55eb5691479268718627a39237fadbe649b34ecc
+  show_ref_link: false
+  title: Bayesian Optimization with an Empirical Hardness Model for approximate Nearest Neighbour Search
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-sequential-bayesian-prediction-in-the-presence-of-changepoints-and-faults
+  numCitedBy: 69
+  pid: 37abfe7b8363f266bfde852003f03e88a27340ef
+  show_ref_link: false
+  title: Sequential Bayesian Prediction in the Presence of Changepoints and Faults
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2014-student-t-processes-as-alternatives-to-gaussian-processes
+  numCitedBy: 145
+  pid: ab6bcd19b7b411ddc3f247215b57e5db3ae67bbc
+  show_ref_link: false
+  title: Student-t Processes as Alternatives to Gaussian Processes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-manifold-gaussian-processes-for-regression
+  numCitedBy: 190
+  pid: f52b977f66d75ada48dc0f661f7dada7937a0252
+  show_ref_link: false
+  title: Manifold Gaussian Processes for regression
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-active-policy-learning-for-robot-planning-and-exploration-under-uncertainty
+  numCitedBy: 158
+  pid: 45aa6a67ce508ccbe74b74f5d60acb626727e914
+  show_ref_link: false
+  title: Active Policy Learning for Robot Planning and Exploration under Uncertainty
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-thompson-sampling-for-contextual-bandits-with-linear-payoffs
+  numCitedBy: 674
+  pid: f26f1a3c034b96514fc092dee99acacedd9c380b
+  show_ref_link: false
+  title: Thompson Sampling for Contextual Bandits with Linear Payoffs
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-a-bayesian-exploration-exploitation-approach-for-optimal-online-sensing-and-planning-with-a-visually-guided-mobile-robot
+  numCitedBy: 215
+  pid: aa23b59a8dd663ee98af5fe18689022b05ba35a2
+  show_ref_link: false
+  title: A Bayesian exploration-exploitation approach for optimal online sensing and planning with a visually guided mobile robot
+  year: 2009
+- fieldsOfStudy:
+  - Business
+  - Computer Science
+  meta_key: 2012-bayesian-optimisation-for-intelligent-environmental-monitoring
+  numCitedBy: 127
+  pid: 66f35a821ac2e9b5af6575e309c5f751fabe9721
+  show_ref_link: false
+  title: Bayesian optimisation for Intelligent Environmental Monitoring
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-on-bayesian-upper-confidence-bounds-for-bandit-problems
+  numCitedBy: 285
+  pid: 76a3325fcb27a22cb5cef0e801a5e2b808c4648a
+  show_ref_link: false
+  title: On Bayesian Upper Confidence Bounds for Bandit Problems
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-empirical-bernstein-stopping
+  numCitedBy: 193
+  pid: 76bfc5f80030b24a6b2d744acfe9374f4a7e0445
+  show_ref_link: false
+  title: Empirical Bernstein stopping
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-classification-and-regression-trees
+  numCitedBy: 18809
+  pid: 3e708b0cd19818e0c7408765dd922835661f8a24
+  show_ref_link: false
+  title: Classification and regression trees
+  year: 2011
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1993-lipschitzian-optimization-without-the-lipschitz-constant
+  numCitedBy: 1840
+  pid: d7808f2ad77de7b71e83a2e79d27f2e3e12be8d5
+  show_ref_link: false
+  title: Lipschitzian optimization without the Lipschitz constant
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-application-of-bayesian-approach-to-numerical-methods-of-global-and-stochastic-optimization
+  numCitedBy: 277
+  pid: 82d51fac26b83f50ceb242b45fd6b1c88e94f867
+  show_ref_link: false
+  title: Application of Bayesian approach to numerical methods of global and stochastic optimization
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-contextual-bandit-approach-to-personalized-news-article-recommendation
+  numCitedBy: 2092
+  pid: ec0072bc37f83f1a81459df43289613e04cc61e1
+  show_ref_link: false
+  title: A contextual-bandit approach to personalized news article recommendation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-self-avoiding-random-dynamics-on-integer-complex-systems
+  numCitedBy: 22
+  pid: f22f841efcc7eb388d6a71e32af3631de31371db
+  show_ref_link: false
+  title: Self-Avoiding Random Dynamics on Integer Complex Systems
+  year: 2013
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2002-generalized-linear-models
+  numCitedBy: 12303
+  pid: 2b461250c014b460e7c97b6138a3ee811f198f43
+  show_ref_link: false
+  title: Generalized Linear Models
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-variational-heteroscedastic-gaussian-process-regression
+  numCitedBy: 223
+  pid: e47635c326206ca0dc5bccab0ceb8fc1d76bbe70
+  show_ref_link: false
+  title: Variational Heteroscedastic Gaussian Process Regression
+  year: 2011
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1996-unconstrained-parametrizations-for-variance-covariance-matrices
+  numCitedBy: 423
+  pid: 2ff55b99d6d94d331670719bb1df1827b4d502a7
+  show_ref_link: false
+  title: Unconstrained parametrizations for variance-covariance matrices
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-pure-exploration-in-multi-armed-bandits-problems
+  numCitedBy: 414
+  pid: b5902a8ae8bbd37d363972f69f16bd1b9eb6d3b6
+  show_ref_link: false
+  title: Pure Exploration in Multi-armed Bandits Problems
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2011-x-armed-bandits
+  numCitedBy: 321
+  pid: 57ff75c271f4a62b686946caf4ff5cd87acee77c
+  show_ref_link: false
+  title: X-Armed Bandits
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-surrogate-model-based-method-for-constrained-optimization
+  numCitedBy: 200
+  pid: fa69c712a0c6e7213e8fed4e00ec99e727a782cf
+  show_ref_link: false
+  title: A surrogate-model-based method for constrained optimization
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-extrapolating-learning-curves-of-deep-neural-networks
+  numCitedBy: 14
+  pid: 5e22b2772774ccc1e504b4e278eff7d6b8ae6aad
+  show_ref_link: false
+  title: Extrapolating Learning Curves of Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Economics
+  meta_key: 2002-the-nonstochastic-multiarmed-bandit-problem
+  numCitedBy: 1984
+  pid: 26e17f6b62a7caec660b3356d49e879e6e0eeabc
+  show_ref_link: false
+  title: The Nonstochastic Multiarmed Bandit Problem
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-completely-derandomized-self-adaptation-in-evolution-strategies
+  numCitedBy: 3374
+  pid: f1bdebedf07fd444628c955568f0d51e1a26835e
+  show_ref_link: false
+  title: Completely Derandomized Self-Adaptation in Evolution Strategies
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  - Business
+  meta_key: 2010-automated-configuration-of-mixed-integer-programming-solvers
+  numCitedBy: 178
+  pid: 5552bcf12caf0e12541cc07a285a3c70470563d3
+  show_ref_link: false
+  title: Automated Configuration of Mixed Integer Programming Solvers
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2010-convergence-properties-of-the-expected-improvement-algorithm-with-fixed-mean-and-covariance-functions
+  numCitedBy: 185
+  pid: 3c5ddc50b656c923b8173c8fc40b6c36f5cd3dac
+  show_ref_link: false
+  title: Convergence properties of the expected improvement algorithm with fixed mean and covariance functions
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-global-optimization-based-on-a-statistical-model-and-simplicial-partitioning
+  numCitedBy: 15
+  pid: 4b8b2267600b0e1ab278a43b4488e6a934cf4b5a
+  show_ref_link: false
+  title: Global Optimization Based on a Statistical Model and Simplicial Partitioning
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-multi-bandit-best-arm-identification
+  numCitedBy: 89
+  pid: 9b0efc79f34dfff7a18a06954ded784e6399e906
+  show_ref_link: false
+  title: Multi-Bandit Best Arm Identification
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-regret-bounds-for-gaussian-process-bandit-problems
+  numCitedBy: 81
+  pid: a99af9810155bfcbec517c9799d65f88851d6594
+  show_ref_link: false
+  title: Regret Bounds for Gaussian Process Bandit Problems
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-active-learning-of-linear-embeddings-for-gaussian-processes
+  numCitedBy: 68
+  pid: d1ccefb48d6edc1e341314888ac3abc9abf23656
+  show_ref_link: false
+  title: Active Learning of Linear Embeddings for Gaussian Processes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-random-features-for-large-scale-kernel-machines
+  numCitedBy: 2862
+  pid: 7a59fde27461a3ef4a21a249cc403d0d96e4a0d7
+  show_ref_link: false
+  title: Random Features for Large-Scale Kernel Machines
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-bandit-based-monte-carlo-planning
+  numCitedBy: 2651
+  pid: e635d81a617d1239232a9c9a11a196c53dab8240
+  show_ref_link: false
+  title: Bandit Based Monte-Carlo Planning
+  year: 2006
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1951-a-statistical-approach-to-some-basic-mine-valuation-problems-on-the-witwatersrand-by-d-g-krige-published-in-the-journal-december-1951-introduction-by-the-author
+  numCitedBy: 2233
+  pid: b8a3d23444cd33f1d74c62d5013f04e6acf0f763
+  show_ref_link: false
+  title: A statistical approach to some basic mine valuation problems on the Witwatersrand, by D.G. Krige, published in the Journal, December 1951 - introduction by the author
+  year: 1951
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-nonstationary-covariance-functions-for-gaussian-process-regression
+  numCitedBy: 323
+  pid: 430962596e38e127e52ffe980e6be820e3fd091b
+  show_ref_link: false
+  title: Nonstationary Covariance Functions for Gaussian Process Regression
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-unifying-view-of-sparse-approximate-gaussian-process-regression
+  numCitedBy: 1625
+  pid: 713fb831bf324690aa7a7e07ace3443770046007
+  show_ref_link: false
+  title: A Unifying View of Sparse Approximate Gaussian Process Regression
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-gambling-in-a-rigged-casino-the-adversarial-multi-armed-bandit-problem
+  numCitedBy: 829
+  pid: 305d689afb6574ffec7b01e24431d541d0ce6f5d
+  show_ref_link: false
+  title: Gambling in a rigged casino - The adversarial multi-armed bandit problem
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-learning-where-to-attend-with-deep-architectures-for-image-tracking
+  numCitedBy: 177
+  pid: 72829d537f0ec8b1cc0ced2f278bb56ce89f1b0c
+  show_ref_link: false
+  title: Learning Where to Attend with Deep Architectures for Image Tracking
+  year: 2012
+- fieldsOfStudy:
+  - Economics
+  meta_key: 2011-an-empirical-evaluation-of-thompson-sampling
+  numCitedBy: 1106
+  pid: ab867c140d2947511979c87e7ae580d9d3f0aeab
+  show_ref_link: false
+  title: An Empirical Evaluation of Thompson Sampling
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-decision-forests-a-unified-framework-for-classification-regression-density-estimation-manifold-learning-and-semi-supervised-learning
+  numCitedBy: 813
+  pid: 7dcfa66b0e6b661877d04a4b67286021d5957e9a
+  show_ref_link: false
+  title: Decision Forests - A Unified Framework for Classification, Regression, Density Estimation, Manifold Learning and Semi-Supervised Learning
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2012-bandit-theory-meets-compressed-sensing-for-high-dimensional-stochastic-linear-bandit
+  numCitedBy: 85
+  pid: 4a91e5863005c60ec2a7eac44bff6446b2596f1f
+  show_ref_link: false
+  title: Bandit Theory meets Compressed Sensing for high dimensional Stochastic Linear Bandit
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-a-nonstationary-space-time-gaussian-process-model-for-partially-converged-simulations
+  numCitedBy: 35
+  pid: dfc617e52c65291ee8941cd48bc5a92e6bd1208b
+  show_ref_link: false
+  title: A Nonstationary Space-Time Gaussian Process Model for Partially Converged Simulations
+  year: 2013
+- fieldsOfStudy:
+  - Economics
+  - Computer Science
+  meta_key: 2012-regret-analysis-of-stochastic-and-nonstochastic-multi-armed-bandit-problems
+  numCitedBy: 2154
+  pid: 9ae45d013a90c4a562b1e380fe032b20d0779577
+  show_ref_link: false
+  title: Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-gaussian-process-optimization-with-mutual-information
+  numCitedBy: 60
+  pid: f4dde6555e6cf51c25870aa49a80dfd18452b03f
+  show_ref_link: false
+  title: Gaussian Process Optimization with Mutual Information
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-prediction-learning-and-games
+  numCitedBy: 3247
+  pid: 9fa9777415729cebfcbcb5ee667057e981f9912e
+  show_ref_link: false
+  title: Prediction, learning, and games
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-exponential-regret-bounds-for-gaussian-process-bandits-with-deterministic-observations
+  numCitedBy: 96
+  pid: 5cac07692791d5b75cc810050d5dad7070cfa926
+  show_ref_link: false
+  title: Exponential Regret Bounds for Gaussian Process Bandits with Deterministic Observations
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-improving-object-detection-with-deep-convolutional-networks-via-bayesian-optimization-and-structured-prediction
+  numCitedBy: 175
+  pid: 215cf528ed98049724969ceb82c66e78edda8d51
+  show_ref_link: false
+  title: Improving object detection with deep convolutional networks via Bayesian optimization and structured prediction
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-gaussian-process-product-models-for-nonparametric-nonstationarity
+  numCitedBy: 45
+  pid: 333eb4aa2055c0981462b1fefd3421783b0be45c
+  show_ref_link: false
+  title: Gaussian process product models for nonparametric nonstationarity
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2012-thompson-sampling-an-asymptotically-optimal-finite-time-analysis
+  numCitedBy: 484
+  pid: 2e96fc720aabb0039f1e9819f4b78259924965ae
+  show_ref_link: false
+  title: Thompson Sampling - An Asymptotically Optimal Finite-Time Analysis
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-sparse-spectrum-gaussian-process-regression
+  numCitedBy: 389
+  pid: f2b1b678ee6295136fdc25d04a804df95badd065
+  show_ref_link: false
+  title: Sparse Spectrum Gaussian Process Regression
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-global-optimization-based-on-a-statistical-model-and-simplicial-partitioning
+  numCitedBy: 29
+  pid: 671dd47e4aadda5e3e7020c6854cd578d69d5d4b
+  show_ref_link: false
+  title: Global optimization based on a statistical model and simplicial partitioning
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-bayesian-experimental-design-a-review
+  numCitedBy: 1718
+  pid: 8f79332b1361e9eaa9da3327f83f57dcac5cd11d
+  show_ref_link: false
+  title: Bayesian Experimental Design - A Review
+  year: 1995
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1992-nonparametric-estimation-of-nonstationary-spatial-covariance-structure
+  numCitedBy: 775
+  pid: b451f70151e3d1cef39fce565dbf36a533579e5a
+  show_ref_link: false
+  title: Nonparametric Estimation of Nonstationary Spatial Covariance Structure
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-an-introduction-to-mcmc-for-machine-learning
+  numCitedBy: 2349
+  pid: 596dac923657992a817d3d68ae83f2fba9cf1ab8
+  show_ref_link: false
+  title: An Introduction to MCMC for Machine Learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-variational-learning-of-inducing-variables-in-sparse-gaussian-processes
+  numCitedBy: 1122
+  pid: f4de6082e2af026b5925810f7e7a1b04736496e2
+  show_ref_link: false
+  title: Variational Learning of Inducing Variables in Sparse Gaussian Processes
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-warped-gaussian-processes
+  numCitedBy: 308
+  pid: 5af14ca62e2b6f2c59b245d097b0c5093f8b36ce
+  show_ref_link: false
+  title: Warped Gaussian Processes
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-using-deep-belief-nets-to-learn-covariance-kernels-for-gaussian-processes
+  numCitedBy: 214
+  pid: f2e95236f0fccc0b70e757ac2ebbc79b7f51de0a
+  show_ref_link: false
+  title: Using Deep Belief Nets to Learn Covariance Kernels for Gaussian Processes
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-semiparametric-latent-factor-models
+  numCitedBy: 239
+  pid: e33131dc7180e92be2f2dfd366aaf1c0ed50dee8
+  show_ref_link: false
+  title: Semiparametric latent factor models
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2005-heteroscedastic-gaussian-process-regression
+  numCitedBy: 158
+  pid: 629ea0aa41191cc0f92ef83d2dc11ade9df04d36
+  show_ref_link: false
+  title: Heteroscedastic Gaussian process regression
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-modeling-nonstationary-processes-through-dimension-expansion
+  numCitedBy: 78
+  pid: d441bd6c555aef5fcd52eb659094b256559b561e
+  show_ref_link: false
+  title: Modeling Nonstationary Processes Through Dimension Expansion
+  year: 2010
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2003-bayesian-inference-for-non-stationary-spatial-covariance-structure-via-spatial-deformations
+  numCitedBy: 292
+  pid: f6f7c1cd90983a05d39e5c974c1184047a71e564
+  show_ref_link: false
+  title: "Bayesian inference for non\u2010stationary spatial covariance structure via spatial deformations"
+  year: 2003
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2001-a-taxonomy-of-global-optimization-methods-based-on-response-surfaces
+  numCitedBy: 1873
+  pid: a3db48fdc9aaf6921f269817ba4ed16b9b198394
+  show_ref_link: false
+  title: A Taxonomy of Global Optimization Methods Based on Response Surfaces
+  year: 2001
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1998-non-stationary-spatial-modeling
+  numCitedBy: 302
+  pid: eea3e2297131f5b808a0dcd038f1ef2d9acbf0d4
+  show_ref_link: false
+  title: Non-Stationary Spatial Modeling
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2008-estimating-deformations-of-isotropic-gaussian-random-fields-on-the-plane
+  numCitedBy: 82
+  pid: cdff994033415bc1352d75f17e20ef7e3e316dca
+  show_ref_link: false
+  title: Estimating deformations of isotropic Gaussian random fields on the plane
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-programming-by-optimization
+  numCitedBy: 202
+  pid: 0543827f43efd420fff5a815060175f00b728f67
+  show_ref_link: false
+  title: Programming by optimization
+  year: 2012
+- fieldsOfStudy:
+  - Geology
+  meta_key: 2000-geostatistics-for-natural-resources-evaluation
+  numCitedBy: 3933
+  pid: 23d3c8ca4b803473a6de60196117130dc0f9eaeb
+  show_ref_link: false
+  title: Geostatistics for Natural Resources Evaluation
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1964-a-new-method-of-locating-the-maximum-point-of-an-arbitrary-multipeak-curve-in-the-presence-of-noise
+  numCitedBy: 802
+  pid: 64c0650c3c559e540ad7fb73c4deadf340da474b
+  show_ref_link: false
+  title: A New Method of Locating the Maximum Point of an Arbitrary Multipeak Curve in the Presence of Noise
+  year: 1964
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: -1-asymptotically-efficient-adaptive-allocation-rules
+  numCitedBy: 2002
+  pid: 572379c1d56e7e19422ae38218ee228c61aefb2f
+  show_ref_link: false
+  title: Asymptotically Efficient Adaptive Allocation Rules
+  year: -1
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1979-bandit-processes-and-dynamic-allocation-indices
+  numCitedBy: 1454
+  pid: 843dfa6fc1c178aa3e0796017dc0d292f0b95b32
+  show_ref_link: false
+  title: Bandit processes and dynamic allocation indices
+  year: 1979
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1959-lectures-on-fourier-integrals
+  numCitedBy: 384
+  pid: df0eb0bee6fb77b53fb20c622a0994f7ba75ab44
+  show_ref_link: false
+  title: Lectures on Fourier Integrals
+  year: 1959
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1956-on-a-measure-of-the-information-provided-by-an-experiment
+  numCitedBy: 1331
+  pid: ff5ff13ba3155cb24d8ff88607b816f8174c6bad
+  show_ref_link: false
+  title: On a Measure of the Information Provided by an Experiment
+  year: 1956
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1933-on-the-likelihood-that-one-unknown-probability-exceeds-another-in-view-of-the-evidence-of-two-samples
+  numCitedBy: 2355
+  pid: ee2cd1d17f833d3c157a1016a778c7c22af555a2
+  show_ref_link: false
+  title: ON THE LIKELIHOOD THAT ONE UNKNOWN PROBABILITY EXCEEDS ANOTHER IN VIEW OF THE EVIDENCE OF TWO SAMPLES
+  year: 1933
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-global-versus-local-search-in-constrained-optimization-of-computer-models
+  numCitedBy: 388
+  pid: aa2555e746b4d157a52d9bc4c63c9b386a720016
+  show_ref_link: false
+  title: Global versus local search in constrained optimization of computer models
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-best-arm-identification-in-multi-armed-bandits
+  numCitedBy: 519
+  pid: 09c437e0edcacc6b2967b7da97395f94004b68c3
+  show_ref_link: false
+  title: Best Arm Identification in Multi-Armed Bandits
+  year: 2010
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2002-flexibility-and-efficiency-enhancements-for-constrained-global-design-optimization-with-kriging-approximations
+  numCitedBy: 390
+  pid: 161f2209b23354b0f628de40c063f69511bdecb2
+  show_ref_link: false
+  title: Flexibility and efficiency enhancements for constrained global design optimization with kriging approximations.
+  year: 2002
+slug: Taking-the-Human-Out-of-the-Loop:-A-Review-of-Shahriari-Swersky
+title: Taking the Human Out of the Loop - A Review of Bayesian Optimization
+url: https://www.semanticscholar.org/paper/Taking-the-Human-Out-of-the-Loop:-A-Review-of-Shahriari-Swersky/0a2586e0a5f8bb4e35aa0763a6b8bca428af6bd2?sort=total-citations
+venue: Proceedings of the IEEE
+year: 2016

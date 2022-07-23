@@ -1,0 +1,220 @@
+authors:
+- Xavier Glorot
+- Antoine Bordes
+- Yoshua Bengio
+badges:
+- id: OPEN_ACCESS
+corpusId: 18235792
+fieldsOfStudy:
+- Computer Science
+meta_key: 2011-domain-adaptation-for-large-scale-sentiment-classification-a-deep-learning-approach
+numCitedBy: 1613
+numCiting: 29
+paperAbstract: The exponential increase in the availability of online reviews and recommendations makes sentiment classification an interesting topic in academic and industrial research. Reviews can span so many different domains that it is difficult to gather annotated training data for all of them. Hence, this paper studies the problem of domain adaptation for sentiment classifiers, hereby a system is trained on labeled reviews from one source domain but is meant to be deployed on another. We propose a deep learning approach which learns to extract a meaningful representation for each review in an unsupervised fashion. Sentiment classifiers trained with this high-level feature representation clearly outperform state-of-the-art methods on a benchmark composed of reviews of 4 types of Amazon products. Furthermore, this method scales well and allowed us to successfully perform domain adaptation on a larger industrial-strength dataset of 22 domains.
+ref_count: 29
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-multi-domain-adaptation-for-sentiment-classification-using-multiple-classifier-combining-methods
+  numCitedBy: 29
+  pid: a07dbf1b94d4aec62b85bbb6e857b3b4c295139b
+  show_ref_link: false
+  title: Multi-domain adaptation for sentiment classification - Using multiple classifier combining methods
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-cross-domain-sentiment-classification-via-spectral-feature-alignment
+  numCitedBy: 738
+  pid: ca781a2fc31a28f653b222ca8afdedc90a009266
+  show_ref_link: false
+  title: Cross-domain sentiment classification via spectral feature alignment
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-biographies-bollywood-boom-boxes-and-blenders-domain-adaptation-for-sentiment-classification
+  numCitedBy: 2105
+  pid: d895647b4a80861703851ef55930a2627fe19492
+  show_ref_link: false
+  title: Biographies, Bollywood, Boom-boxes and Blenders - Domain Adaptation for Sentiment Classification
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-analysis-of-representations-for-domain-adaptation
+  numCitedBy: 1409
+  pid: 96c6bc559b79d8fd518f431c707e8b44ce3bc4de
+  show_ref_link: false
+  title: Analysis of Representations for Domain Adaptation
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-thumbs-up-sentiment-classification-using-machine-learning-techniques
+  numCitedBy: 8564
+  pid: 12d0353ce8b41b7e5409e5a4a611110aee33c7bc
+  show_ref_link: true
+  title: Thumbs up? Sentiment Classification using Machine Learning Techniques
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-semi-supervised-learning-of-compact-document-representations-with-deep-networks
+  numCitedBy: 221
+  pid: 18862760ac708a589afa5848ab55931996db1b28
+  show_ref_link: false
+  title: Semi-supervised learning of compact document representations with deep networks
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-transferring-naive-bayes-classifiers-for-text-classification
+  numCitedBy: 372
+  pid: bae533297207bb64597afa3b86a699ed6c4c98b1
+  show_ref_link: false
+  title: Transferring Naive Bayes Classifiers for Text Classification
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-large-scale-semi-supervised-linear-svms
+  numCitedBy: 253
+  pid: 055015c88145ce691256f44a19068be6bee5ba52
+  show_ref_link: false
+  title: Large scale semi-supervised linear SVMs
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-instance-weighting-for-domain-adaptation-in-nlp
+  numCitedBy: 818
+  pid: b672ef69f60aea81220d658963445c41e60bb0e3
+  show_ref_link: false
+  title: Instance Weighting for Domain Adaptation in NLP
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-unified-architecture-for-natural-language-processing-deep-neural-networks-with-multitask-learning
+  numCitedBy: 5064
+  pid: 57458bc1cffe5caa45a885af986d70f723f406b4
+  show_ref_link: true
+  title: A unified architecture for natural language processing - deep neural networks with multitask learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-domain-adaptation-for-statistical-classifiers
+  numCitedBy: 842
+  pid: 47f5682448cdc0b650b54e7f59d22d72f4976c2d
+  show_ref_link: false
+  title: Domain Adaptation for Statistical Classifiers
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-domain-adaptation-with-structural-correspondence-learning
+  numCitedBy: 1523
+  pid: 9fa8d73e572c3ca824a04a5f551b602a17831bc5
+  show_ref_link: false
+  title: Domain Adaptation with Structural Correspondence Learning
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-self-taught-learning-transfer-learning-from-unlabeled-data
+  numCitedBy: 1618
+  pid: b3852f0113fcf8a3913c55ae92393ae6ccde347e
+  show_ref_link: false
+  title: Self-taught learning - transfer learning from unlabeled data
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-measuring-invariances-in-deep-networks
+  numCitedBy: 413
+  pid: 3137bc367c61c0e507a5e3c1f8caeb26f292d79f
+  show_ref_link: false
+  title: Measuring Invariances in Deep Networks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-connection-between-score-matching-and-denoising-autoencoders
+  numCitedBy: 402
+  pid: 872bae24c109f7c30e052ac218b17a8b028d08a0
+  show_ref_link: false
+  title: A Connection Between Score Matching and Denoising Autoencoders
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-extracting-and-composing-robust-features-with-denoising-autoencoders
+  numCitedBy: 5533
+  pid: 843959ffdccf31c6694d135fad07425924f785b1
+  show_ref_link: true
+  title: Extracting and composing robust features with denoising autoencoders
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-multiple-aspect-ranking-using-the-good-grief-algorithm
+  numCitedBy: 330
+  pid: 2ab8faaa1ee1791e6da911e408dee97681cfa58e
+  show_ref_link: false
+  title: Multiple Aspect Ranking Using the Good Grief Algorithm
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-learning-deep-architectures-for-ai
+  numCitedBy: 7604
+  pid: e60ff004dde5c13ec53087872cfcdd12e85beb57
+  show_ref_link: true
+  title: Learning Deep Architectures for AI
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-greedy-layer-wise-training-of-deep-networks
+  numCitedBy: 3486
+  pid: 355d44f53428b1ac4fb2ab468d593c720640e5bd
+  show_ref_link: true
+  title: Greedy Layer-Wise Training of Deep Networks
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-fast-learning-algorithm-for-deep-belief-nets
+  numCitedBy: 13502
+  pid: 8978cf7574ceb35f4c3096be768c7547b28a35d0
+  show_ref_link: true
+  title: A Fast Learning Algorithm for Deep Belief Nets
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-reducing-the-dimensionality-of-data-with-neural-networks
+  numCitedBy: 14754
+  pid: 46eb79e5eec8a4e2b2f5652b66441e8a4c921c3e
+  show_ref_link: true
+  title: Reducing the Dimensionality of Data with Neural Networks
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-semantic-hashing
+  numCitedBy: 1264
+  pid: cd5af41a81e7fc9588dc74f3831fb14daf2f8e2a
+  show_ref_link: false
+  title: Semantic hashing
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12985
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Economics
+  meta_key: 2006-get-out-the-vote-determining-support-or-opposition-from-congressional-floor-debate-transcripts
+  numCitedBy: 580
+  pid: 0c954bc14181c7b140e6727738ebb7a596754de9
+  show_ref_link: false
+  title: Get out the vote - Determining support or opposition from Congressional floor-debate transcripts
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-deep-sparse-rectifier-neural-networks
+  numCitedBy: 5985
+  pid: 67107f78a84bdb2411053cb54e94fa226eea6d8e
+  show_ref_link: true
+  title: Deep Sparse Rectifier Neural Networks
+  year: 2011
+slug: Domain-Adaptation-for-Large-Scale-Sentiment-A-Deep-Glorot-Bordes
+title: Domain Adaptation for Large-Scale Sentiment Classification - A Deep Learning Approach
+url: https://www.semanticscholar.org/paper/Domain-Adaptation-for-Large-Scale-Sentiment-A-Deep-Glorot-Bordes/6f4065f0cc99a0839b0248ffb4457e5f0277b30d?sort=total-citations
+venue: ICML
+year: 2011

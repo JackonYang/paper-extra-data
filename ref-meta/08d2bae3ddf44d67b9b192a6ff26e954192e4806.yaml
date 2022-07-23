@@ -1,0 +1,166 @@
+authors:
+- M. Looks
+- Marcello Herreshoff
+- DeLesley S. Hutchins
+- Peter Norvig
+badges:
+- id: OPEN_ACCESS
+corpusId: 5144625
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-deep-learning-with-dynamic-computation-graphs
+numCitedBy: 107
+numCiting: 22
+paperAbstract: Neural networks that compute over graph structures are a natural fit for problems in a variety of domains, including natural language (parse trees) and cheminformatics (molecular graphs). However, since the computation graph has a different shape and size for every input, such networks do not directly support batched training or inference. They are also difficult to implement in popular deep learning libraries, which are based on static data-flow graphs. We introduce a technique called dynamic batching, which not only batches together operations between different input graphs of dissimilar shape, but also between different nodes within a single input graph. The technique allows us to create static graphs, using popular libraries, that emulate dynamic computation graphs of arbitrary shape and size. We further present a high-level library of compositional blocks that simplifies the creation of dynamic graph models. Using the library, we demonstrate concise and batch-wise parallel implementations for a variety of models from the literature.
+ref_count: 22
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-learning-task-dependent-distributed-representations-by-backpropagation-through-structure
+  numCitedBy: 581
+  pid: c58dd287a476b4722c5b6b1316629e2874682219
+  show_ref_link: false
+  title: Learning task-dependent distributed representations by backpropagation through structure
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-molecular-graph-convolutions-moving-beyond-fingerprints
+  numCitedBy: 932
+  pid: 561c3fa53d36405186da9cab02bd68635c3738aa
+  show_ref_link: false
+  title: Molecular graph convolutions - moving beyond fingerprints
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-when-are-tree-structures-necessary-for-deep-learning-of-representations
+  numCitedBy: 212
+  pid: df77714269f1f88182092f8535b1bc290fcd835d
+  show_ref_link: false
+  title: When Are Tree Structures Necessary for Deep Learning of Representations?
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-improving-the-speed-of-neural-networks-on-cpus
+  numCitedBy: 692
+  pid: fbeaa499e10e98515f7e1c4ad89165e8c0677427
+  show_ref_link: false
+  title: Improving the speed of neural networks on CPUs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-recursive-distributed-representations
+  numCitedBy: 949
+  pid: 6a835df43fdc2f79126319f6fa033bb42147c6f6
+  show_ref_link: false
+  title: Recursive Distributed Representations
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-theano-a-python-framework-for-fast-computation-of-mathematical-expressions
+  numCitedBy: 2083
+  pid: 6b570069f14c7588e066f7138e1f21af59d62e61
+  show_ref_link: true
+  title: Theano - A Python framework for fast computation of mathematical expressions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-improved-semantic-representations-from-tree-structured-long-short-term-memory-networks
+  numCitedBy: 2533
+  pid: 32de44f01a96d4473d21099d15e25bc2b9f08e2f
+  show_ref_link: true
+  title: Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-tree-indexers-for-text-understanding
+  numCitedBy: 98
+  pid: 705dcc8eadba137834e4b0359e2d696d4b209f5b
+  show_ref_link: false
+  title: Neural Tree Indexers for Text Understanding
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-fast-unified-model-for-parsing-and-sentence-understanding
+  numCitedBy: 281
+  pid: 36c097a225a95735271960e2b63a2cb9e98bff83
+  show_ref_link: false
+  title: A Fast Unified Model for Parsing and Sentence Understanding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-to-compose-neural-networks-for-question-answering
+  numCitedBy: 480
+  pid: 75ddc7ee15be14013a3462c01b38b0548486fbcb
+  show_ref_link: true
+  title: Learning to Compose Neural Networks for Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19562
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1494
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-monadic-parser-combinators
+  numCitedBy: 144
+  pid: 3c76cf8397917ef4814fffb60e7c922b711edc45
+  show_ref_link: false
+  title: Monadic parser combinators
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-gpu-implementation-of-neural-networks
+  numCitedBy: 360
+  pid: 80664dab16a1f18ce1998e38a03f080c5e98363a
+  show_ref_link: false
+  title: GPU implementation of neural networks
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-generalising-monads-to-arrows
+  numCitedBy: 501
+  pid: 69726843cd5f6b4990154a51ee6897a3af3b703e
+  show_ref_link: false
+  title: Generalising monads to arrows
+  year: 2000
+- fieldsOfStudy:
+  - Chemistry
+  meta_key: 2004-application-of-cascade-correlation-networks-for-structures-to-chemistry
+  numCitedBy: 81
+  pid: 5220ea903fb9b90c035bf97595acceee0cd24c49
+  show_ref_link: false
+  title: Application of Cascade Correlation Networks for Structures to Chemistry
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  - Psychology
+  meta_key: 2015-feed-forward-networks-with-attention-can-solve-some-long-term-memory-problems
+  numCitedBy: 226
+  pid: 87119572d1065fb079e1dee8fcdb6c4811143f96
+  show_ref_link: false
+  title: Feed-Forward Networks with Attention Can Solve Some Long-Term Memory Problems
+  year: 2015
+slug: Deep-Learning-with-Dynamic-Computation-Graphs-Looks-Herreshoff
+title: Deep Learning with Dynamic Computation Graphs
+url: https://www.semanticscholar.org/paper/Deep-Learning-with-Dynamic-Computation-Graphs-Looks-Herreshoff/08d2bae3ddf44d67b9b192a6ff26e954192e4806?sort=total-citations
+venue: ICLR
+year: 2017

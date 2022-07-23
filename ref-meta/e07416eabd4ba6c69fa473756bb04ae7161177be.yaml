@@ -7,7 +7,7 @@ corpusId: 6888534
 fieldsOfStudy:
 - Computer Science
 meta_key: 2006-image-denoising-via-sparse-and-redundant-representations-over-learned-dictionaries
-numCitedBy: 4993
+numCitedBy: 4996
 numCiting: 53
 paperAbstract: 'We address the image denoising problem, where zero-mean white and homogeneous Gaussian additive noise is to be removed from a given image. The approach taken is based on sparse and redundant representations over trained dictionaries. Using the K-SVD algorithm, we obtain a dictionary that describes the image content effectively. Two training options are considered: using the corrupted image itself, or training on a corpus of high-quality image database. Since the K-SVD is limited in handling small image patches, we extend its deployment to arbitrary image sizes by defining a global image prior that forces sparsity over patches in every location in the image. We show how such Bayesian treatment leads to a simple and effective denoising algorithm. This leads to a state-of-the-art denoising performance, equivalent and sometimes surpassing recently published leading alternative denoising methods'
 ref_count: 53

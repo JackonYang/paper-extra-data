@@ -1,0 +1,418 @@
+authors:
+- Chenxi Liu
+- Barret Zoph
+- Jonathon Shlens
+- Wei Hua
+- Li-Jia Li
+- Li Fei-Fei
+- A. Yuille
+- Jonathan Huang
+- K. Murphy
+badges:
+- id: OPEN_ACCESS
+corpusId: 40430109
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-progressive-neural-architecture-search
+numCitedBy: 1377
+numCiting: 53
+paperAbstract: We propose a new method for learning the structure of convolutional neural networks (CNNs) that is more efficient than recent state-of-the-art methods based on reinforcement learning and evolutionary algorithms. Our approach uses a sequential model-based optimization (SMBO) strategy, in which we search for structures in order of increasing complexity, while simultaneously learning a surrogate model to guide the search through structure space. Direct comparison under the same search space shows that our method is up to 5 times more efficient than the RL method of Zoph et al. (2018) in terms of number of models evaluated, and 8 times faster in terms of total compute. The structures we discover in this way achieve state of the art classification accuracies on CIFAR-10 and ImageNet.
+ref_count: 53
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-efficient-architecture-search-by-network-transformation
+  numCitedBy: 422
+  pid: 84e65a5bdb735d62eef4f72c2f01af354b2285ba
+  show_ref_link: true
+  title: Efficient Architecture Search by Network Transformation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-reinforcement-learning-for-architecture-search-by-network-transformation
+  numCitedBy: 60
+  pid: 4e7c28bd51d75690e166769490ed718af9736faa
+  show_ref_link: false
+  title: Reinforcement Learning for Architecture Search by Network Transformation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-evolving-deep-neural-networks
+  numCitedBy: 610
+  pid: cd7c02cab3ec4e59150657bd6660eab97def9a3a
+  show_ref_link: true
+  title: Evolving Deep Neural Networks
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-simple-and-efficient-architecture-search-for-convolutional-neural-networks
+  numCitedBy: 176
+  pid: 0e0ee672ebd9ec0019c414d1c0524f3bb888dd6d
+  show_ref_link: false
+  title: Simple And Efficient Architecture Search for Convolutional Neural Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-genetic-cnn
+  numCitedBy: 512
+  pid: 4f46dba09e075b2e7dfae1ba2a71e8e21b46e88d
+  show_ref_link: true
+  title: Genetic CNN
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-hierarchical-representations-for-efficient-architecture-search
+  numCitedBy: 680
+  pid: 856451974cce2d353d5d8a5a72104984a252375c
+  show_ref_link: true
+  title: Hierarchical Representations for Efficient Architecture Search
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-designing-neural-network-architectures-using-reinforcement-learning
+  numCitedBy: 1064
+  pid: 6cd5dfccd9f52538b19a415e00031d0ee4e5b181
+  show_ref_link: true
+  title: Designing Neural Network Architectures using Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-practical-network-blocks-design-with-q-learning
+  numCitedBy: 107
+  pid: 7e259f2582c32755b968cb725c5c04a00e481417
+  show_ref_link: false
+  title: Practical Network Blocks Design with Q-Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-efficient-neural-architecture-search-via-parameter-sharing
+  numCitedBy: 1735
+  pid: fe9b8aac9fa3bfd9724db5a881a578e471e612d7
+  show_ref_link: true
+  title: Efficient Neural Architecture Search via Parameter Sharing
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-smash-one-shot-model-architecture-search-through-hypernetworks
+  numCitedBy: 525
+  pid: e56b10f7cd4bf037beac84da5925dc4544fab974
+  show_ref_link: true
+  title: SMASH - One-Shot Model Architecture Search through HyperNetworks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-regularized-evolution-for-image-classifier-architecture-search
+  numCitedBy: 1843
+  pid: 50bdda28de3dcf82a0e10f9ec13eea248b19edb5
+  show_ref_link: true
+  title: Regularized Evolution for Image Classifier Architecture Search
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-improved-regularization-of-convolutional-neural-networks-with-cutout
+  numCitedBy: 1727
+  pid: eb35fdc11a325f21a8ce0ca65058f7480a2fc91f
+  show_ref_link: true
+  title: Improved Regularization of Convolutional Neural Networks with Cutout
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-adanet-adaptive-structural-learning-of-artificial-neural-networks
+  numCitedBy: 209
+  pid: b9a81ca3b8fc0ca0fab3ef4dad489f94d8dd2550
+  show_ref_link: false
+  title: AdaNet - Adaptive Structural Learning of Artificial Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-transferable-architectures-for-scalable-image-recognition
+  numCitedBy: 3538
+  pid: d0611891b9e8a7c5731146097b6f201578f47b2f
+  show_ref_link: true
+  title: Learning Transferable Architectures for Scalable Image Recognition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-large-scale-evolution-of-image-classifiers
+  numCitedBy: 1118
+  pid: f108b65fe0003e387e1cd7e50f537af0531818e4
+  show_ref_link: true
+  title: Large-Scale Evolution of Image Classifiers
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-aggregated-residual-transformations-for-deep-neural-networks
+  numCitedBy: 5619
+  pid: f6e0856b4a9199fa968ac00da612a9407b5cb85c
+  show_ref_link: true
+  title: Aggregated Residual Transformations for Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-ppp-net-platform-aware-progressive-search-for-pareto-optimal-neural-architectures
+  numCitedBy: 40
+  pid: 9e23247c3a3031ec8e6ee7772a49f6d12daad13c
+  show_ref_link: false
+  title: PPP-Net - Platform-aware Progressive Search for Pareto-optimal Neural Architectures
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-polynet-a-pursuit-of-structural-diversity-in-very-deep-networks
+  numCitedBy: 198
+  pid: aad34665649953fa4bbacdc6eff4edb5408df6b3
+  show_ref_link: false
+  title: PolyNet - A Pursuit of Structural Diversity in Very Deep Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-accelerating-neural-architecture-search-using-performance-prediction
+  numCitedBy: 255
+  pid: 2cad68ca9cea089324b67ed96b1175f7a655c521
+  show_ref_link: false
+  title: Accelerating Neural Architecture Search using Performance Prediction
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15857
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-dual-path-networks
+  numCitedBy: 566
+  pid: d7ddad7bbda29de7676c21bfeac6be2ce0a07d6f
+  show_ref_link: false
+  title: Dual Path Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deeparchitect-automatically-designing-and-training-deep-architectures
+  numCitedBy: 153
+  pid: 71a80e7342e56f33fd120246e907151a0cf1b4d0
+  show_ref_link: true
+  title: DeepArchitect - Automatically Designing and Training Deep Architectures
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2020-squeeze-and-excitation-networks
+  numCitedBy: 7692
+  pid: df67d46e78aae0d2fccfb6212d101a342259c01b
+  show_ref_link: true
+  title: Squeeze-and-Excitation Networks
+  year: 2020
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-dpp-net-device-aware-progressive-search-for-pareto-optimal-neural-architectures
+  numCitedBy: 120
+  pid: 8563b6545a8ff8d17a74da1f70f57c4a7d9a38bc
+  show_ref_link: false
+  title: DPP-Net - Device-aware Progressive Search for Pareto-optimal Neural Architectures
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-speeding-up-automatic-hyperparameter-optimization-of-deep-neural-networks-by-extrapolation-of-learning-curves
+  numCitedBy: 438
+  pid: efb4431579a46d9cfa51b4ebbd4ddb9f44a30246
+  show_ref_link: false
+  title: Speeding Up Automatic Hyperparameter Optimization of Deep Neural Networks by Extrapolation of Learning Curves
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-sgdr-stochastic-gradient-descent-with-restarts
+  numCitedBy: 300
+  pid: 1b7db8ad49f94da9b90db89bede5f27644bb9911
+  show_ref_link: false
+  title: SGDR - Stochastic Gradient Descent with Restarts
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 19204
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-sgdr-stochastic-gradient-descent-with-warm-restarts
+  numCitedBy: 2822
+  pid: b022f2a277a4bf5f42382e86e4380b96340b9e86
+  show_ref_link: true
+  title: SGDR - Stochastic Gradient Descent with Warm Restarts
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-deep-resnet-blocks-sequentially-using-boosting-theory
+  numCitedBy: 70
+  pid: 799dd570e04bc96d0d6ed51497d9dec6bfaa886e
+  show_ref_link: false
+  title: Learning Deep ResNet Blocks Sequentially using Boosting Theory
+  year: 2018
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2002-evolving-neural-networks-through-augmenting-topologies
+  numCitedBy: 2994
+  pid: d03c916d49268d48fde3b76a68e64af7761835e7
+  show_ref_link: false
+  title: Evolving Neural Networks through Augmenting Topologies
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-towards-automatically-tuned-neural-networks
+  numCitedBy: 155
+  pid: 06b2a66c86c270e24a2177f816c6bc6e971819ee
+  show_ref_link: false
+  title: Towards Automatically-Tuned Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-exploiting-compositionality-to-explore-a-large-space-of-model-structures
+  numCitedBy: 98
+  pid: 11035f85ead2b4b386956f4480b3d38d2e9a5ff5
+  show_ref_link: false
+  title: Exploiting compositionality to explore a large space of model structures
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-shufflenet-an-extremely-efficient-convolutional-neural-network-for-mobile-devices
+  numCitedBy: 3251
+  pid: 9da734397acd7ff7c557960c62fb1b400b27bd89
+  show_ref_link: true
+  title: ShuffleNet - An Extremely Efficient Convolutional Neural Network for Mobile Devices
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-proximal-policy-optimization-algorithms
+  numCitedBy: 6094
+  pid: dce6f9d4017b1785979e7520fd0834ef8cf02f4b
+  show_ref_link: true
+  title: Proximal Policy Optimization Algorithms
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-simple-statistical-gradient-following-algorithms-for-connectionist-reinforcement-learning
+  numCitedBy: 5268
+  pid: 4c915c1eecb217c123a36dc6d3ce52d12c742614
+  show_ref_link: true
+  title: Simple statistical gradient-following algorithms for connectionist reinforcement learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20273
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
+  numCitedBy: 2055
+  pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
+  show_ref_link: true
+  title: Sequential Model-Based Optimization for General Algorithm Configuration
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-on-a-family-of-decomposable-kernels-on-sequences
+  numCitedBy: 2
+  pid: 993a97fba61eef9f45e569f6360d7e0c5491bc99
+  show_ref_link: false
+  title: On a Family of Decomposable Kernels on Sequences
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-taking-the-human-out-of-the-loop-a-review-of-bayesian-optimization
+  numCitedBy: 2376
+  pid: 0a2586e0a5f8bb4e35aa0763a6b8bca428af6bd2
+  show_ref_link: true
+  title: Taking the Human Out of the Loop - A Review of Bayesian Optimization
+  year: 2016
+slug: Progressive-Neural-Architecture-Search-Liu-Zoph
+title: Progressive Neural Architecture Search
+url: https://www.semanticscholar.org/paper/Progressive-Neural-Architecture-Search-Liu-Zoph/5f79398057bf0bbda9ff50067bc1f2950c2a2266?sort=total-citations
+venue: ECCV
+year: 2018

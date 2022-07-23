@@ -500,7 +500,7 @@ references:
   meta_key: 2017-deep-learning-with-dynamic-computation-graphs
   numCitedBy: 107
   pid: 08d2bae3ddf44d67b9b192a6ff26e954192e4806
-  show_ref_link: false
+  show_ref_link: true
   title: Deep Learning with Dynamic Computation Graphs
   year: 2017
 - fieldsOfStudy:
@@ -548,7 +548,7 @@ references:
   meta_key: 2016-abstractive-text-summarization-using-sequence-to-sequence-rnns-and-beyond
   numCitedBy: 1569
   pid: f37076f426023241f19cdc2fb0a0fd733a6fa7fa
-  show_ref_link: false
+  show_ref_link: true
   title: Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond
   year: 2016
 - fieldsOfStudy:

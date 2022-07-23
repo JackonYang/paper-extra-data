@@ -8,7 +8,7 @@ corpusId: 632197
 fieldsOfStudy:
 - Computer Science
 meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
-numCitedBy: 5055
+numCitedBy: 5088
 numCiting: 50
 paperAbstract: The use of machine learning algorithms frequently involves careful tuning of learning parameters and model hyperparameters. Unfortunately, this tuning is often a "black art" requiring expert experience, rules of thumb, or sometimes brute-force search. There is therefore great appeal for automatic approaches that can optimize the performance of any given learning algorithm to the problem at hand. In this work, we consider this problem through the framework of Bayesian optimization, in which a learning algorithm's generalization performance is modeled as a sample from a Gaussian process (GP). We show that certain choices for the nature of the GP, such as the type of kernel and the treatment of its hyperparameters, can play a crucial role in obtaining a good optimizer that can achieve expertlevel performance. We describe new algorithms that take into account the variable cost (duration) of learning algorithm experiments and that can leverage the presence of multiple cores for parallel experimentation. We show that these proposed algorithms improve on previous automatic procedures and can reach or surpass human expert-level optimization for many algorithms including latent Dirichlet allocation, structured SVMs and convolutional neural networks.
 ref_count: 50
@@ -18,7 +18,7 @@ references:
   meta_key: 2011-algorithms-for-hyper-parameter-optimization
   numCitedBy: 2494
   pid: 03911c85305d42aa2eeb02be82ef6fb7da644dd0
-  show_ref_link: false
+  show_ref_link: true
   title: Algorithms for Hyper-Parameter Optimization
   year: 2011
 - fieldsOfStudy:
@@ -35,7 +35,7 @@ references:
   meta_key: 2009-gaussian-processes-for-machine-learning
   numCitedBy: 17965
   pid: 82266f6103bade9005ec555ed06ba20b5210ff22
-  show_ref_link: false
+  show_ref_link: true
   title: Gaussian Processes for Machine Learning
   year: 2009
 - fieldsOfStudy:
@@ -59,7 +59,7 @@ references:
   meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
   numCitedBy: 2047
   pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
-  show_ref_link: false
+  show_ref_link: true
   title: Sequential Model-Based Optimization for General Algorithm Configuration
   year: 2011
 - fieldsOfStudy:
@@ -147,7 +147,7 @@ references:
   meta_key: 2012-random-search-for-hyper-parameter-optimization
   numCitedBy: 5686
   pid: 188e247506ad992b8bc62d6c74789e89891a984f
-  show_ref_link: false
+  show_ref_link: true
   title: Random Search for Hyper-Parameter Optimization
   year: 2012
 - fieldsOfStudy:

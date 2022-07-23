@@ -1,0 +1,13 @@
+content_md5: 9f6485a6f107aba606e15d7dc3aee91a
+filesize: 1224692
+filesize_readable: 1.2 MB
+meta_key: tvm_paper
+meta_relpath: paper-extra-data/pdf-meta/tvm_paper.yaml
+pdf_relpath: paper-repo/pdfs/TVM_paper.pdf
+raw_ext: .pdf
+raw_filename: TVM_paper
+tags:
+- other-default
+- paper
+title: Tvm Paper
+url_slug: TVM_paper

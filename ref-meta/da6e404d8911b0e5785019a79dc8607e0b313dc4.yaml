@@ -1,0 +1,115 @@
+authors:
+- P. Warden
+badges:
+- id: OPEN_ACCESS
+corpusId: 4719239
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-speech-commands-a-dataset-for-limited-vocabulary-speech-recognition
+numCitedBy: 656
+numCiting: 16
+paperAbstract: Describes an audio dataset of spoken words designed to help train and evaluate keyword spotting systems. Discusses why this task is an interesting challenge, and why it requires a specialized dataset that is different from conventional datasets used for automatic speech recognition of full sentences. Suggests a methodology for reproducible and comparable accuracy metrics for this task. Describes how the data was collected and verified, what it contains, previous versions and properties. Concludes by reporting baseline results of models trained on this dataset.
+ref_count: 16
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-listening-to-the-world-improves-speech-command-recognition
+  numCitedBy: 26
+  pid: 7beb690145eee149936617e2af4e0d257d393341
+  show_ref_link: false
+  title: Listening to the World Improves Speech Command Recognition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-speech-recognition-keyword-spotting-through-image-recognition
+  numCitedBy: 13
+  pid: 6fd13db8288e4aeeaca597778d6a414a2042ac8d
+  show_ref_link: false
+  title: Speech Recognition - Keyword Spotting Through Image Recognition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-librispeech-an-asr-corpus-based-on-public-domain-audio-books
+  numCitedBy: 2736
+  pid: 34038d9424ce602d7ac917a4e582d977725d4393
+  show_ref_link: false
+  title: Librispeech - An ASR corpus based on public domain audio books
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-raw-waveform-based-audio-classification-using-sample-level-cnn-architectures
+  numCitedBy: 43
+  pid: d21c044b05a004fa71782af6b3128c1a8c95c89c
+  show_ref_link: false
+  title: Raw Waveform-based Audio Classification Using Sample-level CNN Architectures
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  - Economics
+  meta_key: 2018-deep-residual-learning-for-small-footprint-keyword-spotting
+  numCitedBy: 139
+  pid: 4ee8622f5dacb44e4af6bc9ee1c8f48a48983d9a
+  show_ref_link: false
+  title: Deep Residual Learning for Small-Footprint Keyword Spotting
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-did-you-hear-that-adversarial-examples-against-automatic-speech-recognition
+  numCitedBy: 165
+  pid: 6207a5933d5f7971486ce73323a37567c70aeb0f
+  show_ref_link: false
+  title: Did you hear that? Adversarial Examples Against Automatic Speech Recognition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-dataset-and-taxonomy-for-urban-sound-research
+  numCitedBy: 693
+  pid: 39a7a74de74efac3b8123650315d55cfb9d5220c
+  show_ref_link: false
+  title: A Dataset and Taxonomy for Urban Sound Research
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-convolutional-neural-networks-for-small-footprint-keyword-spotting
+  numCitedBy: 374
+  pid: c4756dcc7afc2f09d61e6e4cf2199d9f6dd695cc
+  show_ref_link: false
+  title: Convolutional neural networks for small-footprint keyword spotting
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-web-audio-api
+  numCitedBy: 85
+  pid: 9b6affd55c1b306d3840ae9b623736e50f19d4a7
+  show_ref_link: false
+  title: Web Audio API
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-cmsis-nn-efficient-neural-network-kernels-for-arm-cortex-m-cpus
+  numCitedBy: 183
+  pid: ca24492a46856221086e77ffe29e8a69e1be0595
+  show_ref_link: true
+  title: CMSIS-NN - Efficient Neural Network Kernels for Arm Cortex-M CPUs
+  year: 2018
+- fieldsOfStudy:
+  - Linguistics
+  meta_key: 1999-linguistic-data-consortium
+  numCitedBy: 1130
+  pid: 3fa4a8191e37b601877716858e6b1026e66e3c5c
+  show_ref_link: false
+  title: Linguistic Data Consortium
+  year: 1999
+slug: Speech-Commands:-A-Dataset-for-Limited-Vocabulary-Warden
+title: Speech Commands - A Dataset for Limited-Vocabulary Speech Recognition
+url: https://www.semanticscholar.org/paper/Speech-Commands:-A-Dataset-for-Limited-Vocabulary-Warden/da6e404d8911b0e5785019a79dc8607e0b313dc4?sort=total-citations
+venue: ArXiv
+year: 2018

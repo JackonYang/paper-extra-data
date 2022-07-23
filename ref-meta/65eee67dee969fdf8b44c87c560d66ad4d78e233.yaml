@@ -1,0 +1,572 @@
+authors:
+- Junyoung Chung
+- Sungjin Ahn
+- Yoshua Bengio
+badges:
+- id: OPEN_ACCESS
+corpusId: 1463401
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-hierarchical-multiscale-recurrent-neural-networks
+numCitedBy: 442
+numCiting: 91
+paperAbstract: Learning both hierarchical and temporal representation has been among the long-standing challenges of recurrent neural networks. Multiscale recurrent neural networks have been considered as a promising approach to resolve this issue, yet there has been a lack of empirical evidence showing that this type of models can actually capture the temporal dependencies by discovering the latent hierarchical structure of the sequence. In this paper, we propose a novel multiscale approach, called the hierarchical multiscale recurrent neural networks, which can capture the latent hierarchical structure in the sequence by encoding the temporal dependencies with different timescales using a novel update mechanism. We show some evidence that our proposed multiscale architecture can discover underlying hierarchical structure in the sequences without using explicit boundary information. We evaluate our proposed model on character-level language modelling and handwriting sequence modelling.
+ref_count: 88
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-hierarchical-recurrent-neural-networks-for-long-term-dependencies
+  numCitedBy: 334
+  pid: b13813b49f160e1a2010c44bd4fb3d09a28446e3
+  show_ref_link: false
+  title: Hierarchical Recurrent Neural Networks for Long-Term Dependencies
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-sequence-labelling-in-structured-domains-with-hierarchical-recurrent-neural-networks
+  numCitedBy: 85
+  pid: 12496bf48ebdb5ab3c92bc911d6ee42369fa70bc
+  show_ref_link: false
+  title: Sequence Labelling in Structured Domains with Hierarchical Recurrent Neural Networks
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-learning-complex-extended-sequences-using-the-principle-of-history-compression
+  numCitedBy: 433
+  pid: 50c770b425a5bb25c77387f687a9910a9d130722
+  show_ref_link: false
+  title: Learning Complex, Extended Sequences Using the Principle of History Compression
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-architectural-complexity-measures-of-recurrent-neural-networks
+  numCitedBy: 133
+  pid: f6fda11d2b31ad66dd008a65f7e708aa64a27703
+  show_ref_link: false
+  title: Architectural Complexity Measures of Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-gated-feedback-recurrent-neural-networks
+  numCitedBy: 654
+  pid: d14c7e5f5cace4c925abc74c88baa474e9f31a28
+  show_ref_link: false
+  title: Gated Feedback Recurrent Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-on-multiplicative-integration-with-recurrent-neural-networks
+  numCitedBy: 131
+  pid: 136cf66392f1d6bf42da4cc070888996dc472b91
+  show_ref_link: true
+  title: On Multiplicative Integration with Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-learning-long-term-dependencies-in-narx-recurrent-neural-networks
+  numCitedBy: 631
+  pid: f6e91c9e7e8f8a577a98ecfcfa998212a683195a
+  show_ref_link: false
+  title: Learning long-term dependencies in NARX recurrent neural networks
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-recurrent-highway-networks
+  numCitedBy: 351
+  pid: 7dba53e72c182e25e98e8f73a99d75ff69dda0c2
+  show_ref_link: true
+  title: Recurrent Highway Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-neural-sequence-chunkers
+  numCitedBy: 38
+  pid: c69201d091dd92699fd90a17b9e3407319726791
+  show_ref_link: false
+  title: Neural Sequence Chunkers
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-difficulty-of-training-recurrent-neural-networks
+  numCitedBy: 3849
+  pid: 84069287da0a6b488b8c933f3cb5be759cb6237e
+  show_ref_link: true
+  title: On the difficulty of training recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-segmental-recurrent-neural-networks
+  numCitedBy: 112
+  pid: 6b904d6e84c98c6ce22ce6923224b205a2a24ee1
+  show_ref_link: false
+  title: Segmental Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-generating-text-with-recurrent-neural-networks
+  numCitedBy: 1267
+  pid: e0e5dd8b206806372b3e20b9a2fbdbd0cf9ce1de
+  show_ref_link: true
+  title: Generating Text with Recurrent Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-one-shot-learning-with-memory-augmented-neural-networks
+  numCitedBy: 464
+  pid: bbd0e204f48a45735e1065c8b90b298077b73192
+  show_ref_link: false
+  title: One-shot Learning with Memory-Augmented Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-surprisal-driven-feedback-in-recurrent-networks
+  numCitedBy: 11
+  pid: ca9d174c70c9102d88f2707bc395d6a384e1de1d
+  show_ref_link: false
+  title: Surprisal-Driven Feedback in Recurrent Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-learning-in-neural-networks-an-overview
+  numCitedBy: 11912
+  pid: 193edd20cae92c6759c18ce93eeea96afd9528eb
+  show_ref_link: true
+  title: Deep learning in neural networks - An overview
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-induction-of-multiscale-temporal-structure
+  numCitedBy: 160
+  pid: e141d68065ce638f9fc4f006eab2f66711e89768
+  show_ref_link: false
+  title: Induction of Multiscale Temporal Structure
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-clockwork-rnn
+  numCitedBy: 384
+  pid: 5522764282c85aea422f1c4dc92ff7e0ca6987bc
+  show_ref_link: false
+  title: A Clockwork RNN
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-grid-long-short-term-memory
+  numCitedBy: 315
+  pid: 5b791cd374c7109693aaddee2c12d659ae4e3ec0
+  show_ref_link: true
+  title: Grid Long Short-Term Memory
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-neural-variational-inference-and-learning-in-belief-networks
+  numCitedBy: 626
+  pid: 018300f5f0e679cee5241d9c69c8d88e00e8bf31
+  show_ref_link: false
+  title: Neural Variational Inference and Learning in Belief Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-recurrent-latent-variable-model-for-sequential-data
+  numCitedBy: 881
+  pid: 0c3b69b5247ef18fd5bab1109d87a04184ea8f4b
+  show_ref_link: false
+  title: A Recurrent Latent Variable Model for Sequential Data
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-subword-language-modeling-with-neural-networks
+  numCitedBy: 181
+  pid: 1fd7fc06653723b05abe5f3d1de393ddcf6bdddb
+  show_ref_link: false
+  title: SUBWORD LANGUAGE MODELING WITH NEURAL NETWORKS
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-generating-sequences-with-recurrent-neural-networks
+  numCitedBy: 3176
+  pid: 89b1f4740ae37fd04f6ac007577bdd34621f0861
+  show_ref_link: true
+  title: Generating Sequences With Recurrent Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52390
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-and-nonlinearities-for-neural-language-models-when-are-they-needed
+  numCitedBy: 40
+  pid: 4ef03716945bd3907458efbe1bbf8928dafc1efc
+  show_ref_link: false
+  title: Regularization and nonlinearities for neural language models - when are they needed?
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-speech-recognition-with-deep-recurrent-neural-networks
+  numCitedBy: 6959
+  pid: 4177ec52d1b80ed57f2e72b0f9a42365f1a8598d
+  show_ref_link: true
+  title: Speech recognition with deep recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-how-transferable-are-features-in-deep-neural-networks
+  numCitedBy: 5853
+  pid: 081651b38ff7533550a3adfc1c00da333a8fe86c
+  show_ref_link: true
+  title: How transferable are features in deep neural networks?
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-auto-encoding-variational-bayes
+  numCitedBy: 17049
+  pid: 5f5dc5b9a2ba710937e2c413b37b053cd673df02
+  show_ref_link: true
+  title: Auto-Encoding Variational Bayes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-recurrent-batch-normalization
+  numCitedBy: 345
+  pid: 952454718139dba3aafc6b3b67c4f514ac3964af
+  show_ref_link: true
+  title: Recurrent Batch Normalization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-strategic-attentive-writer-for-learning-macro-actions
+  numCitedBy: 145
+  pid: 4ba25cb493ac7a03fc15d3b936257c9a6c689c1d
+  show_ref_link: false
+  title: Strategic Attentive Writer for Learning Macro-Actions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 15043
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-learning-deep-architectures-for-ai
+  numCitedBy: 7604
+  pid: e60ff004dde5c13ec53087872cfcdd12e85beb57
+  show_ref_link: true
+  title: Learning Deep Architectures for AI
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-character-aware-neural-language-models
+  numCitedBy: 1434
+  pid: 891ce1687e2befddd19f54e4eef1d3f39c8dbaf7
+  show_ref_link: true
+  title: Character-Aware Neural Language Models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-recurrent-neural-network-based-language-model
+  numCitedBy: 4935
+  pid: 9819b600a828a57e1cde047bbe710d3446b30da5
+  show_ref_link: true
+  title: Recurrent neural network based language model
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15252
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-zoneout-regularizing-rnns-by-randomly-preserving-hidden-activations
+  numCitedBy: 268
+  pid: 9f0687bcd0a7d7fc91b8c5d36c003a38b8853105
+  show_ref_link: true
+  title: Zoneout - Regularizing RNNs by Randomly Preserving Hidden Activations
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28464
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-estimating-or-propagating-gradients-through-stochastic-neurons-for-conditional-computation
+  numCitedBy: 1534
+  pid: 62c76ca0b2790c34e85ba1cce09d47be317c7235
+  show_ref_link: true
+  title: Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-recurrent-memory-array-structures
+  numCitedBy: 16
+  pid: 7dded890956b37df5ac4c42b8ffbc142725f2801
+  show_ref_link: false
+  title: Recurrent Memory Array Structures
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-end-to-end-attention-based-large-vocabulary-speech-recognition
+  numCitedBy: 912
+  pid: 878ba5458e9e51f0b341fd9117fa0b43ef4096d3
+  show_ref_link: false
+  title: End-to-end attention-based large vocabulary speech recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-human-level-control-through-deep-reinforcement-learning
+  numCitedBy: 16393
+  pid: e0e9a94c4a6ba219e768b4e59f72c18f0a22e23d
+  show_ref_link: true
+  title: Human-level control through deep reinforcement learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-character-based-neural-machine-translation
+  numCitedBy: 267
+  pid: 4d070993cb75407b285e14cb8aac0077624ef4d9
+  show_ref_link: false
+  title: Character-based Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-networks-with-stochastic-depth
+  numCitedBy: 1458
+  pid: 51db1f3c8dfc7d4077da39c96bb90a6358128111
+  show_ref_link: true
+  title: Deep Networks with Stochastic Depth
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-simple-statistical-gradient-following-algorithms-for-connectionist-reinforcement-learning
+  numCitedBy: 5268
+  pid: 4c915c1eecb217c123a36dc6d3ce52d12c742614
+  show_ref_link: true
+  title: Simple statistical gradient-following algorithms for connectionist reinforcement learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-regularizing-rnns-by-stabilizing-activations
+  numCitedBy: 70
+  pid: f84d5add20d4df0a6c89c47a920354c272cbdbd8
+  show_ref_link: false
+  title: Regularizing RNNs by Stabilizing Activations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-layer-normalization
+  numCitedBy: 3130
+  pid: 97fb4e3d45bb098e27e0071448b6152217bd35a5
+  show_ref_link: true
+  title: Layer Normalization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-hierarchical-recurrent-encoder-decoder-for-generative-context-aware-query-suggestion
+  numCitedBy: 426
+  pid: bb0d19804fd8d5be6deaf0059e0b7888e64205c3
+  show_ref_link: false
+  title: A Hierarchical Recurrent Encoder-Decoder for Generative Context-Aware Query Suggestion
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-convolutional-neural-networks-for-sentence-classification
+  numCitedBy: 10170
+  pid: 1f6ba0782862ec12a5ec6d7fb608523d55b0c6ba
+  show_ref_link: true
+  title: Convolutional Neural Networks for Sentence Classification
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-and-tell-a-neural-image-caption-generator
+  numCitedBy: 4558
+  pid: d4dc1012d780e8e2547237eb5a6dc7b1bf47d2f0
+  show_ref_link: true
+  title: Show and tell - A neural image caption generator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-binarized-neural-networks-training-deep-neural-networks-with-weights-and-activations-constrained-to-1-or-1
+  numCitedBy: 1753
+  pid: 6eecc808d4c74e7d0d7ef6b8a4112c985ced104d
+  show_ref_link: true
+  title: Binarized Neural Networks - Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-mixture-density-networks
+  numCitedBy: 404
+  pid: 4cf3569e045993dfe090749f26a55a768684ab86
+  show_ref_link: false
+  title: Mixture density networks
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-one-shot-adaptation-of-supervised-deep-convolutional-models
+  numCitedBy: 71
+  pid: 6492351b7e6a33d7a06d6141572467acd8ee3051
+  show_ref_link: false
+  title: One-Shot Adaptation of Supervised Deep Convolutional Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-bursty-and-hierarchical-structure-in-streams
+  numCitedBy: 1296
+  pid: a38468d0c7bc403581740324f229b61f85c2a706
+  show_ref_link: false
+  title: Bursty and Hierarchical Structure in Streams
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-theano-a-python-framework-for-fast-computation-of-mathematical-expressions
+  numCitedBy: 2083
+  pid: 6b570069f14c7588e066f7138e1f21af59d62e61
+  show_ref_link: true
+  title: Theano - A Python framework for fast computation of mathematical expressions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-unconstrained-on-line-handwriting-recognition-with-recurrent-neural-networks
+  numCitedBy: 234
+  pid: 68db33b01ef82cbafb440e5f4bee30458cbb9871
+  show_ref_link: false
+  title: Unconstrained On-line Handwriting Recognition with Recurrent Neural Networks
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-character-level-decoder-without-explicit-segmentation-for-neural-machine-translation
+  numCitedBy: 307
+  pid: acec46ffd3f6046af97529127d98f1d623816ea4
+  show_ref_link: false
+  title: A Character-level Decoder without Explicit Segmentation for Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
+  numCitedBy: 11516
+  pid: 846aedd869a00c09b40f1f1f35673cb22bc87490
+  show_ref_link: true
+  title: Mastering the game of Go with deep neural networks and tree search
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-listen-attend-and-spell-a-neural-network-for-large-vocabulary-conversational-speech-recognition
+  numCitedBy: 1548
+  pid: 3056add22b20e3361c38c0472d294a79d4031cb4
+  show_ref_link: false
+  title: Listen, attend and spell - A neural network for large vocabulary conversational speech recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-adaptive-weighing-of-context-models-for-lossless-data-compression
+  numCitedBy: 141
+  pid: f758d8e6dee5348c2b5bf56f33994ad96e88a591
+  show_ref_link: false
+  title: Adaptive weighing of context models for lossless data compression
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations
+  numCitedBy: 2134
+  pid: a5733ff08daff727af834345b9cfff1d0aa109ec
+  show_ref_link: true
+  title: BinaryConnect - Training Deep Neural Networks with binary weights during propagations
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-published-as-a-conference-paper-at-iclr-2018-s-imulating-a-ction-d-ynamics-with-n-eural-p-rocess-n-etworks
+  numCitedBy: 156
+  pid: bcd857d75841aa3e92cd4284a8818aba9f6c0c3f
+  show_ref_link: true
+  title: Published as a conference paper at ICLR 2018 S IMULATING A CTION D YNAMICS WITH N EURAL P ROCESS N ETWORKS
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12985
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-neural-networks-in-machine-learning
+  numCitedBy: 286
+  pid: 5df0a0e9ceec70a9321b0555288222bf53216342
+  show_ref_link: false
+  title: Neural Networks in Machine Learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-building-a-large-annotated-corpus-of-english-the-penn-treebank
+  numCitedBy: 8207
+  pid: 0b44fcbeea9415d400c5f5789d6b892b6f98daff
+  show_ref_link: false
+  title: Building a Large Annotated Corpus of English - The Penn Treebank
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-iam-ondb-an-on-line-english-sentence-database-acquired-from-handwritten-text-on-a-whiteboard
+  numCitedBy: 182
+  pid: 9eb7daa88879f283ae05e359d6c502a320b833c9
+  show_ref_link: false
+  title: IAM-OnDB - an on-line English sentence database acquired from handwritten text on a whiteboard
+  year: 2005
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1971-references
+  numCitedBy: 24813
+  pid: 8cf24826e5bbe8e9e3161bdb98c0523b3ace5443
+  show_ref_link: false
+  title: References
+  year: 1971
+- fieldsOfStudy:
+  - Education
+  meta_key: 2016-deep-learning
+  numCitedBy: 31384
+  pid: 4f8d648c52edf74e41b0996128aa536e13cc7e82
+  show_ref_link: true
+  title: Deep Learning
+  year: 2016
+slug: Hierarchical-Multiscale-Recurrent-Neural-Networks-Chung-Ahn
+title: Hierarchical Multiscale Recurrent Neural Networks
+url: https://www.semanticscholar.org/paper/Hierarchical-Multiscale-Recurrent-Neural-Networks-Chung-Ahn/65eee67dee969fdf8b44c87c560d66ad4d78e233?sort=total-citations
+venue: ICLR
+year: 2017

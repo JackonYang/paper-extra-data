@@ -9,7 +9,7 @@ corpusId: 9530137
 fieldsOfStudy:
 - Computer Science
 meta_key: 2012-acoustic-modeling-using-deep-belief-networks
-numCitedBy: 1645
+numCitedBy: 1650
 numCiting: 64
 paperAbstract: Gaussian mixture models are currently the dominant technique for modeling the emission distribution of hidden Markov models for speech recognition. We show that better phone recognition on the TIMIT dataset can be achieved by replacing Gaussian mixture models by deep neural networks that contain many layers of features and a very large number of parameters. These networks are first pre-trained as a multi-layer generative model of a window of spectral feature vectors without making use of any discriminative information. Once the generative pre-training has designed the features, we perform discriminative fine-tuning using backpropagation to adjust the features slightly to make them better at predicting a probability distribution over the states of monophone hidden Markov models.
 ref_count: 64
@@ -261,7 +261,7 @@ references:
   meta_key: 2012-a-practical-guide-to-training-restricted-boltzmann-machines
   numCitedBy: 2746
   pid: e95d3934e51107da7610acd0b1bcb6551671f9f1
-  show_ref_link: false
+  show_ref_link: true
   title: A Practical Guide to Training Restricted Boltzmann Machines
   year: 2012
 - fieldsOfStudy:

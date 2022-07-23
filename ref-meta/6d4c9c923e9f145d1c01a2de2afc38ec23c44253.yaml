@@ -261,7 +261,7 @@ references:
   meta_key: 2012-ucf101-a-dataset-of-101-human-actions-classes-from-videos-in-the-wild
   numCitedBy: 3663
   pid: da9e411fcf740569b6b356f330a1d0fc077c8d7c
-  show_ref_link: false
+  show_ref_link: true
   title: UCF101 - A Dataset of 101 Human Actions Classes From Videos in The Wild
   year: 2012
 slug: Large-Scale-Video-Classification-with-Convolutional-Karpathy-Toderici

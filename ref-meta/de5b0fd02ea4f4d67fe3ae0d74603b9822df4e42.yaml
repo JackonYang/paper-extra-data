@@ -322,7 +322,7 @@ references:
   meta_key: 2009-gaussian-processes-for-machine-learning
   numCitedBy: 17965
   pid: 82266f6103bade9005ec555ed06ba20b5210ff22
-  show_ref_link: false
+  show_ref_link: true
   title: Gaussian Processes for Machine Learning
   year: 2009
 - fieldsOfStudy:

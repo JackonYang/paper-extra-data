@@ -444,7 +444,7 @@ references:
   meta_key: 2016-yfcc100m-the-new-data-in-multimedia-research
   numCitedBy: 919
   pid: 354c029c88be2bbc27dfd2e2e729c0ae622511e6
-  show_ref_link: false
+  show_ref_link: true
   title: YFCC100M - the new data in multimedia research
   year: 2016
 - fieldsOfStudy:

@@ -477,7 +477,7 @@ references:
   meta_key: 2016-theano-a-python-framework-for-fast-computation-of-mathematical-expressions
   numCitedBy: 2079
   pid: 6b570069f14c7588e066f7138e1f21af59d62e61
-  show_ref_link: false
+  show_ref_link: true
   title: Theano - A Python framework for fast computation of mathematical expressions
   year: 2016
 - fieldsOfStudy:

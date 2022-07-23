@@ -7,7 +7,7 @@ corpusId: 9166388
 fieldsOfStudy:
 - Computer Science
 meta_key: 2005-reinforcement-learning-an-introduction
-numCitedBy: 32987
+numCitedBy: 33129
 numCiting: 636
 paperAbstract: 'Reinforcement learning, one of the most active research areas in artificial intelligence, is a computational approach to learning whereby an agent tries to maximize the total amount of reward it receives when interacting with a complex, uncertain environment. In Reinforcement Learning, Richard Sutton and Andrew Barto provide a clear and simple account of the key ideas and algorithms of reinforcement learning. Their discussion ranges from the history of the field''s intellectual foundations to the most recent developments and applications. The only necessary mathematical background is familiarity with elementary concepts of probability. The book is divided into three parts. Part I defines the reinforcement learning problem in terms of Markov decision processes. Part II provides basic solution methods: dynamic programming, Monte Carlo methods, and temporal-difference learning. Part III presents a unified view of the solution methods and incorporates artificial neural networks, eligibility traces, and planning; the two final chapters present case studies and consider the future of reinforcement learning.'
 ref_count: 636
@@ -450,7 +450,7 @@ references:
   meta_key: 2004-q-learning
   numCitedBy: 7232
   pid: 03b7e51c52084ac1db5118342a00b5fbcfc587aa
-  show_ref_link: false
+  show_ref_link: true
   title: Q-learning
   year: 2004
 - fieldsOfStudy:
@@ -2063,7 +2063,7 @@ references:
   meta_key: 1988-genetic-algorithms-in-search-optimization-and-machine-learning
   numCitedBy: 58177
   pid: 2e62d1345b340d5fda3b092c460264b9543bc4b5
-  show_ref_link: false
+  show_ref_link: true
   title: Genetic Algorithms in Search Optimization and Machine Learning
   year: 1988
 - fieldsOfStudy:

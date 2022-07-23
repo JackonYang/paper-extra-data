@@ -384,7 +384,7 @@ references:
   meta_key: 2011-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent
   numCitedBy: 2023
   pid: 36f49b05d764bf5c10428b082c2d96c13c4203b9
-  show_ref_link: false
+  show_ref_link: true
   title: Hogwild - A Lock-Free Approach to Parallelizing Stochastic Gradient Descent
   year: 2011
 - fieldsOfStudy:

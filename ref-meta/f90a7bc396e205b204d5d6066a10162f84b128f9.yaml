@@ -1,0 +1,253 @@
+authors:
+- Andrew Adams
+- Karima Ma
+- Luke Anderson
+- Riyadh Baghdadi
+- Tzu-Mao Li
+- "Micha\xEBl Gharbi"
+- Benoit Steiner
+- Steven Johnson
+- Kayvon Fatahalian
+- F. Durand
+- Jonathan Ragan-Kelley
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 196834556
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-learning-to-optimize-halide-with-tree-search-and-random-programs
+numCitedBy: 122
+numCiting: 42
+paperAbstract: We present a new algorithm to automatically schedule Halide programs for high-performance image processing and deep learning. We significantly improve upon the performance of previous methods, which considered a limited subset of schedules. We define a parameterization of possible schedules much larger than prior methods and use a variant of beam search to search over it. The search optimizes runtime predicted by a cost model based on a combination of new derived features and machine learning. We train the cost model by generating and featurizing hundreds of thousands of random programs and schedules. We show that this approach operates effectively with or without autotuning. It produces schedules which are on average almost twice as fast as the existing Halide autoscheduler without autotuning, or more than twice as fast with, and is the first automatic scheduling algorithm to significantly outperform human experts on average.
+ref_count: 35
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-end-to-end-deep-learning-of-optimization-heuristics
+  numCitedBy: 128
+  pid: c2e3b7e3e8e5de4c41447017ca5fe95123790f6e
+  show_ref_link: false
+  title: End-to-End Deep Learning of Optimization Heuristics
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-a-survey-on-compiler-autotuning-using-machine-learning
+  numCitedBy: 117
+  pid: e1d7e18915bd8991373404ea157c3599e493122f
+  show_ref_link: false
+  title: A Survey on Compiler Autotuning using Machine Learning
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-differentiable-programming-for-image-processing-and-deep-learning-in-halide
+  numCitedBy: 74
+  pid: c1c8d15520d84ed6d9a701e18627ded4d8f1eb2a
+  show_ref_link: false
+  title: Differentiable programming for image processing and deep learning in halide
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-automatically-scheduling-halide-image-processing-pipelines
+  numCitedBy: 129
+  pid: 9b240a87b11d085641d6640f73cc3cc2d678e305
+  show_ref_link: true
+  title: Automatically scheduling halide image processing pipelines
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-opentuner-an-extensible-framework-for-program-autotuning
+  numCitedBy: 425
+  pid: 1ccaac0fdcc5ab37a45d0cc616feeaa67a3d4ca1
+  show_ref_link: false
+  title: OpenTuner - An extensible framework for program autotuning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-automatic-differentiation-in-pytorch
+  numCitedBy: 10485
+  pid: b36a5bb1707bb9c70025294b3a310138aae8327a
+  show_ref_link: true
+  title: Automatic differentiation in PyTorch
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-neural-network-assisted-tile-size-selection
+  numCitedBy: 22
+  pid: 6f8fe605f909ff02fab79f7a9c8c44571d70da61
+  show_ref_link: false
+  title: Neural Network Assisted Tile Size Selection
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-milepost-gcc-machine-learning-based-research-compiler
+  numCitedBy: 127
+  pid: fb6e85d35fc7b10c16d465fc71748d819672ad24
+  show_ref_link: false
+  title: MILEPOST GCC - machine learning based research compiler
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-an-effective-fusion-and-tile-size-model-for-optimizing-image-processing-pipelines
+  numCitedBy: 26
+  pid: b542ea3cc3fd9202e2e861fa828c57f0ede1bf07
+  show_ref_link: false
+  title: An effective fusion and tile size model for optimizing image processing pipelines
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-schedule-synthesis-for-halide-pipelines-through-reuse-analysis
+  numCitedBy: 10
+  pid: 40bcc85d4448d9428599fc7312a4f9a89547c6f6
+  show_ref_link: false
+  title: Schedule Synthesis for Halide Pipelines through Reuse Analysis
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-to-optimize-tensor-programs
+  numCitedBy: 181
+  pid: cb91c2f8d3cac0b655a39be318b603334eb18987
+  show_ref_link: true
+  title: Learning to Optimize Tensor Programs
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-decoupling-algorithms-from-schedules-for-easy-optimization-of-image-processing-pipelines
+  numCitedBy: 247
+  pid: 3e06546182d5a36796a0f48e70151bf1d38e094d
+  show_ref_link: false
+  title: Decoupling algorithms from schedules for easy optimization of image processing pipelines
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-practical-automatic-polyhedral-parallelizer-and-locality-optimizer
+  numCitedBy: 860
+  pid: f0f4757aa2f923a349e8357e73850a78e9b80fee
+  show_ref_link: false
+  title: A practical automatic polyhedral parallelizer and locality optimizer
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-halide-a-language-and-compiler-for-optimizing-parallelism-locality-and-recomputation-in-image-processing-pipelines
+  numCitedBy: 878
+  pid: 4d23db55e6671a82c95dacec33b2967a4b8b677d
+  show_ref_link: false
+  title: Halide - a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-halide
+  numCitedBy: 45
+  pid: 93bb58cfdd34521c59e593d8f4332a75a18e3448
+  show_ref_link: false
+  title: Halide
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-polly-performing-polyhedral-optimizations-on-a-low-level-intermediate-representation
+  numCitedBy: 290
+  pid: 3d64988b882541afa8f03f912229fbba49c82e74
+  show_ref_link: false
+  title: Polly - Performing Polyhedral Optimizations on a Low-Level Intermediate Representation
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-ithemal-accurate-portable-and-fast-basic-block-throughput-estimation-using-deep-neural-networks
+  numCitedBy: 79
+  pid: e0a3db9884fee0e7b7ae7e48cd9992866fa8d300
+  show_ref_link: false
+  title: Ithemal - Accurate, Portable and Fast Basic Block Throughput Estimation using Deep Neural Networks
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-polymage-automatic-optimization-for-image-processing-pipelines
+  numCitedBy: 175
+  pid: 0b9aaee517e0cabb274f5d7cfb01d8f58e51d76e
+  show_ref_link: false
+  title: PolyMage - Automatic Optimization for Image Processing Pipelines
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-loop-transformations-leveraging-hardware-prefetching
+  numCitedBy: 12
+  pid: ffa1f29d119d18f676832b9950d0afae863bbf5e
+  show_ref_link: false
+  title: Loop transformations leveraging hardware prefetching
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-mxnet-a-flexible-and-efficient-machine-learning-library-for-heterogeneous-distributed-systems
+  numCitedBy: 1891
+  pid: 62df84d6a4d26f95e4714796c2337c9848cc13b5
+  show_ref_link: true
+  title: MXNet - A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-pencil-a-platform-neutral-compute-intermediate-language-for-accelerator-programming
+  numCitedBy: 90
+  pid: e61e896ee96c8d6ae13c34c9d66e8ee879489f75
+  show_ref_link: false
+  title: PENCIL - A Platform-Neutral Compute Intermediate Language for Accelerator Programming
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tvm-end-to-end-optimization-stack-for-deep-learning
+  numCitedBy: 140
+  pid: ec3071fb918ad69ec80df1ca9cf1fdeb386a9603
+  show_ref_link: true
+  title: TVM - End-to-End Optimization Stack for Deep Learning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9255
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-bilateral-guided-upsampling
+  numCitedBy: 70
+  pid: c03a821d60dfa6616ecf12c3a6d65988e69f789e
+  show_ref_link: false
+  title: Bilateral guided upsampling
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tensor-comprehensions-framework-agnostic-high-performance-machine-learning-abstractions
+  numCitedBy: 284
+  pid: cae9d90524cccac5081666985d5d055b71697cee
+  show_ref_link: true
+  title: Tensor Comprehensions - Framework-Agnostic High-Performance Machine Learning Abstractions
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-darkroom-compiling-high-level-image-processing-code-into-hardware-pipelines
+  numCitedBy: 141
+  pid: 6e0c9e737eb7eb153a6b4a000faae3c1c6c753e4
+  show_ref_link: false
+  title: Darkroom - compiling high-level image processing code into hardware pipelines
+  year: 2014
+slug: Learning-to-optimize-halide-with-tree-search-and-Adams-Ma
+title: Learning to optimize halide with tree search and random programs
+url: https://www.semanticscholar.org/paper/Learning-to-optimize-halide-with-tree-search-and-Adams-Ma/f90a7bc396e205b204d5d6066a10162f84b128f9?sort=total-citations
+venue: ACM Trans. Graph.
+year: 2019

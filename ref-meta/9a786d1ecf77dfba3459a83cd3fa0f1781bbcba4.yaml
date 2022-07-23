@@ -1,0 +1,124 @@
+authors:
+- A. Canziani
+- Adam Paszke
+- E. Culurciello
+badges:
+- id: OPEN_ACCESS
+corpusId: 7256695
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-an-analysis-of-deep-neural-network-models-for-practical-applications
+numCitedBy: 810
+numCiting: 22
+paperAbstract: 'Since the emergence of Deep Neural Networks (DNNs) as a prominent technique in the field of computer vision, the ImageNet classification challenge has played a major role in advancing the state-of-the-art. While accuracy figures have steadily increased, the resource utilisation of winning models has not been properly taken into account. In this work, we present a comprehensive analysis of important metrics in practical applications: accuracy, memory footprint, parameters, operations count, inference time and power consumption. Key findings are: (1) power consumption is independent of batch size and architecture; (2) accuracy and inference time are in a hyperbolic relationship; (3) energy constraint are an upper bound on the maximum achievable accuracy and model complexity; (4) the number of operations is a reliable estimate of the inference time. We believe our analysis provides a compelling set of information that helps design and engineer efficient DNNs.'
+ref_count: 22
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15857
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-enet-a-deep-neural-network-architecture-for-real-time-semantic-segmentation
+  numCitedBy: 1229
+  pid: daf74c34f7da0695b154f645c8b78a7397a98f16
+  show_ref_link: false
+  title: ENet - A Deep Neural Network Architecture for Real-Time Semantic Segmentation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8225
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-cudnn-efficient-primitives-for-deep-learning
+  numCitedBy: 1419
+  pid: 31c36d445367ba204244bb74893c5654e31c3869
+  show_ref_link: true
+  title: cuDNN - Efficient Primitives for Deep Learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1494
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1971-references
+  numCitedBy: 24813
+  pid: 8cf24826e5bbe8e9e3161bdb98c0523b3ace5443
+  show_ref_link: false
+  title: References
+  year: 1971
+slug: An-Analysis-of-Deep-Neural-Network-Models-for-Canziani-Paszke
+title: An Analysis of Deep Neural Network Models for Practical Applications
+url: https://www.semanticscholar.org/paper/An-Analysis-of-Deep-Neural-Network-Models-for-Canziani-Paszke/9a786d1ecf77dfba3459a83cd3fa0f1781bbcba4?sort=total-citations
+venue: ArXiv
+year: 2016

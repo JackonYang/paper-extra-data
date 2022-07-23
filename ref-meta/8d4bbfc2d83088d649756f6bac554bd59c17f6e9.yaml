@@ -397,7 +397,7 @@ references:
   meta_key: 2016-tensorflow-a-system-for-large-scale-machine-learning
   numCitedBy: 12694
   pid: 46200b99c40e8586c8a0f588488ab6414119fb28
-  show_ref_link: false
+  show_ref_link: true
   title: TensorFlow - A system for large-scale machine learning
   year: 2016
 - fieldsOfStudy:

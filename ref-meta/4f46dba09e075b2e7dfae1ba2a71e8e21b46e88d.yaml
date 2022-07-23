@@ -1,0 +1,444 @@
+authors:
+- Lingxi Xie
+- A. Yuille
+badges:
+- id: OPEN_ACCESS
+corpusId: 206770867
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-genetic-cnn
+numCitedBy: 512
+numCiting: 63
+paperAbstract: The deep convolutional neural network (CNN) is the state-of-the-art solution for large-scale visual recognition. Following some basic principles such as increasing network depth and constructing highway connections, researchers have manually designed a lot of fixed network architectures and verified their effectiveness.,,In this paper, we discuss the possibility of learning deep network structures automatically. Note that the number of possible network structures increases exponentially with the number of layers in the network, which motivates us to adopt the genetic algorithm to efficiently explore this large search space. The core idea is to propose an encoding method to represent each network structure in a fixed-length binary string. The genetic algorithm is initialized by generating a set of randomized individuals. In each generation, we define standard genetic operations, e.g., selection, mutation and crossover, to generate competitive individuals and eliminate weak ones. The competitiveness of each individual is defined as its recognition accuracy, which is obtained via a standalone training process on a reference dataset. We run the genetic process on CIFAR10, a small-scale dataset, demonstrating its ability to find high-quality structures which are little studied before. The learned powerful structures are also transferrable to the ILSVRC2012 dataset for large-scale visual recognition.
+ref_count: 63
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-recurrent-convolutional-neural-network-for-object-recognition
+  numCitedBy: 750
+  pid: 4b39a79a1dc8e578e38ee4b7f00b4ec9ded50dd0
+  show_ref_link: false
+  title: Recurrent convolutional neural network for object recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deeply-supervised-nets
+  numCitedBy: 1455
+  pid: fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd
+  show_ref_link: true
+  title: Deeply-Supervised Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 19204
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-towards-reversal-invariant-image-representation
+  numCitedBy: 28
+  pid: cae208e906f5c21d7c8f00c5e237cced25883da0
+  show_ref_link: false
+  title: Towards Reversal-Invariant Image Representation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-networks-with-stochastic-depth
+  numCitedBy: 1458
+  pid: 51db1f3c8dfc7d4077da39c96bb90a6358128111
+  show_ref_link: true
+  title: Deep Networks with Stochastic Depth
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-generalizing-pooling-functions-in-convolutional-neural-networks-mixed-gated-and-tree
+  numCitedBy: 391
+  pid: 4b88e948121a87f00fb5aa0081d2044dde51ee36
+  show_ref_link: true
+  title: Generalizing Pooling Functions in Convolutional Neural Networks - Mixed, Gated, and Tree
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-residual-networks
+  numCitedBy: 4354
+  pid: 1c4e9156ca07705531e45960b7a919dc473abb51
+  show_ref_link: true
+  title: Wide Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-geometric-neural-phrase-pooling-modeling-the-spatial-co-occurrence-of-neurons
+  numCitedBy: 9
+  pid: 79eadd85c614b2aa5209e9f53692ca8383c71d12
+  show_ref_link: false
+  title: Geometric Neural Phrase Pooling - Modeling the Spatial Co-occurrence of Neurons
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28464
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-stochastic-pooling-for-regularization-of-deep-convolutional-neural-networks
+  numCitedBy: 828
+  pid: 0abb49fe138e8fb7332c26b148a48d0db39724fc
+  show_ref_link: false
+  title: Stochastic Pooling for Regularization of Deep Convolutional Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-deep-features-for-scene-recognition-using-places-database
+  numCitedBy: 2621
+  pid: 9667f8264745b626c6173b1310e2ff0298b09cfc
+  show_ref_link: true
+  title: Learning Deep Features for Scene Recognition using Places Database
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3561
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-interactive-inter-layer-activeness-propagation
+  numCitedBy: 40
+  pid: a3ce9f8a1cacea6f860c8b28085b405b0211f2d0
+  show_ref_link: false
+  title: InterActive - Inter-Layer Activeness Propagation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-disturblabel-regularizing-cnn-on-the-loss-layer
+  numCitedBy: 195
+  pid: 82766702e0ee4f93e45975da12e81f1a0712421e
+  show_ref_link: false
+  title: DisturbLabel - Regularizing CNN on the Loss Layer
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-improving-the-fisher-kernel-for-large-scale-image-classification
+  numCitedBy: 2674
+  pid: 39f3b1804b8df5be645a1dcb4a876e128385d9be
+  show_ref_link: false
+  title: Improving the Fisher Kernel for Large-Scale Image Classification
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3973
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-80-million-tiny-images-a-large-data-set-for-nonparametric-object-and-scene-recognition
+  numCitedBy: 1875
+  pid: 54d2b5c64a67f65c5dd812b89e07973f97699552
+  show_ref_link: false
+  title: 80 Million Tiny Images - A Large Data Set for Nonparametric Object and Scene Recognition
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6242
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-caltech-256-object-category-dataset
+  numCitedBy: 2563
+  pid: 5a5effa909cdeafaddbbb7855037e02f8e25d632
+  show_ref_link: false
+  title: Caltech-256 Object Category Dataset
+  year: 2007
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2002-evolving-neural-networks-through-augmenting-topologies
+  numCitedBy: 2994
+  pid: d03c916d49268d48fde3b76a68e64af7761835e7
+  show_ref_link: false
+  title: Evolving Neural Networks through Augmenting Topologies
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-generative-visual-models-from-few-training-examples-an-incremental-bayesian-approach-tested-on-101-object-categories
+  numCitedBy: 2395
+  pid: aedb8df8f953429ec5a6df99fda5c5d71dbee4ff
+  show_ref_link: false
+  title: Learning Generative Visual Models from Few Training Examples - An Incremental Bayesian Approach Tested on 101 Object Categories
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-locality-constrained-linear-coding-for-image-classification
+  numCitedBy: 3252
+  pid: 2f7713dcc35e7c05becf3be5522f36c9546b0364
+  show_ref_link: true
+  title: Locality-constrained Linear Coding for image classification
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1834
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-evolving-artificial-neural-networks
+  numCitedBy: 1175
+  pid: 5ac303258fd7f522fd3e4f172b97bb17eb888598
+  show_ref_link: false
+  title: Evolving Artificial Neural Networks
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-evolving-memory-cell-structures-for-sequence-learning
+  numCitedBy: 94
+  pid: 8b7405ab47e1b6686cebcbfb1f2efdbe431fc79c
+  show_ref_link: false
+  title: Evolving Memory Cell Structures for Sequence Learning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12985
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-evolutionary-artificial-neural-networks-a-review
+  numCitedBy: 238
+  pid: 21e9967440f25d4f8ad57ef21138d30203253590
+  show_ref_link: false
+  title: Evolutionary artificial neural networks - a review
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-object-detection-with-discriminatively-trained-part-based-models
+  numCitedBy: 9415
+  pid: e79272fe3d65197100eae8be9fec6469107969ae
+  show_ref_link: true
+  title: Object Detection with Discriminatively Trained Part Based Models
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-image-classification-and-retrieval-are-one
+  numCitedBy: 131
+  pid: 1acb422ca7bbd2a65e78e4cd23bd7a23ebc9b235
+  show_ref_link: false
+  title: Image Classification and Retrieval are ONE
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-handwritten-digit-recognition-with-a-back-propagation-network
+  numCitedBy: 2955
+  pid: 86ab4cae682fbd49c5a5bedb630e5a40fa7529f6
+  show_ref_link: false
+  title: Handwritten Digit Recognition with a Back-Propagation Network
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-a-fast-and-elitist-multiobjective-genetic-algorithm-nsga-ii
+  numCitedBy: 32712
+  pid: 6eddc19efa13f7e70301908d98e85a19d6f32a02
+  show_ref_link: false
+  title: A fast and elitist multiobjective genetic algorithm - NSGA-II
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-beyond-bags-of-features-spatial-pyramid-matching-for-recognizing-natural-scene-categories
+  numCitedBy: 8359
+  pid: 6dbaff29d3898cf60f63f5a34cb9610ebb75220c
+  show_ref_link: true
+  title: Beyond Bags of Features - Spatial Pyramid Matching for Recognizing Natural Scene Categories
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-visual-categorization-with-bags-of-keypoints
+  numCitedBy: 5026
+  pid: b91180d8853d00e8f2df7ee3532e07d3d0cce2af
+  show_ref_link: true
+  title: Visual categorization with bags of keypoints
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-a-genetic-algorithm-for-function-optimization-a-matlab-implementation
+  numCitedBy: 1331
+  pid: 6509db97efe012392238403b7cbea20ca9bcaa1a
+  show_ref_link: false
+  title: A Genetic Algorithm for Function Optimization - A Matlab Implementation
+  year: 2001
+- fieldsOfStudy:
+  - Business
+  meta_key: 1990-genetic-local-search-algorithms-for-the-travelling-salesman-problem
+  numCitedBy: 208
+  pid: a5c1245ffbd2618864a50f1ef45a7d79882126ac
+  show_ref_link: false
+  title: Genetic Local Search Algorithms for the Travelling Salesman Problem
+  year: 1990
+- fieldsOfStudy:
+  - Business
+  - Computer Science
+  meta_key: 2006-a-random-key-genetic-algorithm-for-the-generalized-traveling-salesman-problem
+  numCitedBy: 307
+  pid: 9a740e6678aee0634cfe5c9a938ff694588f48e6
+  show_ref_link: false
+  title: A random-key genetic algorithm for the generalized traveling salesman problem
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-liblinear-a-library-for-large-linear-classification
+  numCitedBy: 7779
+  pid: 268a4f8da15a42f3e0e71691f760ff5edbf9cec8
+  show_ref_link: true
+  title: LIBLINEAR - A Library for Large Linear Classification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-a-genetic-algorithm-for-the-set-covering-problem
+  numCitedBy: 330
+  pid: bac83d618127316ae0ff65dfbae6c1d14b4cc5df
+  show_ref_link: false
+  title: A Genetic Algorithm for the Set Covering Problem
+  year: 1996
+- fieldsOfStudy:
+  - Business
+  meta_key: 1995-a-genetic-algorithm-for-flowshop-sequencing
+  numCitedBy: 847
+  pid: 85229fa386a180da36ffe88eada89951238db15c
+  show_ref_link: false
+  title: A genetic algorithm for flowshop sequencing
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-genetic-algorithms-for-the-traveling-salesman-problem
+  numCitedBy: 595
+  pid: 34e4fabcf17e8a82e1679ab3ac36f4314ea04b39
+  show_ref_link: false
+  title: Genetic algorithms for the traveling salesman problem
+  year: 1996
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2012-et-al
+  numCitedBy: 58258
+  pid: bc6dff14a130c57a91d5a21339c23471faf1d46f
+  show_ref_link: false
+  title: Et al
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-p
+  numCitedBy: 63047
+  pid: 3bc63a1a3c0a5bb66af7bb61c34e379658820f90
+  show_ref_link: false
+  title: '#p'
+  year: 2017
+slug: Genetic-CNN-Xie-Yuille
+title: Genetic CNN
+url: https://www.semanticscholar.org/paper/Genetic-CNN-Xie-Yuille/4f46dba09e075b2e7dfae1ba2a71e8e21b46e88d?sort=total-citations
+venue: 2017 IEEE International Conference on Computer Vision (ICCV)
+year: 2017

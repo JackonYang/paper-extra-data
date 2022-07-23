@@ -185,7 +185,7 @@ references:
   meta_key: 2017-using-the-output-embedding-to-improve-language-models
   numCitedBy: 572
   pid: 63e39cdf1ad884da6bc69096bb3413b5b1100559
-  show_ref_link: false
+  show_ref_link: true
   title: Using the Output Embedding to Improve Language Models
   year: 2017
 - fieldsOfStudy:
@@ -297,7 +297,7 @@ references:
   meta_key: 2017-xception-deep-learning-with-depthwise-separable-convolutions
   numCitedBy: 6671
   pid: 5b6ec746d309b165f9f9def873a2375b6fb40f3d
-  show_ref_link: false
+  show_ref_link: true
   title: Xception - Deep Learning with Depthwise Separable Convolutions
   year: 2017
 - fieldsOfStudy:

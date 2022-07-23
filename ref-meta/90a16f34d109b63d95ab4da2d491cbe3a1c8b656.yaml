@@ -1,0 +1,320 @@
+authors:
+- Zhuang Liu
+- Jianguo Li
+- Zhiqiang Shen
+- Gao Huang
+- Shoumeng Yan
+- Changshui Zhang
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 5993328
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-learning-efficient-convolutional-networks-through-network-slimming
+numCitedBy: 1257
+numCiting: 44
+paperAbstract: "The deployment of deep convolutional neural networks (CNNs) in many real world applications is largely hindered by their high computational cost. In this paper, we propose a novel learning scheme for CNNs to simultaneously 1) reduce the model size; 2) decrease the run-time memory footprint; and 3) lower the number of computing operations, without compromising accuracy. This is achieved by enforcing channel-level sparsity in the network in a simple but effective way. Different from many existing approaches, the proposed method directly applies to modern CNN architectures, introduces minimum overhead to the training process, and requires no special software/hardware accelerators for the resulting models. We call our approach network slimming, which takes wide and large networks as input models, but during training insignificant channels are automatically identified and pruned afterwards, yielding thin and compact models with comparable accuracy. We empirically demonstrate the effectiveness of our approach with several state-of-the-art CNN models, including VGGNet, ResNet and DenseNet, on various image classification datasets. For VGGNet, a multi-pass version of network slimming gives a 20\xD7 reduction in model size and a 5\xD7 reduction in computing operations."
+ref_count: 44
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-less-is-more-towards-compact-cnns
+  numCitedBy: 256
+  pid: 3ed94217fbf29b86d5f1baec90dc33adacb40b58
+  show_ref_link: false
+  title: Less Is More - Towards Compact CNNs
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-power-of-sparsity-in-convolutional-neural-networks
+  numCitedBy: 96
+  pid: d5710bce2dda5d01cb14644281731394ff719265
+  show_ref_link: false
+  title: The Power of Sparsity in Convolutional Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-networks-with-stochastic-depth
+  numCitedBy: 1458
+  pid: 51db1f3c8dfc7d4077da39c96bb90a6358128111
+  show_ref_link: true
+  title: Deep Networks with Stochastic Depth
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-pruning-filters-for-efficient-convnets
+  numCitedBy: 2180
+  pid: c2a1cb1612ba21e067a5c3ba478a8d73b796b77a
+  show_ref_link: true
+  title: Pruning Filters for Efficient ConvNets
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-structured-sparsity-in-deep-neural-networks
+  numCitedBy: 1587
+  pid: 7601b995303f953955004db7b9b8b206c0e02ff8
+  show_ref_link: false
+  title: Learning Structured Sparsity in Deep Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation
+  numCitedBy: 1281
+  pid: e5ae8ab688051931b4814f6d32b18391f8d1fa8d
+  show_ref_link: true
+  title: Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 19204
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-multi-scale-dense-convolutional-networks-for-efficient-prediction
+  numCitedBy: 100
+  pid: 6b867004cda7d2682159bc745d5ea1ef1bff48fc
+  show_ref_link: false
+  title: Multi-Scale Dense Convolutional Networks for Efficient Prediction
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-multi-scale-dense-networks-for-resource-efficient-image-classification
+  numCitedBy: 402
+  pid: 125ccd810f43f1cba83c6681836d000f83d1886d
+  show_ref_link: false
+  title: Multi-Scale Dense Networks for Resource Efficient Image Classification
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-binarized-neural-networks-training-deep-neural-networks-with-weights-and-activations-constrained-to-1-or-1
+  numCitedBy: 1753
+  pid: 6eecc808d4c74e7d0d7ef6b8a4112c985ced104d
+  show_ref_link: true
+  title: Binarized Neural Networks - Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-sparse-convolutional-neural-networks
+  numCitedBy: 601
+  pid: d559dd84fc473fca7e91b9075675750823935afa
+  show_ref_link: false
+  title: Sparse Convolutional Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 16125
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-designing-neural-network-architectures-using-reinforcement-learning
+  numCitedBy: 1064
+  pid: 6cd5dfccd9f52538b19a415e00031d0ee4e5b181
+  show_ref_link: true
+  title: Designing Neural Network Architectures using Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17379
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-training-sparse-neural-networks
+  numCitedBy: 120
+  pid: c74bd5ad5abc3d13cf545f5e04718315c4515bbc
+  show_ref_link: false
+  title: Training Sparse Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-binarynet-training-deep-neural-networks-with-weights-and-activations-constrained-to-1-or-1
+  numCitedBy: 563
+  pid: 123ae35aa7d6838c817072032ce5615bb891652d
+  show_ref_link: true
+  title: BinaryNet - Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-group-sparse-regularization-for-deep-neural-networks
+  numCitedBy: 324
+  pid: d224bb6a644583789965bd6182e09d2ee1a1f78f
+  show_ref_link: false
+  title: Group sparse regularization for deep neural networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12559
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-compressing-neural-networks-with-the-hashing-trick
+  numCitedBy: 948
+  pid: efb5032e6199c80f83309fd866b25be9545831fd
+  show_ref_link: false
+  title: Compressing Neural Networks with the Hashing Trick
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-importance-of-initialization-and-momentum-in-deep-learning
+  numCitedBy: 3598
+  pid: aa7bfd2304201afbb19971ebde87b17e40242e91
+  show_ref_link: true
+  title: On the importance of initialization and momentum in deep learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-network-architecture-optimization-through-submodularity-and-supermodularity
+  numCitedBy: 9
+  pid: 192467e0f48b0e1a838011eb2a10a6274e139355
+  show_ref_link: false
+  title: Neural Network Architecture Optimization through Submodularity and Supermodularity
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1834
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3973
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-fast-optimization-methods-for-l1-regularization-a-comparative-study-and-two-new-approaches
+  numCitedBy: 359
+  pid: cd34e7070ae230960fa285575ea0b1f59baadaa4
+  show_ref_link: false
+  title: Fast Optimization Methods for L1 Regularization - A Comparative Study and Two New Approaches
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1494
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2012-et-al
+  numCitedBy: 58258
+  pid: bc6dff14a130c57a91d5a21339c23471faf1d46f
+  show_ref_link: false
+  title: Et al
+  year: 2012
+slug: Learning-Efficient-Convolutional-Networks-through-Liu-Li
+title: Learning Efficient Convolutional Networks through Network Slimming
+url: https://www.semanticscholar.org/paper/Learning-Efficient-Convolutional-Networks-through-Liu-Li/90a16f34d109b63d95ab4da2d491cbe3a1c8b656?sort=total-citations
+venue: 2017 IEEE International Conference on Computer Vision (ICCV)
+year: 2017

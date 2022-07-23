@@ -1,0 +1,259 @@
+authors:
+- Renato Negrinho
+- Geoffrey J. Gordon
+badges:
+- id: OPEN_ACCESS
+corpusId: 7044373
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-deeparchitect-automatically-designing-and-training-deep-architectures
+numCitedBy: 153
+numCiting: 31
+paperAbstract: In deep learning, performance is strongly affected by the choice of architecture and hyperparameters. While there has been extensive work on automatic hyperpa- rameter optimization for simple spaces, complex spaces such as the space of deep architectures remain largely unexplored. As a result, the choice of architecture is done manually by the human expert through a slow trial and error process guided mainly by intuition. In this paper we describe a framework for automatically designing and training deep models. We propose an extensible and modular lan- guage that allows the human expert to compactly represent complex search spaces over architectures and their hyperparameters. The resulting search spaces are tree- structured and therefore easy to traverse. Models can be automatically compiled to computational graphs once values for all hyperparameters have been chosen. We can leverage the structure of the search space to introduce different model search algorithms, such as random search, Monte Carlo tree search (MCTS), and sequen- tial model-based optimization (SMBO). We present experiments comparing the different algorithms on CIFAR-10 and show that MCTS and SMBO outperform random search. We also present experiments on MNIST, showing that the same search space achieves near state-of-the-art performance with a few samples. These experiments show that our framework can be used effectively for model discov- ery, as it is possible to describe expressive search spaces and discover competitive models without much effort from the human expert. Code for our framework and experiments has been made publicly available
+ref_count: 31
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-algorithms-for-hyper-parameter-optimization
+  numCitedBy: 2516
+  pid: 03911c85305d42aa2eeb02be82ef6fb7da644dd0
+  show_ref_link: true
+  title: Algorithms for Hyper-Parameter Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-designing-neural-network-architectures-using-reinforcement-learning
+  numCitedBy: 1064
+  pid: 6cd5dfccd9f52538b19a415e00031d0ee4e5b181
+  show_ref_link: true
+  title: Designing Neural Network Architectures using Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-making-a-science-of-model-search-hyperparameter-optimization-in-hundreds-of-dimensions-for-vision-architectures
+  numCitedBy: 1286
+  pid: 29935173af73aef20336db72d608e0ef5b0e0c16
+  show_ref_link: true
+  title: Making a Science of Model Search - Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-large-scale-evolution-of-image-classifiers
+  numCitedBy: 1118
+  pid: f108b65fe0003e387e1cd7e50f537af0531818e4
+  show_ref_link: true
+  title: Large-Scale Evolution of Image Classifiers
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 15043
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28464
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-selecting-near-optimal-learners-via-incremental-data-allocation
+  numCitedBy: 53
+  pid: f6d29f22c70ff50f0598d1bf4c5556e9463d336c
+  show_ref_link: false
+  title: Selecting Near-Optimal Learners via Incremental Data Allocation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9255
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
+  numCitedBy: 11516
+  pid: 846aedd869a00c09b40f1f1f35673cb22bc87490
+  show_ref_link: true
+  title: Mastering the game of Go with deep neural networks and tree search
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
+  numCitedBy: 2055
+  pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
+  show_ref_link: true
+  title: Sequential Model-Based Optimization for General Algorithm Configuration
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-visual-semantic-alignments-for-generating-image-descriptions
+  numCitedBy: 2718
+  pid: 55e022fb7581bb9e1fce678d21fb25ffbb3fbb88
+  show_ref_link: true
+  title: Deep Visual-Semantic Alignments for Generating Image Descriptions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12559
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-high-dimensional-bayesian-optimisation-and-bandits-via-additive-models
+  numCitedBy: 228
+  pid: 7282c7f7f138bc79f8eb5482020684424433a4f2
+  show_ref_link: false
+  title: High Dimensional Bayesian Optimisation and Bandits via Additive Models
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1494
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-playing-atari-with-deep-reinforcement-learning
+  numCitedBy: 6930
+  pid: 2319a491378867c7049b3da055c5df60e1671158
+  show_ref_link: false
+  title: Playing Atari with Deep Reinforcement Learning
+  year: 2013
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2002-evolving-neural-networks-through-augmenting-topologies
+  numCitedBy: 2994
+  pid: d03c916d49268d48fde3b76a68e64af7761835e7
+  show_ref_link: false
+  title: Evolving Neural Networks through Augmenting Topologies
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-neuroevolution-from-architectures-to-learning
+  numCitedBy: 652
+  pid: cf7bdff21a875e5d043514ed0714fafae77e1492
+  show_ref_link: false
+  title: Neuroevolution - from architectures to learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-oracle-inequalities-for-computationally-budgeted-model-selection
+  numCitedBy: 31
+  pid: f6bc323c11edc19be948df19cffff6e6251f8073
+  show_ref_link: false
+  title: Oracle inequalities for computationally budgeted model selection
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-survey-of-monte-carlo-tree-search-methods
+  numCitedBy: 2139
+  pid: c37f1baac3c8ba30250084f067167ac3837cf6fd
+  show_ref_link: false
+  title: A Survey of Monte Carlo Tree Search Methods
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-modeling-systems-with-internal-state-using-evolino
+  numCitedBy: 56
+  pid: a149d240ecde338e91ccb2f001074b792be070b2
+  show_ref_link: false
+  title: Modeling systems with internal state using evolino
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-a-framework-for-the-cooperation-of-learning-algorithms
+  numCitedBy: 93
+  pid: c3fa4c1ebd90bf14c55d253806fdf9e69defd729
+  show_ref_link: false
+  title: A Framework for the Cooperation of Learning Algorithms
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-bandit-based-monte-carlo-planning
+  numCitedBy: 2651
+  pid: e635d81a617d1239232a9c9a11a196c53dab8240
+  show_ref_link: false
+  title: Bandit Based Monte-Carlo Planning
+  year: 2006
+slug: DeepArchitect:-Automatically-Designing-and-Training-Negrinho-Gordon
+title: DeepArchitect - Automatically Designing and Training Deep Architectures
+url: https://www.semanticscholar.org/paper/DeepArchitect:-Automatically-Designing-and-Training-Negrinho-Gordon/71a80e7342e56f33fd120246e907151a0cf1b4d0?sort=total-citations
+venue: ArXiv
+year: 2017

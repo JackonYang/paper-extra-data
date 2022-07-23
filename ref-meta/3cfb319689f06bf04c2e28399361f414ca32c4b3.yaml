@@ -264,7 +264,7 @@ references:
   meta_key: 2016-abstractive-text-summarization-using-sequence-to-sequence-rnns-and-beyond
   numCitedBy: 1569
   pid: f37076f426023241f19cdc2fb0a0fd733a6fa7fa
-  show_ref_link: false
+  show_ref_link: true
   title: Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond
   year: 2016
 - fieldsOfStudy:
@@ -657,7 +657,7 @@ references:
   meta_key: 2015-distilling-the-knowledge-in-a-neural-network
   numCitedBy: 8808
   pid: 0c908739fbff75f03469d13d4a1a07de3414ee19
-  show_ref_link: false
+  show_ref_link: true
   title: Distilling the Knowledge in a Neural Network
   year: 2015
 - fieldsOfStudy:
@@ -842,7 +842,7 @@ references:
   meta_key: 2014-how-transferable-are-features-in-deep-neural-networks
   numCitedBy: 5810
   pid: 081651b38ff7533550a3adfc1c00da333a8fe86c
-  show_ref_link: false
+  show_ref_link: true
   title: How transferable are features in deep neural networks?
   year: 2014
 - fieldsOfStudy:

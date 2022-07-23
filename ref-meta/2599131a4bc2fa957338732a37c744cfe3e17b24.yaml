@@ -8,7 +8,7 @@ corpusId: 207165665
 fieldsOfStudy:
 - Computer Science
 meta_key: 1992-a-training-algorithm-for-optimal-margin-classifiers
-numCitedBy: 10868
+numCitedBy: 10907
 numCiting: 40
 paperAbstract: A training algorithm that maximizes the margin between the training patterns and the decision boundary is presented. The technique is applicable to a wide variety of the classification functions, including Perceptrons, polynomials, and Radial Basis Functions. The effective number of parameters is adjusted automatically to match the complexity of the problem. The solution is expressed as a linear combination of supporting patterns. These are the subset of training patterns that are closest to the decision boundary. Bounds on the generalization performance based on the leave-one-out method and the VC-dimension are given. Experimental results on optical character recognition problems demonstrate the good generalization obtained when compared with other learning algorithms.
 ref_count: 40

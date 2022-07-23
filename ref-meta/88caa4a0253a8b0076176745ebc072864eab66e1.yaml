@@ -35,7 +35,7 @@ references:
   meta_key: 2017-pointer-sentinel-mixture-models
   numCitedBy: 1047
   pid: efbd381493bb9636f489b965a2034d529cd56bcd
-  show_ref_link: false
+  show_ref_link: true
   title: Pointer Sentinel Mixture Models
   year: 2017
 - fieldsOfStudy:
@@ -67,7 +67,7 @@ references:
   meta_key: 2017-improving-neural-language-models-with-a-continuous-cache
   numCitedBy: 241
   pid: 2d7782c225e0fc123d6e227f2cb253e58279ac73
-  show_ref_link: false
+  show_ref_link: true
   title: Improving Neural Language Models with a Continuous Cache
   year: 2017
 - fieldsOfStudy:

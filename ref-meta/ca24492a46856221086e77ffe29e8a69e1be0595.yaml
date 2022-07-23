@@ -1,0 +1,92 @@
+authors:
+- Liangzhen Lai
+- Naveen Suda
+- V. Chandra
+badges:
+- id: OPEN_ACCESS
+corpusId: 691340
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-cmsis-nn-efficient-neural-network-kernels-for-arm-cortex-m-cpus
+numCitedBy: 183
+numCiting: 10
+paperAbstract: Deep Neural Networks are becoming increasingly popular in always-on IoT edge devices performing data analytics right at the source, reducing latency as well as energy consumption for data communication. This paper presents CMSIS-NN, efficient kernels developed to maximize the performance and minimize the memory footprint of neural network (NN) applications on Arm Cortex-M processors targeted for intelligent IoT edge devices. Neural network inference based on CMSIS-NN kernels achieves 4.6X improvement in runtime/throughput and 4.9X improvement in energy efficiency.
+ref_count: 10
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-optimizing-memory-efficiency-for-deep-convolutional-neural-networks-on-gpus
+  numCitedBy: 61
+  pid: 4d6a4ec00379fbe4206ea91b20ee8d40b1a38de1
+  show_ref_link: false
+  title: Optimizing Memory Efficiency for Deep Convolutional Neural Networks on GPUs
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-throughput-optimized-opencl-based-fpga-accelerator-for-large-scale-convolutional-neural-networks
+  numCitedBy: 411
+  pid: b4eac8295c90dbfb7d8d22ba560e025621287c58
+  show_ref_link: false
+  title: Throughput-Optimized OpenCL-based FPGA Accelerator for Large-Scale Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-convolutional-neural-network-inference-with-floating-point-weights-and-fixed-point-activations
+  numCitedBy: 72
+  pid: 6a5a8b424e1a498bbf323934291e79ae6dfecc84
+  show_ref_link: false
+  title: Deep Convolutional Neural Network Inference with Floating-point Weights and Fixed-point Activations
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-hello-edge-keyword-spotting-on-microcontrollers
+  numCitedBy: 227
+  pid: a3d4dbd03355d6b4972d7cb9257ccccdd6d33923
+  show_ref_link: false
+  title: Hello Edge - Keyword Spotting on Microcontrollers
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fixed-point-quantization-of-deep-convolutional-networks
+  numCitedBy: 609
+  pid: 33da17e0070dfceed05aec1602a7d1e3284cf715
+  show_ref_link: false
+  title: Fixed Point Quantization of Deep Convolutional Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9255
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-edge-computing-vision-and-challenges
+  numCitedBy: 3549
+  pid: e3a442aa24e5df7e6b2a25e21e75c4c325f9eedf
+  show_ref_link: false
+  title: Edge Computing - Vision and Challenges
+  year: 2016
+slug: CMSIS-NN:-Efficient-Neural-Network-Kernels-for-Arm-Lai-Suda
+title: CMSIS-NN - Efficient Neural Network Kernels for Arm Cortex-M CPUs
+url: https://www.semanticscholar.org/paper/CMSIS-NN:-Efficient-Neural-Network-Kernels-for-Arm-Lai-Suda/ca24492a46856221086e77ffe29e8a69e1be0595?sort=total-citations
+venue: ArXiv
+year: 2018

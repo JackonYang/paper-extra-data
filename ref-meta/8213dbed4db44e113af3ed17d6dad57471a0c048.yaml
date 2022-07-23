@@ -344,7 +344,7 @@ references:
   meta_key: 1978-estimating-the-dimension-of-a-model
   numCitedBy: 39619
   pid: 37e44d1de8003d8394d158ec6afd1ff0e87e595b
-  show_ref_link: false
+  show_ref_link: true
   title: Estimating the Dimension of a Model
   year: 1978
 slug: The-Nature-of-Statistical-Learning-Theory-Vapnik

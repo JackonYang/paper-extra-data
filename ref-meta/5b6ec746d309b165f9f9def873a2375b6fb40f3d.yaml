@@ -1,0 +1,180 @@
+authors:
+- "Fran\xE7ois Chollet"
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 2375110
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-xception-deep-learning-with-depthwise-separable-convolutions
+numCitedBy: 6758
+numCiting: 32
+paperAbstract: We present an interpretation of Inception modules in convolutional neural networks as being an intermediate step in-between regular convolution and the depthwise separable convolution operation (a depthwise convolution followed by a pointwise convolution). In this light, a depthwise separable convolution can be understood as an Inception module with a maximally large number of towers. This observation leads us to propose a novel deep convolutional neural network architecture inspired by Inception, where Inception modules have been replaced with depthwise separable convolutions. We show that this architecture, dubbed Xception, slightly outperforms Inception V3 on the ImageNet dataset (which Inception V3 was designed for), and significantly outperforms Inception V3 on a larger image classification dataset comprising 350 million images and 17,000 classes. Since the Xception architecture has the same number of parameters as Inception V3, the performance gains are not due to increased capacity but rather to a more efficient use of model parameters.
+ref_count: 32
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8225
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-factorized-convolutional-neural-networks
+  numCitedBy: 128
+  pid: 977bf40fe28f773b95d6802e694505beac78441d
+  show_ref_link: false
+  title: Factorized Convolutional Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-design-of-efficient-convolutional-layers-using-single-intra-channel-convolution-topological-subdivisioning-and-spatial-bottleneck-structure
+  numCitedBy: 44
+  pid: d20da75866f500ee9fbfa859e69556702e1f50a4
+  show_ref_link: false
+  title: Design of Efficient Convolutional Layers using Single Intra-channel Convolution, Topological Subdivisioning and Spatial Bottleneck Structure
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15857
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-flattened-convolutional-neural-networks-for-feedforward-acceleration
+  numCitedBy: 179
+  pid: 30ae2bdef407e7a05b83781907ad7fb257dcd7a1
+  show_ref_link: false
+  title: Flattened Convolutional Neural Networks for Feedforward Acceleration
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-visualizing-and-understanding-convolutional-networks
+  numCitedBy: 11942
+  pid: 1a2a770d23b4a171fa81de62a78a3deb0588f238
+  show_ref_link: true
+  title: Visualizing and Understanding Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-simplifying-convnets-for-fast-learning
+  numCitedBy: 101
+  pid: 4dbc68cf2e14155edb6da0def30661aca8c96c22
+  show_ref_link: false
+  title: Simplifying ConvNets for Fast Learning
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-and-accurate-deep-network-learning-by-exponential-linear-units-elus
+  numCitedBy: 3703
+  pid: f63e917638553414526a0cc8550de4ad2d83fe7a
+  show_ref_link: true
+  title: Fast and Accurate Deep Network Learning by Exponential Linear Units (ELUs)
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-distilling-the-knowledge-in-a-neural-network
+  numCitedBy: 8901
+  pid: 0c908739fbff75f03469d13d4a1a07de3414ee19
+  show_ref_link: true
+  title: Distilling the Knowledge in a Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 2013-rotation-scaling-and-deformation-invariant-scattering-for-texture-discrimination
+  numCitedBy: 376
+  pid: 528beaa995bf1bd1ae451b18218674af9ecd2b50
+  show_ref_link: false
+  title: Rotation, Scaling and Deformation Invariant Scattering for Texture Discrimination
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-learning-algorithms-for-classification-a-comparison-on-handwritten-digit-recognition
+  numCitedBy: 450
+  pid: 842dd6d0f4b72ce0e8f3ac8e6861637c1f4645ea
+  show_ref_link: false
+  title: Learning algorithms for classification - A comparison on handwritten digit recognition
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-acceleration-of-stochastic-approximation-by-averaging
+  numCitedBy: 1559
+  pid: 6dc61f37ecc552413606d8c89ffbc46ec98ed887
+  show_ref_link: false
+  title: Acceleration of stochastic approximation by averaging
+  year: 1992
+slug: Xception:-Deep-Learning-with-Depthwise-Separable-Chollet
+title: Xception - Deep Learning with Depthwise Separable Convolutions
+url: https://www.semanticscholar.org/paper/Xception:-Deep-Learning-with-Depthwise-Separable-Chollet/5b6ec746d309b165f9f9def873a2375b6fb40f3d?sort=total-citations
+venue: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2017

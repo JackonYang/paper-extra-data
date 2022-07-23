@@ -1,0 +1,261 @@
+authors:
+- Kensho Hara
+- Hirokatsu Kataoka
+- Y. Satoh
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 4539700
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-can-spatiotemporal-3d-cnns-retrace-the-history-of-2d-cnns-and-imagenet
+numCitedBy: 1102
+numCiting: 30
+paperAbstract: 'The purpose of this study is to determine whether current video datasets have sufficient data for training very deep convolutional neural networks (CNNs) with spatio-temporal three-dimensional (3D) kernels. Recently, the performance levels of 3D CNNs in the field of action recognition have improved significantly. However, to date, conventional research has only explored relatively shallow 3D architectures. We examine the architectures of various 3D CNNs from relatively shallow to very deep ones on current video datasets. Based on the results of those experiments, the following conclusions could be obtained: (i) ResNet-18 training resulted in significant overfitting for UCF-101, HMDB-51, and ActivityNet but not for Kinetics. (ii) The Kinetics dataset has sufficient data for training of deep 3D CNNs, and enables training of up to 152 ResNets layers, interestingly similar to 2D ResNets on ImageNet. ResNeXt-101 achieved 78.4% average accuracy on the Kinetics test set. (iii) Kinetics pretrained simple 3D architectures outperforms complex 2D architectures, and the pretrained ResNeXt-101 achieved 94.5% and 70.2% on UCF-101 and HMDB-51, respectively. The use of 2D CNNs trained on ImageNet has produced significant progress in various tasks in image. We believe that using deep 3D CNNs together with Kinetics will retrace the successful history of 2D CNNs and ImageNet, and stimulate advances in computer vision for videos. The codes and pretrained models used in this study are publicly available1.'
+ref_count: 30
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-spatio-temporal-features-with-3d-residual-networks-for-action-recognition
+  numCitedBy: 298
+  pid: 07c83f544d0604e6bab5d741b0bf9a3621d133da
+  show_ref_link: false
+  title: Learning Spatio-Temporal Features with 3D Residual Networks for Action Recognition
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-spatio-temporal-representation-with-pseudo-3d-residual-networks
+  numCitedBy: 1005
+  pid: 024d037d46ae933c7e12fd16af61953c7161773a
+  show_ref_link: false
+  title: Learning Spatio-Temporal Representation with Pseudo-3D Residual Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-spatiotemporal-features-with-3d-convolutional-networks
+  numCitedBy: 5347
+  pid: d25c65d261ea0e6a458be4c50c40ffe5bc508f77
+  show_ref_link: false
+  title: Learning Spatiotemporal Features with 3D Convolutional Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-large-scale-video-classification-with-convolutional-neural-networks
+  numCitedBy: 5192
+  pid: 6d4c9c923e9f145d1c01a2de2afc38ec23c44253
+  show_ref_link: true
+  title: Large-Scale Video Classification with Convolutional Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-two-stream-convolutional-networks-for-action-recognition-in-videos
+  numCitedBy: 5535
+  pid: 67dccc9a856b60bdc4d058d83657a089b8ad4486
+  show_ref_link: true
+  title: Two-Stream Convolutional Networks for Action Recognition in Videos
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-3d-convolutional-neural-networks-for-human-action-recognition
+  numCitedBy: 4241
+  pid: 80bfcf1be2bf1b95cc6f36d229665cdf22d76190
+  show_ref_link: true
+  title: 3D Convolutional Neural Networks for Human Action Recognition
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-quo-vadis-action-recognition-a-new-model-and-the-kinetics-dataset
+  numCitedBy: 3918
+  pid: b61a3f8b80bbd44f24544dc915f52fd30bbdf485
+  show_ref_link: false
+  title: Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-two-stream-network-fusion-for-video-action-recognition
+  numCitedBy: 1969
+  pid: 9d9aced120e530484609164c836da64548693484
+  show_ref_link: false
+  title: Convolutional Two-Stream Network Fusion for Video Action Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-temporal-segment-networks-towards-good-practices-for-deep-action-recognition
+  numCitedBy: 2506
+  pid: ea3d7de6c0880e14455b9acb28f1bc1234321456
+  show_ref_link: false
+  title: Temporal Segment Networks - Towards Good Practices for Deep Action Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-towards-good-practices-for-very-deep-two-stream-convnets
+  numCitedBy: 375
+  pid: 1f05473c587e2a3b587f51eb808695a1c10bc153
+  show_ref_link: false
+  title: Towards Good Practices for Very Deep Two-Stream ConvNets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-spatiotemporal-residual-networks-for-video-action-recognition
+  numCitedBy: 580
+  pid: 5f4d2f6ad967f7c9369c04e75cda08f12cb8afbd
+  show_ref_link: false
+  title: Spatiotemporal Residual Networks for Video Action Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-action-recognition-with-trajectory-pooled-deep-convolutional-descriptors
+  numCitedBy: 1005
+  pid: df658828fb4146877f1031ec9d07052f7eb31186
+  show_ref_link: false
+  title: Action recognition with trajectory-pooled deep-convolutional descriptors
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-convnet-architecture-search-for-spatiotemporal-feature-learning
+  numCitedBy: 259
+  pid: a92adfdd8996ab2bd7cdc910ea1d3db03c66d34f
+  show_ref_link: false
+  title: ConvNet Architecture Search for Spatiotemporal Feature Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-aggregated-residual-transformations-for-deep-neural-networks
+  numCitedBy: 5619
+  pid: f6e0856b4a9199fa968ac00da612a9407b5cb85c
+  show_ref_link: true
+  title: Aggregated Residual Transformations for Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-long-term-temporal-convolutions-for-action-recognition
+  numCitedBy: 713
+  pid: 47e3ef70f2539386bcef604097fa9235246c6d53
+  show_ref_link: false
+  title: Long-Term Temporal Convolutions for Action Recognition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 19204
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-residual-networks
+  numCitedBy: 4354
+  pid: 1c4e9156ca07705531e45960b7a919dc473abb51
+  show_ref_link: true
+  title: Wide Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-spatiotemporal-multiplier-networks-for-video-action-recognition
+  numCitedBy: 436
+  pid: 265cd694e8886a7f8413dd334662f269c6ac2bfc
+  show_ref_link: false
+  title: Spatiotemporal Multiplier Networks for Video Action Recognition
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-ucf101-a-dataset-of-101-human-actions-classes-from-videos-in-the-wild
+  numCitedBy: 3681
+  pid: da9e411fcf740569b6b356f330a1d0fc077c8d7c
+  show_ref_link: true
+  title: UCF101 - A Dataset of 101 Human Actions Classes From Videos in The Wild
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-youtube-8m-a-large-scale-video-classification-benchmark
+  numCitedBy: 891
+  pid: c9a1e8e1ba2913ef0bdf1c5eaaa1ac0a79be3716
+  show_ref_link: false
+  title: YouTube-8M - A Large-Scale Video Classification Benchmark
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-hmdb-a-large-video-database-for-human-motion-recognition
+  numCitedBy: 2580
+  pid: 8b3b8848a311c501e704c45c6d50430ab7068956
+  show_ref_link: true
+  title: HMDB - A large video database for human motion recognition
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-kinetics-human-action-video-dataset
+  numCitedBy: 1773
+  pid: 86e1bdbfd13b9ed137e4c4b8b459a3980eb257f6
+  show_ref_link: false
+  title: The Kinetics Human Action Video Dataset
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-dense-trajectories-and-motion-boundary-descriptors-for-action-recognition
+  numCitedBy: 1560
+  pid: bbe0819a47a9f3f11dd34bb3ab44a997ef111088
+  show_ref_link: false
+  title: Dense Trajectories and Motion Boundary Descriptors for Action Recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-activitynet-a-large-scale-video-benchmark-for-human-activity-understanding
+  numCitedBy: 1336
+  pid: 0a28efacb92d16e6e0dd4d87b5aca91b28be8853
+  show_ref_link: false
+  title: ActivityNet - A large-scale video benchmark for human activity understanding
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12985
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+slug: Can-Spatiotemporal-3D-CNNs-Retrace-the-History-of-Hara-Kataoka
+title: Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?
+url: https://www.semanticscholar.org/paper/Can-Spatiotemporal-3D-CNNs-Retrace-the-History-of-Hara-Kataoka/d716435f0cb0cac56237f74b1ced940aabce6a2b?sort=total-citations
+venue: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+year: 2018

@@ -1,0 +1,553 @@
+authors:
+- Fredrik Kjolstad
+- S. Kamil
+- Stephen Chou
+- D. Lugato
+- Saman P. Amarasinghe
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 6326740
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-the-tensor-algebra-compiler
+numCitedBy: 201
+numCiting: 99
+paperAbstract: Tensor algebra is a powerful tool with applications in machine learning, data analytics, engineering and the physical sciences. Tensors are often sparse and compound operations must frequently be computed in a single kernel for performance and to save memory. Programmers are left to write kernels for every operation of interest, with different mixes of dense and sparse tensors in different formats. The combinations are infinite, which makes it impossible to manually implement and optimize them all. This paper introduces the first compiler technique to automatically generate kernels for any compound tensor algebra operation on dense and sparse tensors. The technique is implemented in a C++ library called taco. Its performance is competitive with best-in-class hand-optimized kernels in popular libraries, while supporting far more tensor operations.
+ref_count: 99
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-sparse-tensor-algebra-as-a-parallel-programming-model
+  numCitedBy: 30
+  pid: 43f01d002dab4377b944e0fd42ea6ec02587758e
+  show_ref_link: false
+  title: Sparse Tensor Algebra as a Parallel Programming Model
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-sparso-context-driven-optimizations-of-sparse-linear-algebra
+  numCitedBy: 18
+  pid: 27f3bb5ef854c0b0e559fb382114ba24891514b0
+  show_ref_link: false
+  title: Sparso - Context-driven optimizations of sparse linear algebra
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-splatt-efficient-and-parallel-sparse-tensor-matrix-multiplication
+  numCitedBy: 151
+  pid: e331cc03cf0990fd985f93df2e1c471ed927cac8
+  show_ref_link: false
+  title: SPLATT - Efficient and Parallel Sparse Tensor-Matrix Multiplication
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-high-performance-tensor-contraction-without-transposition
+  numCitedBy: 46
+  pid: a4901727c359ab19ef69b393b4fb08173d6eefdc
+  show_ref_link: false
+  title: High-Performance Tensor Contraction without Transposition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-optimizing-sparse-tensor-times-matrix-on-multi-core-and-many-core-architectures
+  numCitedBy: 28
+  pid: 669508257d4621864011252d0423047f98d9329c
+  show_ref_link: false
+  title: Optimizing Sparse Tensor Times Matrix on Multi-core and Many-Core Architectures
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-efficient-and-scalable-computations-with-sparse-tensors
+  numCitedBy: 58
+  pid: c6cf2628cc27a595546b807fa247379d1fe0c5fa
+  show_ref_link: false
+  title: Efficient and scalable computations with sparse tensors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-optimization-of-symmetric-tensor-computations
+  numCitedBy: 10
+  pid: 535406567c94a178e7e3bb27947b38afbc9f4ade
+  show_ref_link: false
+  title: Optimization of symmetric tensor computations
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-data-parallel-language-for-correct-and-efficient-sparse-matrix-codes
+  numCitedBy: 8
+  pid: ddbc9de2d7de185fe12dfff766ba00a908aecc55
+  show_ref_link: false
+  title: Data-Parallel Language for Correct and Efficient Sparse Matrix Codes
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-tensor-matrix-products-with-a-compressed-sparse-tensor
+  numCitedBy: 88
+  pid: 91c587158d19fdaeda6b453efa54064543a03e9d
+  show_ref_link: false
+  title: Tensor-matrix products with a compressed sparse tensor
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-oski-a-library-of-automatically-tuned-sparse-matrix-kernels
+  numCitedBy: 535
+  pid: 5672ce28f2927b81b01303e4926643c55a4c8133
+  show_ref_link: false
+  title: OSKI - A Library of Automatically Tuned Sparse Matrix Kernels
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scalable-sparse-tensor-decompositions-in-distributed-memory-systems
+  numCitedBy: 83
+  pid: 75b7b85a6dbca16dbce1831c2f7de617e8b76e99
+  show_ref_link: false
+  title: Scalable sparse tensor decompositions in distributed memory systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-reliable-generation-of-high-performance-matrix-algebra
+  numCitedBy: 12
+  pid: 2ed09ce69ec5e46e55c44e894aed20022bc97772
+  show_ref_link: false
+  title: Reliable Generation of High-Performance Matrix Algebra
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-scalable-portable-verifiable-kronecker-products-on-multi-scale-computers
+  numCitedBy: 6
+  pid: 8ba73768467f0c6924a8a965304abfe47ef885eb
+  show_ref_link: false
+  title: Scalable, Portable, Verifiable Kronecker Products on Multi-scale Computers
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-a-system-for-large-scale-machine-learning
+  numCitedBy: 12805
+  pid: 46200b99c40e8586c8a0f588488ab6414119fb28
+  show_ref_link: true
+  title: TensorFlow - A system for large-scale machine learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-efficient-matlab-computations-with-sparse-and-factored-tensors
+  numCitedBy: 437
+  pid: 284bf60f7419485785268f84a1aaab47eb888233
+  show_ref_link: false
+  title: Efficient MATLAB Computations with Sparse and Factored Tensors
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-automatically-tuned-linear-algebra-software
+  numCitedBy: 1138
+  pid: 214a0d9c93720aa8c3d10710bca8308e3f2618f5
+  show_ref_link: false
+  title: Automatically Tuned Linear Algebra Software
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-relational-algebraic-techniques-for-the-synthesis-of-sparse-matrix-programs
+  numCitedBy: 9
+  pid: e605bf32e85c041e82f4d8da761fb478f266942a
+  show_ref_link: false
+  title: Relational Algebraic Techniques for the Synthesis of Sparse Matrix Programs
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-basic-linear-algebra-compiler
+  numCitedBy: 79
+  pid: 529e1deae0a67b0f8d92fbb256adddced491ea40
+  show_ref_link: false
+  title: A Basic Linear Algebra Compiler
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-compiling-parallel-sparse-code-for-user-defined-data-structures
+  numCitedBy: 20
+  pid: 0b2522ed3cf20c6e9844dd0cb72481041006e97c
+  show_ref_link: false
+  title: Compiling Parallel Sparse Code for User-Defined Data Structures
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-design-of-a-high-performance-gemm-like-tensor-tensor-multiplication
+  numCitedBy: 67
+  pid: aeb89c3190a875aeff5e2e0d1416d521ef78e69f
+  show_ref_link: false
+  title: Design of a High-Performance GEMM-like Tensor-Tensor Multiplication
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-new-implementation-of-high-level-correlated-methods-using-a-general-block-tensor-library-for-high-performance-electronic-structure-calculations
+  numCitedBy: 120
+  pid: 4d2f5946e37d7f20d5ff5d2182008cef83639579
+  show_ref_link: false
+  title: "New implementation of high\u2010level correlated methods using a general block tensor library for high\u2010performance electronic structure calculations"
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  - Chemistry
+  meta_key: 2014-a-massively-parallel-tensor-contraction-framework-for-coupled-cluster-computations
+  numCitedBy: 138
+  pid: f20340ebc8f466fc10b46015ccfc6dfaa61ea40f
+  show_ref_link: false
+  title: A massively parallel tensor contraction framework for coupled-cluster computations
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-compilation-techniques-for-sparse-matrix-computations
+  numCitedBy: 76
+  pid: 178229df005f10e346465a06ca13d3396af50ab3
+  show_ref_link: false
+  title: Compilation techniques for sparse matrix computations
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-loop-and-data-transformations-for-sparse-matrix-code
+  numCitedBy: 74
+  pid: 3563be7789459d88bec67844f4dcdf22703eed7b
+  show_ref_link: false
+  title: Loop and data transformations for sparse matrix code
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-a-relational-approach-to-the-automatic-generation-of-sequential-sparse-matrix-codes
+  numCitedBy: 30
+  pid: 016c7ea7ae3a5904dcc70f3ae021b8515e43c869
+  show_ref_link: false
+  title: A Relational Approach to the Automatic Generation of Sequential Sparse matrix Codes
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-automatic-code-generation-for-many-body-electronic-structure-methods-the-tensor-contraction-engine
+  numCitedBy: 109
+  pid: 70da6a5e4b90253cafa917b9824efe034717f47b
+  show_ref_link: false
+  title: Automatic code generation for many-body electronic structure methods - the tensor contraction engine
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-on-the-representation-and-multiplication-of-hypersparse-matrices
+  numCitedBy: 169
+  pid: 3edef062698ab35fbe4cc5a5ffce633e09f8b6f2
+  show_ref_link: false
+  title: On the representation and multiplication of hypersparse matrices
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-on-automatic-data-structure-selection-and-code-generation-for-sparse-computations
+  numCitedBy: 38
+  pid: a3b049e2bd96d92bdef3f262b16bcb77140132f5
+  show_ref_link: false
+  title: On Automatic Data Structure Selection and Code Generation for Sparse Computations
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-optimization-of-sparse-matrix-vector-multiplication-on-emerging-multicore-platforms
+  numCitedBy: 530
+  pid: 8138ab11231447708f13d1a593389ded2b845b1b
+  show_ref_link: false
+  title: Optimization of sparse matrix-vector multiplication on emerging multicore platforms
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-autotuning-sparse-matrix-vector-multiplication-for-multicore
+  numCitedBy: 34
+  pid: 122f5b27158718f7c94aa62342b1babb8b8af6f4
+  show_ref_link: false
+  title: Autotuning Sparse Matrix-Vector Multiplication for Multicore
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-simit-a-language-for-physical-simulation
+  numCitedBy: 45
+  pid: b08494ed65f349de2b811db408d6f1420db2dc1e
+  show_ref_link: false
+  title: Simit - A Language for Physical Simulation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-a-relational-approach-to-the-compilation-of-sparse-matrix-programs
+  numCitedBy: 64
+  pid: 6866a757d2af504557f9dd31b349e662713e9482
+  show_ref_link: false
+  title: A Relational Approach to the Compilation of Sparse Matrix Programs
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-automating-wavefront-parallelization-for-sparse-matrix-computations
+  numCitedBy: 45
+  pid: f98f6a265401d1305bd7a35ceb747b86b4bd9b89
+  show_ref_link: false
+  title: Automating Wavefront Parallelization for Sparse Matrix Computations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-generating-indexing-functions-of-regularly-sparse-arrays-for-array-compilers
+  numCitedBy: 3
+  pid: d2b42fa556301b94ec2d906a1fcfb1f5978f868e
+  show_ref_link: false
+  title: Generating Indexing Functions of Regularly Sparse Arrays for Array Compilers
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-efficient-management-of-parallelism-in-object-oriented-numerical-software-libraries
+  numCitedBy: 2042
+  pid: 5b54329e22a8c08fd0ee7d21c8dd89b592be8539
+  show_ref_link: false
+  title: Efficient Management of Parallelism in Object-Oriented Numerical Software Libraries
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-sipr-a-new-framework-for-generating-efficient-code-for-sparse-matrix-computations
+  numCitedBy: 39
+  pid: 9689ba2d4673a39cb9bdfb9802660d6acf427704
+  show_ref_link: false
+  title: SIPR - A New Framework for Generating Efficient Code for Sparse Matrix Computations
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-a-data-locality-optimizing-algorithm
+  numCitedBy: 1199
+  pid: f4dff66ba8f2338d118f379f2eff1410feb57ce6
+  show_ref_link: false
+  title: A data locality optimizing algorithm
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-armadillo-an-open-source-c-linear-algebra-library-for-fast-prototyping-and-computationally-intensive-experiments
+  numCitedBy: 436
+  pid: 4fd74b807b47a5975e9b0ab354bfd780e0d921d2
+  show_ref_link: false
+  title: Armadillo - An Open Source C++ Linear Algebra Library for Fast Prototyping and Computationally Intensive Experiments
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1971-algorithm-408-a-sparse-matrix-package-part-i-f4
+  numCitedBy: 31
+  pid: 430fa1802c54cae3bed1b978fe1c645c35087286
+  show_ref_link: false
+  title: Algorithm 408 - a sparse matrix package (part I) [F4]
+  year: 1971
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-improving-data-locality-with-loop-transformations
+  numCitedBy: 577
+  pid: ca8e8df439d0ae7dd97444885b294bd481310023
+  show_ref_link: false
+  title: Improving data locality with loop transformations
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-high-performance-machine-learning-through-codesign-and-rooflining
+  numCitedBy: 12
+  pid: def18a40707e60339b7d15edcf879f2793a00e84
+  show_ref_link: false
+  title: High Performance Machine Learning through Codesign and Rooflining
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-the-university-of-florida-sparse-matrix-collection
+  numCitedBy: 3064
+  pid: e464550cdc5bfe80900afb8df94066c7ddb6b14d
+  show_ref_link: false
+  title: The university of Florida sparse matrix collection
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-julia-a-fast-dynamic-language-for-technical-computing
+  numCitedBy: 598
+  pid: b808233eb1256d492af437a6c9fe99ffe141df47
+  show_ref_link: false
+  title: Julia - A Fast Dynamic Language for Technical Computing
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1967-direct-solutions-of-sparse-network-equations-by-optimally-ordered-triangular-factorization
+  numCitedBy: 627
+  pid: 3ac79c19099bebc11dfef2dea017d1e1a159fe7c
+  show_ref_link: false
+  title: Direct solutions of sparse network equations by optimally ordered triangular factorization
+  year: 1967
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2012-tensor-decompositions-for-learning-latent-variable-models
+  numCitedBy: 965
+  pid: a6ce434896d238e1b200a617815ea3e5141dfeeb
+  show_ref_link: false
+  title: Tensor decompositions for learning latent variable models
+  year: 2012
+- fieldsOfStudy:
+  - Education
+  meta_key: 2002-an-introduction-to-tensors-for-students-of-physics-and-engineering
+  numCitedBy: 22
+  pid: 9bcb7ff601bb96f0de52e460007d1dfeaf0cb5c8
+  show_ref_link: false
+  title: An Introduction to Tensors for Students of Physics and Engineering
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1978-two-fast-algorithms-for-sparse-matrices-multiplication-and-permuted-transposition
+  numCitedBy: 295
+  pid: 5f491a183c71b0322b16e4f5dc69538c50db79e0
+  show_ref_link: false
+  title: Two Fast Algorithms for Sparse Matrices - Multiplication and Permuted Transposition
+  year: 1978
+- fieldsOfStudy:
+  - Business
+  meta_key: 2015-an-input-adaptive-and-in-place-approach-to-dense-tensor-times-matrix-multiply
+  numCitedBy: 60
+  pid: 44ccdebc83766fb6a2016fa58c3c3a337356b79b
+  show_ref_link: false
+  title: An input-adaptive and in-place approach to dense tensor-times-matrix multiply
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-the-numpy-array-a-structure-for-efficient-numerical-computation
+  numCitedBy: 6221
+  pid: cef52bea3f13b20d6a31391034b0fccec71c6781
+  show_ref_link: false
+  title: The NumPy Array - A Structure for Efficient Numerical Computation
+  year: 2011
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1994-the-topology-of-symmetric-second-order-tensor-fields
+  numCitedBy: 164
+  pid: c5e7a9ffd8d61c4c6c5cf54da8fbc38d63c76be2
+  show_ref_link: false
+  title: The topology of symmetric, second-order tensor fields
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1962-a-programming-language
+  numCitedBy: 1060
+  pid: cb67fe0cd45ad16001206773ffde93140f80a1a2
+  show_ref_link: false
+  title: A programming language
+  year: 1962
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-parallel-sparse-matrix-vector-and-matrix-transpose-vector-multiplication-using-compressed-sparse-blocks
+  numCitedBy: 309
+  pid: 0c0800259bd40b1ac96cc437629c5ea0ad729f22
+  show_ref_link: false
+  title: Parallel sparse matrix-vector and matrix-transpose-vector multiplication using compressed sparse blocks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-nwchem-a-comprehensive-and-scalable-open-source-solution-for-large-scale-molecular-simulations
+  numCitedBy: 3906
+  pid: 99a1520bc334c111ff84619a1ac376f009d0d3bf
+  show_ref_link: false
+  title: NWChem - A comprehensive and scalable open-source solution for large scale molecular simulations
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-the-netflix-prize
+  numCitedBy: 1965
+  pid: 31af4b8793e93fd35e89569ccd663ae8777f0072
+  show_ref_link: false
+  title: The Netflix Prize
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-lapack-users-guide
+  numCitedBy: 2077
+  pid: 14dc304f9954930194a332fd759cfb255b12b6bb
+  show_ref_link: false
+  title: LAPACK Users' Guide
+  year: 1987
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1973-the-art-of-computer-programming-sorting-and-searching-volume-3
+  numCitedBy: 2206
+  pid: 461c0d703fa19ea521f86bddc46c9c66e3c4b56b
+  show_ref_link: false
+  title: The art of computer programming - sorting and searching (volume 3)
+  year: 1973
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-hidden-factors-and-hidden-topics-understanding-rating-dimensions-with-review-text
+  numCitedBy: 1378
+  pid: 665f89a20b05472d82df0a12f2dd63e8fcc4f3ea
+  show_ref_link: false
+  title: Hidden factors and hidden topics - understanding rating dimensions with review text
+  year: 2013
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: "1900-m\xE9thodes-de-calcul-diff\xE9rentiel-absolu-et-leurs-applications"
+  numCitedBy: 310
+  pid: d3a0cdb09e08fe5452e4eb77b17653436113f2a2
+  show_ref_link: false
+  title: "M\xE9thodes de calcul diff\xE9rentiel absolu et leurs applications"
+  year: 1900
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-on-the-evolution-of-user-interaction-in-facebook
+  numCitedBy: 1439
+  pid: 6197cb634ffd9a6ce2d40ed31ad7f16556c794ff
+  show_ref_link: false
+  title: On the evolution of user interaction in Facebook
+  year: 2009
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 1916-the-foundation-of-the-general-theory-of-relativity
+  numCitedBy: 1953
+  pid: 84c576caeddf05be2eb8891db2dc3e4e0ba61c8e
+  show_ref_link: false
+  title: The Foundation of the General Theory of Relativity
+  year: 1916
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1988-a-mathematics-of-arrays
+  numCitedBy: 64
+  pid: 3b0d4adde49ad445a801317aa825a71e1c6c1c5c
+  show_ref_link: false
+  title: A mathematics of arrays
+  year: 1988
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1963-the-feynman-lectures-on-physics-addison-wesley-reading
+  numCitedBy: 1279
+  pid: 6999072c2b1067d2227873d3c7b0d09d2b304187
+  show_ref_link: false
+  title: The Feynman Lectures on Physics Addison-Wesley Reading
+  year: 1963
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2008-discussion-tracking-in-enron-email-using-parafac
+  numCitedBy: 119
+  pid: a9cb4d751a45665b4f81b54b91a014eda46b7b47
+  show_ref_link: false
+  title: Discussion Tracking in Enron Email using PARAFAC.
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1973-the-art-of-computer-programming-volume-iii-sorting-and-searching
+  numCitedBy: 2460
+  pid: a3336e6f4d5cfe621dd616d9d9bac443ba4f8b6b
+  show_ref_link: false
+  title: The Art of Computer Programming, Volume III - Sorting and Searching
+  year: 1973
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1971-feynman-lectures-on-physics
+  numCitedBy: 3944
+  pid: d1168dc15e456520d5a78d0c04fa2985654b39f4
+  show_ref_link: false
+  title: Feynman Lectures on Physics
+  year: 1971
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-a-data-locality-optimizing-algorithm
+  numCitedBy: 491
+  pid: c1e3938cc4110cd6cedf33452b925ba79e85573e
+  show_ref_link: false
+  title: A data locality optimizing algorithm
+  year: 2004
+slug: The-tensor-algebra-compiler-Kjolstad-Kamil
+title: The tensor algebra compiler
+url: https://www.semanticscholar.org/paper/The-tensor-algebra-compiler-Kjolstad-Kamil/c2e1139691c3a337831e36ee7afeab8817ab5d48?sort=total-citations
+venue: Proc. ACM Program. Lang.
+year: 2017

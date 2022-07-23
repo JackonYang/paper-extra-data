@@ -8,7 +8,7 @@ corpusId: 2239473
 fieldsOfStudy:
 - Computer Science
 meta_key: 2011-deep-sparse-rectifier-neural-networks
-numCitedBy: 5954
+numCitedBy: 5985
 numCiting: 40
 paperAbstract: While logistic sigmoid neurons are more biologically plausible than hyperbolic tangent neurons, the latter work better for training multi-layer neural networks. This paper shows that rectifying neurons are an even better model of biological neurons and yield equal or better performance than hyperbolic tangent networks in spite of the hard non-linearity and non-dierentiabil ity
 ref_count: 40

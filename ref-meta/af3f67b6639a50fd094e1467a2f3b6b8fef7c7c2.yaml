@@ -314,7 +314,7 @@ references:
   meta_key: 2018-tvm-an-automated-end-to-end-optimizing-compiler-for-deep-learning
   numCitedBy: 711
   pid: df013a17ab84d5403361da4538a04d574f58be83
-  show_ref_link: false
+  show_ref_link: true
   title: TVM - An Automated End-to-End Optimizing Compiler for Deep Learning
   year: 2018
 - fieldsOfStudy:

@@ -1,0 +1,408 @@
+authors:
+- Zichao Guo
+- X. Zhang
+- Haoyuan Mu
+- Wen Heng
+- Zechun Liu
+- Yichen Wei
+- Jian Sun
+badges:
+- id: OPEN_ACCESS
+corpusId: 90262841
+fieldsOfStudy:
+- Computer Science
+meta_key: 2020-single-path-one-shot-neural-architecture-search-with-uniform-sampling
+numCitedBy: 464
+numCiting: 49
+paperAbstract: "We revisit the one-shot Neural Architecture Search (NAS) paradigm and analyze its advantages over existing NAS approaches. Existing one-shot method, however, is hard to train and not yet effective on large scale datasets like ImageNet. This work propose a Single Path One-Shot model to address the challenge in the training. Our central idea is to construct a simplified supernet, where all architectures are single paths so that weight co-adaption problem is alleviated. Training is performed by uniform path sampling. All architectures (and their weights) are trained fully and equally. \nComprehensive experiments verify that our approach is flexible and effective. It is easy to train and fast to search. It effortlessly supports complex search spaces (e.g., building blocks, channel, mixed-precision quantization) and different search constraints (e.g., FLOPs, latency). It is thus convenient to use for various needs. It achieves start-of-the-art performance on the large dataset ImageNet."
+ref_count: 48
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2021-you-only-search-once-single-shot-neural-architecture-search-via-direct-sparse-optimization
+  numCitedBy: 52
+  pid: a70786dad54fb3c2c87445805d0c8c87db8d3840
+  show_ref_link: false
+  title: You Only Search Once - Single Shot Neural Architecture Search via Direct Sparse Optimization
+  year: 2021
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-single-path-nas-designing-hardware-efficient-convnets-in-less-than-4-hours
+  numCitedBy: 192
+  pid: 18ca023bbb1a24873140b5440479e74c7f90b684
+  show_ref_link: false
+  title: Single-Path NAS - Designing Hardware-Efficient ConvNets in less than 4 Hours
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2021-blockqnn-efficient-block-wise-neural-network-architecture-generation
+  numCitedBy: 54
+  pid: 433930046166f649861f9aef0e5a0dc7ef395490
+  show_ref_link: false
+  title: BlockQNN - Efficient Block-Wise Neural Network Architecture Generation
+  year: 2021
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-practical-block-wise-neural-network-architecture-generation
+  numCitedBy: 365
+  pid: 8a1ce657dd41a4f49990a4769000dc8049b83404
+  show_ref_link: true
+  title: Practical Block-Wise Neural Network Architecture Generation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-transferable-architectures-for-scalable-image-recognition
+  numCitedBy: 3538
+  pid: d0611891b9e8a7c5731146097b6f201578f47b2f
+  show_ref_link: true
+  title: Learning Transferable Architectures for Scalable Image Recognition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-smash-one-shot-model-architecture-search-through-hypernetworks
+  numCitedBy: 525
+  pid: e56b10f7cd4bf037beac84da5925dc4544fab974
+  show_ref_link: true
+  title: SMASH - One-Shot Model Architecture Search through HyperNetworks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-mixed-precision-quantization-of-convnets-via-differentiable-neural-architecture-search
+  numCitedBy: 138
+  pid: b6b918fd7f5162fe28c88743db276bffc080576b
+  show_ref_link: false
+  title: Mixed Precision Quantization of ConvNets via Differentiable Neural Architecture Search
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-mnasnet-platform-aware-neural-architecture-search-for-mobile
+  numCitedBy: 1613
+  pid: 693c97ecedb0a84539b7162c95e89fa3cd84ca73
+  show_ref_link: true
+  title: MnasNet - Platform-Aware Neural Architecture Search for Mobile
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2020-efficient-neural-architecture-search-via-proximal-iterations
+  numCitedBy: 66
+  pid: 221d0ac5ef7352cb73f2b8f5871b91f8ddddfe25
+  show_ref_link: false
+  title: Efficient Neural Architecture Search via Proximal Iterations
+  year: 2020
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-time-memory-efficient-deep-architectures-with-budgeted-super-networks
+  numCitedBy: 66
+  pid: 3b8aa7a38bc60f7b42757e53a0801f6e71dcef5c
+  show_ref_link: false
+  title: Learning Time/Memory-Efficient Deep Architectures with Budgeted Super Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-understanding-and-simplifying-one-shot-architecture-search
+  numCitedBy: 508
+  pid: 45b7b5514a65126d39a51d5a68da53e7aa244c1f
+  show_ref_link: true
+  title: Understanding and Simplifying One-Shot Architecture Search
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-differentiable-neural-architecture-search-via-proximal-iterations
+  numCitedBy: 10
+  pid: 1e47c01b09f181689788dab2bce0c97e1effa33b
+  show_ref_link: false
+  title: Differentiable Neural Architecture Search via Proximal Iterations
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-lq-nets-learned-quantization-for-highly-accurate-and-compact-deep-neural-networks
+  numCitedBy: 393
+  pid: a8e1b91b0940a539aca302fb4e5c1f098e4e3860
+  show_ref_link: false
+  title: LQ-Nets - Learned Quantization for Highly Accurate and Compact Deep Neural Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2020-nas-evaluation-is-frustratingly-hard
+  numCitedBy: 108
+  pid: a943318ef13fc419a5f03c9c171a716674067cf1
+  show_ref_link: false
+  title: NAS evaluation is frustratingly hard
+  year: 2020
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-fbnet-hardware-aware-efficient-convnet-design-via-differentiable-neural-architecture-search
+  numCitedBy: 731
+  pid: 45532bffbfbb5553da0b2d0844e95a1b37e59147
+  show_ref_link: true
+  title: FBNet - Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-proxylessnas-direct-neural-architecture-search-on-target-task-and-hardware
+  numCitedBy: 1117
+  pid: dc8b789446416383bfafe9b1c504c4a2b17e68d1
+  show_ref_link: true
+  title: ProxylessNAS - Direct Neural Architecture Search on Target Task and Hardware
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-snas-stochastic-neural-architecture-search
+  numCitedBy: 626
+  pid: 3f0a2de309f21a957b4741dd68007eb08d9b12e3
+  show_ref_link: false
+  title: SNAS - Stochastic Neural Architecture Search
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2020-nas-bench-201-extending-the-scope-of-reproducible-neural-architecture-search
+  numCitedBy: 256
+  pid: 69599593f93023e2f91ef6673ee9860f85777d98
+  show_ref_link: false
+  title: NAS-Bench-201 - Extending the Scope of Reproducible Neural Architecture Search
+  year: 2020
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-genetic-cnn
+  numCitedBy: 512
+  pid: 4f46dba09e075b2e7dfae1ba2a71e8e21b46e88d
+  show_ref_link: true
+  title: Genetic CNN
+  year: 2017
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2020-nas-bench-102-extending-the-scope-of-reproducible-neural-architecture-search
+  numCitedBy: 51
+  pid: 76b96a22d6d21eebc5d63ff1a414febad6fda0e6
+  show_ref_link: false
+  title: NAS-Bench-102 - Extending the Scope of Reproducible Neural Architecture Search
+  year: 2020
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-progressive-neural-architecture-search
+  numCitedBy: 1377
+  pid: 5f79398057bf0bbda9ff50067bc1f2950c2a2266
+  show_ref_link: true
+  title: Progressive Neural Architecture Search
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-pact-parameterized-clipping-activation-for-quantized-neural-networks
+  numCitedBy: 435
+  pid: 49e60f82d6ae835c56473464f67ca5c11d3e95ec
+  show_ref_link: true
+  title: PACT - Parameterized Clipping Activation for Quantized Neural Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-efficient-neural-architecture-search-via-parameter-sharing
+  numCitedBy: 1735
+  pid: fe9b8aac9fa3bfd9724db5a881a578e471e612d7
+  show_ref_link: true
+  title: Efficient Neural Architecture Search via Parameter Sharing
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-searching-for-a-robust-neural-architecture-in-four-gpu-hours
+  numCitedBy: 359
+  pid: fe8907302f9d14233cd03cc2948a1c4e2a50bdb6
+  show_ref_link: false
+  title: Searching for a Robust Neural Architecture in Four GPU Hours
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-large-scale-evolution-of-image-classifiers
+  numCitedBy: 1118
+  pid: f108b65fe0003e387e1cd7e50f537af0531818e4
+  show_ref_link: true
+  title: Large-Scale Evolution of Image Classifiers
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2020-evaluating-the-search-phase-of-neural-architecture-search
+  numCitedBy: 247
+  pid: 6eb3a62cd365e4f9792eedca43c90595e1a862ba
+  show_ref_link: false
+  title: Evaluating the Search Phase of Neural Architecture Search
+  year: 2020
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-mobilenetv2-inverted-residuals-and-linear-bottlenecks
+  numCitedBy: 7406
+  pid: dd9cfe7124c734f5a6fc90227d541d3dbcd72ba4
+  show_ref_link: true
+  title: MobileNetV2 - Inverted Residuals and Linear Bottlenecks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-shufflenet-v2-practical-guidelines-for-efficient-cnn-architecture-design
+  numCitedBy: 1910
+  pid: c02b909a514af6b9255315e2d50112845ca5ed0e
+  show_ref_link: true
+  title: ShuffleNet V2 - Practical Guidelines for Efficient CNN Architecture Design
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-darts-differentiable-architecture-search
+  numCitedBy: 2237
+  pid: c1f457e31b611da727f9aef76c283a18157dfa83
+  show_ref_link: true
+  title: DARTS - Differentiable Architecture Search
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-regularized-evolution-for-image-classifier-architecture-search
+  numCitedBy: 1843
+  pid: 50bdda28de3dcf82a0e10f9ec13eea248b19edb5
+  show_ref_link: true
+  title: Regularized Evolution for Image Classifier Architecture Search
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-random-search-and-reproducibility-for-neural-architecture-search
+  numCitedBy: 437
+  pid: 35a59bd09974c7fc78cf681f77f7301e180fd23c
+  show_ref_link: false
+  title: Random Search and Reproducibility for Neural Architecture Search
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-channel-pruning-for-accelerating-very-deep-neural-networks
+  numCitedBy: 1507
+  pid: ee53c9480132fc0d09b1192226cb2c460462fd6d
+  show_ref_link: true
+  title: Channel Pruning for Accelerating Very Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-bi-real-net-enhancing-the-performance-of-1-bit-cnns-with-improved-representational-capability-and-advanced-training-algorithm
+  numCitedBy: 277
+  pid: 4bd23d951846832bdf550df574cdec07bc08dec1
+  show_ref_link: false
+  title: Bi-Real Net - Enhancing the Performance of 1-bit CNNs With Improved Representational Capability and Advanced Training Algorithm
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-amc-automl-for-model-compression-and-acceleration-on-mobile-devices
+  numCitedBy: 843
+  pid: 1717255b6aea01fe956cef998abbc3c399b5d7cf
+  show_ref_link: true
+  title: AMC - AutoML for Model Compression and Acceleration on Mobile Devices
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-designing-neural-network-architectures-using-reinforcement-learning
+  numCitedBy: 1064
+  pid: 6cd5dfccd9f52538b19a415e00031d0ee4e5b181
+  show_ref_link: true
+  title: Designing Neural Network Architectures using Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-evolving-deep-neural-networks
+  numCitedBy: 610
+  pid: cd7c02cab3ec4e59150657bd6660eab97def9a3a
+  show_ref_link: true
+  title: Evolving Deep Neural Networks
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-hierarchical-representations-for-efficient-architecture-search
+  numCitedBy: 680
+  pid: 856451974cce2d353d5d8a5a72104984a252375c
+  show_ref_link: true
+  title: Hierarchical Representations for Efficient Architecture Search
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dorefa-net-training-low-bitwidth-convolutional-neural-networks-with-low-bitwidth-gradients
+  numCitedBy: 1360
+  pid: 8b053389eb8c18c61b84d7e59a95cb7e13f205b7
+  show_ref_link: true
+  title: DoReFa-Net - Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-shufflenet-an-extremely-efficient-convolutional-neural-network-for-mobile-devices
+  numCitedBy: 3251
+  pid: 9da734397acd7ff7c557960c62fb1b400b27bd89
+  show_ref_link: true
+  title: ShuffleNet - An Extremely Efficient Convolutional Neural Network for Mobile Devices
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-chamnet-towards-efficient-network-design-through-platform-aware-model-adaptation
+  numCitedBy: 167
+  pid: 9a9dcc604321dd2dda93c3ad268e554b7f2b356e
+  show_ref_link: false
+  title: ChamNet - Towards Efficient Network Design Through Platform-Aware Model Adaptation
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-exploring-randomly-wired-neural-networks-for-image-recognition
+  numCitedBy: 261
+  pid: e1cb7ddae92273dfb71f194e01586eb2342d847d
+  show_ref_link: false
+  title: Exploring Randomly Wired Neural Networks for Image Recognition
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-netadapt-platform-aware-neural-network-adaptation-for-mobile-applications
+  numCitedBy: 324
+  pid: d16b21f3e99171c86365679435f9f03766750639
+  show_ref_link: true
+  title: NetAdapt - Platform-Aware Neural Network Adaptation for Mobile Applications
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2012-et-al
+  numCitedBy: 58258
+  pid: bc6dff14a130c57a91d5a21339c23471faf1d46f
+  show_ref_link: false
+  title: Et al
+  year: 2012
+slug: Single-Path-One-Shot-Neural-Architecture-Search-Guo-Zhang
+title: Single Path One-Shot Neural Architecture Search with Uniform Sampling
+url: https://www.semanticscholar.org/paper/Single-Path-One-Shot-Neural-Architecture-Search-Guo-Zhang/79e523beb1e1411a241edde0464b07c2ebc231d1?sort=total-citations
+venue: ECCV
+year: 2020

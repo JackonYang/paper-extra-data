@@ -1,0 +1,171 @@
+authors:
+- Vincent Dumoulin
+- Francesco Visin
+badges:
+- id: OPEN_ACCESS
+corpusId: 6662846
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-a-guide-to-convolution-arithmetic-for-deep-learning
+numCitedBy: 1083
+numCiting: 26
+paperAbstract: We introduce a guide to help deep learning practitioners understand and manipulate convolutional neural network architectures. The guide clarifies the relationship between various properties (input shape, kernel shape, zero padding, strides and output shape) of convolutional, pooling and transposed convolutional layers, as well as the relationship between convolutional and transposed convolutional layers. Relationships are derived for various cases, and are illustrated in order to make them intuitive.
+ref_count: 26
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-unsupervised-representation-learning-with-deep-convolutional-generative-adversarial-networks
+  numCitedBy: 9978
+  pid: 8388f1be26329fa45e5807e968a641ce170ea078
+  show_ref_link: true
+  title: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 16125
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-generating-images-with-recurrent-adversarial-networks
+  numCitedBy: 190
+  pid: 32c09d2933a4638b034343f9be20544dacf6031f
+  show_ref_link: false
+  title: Generating images with recurrent adversarial networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-visualizing-and-understanding-convolutional-networks
+  numCitedBy: 11942
+  pid: 1a2a770d23b4a171fa81de62a78a3deb0588f238
+  show_ref_link: true
+  title: Visualizing and Understanding Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-adaptive-deconvolutional-networks-for-mid-and-high-level-feature-learning
+  numCitedBy: 1038
+  pid: d743430cb2329caa5d446c17fc9ec07f5e916ab0
+  show_ref_link: true
+  title: Adaptive deconvolutional networks for mid and high level feature learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-multi-scale-context-aggregation-by-dilated-convolutions
+  numCitedBy: 5495
+  pid: 7f5fc84819c0cf94b771fe15141f65b123f7b8ec
+  show_ref_link: true
+  title: Multi-Scale Context Aggregation by Dilated Convolutions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-reseg-a-recurrent-neural-network-for-object-segmentation
+  numCitedBy: 35
+  pid: 7654ed26f0c3ce38953d5c595105d3380bd09ccb
+  show_ref_link: false
+  title: ReSeg - A Recurrent Neural Network for Object Segmentation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-on-random-weights-and-unsupervised-feature-learning
+  numCitedBy: 392
+  pid: 265069b3670930fd884b02062d7e7b79ff2a49d5
+  show_ref_link: false
+  title: On Random Weights and Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-reading-checks-with-multilayer-graph-transformer-networks
+  numCitedBy: 56
+  pid: 25de919ccc51093737e2d61cea3037ee6bd3775f
+  show_ref_link: false
+  title: Reading checks with multilayer graph transformer networks
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-semantic-image-segmentation-with-deep-convolutional-nets-and-fully-connected-crfs
+  numCitedBy: 3401
+  pid: 39ad6c911f3351a3b390130a6e4265355b4d593b
+  show_ref_link: true
+  title: Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-theano-new-features-and-speed-improvements
+  numCitedBy: 1375
+  pid: 855d0f722d75cc56a66a00ede18ace96bafee6bd
+  show_ref_link: true
+  title: Theano - new features and speed improvements
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-learning-mid-level-features-for-recognition
+  numCitedBy: 1105
+  pid: 498efaa51f5eda731dc6199c3547b9465717fa68
+  show_ref_link: false
+  title: Learning mid-level features for recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wavenet-a-generative-model-for-raw-audio
+  numCitedBy: 4703
+  pid: df0402517a7338ae28bc54acaac400de6b456a46
+  show_ref_link: true
+  title: WaveNet - A Generative Model for Raw Audio
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-ask-the-locals-multi-way-local-pooling-for-image-recognition
+  numCitedBy: 293
+  pid: 9791f1e47a48fa05387cb8dd93da53bf8f43c1f4
+  show_ref_link: false
+  title: Ask the locals - Multi-way local pooling for image recognition
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1494
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-theano-a-cpu-and-gpu-math-compiler-in-python
+  numCitedBy: 826
+  pid: 63936fa32f9e75ab2a864daae6791ce02112183d
+  show_ref_link: false
+  title: Theano - A CPU and GPU Math Compiler in Python
+  year: 2010
+- fieldsOfStudy:
+  - Education
+  meta_key: 2016-deep-learning
+  numCitedBy: 31384
+  pid: 4f8d648c52edf74e41b0996128aa536e13cc7e82
+  show_ref_link: true
+  title: Deep Learning
+  year: 2016
+slug: A-guide-to-convolution-arithmetic-for-deep-learning-Dumoulin-Visin
+title: A guide to convolution arithmetic for deep learning
+url: https://www.semanticscholar.org/paper/A-guide-to-convolution-arithmetic-for-deep-learning-Dumoulin-Visin/f19284f6ab802c8a1fcde076fcb3fba195a71723?sort=total-citations
+venue: ArXiv
+year: 2016

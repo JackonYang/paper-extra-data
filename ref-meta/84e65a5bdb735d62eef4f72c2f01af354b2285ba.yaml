@@ -1,0 +1,423 @@
+authors:
+- Han Cai
+- Tianyao Chen
+- Weinan Zhang
+- Yong Yu
+- Jun Wang
+badges:
+- id: UNPAYWALL
+corpusId: 7918068
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-efficient-architecture-search-by-network-transformation
+numCitedBy: 422
+numCiting: 61
+paperAbstract: "\n \n Techniques for automatically designing deep neural network architectures such as reinforcement learning based approaches have recently shown promising results. However, their success is based on vast computational resources (e.g. hundreds of GPUs), making them difficult to be widely used. A noticeable limitation is that they still design and train each network from scratch during the exploration of the architecture space, which is highly inefficient. In this paper, we propose a new framework toward efficient architecture search by exploring the architecture space based on the current network and reusing its weights. We employ a reinforcement learning agent as the meta-controller, whose action is to grow the network depth or layer width with function-preserving transformations. As such, the previously validated networks can be reused for further exploration, thus saves a large amount of computational cost. We apply our method to explore the architecture space of the plain convolutional neural networks (no skip-connections, branching etc.) on image benchmark datasets (CIFAR-10, SVHN) with restricted computational resources (5 GPUs). Our method can design highly competitive networks that outperform existing networks using the same design scheme. On CIFAR-10, our model without skip-connections achieves 4.23% test error rate, exceeding a vast majority of modern architectures and approaching DenseNet. Furthermore, by applying our method to explore the DenseNet architecture space, we are able to achieve more accurate networks with fewer parameters.\n \n"
+ref_count: 61
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-designing-neural-network-architectures-using-reinforcement-learning
+  numCitedBy: 1064
+  pid: 6cd5dfccd9f52538b19a415e00031d0ee4e5b181
+  show_ref_link: true
+  title: Designing Neural Network Architectures using Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deeparchitect-automatically-designing-and-training-deep-architectures
+  numCitedBy: 153
+  pid: 71a80e7342e56f33fd120246e907151a0cf1b4d0
+  show_ref_link: true
+  title: DeepArchitect - Automatically Designing and Training Deep Architectures
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-residual-networks
+  numCitedBy: 4354
+  pid: 1c4e9156ca07705531e45960b7a919dc473abb51
+  show_ref_link: true
+  title: Wide Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-generalizing-pooling-functions-in-convolutional-neural-networks-mixed-gated-and-tree
+  numCitedBy: 391
+  pid: 4b88e948121a87f00fb5aa0081d2044dde51ee36
+  show_ref_link: true
+  title: Generalizing Pooling Functions in Convolutional Neural Networks - Mixed, Gated, and Tree
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-large-scale-evolution-of-image-classifiers
+  numCitedBy: 1118
+  pid: f108b65fe0003e387e1cd7e50f537af0531818e4
+  show_ref_link: true
+  title: Large-Scale Evolution of Image Classifiers
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-net2net-accelerating-learning-via-knowledge-transfer
+  numCitedBy: 474
+  pid: 16cb6876666f3a7b56a636c1d85ad00bd0d98bf3
+  show_ref_link: false
+  title: Net2Net - Accelerating Learning via Knowledge Transfer
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 19204
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-speeding-up-automatic-hyperparameter-optimization-of-deep-neural-networks-by-extrapolation-of-learning-curves
+  numCitedBy: 438
+  pid: efb4431579a46d9cfa51b4ebbd4ddb9f44a30246
+  show_ref_link: false
+  title: Speeding Up Automatic Hyperparameter Optimization of Deep Neural Networks by Extrapolation of Learning Curves
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-algorithms-for-hyper-parameter-optimization
+  numCitedBy: 2516
+  pid: 03911c85305d42aa2eeb02be82ef6fb7da644dd0
+  show_ref_link: true
+  title: Algorithms for Hyper-Parameter Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-striving-for-simplicity-the-all-convolutional-net
+  numCitedBy: 3314
+  pid: 0f84a81f431b18a78bd97f59ed4b9d8eda390970
+  show_ref_link: true
+  title: Striving for Simplicity - The All Convolutional Net
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scalable-bayesian-optimization-using-deep-neural-networks
+  numCitedBy: 711
+  pid: 93bc65d2842b8cc5f3cf72ebc5b8f75daeacea35
+  show_ref_link: false
+  title: Scalable Bayesian Optimization Using Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-to-reinforcement-learn
+  numCitedBy: 636
+  pid: 282a380fb5ac26d99667224cef8c630f6882704f
+  show_ref_link: false
+  title: Learning to reinforcement learn
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 15043
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-importance-of-initialization-and-momentum-in-deep-learning
+  numCitedBy: 3598
+  pid: aa7bfd2304201afbb19971ebde87b17e40242e91
+  show_ref_link: true
+  title: On the importance of initialization and momentum in deep learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
+  numCitedBy: 11516
+  pid: 846aedd869a00c09b40f1f1f35673cb22bc87490
+  show_ref_link: true
+  title: Mastering the game of Go with deep neural networks and tree search
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-training-very-deep-networks
+  numCitedBy: 1317
+  pid: b92aa7024b87f50737b372e5df31ef091ab54e62
+  show_ref_link: true
+  title: Training Very Deep Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-shake-shake-regularization
+  numCitedBy: 294
+  pid: 3fea412361b2d14cb3c6723968b421c1c8cb38e8
+  show_ref_link: false
+  title: Shake-Shake regularization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1834
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2002-evolving-neural-networks-through-augmenting-topologies
+  numCitedBy: 2994
+  pid: d03c916d49268d48fde3b76a68e64af7761835e7
+  show_ref_link: false
+  title: Evolving Neural Networks through Augmenting Topologies
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-to-learn-by-gradient-descent-by-gradient-descent
+  numCitedBy: 1347
+  pid: 395dd01c0d24777c660cf195c4cfadcdf51fb7e8
+  show_ref_link: true
+  title: Learning to learn by gradient descent by gradient descent
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-towards-automatically-tuned-neural-networks
+  numCitedBy: 155
+  pid: 06b2a66c86c270e24a2177f816c6bc6e971819ee
+  show_ref_link: false
+  title: Towards Automatically-Tuned Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9255
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-designing-neural-networks-using-genetic-algorithms
+  numCitedBy: 934
+  pid: e89cb97bc83badf8c6cc0e2439ee4a035cba72d9
+  show_ref_link: false
+  title: Designing Neural Networks using Genetic Algorithms
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-bidirectional-recurrent-neural-networks
+  numCitedBy: 5446
+  pid: e23c34414e66118ecd9b08cf0cd4d016f59b0b85
+  show_ref_link: false
+  title: Bidirectional recurrent neural networks
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19562
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-simple-statistical-gradient-following-algorithms-for-connectionist-reinforcement-learning
+  numCitedBy: 5268
+  pid: 4c915c1eecb217c123a36dc6d3ce52d12c742614
+  show_ref_link: true
+  title: Simple statistical gradient-following algorithms for connectionist reinforcement learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-reinforcement-learning-an-introduction
+  numCitedBy: 33129
+  pid: 97efafdb4a3942ab3efba53ded7413199f79c054
+  show_ref_link: true
+  title: Reinforcement Learning - An Introduction
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-a-natural-policy-gradient
+  numCitedBy: 887
+  pid: b18833db0de9393d614d511e60821a1504fc6cd1
+  show_ref_link: false
+  title: A Natural Policy Gradient
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-curve-prediction-with-bayesian-neural-networks
+  numCitedBy: 184
+  pid: 925cab60b1795c94ae6f488fda7ad71be71b5822
+  show_ref_link: false
+  title: Learning Curve Prediction with Bayesian Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3973
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-random-search-for-hyper-parameter-optimization
+  numCitedBy: 5726
+  pid: 188e247506ad992b8bc62d6c74789e89891a984f
+  show_ref_link: true
+  title: Random Search for Hyper-Parameter Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-trust-region-policy-optimization
+  numCitedBy: 3977
+  pid: 66cdc28dc084af6507e979767755e99fe0b46b39
+  show_ref_link: false
+  title: Trust Region Policy Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-perspective-view-and-survey-of-meta-learning
+  numCitedBy: 874
+  pid: 98f8a0055bb28133efcff359a92937324d0e6f51
+  show_ref_link: false
+  title: A Perspective View and Survey of Meta-Learning
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-real-time-bidding-by-reinforcement-learning-in-display-advertising
+  numCitedBy: 147
+  pid: 6e6cf4dda8d375f057c4ee4a4e15f66fe532b601
+  show_ref_link: false
+  title: Real-Time Bidding by Reinforcement Learning in Display Advertising
+  year: 2017
+- fieldsOfStudy:
+  - Physics
+  meta_key: 2000-c
+  numCitedBy: 77536
+  pid: 927881a5602f430ffd145d44b8c35cf7a07b464d
+  show_ref_link: false
+  title: '[C]'
+  year: 2000
+- fieldsOfStudy:
+  - Geology
+  meta_key: 2020-m
+  numCitedBy: 113305
+  pid: c289a21439402eb0998df46c769ce9c4971e854b
+  show_ref_link: false
+  title: '{m'
+  year: 2020
+- fieldsOfStudy:
+  - Medicine
+  - Psychology
+  meta_key: 2020-i
+  numCitedBy: 21614
+  pid: 43df2947f2b4df35dda50b7182d2995bc64352b1
+  show_ref_link: false
+  title: '''I.'
+  year: 2020
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2019-q
+  numCitedBy: 6150
+  pid: decf00b8de306194296f68edf6ab9f344caaa28d
+  show_ref_link: false
+  title: Q.
+  year: 2019
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2019-y
+  numCitedBy: 47384
+  pid: 07b056a23b225fa4fc54cda80a8e6c2c74760541
+  show_ref_link: false
+  title: Y.
+  year: 2019
+slug: Efficient-Architecture-Search-by-Network-Cai-Chen
+title: Efficient Architecture Search by Network Transformation
+url: https://www.semanticscholar.org/paper/Efficient-Architecture-Search-by-Network-Cai-Chen/84e65a5bdb735d62eef4f72c2f01af354b2285ba?sort=total-citations
+venue: AAAI
+year: 2018

@@ -1,0 +1,307 @@
+authors:
+- S. Saxena
+- Jakob Verbeek
+badges:
+- id: OPEN_ACCESS
+corpusId: 438087
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-convolutional-neural-fabrics
+numCitedBy: 193
+numCiting: 42
+paperAbstract: Despite the success of CNNs, selecting the optimal architecture for a given task remains an open problem. Instead of aiming to select a single optimal architecture, we propose a "fabric" that embeds an exponentially large number of architectures. The fabric consists of a 3D trellis that connects response maps at different layers, scales, and channels with a sparse homogeneous local connectivity pattern. The only hyper-parameters of a fabric are the number of channels and layers. While individual architectures can be recovered as paths, the fabric can in addition ensemble all embedded architectures together, sharing their weights where their paths overlap. Parameters can be learned using standard methods based on back-propagation, at a cost that scales linearly in the fabric size. We present benchmark results competitive with the state of the art for image classification on MNIST and CIFAR10, and for semantic segmentation on the Part Labels dataset.
+ref_count: 42
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-striving-for-simplicity-the-all-convolutional-net
+  numCitedBy: 3314
+  pid: 0f84a81f431b18a78bd97f59ed4b9d8eda390970
+  show_ref_link: true
+  title: Striving for Simplicity - The All Convolutional Net
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-the-structure-of-deep-architectures-using-l1-regularization
+  numCitedBy: 21
+  pid: 3b39b050a345da17b912c64a883d770bcb1cf6e9
+  show_ref_link: false
+  title: Learning the Structure of Deep Architectures Using L1 Regularization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-convolutional-kernel-networks
+  numCitedBy: 333
+  pid: 6eee8041415facc9823d6b93ddb67a3773a3e1e3
+  show_ref_link: false
+  title: Convolutional Kernel Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-u-net-convolutional-networks-for-biomedical-image-segmentation
+  numCitedBy: 34294
+  pid: 6364fdaa0a0eccd823a779fcdd489173f938e91a
+  show_ref_link: true
+  title: U-Net - Convolutional Networks for Biomedical Image Segmentation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-multi-objective-convolutional-learning-for-face-labeling
+  numCitedBy: 117
+  pid: 4fd19c7b03d6e47fe74d6e6f35e8e2abb98e07ba
+  show_ref_link: false
+  title: Multi-objective convolutional learning for face labeling
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 16125
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-hierarchical-features-for-scene-labeling
+  numCitedBy: 2421
+  pid: 237a04dd8291cbdb59b6dc4b53e689af743fe2a3
+  show_ref_link: true
+  title: Learning Hierarchical Features for Scene Labeling
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-deconvolution-network-for-semantic-segmentation
+  numCitedBy: 2543
+  pid: cf986bfe13a24d4739f95df3a856a3c6e4ed4c1c
+  show_ref_link: true
+  title: Learning Deconvolution Network for Semantic Segmentation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-generalizing-pooling-functions-in-convolutional-neural-networks-mixed-gated-and-tree
+  numCitedBy: 391
+  pid: 4b88e948121a87f00fb5aa0081d2044dde51ee36
+  show_ref_link: true
+  title: Generalizing Pooling Functions in Convolutional Neural Networks - Mixed, Gated, and Tree
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-recombinator-networks-learning-coarse-to-fine-feature-aggregation
+  numCitedBy: 97
+  pid: 364d9e665c163c47c307495135e2b69d3cf0529b
+  show_ref_link: false
+  title: Recombinator Networks - Learning Coarse-to-Fine Feature Aggregation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-efficient-piecewise-training-of-deep-structured-models-for-semantic-segmentation
+  numCitedBy: 802
+  pid: 4cef5476f9da50c1a8fefdcb7114863966f61d67
+  show_ref_link: true
+  title: Efficient Piecewise Training of Deep Structured Models for Semantic Segmentation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-flowing-convnets-for-human-pose-estimation-in-videos
+  numCitedBy: 446
+  pid: f22f25904f85c657e10fcc262653ebb6187193f9
+  show_ref_link: false
+  title: Flowing ConvNets for Human Pose Estimation in Videos
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-learning-for-semantic-part-segmentation-with-high-level-guidance
+  numCitedBy: 40
+  pid: 4c6decd726d04b916d9a2cdd468c64a8a0fc2fdb
+  show_ref_link: false
+  title: Deep Learning for Semantic Part Segmentation with High-Level Guidance
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalized-maxout-network-in-network
+  numCitedBy: 94
+  pid: 5f506963e701eb5a90e6b128ea7db98e8ec42a20
+  show_ref_link: false
+  title: Batch-normalized Maxout Network in Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-semantic-image-segmentation-with-deep-convolutional-nets-and-fully-connected-crfs
+  numCitedBy: 3401
+  pid: 39ad6c911f3351a3b390130a6e4265355b4d593b
+  show_ref_link: true
+  title: Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-interlinked-convolutional-neural-networks-for-face-parsing
+  numCitedBy: 50
+  pid: 8dd162c9419d29564e9777dd523382a20c683d89
+  show_ref_link: false
+  title: Interlinked Convolutional Neural Networks for Face Parsing
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-swapout-learning-an-ensemble-of-deep-architectures
+  numCitedBy: 122
+  pid: ff6548fcecb00b2db0bc20567339a0be9fe70b39
+  show_ref_link: false
+  title: Swapout - Learning an ensemble of deep architectures
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-all-you-need-is-a-good-init
+  numCitedBy: 495
+  pid: 97dc8df45972e4ed7423fc992a5092ba25b33411
+  show_ref_link: false
+  title: All you need is a good init
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-of-neural-networks-using-dropconnect
+  numCitedBy: 2105
+  pid: 38f35dd624cd1cf827416e31ac5e0e0454028eca
+  show_ref_link: true
+  title: Regularization of Neural Networks using DropConnect
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-augmenting-crfs-with-boltzmann-machine-shape-priors-for-image-labeling
+  numCitedBy: 172
+  pid: e8098d32adf2d5945a478b439d52f84055ef61ea
+  show_ref_link: false
+  title: Augmenting CRFs with Boltzmann Machine Shape Priors for Image Labeling
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-decoupled-deep-neural-network-for-semi-supervised-semantic-segmentation
+  numCitedBy: 290
+  pid: 588b518bf7fe8112a2abc63a2cc188c1c883a16b
+  show_ref_link: false
+  title: Decoupled Deep Neural Network for Semi-supervised Semantic Segmentation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-high-level-prior-with-convolutional-neural-networks-for-semantic-segmentation
+  numCitedBy: 8
+  pid: 52bf00df3b970e017e4e2f8079202460f1c0e1bd
+  show_ref_link: false
+  title: Learning High-level Prior with Convolutional Neural Networks for Semantic Segmentation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-net2net-accelerating-learning-via-knowledge-transfer
+  numCitedBy: 474
+  pid: 16cb6876666f3a7b56a636c1d85ad00bd0d98bf3
+  show_ref_link: false
+  title: Net2Net - Accelerating Learning via Knowledge Transfer
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1834
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-multi-dimensional-recurrent-neural-networks
+  numCitedBy: 256
+  pid: f70ae50828e3b6166628f5e8edb239b1cca6b471
+  show_ref_link: false
+  title: Multi-dimensional Recurrent Neural Networks
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28464
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-grid-long-short-term-memory
+  numCitedBy: 315
+  pid: 5b791cd374c7109693aaddee2c12d659ae4e3ec0
+  show_ref_link: true
+  title: Grid Long Short-Term Memory
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-labeled-faces-in-the-wild-a-database-forstudying-face-recognition-in-unconstrained-environments
+  numCitedBy: 4941
+  pid: c6b3ca4f939e36a9679a70e14ce8b1bbbc5618f3
+  show_ref_link: true
+  title: Labeled Faces in the Wild - A Database forStudying Face Recognition in Unconstrained Environments
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-handwritten-digit-recognition-with-a-back-propagation-network
+  numCitedBy: 2955
+  pid: 86ab4cae682fbd49c5a5bedb630e5a40fa7529f6
+  show_ref_link: false
+  title: Handwritten Digit Recognition with a Back-Propagation Network
+  year: 1989
+slug: Convolutional-Neural-Fabrics-Saxena-Verbeek
+title: Convolutional Neural Fabrics
+url: https://www.semanticscholar.org/paper/Convolutional-Neural-Fabrics-Saxena-Verbeek/197c8988ef21d0b58d363c21bafe1900c3089e3e?sort=total-citations
+venue: NIPS
+year: 2016

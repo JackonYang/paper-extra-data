@@ -268,7 +268,7 @@ references:
   meta_key: 2017-pointer-sentinel-mixture-models
   numCitedBy: 1047
   pid: efbd381493bb9636f489b965a2034d529cd56bcd
-  show_ref_link: false
+  show_ref_link: true
   title: Pointer Sentinel Mixture Models
   year: 2017
 - fieldsOfStudy:

@@ -11,7 +11,7 @@ corpusId: 206593880
 fieldsOfStudy:
 - Computer Science
 meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
-numCitedBy: 15703
+numCitedBy: 15857
 numCiting: 26
 paperAbstract: 'Convolutional networks are at the core of most state of-the-art computer vision solutions for a wide variety of tasks. Since 2014 very deep convolutional networks started to become mainstream, yielding substantial gains in various benchmarks. Although increased model size and computational cost tend to translate to immediate quality gains for most tasks (as long as enough labeled data is provided for training), computational efficiency and low parameter count are still enabling factors for various use cases such as mobile vision and big-data scenarios. Here we are exploring ways to scale up networks in ways that aim at utilizing the added computation as efficiently as possible by suitably factorized convolutions and aggressive regularization. We benchmark our methods on the ILSVRC 2012 classification challenge validation set demonstrate substantial gains over the state of the art: 21:2% top-1 and 5:6% top-5 error for single frame evaluation using a network with a computational cost of 5 billion multiply-adds per inference and with using less than 25 million parameters. With an ensemble of 4 models and multi-crop evaluation, we report 3:5% top-5 error and 17:3% top-1 error on the validation set and 3:6% top-5 error on the official test set.'
 ref_count: 26
@@ -101,7 +101,7 @@ references:
   meta_key: 2016-fast-algorithms-for-convolutional-neural-networks
   numCitedBy: 613
   pid: d5eadd6f059d742d76441fd0a635a21694dd7392
-  show_ref_link: false
+  show_ref_link: true
   title: Fast Algorithms for Convolutional Neural Networks
   year: 2016
 - fieldsOfStudy:

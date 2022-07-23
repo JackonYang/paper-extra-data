@@ -1,0 +1,264 @@
+authors:
+- Tien-Ju Yang
+- Andrew G. Howard
+- Bo Chen
+- Xiao Zhang
+- Alec Go
+- V. Sze
+- Hartwig Adam
+badges:
+- id: OPEN_ACCESS
+corpusId: 4746618
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-netadapt-platform-aware-neural-network-adaptation-for-mobile-applications
+numCitedBy: 324
+numCiting: 31
+paperAbstract: This work proposes an algorithm, called NetAdapt, that automatically adapts a pre-trained deep neural network to a mobile platform given a resource budget. While many existing algorithms simplify networks based on the number of MACs or weights, optimizing those indirect metrics may not necessarily reduce the direct metrics, such as latency and energy consumption. To solve this problem, NetAdapt incorporates direct metrics into its adaptation algorithm. These direct metrics are evaluated using empirical measurements, so that detailed knowledge of the platform and toolchain is not required. NetAdapt automatically and progressively simplifies a pre-trained network until the resource budget is met while maximizing the accuracy. Experiment results show that NetAdapt achieves better accuracy versus latency trade-offs on both mobile CPU and mobile GPU, compared with the state-of-the-art automated network simplification algorithms. For image classification on the ImageNet dataset, NetAdapt achieves up to a 1.7$\times$ speedup in measured inference latency with equal or higher accuracy on MobileNets (V1&V2).
+ref_count: 31
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-amc-automl-for-model-compression-and-acceleration-on-mobile-devices
+  numCitedBy: 843
+  pid: 1717255b6aea01fe956cef998abbc3c399b5d7cf
+  show_ref_link: true
+  title: AMC - AutoML for Model Compression and Acceleration on Mobile Devices
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-a-method-to-estimate-the-energy-consumption-of-deep-neural-networks
+  numCitedBy: 59
+  pid: 2fd67bc7d239b26d9e2453fecd29e88cc7a8627d
+  show_ref_link: false
+  title: A method to estimate the energy consumption of deep neural networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-compression-of-deep-convolutional-neural-networks-for-fast-and-low-power-mobile-applications
+  numCitedBy: 672
+  pid: 4ca3b996d888d7178dbbf9855bb2ab253bdfa43d
+  show_ref_link: true
+  title: Compression of Deep Convolutional Neural Networks for Fast and Low Power Mobile Applications
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-designing-energy-efficient-convolutional-neural-networks-using-energy-aware-pruning
+  numCitedBy: 478
+  pid: 3ac1df952ffb63abb4231a4410f6f8375ccdfe79
+  show_ref_link: false
+  title: Designing Energy-Efficient Convolutional Neural Networks Using Energy-Aware Pruning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-scalpel-customizing-dnn-pruning-to-the-underlying-hardware-parallelism
+  numCitedBy: 282
+  pid: 5fd26b0954a723f1fa22aa0a9fadcb4de498884b
+  show_ref_link: false
+  title: Scalpel - Customizing DNN pruning to the underlying hardware parallelism
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-shufflenet-an-extremely-efficient-convolutional-neural-network-for-mobile-devices
+  numCitedBy: 3251
+  pid: 9da734397acd7ff7c557960c62fb1b400b27bd89
+  show_ref_link: true
+  title: ShuffleNet - An Extremely Efficient Convolutional Neural Network for Mobile Devices
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-not-all-ops-are-created-equal
+  numCitedBy: 15
+  pid: 74f7ef729d7d1d74012801a5533eacf75cf28ef7
+  show_ref_link: false
+  title: Not All Ops Are Created Equal!
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-quantization-and-training-of-neural-networks-for-efficient-integer-arithmetic-only-inference
+  numCitedBy: 1284
+  pid: 59d0d7ccec2db66cad20cac5721ce54a8a058294
+  show_ref_link: true
+  title: Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-network-trimming-a-data-driven-neuron-pruning-approach-towards-efficient-deep-architectures
+  numCitedBy: 564
+  pid: 60ae4f18cb53efff0174e3fea7064049737e1e67
+  show_ref_link: false
+  title: Network Trimming - A Data-Driven Neuron Pruning Approach towards Efficient Deep Architectures
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-adc-automated-deep-compression-and-acceleration-with-reinforcement-learning
+  numCitedBy: 64
+  pid: 726df4f3f7a2ff193e626b49e37e2b3a7e494034
+  show_ref_link: false
+  title: ADC - Automated Deep Compression and Acceleration with Reinforcement Learning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-efficient-processing-of-deep-neural-networks-a-tutorial-and-survey
+  numCitedBy: 1748
+  pid: 3f116042f50a499ab794bcc1255915bee507413c
+  show_ref_link: false
+  title: Efficient Processing of Deep Neural Networks - A Tutorial and Survey
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-eyeriss-a-spatial-architecture-for-energy-efficient-dataflow-for-convolutional-neural-networks
+  numCitedBy: 838
+  pid: 399acab2bee6eccbfffe4a2ce688b6b1075e9c5e
+  show_ref_link: false
+  title: Eyeriss - a spatial architecture for energy-efficient dataflow for convolutional neural networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-xnor-net-imagenet-classification-using-binary-convolutional-neural-networks
+  numCitedBy: 2591
+  pid: b649a98ce77ece8cd7638bb74ab77d22d9be77e7
+  show_ref_link: true
+  title: XNOR-Net - ImageNet Classification Using Binary Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-pruning-convolutional-neural-networks-for-resource-efficient-inference
+  numCitedBy: 1045
+  pid: 3db8730c203f88d7f08a6a99e8c02a077dc9b011
+  show_ref_link: false
+  title: Pruning Convolutional Neural Networks for Resource Efficient Inference
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-mobilenetv2-inverted-residuals-and-linear-bottlenecks
+  numCitedBy: 7406
+  pid: dd9cfe7124c734f5a6fc90227d541d3dbcd72ba4
+  show_ref_link: true
+  title: MobileNetV2 - Inverted Residuals and Linear Bottlenecks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-binarized-neural-networks
+  numCitedBy: 1282
+  pid: 28135fd3e80dda50a673cd556f10b9b972005d27
+  show_ref_link: false
+  title: Binarized Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-pruning-convolutional-neural-networks-for-resource-efficient-transfer-learning
+  numCitedBy: 347
+  pid: 026ecf916023e13191331a354271b7f9b86e50a1
+  show_ref_link: false
+  title: Pruning Convolutional Neural Networks for Resource Efficient Transfer Learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-hierarchical-compression-of-deep-convolutional-neural-networks-on-large-scale-visual-recognition-for-mobile-applications
+  numCitedBy: 61
+  pid: 08c3b964c7a6d09322bb070acc16d321f331ab93
+  show_ref_link: false
+  title: Hierarchical Compression of Deep Convolutional Neural Networks on Large Scale Visual Recognition for Mobile Applications
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-data-free-parameter-pruning-for-deep-neural-networks
+  numCitedBy: 388
+  pid: b0bd441a0cc04cdd0d0e469fe4c5184ee148a97d
+  show_ref_link: false
+  title: Data-free Parameter Pruning for Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-morphnet-fast-simple-resource-constrained-structure-learning-of-deep-networks
+  numCitedBy: 253
+  pid: e60f693cb12132c7fffc34dc141bcc3c9dfd4961
+  show_ref_link: false
+  title: MorphNet - Fast & Simple Resource-Constrained Structure Learning of Deep Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-fried-convnets
+  numCitedBy: 232
+  pid: 27a99c21a1324f087b2f144adc119f04137dfd87
+  show_ref_link: false
+  title: Deep Fried Convnets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-a-progressive-barrier-for-derivative-free-nonlinear-programming
+  numCitedBy: 188
+  pid: 4c002692649dcd1aa0df4f593b2312931ecc4e4e
+  show_ref_link: false
+  title: A Progressive Barrier for Derivative-Free Nonlinear Programming
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-optimal-brain-damage
+  numCitedBy: 3518
+  pid: e7297db245c3feb1897720b173a59fe7e36babb7
+  show_ref_link: false
+  title: Optimal Brain Damage
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-inverted-residuals-and-linear-bottlenecks-mobile-networks-for-classification-detection-and-segmentation
+  numCitedBy: 609
+  pid: 16b42f570873fc03d503090adb0a75a467c5f30c
+  show_ref_link: true
+  title: Inverted Residuals and Linear Bottlenecks - Mobile Networks for Classification, Detection and Segmentation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-eyeriss-an-energy-efficient-reconfigurable-accelerator-for-deep-convolutional-neural-networks
+  numCitedBy: 1227
+  pid: 9d7c94996808770fa2ed9fbe2ab1cebea6866804
+  show_ref_link: false
+  title: Eyeriss - An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks
+  year: 2017
+slug: NetAdapt:-Platform-Aware-Neural-Network-Adaptation-Yang-Howard
+title: NetAdapt - Platform-Aware Neural Network Adaptation for Mobile Applications
+url: https://www.semanticscholar.org/paper/NetAdapt:-Platform-Aware-Neural-Network-Adaptation-Yang-Howard/d16b21f3e99171c86365679435f9f03766750639?sort=total-citations
+venue: ECCV
+year: 2018

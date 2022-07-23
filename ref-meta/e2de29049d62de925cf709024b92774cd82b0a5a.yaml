@@ -1,0 +1,436 @@
+authors:
+- K. Nigam
+- A. McCallum
+- S. Thrun
+- Tom Michael Mitchell
+badges:
+- id: OPEN_ACCESS
+corpusId: 686980
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-text-classification-from-labeled-and-unlabeled-documents-using-em
+numCitedBy: 3089
+numCiting: 79
+paperAbstract: 'This paper shows that the accuracy of learned text classifiers can be improved by augmenting a small number of labeled training documents with a large pool of unlabeled documents. This is important because in many text classification problems obtaining training labels is expensive, while large quantities of unlabeled documents are readily available.We introduce an algorithm for learning from labeled and unlabeled documents based on the combination of Expectation-Maximization (EM) and a naive Bayes classifier. The algorithm first trains a classifier using the available labeled documents, and probabilistically labels the unlabeled documents. It then trains a new classifier using the labels for all the documents, and iterates to convergence. This basic EM procedure works well when the data conform to the generative assumptions of the model. However these assumptions are often violated in practice, and poor performance can result. We present two extensions to the algorithm that improve classification accuracy under these conditions: (1) a weighting factor to modulate the contribution of the unlabeled data, and (2) the use of multiple mixture components per class. Experimental results, obtained using text from three different real-world tasks, show that the use of unlabeled data reduces classification error by up to 30%.'
+ref_count: 79
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-employing-em-and-pool-based-active-learning-for-text-classification
+  numCitedBy: 838
+  pid: 3b3b54848c1bc6ffea2625ce79302abed8e8deb9
+  show_ref_link: false
+  title: Employing EM and Pool-Based Active Learning for Text Classification
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-employing-em-in-pool-based-active-learning-for-text-classiication
+  numCitedBy: 213
+  pid: 6f17768a9fe231a2fd38708be90f98db3890c986
+  show_ref_link: false
+  title: Employing Em in Pool-based Active Learning for Text Classiication
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-combining-labeled-and-unlabeled-data-with-co-training
+  numCitedBy: 5497
+  pid: 278841ab0cb24c1abcb75e363aeed1fa741c8cc4
+  show_ref_link: false
+  title: Combining labeled and unlabeled data with co-training
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-expert-network-effective-and-efficient-learning-from-human-decisions-in-text-categorization-and-retrieval
+  numCitedBy: 486
+  pid: bc8e59e4c7c2cbb6695ee5488aa569780449b212
+  show_ref_link: false
+  title: Expert network - effective and efficient learning from human decisions in text categorization and retrieval
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-improving-text-classification-by-shrinkage-in-a-hierarchy-of-classes
+  numCitedBy: 623
+  pid: f2671b151fad7e176176b35d425b2b6356ff4595
+  show_ref_link: false
+  title: Improving Text Classification by Shrinkage in a Hierarchy of Classes
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-committee-based-sampling-for-training-probabilistic-classifiers
+  numCitedBy: 504
+  pid: 5f78d6f79b3ef103cb2d8d170632eb74d9496412
+  show_ref_link: false
+  title: Committee-Based Sampling For Training Probabilistic Classifiers
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-active-learning-with-committees-for-text-categorization
+  numCitedBy: 183
+  pid: 80ef14d2a1b8c7efbf45bedae9d001fe5446c7de
+  show_ref_link: false
+  title: Active Learning with Committees for Text Categorization
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-a-mixture-of-experts-classifier-with-learning-based-on-both-labelled-and-unlabelled-data
+  numCitedBy: 347
+  pid: c608ec27a937361122d178b38b6b7387440b58eb
+  show_ref_link: false
+  title: A Mixture of Experts Classifier with Learning Based on Both Labelled and Unlabelled Data
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-a-comparison-of-event-models-for-naive-bayes-text-classification
+  numCitedBy: 3859
+  pid: 04ce064505b1635583fa0d9cc07cac7e9ea993cc
+  show_ref_link: false
+  title: A comparison of event models for naive bayes text classification
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-context-sensitive-learning-methods-for-text-categorization
+  numCitedBy: 571
+  pid: ce2d6de9cec4a6d135c32bb8d2d02bba09928b33
+  show_ref_link: false
+  title: Context-sensitive learning methods for text categorization
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-an-evaluation-of-statistical-approaches-to-text-categorization
+  numCitedBy: 2040
+  pid: 890c16ca29a781a7b793c603822ffd57aee9f57f
+  show_ref_link: false
+  title: An Evaluation of Statistical Approaches to Text Categorization
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-hierarchically-classifying-documents-using-very-few-words
+  numCitedBy: 1092
+  pid: 23354987095a8a9a283ce4c9a690522d6b11e2dd
+  show_ref_link: false
+  title: Hierarchically Classifying Documents Using Very Few Words
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-a-sequential-algorithm-for-training-text-classifiers
+  numCitedBy: 2424
+  pid: 5194b668c67aa83c037e71599a087f63c98eb713
+  show_ref_link: false
+  title: A sequential algorithm for training text classifiers
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-a-comparison-of-two-learning-algorithms-for-text-categorization
+  numCitedBy: 747
+  pid: e9fd1a7ae0322d417ab2d32017e373dd50efc063
+  show_ref_link: false
+  title: A comparison of two learning algorithms for text categorization
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-a-sequential-algorithm-for-training-text-classifiers-corrigendum-and-additional-data
+  numCitedBy: 99
+  pid: 33c1f29dbc73cc4d0f787d6b048b465649b2d92b
+  show_ref_link: false
+  title: A sequential algorithm for training text classifiers - corrigendum and additional data
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-a-comparative-study-on-feature-selection-in-text-categorization
+  numCitedBy: 5566
+  pid: c3ebcef26c22a373b6f26a67934213eb0582804e
+  show_ref_link: false
+  title: A Comparative Study on Feature Selection in Text Categorization
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-combining-classiiers-in-text-categorization
+  numCitedBy: 16
+  pid: 755233dc6921fd1dd178a39817daec39a05ca81f
+  show_ref_link: false
+  title: Combining Classiiers in Text Categorization
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-an-evaluation-of-phrasal-and-clustered-representations-on-a-text-categorization-task
+  numCitedBy: 699
+  pid: b07f0f4553cfb42c0ed2bd6b07c9b22777b313d8
+  show_ref_link: false
+  title: An evaluation of phrasal and clustered representations on a text categorization task
+  year: 1992
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1995-on-the-exponential-value-of-labeled-samples
+  numCitedBy: 238
+  pid: f67e9a6bd7c688f1c9c653584a4fa1f9c7fda2a6
+  show_ref_link: false
+  title: On the exponential value of labeled samples
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-document-classification-using-a-finite-mixture-model
+  numCitedBy: 38
+  pid: 0b23eebc89f4da28e44fadac779ae334a019db80
+  show_ref_link: false
+  title: Document Classification Using a Finite Mixture Model
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-text-categorization-with-support-vector-machines-learning-with-many-relevant-features
+  numCitedBy: 8643
+  pid: 40212e9474c3ddf3d8c6ffd13dd3211ec9406c49
+  show_ref_link: false
+  title: Text Categorization with Support Vector Machines - Learning with Many Relevant Features
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-on-the-optimality-of-the-simple-bayesian-classifier-under-zero-one-loss
+  numCitedBy: 3137
+  pid: 700666f0c59a4fedc8b08294424c47cb99a8e2ff
+  show_ref_link: true
+  title: On the Optimality of the Simple Bayesian Classifier under Zero-One Loss
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-best-first-model-merging-for-hidden-markov-model-induction
+  numCitedBy: 175
+  pid: 204f6148bc6aba37eb5a7c5686d80547a99425b1
+  show_ref_link: false
+  title: Best-first Model Merging for Hidden Markov Model Induction
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-newsweeder-learning-to-filter-netnews
+  numCitedBy: 2127
+  pid: 38b3a4447a47a6a6ed1869f3da03352c487f8fe3
+  show_ref_link: false
+  title: NewsWeeder - Learning to Filter Netnews
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-a-new-metric-based-approach-to-model-selection
+  numCitedBy: 57
+  pid: ec503071363e3884821f9bf90ad5439b2d6c6c8c
+  show_ref_link: false
+  title: A New Metric-Based Approach to Model Selection
+  year: 1997
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2004-on-bias-variance-0-1-loss-and-the-curse-of-dimensionality
+  numCitedBy: 871
+  pid: 15252afe259894bd3d0f306f29eca5e90ab05eac
+  show_ref_link: false
+  title: On Bias, Variance, 0/1-Loss, and the Curse-of-Dimensionality
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-the-em-algorithm-and-extensions
+  numCitedBy: 6132
+  pid: 7d50991b693fc23edda316fb1487f114f6cc6706
+  show_ref_link: false
+  title: The EM algorithm and extensions
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-approximate-statistical-tests-for-comparing-supervised-classification-learning-algorithms
+  numCitedBy: 3152
+  pid: 22f0579f212dfb568fbda317cba67c8654d84ccd
+  show_ref_link: false
+  title: Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-a-probabilistic-analysis-of-the-rocchio-algorithm-with-tfidf-for-text-categorization
+  numCitedBy: 1541
+  pid: 094fc15bc058b0d62a661a1460885a9490bdb1bd
+  show_ref_link: false
+  title: A Probabilistic Analysis of the Rocchio Algorithm with TFIDF for Text Categorization
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-a-bayesian-approach-to-filtering-junk-e-mail
+  numCitedBy: 1604
+  pid: 916177807ecbf0d78f2f64d756d4cecbaa3102a3
+  show_ref_link: false
+  title: A Bayesian Approach to Filtering Junk E-Mail
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-naive-bayes-at-forty-the-independence-assumption-in-information-retrieval
+  numCitedBy: 2264
+  pid: 44e915a220ce74badf755aae870fa0b69ee2b82a
+  show_ref_link: false
+  title: Naive (Bayes) at Forty - The Independence Assumption in Information Retrieval
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-machine-learning
+  numCitedBy: 15782
+  pid: aab43c9c33af00b718cf2ae374b861d49862a563
+  show_ref_link: true
+  title: Machine learning
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-learning-to-extract-symbolic-knowledge-from-the-world-wide-web
+  numCitedBy: 804
+  pid: 8446830f3c05b97c4d12a0751c022d1ae6a5115b
+  show_ref_link: false
+  title: Learning to Extract Symbolic Knowledge from the World Wide Web
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-learning-in-graphical-models
+  numCitedBy: 1463
+  pid: 5c9529259e180dea589447d9b7414a998286e1c2
+  show_ref_link: false
+  title: Learning in Graphical Models
+  year: 1998
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1994-the-effect-of-unlabeled-samples-in-reducing-the-small-sample-size-problem-and-mitigating-the-hughes-phenomenon
+  numCitedBy: 582
+  pid: 334867ed99a0af07d8a53dae4f7fdeffffdecc09
+  show_ref_link: false
+  title: The effect of unlabeled samples in reducing the small sample size problem and mitigating the Hughes phenomenon
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-combining-classifiers-in-text-categorization
+  numCitedBy: 460
+  pid: 70dad986b772b92b19b8cd5e4043f1fa23e69348
+  show_ref_link: false
+  title: Combining classifiers in text categorization
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1976-relevance-weighting-of-search-terms
+  numCitedBy: 2379
+  pid: f6e3e57567e9803718623ec088cd7fea65cfbc9d
+  show_ref_link: false
+  title: Relevance weighting of search terms
+  year: 1976
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-supervised-learning-from-incomplete-data-via-an-em-approach
+  numCitedBy: 639
+  pid: 5db7dc2239f820eae498b07a955f31b3d113179f
+  show_ref_link: false
+  title: Supervised learning from incomplete data via an EM approach
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-preventing-overfitting-of-cross-validation-data
+  numCitedBy: 209
+  pid: ead7bec02e696b602705dd4e73dffd13aa4c6d57
+  show_ref_link: false
+  title: Preventing Overfitting of Cross-Validation Data
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-syskill-webert-identifying-interesting-web-sites
+  numCitedBy: 793
+  pid: 1e26eee1ffe5d7ed9280f4e5af602e3a4585cbaf
+  show_ref_link: false
+  title: Syskill & Webert - Identifying Interesting Web Sites
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-intelligent-agents-for-web-based-tasks-an-advice-taking-approach
+  numCitedBy: 39
+  pid: 170888057e6842caed581909f9e0d3104cf600be
+  show_ref_link: false
+  title: Intelligent Agents for Web-based Tasks - An Advice-Taking Approach
+  year: 1998
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1983-a-universal-prior-for-integers-and-estimation-by-minimum-description-length
+  numCitedBy: 1836
+  pid: ae7beb7920485aca9c252ce3ecc3972c52eb3c37
+  show_ref_link: false
+  title: A UNIVERSAL PRIOR FOR INTEGERS AND ESTIMATION BY MINIMUM DESCRIPTION LENGTH
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-bayesian-classification-autoclass-theory-and-results
+  numCitedBy: 1298
+  pid: 42f75b297aed474599c8e598dd211a1999804138
+  show_ref_link: false
+  title: Bayesian Classification (AutoClass) - Theory and Results
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1971-relevance-feedback-in-information-retrieval
+  numCitedBy: 3254
+  pid: 4083ad1066cfa2ff0d65866ef4b011399d6873d1
+  show_ref_link: false
+  title: Relevance feedback in information retrieval
+  year: 1971
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-threading-electronic-mail-a-preliminary-study
+  numCitedBy: 167
+  pid: a163015645762e593571fdf11d19a8fd30a64840
+  show_ref_link: false
+  title: Threading Electronic Mail - A Preliminary Study
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-improving-the-mean-field-approximation-via-the-use-of-mixture-distributions
+  numCitedBy: 91
+  pid: 8b5571a1cf9d3f640883812358498f64c1655d5a
+  show_ref_link: false
+  title: Improving the Mean Field Approximation Via the Use of Mixture Distributions
+  year: 1998
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1991-developments-in-automatic-text-retrieval
+  numCitedBy: 714
+  pid: 36b3711f06725def5884d9d9a48ad689d8187149
+  show_ref_link: false
+  title: Developments in Automatic Text Retrieval
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-elements-of-information-theory
+  numCitedBy: 42946
+  pid: 7dbdb4209626fd92d2436a058663206216036e68
+  show_ref_link: true
+  title: Elements of Information Theory
+  year: 1991
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 1977-maximum-likelihood-from-incomplete-data-via-the-em-algorithm-plus-discussions-on-the-paper
+  numCitedBy: 48567
+  pid: d36efb9ad91e00faa334b549ce989bfae7e2907a
+  show_ref_link: true
+  title: Maximum likelihood from incomplete data via the EM - algorithm plus discussions on the paper
+  year: 1977
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-data-mining-and-knowledge-discovery-making-sense-out-of-data
+  numCitedBy: 947
+  pid: c959ac88606684d7dafddbdbac4ce6f165526536
+  show_ref_link: false
+  title: Data mining and knowledge discovery - making sense out of data
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1971-the-smart-retrieval-system-experiments-in-automatic-document-processing
+  numCitedBy: 3154
+  pid: 939d409a615d4b88c0a84e1f9b99ed67a9053208
+  show_ref_link: false
+  title: The SMART Retrieval System-Experiments in Automatic Document Processing
+  year: 1971
+- fieldsOfStudy: []
+  meta_key: 1998-improving-the-mean-field-approximation-via-the-use-of-mixture-distributions
+  numCitedBy: 91
+  pid: 01214343041e0f5b388e833deb7da7e5a6e17d27
+  show_ref_link: false
+  title: Improving the Mean Field Approximation via the Use of Mixture Distributions
+  year: 1998
+slug: Text-Classification-from-Labeled-and-Unlabeled-EM-Nigam-McCallum
+title: Text Classification from Labeled and Unlabeled Documents using EM
+url: https://www.semanticscholar.org/paper/Text-Classification-from-Labeled-and-Unlabeled-EM-Nigam-McCallum/e2de29049d62de925cf709024b92774cd82b0a5a?sort=total-citations
+venue: Machine Learning
+year: 2004

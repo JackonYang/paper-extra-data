@@ -66,7 +66,7 @@ references:
   meta_key: 2004-text-classification-from-labeled-and-unlabeled-documents-using-em
   numCitedBy: 3081
   pid: e2de29049d62de925cf709024b92774cd82b0a5a
-  show_ref_link: false
+  show_ref_link: true
   title: Text Classification from Labeled and Unlabeled Documents using EM
   year: 2004
 - fieldsOfStudy:

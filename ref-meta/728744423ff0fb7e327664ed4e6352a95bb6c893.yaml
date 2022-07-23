@@ -1,0 +1,390 @@
+authors:
+- F. Hutter
+- H. Hoos
+- Kevin Leyton-Brown
+badges:
+- id: OPEN_ACCESS
+corpusId: 6944647
+fieldsOfStudy:
+- Computer Science
+meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
+numCitedBy: 2055
+numCiting: 49
+paperAbstract: State-of-the-art algorithms for hard computational problems often expose many parameters that can be modified to improve empirical performance. However, manually exploring the resulting combinatorial space of parameter settings is tedious and tends to lead to unsatisfactory outcomes. Recently, automated approaches for solving this algorithm configuration problem have led to substantial improvements in the state of the art for solving various problems. One promising approach constructs explicit regression models to describe the dependence of target algorithm performance on parameter settings; however, this approach has so far been limited to the optimization of few numerical algorithm parameters on single instances. In this paper, we extend this paradigm for the first time to general algorithm configuration problems, allowing many categorical parameters and optimization for sets of instances. We experimentally validate our new algorithm configuration procedure by optimizing a local search and a tree search solver for the propositional satisfiability problem (SAT), as well as the commercial mixed integer programming (MIP) solver CPLEX. In these experiments, our procedure yielded state-of-the-art performance, and in many cases outperformed the previous best configuration approach.
+ref_count: 49
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-automated-configuration-of-algorithms-for-solving-hard-computational-problems
+  numCitedBy: 104
+  pid: 08c4fdd974d874c87ea87faa6b404a7b8eb72c73
+  show_ref_link: false
+  title: Automated configuration of algorithms for solving hard computational problems
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-satenstein-automatically-building-local-search-sat-solvers-from-components
+  numCitedBy: 132
+  pid: 33b542c9ae18ae155f7919c326dcf4838bcf8c11
+  show_ref_link: false
+  title: SATenstein - Automatically Building Local Search SAT Solvers from Components
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-paramils-an-automatic-algorithm-configuration-framework
+  numCitedBy: 923
+  pid: 23105024da063b7ee62840e7c869721d12335e4a
+  show_ref_link: false
+  title: ParamILS - An Automatic Algorithm Configuration Framework
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-time-bounded-sequential-parameter-optimization
+  numCitedBy: 80
+  pid: 33e78ecd04700581efe665843e8d9035533d4356
+  show_ref_link: false
+  title: Time-Bounded Sequential Parameter Optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-automatic-algorithm-configuration-based-on-local-search
+  numCitedBy: 311
+  pid: e4776b8295629c8e74eb7503b3d6364caa026bb6
+  show_ref_link: false
+  title: Automatic Algorithm Configuration Based on Local Search
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  - Business
+  meta_key: 2010-automated-configuration-of-mixed-integer-programming-solvers
+  numCitedBy: 178
+  pid: 5552bcf12caf0e12541cc07a285a3c70470563d3
+  show_ref_link: false
+  title: Automated Configuration of Mixed Integer Programming Solvers
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-problem-structure-in-the-presence-of-perturbations
+  numCitedBy: 158
+  pid: 417ed2405c04afa0dee56b8812b8ddd9e850177f
+  show_ref_link: false
+  title: Problem Structure in the Presence of Perturbations
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-satzilla-portfolio-based-algorithm-selection-for-sat
+  numCitedBy: 876
+  pid: 72489f377f08ac720cd31d9eed20706abfed58bb
+  show_ref_link: false
+  title: SATzilla - Portfolio-based Algorithm Selection for SAT
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-hal-a-framework-for-the-automated-analysis-and-design-of-high-performance-algorithms
+  numCitedBy: 23
+  pid: 626276f6bae7be775ab1d270f2c3ed2adee28594
+  show_ref_link: false
+  title: HAL - A Framework for the Automated Analysis and Design of High-Performance Algorithms
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-improvement-strategies-for-the-f-race-algorithm-sampling-design-and-iterative-refinement
+  numCitedBy: 262
+  pid: c6bb1a2a3285be50a6b703fea94878e08d1e0025
+  show_ref_link: false
+  title: Improvement Strategies for the F-Race Algorithm - Sampling Design and Iterative Refinement
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-boosting-verification-by-automatic-tuning-of-decision-procedures
+  numCitedBy: 92
+  pid: d8c48a95e2c8b69af408f29d65e244d6604e69aa
+  show_ref_link: false
+  title: Boosting Verification by Automatic Tuning of Decision Procedures
+  year: 2007
+- fieldsOfStudy:
+  - Business
+  meta_key: 1992-minimizing-conflicts-a-heuristic-repair-method-for-constraint-satisfaction-and-scheduling-problems
+  numCitedBy: 996
+  pid: be41652987acff408e1b9d699a8e78ab3ae11932
+  show_ref_link: false
+  title: Minimizing Conflicts - A Heuristic Repair Method for Constraint Satisfaction and Scheduling Problems
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-empirical-hardness-models-methodology-and-a-case-study-on-combinatorial-auctions
+  numCitedBy: 130
+  pid: 2609f23364b0611e75d69ac5d311ebe6fcd75f44
+  show_ref_link: false
+  title: Empirical hardness models - Methodology and a case study on combinatorial auctions
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-satzilla2009-an-automatic-algorithm-portfolio-for-sat
+  numCitedBy: 54
+  pid: 2feb2d275e645da448ac0c3f91ffcc9a222d325d
+  show_ref_link: false
+  title: SATzilla2009 - an Automatic Algorithm Portfolio for SAT
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-integration-of-ai-and-or-techniques-in-constraint-programming-for-combinatorial-optimization-problems-4th-international-conference-cpaior-2007-brussels-belgium-may-23-26-2007-proceedings
+  numCitedBy: 498
+  pid: 6bba3174162d510a3265825cd5759e0c04921f63
+  show_ref_link: false
+  title: Integration of AI and OR Techniques in Constraint Programming for Combinatorial Optimization Problems, 4th International Conference, CPAIOR 2007, Brussels, Belgium, May 23-26, 2007, Proceedings
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-synthesizing-filtering-algorithms-for-global-chance-constraints
+  numCitedBy: 131
+  pid: 2b0dea44f65f19f883e9708b20b8730306eb4e0f
+  show_ref_link: false
+  title: Synthesizing Filtering Algorithms for Global Chance-Constraints
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-understanding-random-sat-beyond-the-clauses-to-variables-ratio
+  numCitedBy: 204
+  pid: cdaaff55fd2f1b63f8952dbc9bf81e8f5e706357
+  show_ref_link: false
+  title: Understanding Random SAT - Beyond the Clauses-to-Variables Ratio
+  year: 2004
+- fieldsOfStudy:
+  - Business
+  meta_key: 2006-fine-tuning-of-algorithms-using-fractional-experimental-designs-and-local-search
+  numCitedBy: 427
+  pid: d2d9b1bf324a124d27bfa2cc79be039d26e926b9
+  show_ref_link: false
+  title: Fine-Tuning of Algorithms Using Fractional Experimental Designs and Local Search
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-tuning-search-algorithms-for-real-world-applications-a-regression-tree-based-approach
+  numCitedBy: 84
+  pid: 9cee220298e83d4d04cce622067eac93b5552bff
+  show_ref_link: false
+  title: Tuning search algorithms for real-world applications - a regression tree based approach
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-f-race-and-iterated-f-race-an-overview
+  numCitedBy: 380
+  pid: 2fae91efed5573379669d40d6e9ae9625a4a3861
+  show_ref_link: false
+  title: F-Race and Iterated F-Race - An Overview
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-learning-the-empirical-hardness-of-optimization-problems-the-case-of-combinatorial-auctions
+  numCitedBy: 207
+  pid: 5580b7fda70be1dacb2d9424d13b5f0ca2cd51c8
+  show_ref_link: false
+  title: Learning the Empirical Hardness of Optimization Problems - The Case of Combinatorial Auctions
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-a-racing-algorithm-for-configuring-metaheuristics
+  numCitedBy: 597
+  pid: 64247308dd5d534d37174feb6315043b233e49a8
+  show_ref_link: false
+  title: A Racing Algorithm for Configuring Metaheuristics
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-scaling-and-probabilistic-smoothing-efficient-dynamic-local-search-for-sat
+  numCitedBy: 237
+  pid: 1c2bf16428fa29cfb58e15f6c731e13e8c33d2bd
+  show_ref_link: false
+  title: Scaling and Probabilistic Smoothing - Efficient Dynamic Local Search for SAT
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-sequential-parameter-optimization
+  numCitedBy: 325
+  pid: 1a99e54554731bda87e72024bb58da8c902d9800
+  show_ref_link: false
+  title: Sequential parameter optimization
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-efficient-global-optimization-of-expensive-black-box-functions
+  numCitedBy: 5764
+  pid: daa63f57c3fbe994c4356f8d986a22e696e776d2
+  show_ref_link: false
+  title: Efficient Global Optimization of Expensive Black-Box Functions
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-ubcsat-an-implementation-and-experimentation-environment-for-sls-algorithms-for-sat-max-sat
+  numCitedBy: 190
+  pid: 2a9a0c587df01ea7b78d0356592f19846b797fa1
+  show_ref_link: false
+  title: UBCSAT - An Implementation and Experimentation Environment for SLS Algorithms for SAT & MAX-SAT
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-global-optimization-of-stochastic-black-box-systems-via-sequential-kriging-meta-models
+  numCitedBy: 584
+  pid: 0c51104c58c3e05f487d87ee94ce2e3b2d11dce6
+  show_ref_link: false
+  title: Global Optimization of Stochastic Black-Box Systems via Sequential Kriging Meta-Models
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-a-gender-based-genetic-algorithm-for-the-automatic-configuration-of-algorithms
+  numCitedBy: 332
+  pid: 997dd6c2d49f6d89a4f9b28729163dc18549f3d3
+  show_ref_link: false
+  title: A Gender-Based Genetic Algorithm for the Automatic Configuration of Algorithms
+  year: 2009
+- fieldsOfStudy:
+  - Business
+  meta_key: 2001-using-experimental-design-to-find-effective-parameter-settings-for-heuristics
+  numCitedBy: 237
+  pid: 14584c9dbac190c4e7d05d3d8cb1b3e1ccef9fb2
+  show_ref_link: false
+  title: Using Experimental Design to Find Effective Parameter Settings for Heuristics
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-composer-a-probabilistic-solution-to-the-utility-problem-in-speed-up-learning
+  numCitedBy: 104
+  pid: 4d6ffb023aa22682afefc096142dd6fac51da4c3
+  show_ref_link: false
+  title: COMPOSER - A Probabilistic Solution to the Utility Problem in Speed-Up Learning
+  year: 1992
+- fieldsOfStudy:
+  - Business
+  meta_key: 2009-an-experimental-investigation-of-model-based-parameter-optimisation-spo-and-beyond
+  numCitedBy: 96
+  pid: eaa44ec117af3e45ffedd0028b3cc208469ab50f
+  show_ref_link: false
+  title: An experimental investigation of model-based parameter optimisation - SPO and beyond
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-benchmarking-sat-solvers-for-bounded-model-checking
+  numCitedBy: 36
+  pid: 28f4bdd0ddb49a11ad80bbbe2878f497625ff3c4
+  show_ref_link: false
+  title: Benchmarking SAT Solvers for Bounded Model Checking
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-sequential-design-of-computer-experiments-to-minimize-integrated-response-functions
+  numCitedBy: 184
+  pid: 9ef6e6f619e84ceb990fa62a3f57548b02c14c3a
+  show_ref_link: false
+  title: Sequential design of computer experiments to minimize integrated response functions
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 2009-recursive-markov-chains-stochastic-grammars-and-monotone-systems-of-nonlinear-equations
+  numCitedBy: 484
+  pid: 3939ab4498e35f8404fddbe42ae5bb1d4e62258f
+  show_ref_link: false
+  title: Recursive Markov chains, stochastic grammars, and monotone systems of nonlinear equations
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-towards-a-universal-test-suite-for-combinatorial-auction-algorithms
+  numCitedBy: 413
+  pid: 102edd6b6ec078daa064ec8bda142aa7bc60431d
+  show_ref_link: false
+  title: Towards a universal test suite for combinatorial auction algorithms
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-exploiting-structure-for-scalable-software-verification
+  numCitedBy: 35
+  pid: e3fbb73f4bf4ad228d8312b6a87f14ce82cc9a98
+  show_ref_link: false
+  title: Exploiting structure for scalable software verification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-structural-abstraction-of-software-verification-conditions
+  numCitedBy: 75
+  pid: c4779792130b50e3739438df86bd52317f6abca8
+  show_ref_link: false
+  title: Structural Abstraction of Software Verification Conditions
+  year: 2007
+- fieldsOfStudy:
+  - Materials Science
+  meta_key: 2007-automated-tuning-of-optimization-software-parameters
+  numCitedBy: 24
+  pid: dfe1774fc1be81fc62ad489a96ce4f24fc0714ab
+  show_ref_link: false
+  title: Automated Tuning of Optimization Software Parameters
+  year: 2007
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2003-on-the-facets-of-the-mixed-integer-knapsack-polyhedron
+  numCitedBy: 111
+  pid: 4421a6d4840d9047accc1e1c80bf36f97689c8f9
+  show_ref_link: false
+  title: On the facets of the mixed-integer knapsack polyhedron
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-gaussian-processes-for-machine-learning
+  numCitedBy: 18076
+  pid: 82266f6103bade9005ec555ed06ba20b5210ff22
+  show_ref_link: true
+  title: Gaussian Processes for Machine Learning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-random-forests
+  numCitedBy: 65885
+  pid: 13d4c2f76a7c1a4d0a71204e1d5d263a3f5a7986
+  show_ref_link: true
+  title: Random Forests
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-morphing-combining-structure-and-randomness
+  numCitedBy: 100
+  pid: 9694f836677154b5788ebda81199a8b785892f5e
+  show_ref_link: false
+  title: Morphing - Combining Structure and Randomness
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-experimental-research-in-evolutionary-computation-the-new-experimentalism
+  numCitedBy: 290
+  pid: 3c871e59b63f625846185092843f1358f673bfdc
+  show_ref_link: false
+  title: Experimental Research in Evolutionary Computation - The New Experimentalism
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-kernel-methods-for-pattern-analysis
+  numCitedBy: 4727
+  pid: a0f9f3c338dd84b054dabcbd50b725f2b3609ad9
+  show_ref_link: true
+  title: Kernel Methods for Pattern Analysis
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-the-elements-of-statistical-learning
+  numCitedBy: 12272
+  pid: 44d71e0ec9f68d8eb802b9ab1dde8368efeac42e
+  show_ref_link: false
+  title: The Elements of Statistical Learning
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-kernel-k-means-for-categorical-data
+  numCitedBy: 28
+  pid: 2d558f4c4797ce2b5f8d974bd23375077d8b642f
+  show_ref_link: false
+  title: Kernel K-Means for Categorical Data
+  year: 2005
+slug: Sequential-Model-Based-Optimization-for-General-Hutter-Hoos
+title: Sequential Model-Based Optimization for General Algorithm Configuration
+url: https://www.semanticscholar.org/paper/Sequential-Model-Based-Optimization-for-General-Hutter-Hoos/728744423ff0fb7e327664ed4e6352a95bb6c893?sort=total-citations
+venue: LION
+year: 2011

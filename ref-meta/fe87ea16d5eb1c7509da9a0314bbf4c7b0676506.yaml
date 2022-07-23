@@ -235,7 +235,7 @@ references:
   meta_key: 2015-facenet-a-unified-embedding-for-face-recognition-and-clustering
   numCitedBy: 8229
   pid: 5aa26299435bdf7db874ef1640a6c3b5a4a2c394
-  show_ref_link: false
+  show_ref_link: true
   title: FaceNet - A unified embedding for face recognition and clustering
   year: 2015
 - fieldsOfStudy:

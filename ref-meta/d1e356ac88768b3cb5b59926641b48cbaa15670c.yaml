@@ -293,7 +293,7 @@ references:
   meta_key: 2016-deep-speech-2-end-to-end-speech-recognition-in-english-and-mandarin
   numCitedBy: 2236
   pid: 8ff840a40d3f1557c55c19d4d636da77103168ce
-  show_ref_link: false
+  show_ref_link: true
   title: Deep Speech 2 - End-to-End Speech Recognition in English and Mandarin
   year: 2016
 - fieldsOfStudy:

@@ -1,0 +1,366 @@
+authors:
+- Mohammad Rastegari
+- Vicente Ordonez
+- Joseph Redmon
+- Ali Farhadi
+badges:
+- id: OPEN_ACCESS
+corpusId: 14925907
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-xnor-net-imagenet-classification-using-binary-convolutional-neural-networks
+numCitedBy: 2591
+numCiting: 48
+paperAbstract: 'We propose two efficient approximations to standard convolutional neural networks: Binary-Weight-Networks and XNOR-Networks. In Binary-Weight-Networks, the filters are approximated with binary values resulting in 32\(\times \) memory saving. In XNOR-Networks, both the filters and the input to convolutional layers are binary. XNOR-Networks approximate convolutions using primarily binary operations. This results in 58\(\times \) faster convolutional operations (in terms of number of the high precision operations) and 32\(\times \) memory savings. XNOR-Nets offer the possibility of running state-of-the-art networks on CPUs (rather than GPUs) in real-time. Our binary networks are simple, accurate, efficient, and work on challenging visual tasks. We evaluate our approach on the ImageNet classification task. The classification accuracy with a Binary-Weight-Network version of AlexNet is the same as the full-precision AlexNet. We compare our method with recent network binarization methods, BinaryConnect and BinaryNets, and outperform these methods by large margins on ImageNet, more than \(16\,\%\) in top-1 accuracy. Our code is available at: http://allenai.org/plato/xnornet.'
+ref_count: 48
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fixed-point-optimization-of-deep-convolutional-neural-networks-for-object-recognition
+  numCitedBy: 181
+  pid: a6373454105df0c5511ca5f6cae4d20c48214272
+  show_ref_link: false
+  title: Fixed point optimization of deep convolutional neural networks for object recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-binarynet-training-deep-neural-networks-with-weights-and-activations-constrained-to-1-or-1
+  numCitedBy: 563
+  pid: 123ae35aa7d6838c817072032ce5615bb891652d
+  show_ref_link: true
+  title: BinaryNet - Training Deep Neural Networks with Weights and Activations Constrained to +1 or -1
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations
+  numCitedBy: 2134
+  pid: a5733ff08daff727af834345b9cfff1d0aa109ec
+  show_ref_link: true
+  title: BinaryConnect - Training Deep Neural Networks with binary weights during propagations
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-compressing-deep-convolutional-networks-using-vector-quantization
+  numCitedBy: 878
+  pid: e7bf9803705f2eb608db1e59e5c7636a3f171916
+  show_ref_link: false
+  title: Compressing Deep Convolutional Networks using Vector Quantization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-bitwise-neural-networks
+  numCitedBy: 186
+  pid: 8fcfd67f21738eff12d853fdf2b31ee192e2312a
+  show_ref_link: false
+  title: Bitwise Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-speeding-up-convolutional-neural-networks-with-low-rank-expansions
+  numCitedBy: 1154
+  pid: 021fc345d40d3e6332cd2ef276e2eaa5e71102e4
+  show_ref_link: true
+  title: Speeding up Convolutional Neural Networks with Low Rank Expansions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 33308
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 16125
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-improving-the-speed-of-neural-networks-on-cpus
+  numCitedBy: 692
+  pid: fbeaa499e10e98515f7e1c4ad89165e8c0677427
+  show_ref_link: false
+  title: Improving the speed of neural networks on CPUs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-networks-with-few-multiplications
+  numCitedBy: 280
+  pid: 67c191bcce6821f736798cb9b31472bcdd1e52a6
+  show_ref_link: false
+  title: Neural Networks with Few Multiplications
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-training-deep-neural-networks-with-low-precision-multiplications
+  numCitedBy: 469
+  pid: 1b82d54e9a3b06c603d7987ba3ecf437425f6330
+  show_ref_link: false
+  title: Training deep neural networks with low precision multiplications
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation
+  numCitedBy: 1281
+  pid: e5ae8ab688051931b4814f6d32b18391f8d1fa8d
+  show_ref_link: true
+  title: Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2015-fast-r-cnn
+  numCitedBy: 14349
+  pid: 7ffdbc358b63378f07311e883dddacc9faeeaf4b
+  show_ref_link: true
+  title: Fast R-CNN
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8225
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-rich-feature-hierarchies-for-accurate-object-detection-and-semantic-segmentation
+  numCitedBy: 17379
+  pid: 2f4df08d9072fc2ac181b7fced6a245315ce05c8
+  show_ref_link: true
+  title: Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-squeezenet-alexnet-level-accuracy-with-50x-fewer-parameters-and-1mb-model-size
+  numCitedBy: 4092
+  pid: 969fbdcd0717bec06228053788c2ff78bbb4daac
+  show_ref_link: true
+  title: SqueezeNet - AlexNet-level accuracy with 50x fewer parameters and <1MB model size
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-fixed-point-feedforward-deep-neural-network-design-using-weights-1-0-and-1
+  numCitedBy: 221
+  pid: a4db2d26b5d169de6b64de361dc7d4fd5b1f61a3
+  show_ref_link: false
+  title: "Fixed-point feedforward deep neural network design using weights +1, 0, and \u22121"
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-compressing-neural-networks-with-the-hashing-trick
+  numCitedBy: 948
+  pid: efb5032e6199c80f83309fd866b25be9545831fd
+  show_ref_link: false
+  title: Compressing Neural Networks with the Hashing Trick
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-do-deep-nets-really-need-to-be-deep
+  numCitedBy: 1549
+  pid: d770060812fb646b3846a7d398a3066145b5e3c8
+  show_ref_link: false
+  title: Do Deep Nets Really Need to be Deep?
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-backpropagation-for-energy-efficient-neuromorphic-computing
+  numCitedBy: 255
+  pid: 04105898efe96c7f2d876e6bcb9e19afd3e23635
+  show_ref_link: false
+  title: Backpropagation for Energy-Efficient Neuromorphic Computing
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-of-neural-networks-using-dropconnect
+  numCitedBy: 2105
+  pid: 38f35dd624cd1cf827416e31ac5e0e0454028eca
+  show_ref_link: true
+  title: Regularization of Neural Networks using DropConnect
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-expectation-backpropagation-parameter-free-training-of-multilayer-neural-networks-with-continuous-or-discrete-weights
+  numCitedBy: 206
+  pid: feaa7e295c7a43ec52091ed9ade1a9a1e5d9bed2
+  show_ref_link: false
+  title: Expectation Backpropagation - Parameter-Free Training of Multilayer Neural Networks with Continuous or Discrete Weights
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-cross-domain-synthesis-of-medical-images-using-efficient-location-sensitive-deep-network
+  numCitedBy: 107
+  pid: 524cef2efdbed2af694ffb0c8f83e6890e178f16
+  show_ref_link: false
+  title: Cross-Domain Synthesis of Medical Images Using Efficient Location-Sensitive Deep Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-second-order-derivatives-for-network-pruning-optimal-brain-surgeon
+  numCitedBy: 1594
+  pid: a42954d4b9d0ccdf1036e0af46d87a01b94c3516
+  show_ref_link: false
+  title: Second Order Derivatives for Network Pruning - Optimal Brain Surgeon
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-subdominant-dense-clusters-allow-for-simple-learning-and-high-computational-performance-in-neural-networks-with-discrete-synapses
+  numCitedBy: 95
+  pid: 599e769b65ab64f247926f38c9c080c45a12271a
+  show_ref_link: false
+  title: Subdominant Dense Clusters Allow for Simple Learning and High Computational Performance in Neural Networks with Discrete Synapses.
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-provable-bounds-for-learning-some-deep-representations
+  numCitedBy: 289
+  pid: 1d6e6adc7a841393fc10b78dc0018e550aff589d
+  show_ref_link: false
+  title: Provable Bounds for Learning Some Deep Representations
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-comparing-biases-for-minimal-network-construction-with-back-propagation
+  numCitedBy: 518
+  pid: f4ea5a6ff3ffcd11ec2e6ed7828a7d41279fb3ad
+  show_ref_link: false
+  title: Comparing Biases for Minimal Network Construction with Back-Propagation
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-big-neural-networks-waste-capacity
+  numCitedBy: 69
+  pid: 306c7cd74beda5a09662b5f289bba50a2b5ea308
+  show_ref_link: false
+  title: Big Neural Networks Waste Capacity
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-approximation-by-superpositions-of-a-sigmoidal-function
+  numCitedBy: 6455
+  pid: 8da1dda34ecc96263102181448c94ec7d645d085
+  show_ref_link: false
+  title: Approximation by superpositions of a sigmoidal function
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-predicting-parameters-in-deep-learning
+  numCitedBy: 1009
+  pid: e8650503ab80ad7299f0845b1843abf3a97f313a
+  show_ref_link: true
+  title: Predicting Parameters in Deep Learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-optimal-brain-damage
+  numCitedBy: 3518
+  pid: e7297db245c3feb1897720b173a59fe7e36babb7
+  show_ref_link: false
+  title: Optimal Brain Damage
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-conversational-speech-transcription-using-context-dependent-deep-neural-networks
+  numCitedBy: 878
+  pid: 473f0739666af2791ad6592822118240ed968b70
+  show_ref_link: false
+  title: Conversational Speech Transcription Using Context-Dependent Deep Neural Networks
+  year: 2012
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1990-in-advances-in-neural-information-processing-systems
+  numCitedBy: 4734
+  pid: 69d7086300e7f5322c06f2f242a565b3a182efb5
+  show_ref_link: false
+  title: In Advances in Neural Information Processing Systems
+  year: 1990
+- fieldsOfStudy:
+  - Art
+  meta_key: 2015-merging-reality-and-virtuality-with-microsoft-hololens
+  numCitedBy: 12
+  pid: 11b775f96ee78f82572b59c13a2c035dc558afa6
+  show_ref_link: false
+  title: Merging Reality and Virtuality with Microsoft HoloLens
+  year: 2015
+slug: XNOR-Net:-ImageNet-Classification-Using-Binary-Rastegari-Ordonez
+title: XNOR-Net - ImageNet Classification Using Binary Convolutional Neural Networks
+url: https://www.semanticscholar.org/paper/XNOR-Net:-ImageNet-Classification-Using-Binary-Rastegari-Ordonez/b649a98ce77ece8cd7638bb74ab77d22d9be77e7?sort=total-citations
+venue: ECCV
+year: 2016

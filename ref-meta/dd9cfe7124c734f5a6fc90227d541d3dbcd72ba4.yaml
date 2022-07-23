@@ -1,0 +1,399 @@
+authors:
+- M. Sandler
+- Andrew G. Howard
+- Menglong Zhu
+- A. Zhmoginov
+- Liang-Chieh Chen
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 4555207
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-mobilenetv2-inverted-residuals-and-linear-bottlenecks
+numCitedBy: 7406
+numCiting: 55
+paperAbstract: In this paper we describe a new mobile architecture, MobileNetV2, that improves the state of the art performance of mobile models on multiple tasks and benchmarks as well as across a spectrum of different model sizes. We also describe efficient ways of applying these mobile models to object detection in a novel framework we call SSDLite. Additionally, we demonstrate how to build mobile semantic segmentation models through a reduced form of DeepLabv3 which we call Mobile DeepLabv3. is based on an inverted residual structure where the shortcut connections are between the thin bottleneck layers. The intermediate expansion layer uses lightweight depthwise convolutions to filter features as a source of non-linearity. Additionally, we find that it is important to remove non-linearities in the narrow layers in order to maintain representational power. We demonstrate that this improves performance and provide an intuition that led to this design. Finally, our approach allows decoupling of the input/output domains from the expressiveness of the transformation, which provides a convenient framework for further analysis. We measure our performance on ImageNet [1] classification, COCO object detection [2], VOC image segmentation [3]. We evaluate the trade-offs between accuracy, and number of operations measured by multiply-adds (MAdd), as well as actual latency, and the number of parameters.
+ref_count: 55
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-aggregated-residual-transformations-for-deep-neural-networks
+  numCitedBy: 5619
+  pid: f6e0856b4a9199fa968ac00da612a9407b5cb85c
+  show_ref_link: true
+  title: Aggregated Residual Transformations for Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-parsenet-looking-wider-to-see-better
+  numCitedBy: 903
+  pid: 2173f1b8172c9b5bed4650c81b69988717bd6df6
+  show_ref_link: false
+  title: ParseNet - Looking Wider to See Better
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-deeplab-semantic-image-segmentation-with-deep-convolutional-nets-atrous-convolution-and-fully-connected-crfs
+  numCitedBy: 9615
+  pid: cab372bc3824780cce20d9dd1c22d4df39ed081a
+  show_ref_link: true
+  title: DeepLab - Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-rethinking-atrous-convolution-for-semantic-image-segmentation
+  numCitedBy: 3983
+  pid: ee4a012a4b12d11d7ab8c0e79c61e807927a163c
+  show_ref_link: false
+  title: Rethinking Atrous Convolution for Semantic Image Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ssd-single-shot-multibox-detector
+  numCitedBy: 15747
+  pid: 4d7a9197433acbfb24ef0e9d0f33ed1699e4a5b0
+  show_ref_link: true
+  title: SSD - Single Shot MultiBox Detector
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-transferable-architectures-for-scalable-image-recognition
+  numCitedBy: 3538
+  pid: d0611891b9e8a7c5731146097b6f201578f47b2f
+  show_ref_link: true
+  title: Learning Transferable Architectures for Scalable Image Recognition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-pyramidal-residual-networks
+  numCitedBy: 459
+  pid: 5bdf07c9897ca70788fff61dec56178a2bd0c29c
+  show_ref_link: true
+  title: Deep Pyramidal Residual Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-speed-accuracy-trade-offs-for-modern-convolutional-object-detectors
+  numCitedBy: 2017
+  pid: a312a573ef81793d56401e932ef6c9498791a3d1
+  show_ref_link: true
+  title: Speed/Accuracy Trade-Offs for Modern Convolutional Object Detectors
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8225
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-modeling-local-and-global-deformations-in-deep-learning-epitomic-convolution-multiple-instance-learning-and-sliding-window-detection
+  numCitedBy: 162
+  pid: 91768b21a2f8a65f1dede87adb0cec2b621ce1f9
+  show_ref_link: false
+  title: Modeling local and global deformations in Deep Learning - Epitomic convolution, Multiple Instance Learning, and sliding window detection
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-yolo9000-better-faster-stronger
+  numCitedBy: 8140
+  pid: 7d39d69b23424446f0400ef603b2e3e22d0309d6
+  show_ref_link: true
+  title: YOLO9000 - Better, Faster, Stronger
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-r-fcn-object-detection-via-region-based-fully-convolutional-networks
+  numCitedBy: 3931
+  pid: b724c3f7ff395235b62537203ddeb710f0eb27bb
+  show_ref_link: true
+  title: R-FCN - Object Detection via Region-based Fully Convolutional Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-overfeat-integrated-recognition-localization-and-detection-using-convolutional-networks
+  numCitedBy: 4388
+  pid: 1109b663453e78a59e4f66446d71720ac58cec25
+  show_ref_link: true
+  title: OverFeat - Integrated Recognition, Localization and Detection using Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-microsoft-coco-common-objects-in-context
+  numCitedBy: 20273
+  pid: 71b7178df5d2b112d07e45038cb5637208659ff7
+  show_ref_link: true
+  title: Microsoft COCO - Common Objects in Context
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-time-memory-efficient-deep-architectures-with-budgeted-super-networks
+  numCitedBy: 66
+  pid: 3b8aa7a38bc60f7b42757e53a0801f6e71dcef5c
+  show_ref_link: false
+  title: Learning Time/Memory-Efficient Deep Architectures with Budgeted Super Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dynamic-network-surgery-for-efficient-dnns
+  numCitedBy: 737
+  pid: c220cdbcec6f92e4bc0f58c5fa6c1183105be1f9
+  show_ref_link: false
+  title: Dynamic Network Surgery for Efficient DNNs
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-xception-deep-learning-with-depthwise-separable-convolutions
+  numCitedBy: 6758
+  pid: 5b6ec746d309b165f9f9def873a2375b6fb40f3d
+  show_ref_link: true
+  title: Xception - Deep Learning with Depthwise Separable Convolutions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 33308
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-the-pascal-visual-object-classes-challenge-a-retrospective
+  numCitedBy: 3823
+  pid: 616b246e332573af1f4859aa91440280774c183a
+  show_ref_link: true
+  title: The Pascal Visual Object Classes Challenge - A Retrospective
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-pruning-filters-for-efficient-convnets
+  numCitedBy: 2180
+  pid: c2a1cb1612ba21e067a5c3ba478a8d73b796b77a
+  show_ref_link: true
+  title: Pruning Filters for Efficient ConvNets
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-design-of-efficient-convolutional-layers-using-single-intra-channel-convolution-topological-subdivisioning-and-spatial-bottleneck-structure
+  numCitedBy: 44
+  pid: d20da75866f500ee9fbfa859e69556702e1f50a4
+  show_ref_link: false
+  title: Design of Efficient Convolutional Layers using Single Intra-channel Convolution, Topological Subdivisioning and Spatial Bottleneck Structure
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dsd-regularizing-deep-neural-networks-with-dense-sparse-dense-training-flow
+  numCitedBy: 72
+  pid: 4690ff0ccfe8d160dd456d1d7900f8fd3b6ad782
+  show_ref_link: false
+  title: DSD - Regularizing Deep Neural Networks with Dense-Sparse-Dense Training Flow
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-large-scale-evolution-of-image-classifiers
+  numCitedBy: 1118
+  pid: f108b65fe0003e387e1cd7e50f537af0531818e4
+  show_ref_link: true
+  title: Large-Scale Evolution of Image Classifiers
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-connectivity-learning-in-multi-branch-networks
+  numCitedBy: 24
+  pid: 610eaed09988471e49fc458a9dd828889dff23b0
+  show_ref_link: false
+  title: Connectivity Learning in Multi-Branch Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-shufflenet-an-extremely-efficient-convolutional-neural-network-for-mobile-devices
+  numCitedBy: 3251
+  pid: 9da734397acd7ff7c557960c62fb1b400b27bd89
+  show_ref_link: true
+  title: ShuffleNet - An Extremely Efficient Convolutional Neural Network for Mobile Devices
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-time-efficient-deep-architectures-with-budgeted-super-networks
+  numCitedBy: 18
+  pid: da6d086617239f5668076515bf78790d4ec0af2a
+  show_ref_link: false
+  title: Learning Time-Efficient Deep Architectures with Budgeted Super Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-residual-networks-are-exponential-ensembles-of-relatively-shallow-networks
+  numCitedBy: 99
+  pid: ec6bb39f18f20dbb504790a5f7089e40de33b169
+  show_ref_link: false
+  title: Residual Networks are Exponential Ensembles of Relatively Shallow Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-power-of-sparsity-in-convolutional-neural-networks
+  numCitedBy: 96
+  pid: d5710bce2dda5d01cb14644281731394ff719265
+  show_ref_link: false
+  title: The Power of Sparsity in Convolutional Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scalable-bayesian-optimization-using-deep-neural-networks
+  numCitedBy: 711
+  pid: 93bc65d2842b8cc5f3cf72ebc5b8f75daeacea35
+  show_ref_link: false
+  title: Scalable Bayesian Optimization Using Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9255
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-on-the-number-of-linear-regions-of-deep-neural-networks
+  numCitedBy: 927
+  pid: b034b5769ab94acf9fb8ae48c7edb560a300bb63
+  show_ref_link: false
+  title: On the Number of Linear Regions of Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-semantic-contours-from-inverse-detectors
+  numCitedBy: 1078
+  pid: 82fae97673a353271b1d4c001afda1af6ef6dc23
+  show_ref_link: true
+  title: Semantic contours from inverse detectors
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-second-order-derivatives-for-network-pruning-optimal-brain-surgeon
+  numCitedBy: 1594
+  pid: a42954d4b9d0ccdf1036e0af46d87a01b94c3516
+  show_ref_link: false
+  title: Second Order Derivatives for Network Pruning - Optimal Brain Surgeon
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-random-search-for-hyper-parameter-optimization
+  numCitedBy: 5726
+  pid: 188e247506ad992b8bc62d6c74789e89891a984f
+  show_ref_link: true
+  title: Random Search for Hyper-Parameter Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-optimal-brain-damage
+  numCitedBy: 3518
+  pid: e7297db245c3feb1897720b173a59fe7e36babb7
+  show_ref_link: false
+  title: Optimal Brain Damage
+  year: 1989
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1990-in-advances-in-neural-information-processing-systems
+  numCitedBy: 4734
+  pid: 69d7086300e7f5322c06f2f242a565b3a182efb5
+  show_ref_link: false
+  title: In Advances in Neural Information Processing Systems
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-a-real-time-algorithm-for-signal-analysis-with-the-help-of-the-wavelet-transform
+  numCitedBy: 766
+  pid: ef3ed634a28eee78a7e31fc525cf7083e6689345
+  show_ref_link: false
+  title: A real-time algorithm for signal analysis with the help of the wavelet transform
+  year: 1989
+slug: MobileNetV2:-Inverted-Residuals-and-Linear-Sandler-Howard
+title: MobileNetV2 - Inverted Residuals and Linear Bottlenecks
+url: https://www.semanticscholar.org/paper/MobileNetV2:-Inverted-Residuals-and-Linear-Sandler-Howard/dd9cfe7124c734f5a6fc90227d541d3dbcd72ba4?sort=total-citations
+venue: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+year: 2018

@@ -1,0 +1,272 @@
+authors:
+- D. Golovin
+- Benjamin Solnik
+- Subhodeep Moitra
+- G. Kochanski
+- J. Karro
+- D. Sculley
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 19971112
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-google-vizier-a-service-for-black-box-optimization
+numCitedBy: 524
+numCiting: 38
+paperAbstract: Any sufficiently complex system acts as a black box when it becomes easier to experiment with than to understand. Hence, black-box optimization has become increasingly important as systems have become more complex. In this paper we describe Google Vizier, a Google-internal service for performing black-box optimization that has become the de facto parameter tuning engine at Google. Google Vizier is used to optimize many of our machine learning models and other systems, and also provides core capabilities to Google's Cloud Machine Learning HyperTune subsystem. We discuss our requirements, infrastructure design, underlying algorithms, and advanced features such as transfer learning and automated early stopping that the service provides.
+ref_count: 38
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-real-parameter-black-box-optimization-benchmarking-2009-noiseless-functions-definitions
+  numCitedBy: 510
+  pid: bb7e4027d8f949c40c368f727577b68487440318
+  show_ref_link: false
+  title: Real-Parameter Black-Box Optimization Benchmarking 2009 - Noiseless Functions Definitions
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-collaborative-hyperparameter-tuning
+  numCitedBy: 267
+  pid: ea57e9e2d557fa6e944b69bbe4420ef61c122e4c
+  show_ref_link: false
+  title: Collaborative hyperparameter tuning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
+  numCitedBy: 2055
+  pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
+  show_ref_link: true
+  title: Sequential Model-Based Optimization for General Algorithm Configuration
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-taking-the-human-out-of-the-loop-a-review-of-bayesian-optimization
+  numCitedBy: 2376
+  pid: 0a2586e0a5f8bb4e35aa0763a6b8bca428af6bd2
+  show_ref_link: true
+  title: Taking the Human Out of the Loop - A Review of Bayesian Optimization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-speeding-up-automatic-hyperparameter-optimization-of-deep-neural-networks-by-extrapolation-of-learning-curves
+  numCitedBy: 438
+  pid: efb4431579a46d9cfa51b4ebbd4ddb9f44a30246
+  show_ref_link: false
+  title: Speeding Up Automatic Hyperparameter Optimization of Deep Neural Networks by Extrapolation of Learning Curves
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-bayesian-optimization-with-robust-bayesian-neural-networks
+  numCitedBy: 301
+  pid: 30423f985355d74295546f1d14ed2ddd33cdef99
+  show_ref_link: false
+  title: Bayesian Optimization with Robust Bayesian Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scalable-bayesian-optimization-using-deep-neural-networks
+  numCitedBy: 711
+  pid: 93bc65d2842b8cc5f3cf72ebc5b8f75daeacea35
+  show_ref_link: false
+  title: Scalable Bayesian Optimization Using Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-algorithms-for-hyper-parameter-optimization
+  numCitedBy: 2516
+  pid: 03911c85305d42aa2eeb02be82ef6fb7da644dd0
+  show_ref_link: true
+  title: Algorithms for Hyper-Parameter Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-hyperband-a-novel-bandit-based-approach-to-hyperparameter-optimization
+  numCitedBy: 1129
+  pid: 892f9a2f69241feec647856cd26bed37e04fd747
+  show_ref_link: false
+  title: Hyperband - A Novel Bandit-Based Approach to Hyperparameter Optimization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-efficient-transfer-learning-method-for-automatic-hyperparameter-tuning
+  numCitedBy: 149
+  pid: 4d289c568cf52f9b448e81e5fdfbbac9f99c3090
+  show_ref_link: false
+  title: Efficient Transfer Learning Method for Automatic Hyperparameter Tuning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-optimization-under-unknown-constraints
+  numCitedBy: 121
+  pid: d14c006bb1eccb2a543ebe339c7c9024a8018c0f
+  show_ref_link: false
+  title: Optimization Under Unknown Constraints
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-capacity-and-trainability-in-recurrent-neural-networks
+  numCitedBy: 167
+  pid: 401d68e1a930b0f7e02030cab4c185fb1839cb11
+  show_ref_link: false
+  title: Capacity and Trainability in Recurrent Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-parallelizing-exploration-exploitation-tradeoffs-with-gaussian-process-bandit-optimization
+  numCitedBy: 372
+  pid: 2a802bd3c0d63ee1e43f1e31633e90b399c1a789
+  show_ref_link: false
+  title: Parallelizing Exploration-Exploitation Tradeoffs with Gaussian Process Bandit Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-kernel-learning
+  numCitedBy: 501
+  pid: 34ab95637e7723302058f6526e33dc73857b9af2
+  show_ref_link: false
+  title: Deep Kernel Learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-bayesian-optimization-with-unknown-constraints
+  numCitedBy: 273
+  pid: 050ee7cb77800f4d07b517d028d1da8c0c48345b
+  show_ref_link: false
+  title: Bayesian Optimization with Unknown Constraints
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: "2011-d\xB3-data-driven-documents"
+  numCitedBy: 1868
+  pid: 4f9630d72ae64e50b2cc110e7b10834e965e86fe
+  show_ref_link: false
+  title: "D\xB3 Data-Driven Documents"
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-d-3-data-driven-documents
+  numCitedBy: 2143
+  pid: ef05628ed2f8068246e837ae20991bbf0c78fc42
+  show_ref_link: false
+  title: D 3 - Data-Driven Documents
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-derivative-free-optimization-a-review-of-algorithms-and-comparison-of-software-implementations
+  numCitedBy: 1022
+  pid: 580b166bab3796ccf35abdff6b0677986913a5d6
+  show_ref_link: false
+  title: Derivative-free optimization - a review of algorithms and comparison of software implementations
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-freeze-thaw-bayesian-optimization
+  numCitedBy: 205
+  pid: 52d97890dbc290108136739ec2afe0f2b6c4f570
+  show_ref_link: false
+  title: Freeze-Thaw Bayesian Optimization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-completely-derandomized-self-adaptation-in-evolution-strategies
+  numCitedBy: 3374
+  pid: f1bdebedf07fd444628c955568f0d51e1a26835e
+  show_ref_link: false
+  title: Completely Derandomized Self-Adaptation in Evolution Strategies
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-gaussian-process-optimization-in-the-bandit-setting-no-regret-and-experimental-design
+  numCitedBy: 1656
+  pid: 0c8413ab8de0c1b8f2e86402b8d737d94371610f
+  show_ref_link: false
+  title: Gaussian Process Optimization in the Bandit Setting - No Regret and Experimental Design
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-bayesian-optimization-with-inequality-constraints
+  numCitedBy: 266
+  pid: 5918ae75d71ff737ed002a0d2d4d720d8a94c6b6
+  show_ref_link: false
+  title: Bayesian Optimization with Inequality Constraints
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-gaussian-processes-for-machine-learning-adaptive-computation-and-machine-learning
+  numCitedBy: 2549
+  pid: 1d41d6ec4805f80b84a1ccd17f6753ba71e107f7
+  show_ref_link: false
+  title: Gaussian Processes for Machine Learning (Adaptive Computation and Machine Learning)
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-state-of-the-art-of-parallel-coordinates
+  numCitedBy: 251
+  pid: b85ccac3e7c217416263edcc6c55db508b5c4c0d
+  show_ref_link: false
+  title: State of the Art of Parallel Coordinates
+  year: 2013
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1995-response-surface-bandits
+  numCitedBy: 40
+  pid: 6f26844815af91bd87c29ce4ca39cbad0bf6a329
+  show_ref_link: false
+  title: Response surface bandits
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-neural-network-regularization
+  numCitedBy: 1997
+  pid: f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97
+  show_ref_link: true
+  title: Recurrent Neural Network Regularization
+  year: 2014
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1965-a-simplex-method-for-function-minimization
+  numCitedBy: 25684
+  pid: 017ddb7e815236defd0566bc46f6ed8401cc6ba6
+  show_ref_link: false
+  title: A Simplex Method for Function Minimization
+  year: 1965
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1959-sequential-design-of-experiments
+  numCitedBy: 179
+  pid: f3ca1c8afc4cd641fd7641552400f32b39e82390
+  show_ref_link: false
+  title: Sequential Design of Experiments
+  year: 1959
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-introduction-to-derivative-free-optimization
+  numCitedBy: 616
+  pid: b991bdda32ac059f684c89e7278c21e721ac662d
+  show_ref_link: false
+  title: Introduction to derivative-free optimization
+  year: 2010
+slug: Google-Vizier:-A-Service-for-Black-Box-Optimization-Golovin-Solnik
+title: Google Vizier - A Service for Black-Box Optimization
+url: https://www.semanticscholar.org/paper/Google-Vizier:-A-Service-for-Black-Box-Optimization-Golovin-Solnik/938f6ef7eed095919e6a482c7f1836a01d62db4b?sort=total-citations
+venue: KDD
+year: 2017

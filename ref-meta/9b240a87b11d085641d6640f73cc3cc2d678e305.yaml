@@ -1,0 +1,135 @@
+authors:
+- Ravi Teja Mullapudi
+- Andrew Adams
+- Dillon Sharlet
+- Jonathan Ragan-Kelley
+- Kayvon Fatahalian
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 14400771
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-automatically-scheduling-halide-image-processing-pipelines
+numCitedBy: 129
+numCiting: 17
+paperAbstract: The Halide image processing language has proven to be an effective system for authoring high-performance image processing code. Halide programmers need only provide a high-level strategy for mapping an image processing pipeline to a parallel machine (a schedule), and the Halide compiler carries out the mechanical task of generating platform-specific code that implements the schedule. Unfortunately, designing high-performance schedules for complex image processing pipelines requires substantial knowledge of modern hardware architecture and code-optimization techniques. In this paper we provide an algorithm for automatically generating high-performance schedules for Halide programs. Our solution extends the function bounds analysis already present in the Halide compiler to automatically perform locality and parallelism-enhancing global program transformations typical of those employed by expert Halide developers. The algorithm does not require costly (and often impractical) auto-tuning, and, in seconds, generates schedules for a broad set of image processing benchmarks that are performance-competitive with, and often better than, schedules manually authored by expert Halide developers on server and mobile CPUs, as well as GPUs.
+ref_count: 17
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-polymage-automatic-optimization-for-image-processing-pipelines
+  numCitedBy: 175
+  pid: 0b9aaee517e0cabb274f5d7cfb01d8f58e51d76e
+  show_ref_link: false
+  title: PolyMage - Automatic Optimization for Image Processing Pipelines
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-decoupling-algorithms-from-schedules-for-easy-optimization-of-image-processing-pipelines
+  numCitedBy: 247
+  pid: 3e06546182d5a36796a0f48e70151bf1d38e094d
+  show_ref_link: false
+  title: Decoupling algorithms from schedules for easy optimization of image processing pipelines
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-halide-a-language-and-compiler-for-optimizing-parallelism-locality-and-recomputation-in-image-processing-pipelines
+  numCitedBy: 878
+  pid: d032f74b16457584f8a60ae07cfef9b617033638
+  show_ref_link: false
+  title: Halide - a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-darkroom-compiling-high-level-image-processing-code-into-hardware-pipelines
+  numCitedBy: 141
+  pid: 6e0c9e737eb7eb153a6b4a000faae3c1c6c753e4
+  show_ref_link: false
+  title: Darkroom - compiling high-level image processing code into hardware pipelines
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rigel-flexible-multi-rate-image-processing-hardware
+  numCitedBy: 55
+  pid: 188b34bd43c46ebff860b7154445c3c8e4e0530c
+  show_ref_link: false
+  title: Rigel - flexible multi-rate image processing hardware
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-opentuner-an-extensible-framework-for-program-autotuning
+  numCitedBy: 425
+  pid: 1ccaac0fdcc5ab37a45d0cc616feeaa67a3d4ca1
+  show_ref_link: false
+  title: OpenTuner - An extensible framework for program autotuning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-fast-cost-volume-filtering-for-visual-correspondence-and-beyond
+  numCitedBy: 898
+  pid: f908d2fb9cfcaff17030a912e4811fb02aaeec03
+  show_ref_link: false
+  title: Fast cost-volume filtering for visual correspondence and beyond
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-fast-nonlocal-filtering-applied-to-electron-cryomicroscopy
+  numCitedBy: 259
+  pid: 92a20aa459d9879a0611b3c138437262f96702fc
+  show_ref_link: false
+  title: Fast nonlocal filtering applied to electron cryomicroscopy
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-a-combined-corner-and-edge-detector
+  numCitedBy: 14160
+  pid: 6818668fb895d95861a2eb9673ddc3a41e27b3b3
+  show_ref_link: false
+  title: A Combined Corner and Edge Detector
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-convolution-pyramids
+  numCitedBy: 71
+  pid: 0a21db7f17c41025c12a7bba936b5a13ad21dfb8
+  show_ref_link: false
+  title: Convolution pyramids
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-an-introduction-to-halide
+  numCitedBy: 3
+  pid: e4cc78bc89454773fbca76cb6a3404be00cfce62
+  show_ref_link: false
+  title: An introduction to halide
+  year: 2015
+slug: Automatically-scheduling-halide-image-processing-Mullapudi-Adams
+title: Automatically scheduling halide image processing pipelines
+url: https://www.semanticscholar.org/paper/Automatically-scheduling-halide-image-processing-Mullapudi-Adams/9b240a87b11d085641d6640f73cc3cc2d678e305?sort=total-citations
+venue: ACM Trans. Graph.
+year: 2016

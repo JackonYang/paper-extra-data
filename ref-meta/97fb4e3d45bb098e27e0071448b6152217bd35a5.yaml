@@ -50,7 +50,7 @@ references:
   meta_key: 2017-recurrent-batch-normalization
   numCitedBy: 344
   pid: 952454718139dba3aafc6b3b67c4f514ac3964af
-  show_ref_link: false
+  show_ref_link: true
   title: Recurrent Batch Normalization
   year: 2017
 - fieldsOfStudy:
@@ -82,7 +82,7 @@ references:
   meta_key: 2016-deep-speech-2-end-to-end-speech-recognition-in-english-and-mandarin
   numCitedBy: 2237
   pid: 8ff840a40d3f1557c55c19d4d636da77103168ce
-  show_ref_link: false
+  show_ref_link: true
   title: Deep Speech 2 - End-to-End Speech Recognition in English and Mandarin
   year: 2016
 - fieldsOfStudy:
@@ -266,7 +266,7 @@ references:
   meta_key: 2016-theano-a-python-framework-for-fast-computation-of-mathematical-expressions
   numCitedBy: 2079
   pid: 6b570069f14c7588e066f7138e1f21af59d62e61
-  show_ref_link: false
+  show_ref_link: true
   title: Theano - A Python framework for fast computation of mathematical expressions
   year: 2016
 slug: Layer-Normalization-Ba-Kiros

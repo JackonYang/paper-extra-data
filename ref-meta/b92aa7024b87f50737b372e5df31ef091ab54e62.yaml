@@ -18,7 +18,7 @@ references:
   meta_key: 2015-highway-networks
   numCitedBy: 1155
   pid: e0945081b5b87187a53d4329cf77cd8bff635795
-  show_ref_link: false
+  show_ref_link: true
   title: Highway Networks
   year: 2015
 - fieldsOfStudy:
@@ -82,7 +82,7 @@ references:
   meta_key: 2015-fitnets-hints-for-thin-deep-nets
   numCitedBy: 2020
   pid: cd85a549add0c7c7def36aca29837efd24b24080
-  show_ref_link: false
+  show_ref_link: true
   title: FitNets - Hints for Thin Deep Nets
   year: 2015
 - fieldsOfStudy:
@@ -194,7 +194,7 @@ references:
   meta_key: 2016-grid-long-short-term-memory
   numCitedBy: 313
   pid: 5b791cd374c7109693aaddee2c12d659ae4e3ec0
-  show_ref_link: false
+  show_ref_link: true
   title: Grid Long Short-Term Memory
   year: 2016
 - fieldsOfStudy:

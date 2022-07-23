@@ -1,0 +1,328 @@
+authors:
+- B. Efron
+- T. Hastie
+- I. Johnstone
+- R. Tibshirani
+badges:
+- id: OPEN_ACCESS
+corpusId: 121570279
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-least-angle-regression
+numCitedBy: 7911
+numCiting: 38
+paperAbstract: 'The purpose of model selection algorithms such as All Subsets, Forward Selection and Backward Elimination is to choose a linear model on the basis of the same set of data to which the model will be applied. Typically we have available a large collection of possible covariates from which we hope to select a parsimonious set for the efficient prediction of a response variable. Least Angle Regression (LARS), a new model selection algorithm, is a useful and less greedy version of traditional forward selection methods. Three main properties are derived: (1) A simple modification of the LARS algorithm implements the Lasso, an attractive version of ordinary least squares that constrains the sum of the absolute regression coefficients; the LARS modification calculates all possible Lasso estimates for a given problem, using an order of magnitude less computer time than previous methods. (2) A different LARS modification efficiently implements Forward Stagewise linear regression, another promising new model selection method; this connection explains the similar numerical results previously observed for the Lasso and Stagewise, and helps us understand the properties of both methods, which are seen as constrained versions of the simpler LARS algorithm. (3) A simple approximation for the degrees of freedom of a LARS estimate is available, from which we derive a Cp estimate of prediction error; this allows a principled choice among the range of possible LARS estimates. LARS and its variants are computationally efficient: the paper describes a publicly available algorithm that requires only the same order of magnitude of computational effort as ordinary least squares applied to the full set of covariates.'
+ref_count: 38
+references:
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1992-the-little-bootstrap-and-other-methods-for-dimensionality-selection-in-regression-x-fixed-prediction-error
+  numCitedBy: 269
+  pid: d97d7f1109206fe6925badd934b4c8dc9a3b380d
+  show_ref_link: false
+  title: The Little Bootstrap and other Methods for Dimensionality Selection in Regression - X-Fixed Prediction Error
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gaussian-model-selection
+  numCitedBy: 484
+  pid: 91f758bb644d1d1f93d75c33265582d27eccd33e
+  show_ref_link: false
+  title: Gaussian model selection
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-regression-shrinkage-and-selection-via-the-lasso
+  numCitedBy: 36759
+  pid: b365b8e45b7d81f081de44ac8f9eadf9144f3ca5
+  show_ref_link: true
+  title: Regression Shrinkage and Selection via the Lasso
+  year: 1996
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 2000-a-new-approach-to-variable-selection-in-least-squares-problems
+  numCitedBy: 916
+  pid: db31973871f5648cffb02e7590582376e16ad0bb
+  show_ref_link: false
+  title: A new approach to variable selection in least squares problems
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2000-on-the-lasso-and-its-dual
+  numCitedBy: 725
+  pid: 7aa39f7f3b69473705e247dd2b3a9689f10fbbc3
+  show_ref_link: false
+  title: On the LASSO and its Dual
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1993-linear-model-selection-by-cross-validation
+  numCitedBy: 1599
+  pid: e0149f4926373368a0d88f7fb57c5549500fd83a
+  show_ref_link: false
+  title: Linear Model Selection by Cross-validation
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-greedy-function-approximation-a-gradient-boosting-machine
+  numCitedBy: 13931
+  pid: 1679beddda3a183714d380e944fe6bf586c083cd
+  show_ref_link: true
+  title: Greedy function approximation - A gradient boosting machine.
+  year: 2001
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1994-the-risk-inflation-criterion-for-multiple-regression
+  numCitedBy: 599
+  pid: f9f15d0c475479c5afa6e53691cd8e0b16752ffc
+  show_ref_link: false
+  title: The risk inflation criterion for multiple regression
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-on-measuring-and-correcting-the-effects-of-data-mining-and-model-selection
+  numCitedBy: 510
+  pid: 1e94dbacf2fedaeaab614dfad3b1b40ebb7f4537
+  show_ref_link: false
+  title: On Measuring and Correcting the Effects of Data Mining and Model Selection
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1983-matrix-computations
+  numCitedBy: 26909
+  pid: 225ca57add3b3fb12ef01cc97c4683350dc93fe4
+  show_ref_link: false
+  title: Matrix computations
+  year: 1983
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-on-the-degrees-of-freedom-in-shape-restricted-regression
+  numCitedBy: 143
+  pid: 61f53054eecddcca3f78915e70c62aa80af1ec8f
+  show_ref_link: false
+  title: ON THE DEGREES OF FREEDOM IN SHAPE-RESTRICTED REGRESSION
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-an-information-theoretic-comparison-of-model-selection-criteria
+  numCitedBy: 11
+  pid: ba89e12ab370458aadff86ba38b4eea40c36100e
+  show_ref_link: false
+  title: An Information Theoretic Comparison of Model Selection Criteria
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-how-biased-is-the-apparent-error-rate-of-a-prediction-rule
+  numCitedBy: 589
+  pid: 8a501aaf2c52210eea45e1786b41233d6b62c774
+  show_ref_link: false
+  title: How Biased is the Apparent Error Rate of a Prediction Rule
+  year: 1986
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1995-better-subset-regression-using-the-nonnegative-garrote
+  numCitedBy: 1012
+  pid: 99eb3005e85f1528269aa09b5417d6ce51a33c87
+  show_ref_link: false
+  title: Better subset regression using the nonnegative garrote
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-boosting-as-a-regularized-path-to-a-maximum-margin-classifier
+  numCitedBy: 287
+  pid: f5616db9e1e377ef580bbe5c05b6e969b16dc222
+  show_ref_link: false
+  title: Boosting as a Regularized Path to a Maximum Margin Classifier
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-prediction-games-and-arcing-algorithms
+  numCitedBy: 551
+  pid: a92684c164b0c46020a371ae5116df74bb37a412
+  show_ref_link: false
+  title: Prediction Games and Arcing Algorithms
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-solving-least-squares-problems
+  numCitedBy: 4571
+  pid: b35e036e0226d923d03c06ae393084b40c9dec7e
+  show_ref_link: false
+  title: Solving least squares problems
+  year: 1995
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2003-detecting-differentially-expressed-genes-in-microarrays-using-bayesian-model-selection
+  numCitedBy: 176
+  pid: 4d6022aa45c5289f9e1cc378c8348f97e1625be4
+  show_ref_link: false
+  title: Detecting Differentially Expressed Genes in Microarrays Using Bayesian Model Selection
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1983-matrix-computations
+  numCitedBy: 26909
+  pid: 225ca57add3b3fb12ef01cc97c4683350dc93fe4
+  show_ref_link: false
+  title: Matrix computations
+  year: 1983
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1965-linear-statistical-inference-and-its-applications
+  numCitedBy: 2195
+  pid: 1a2edbdea7b7b8daec04f39effa5674b451dc0b0
+  show_ref_link: false
+  title: Linear statistical inference and its applications
+  year: 1965
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-adapting-to-unknown-sparsity-by-controlling-the-false-discovery-rate
+  numCitedBy: 434
+  pid: 1aacd77be39403ca1dbabc050ce89bea3162a00c
+  show_ref_link: false
+  title: Adapting to unknown sparsity by controlling the false discovery rate
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-bagging-predictors
+  numCitedBy: 5487
+  pid: 046b7f6b48e4d9fcf173dea0a0802d7e87b383e1
+  show_ref_link: false
+  title: Bagging Predictors
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1973-maximum-likelihood-identification-of-gaussian-autoregressive-moving-average-models
+  numCitedBy: 972
+  pid: 836512ed5226eaad454c48a81fcea21d48a36ef3
+  show_ref_link: false
+  title: Maximum likelihood identification of Gaussian autoregressive moving average models
+  year: 1973
+- fieldsOfStudy:
+  - Business
+  meta_key: 1995-controlling-the-false-discovery-rate-a-practical-and-powerful-approach-to-multiple-testing
+  numCitedBy: 75854
+  pid: fcef2258a963f3d3984a486185ddc4349c43aa35
+  show_ref_link: false
+  title: Controlling the false discovery rate - a practical and powerful approach to multiple testing
+  year: 1995
+- fieldsOfStudy:
+  - Economics
+  meta_key: 1981-a-statistic-for-allocating-c-p-to-individual-cases
+  numCitedBy: 18
+  pid: 81ce5dcdcf7b3852b8d4be739559192730dccc3b
+  show_ref_link: false
+  title: A Statistic for Allocating C p to Individual Cases
+  year: 1981
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1983-matrix-computations
+  numCitedBy: 26909
+  pid: 225ca57add3b3fb12ef01cc97c4683350dc93fe4
+  show_ref_link: false
+  title: Matrix computations
+  year: 1983
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1965-linear-statistical-inference-and-its-applications
+  numCitedBy: 2195
+  pid: 1a2edbdea7b7b8daec04f39effa5674b451dc0b0
+  show_ref_link: false
+  title: Linear statistical inference and its applications
+  year: 1965
+- fieldsOfStudy:
+  - Mathematics
+  - Business
+  meta_key: 1980-applied-linear-regression
+  numCitedBy: 2468
+  pid: 618288ca83856598cb047e5b053a24191225fb64
+  show_ref_link: false
+  title: Applied Linear Regression
+  year: 1980
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-some-comments-on-cp
+  numCitedBy: 1144
+  pid: f603e9476b6613e4f36c5848902a17b3af19e1cb
+  show_ref_link: false
+  title: Some Comments on Cp
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1998-graphs-in-statistical-analysis-is-the-medium-the-message
+  numCitedBy: 84
+  pid: 2f4c7253709d16cc50a9dbe671a843c816e25b1c
+  show_ref_link: false
+  title: Graphs in Statistical Analysis - Is the Medium the Message?
+  year: 1998
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-some-comments-on-cp
+  numCitedBy: 1144
+  pid: f603e9476b6613e4f36c5848902a17b3af19e1cb
+  show_ref_link: false
+  title: Some Comments on Cp
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1991-sliced-inverse-regression-for-dimension-reduction
+  numCitedBy: 1954
+  pid: 9a42098359624a4a62da7103a49e3ace2bcd1249
+  show_ref_link: false
+  title: Sliced Inverse Regression for Dimension Reduction
+  year: 1991
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1981-estimation-of-the-mean-of-a-multivariate-normal-distribution
+  numCitedBy: 2586
+  pid: dc423c0563ac6c80ae8af840c8560438644a0e59
+  show_ref_link: false
+  title: Estimation of the Mean of a Multivariate Normal Distribution
+  year: 1981
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-the-elements-of-statistical-learning-data-mining-inference-and-prediction-2nd-edition
+  numCitedBy: 13836
+  pid: bee570503aaa0ed5bc5dd4cf6aa742df0b5cef87
+  show_ref_link: false
+  title: The Elements of Statistical Learning - Data Mining, Inference, and Prediction, 2nd Edition
+  year: 2001
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-calibration-and-empirical-bayes-variable-selection
+  numCitedBy: 285
+  pid: 69b865c41e7e263b32854488ad09a63e1e7465d2
+  show_ref_link: false
+  title: Calibration and empirical Bayes variable selection
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-a-decision-theoretic-generalization-of-on-line-learning-and-an-application-to-boosting
+  numCitedBy: 13593
+  pid: 4ba566223e426677d12a9a18418c023a4deec77e
+  show_ref_link: true
+  title: A decision-theoretic generalization of on-line learning and an application to boosting
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1983-classification-and-regression-trees
+  numCitedBy: 16153
+  pid: 8017699564136f93af21575810d557dba1ee6fc6
+  show_ref_link: false
+  title: Classification and Regression Trees
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-uci-repository-of-machine-learning-databases
+  numCitedBy: 13482
+  pid: e068be31ded63600aea068eacd12931efd2a1029
+  show_ref_link: true
+  title: UCI Repository of machine learning databases
+  year: 1998
+slug: Least-angle-regression-Efron-Hastie
+title: Least angle regression
+url: https://www.semanticscholar.org/paper/Least-angle-regression-Efron-Hastie/1c7c5595dc7a1f5d360acf5c360ca1ca49536ba5?sort=total-citations
+venue: ''
+year: 2004

@@ -1,0 +1,182 @@
+authors:
+- J. Bergstra
+- R. Bardenet
+- Yoshua Bengio
+- "B. K\xE9gl"
+badges:
+- id: OPEN_ACCESS
+corpusId: 11688126
+fieldsOfStudy:
+- Computer Science
+meta_key: 2011-algorithms-for-hyper-parameter-optimization
+numCitedBy: 2516
+numCiting: 25
+paperAbstract: Several recent advances to the state of the art in image classification benchmarks have come from better configurations of existing techniques rather than novel approaches to feature learning. Traditionally, hyper-parameter optimization has been the job of humans because they can be very efficient in regimes where only a few trials are possible. Presently, computer clusters and GPU processors make it possible to run more trials and we show that algorithmic approaches can find better results. We present hyper-parameter optimization results on tasks of training neural networks and deep belief networks (DBNs). We optimize hyper-parameters using random search and two new greedy sequential methods based on the expected improvement criterion. Random search has been shown to be sufficiently efficient for learning neural networks for several datasets, but we show it is unreliable for training DBNs. The sequential algorithms are applied to the most difficult DBN learning problems from [1] and find significantly better results than the best previously reported. This work contributes novel techniques for making response surface models P(y|x) in which many elements of hyper-parameter assignment (x) are known to be irrelevant given particular values of other elements.
+ref_count: 25
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-an-analysis-of-single-layer-networks-in-unsupervised-feature-learning
+  numCitedBy: 2628
+  pid: be9a17321537d9289875fe475b71f4821457b435
+  show_ref_link: true
+  title: An Analysis of Single-Layer Networks in Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-surrogating-the-surrogate-accelerating-gaussian-process-based-global-optimization-with-a-mixture-cross-entropy-algorithm
+  numCitedBy: 42
+  pid: 560ac582a82dc0ce9765fc942f07f94908eaeeb3
+  show_ref_link: false
+  title: Surrogating the surrogate - accelerating Gaussian-process-based global optimization with a mixture cross-entropy algorithm
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-the-importance-of-encoding-versus-training-with-sparse-coding-and-vector-quantization
+  numCitedBy: 603
+  pid: 6f568d757d2c1ab42f2006faa25690b74c3d2d44
+  show_ref_link: false
+  title: The Importance of Encoding Versus Training with Sparse Coding and Vector Quantization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-fast-learning-algorithm-for-deep-belief-nets
+  numCitedBy: 13502
+  pid: 8978cf7574ceb35f4c3096be768c7547b28a35d0
+  show_ref_link: true
+  title: A Fast Learning Algorithm for Deep Belief Nets
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-an-empirical-evaluation-of-deep-architectures-on-problems-with-many-factors-of-variation
+  numCitedBy: 983
+  pid: b8012351bc5ebce4a4b3039bbbba3ce393bc3315
+  show_ref_link: false
+  title: An empirical evaluation of deep architectures on problems with many factors of variation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-random-search-for-hyper-parameter-optimization
+  numCitedBy: 5726
+  pid: 188e247506ad992b8bc62d6c74789e89891a984f
+  show_ref_link: true
+  title: Random Search for Hyper-Parameter Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-automated-configuration-of-algorithms-for-solving-hard-computational-problems
+  numCitedBy: 104
+  pid: 08c4fdd974d874c87ea87faa6b404a7b8eb72c73
+  show_ref_link: false
+  title: Automated configuration of algorithms for solving hard computational problems
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
+  numCitedBy: 2055
+  pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
+  show_ref_link: true
+  title: Sequential Model-Based Optimization for General Algorithm Configuration
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  - Biology
+  meta_key: 2009-a-high-throughput-screening-approach-to-discovering-good-forms-of-biologically-inspired-visual-representation
+  numCitedBy: 254
+  pid: d46fd54609e09bcd135fd28750003185a5ee4125
+  show_ref_link: false
+  title: A High-Throughput Screening Approach to Discovering Good Forms of Biologically Inspired Visual Representation
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-stacked-denoising-autoencoders-learning-useful-representations-in-a-deep-network-with-a-local-denoising-criterion
+  numCitedBy: 5655
+  pid: e2b7f37cd97a7907b1b8a41138721ed06a0b76cd
+  show_ref_link: true
+  title: Stacked Denoising Autoencoders - Learning Useful Representations in a Deep Network with a Local Denoising Criterion
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-gaussian-process-optimization-in-the-bandit-setting-no-regret-and-experimental-design
+  numCitedBy: 1656
+  pid: 0c8413ab8de0c1b8f2e86402b8d737d94371610f
+  show_ref_link: false
+  title: Gaussian Process Optimization in the Bandit Setting - No Regret and Experimental Design
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-gaussian-processes-for-machine-learning
+  numCitedBy: 18076
+  pid: 82266f6103bade9005ec555ed06ba20b5210ff22
+  show_ref_link: true
+  title: Gaussian Processes for Machine Learning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-an-informational-approach-to-the-global-optimization-of-expensive-to-evaluate-functions
+  numCitedBy: 304
+  pid: 55290c9496fdf0df54dfdbb57117aa58386f98bc
+  show_ref_link: false
+  title: An informational approach to the global optimization of expensive-to-evaluate functions
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-independent-component-analysis-algorithms-and-applications
+  numCitedBy: 7657
+  pid: 577d19a115f9ef6f002483fcf88adbb3b5479556
+  show_ref_link: false
+  title: Independent component analysis - algorithms and applications
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-estimation-of-distribution-algorithms-a-new-tool-for-evolutionary-computation
+  numCitedBy: 2116
+  pid: 4b6fb8bbff6cc0cd84f8cc36625c8b6f47874135
+  show_ref_link: false
+  title: Estimation of Distribution Algorithms - A New Tool for Evolutionary Computation
+  year: 2001
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2009-a-note-on-the-choice-and-the-estimation-of-kriging-models-for-the-analysis-of-deterministic-computer-experiments
+  numCitedBy: 25
+  pid: bddbb2ebf801a28defe10ebb067351a04c9db309
+  show_ref_link: false
+  title: A note on the choice and the estimation of Kriging models for the analysis of deterministic computer experiments
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-neural-networks-for-pattern-recognition
+  numCitedBy: 8586
+  pid: b9b1b1654ce0eea729c4160bfedcbb3246460b1d
+  show_ref_link: false
+  title: Neural networks for pattern recognition
+  year: 1995
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2006-the-cma-evolution-strategy-a-comparing-review
+  numCitedBy: 1737
+  pid: 95a1f9e009d16e141448fbfea33353b02e1e9335
+  show_ref_link: false
+  title: The CMA Evolution Strategy - A Comparing Review
+  year: 2006
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2001-a-taxonomy-of-global-optimization-methods-based-on-response-surfaces
+  numCitedBy: 1873
+  pid: a3db48fdc9aaf6921f269817ba4ed16b9b198394
+  show_ref_link: false
+  title: A Taxonomy of Global Optimization Methods Based on Response Surfaces
+  year: 2001
+slug: Algorithms-for-Hyper-Parameter-Optimization-Bergstra-Bardenet
+title: Algorithms for Hyper-Parameter Optimization
+url: https://www.semanticscholar.org/paper/Algorithms-for-Hyper-Parameter-Optimization-Bergstra-Bardenet/03911c85305d42aa2eeb02be82ef6fb7da644dd0?sort=total-citations
+venue: NIPS
+year: 2011

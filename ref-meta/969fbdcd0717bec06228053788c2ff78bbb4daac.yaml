@@ -1,0 +1,383 @@
+authors:
+- Forrest N. Iandola
+- M. Moskewicz
+- Khalid Ashraf
+- Song Han
+- W. Dally
+- K. Keutzer
+badges:
+- id: OPEN_ACCESS
+corpusId: 14136028
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-squeezenet-alexnet-level-accuracy-with-50x-fewer-parameters-and-1mb-model-size
+numCitedBy: 4092
+numCiting: 62
+paperAbstract: "Recent research on deep neural networks has focused primarily on improving accuracy. For a given accuracy level, it is typically possible to identify multiple DNN architectures that achieve that accuracy level. With equivalent accuracy, smaller DNN architectures offer at least three advantages: (1) Smaller DNNs require less communication across servers during distributed training. (2) Smaller DNNs require less bandwidth to export a new model from the cloud to an autonomous car. (3) Smaller DNNs are more feasible to deploy on FPGAs and other hardware with limited memory. To provide all of these advantages, we propose a small DNN architecture called SqueezeNet. SqueezeNet achieves AlexNet-level accuracy on ImageNet with 50x fewer parameters. Additionally, with model compression techniques we are able to compress SqueezeNet to less than 0.5MB (510x smaller than AlexNet). \nThe SqueezeNet architecture is available for download here: this https URL"
+ref_count: 62
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-convolutional-neural-networks-at-constrained-time-cost
+  numCitedBy: 864
+  pid: 8ad35df17ae4064dd174690efb04d347428f1117
+  show_ref_link: false
+  title: Convolutional neural networks at constrained time cost
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-firecaffe-near-linear-acceleration-of-deep-neural-network-training-on-compute-clusters
+  numCitedBy: 265
+  pid: b97ac54f4fd80ee34fa6d249a69793e03dd22d87
+  show_ref_link: false
+  title: FireCaffe - Near-Linear Acceleration of Deep Neural Network Training on Compute Clusters
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ristretto-hardware-oriented-approximation-of-convolutional-neural-networks
+  numCitedBy: 116
+  pid: 57713f4b3b9fbe6ceddfa8c26b4e1b99ad50a9b7
+  show_ref_link: false
+  title: Ristretto - Hardware-Oriented Approximation of Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-distributed-deep-learning-using-synchronous-stochastic-gradient-descent
+  numCitedBy: 142
+  pid: f4e5578dfe6483fd221b7118817297f7b70d3a27
+  show_ref_link: false
+  title: Distributed Deep Learning Using Synchronous Stochastic Gradient Descent
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-eie-efficient-inference-engine-on-compressed-deep-neural-network
+  numCitedBy: 1816
+  pid: 2e2b189f668cf2c06ebc44dc9b166648256cf457
+  show_ref_link: true
+  title: EIE - Efficient Inference Engine on Compressed Deep Neural Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15857
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8225
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-dsd-dense-sparse-dense-training-for-deep-neural-networks
+  numCitedBy: 138
+  pid: 950619635df80e87c6f25b486cc5eaad4d71d0b0
+  show_ref_link: false
+  title: DSD - Dense-Sparse-Dense Training for Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation
+  numCitedBy: 1281
+  pid: e5ae8ab688051931b4814f6d32b18391f8d1fa8d
+  show_ref_link: true
+  title: Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dsd-regularizing-deep-neural-networks-with-dense-sparse-dense-training-flow
+  numCitedBy: 72
+  pid: 4690ff0ccfe8d160dd456d1d7900f8fd3b6ad782
+  show_ref_link: false
+  title: DSD - Regularizing Deep Neural Networks with Dense-Sparse-Dense Training Flow
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12559
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-going-deeper-with-embedded-fpga-platform-for-convolutional-neural-network
+  numCitedBy: 897
+  pid: c382406fd8db2744b2a609837395e5da05e1d2ed
+  show_ref_link: false
+  title: Going Deeper with Embedded FPGA Platform for Convolutional Neural Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deeplogo-hitting-logo-recognition-with-the-deep-neural-network-hammer
+  numCitedBy: 71
+  pid: a4b8619160659f6bd4eba291278498e812ada554
+  show_ref_link: false
+  title: DeepLogo - Hitting Logo Recognition with the Deep Neural Network Hammer
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-decaf-a-deep-convolutional-activation-feature-for-generic-visual-recognition
+  numCitedBy: 4275
+  pid: b8de958fead0d8a9619b55c7299df3257c624a96
+  show_ref_link: true
+  title: DeCAF - A Deep Convolutional Activation Feature for Generic Visual Recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-systematic-evaluation-of-convolution-neural-network-advances-on-the-imagenet
+  numCitedBy: 170
+  pid: 94218118ca9ad441210fd17aa4f27389b2acbeb6
+  show_ref_link: false
+  title: Systematic evaluation of convolution neural network advances on the Imagenet
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-systematic-evaluation-of-cnn-advances-on-the-imagenet
+  numCitedBy: 156
+  pid: 5b0cea3a8b953fa277fa3bd1b6047dc4e81ab296
+  show_ref_link: false
+  title: Systematic evaluation of CNN advances on the ImageNet
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28464
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deformable-part-models-are-convolutional-neural-networks
+  numCitedBy: 376
+  pid: 244bae85fda807361a51d4b26a14ecb2b2f8776b
+  show_ref_link: false
+  title: Deformable part models are convolutional neural networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-segnet-a-deep-convolutional-encoder-decoder-architecture-for-image-segmentation
+  numCitedBy: 8529
+  pid: b0c065cd43aa7280e766b5dcbcc7e26abce59330
+  show_ref_link: false
+  title: SegNet - A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-shallow-networks-for-high-accuracy-road-object-detection
+  numCitedBy: 44
+  pid: 2bd5a52403ad94bce24182cf45d428c110ce4d7c
+  show_ref_link: false
+  title: Shallow Networks for High-accuracy Road Object-detection
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-highway-networks
+  numCitedBy: 1159
+  pid: e0945081b5b87187a53d4329cf77cd8bff635795
+  show_ref_link: true
+  title: Highway Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-densenet-implementing-efficient-convnet-descriptor-pyramids
+  numCitedBy: 452
+  pid: 5fc662287842e5cb2d23b5fa917354e957c573bf
+  show_ref_link: false
+  title: DenseNet - Implementing Efficient ConvNet Descriptor Pyramids
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-cudnn-efficient-primitives-for-deep-learning
+  numCitedBy: 1419
+  pid: 31c36d445367ba204244bb74893c5654e31c3869
+  show_ref_link: true
+  title: cuDNN - Efficient Primitives for Deep Learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-under-review-as-a-conference-paper-at-iclr-2017-delving-into-transferable-adversarial-ex-amples-and-black-box-attacks
+  numCitedBy: 488
+  pid: 94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f
+  show_ref_link: true
+  title: Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-mxnet-a-flexible-and-efficient-machine-learning-library-for-heterogeneous-distributed-systems
+  numCitedBy: 1891
+  pid: 62df84d6a4d26f95e4714796c2337c9848cc13b5
+  show_ref_link: true
+  title: MXNet - A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deformable-part-descriptors-for-fine-grained-recognition-and-attribute-prediction
+  numCitedBy: 230
+  pid: 19c9ac899d5c1a008eaee887556bc1b61ff8132e
+  show_ref_link: false
+  title: Deformable Part Descriptors for Fine-Grained Recognition and Attribute Prediction
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-chainer-a-next-generation-open-source-framework-for-deep-learning
+  numCitedBy: 750
+  pid: 67156902beca9bc90b728c8d5dd4ac9d8b27d3a3
+  show_ref_link: false
+  title: Chainer - a Next-Generation Open Source Framework for Deep Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-from-captions-to-visual-concepts-and-back
+  numCitedBy: 1111
+  pid: 15f102c3c9f4d4fe6ba105e221df48c6e8902b3b
+  show_ref_link: true
+  title: From captions to visual concepts and back
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1494
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-3d-object-proposals-for-accurate-object-class-detection
+  numCitedBy: 593
+  pid: 649a83816269558fdc2ea75fc01a393de3fb3eed
+  show_ref_link: false
+  title: 3D Object Proposals for Accurate Object Class Detection
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12985
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7920
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2002-evolving-neural-networks-through-augmenting-topologies
+  numCitedBy: 2994
+  pid: d03c916d49268d48fde3b76a68e64af7761835e7
+  show_ref_link: false
+  title: Evolving Neural Networks through Augmenting Topologies
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-an-optimization-methodology-for-neural-network-weights-and-architectures
+  numCitedBy: 156
+  pid: 237d78c01f6ef48fca5f8091ca042367e5426aa1
+  show_ref_link: false
+  title: An Optimization Methodology for Neural Network Weights and Architectures
+  year: 2006
+slug: SqueezeNet:-AlexNet-level-accuracy-with-50x-fewer-Iandola-Moskewicz
+title: SqueezeNet - AlexNet-level accuracy with 50x fewer parameters and <1MB model size
+url: https://www.semanticscholar.org/paper/SqueezeNet:-AlexNet-level-accuracy-with-50x-fewer-Iandola-Moskewicz/969fbdcd0717bec06228053788c2ff78bbb4daac?sort=total-citations
+venue: ArXiv
+year: 2016

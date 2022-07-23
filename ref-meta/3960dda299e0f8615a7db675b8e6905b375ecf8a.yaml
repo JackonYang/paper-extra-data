@@ -1,0 +1,131 @@
+authors:
+- L. D. Moura
+- "N. Bj\xF8rner"
+badges:
+- id: OPEN_ACCESS
+corpusId: 15912959
+fieldsOfStudy:
+- Computer Science
+meta_key: 2008-z3-an-efficient-smt-solver
+numCitedBy: 6280
+numCiting: 16
+paperAbstract: 'Satisfiability Modulo Theories (SMT) problem is a decision problem for logical first order formulas with respect to combinations of background theories such as: arithmetic, bit-vectors, arrays, and uninterpreted functions. Z3 is a new and efficient SMT Solver freely available from Microsoft Research. It is used in various software verification and analysis applications.'
+ref_count: 16
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-efficient-e-matching-for-smt-solvers
+  numCitedBy: 253
+  pid: 4eb2c5e05ab5c53f20c6050f8252a30cc23561be
+  show_ref_link: false
+  title: Efficient E-Matching for SMT Solvers
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-back-to-the-future-revisiting-precise-program-verification-using-smt-solvers
+  numCitedBy: 165
+  pid: 4662e89d0e3d3265e894a6e2d0c79c5570475216
+  show_ref_link: false
+  title: Back to the future - revisiting precise program verification using SMT solvers
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-simplify-a-theorem-prover-for-program-checking
+  numCitedBy: 863
+  pid: 8c45e059a11b1c6398b45c92610804e1f28336d4
+  show_ref_link: false
+  title: Simplify - a theorem prover for program checking
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-synergy-a-new-algorithm-for-property-checking
+  numCitedBy: 249
+  pid: 03705958cb453b90654564c6b735031b2cb60ba6
+  show_ref_link: false
+  title: SYNERGY - a new algorithm for property checking
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-model-based-theory-combination
+  numCitedBy: 85
+  pid: 9c22ecf6afaa8f36b4c2a84cbeb8006ea4697acf
+  show_ref_link: false
+  title: Model-based Theory Combination
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-fast-linear-arithmetic-solver-for-dpll-t
+  numCitedBy: 744
+  pid: e64d79a5c57b1f5c6123f230c5c32281c482aaff
+  show_ref_link: false
+  title: A Fast Linear-Arithmetic Solver for DPLL(T)
+  year: 2006
+- fieldsOfStudy:
+  - Business
+  meta_key: 2007-relevancy-propagation
+  numCitedBy: 22
+  pid: dbd722b250275cd5fea1f5224eef89bac89a8968
+  show_ref_link: false
+  title: Relevancy Propagation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-automated-deduction-cade-21-21st-international-conference-on-automated-deduction-bremen-germany-july-17-20-2007-proceedings
+  numCitedBy: 179
+  pid: d996394a30755d1b4590454183a663bcb81c7410
+  show_ref_link: false
+  title: Automated Deduction - CADE-21, 21st International Conference on Automated Deduction, Bremen, Germany, July 17-20, 2007, Proceedings
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-boogiepl-a-typed-procedural-language-for-checking-object-oriented-programs
+  numCitedBy: 166
+  pid: 051ec4b4cbc38d0b42882b8be11ddb42e5324c39
+  show_ref_link: false
+  title: BoogiePL - A typed procedural language for checking object-oriented programs
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-the-spec-programming-system-an-overview
+  numCitedBy: 1181
+  pid: 239e8f924eaefba08e461119a2eaebcd43e02247
+  show_ref_link: false
+  title: The Spec# Programming System - An Overview
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-unit-tests-reloaded-parameterized-unit-testing-with-symbolic-execution
+  numCitedBy: 90
+  pid: dbaed216728751bdece69dc292e52632bbfae262
+  show_ref_link: false
+  title: Unit tests reloaded - parameterized unit testing with symbolic execution
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-the-slam-project-debugging-system-software-via-static-analysis
+  numCitedBy: 974
+  pid: 5459cd31ff0f182da81d5c58026546b995118676
+  show_ref_link: false
+  title: The SLAM project - debugging system software via static analysis
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-mobile-resource-guarantees-for-smart-devices
+  numCitedBy: 199
+  pid: 37db9cfe51adaa20d0353dd210958e5ca679bfc8
+  show_ref_link: false
+  title: Mobile Resource Guarantees for Smart Devices
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-vigilante-end-to-end-containment-of-internet-worms
+  numCitedBy: 542
+  pid: cc9ae5b0b797acbdd901d213e6bbabc91547a6d7
+  show_ref_link: false
+  title: Vigilante - end-to-end containment of internet worms
+  year: 2005
+slug: "Z3:-An-Efficient-SMT-Solver-Moura-Bj\xF8rner"
+title: Z3 - An Efficient SMT Solver
+url: "https://www.semanticscholar.org/paper/Z3:-An-Efficient-SMT-Solver-Moura-Bj\xF8rner/3960dda299e0f8615a7db675b8e6905b375ecf8a?sort=total-citations"
+venue: TACAS
+year: 2008

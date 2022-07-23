@@ -1,0 +1,333 @@
+authors:
+- Pedro M. Domingos
+- M. Pazzani
+badges:
+- id: OPEN_ACCESS
+corpusId: 77139
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-on-the-optimality-of-the-simple-bayesian-classifier-under-zero-one-loss
+numCitedBy: 3137
+numCiting: 60
+paperAbstract: The simple Bayesian classifier is known to be optimal when attributes are independent given the class, but the question of whether other sufficient conditions for its optimality exist has so far not been explored. Empirical results showing that it performs surprisingly well in many domains containing clear attribute dependences suggest that the answer to this question may be positive. This article shows that, although the Bayesian classifier's probability estimates are only optimal under quadratic loss if the independence assumption holds, the classifier itself can be optimal under zero-one loss (misclassification rate) even when this assumption is violated by a wide margin. The region of quadratic-loss optimality of the Bayesian classifier is in fact a second-order infinitesimal fraction of the region of zero-one optimality. This implies that the Bayesian classifier has a much greater range of applicability than previously thought. For example, in this article it is shown to be optimal for learning conjunctions and disjunctions, even though they violate the independence assumption. Further, studies in artificial domains show that it will often outperform more powerful classifiers for common training set sizes and numbers of attributes, even if its bias is a priori much less appropriate to the domain. This article's results also imply that detecting attribute dependence is not necessarily the best way to extend the Bayesian classifier, and this is also verified empirically.
+ref_count: 60
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-beyond-independence-conditions-for-the-optimality-of-the-simple-bayesian-classifier
+  numCitedBy: 876
+  pid: 217a0ecf9795721f9f3661f5562a5b1afd4a3b59
+  show_ref_link: false
+  title: Beyond Independence - Conditions for the Optimality of the Simple Bayesian Classifier
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-bayesian-network-classifiers
+  numCitedBy: 4554
+  pid: c76ac0a39577760d4aaf6fce98327543ec64a560
+  show_ref_link: false
+  title: Bayesian Network Classifiers
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-learning-limited-dependence-bayesian-classifiers
+  numCitedBy: 431
+  pid: 0d136cd362fb9d38cec1b6dbbf41c3d693c2cec1
+  show_ref_link: false
+  title: Learning Limited Dependence Bayesian Classifiers
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-an-analysis-of-bayesian-classiiers
+  numCitedBy: 78
+  pid: 1925bacaa10b4ec83a0509132091bb79243b41b6
+  show_ref_link: false
+  title: An Analysis of Bayesian Classiiers
+  year: 1992
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2004-on-bias-variance-0-1-loss-and-the-curse-of-dimensionality
+  numCitedBy: 871
+  pid: 15252afe259894bd3d0f306f29eca5e90ab05eac
+  show_ref_link: false
+  title: On Bias, Variance, 0/1-Loss, and the Curse-of-Dimensionality
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-an-analysis-of-bayesian-classifiers
+  numCitedBy: 1357
+  pid: 5e40ea249dfad6d8d133b7917ca031c0b32410a5
+  show_ref_link: false
+  title: An Analysis of Bayesian Classifiers
+  year: 1992
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1980-sensitivity-analysis-in-bayesian-classification-models-multiplicative-deviations
+  numCitedBy: 24
+  pid: 34d3cc43929c49bd4bb5f8fff9ea987f11ffe993
+  show_ref_link: false
+  title: Sensitivity Analysis in Bayesian Classification Models - Multiplicative Deviations
+  year: 1980
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-searching-for-dependencies-in-bayesian-classifiers
+  numCitedBy: 228
+  pid: 09eec628ca1d377b4b1878f912411ebba5e82651
+  show_ref_link: false
+  title: Searching for Dependencies in Bayesian Classifiers
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-induction-of-selective-bayesian-classifiers
+  numCitedBy: 785
+  pid: d63c7b3b86276a6085e8ff7a104a3fd8864b8c02
+  show_ref_link: false
+  title: Induction of Selective Bayesian Classifiers
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-eecient-learning-of-selective-bayesian-network-classiiers
+  numCitedBy: 19
+  pid: a1c44a5f503880aea901de1eff1a2e6ad39ec0b7
+  show_ref_link: false
+  title: Eecient Learning of Selective Bayesian Network Classiiers
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-a-comparison-of-induction-algorithms-for-selective-and-non-selective-bayesian-classifiers
+  numCitedBy: 62
+  pid: 048497a422f330721c7606272b46ff83ae843ea3
+  show_ref_link: false
+  title: A Comparison of Induction Algorithms for Selective and non-Selective Bayesian Classifiers
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-scaling-up-the-accuracy-of-naive-bayes-classifiers-a-decision-tree-hybrid
+  numCitedBy: 1522
+  pid: 34ae1e95775cfec793441c9f588a68c0020f21e5
+  show_ref_link: false
+  title: Scaling Up the Accuracy of Naive-Bayes Classifiers - A Decision-Tree Hybrid
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 1995-estimating-continuous-distributions-in-bayesian-classifiers
+  numCitedBy: 3409
+  pid: 7d4642da036febe5174da1390521444ef405c864
+  show_ref_link: false
+  title: Estimating Continuous Distributions in Bayesian Classifiers
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-induction-of-recursive-bayesian-classifiers
+  numCitedBy: 127
+  pid: 7b47df505a1a00f2e7a464321f6033bd88f0b2b1
+  show_ref_link: false
+  title: Induction of Recursive Bayesian Classifiers
+  year: 1993
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1983-the-effect-of-assuming-independence-in-applying-bayes-theorem-to-risk-estimation-and-classification-in-diagnosis
+  numCitedBy: 49
+  pid: d0ef657ae02606f8c1950ba0cffb48a3320ddc87
+  show_ref_link: false
+  title: The effect of assuming independence in applying Bayes' theorem to risk estimation and classification in diagnosis.
+  year: 1983
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1994-error-rates-in-quadratic-discrimination-with-constraints-on-the-covariance-matrices
+  numCitedBy: 43
+  pid: 1cad0c0e1368fffafcfbc3ab83e141d64f485138
+  show_ref_link: false
+  title: Error rates in quadratic discrimination with constraints on the covariance matrices
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-bias-variance-and-arcing-classifiers
+  numCitedBy: 639
+  pid: d414438926b73bde0313948d8b074cb5360a0e6f
+  show_ref_link: false
+  title: Bias, Variance , And Arcing Classifiers
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-efficient-learning-of-selective-bayesian-network-classifiers
+  numCitedBy: 102
+  pid: 23b13dc758bc0bf70e783a617085283d824216b1
+  show_ref_link: false
+  title: Efficient Learning of Selective Bayesian Network Classifiers
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-semi-naive-bayesian-classifier
+  numCitedBy: 375
+  pid: 343115f687957110e56dfdf430a65ee4490a77ab
+  show_ref_link: false
+  title: Semi-Naive Bayesian Classifier
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-quantifying-inductive-bias-ai-learning-algorithms-and-valiant-s-learning-framework
+  numCitedBy: 551
+  pid: 3b814ad3055d6bfd7828effdbfbf1372646b7c22
+  show_ref_link: false
+  title: Quantifying Inductive Bias - AI Learning Algorithms and Valiant's Learning Framework
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 1995-wrappers-for-performance-enhancements-and-oblivious-decision-graphs
+  numCitedBy: 350
+  pid: 49f6fe73703ecad9271b23697da8902fe49348b4
+  show_ref_link: false
+  title: Wrappers for Performance Enhancements and Oblivious Decision Graphs.
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-supervised-and-unsupervised-discretization-of-continuous-features
+  numCitedBy: 2156
+  pid: be3cdcd1e0e668d209c7ac30cbf083854e80046e
+  show_ref_link: false
+  title: Supervised and Unsupervised Discretization of Continuous Features
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-bias-plus-variance-decomposition-for-zero-one-loss-functions
+  numCitedBy: 721
+  pid: faf746427dc80d8a90c0e716fe7a301aed6b6414
+  show_ref_link: false
+  title: Bias Plus Variance Decomposition for Zero-One Loss Functions
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-a-weighted-nearest-neighbor-algorithm-for-learning-with-symbolic-features
+  numCitedBy: 426
+  pid: 949a68c4d0513574a4a504ce6f867b1330f8a947
+  show_ref_link: false
+  title: A Weighted Nearest Neighbor Algorithm for Learning with Symbolic Features
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-c4-5-programs-for-machine-learning
+  numCitedBy: 21924
+  pid: 807c1f19047f96083e13614f7ce20f2ac98c239a
+  show_ref_link: true
+  title: C4.5 - Programs for Machine Learning
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-a-framework-for-average-case-analysis-of-conjunctive-learning-algorithms
+  numCitedBy: 16
+  pid: f029b035d2637c380eab13a394d279e9b2f9ef31
+  show_ref_link: false
+  title: A framework for average case analysis of conjunctive learning algorithms
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1977-probability-and-statistics
+  numCitedBy: 418
+  pid: b97a7ca928cc3d62cae4c656bf6e6d0383a5f720
+  show_ref_link: false
+  title: Probability and Statistics
+  year: 1977
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-syskill-webert-identifying-interesting-web-sites
+  numCitedBy: 793
+  pid: 1e26eee1ffe5d7ed9280f4e5af602e3a4585cbaf
+  show_ref_link: false
+  title: Syskill & Webert - Identifying Interesting Web Sites
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-error-correcting-output-coding-corrects-bias-and-variance
+  numCitedBy: 445
+  pid: 25744dbb4294fe7abb2d9b1b0d39006482ebb4ab
+  show_ref_link: false
+  title: Error-Correcting Output Coding Corrects Bias and Variance
+  year: 1995
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1996-bias-variance-and-prediction-error-for-classification-rules
+  numCitedBy: 150
+  pid: 9253f3e13bca7e845e60394d85ddaec0d4cfc6d6
+  show_ref_link: false
+  title: Bias, Variance and Prediction Error for Classification Rules
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-learning-from-data-artificial-intelligence-and-statistics-v
+  numCitedBy: 230
+  pid: ba3a7f7b4dd4933568606fe6d1910778a5cb7af0
+  show_ref_link: false
+  title: Learning from Data - Artificial Intelligence and Statistics V
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-rule-induction-with-cn2-some-recent-improvements
+  numCitedBy: 1004
+  pid: c1ff999b23053a9ea1ad2cd4d7023295e7566382
+  show_ref_link: false
+  title: Rule Induction with CN2 - Some Recent Improvements
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1973-pattern-classification-and-scene-analysis
+  numCitedBy: 16989
+  pid: b07ce649d6f6eb636872527104b0209d3edc8188
+  show_ref_link: false
+  title: Pattern classification and scene analysis
+  year: 1973
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-the-cn2-induction-algorithm
+  numCitedBy: 1271
+  pid: 7ec5f9694bc3d061b376256320eacb8ec3566b77
+  show_ref_link: false
+  title: The CN2 Induction Algorithm
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-uci-repository-of-machine-learning-databases
+  numCitedBy: 13482
+  pid: e068be31ded63600aea068eacd12931efd2a1029
+  show_ref_link: true
+  title: UCI Repository of machine learning databases
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-discovering-patterns-in-eeg-signals-comparative-study-of-a-few-methods
+  numCitedBy: 35
+  pid: 9b058d820c6aa084c14daa68c08836c08b5be8bf
+  show_ref_link: false
+  title: Discovering Patterns in EEG-Signals - Comparative Study of a Few Methods
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-improving-simple-bayes
+  numCitedBy: 167
+  pid: ba5bd9458b0bc495c2ccb38a69a4e2f3e17c2088
+  show_ref_link: false
+  title: Improving simple Bayes
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-estimating-probabilities-a-crucial-task-in-machine-learning
+  numCitedBy: 582
+  pid: ad58594194155af8b48eaf3ab9525a1fafd24e58
+  show_ref_link: false
+  title: Estimating Probabilities - A Crucial Task in Machine Learning
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-constructing-decision-trees-in-noisy-domains
+  numCitedBy: 168
+  pid: d9414d6f32edefe583ed98300f97e1d355584a43
+  show_ref_link: false
+  title: Constructing Decision Trees in Noisy Domains
+  year: 1987
+slug: On-the-Optimality-of-the-Simple-Bayesian-Classifier-Domingos-Pazzani
+title: On the Optimality of the Simple Bayesian Classifier under Zero-One Loss
+url: https://www.semanticscholar.org/paper/On-the-Optimality-of-the-Simple-Bayesian-Classifier-Domingos-Pazzani/700666f0c59a4fedc8b08294424c47cb99a8e2ff?sort=total-citations
+venue: Machine Learning
+year: 2004

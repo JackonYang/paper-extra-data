@@ -9,7 +9,7 @@ corpusId: 6447277
 fieldsOfStudy:
 - Computer Science
 meta_key: 2016-identity-mappings-in-deep-residual-networks
-numCitedBy: 6499
+numCitedBy: 6555
 numCiting: 33
 paperAbstract: 'Deep residual networks have emerged as a family of extremely deep architectures showing compelling accuracy and nice convergence behaviors. In this paper, we analyze the propagation formulations behind the residual building blocks, which suggest that the forward and backward signals can be directly propagated from one block to any other block, when using identity mappings as the skip connections and after-addition activation. A series of ablation experiments support the importance of these identity mappings. This motivates us to propose a new residual unit, which makes training easier and improves generalization. We report improved results using a 1001-layer ResNet on CIFAR-10 (4.62 % error) and CIFAR-100, and a 200-layer ResNet on ImageNet. Code is available at: https://github.com/KaimingHe/resnet-1k-layers.'
 ref_count: 33
@@ -43,7 +43,7 @@ references:
   meta_key: 2015-highway-networks
   numCitedBy: 1155
   pid: e0945081b5b87187a53d4329cf77cd8bff635795
-  show_ref_link: false
+  show_ref_link: true
   title: Highway Networks
   year: 2015
 - fieldsOfStudy:
@@ -59,7 +59,7 @@ references:
   meta_key: 2015-fitnets-hints-for-thin-deep-nets
   numCitedBy: 2020
   pid: cd85a549add0c7c7def36aca29837efd24b24080
-  show_ref_link: false
+  show_ref_link: true
   title: FitNets - Hints for Thin Deep Nets
   year: 2015
 - fieldsOfStudy:

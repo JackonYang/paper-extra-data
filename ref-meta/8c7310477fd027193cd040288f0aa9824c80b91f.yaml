@@ -1,0 +1,418 @@
+authors:
+- Riyadh Baghdadi
+- Jessica Ray
+- Malek Ben Romdhane
+- Emanuele Del Sozzo
+- Abdurrahman Akkas
+- Yunming Zhang
+- Patricia Suriana
+- S. Kamil
+- Saman P. Amarasinghe
+badges:
+- id: OPEN_ACCESS
+corpusId: 56173920
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-tiramisu-a-polyhedral-compiler-for-expressing-fast-and-portable-code
+numCitedBy: 122
+numCiting: 55
+paperAbstract: 'This paper introduces Tiramisu, a polyhedral framework designed to generate high performance code for multiple platforms including multicores, GPUs, and distributed machines. Tiramisu introduces a scheduling language with novel commands to explicitly manage the complexities that arise when targeting these systems. The framework is designed for the areas of image processing, stencils, linear algebra and deep learning. Tiramisu has two main features: it relies on a flexible representation based on the polyhedral model and it has a rich scheduling language allowing fine-grained control of optimizations. Tiramisu uses a four-level intermediate representation that allows full separation between the algorithms, loop transformations, data layouts, and communication. This separation simplifies targeting multiple hardware architectures with the same algorithm. We evaluate Tiramisu by writing a set of image processing, deep learning, and linear algebra benchmarks and compare them with state-of-the-art compilers and hand-tuned libraries. We show that Tiramisu matches or outperforms existing compilers and libraries on different hardware architectures, including multicore CPUs, GPUs, and distributed machines.'
+ref_count: 55
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-polly-performing-polyhedral-optimizations-on-a-low-level-intermediate-representation
+  numCitedBy: 290
+  pid: 3d64988b882541afa8f03f912229fbba49c82e74
+  show_ref_link: false
+  title: Polly - Performing Polyhedral Optimizations on a Low-Level Intermediate Representation
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-practical-automatic-polyhedral-parallelizer-and-locality-optimizer
+  numCitedBy: 860
+  pid: f0f4757aa2f923a349e8357e73850a78e9b80fee
+  show_ref_link: false
+  title: A practical automatic polyhedral parallelizer and locality optimizer
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-pencil-a-platform-neutral-compute-intermediate-language-for-accelerator-programming
+  numCitedBy: 90
+  pid: e61e896ee96c8d6ae13c34c9d66e8ee879489f75
+  show_ref_link: false
+  title: PENCIL - A Platform-Neutral Compute Intermediate Language for Accelerator Programming
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-code-generation-in-the-polyhedral-model-is-easier-than-you-think
+  numCitedBy: 518
+  pid: d2f48fb9fd31390c56609f00510accf5c56f9f9b
+  show_ref_link: false
+  title: Code generation in the polyhedral model is easier than you think
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-decoupling-algorithms-from-schedules-for-easy-optimization-of-image-processing-pipelines
+  numCitedBy: 247
+  pid: 3e06546182d5a36796a0f48e70151bf1d38e094d
+  show_ref_link: false
+  title: Decoupling algorithms from schedules for easy optimization of image processing pipelines
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-chill-a-framework-for-composing-high-level-loop-transformations
+  numCitedBy: 198
+  pid: 6a4620589f63f3385707d2d590f7b7dc8ee4d74f
+  show_ref_link: false
+  title: CHiLL - A Framework for Composing High-Level Loop Transformations
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-distributed-halide
+  numCitedBy: 26
+  pid: 886b7dcdc41055d2196c2d44db9490a87b1da55b
+  show_ref_link: false
+  title: Distributed Halide
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-polymage-automatic-optimization-for-image-processing-pipelines
+  numCitedBy: 175
+  pid: 0b9aaee517e0cabb274f5d7cfb01d8f58e51d76e
+  show_ref_link: false
+  title: PolyMage - Automatic Optimization for Image Processing Pipelines
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-halide-a-language-and-compiler-for-optimizing-parallelism-locality-and-recomputation-in-image-processing-pipelines
+  numCitedBy: 878
+  pid: 4d23db55e6671a82c95dacec33b2967a4b8b677d
+  show_ref_link: false
+  title: Halide - a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-semi-automatic-composition-of-loop-transformations-for-deep-parallelism-and-memory-hierarchies
+  numCitedBy: 240
+  pid: cc1c1b1eb6e9672d1b2813ad763f701494d8fcee
+  show_ref_link: false
+  title: Semi-Automatic Composition of Loop Transformations for Deep Parallelism and Memory Hierarchies
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-the-polyhedral-model-is-more-widely-applicable-than-you-think
+  numCitedBy: 217
+  pid: a4672941d77499591c31ac8bd64d6039dfb8b0e1
+  show_ref_link: false
+  title: The Polyhedral Model Is More Widely Applicable Than You Think
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-nova-a-functional-language-for-data-parallelism
+  numCitedBy: 51
+  pid: 93158db5c7d31159395e59b36e8a7b36816d4923
+  show_ref_link: false
+  title: NOVA - A Functional Language for Data Parallelism
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-optimizing-memory-usage-in-the-polyhedral-model
+  numCitedBy: 107
+  pid: 6acc40233bc71d9f5f31ade4fa9209d8c67af9be
+  show_ref_link: false
+  title: Optimizing memory usage in the polyhedral model
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-lift-a-functional-data-parallel-ir-for-high-performance-gpu-code-generation
+  numCitedBy: 132
+  pid: aa3553beb4bfa0793a4bed05704e35412342800e
+  show_ref_link: true
+  title: LIFT - A functional data-parallel IR for high-performance GPU code generation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-compiling-affine-loop-nests-for-distributed-memory-parallel-architectures
+  numCitedBy: 63
+  pid: 754b7668bda19339ad60d56c0edb0149aab96baa
+  show_ref_link: false
+  title: Compiling affine loop nests for distributed-memory parallel architectures
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-domain-specific-approach-to-heterogeneous-parallelism
+  numCitedBy: 168
+  pid: fdf5855c9ccffbcfb2b2380879fd743be47a1ccf
+  show_ref_link: false
+  title: A domain-specific approach to heterogeneous parallelism
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-loop-transformation-recipes-for-code-generation-and-auto-tuning
+  numCitedBy: 108
+  pid: 3ab39b6f60e163a4a609410f320555ddc20b3976
+  show_ref_link: false
+  title: Loop Transformation Recipes for Code Generation and Auto-Tuning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-loop-transformations-convexity-pruning-and-optimization
+  numCitedBy: 126
+  pid: 493c0286a097005b626f8f978c6f475d3f05ca43
+  show_ref_link: false
+  title: Loop transformations - convexity, pruning and optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-communication-optimization-and-code-generation-for-distributed-memory-machines
+  numCitedBy: 266
+  pid: 280fba9ae63772c2185e214e3fd68c4204d5a8e6
+  show_ref_link: false
+  title: Communication optimization and code generation for distributed memory machines
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-graphite-two-years-after-first-lessons-learned-from-real-world-polyhedral-compilation
+  numCitedBy: 82
+  pid: 04afd9817df2900a02f915203e01657b56a957cd
+  show_ref_link: false
+  title: GRAPHITE Two Years After First Lessons Learned From Real-World Polyhedral Compilation
+  year: 2010
+- fieldsOfStudy:
+  - Art
+  meta_key: 2010-isl-an-integer-set-library-for-the-polyhedral-model
+  numCitedBy: 351
+  pid: 1c5b15587e4034c97610b2017697ad1ea663a8fa
+  show_ref_link: false
+  title: isl - An Integer Set Library for the Polyhedral Model
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-graphit-a-high-performance-graph-dsl
+  numCitedBy: 93
+  pid: 2f0f52bcac2d2de4e41ee4f6d721643689ce5a18
+  show_ref_link: false
+  title: GraphIt - a high-performance graph DSL
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-a-unified-framework-for-schedule-and-storage-optimization
+  numCitedBy: 76
+  pid: a0415d75b3d4cb52b22de2c6f1566e985ebeab07
+  show_ref_link: false
+  title: A unified framework for schedule and storage optimization
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-pencil-language-specification
+  numCitedBy: 11
+  pid: b4e609a85eaf676338a2741ac8a618e51f57f968
+  show_ref_link: false
+  title: PENCIL Language Specification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-poet-parameterized-optimizations-for-empirical-tuning
+  numCitedBy: 124
+  pid: 0cfafec1c6a6d524e095fc2480eb8c0a1d0f9c5b
+  show_ref_link: false
+  title: POET - Parameterized Optimizations for Empirical Tuning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-hybrid-hexagonal-classical-tiling-for-gpus
+  numCitedBy: 107
+  pid: 618fa1c14e3c6008eb047002311d21cae412eebc
+  show_ref_link: false
+  title: Hybrid Hexagonal/Classical Tiling for GPUs
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tvm-end-to-end-optimization-stack-for-deep-learning
+  numCitedBy: 140
+  pid: ec3071fb918ad69ec80df1ca9cf1fdeb386a9603
+  show_ref_link: true
+  title: TVM - End-to-End Optimization Stack for Deep Learning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-alphaz-a-system-for-design-space-exploration-in-the-polyhedral-model
+  numCitedBy: 55
+  pid: d0d07d24d29989ab0f6a1d3863cd6393e6d352e5
+  show_ref_link: false
+  title: AlphaZ - A System for Design Space Exploration in the Polyhedral Model
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-effective-automatic-parallelization-of-stencil-computations
+  numCitedBy: 221
+  pid: 1bec73cbc0ffb8eb32d6da63895f5319b7409386
+  show_ref_link: false
+  title: Effective automatic parallelization of stencil computations
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-extending-halide-to-improve-software-development-for-imaging-dsps
+  numCitedBy: 8
+  pid: 213533b755b70e4754b2f11f39c766db17aa71a9
+  show_ref_link: false
+  title: Extending Halide to Improve Software Development for Imaging DSPs
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-data-dependence-and-data-flow-analysis-of-arrays
+  numCitedBy: 59
+  pid: 5672dd47c8bd9cb332f2702640e32ee4bab3260a
+  show_ref_link: false
+  title: Data Dependence and Data-Flow Analysis of Arrays
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-on-privatization-of-variables-for-data-parallel-execution
+  numCitedBy: 24
+  pid: 1a5aba469c5bdf8b7f94a752e551152200cbc118
+  show_ref_link: false
+  title: On privatization of variables for data-parallel execution
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-new-complexity-results-on-array-contraction-and-related-problems
+  numCitedBy: 18
+  pid: 1e0d772580dac433b1db40457269c0e8d89989be
+  show_ref_link: false
+  title: New Complexity Results on Array Contraction and Related Problems
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tensor-comprehensions-framework-agnostic-high-performance-machine-learning-abstractions
+  numCitedBy: 284
+  pid: cae9d90524cccac5081666985d5d055b71697cee
+  show_ref_link: true
+  title: Tensor Comprehensions - Framework-Agnostic High-Performance Machine Learning Abstractions
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-a-unified-backend-for-targeting-fpgas-from-dsls
+  numCitedBy: 13
+  pid: f342eb117737ae73ee380efc01d5e9e7f465a44a
+  show_ref_link: false
+  title: A Unified Backend for Targeting FPGAs from DSLs
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-a-loop-transformation-theory-and-an-algorithm-to-maximize-parallelism
+  numCitedBy: 749
+  pid: 5d80427dd880159b32cb3a84942ed132debd1df3
+  show_ref_link: false
+  title: A Loop Transformation Theory and an Algorithm to Maximize Parallelism
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-array-expansion
+  numCitedBy: 111
+  pid: cd0cbf0ed87ec9947b301a0b48fe60e0d5051cb7
+  show_ref_link: false
+  title: Array expansion
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-dataflow-analysis-of-array-and-scalar-references
+  numCitedBy: 454
+  pid: 7cd685371e267a499ded869a934a4cffed591aec
+  show_ref_link: false
+  title: Dataflow analysis of array and scalar references
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-array-data-flow-analysis-and-its-use-in-array-privatization
+  numCitedBy: 205
+  pid: 62839543df336a080d65437ac82faf409f484421
+  show_ref_link: false
+  title: Array-data flow analysis and its use in array privatization
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-intel-math-kernel-library
+  numCitedBy: 414
+  pid: 83cee2606be3ceda59ef28fe1a9f179cd4e1144d
+  show_ref_link: false
+  title: Intel Math Kernel Library
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-automatic-storage-management-for-parallel-programs
+  numCitedBy: 115
+  pid: 58e276439efc66d5676c1bd391a7714e93e35ef7
+  show_ref_link: false
+  title: Automatic Storage Management for Parallel Programs
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-supernode-partitioning
+  numCitedBy: 584
+  pid: 38747b103e631e1a3800a0f4aed496d1bf8fb82f
+  show_ref_link: false
+  title: Supernode partitioning
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-automatic-array-privatization
+  numCitedBy: 100
+  pid: 3ff78b91c560e66d6c6de7dfee75dfee63868fb4
+  show_ref_link: false
+  title: Automatic Array Privatization
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-anatomy-of-high-performance-matrix-multiplication
+  numCitedBy: 643
+  pid: 334f03c98b61090a9e956d4bfba4abdfa1c94b53
+  show_ref_link: false
+  title: Anatomy of high-performance matrix multiplication
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-design-of-high-performance-mvapich2-mpi2-over-infiniband
+  numCitedBy: 76
+  pid: dbb1ee4ed87f58311d6f483fafbb5c6d5ad54e54
+  show_ref_link: false
+  title: Design of High Performance MVAPICH2 - MPI2 over InfiniBand
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-array-privatization-for-parallel-execution-of-loops
+  numCitedBy: 106
+  pid: a984e959f58fc1130f6478616a48e731c7cf7695
+  show_ref_link: false
+  title: Array privatization for parallel execution of loops
+  year: 1992
+- fieldsOfStudy:
+  - Physics
+  meta_key: 2013-nuclear-correlation-functions-in-lattice-qcd
+  numCitedBy: 51
+  pid: 7f9bf05716f618a582fbf564bb8e0a60e10457eb
+  show_ref_link: false
+  title: Nuclear correlation functions in lattice QCD
+  year: 2013
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 1963-machine-perception-of-three-dimensional-solids
+  numCitedBy: 1790
+  pid: ab5387cf077f5b97c7dd08845c006e5c1ec89ff5
+  show_ref_link: false
+  title: Machine Perception of Three-Dimensional Solids
+  year: 1963
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-polyhedron-model
+  numCitedBy: 112
+  pid: 171b8a385ba1178496d983eb92ee5bc29ff57457
+  show_ref_link: false
+  title: Polyhedron Model
+  year: 2011
+slug: Tiramisu:-A-Polyhedral-Compiler-for-Expressing-Fast-Baghdadi-Ray
+title: Tiramisu - A Polyhedral Compiler for Expressing Fast and Portable Code
+url: https://www.semanticscholar.org/paper/Tiramisu:-A-Polyhedral-Compiler-for-Expressing-Fast-Baghdadi-Ray/8c7310477fd027193cd040288f0aa9824c80b91f?sort=total-citations
+venue: 2019 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)
+year: 2019

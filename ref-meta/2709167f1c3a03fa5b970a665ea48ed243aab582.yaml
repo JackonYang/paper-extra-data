@@ -1,0 +1,304 @@
+authors:
+- Ilija Radosavovic
+- Raj Prateek Kosaraju
+- Ross B. Girshick
+- Kaiming He
+- "Piotr Doll\xE1r"
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 214714446
+fieldsOfStudy:
+- Computer Science
+- Art
+meta_key: 2020-designing-network-design-spaces
+numCitedBy: 476
+numCiting: 41
+paperAbstract: 'In this work, we present a new network design paradigm. Our goal is to help advance the understanding of network design and discover design principles that generalize across settings. Instead of focusing on designing individual network instances, we design network design spaces that parametrize populations of networks. The overall process is analogous to classic manual design of networks, but elevated to the design space level. Using our methodology we explore the structure aspect of network design and arrive at a low-dimensional design space consisting of simple, regular networks that we call RegNet. The core insight of the RegNet parametrization is surprisingly simple: widths and depths of good networks can be explained by a quantized linear function. We analyze the RegNet design space and arrive at interesting findings that do not match the current practice of network design. The RegNet design space provides simple and fast networks that work well across a wide range of flop regimes. Under comparable training settings and flops, the RegNet models outperform the popular EfficientNet models while being up to 5x faster on GPUs.'
+ref_count: 41
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-on-network-design-spaces-for-visual-recognition
+  numCitedBy: 69
+  pid: 15a526d7d66dd7a08f6bec6aa9b39ffa6322a96e
+  show_ref_link: false
+  title: On Network Design Spaces for Visual Recognition
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-efficient-neural-architecture-search-via-parameter-sharing
+  numCitedBy: 1735
+  pid: fe9b8aac9fa3bfd9724db5a881a578e471e612d7
+  show_ref_link: true
+  title: Efficient Neural Architecture Search via Parameter Sharing
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-residual-networks
+  numCitedBy: 4354
+  pid: 1c4e9156ca07705531e45960b7a919dc473abb51
+  show_ref_link: true
+  title: Wide Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-efficientnet-rethinking-model-scaling-for-convolutional-neural-networks
+  numCitedBy: 5194
+  pid: 4f2eda8077dc7a69bb2b4e0a1a086cf054adb3f9
+  show_ref_link: false
+  title: EfficientNet - Rethinking Model Scaling for Convolutional Neural Networks
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-aggregated-residual-transformations-for-deep-neural-networks
+  numCitedBy: 5619
+  pid: f6e0856b4a9199fa968ac00da612a9407b5cb85c
+  show_ref_link: true
+  title: Aggregated Residual Transformations for Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-shufflenet-v2-practical-guidelines-for-efficient-cnn-architecture-design
+  numCitedBy: 1910
+  pid: c02b909a514af6b9255315e2d50112845ca5ed0e
+  show_ref_link: true
+  title: ShuffleNet V2 - Practical Guidelines for Efficient CNN Architecture Design
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fractalnet-ultra-deep-neural-networks-without-residuals
+  numCitedBy: 639
+  pid: d0156126edbfc524c8d108bdc0cf811cfe3129aa
+  show_ref_link: true
+  title: FractalNet - Ultra-Deep Neural Networks without Residuals
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-mobilenetv2-inverted-residuals-and-linear-bottlenecks
+  numCitedBy: 7406
+  pid: dd9cfe7124c734f5a6fc90227d541d3dbcd72ba4
+  show_ref_link: true
+  title: MobileNetV2 - Inverted Residuals and Linear Bottlenecks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 19204
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2020-squeeze-and-excitation-networks
+  numCitedBy: 7692
+  pid: df67d46e78aae0d2fccfb6212d101a342259c01b
+  show_ref_link: true
+  title: Squeeze-and-Excitation Networks
+  year: 2020
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15857
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-transferable-architectures-for-scalable-image-recognition
+  numCitedBy: 3538
+  pid: d0611891b9e8a7c5731146097b6f201578f47b2f
+  show_ref_link: true
+  title: Learning Transferable Architectures for Scalable Image Recognition
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-searching-for-activation-functions
+  numCitedBy: 1490
+  pid: c8c4ab59ac29973a00df4e5c8df3773a3c59995a
+  show_ref_link: false
+  title: Searching for Activation Functions
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-accurate-large-minibatch-sgd-training-imagenet-in-1-hour
+  numCitedBy: 2269
+  pid: 0d57ba12a6d958e178d83be4c84513f7e42b24e5
+  show_ref_link: true
+  title: Accurate, Large Minibatch SGD - Training ImageNet in 1 Hour
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-progressive-neural-architecture-search
+  numCitedBy: 1377
+  pid: 5f79398057bf0bbda9ff50067bc1f2950c2a2266
+  show_ref_link: true
+  title: Progressive Neural Architecture Search
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-darts-differentiable-architecture-search
+  numCitedBy: 2237
+  pid: c1f457e31b611da727f9aef76c283a18157dfa83
+  show_ref_link: true
+  title: DARTS - Differentiable Architecture Search
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-swish-a-self-gated-activation-function
+  numCitedBy: 374
+  pid: 4f57f486adea0bf95c252620a4e8af39232ef8bc
+  show_ref_link: false
+  title: Swish - a Self-Gated Activation Function
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-regularized-evolution-for-image-classifier-architecture-search
+  numCitedBy: 1843
+  pid: 50bdda28de3dcf82a0e10f9ec13eea248b19edb5
+  show_ref_link: true
+  title: Regularized Evolution for Image Classifier Architecture Search
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-autoaugment-learning-augmentation-policies-from-data
+  numCitedBy: 951
+  pid: f723eb3e7159f07b97464c8d947d15e78612abe4
+  show_ref_link: false
+  title: AutoAugment - Learning Augmentation Policies from Data
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12559
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-improved-regularization-of-convolutional-neural-networks-with-cutout
+  numCitedBy: 1727
+  pid: eb35fdc11a325f21a8ce0ca65058f7480a2fc91f
+  show_ref_link: true
+  title: Improved Regularization of Convolutional Neural Networks with Cutout
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-xception-deep-learning-with-depthwise-separable-convolutions
+  numCitedBy: 6758
+  pid: 5b6ec746d309b165f9f9def873a2375b6fb40f3d
+  show_ref_link: true
+  title: Xception - Deep Learning with Depthwise Separable Convolutions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-shufflenet-an-extremely-efficient-convolutional-neural-network-for-mobile-devices
+  numCitedBy: 3251
+  pid: 9da734397acd7ff7c557960c62fb1b400b27bd89
+  show_ref_link: true
+  title: ShuffleNet - An Extremely Efficient Convolutional Neural Network for Mobile Devices
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-do-imagenet-classifiers-generalize-to-imagenet
+  numCitedBy: 565
+  pid: 4e0bb8c1c683b43357c5d5216f6b74ff2cb32434
+  show_ref_link: false
+  title: Do ImageNet Classifiers Generalize to ImageNet?
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7920
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2007-an-introduction-to-the-bootstrap
+  numCitedBy: 14810
+  pid: 75f8a4d7ed6a0f32fa098cac967de247938d9ce5
+  show_ref_link: false
+  title: An Introduction to the Bootstrap
+  year: 2007
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1962-a-and-v
+  numCitedBy: 44130
+  pid: 75aa1f1a04b5f2bb6bf9afb662711121edde9eda
+  show_ref_link: false
+  title: A and V
+  year: 1962
+slug: Designing-Network-Design-Spaces-Radosavovic-Kosaraju
+title: Designing Network Design Spaces
+url: https://www.semanticscholar.org/paper/Designing-Network-Design-Spaces-Radosavovic-Kosaraju/2709167f1c3a03fa5b970a665ea48ed243aab582?sort=total-citations
+venue: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2020

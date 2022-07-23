@@ -81,7 +81,7 @@ references:
   meta_key: 2018-regularizing-and-optimizing-lstm-language-models
   numCitedBy: 859
   pid: 58c6f890a1ae372958b7decf56132fe258152722
-  show_ref_link: false
+  show_ref_link: true
   title: Regularizing and Optimizing LSTM Language Models
   year: 2018
 - fieldsOfStudy:
@@ -97,7 +97,7 @@ references:
   meta_key: 2017-pointer-sentinel-mixture-models
   numCitedBy: 1047
   pid: efbd381493bb9636f489b965a2034d529cd56bcd
-  show_ref_link: false
+  show_ref_link: true
   title: Pointer Sentinel Mixture Models
   year: 2017
 - fieldsOfStudy:
@@ -329,7 +329,7 @@ references:
   meta_key: 2014-how-transferable-are-features-in-deep-neural-networks
   numCitedBy: 5810
   pid: 081651b38ff7533550a3adfc1c00da333a8fe86c
-  show_ref_link: false
+  show_ref_link: true
   title: How transferable are features in deep neural networks?
   year: 2014
 - fieldsOfStudy:
@@ -393,7 +393,7 @@ references:
   meta_key: 2017-sgdr-stochastic-gradient-descent-with-warm-restarts
   numCitedBy: 2773
   pid: b022f2a277a4bf5f42382e86e4380b96340b9e86
-  show_ref_link: false
+  show_ref_link: true
   title: SGDR - Stochastic Gradient Descent with Warm Restarts
   year: 2017
 - fieldsOfStudy:

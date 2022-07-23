@@ -1,0 +1,287 @@
+authors:
+- Song Han
+- Jeff Pool
+- J. Tran
+- W. Dally
+badges:
+- id: OPEN_ACCESS
+corpusId: 2238772
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+numCitedBy: 4076
+numCiting: 40
+paperAbstract: Neural networks are both computationally intensive and memory intensive, making them difficult to deploy on embedded systems. Also, conventional networks fix the architecture before training starts; as a result, training cannot improve the architecture. To address these limitations, we describe a method to reduce the storage and computation required by neural networks by an order of magnitude without affecting their accuracy by learning only the important connections. Our method prunes redundant connections using a three-step method. First, we train the network to learn which connections are important. Next, we prune the unimportant connections. Finally, we retrain the network to fine tune the weights of the remaining connections. On the ImageNet dataset, our method reduced the number of parameters of AlexNet by a factor of 9x, from 61 million to 6.7 million, without incurring accuracy loss. Similar experiments with VGG-16 found that the number of parameters can be reduced by 13x, from 138 million to 10.3 million, again with no loss of accuracy.
+ref_count: 40
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-data-free-parameter-pruning-for-deep-neural-networks
+  numCitedBy: 388
+  pid: b0bd441a0cc04cdd0d0e469fe4c5184ee148a97d
+  show_ref_link: false
+  title: Data-free Parameter Pruning for Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-improving-the-speed-of-neural-networks-on-cpus
+  numCitedBy: 692
+  pid: fbeaa499e10e98515f7e1c4ad89165e8c0677427
+  show_ref_link: false
+  title: Improving the speed of neural networks on CPUs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28464
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-memory-bounded-deep-convolutional-networks
+  numCitedBy: 143
+  pid: 2a4117849c88d4728c33b1becaa9fb6ed7030725
+  show_ref_link: false
+  title: Memory Bounded Deep Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-how-transferable-are-features-in-deep-neural-networks
+  numCitedBy: 5853
+  pid: 081651b38ff7533550a3adfc1c00da333a8fe86c
+  show_ref_link: true
+  title: How transferable are features in deep neural networks?
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-compressing-deep-convolutional-networks-using-vector-quantization
+  numCitedBy: 878
+  pid: e7bf9803705f2eb608db1e59e5c7636a3f171916
+  show_ref_link: false
+  title: Compressing Deep Convolutional Networks using Vector Quantization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-compressing-neural-networks-with-the-hashing-trick
+  numCitedBy: 948
+  pid: efb5032e6199c80f83309fd866b25be9545831fd
+  show_ref_link: false
+  title: Compressing Neural Networks with the Hashing Trick
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-second-order-derivatives-for-network-pruning-optimal-brain-surgeon
+  numCitedBy: 1594
+  pid: a42954d4b9d0ccdf1036e0af46d87a01b94c3516
+  show_ref_link: false
+  title: Second Order Derivatives for Network Pruning - Optimal Brain Surgeon
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-improving-generalization-of-neural-networks-through-pruning
+  numCitedBy: 85
+  pid: 7239872d9336b0f4eac1a0ee2516d4446c8e8df4
+  show_ref_link: false
+  title: Improving Generalization of Neural Networks Through Pruning
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-fried-convnets
+  numCitedBy: 232
+  pid: 27a99c21a1324f087b2f144adc119f04137dfd87
+  show_ref_link: false
+  title: Deep Fried Convnets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-of-neural-networks-using-dropconnect
+  numCitedBy: 2105
+  pid: 38f35dd624cd1cf827416e31ac5e0e0454028eca
+  show_ref_link: true
+  title: Regularization of Neural Networks using DropConnect
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-predicting-parameters-in-deep-learning
+  numCitedBy: 1009
+  pid: e8650503ab80ad7299f0845b1843abf3a97f313a
+  show_ref_link: true
+  title: Predicting Parameters in Deep Learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation
+  numCitedBy: 1281
+  pid: e5ae8ab688051931b4814f6d32b18391f8d1fa8d
+  show_ref_link: true
+  title: Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-learning-with-cots-hpc-systems
+  numCitedBy: 679
+  pid: d1208ac421cf8ff67b27d93cd19ae42b8d596f95
+  show_ref_link: false
+  title: Deep learning with COTS HPC systems
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-learning-long-term-dependencies-with-gradient-descent-is-difficult
+  numCitedBy: 6204
+  pid: d0be39ee052d246ae99c082a565aba25b811be2d
+  show_ref_link: false
+  title: Learning long-term dependencies with gradient descent is difficult
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-comparing-biases-for-minimal-network-construction-with-back-propagation
+  numCitedBy: 518
+  pid: f4ea5a6ff3ffcd11ec2e6ed7828a7d41279fb3ad
+  show_ref_link: false
+  title: Comparing Biases for Minimal Network Construction with Back-Propagation
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-natural-language-processing-almost-from-scratch
+  numCitedBy: 6698
+  pid: bc1022b031dc6c7019696492e8116598097a8c12
+  show_ref_link: true
+  title: Natural Language Processing (Almost) from Scratch
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-optimal-brain-damage
+  numCitedBy: 3518
+  pid: e7297db245c3feb1897720b173a59fe7e36babb7
+  show_ref_link: false
+  title: Optimal Brain Damage
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deepface-closing-the-gap-to-human-level-performance-in-face-verification
+  numCitedBy: 5077
+  pid: 9f2efadf66817f1b38f58b3f50c7c8f34c69d89a
+  show_ref_link: true
+  title: DeepFace - Closing the Gap to Human-Level Performance in Face Verification
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-framewise-phoneme-classification-with-bidirectional-lstm-and-other-neural-network-architectures
+  numCitedBy: 3324
+  pid: 2f83f6e1afadf0963153974968af6b8342775d82
+  show_ref_link: true
+  title: Framewise phoneme classification with bidirectional LSTM and other neural network architectures
+  year: 2005
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1984-neuronal-mechanisms-of-developmental-plasticity-in-the-cat-s-visual-system
+  numCitedBy: 19
+  pid: dd62fe71c093844ba21f8f3d1bc17acb6b54a6a5
+  show_ref_link: false
+  title: Neuronal mechanisms of developmental plasticity in the cat's visual system.
+  year: 1984
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1984-neuronal-mechanisms-of-developmental-plasticity-in-the-cat-s-visual-system
+  numCitedBy: 19
+  pid: bcc388871c9cdbbdfef9616a0a644d12ccf05040
+  show_ref_link: false
+  title: Neuronal mechanisms of developmental plasticity in the cat's visual system.
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-feature-hashing-for-large-scale-multitask-learning
+  numCitedBy: 863
+  pid: 00bbfde6af97ce5efcf86b3401d265d42a95603d
+  show_ref_link: false
+  title: Feature hashing for large scale multitask learning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2009-hash-kernels-for-structured-data
+  numCitedBy: 227
+  pid: 9a2aa2aee8926ec07a4a76324b7665f678d3517c
+  show_ref_link: false
+  title: Hash Kernels for Structured Data
+  year: 2009
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2009-nature
+  numCitedBy: 60479
+  pid: 794c364f77621bee08b7985c51ef5c9169f4442c
+  show_ref_link: false
+  title: Nature
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  - Medicine
+  meta_key: 2013-peter-huttenlocher-1931-2013
+  numCitedBy: 10
+  pid: 3a7e1eff382dea7522eb7a649e0e0d6fd844b77f
+  show_ref_link: false
+  title: Peter Huttenlocher (1931-2013)
+  year: 2013
+slug: Learning-both-Weights-and-Connections-for-Efficient-Han-Pool
+title: Learning both Weights and Connections for Efficient Neural Network
+url: https://www.semanticscholar.org/paper/Learning-both-Weights-and-Connections-for-Efficient-Han-Pool/1ff9a37d766e3a4f39757f5e1b235a42dacf18ff?sort=total-citations
+venue: NIPS
+year: 2015

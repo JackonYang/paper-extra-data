@@ -1,0 +1,169 @@
+authors:
+- B. Thomee
+- David A. Shamma
+- G. Friedland
+- Benjamin Elizalde
+- Karl S. Ni
+- Douglas N. Poland
+- Damian Borth
+- Li-Jia Li
+badges:
+- id: OPEN_ACCESS
+corpusId: 207230134
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-yfcc100m-the-new-data-in-multimedia-research
+numCitedBy: 927
+numCiting: 37
+paperAbstract: This publicly available curated dataset of almost 100 million photos and videos is free and legal for all.
+ref_count: 37
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-the-placing-task-a-large-scale-geo-estimation-challenge-for-social-media-videos-and-images
+  numCitedBy: 40
+  pid: 620c1a82d9e313c6f804d45b027fb68b582afe08
+  show_ref_link: false
+  title: The Placing Task - A Large-Scale Geo-Estimation Challenge for Social-Media Videos and Images
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-mapping-the-world-s-photos
+  numCitedBy: 866
+  pid: 1a4dc773c76b016542206375eef7d8fe79fb7cd4
+  show_ref_link: false
+  title: Mapping the world's photos
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-photo-tourism-exploring-photo-collections-in-3d
+  numCitedBy: 3215
+  pid: b5ebf37ce170f13a905f7feba9fb7096b49fb8b3
+  show_ref_link: true
+  title: Photo tourism - exploring photo collections in 3D
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-towards-total-scene-understanding-classification-annotation-and-segmentation-in-an-automatic-framework
+  numCitedBy: 438
+  pid: eed4e6967c7a96e4cc2c590db40269cd97c8c98e
+  show_ref_link: false
+  title: Towards total scene understanding - Classification, annotation and segmentation in an automatic framework
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-the-yli-med-corpus-characteristics-procedures-and-plans
+  numCitedBy: 23
+  pid: 6e35585eb37ee8a1de60a10a56a3183af480e214
+  show_ref_link: false
+  title: The YLI-MED Corpus - Characteristics, Procedures, and Plans
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-im2gps-estimating-geographic-information-from-a-single-image
+  numCitedBy: 896
+  pid: b48d90cfebb8fbff29d161f6704d31b6909eb7ad
+  show_ref_link: false
+  title: IM2GPS - estimating geographic information from a single image
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-towards-automatic-extraction-of-event-and-place-semantics-from-flickr-tags
+  numCitedBy: 542
+  pid: e044622146b486bc3b1bd23c778b266762828624
+  show_ref_link: false
+  title: Towards automatic extraction of event and place semantics from flickr tags
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-definitions-of-dataset-in-the-scientific-and-technical-literature
+  numCitedBy: 54
+  pid: 78e650cec1325a0b2fa32eb51d9bc1698d73e628
+  show_ref_link: false
+  title: Definitions of dataset in the scientific and technical literature
+  year: 2010
+- fieldsOfStudy:
+  - Art
+  meta_key: 2008-digital-photography-communication-identity-memory
+  numCitedBy: 374
+  pid: 7c193464cb16031fbbe31274415ef23e6d49eb82
+  show_ref_link: false
+  title: Digital Photography - Communication, Identity, Memory.
+  year: 2008
+- fieldsOfStudy:
+  - Political Science
+  meta_key: 2012-the-conundrum-of-sharing-research-data
+  numCitedBy: 692
+  pid: 40e1ac2c42a7c9c1aeb80d3c0dab6de55b40eddd
+  show_ref_link: false
+  title: The conundrum of sharing research data
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-tweets-from-justin-bieber-s-heart-the-dynamics-of-the-location-field-in-user-profiles
+  numCitedBy: 527
+  pid: 51ec8194cff157eb712382d589174909e087acf8
+  show_ref_link: false
+  title: Tweets from Justin Bieber's heart - the dynamics of the location field in user profiles
+  year: 2011
+- fieldsOfStudy:
+  - Education
+  meta_key: 1920-national-research-council
+  numCitedBy: 500
+  pid: 96904ec020a6383f6345346c0389627d7815eac4
+  show_ref_link: false
+  title: National Research Council
+  year: 1920
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-replichi-the-workshop-ii
+  numCitedBy: 37
+  pid: 293273196a4c372bf3912d2afcd8c61935b91412
+  show_ref_link: false
+  title: RepliCHI - the workshop II
+  year: 2014
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1997-focus-on-efficiency
+  numCitedBy: 40
+  pid: abcf3c67a369e122edf67b8338eaec596bd98a6c
+  show_ref_link: false
+  title: Focus on efficiency.
+  year: 1997
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2017-sharing-research-data
+  numCitedBy: 41
+  pid: 89395a983f50022249dd703e6890ce612a34284a
+  show_ref_link: false
+  title: Sharing research data
+  year: 2017
+slug: YFCC100M:-the-new-data-in-multimedia-research-Thomee-Shamma
+title: YFCC100M - the new data in multimedia research
+url: https://www.semanticscholar.org/paper/YFCC100M:-the-new-data-in-multimedia-research-Thomee-Shamma/354c029c88be2bbc27dfd2e2e729c0ae622511e6?sort=total-citations
+venue: Commun. ACM
+year: 2016

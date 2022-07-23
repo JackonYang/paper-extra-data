@@ -1,0 +1,188 @@
+authors:
+- Michel Steuwer
+- Toomas Remmelg
+- Christophe Dubach
+badges:
+- id: OPEN_ACCESS
+corpusId: 7490888
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-lift-a-functional-data-parallel-ir-for-high-performance-gpu-code-generation
+numCitedBy: 132
+numCiting: 21
+paperAbstract: Parallel patterns (e.g., map, reduce) have gained traction as an abstraction for targeting parallel accelerators and are a promising answer to the performance portability problem. However, compiling high-level programs into efficient low-level parallel code is challenging. Current approaches start from a high-level parallel IR and proceed to emit GPU code directly in one big step. Fixed strategies are used to optimize and map parallelism exploiting properties of a particular GPU generation leading to performance portability issues. We introduce the LIFT IR, a new data-parallel IR which encodes OpenCL-specific constructs as functional patterns. Our prior work has shown that this functional nature simplifies the exploration of optimizations and mapping of parallelism from portable high-level programs using rewrite-rules. This paper describes how LIFT IR programs are compiled into efficient OpenCL code. This is non-trivial as many performance sensitive details such as memory allocation, array accesses or synchronization are not explicitly represented in the LIFT IR. We present techniques which overcome this challenge by exploiting the pattern's high-level semantics. Our evaluation shows that the LIFT IR is flexible enough to express GPU programs with complex optimizations achieving performance on par with manually optimized code.
+ref_count: 21
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-generating-performance-portable-code-using-rewrite-rules-from-high-level-functional-expressions-to-high-performance-opencl-code
+  numCitedBy: 116
+  pid: 8095a0dc01a3f75f85b0baa7890e2fa3463170c4
+  show_ref_link: false
+  title: Generating performance portable code using rewrite rules - from high-level functional expressions to high-performance OpenCL code
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-locality-aware-mapping-of-nested-parallel-patterns-on-gpus
+  numCitedBy: 48
+  pid: 5f99c0d653040778f64c0850f9e413be124ace60
+  show_ref_link: false
+  title: Locality-Aware Mapping of Nested Parallel Patterns on GPUs
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-pencil-a-platform-neutral-compute-intermediate-language-for-accelerator-programming
+  numCitedBy: 90
+  pid: e61e896ee96c8d6ae13c34c9d66e8ee879489f75
+  show_ref_link: false
+  title: PENCIL - A Platform-Neutral Compute Intermediate Language for Accelerator Programming
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-nova-a-functional-language-for-data-parallelism
+  numCitedBy: 51
+  pid: 93158db5c7d31159395e59b36e8a7b36816d4923
+  show_ref_link: false
+  title: NOVA - A Functional Language for Data Parallelism
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-compiling-a-high-level-language-for-gpus-via-language-support-for-architectures-and-compilers
+  numCitedBy: 120
+  pid: ff5e781484f16ca947ca347ce2633eadbe68e934
+  show_ref_link: false
+  title: Compiling a high-level language for GPUs - (via language support for architectures and compilers)
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-copperhead-compiling-an-embedded-data-parallel-language
+  numCitedBy: 216
+  pid: 92028dd1d95d7447708899ae3b9506a356e4434d
+  show_ref_link: false
+  title: Copperhead - compiling an embedded data parallel language
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-accelerating-haskell-array-codes-with-multicore-gpus
+  numCitedBy: 253
+  pid: 4726ec683a7db8e97ebd845b98e294ead537888a
+  show_ref_link: false
+  title: Accelerating Haskell array codes with multicore GPUs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-hidp-a-hierarchical-data-parallel-language
+  numCitedBy: 22
+  pid: 582b619f9407e32c1825339192459d6b13959388
+  show_ref_link: false
+  title: Hidp - A hierarchical data parallel language
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-heterogeneous-parallel-framework-for-domain-specific-languages
+  numCitedBy: 192
+  pid: a5dde6669fe65fc1a0364f120fa10e4833e461b9
+  show_ref_link: false
+  title: A Heterogeneous Parallel Framework for Domain-Specific Languages
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-optimising-purely-functional-gpu-programs
+  numCitedBy: 87
+  pid: 75a6257773d941488019b6c4ef5f210bbd652958
+  show_ref_link: false
+  title: Optimising purely functional GPU programs
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-have-abstraction-and-eat-performance-too-optimized-heterogeneous-computing-with-parallel-patterns
+  numCitedBy: 50
+  pid: b0159354873d31c8772b83ac6dce1c583fcd16b1
+  show_ref_link: false
+  title: Have abstraction and eat performance, too - Optimized heterogeneous computing with parallel patterns
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-thrust-a-productivity-oriented-library-for-cuda
+  numCitedBy: 420
+  pid: 215ba41bcfb1b53084ab25bdfeb68bdea1df57c2
+  show_ref_link: false
+  title: Thrust - A Productivity-Oriented Library for CUDA
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-halide-a-language-and-compiler-for-optimizing-parallelism-locality-and-recomputation-in-image-processing-pipelines
+  numCitedBy: 878
+  pid: d032f74b16457584f8a60ae07cfef9b617033638
+  show_ref_link: false
+  title: Halide - a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-software-pipelined-execution-of-stream-programs-on-gpus
+  numCitedBy: 106
+  pid: 6ef5453d68325ba700e103cfba400b01387c438e
+  show_ref_link: false
+  title: Software Pipelined Execution of Stream Programs on GPUs
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-skelcl-a-portable-skeleton-library-for-high-level-gpu-programming
+  numCitedBy: 136
+  pid: 9c8ad1f1c6f6d0c8bc0e3cf4f36cdc18a359e312
+  show_ref_link: false
+  title: SkelCL - A Portable Skeleton Library for High-Level GPU Programming
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-inspire-the-insieme-parallel-intermediate-representation
+  numCitedBy: 37
+  pid: 6005fdb7813e0f07d90d6ed8e7beecd733ef4d04
+  show_ref_link: false
+  title: INSPIRE - The insieme parallel intermediate representation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-towards-an-adaptive-skeleton-framework-for-performance-portability
+  numCitedBy: 5
+  pid: 799f4ba654377f8ebe25ebd603a7f7d22ca39ddc
+  show_ref_link: false
+  title: Towards an Adaptive Skeleton Framework for Performance Portability
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-size-slicing-a-hybrid-approach-to-size-inference-in-futhark
+  numCitedBy: 29
+  pid: 604c30b7ae5afa90236f28fbd5b657c10fe62a8a
+  show_ref_link: false
+  title: Size slicing - a hybrid approach to size inference in futhark
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-graph-based-higher-order-intermediate-representation
+  numCitedBy: 28
+  pid: c3f09f82209b1fe736899cfb6581b28eee51cc55
+  show_ref_link: false
+  title: A graph-based higher-order intermediate representation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-algorithmic-skeletons-structured-management-of-parallel-computation
+  numCitedBy: 1146
+  pid: f43e7c6a40b96743f2217472a49cd616622bdc26
+  show_ref_link: false
+  title: Algorithmic Skeletons - Structured Management of Parallel Computation
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-delite-a-compiler-architecture-for-performance-oriented-embedded-domain-specific-languages
+  numCitedBy: 169
+  pid: 25635a854dc2055a0339235bba7b863c7c6df31a
+  show_ref_link: false
+  title: Delite - A Compiler Architecture for Performance-Oriented Embedded Domain-Specific Languages
+  year: 2014
+slug: LIFT:-A-functional-data-parallel-IR-for-GPU-code-Steuwer-Remmelg
+title: LIFT - A functional data-parallel IR for high-performance GPU code generation
+url: https://www.semanticscholar.org/paper/LIFT:-A-functional-data-parallel-IR-for-GPU-code-Steuwer-Remmelg/aa3553beb4bfa0793a4bed05704e35412342800e?sort=total-citations
+venue: 2017 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)
+year: 2017

@@ -7,7 +7,7 @@ corpusId: 11664336
 fieldsOfStudy:
 - Computer Science
 meta_key: 2004-modeling-the-shape-of-the-scene-a-holistic-representation-of-the-spatial-envelope
-numCitedBy: 6524
+numCitedBy: 6543
 numCiting: 58
 paperAbstract: In this paper, we propose a computational model of the recognition of real world scenes that bypasses the segmentation and the processing of individual objects or regions. The procedure is based on a very low dimensional representation of the scene, that we term the Spatial Envelope. We propose a set of perceptual dimensions (naturalness, openness, roughness, expansion, ruggedness) that represent the dominant spatial structure of a scene. Then, we show that these dimensions may be reliably estimated using spectral and coarsely localized information. The model generates a multidimensional space in which scenes sharing membership in semantic categories (e.g., streets, highways, coasts) are projected closed together. The performance of the spatial envelope model shows that specific information about object shape or identity is not a requirement for scene categorization and that modeling a holistic representation of the scene informs about its probable semantic category.
 ref_count: 58

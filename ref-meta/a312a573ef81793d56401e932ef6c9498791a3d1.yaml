@@ -17,8 +17,8 @@ corpusId: 206595627
 fieldsOfStudy:
 - Computer Science
 meta_key: 2017-speed-accuracy-trade-offs-for-modern-convolutional-object-detectors
-numCitedBy: 2004
-numCiting: 59
+numCitedBy: 2017
+numCiting: 62
 paperAbstract: The goal of this paper is to serve as a guide for selecting a detection architecture that achieves the right speed/memory/accuracy balance for a given application and platform. To this end, we investigate various ways to trade accuracy for speed and memory usage in modern convolutional object detection systems. A number of successful systems have been proposed in recent years, but apples-toapples comparisons are difficult due to different base feature extractors (e.g., VGG, Residual Networks), different default image resolutions, as well as different hardware and software platforms. We present a unified implementation of the Faster R-CNN [30], R-FCN [6] and SSD [25] systems, which we view as meta-architectures and trace out the speed/accuracy trade-off curve created by using alternative feature extractors and varying other critical parameters such as image size within each of these meta-architectures. On one extreme end of this spectrum where speed and memory are critical, we present a detector that achieves real time speeds and can be deployed on a mobile device. On the opposite end in which accuracy is critical, we present a detector that achieves state-of-the-art performance measured on the COCO detection task.
 ref_count: 59
 references:
@@ -171,7 +171,7 @@ references:
   meta_key: 2016-an-analysis-of-deep-neural-network-models-for-practical-applications
   numCitedBy: 810
   pid: 9a786d1ecf77dfba3459a83cd3fa0f1781bbcba4
-  show_ref_link: false
+  show_ref_link: true
   title: An Analysis of Deep Neural Network Models for Practical Applications
   year: 2016
 - fieldsOfStudy:
@@ -220,7 +220,7 @@ references:
   meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
   numCitedBy: 10218
   pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
-  show_ref_link: false
+  show_ref_link: true
   title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
   year: 2017
 - fieldsOfStudy:

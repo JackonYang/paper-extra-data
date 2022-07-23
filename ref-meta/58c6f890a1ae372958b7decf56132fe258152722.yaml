@@ -1,0 +1,364 @@
+authors:
+- Stephen Merity
+- N. Keskar
+- R. Socher
+badges:
+- id: OPEN_ACCESS
+corpusId: 212756
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-regularizing-and-optimizing-lstm-language-models
+numCitedBy: 859
+numCiting: 51
+paperAbstract: 'Recurrent neural networks (RNNs), such as long short-term memory networks (LSTMs), serve as a fundamental building block for many sequence learning tasks, including machine translation, language modeling, and question answering. In this paper, we consider the specific problem of word-level language modeling and investigate strategies for regularizing and optimizing LSTM-based models. We propose the weight-dropped LSTM which uses DropConnect on hidden-to-hidden weights as a form of recurrent regularization. Further, we introduce NT-ASGD, a variant of the averaged stochastic gradient method, wherein the averaging trigger is determined using a non-monotonic condition as opposed to being tuned by the user. Using these and other regularization strategies, we achieve state-of-the-art word level perplexities on two data sets: 57.3 on Penn Treebank and 65.8 on WikiText-2. In exploring the effectiveness of a neural cache in conjunction with our proposed model, we achieve an even lower state-of-the-art perplexity of 52.8 on Penn Treebank and 52.0 on WikiText-2.'
+ref_count: 51
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-context-dependent-recurrent-neural-network-language-model
+  numCitedBy: 550
+  pid: d1275b2a2ab53013310e759e5c6878b96df643d4
+  show_ref_link: false
+  title: Context dependent recurrent neural network language model
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-tying-word-vectors-and-word-classifiers-a-loss-framework-for-language-modeling
+  numCitedBy: 337
+  pid: 424aef7340ee618132cc3314669400e23ad910ba
+  show_ref_link: true
+  title: Tying Word Vectors and Word Classifiers - A Loss Framework for Language Modeling
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-revisiting-activation-regularization-for-language-rnns
+  numCitedBy: 36
+  pid: fc18e99f918d8906ec44be3f7d90d8f9ebabae96
+  show_ref_link: false
+  title: Revisiting Activation Regularization for Language RNNs
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-recurrent-highway-networks
+  numCitedBy: 351
+  pid: 7dba53e72c182e25e98e8f73a99d75ff69dda0c2
+  show_ref_link: true
+  title: Recurrent Highway Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-character-aware-neural-language-models
+  numCitedBy: 1434
+  pid: 891ce1687e2befddd19f54e4eef1d3f39c8dbaf7
+  show_ref_link: true
+  title: Character-Aware Neural Language Models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-on-the-state-of-the-art-of-evaluation-in-neural-language-models
+  numCitedBy: 429
+  pid: f0b6c1ffed9984317050d0c1dfb005cb65582f13
+  show_ref_link: false
+  title: On the State of the Art of Evaluation in Neural Language Models
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-pointer-sentinel-mixture-models
+  numCitedBy: 1053
+  pid: efbd381493bb9636f489b965a2034d529cd56bcd
+  show_ref_link: true
+  title: Pointer Sentinel Mixture Models
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-quasi-recurrent-neural-networks
+  numCitedBy: 299
+  pid: 2d876ed1dd2c58058d7197b734a8e4d349b8f231
+  show_ref_link: false
+  title: Quasi-Recurrent Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-using-the-output-embedding-to-improve-language-models
+  numCitedBy: 574
+  pid: 63e39cdf1ad884da6bc69096bb3413b5b1100559
+  show_ref_link: true
+  title: Using the Output Embedding to Improve Language Models
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-recurrent-batch-normalization
+  numCitedBy: 345
+  pid: 952454718139dba3aafc6b3b67c4f514ac3964af
+  show_ref_link: true
+  title: Recurrent Batch Normalization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-theoretically-grounded-application-of-dropout-in-recurrent-neural-networks
+  numCitedBy: 1320
+  pid: 0c1f9ca23f4f09ecfc44bcc8ca1c2736624f4652
+  show_ref_link: true
+  title: A Theoretically Grounded Application of Dropout in Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-recurrent-neural-network-based-language-model
+  numCitedBy: 4935
+  pid: 9819b600a828a57e1cde047bbe710d3446b30da5
+  show_ref_link: true
+  title: Recurrent neural network based language model
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-neural-network-regularization
+  numCitedBy: 1997
+  pid: f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97
+  show_ref_link: true
+  title: Recurrent Neural Network Regularization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-strongly-typed-recurrent-neural-networks
+  numCitedBy: 49
+  pid: 7e45b68037b5f86c4bce305b2725f4871c6b091e
+  show_ref_link: false
+  title: Strongly-Typed Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-query-reduction-networks-for-question-answering
+  numCitedBy: 98
+  pid: 4bf7edee5a4c4cfdbdd43a607c402420129fa277
+  show_ref_link: false
+  title: Query-Reduction Networks for Question Answering
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-zoneout-regularizing-rnns-by-randomly-preserving-hidden-activations
+  numCitedBy: 268
+  pid: 9f0687bcd0a7d7fc91b8c5d36c003a38b8853105
+  show_ref_link: true
+  title: Zoneout - Regularizing RNNs by Randomly Preserving Hidden Activations
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-nonmonotone-learning-rate-strategy-for-sgd-training-of-deep-neural-networks
+  numCitedBy: 13
+  pid: cf61e34f6843be64e7d39bf11670ebd11747be24
+  show_ref_link: false
+  title: A nonmonotone learning rate strategy for SGD training of deep neural networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-importance-of-initialization-and-momentum-in-deep-learning
+  numCitedBy: 3598
+  pid: aa7bfd2304201afbb19971ebde87b17e40242e91
+  show_ref_link: true
+  title: On the importance of initialization and momentum in deep learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-tunable-efficient-unitary-neural-networks-eunn-and-their-application-to-rnns
+  numCitedBy: 145
+  pid: 1d782819afafe0d391e5b67151cb510e621f243d
+  show_ref_link: false
+  title: Tunable Efficient Unitary Neural Networks (EUNN) and their application to RNNs
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-improving-neural-language-models-with-a-continuous-cache
+  numCitedBy: 243
+  pid: 2d7782c225e0fc123d6e227f2cb253e58279ac73
+  show_ref_link: true
+  title: Improving Neural Language Models with a Continuous Cache
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-unitary-evolution-recurrent-neural-networks
+  numCitedBy: 502
+  pid: e9c771197a6564762754e48c1daafb066f449f2e
+  show_ref_link: false
+  title: Unitary Evolution Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-recurrent-dropout-without-memory-loss
+  numCitedBy: 178
+  pid: cf76789618f5db929393c1187514ce6c3502c3cd
+  show_ref_link: false
+  title: Recurrent Dropout without Memory Loss
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28464
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-accurate-large-minibatch-sgd-training-imagenet-in-1-hour
+  numCitedBy: 2269
+  pid: 0d57ba12a6d958e178d83be4c84513f7e42b24e5
+  show_ref_link: true
+  title: Accurate, Large Minibatch SGD - Training ImageNet in 1 Hour
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-full-capacity-unitary-recurrent-neural-networks
+  numCitedBy: 208
+  pid: 79c78c98ea317ba8cdf25a9783ef4b8a7552db75
+  show_ref_link: false
+  title: Full-Capacity Unitary Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-optimization-methods-for-large-scale-machine-learning
+  numCitedBy: 1878
+  pid: d21703674ae562bae4a849a75847cdd9ead417df
+  show_ref_link: false
+  title: Optimization Methods for Large-Scale Machine Learning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-marginal-value-of-adaptive-gradient-methods-in-machine-learning
+  numCitedBy: 732
+  pid: 1ecc2bd0bc6ffa0a2f466a058589c20593e3e57c
+  show_ref_link: false
+  title: The Marginal Value of Adaptive Gradient Methods in Machine Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-regularization-of-neural-networks-using-dropconnect
+  numCitedBy: 2105
+  pid: 38f35dd624cd1cf827416e31ac5e0e0454028eca
+  show_ref_link: true
+  title: Regularization of Neural Networks using DropConnect
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-unbiasing-truncated-backpropagation-through-time
+  numCitedBy: 55
+  pid: c8067a25b1e69569b8d3a0bee223299b2839f416
+  show_ref_link: false
+  title: Unbiasing Truncated Backpropagation Through Time
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-connectionist-learning-procedures
+  numCitedBy: 1582
+  pid: a57c6d627ffc667ae3547073876c35d6420accff
+  show_ref_link: false
+  title: Connectionist Learning Procedures
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-stochastic-gradient-descent-as-approximate-bayesian-inference
+  numCitedBy: 414
+  pid: ea68a5c75e0e228e54efd91db972f71c1a917e51
+  show_ref_link: false
+  title: Stochastic Gradient Descent as Approximate Bayesian Inference
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-moses-open-source-toolkit-for-statistical-machine-translation
+  numCitedBy: 5948
+  pid: 4ee2eab4c298c1824a9fb8799ad8eed21be38d21
+  show_ref_link: true
+  title: Moses - Open Source Toolkit for Statistical Machine Translation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-adaptive-subgradient-methods-for-online-learning-and-stochastic-optimization
+  numCitedBy: 8094
+  pid: 413c1142de9d91804d6d11c67ff3fed59c9fc279
+  show_ref_link: true
+  title: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-train-faster-generalize-better-stability-of-stochastic-gradient-descent
+  numCitedBy: 804
+  pid: 0f7c85357c366b314b5b55c400869a62fd23372c
+  show_ref_link: false
+  title: Train faster, generalize better - Stability of stochastic gradient descent
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-state-representations-with-robotic-priors
+  numCitedBy: 152
+  pid: dc93f6d1b704abf12bbbb296f4ec250467bcb882
+  show_ref_link: false
+  title: Learning state representations with robotic priors
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-low-complexity-proto-value-function-learning-from-sensory-observations-with-incremental-slow-feature-analysis
+  numCitedBy: 23
+  pid: d74d305d96f9c34d61b4c5f49e41859ef5935e1c
+  show_ref_link: false
+  title: Low Complexity Proto-Value Function Learning from Sensory Observations with Incremental Slow Feature Analysis
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-learning-invariance-from-transformation-sequences
+  numCitedBy: 699
+  pid: 2da4e9984a75ffe28c5364662807996ac5bb2662
+  show_ref_link: false
+  title: Learning Invariance from Transformation Sequences
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-acceleration-of-stochastic-approximation-by-averaging
+  numCitedBy: 1559
+  pid: 6dc61f37ecc552413606d8c89ffbc46ec98ed887
+  show_ref_link: false
+  title: Acceleration of stochastic approximation by averaging
+  year: 1992
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2016-gradient-descent-converges-to-minimizers-the-case-of-non-isolated-critical-points
+  numCitedBy: 24
+  pid: 0b432b0930d0c656e93d0c0506f7a5ae26fe4157
+  show_ref_link: false
+  title: Gradient Descent Converges to Minimizers - The Case of Non-Isolated Critical Points
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-open-source-toolkit-for-statistical-machine-translation-factored-translation-models-and-lattice-decoding
+  numCitedBy: 549
+  pid: 99e8d34817ae10d7304521e89c5fbf908b9d856b
+  show_ref_link: false
+  title: Open Source Toolkit for Statistical Machine Translation - Factored Translation Models and Lattice Decoding
+  year: 2006
+slug: Regularizing-and-Optimizing-LSTM-Language-Models-Merity-Keskar
+title: Regularizing and Optimizing LSTM Language Models
+url: https://www.semanticscholar.org/paper/Regularizing-and-Optimizing-LSTM-Language-Models-Merity-Keskar/58c6f890a1ae372958b7decf56132fe258152722?sort=total-citations
+venue: ICLR
+year: 2018

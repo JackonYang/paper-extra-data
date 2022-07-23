@@ -1,0 +1,260 @@
+authors:
+- Miltiadis Allamanis
+- M. Brockschmidt
+- M. Khademi
+badges:
+- id: OPEN_ACCESS
+corpusId: 3495200
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-learning-to-represent-programs-with-graphs
+numCitedBy: 460
+numCiting: 30
+paperAbstract: "Learning tasks on source code (i.e., formal languages) have been considered recently, but most work has tried to transfer natural language methods and does not capitalize on the unique opportunities offered by code's known syntax. For example, long-range dependencies induced by using the same variable or function in distant locations are often not considered. We propose to use graphs to represent both the syntactic and semantic structure of code and use graph-based deep learning methods to learn to reason over program structures. \nIn this work, we present how to construct graphs from source code and how to scale Gated Graph Neural Networks training to such large graphs. We evaluate our method on two tasks: VarNaming, in which a network attempts to predict the name of a variable given its usage, and VarMisuse, in which the network learns to reason about selecting the correct variable that should be used at a given program location. Our comparison to methods that use less structured program representations shows the advantages of modeling known structure, and suggests that our models learn to infer meaningful names and to solve the VarMisuse task in many cases. Additionally, our testing showed that VarMisuse identifies a number of bugs in mature open-source projects."
+ref_count: 30
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-gated-graph-sequence-neural-networks
+  numCitedBy: 2001
+  pid: 492f57ee9ceb61fb5a47ad7aebfec1121887a175
+  show_ref_link: true
+  title: Gated Graph Sequence Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-python-code-suggestion-with-a-sparse-pointer-network
+  numCitedBy: 68
+  pid: 6cb40055bd871ee2178cea3d535c5c52d63ac3af
+  show_ref_link: false
+  title: Learning Python Code Suggestion with a Sparse Pointer Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-suggesting-accurate-method-and-class-names
+  numCitedBy: 327
+  pid: cd7ee037c029b25e691650a26cec7538d255405c
+  show_ref_link: false
+  title: Suggesting accurate method and class names
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-a-survey-of-machine-learning-for-big-code-and-naturalness
+  numCitedBy: 493
+  pid: 960ba564e9e598d864dff38d2f3d0bad1b319ead
+  show_ref_link: false
+  title: A Survey of Machine Learning for Big Code and Naturalness
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-probabilistic-model-for-code-with-decision-trees
+  numCitedBy: 133
+  pid: 62e176977d439aac2e2d7eca834a7a99016dfcaf
+  show_ref_link: false
+  title: Probabilistic model for code with decision trees
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-predicting-program-properties-from-big-code
+  numCitedBy: 321
+  pid: be6665462fd6c56e8756dadf23373bb0c90b2b19
+  show_ref_link: false
+  title: Predicting Program Properties from Big Code
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-structured-generative-models-of-natural-source-code
+  numCitedBy: 148
+  pid: 215999a0e155a21255e4655d4eac312858058a84
+  show_ref_link: false
+  title: Structured Generative Models of Natural Source Code
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-convolutional-attention-network-for-extreme-summarization-of-source-code
+  numCitedBy: 419
+  pid: 484ed558a5863060b373e8a2cb7cb302b8c36116
+  show_ref_link: false
+  title: A Convolutional Attention Network for Extreme Summarization of Source Code
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-code-completion-with-statistical-language-models
+  numCitedBy: 450
+  pid: 1e688be9f4554aa981fe3db9e2a66388b05bd167
+  show_ref_link: false
+  title: Code completion with statistical language models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-node2vec-scalable-feature-learning-for-networks
+  numCitedBy: 6229
+  pid: 36ee2c8bd605afd48035d15fdc6b8c8842363376
+  show_ref_link: false
+  title: node2vec - Scalable Feature Learning for Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-modeling-relational-data-with-graph-convolutional-networks
+  numCitedBy: 2012
+  pid: cd8a9914d50b0ac63315872530274d158d6aff09
+  show_ref_link: false
+  title: Modeling Relational Data with Graph Convolutional Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-encoding-sentences-with-graph-convolutional-networks-for-semantic-role-labeling
+  numCitedBy: 614
+  pid: c3a3c163f25b9181f1fb7e71a32482a7393d2088
+  show_ref_link: false
+  title: Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-new-model-for-learning-in-graph-domains
+  numCitedBy: 965
+  pid: 9ca9f28676ad788d04ba24a51141a9a0a0df4d67
+  show_ref_link: false
+  title: A new model for learning in graph domains
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-phog-probabilistic-model-for-code
+  numCitedBy: 152
+  pid: a62731619b2b09a7d166b9e805f4a1a9c4c7c2d3
+  show_ref_link: false
+  title: PHOG - Probabilistic Model for Code
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-uva-dare-digital-academic-modeling-relational-data-with-graph-convolutional-networks-modeling-relational-data-with-graph-convolutional-networks
+  numCitedBy: 101
+  pid: 0e2f6373266661732d480254a71c0b2910820890
+  show_ref_link: false
+  title: UvA-DARE (Digital Academic Modeling Relational Data with Graph Convolutional Networks Modeling Relational Data with Graph Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-on-the-naturalness-of-software
+  numCitedBy: 519
+  pid: 66b1837b047be9b76f0597550c01be4c10f51190
+  show_ref_link: false
+  title: On the naturalness of software
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-premise-selection-for-theorem-proving-by-deep-graph-embedding
+  numCitedBy: 96
+  pid: 15bce8864a15c20cf483e18099f3601b94673565
+  show_ref_link: false
+  title: Premise Selection for Theorem Proving by Deep Graph Embedding
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-glove-global-vectors-for-word-representation
+  numCitedBy: 22852
+  pid: f37e1b62a767a307c046404ca96bc140b3e68cb5
+  show_ref_link: true
+  title: GloVe - Global Vectors for Word Representation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-message-passing-for-quantum-chemistry
+  numCitedBy: 3319
+  pid: e24cdf73b3e7e590c2fe5ecac9ae8aa983801367
+  show_ref_link: true
+  title: Neural Message Passing for Quantum Chemistry
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-semi-supervised-classification-with-graph-convolutional-networks
+  numCitedBy: 12032
+  pid: 36eff562f65125511b5dfab68ce7f7a943c27478
+  show_ref_link: true
+  title: Semi-Supervised Classification with Graph Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-distributed-representations-of-words-and-phrases-and-their-compositionality
+  numCitedBy: 26281
+  pid: 87f40e6f3022adbc1f1905e3e506abad05a9964f
+  show_ref_link: true
+  title: Distributed Representations of Words and Phrases and their Compositionality
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-natural-coding-conventions
+  numCitedBy: 301
+  pid: 93ff001eb7ddd019c107879943126c74a973993b
+  show_ref_link: false
+  title: Learning natural coding conventions
+  year: 2014
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2015-automated-software-transplantation
+  numCitedBy: 121
+  pid: 54ab2a407ebddf234a939ba3d8a4506aeb83e361
+  show_ref_link: false
+  title: Automated software transplantation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-statistical-deobfuscation-of-android-applications
+  numCitedBy: 91
+  pid: 772a7179b9ff27792e63f821b1ac36502513ee12
+  show_ref_link: false
+  title: Statistical Deobfuscation of Android Applications
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9255
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-detecting-argument-selection-defects
+  numCitedBy: 37
+  pid: bc0b2af02324580f31b2c1c18927c7a40cc6fd46
+  show_ref_link: false
+  title: Detecting argument selection defects
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-neural-networks-on-graphs-with-fast-localized-spectral-filtering
+  numCitedBy: 4212
+  pid: c41eb895616e453dcba1a70c9b942c5063cc656c
+  show_ref_link: true
+  title: Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-on-the-properties-of-neural-machine-translation-encoder-decoder-approaches
+  numCitedBy: 4177
+  pid: 1eb09fecd75eb27825dce4f964b97f4f5cc399d7
+  show_ref_link: true
+  title: On the Properties of Neural Machine Translation - Encoder-Decoder Approaches
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-program-synthesis-by-sketching
+  numCitedBy: 377
+  pid: ae74531e6e73afaffb264b4e536b8fde95d03202
+  show_ref_link: false
+  title: Program synthesis by sketching
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-few-billion-lines-of-code-later
+  numCitedBy: 582
+  pid: 4353dfba7f1f519ecef61759a3ddf4ef20411b29
+  show_ref_link: false
+  title: A few billion lines of code later
+  year: 2010
+slug: Learning-to-Represent-Programs-with-Graphs-Allamanis-Brockschmidt
+title: Learning to Represent Programs with Graphs
+url: https://www.semanticscholar.org/paper/Learning-to-Represent-Programs-with-Graphs-Allamanis-Brockschmidt/d0f2d7236e43f129744e88130fb71f8f872d2b31?sort=total-citations
+venue: ICLR
+year: 2018

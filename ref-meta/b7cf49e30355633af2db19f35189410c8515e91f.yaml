@@ -1,0 +1,277 @@
+authors:
+- Suyog Gupta
+- A. Agrawal
+- K. Gopalakrishnan
+- P. Narayanan
+badges:
+- id: OPEN_ACCESS
+corpusId: 2547043
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-deep-learning-with-limited-numerical-precision
+numCitedBy: 1510
+numCiting: 38
+paperAbstract: Training of large-scale deep neural networks is often constrained by the available computational resources. We study the effect of limited precision data representation and computation on neural network training. Within the context of low-precision fixed-point computations, we observe the rounding scheme to play a crucial role in determining the network's behavior during training. Our results show that deep networks can be trained using only 16-bit wide fixed-point number representation when using stochastic rounding, and incur little to no degradation in the classification accuracy. We also demonstrate an energy-efficient hardware accelerator that implements low-precision fixed-point arithmetic with stochastic rounding.
+ref_count: 38
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-probabilistic-rounding-in-neural-network-learning-with-limited-precision
+  numCitedBy: 39
+  pid: ac904eea95ee29921401cf383fc2e1ae01523b9b
+  show_ref_link: false
+  title: Probabilistic rounding in neural network learning with limited precision
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-training-deep-neural-networks-with-low-precision-multiplications
+  numCitedBy: 469
+  pid: 1b82d54e9a3b06c603d7987ba3ecf437425f6330
+  show_ref_link: false
+  title: Training deep neural networks with low precision multiplications
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-low-precision-arithmetic-for-deep-learning
+  numCitedBy: 166
+  pid: d8c35c2c39fdd2ec6af37ddc8c51deb396aefef8
+  show_ref_link: false
+  title: Low precision arithmetic for deep learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-improving-the-speed-of-neural-networks-on-cpus
+  numCitedBy: 692
+  pid: fbeaa499e10e98515f7e1c4ad89165e8c0677427
+  show_ref_link: false
+  title: Improving the speed of neural networks on CPUs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-finite-precision-error-analysis-of-neural-network-hardware-implementations
+  numCitedBy: 239
+  pid: 4b119dc8a4e38824d73a9f88179935a96e001aaf
+  show_ref_link: false
+  title: Finite Precision Error Analysis of Neural Network Hardware Implementations
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-machines-implemented-on-non-deterministic-hardware
+  numCitedBy: 2
+  pid: 0631a000233bc04da1f69f94b17e959f92d60994
+  show_ref_link: false
+  title: Learning Machines Implemented on Non-Deterministic Hardware
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-learning-with-cots-hpc-systems
+  numCitedBy: 679
+  pid: d1208ac421cf8ff67b27d93cd19ae42b8d596f95
+  show_ref_link: false
+  title: Deep learning with COTS HPC systems
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dadiannao-a-machine-learning-supercomputer
+  numCitedBy: 1065
+  pid: 4157ed3db4c656854e69931cb6089b64b08784b9
+  show_ref_link: true
+  title: DaDianNao - A Machine-Learning Supercomputer
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-large-scale-distributed-deep-networks
+  numCitedBy: 3057
+  pid: 3127190433230b3dc1abd0680bb58dced4bcd90e
+  show_ref_link: true
+  title: Large Scale Distributed Deep Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-240-g-ops-s-mobile-coprocessor-for-deep-neural-networks
+  numCitedBy: 253
+  pid: 233b1774f28c9972df2dfcf20dfbb0df45792bd0
+  show_ref_link: false
+  title: A 240 G-ops/s Mobile Coprocessor for Deep Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-project-adam-building-an-efficient-and-scalable-deep-learning-training-system
+  numCitedBy: 670
+  pid: e69c8b5df8a4178b1c8c7f154a761147a6f030be
+  show_ref_link: false
+  title: Project Adam - Building an Efficient and Scalable Deep Learning Training System
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-x1000-real-time-phoneme-recognition-vlsi-using-feed-forward-deep-neural-networks
+  numCitedBy: 50
+  pid: e277762804aa4615b2258fbd367d91326c00b90e
+  show_ref_link: false
+  title: X1000 real-time phoneme recognition VLSI using feed-forward deep neural networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-image-scaling-up-image-recognition
+  numCitedBy: 310
+  pid: f5ce3abf942cdd685fb0f290f3e741f7b4749f0a
+  show_ref_link: false
+  title: Deep Image - Scaling up Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-accelerating-scientific-computations-with-mixed-precision-algorithms
+  numCitedBy: 169
+  pid: f222ae64c00a2c3bf1294d9acf89a3cf38b74982
+  show_ref_link: false
+  title: Accelerating scientific computations with mixed precision algorithms
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-enhanced-mlp-performance-and-fault-tolerance-resulting-from-synaptic-weight-noise-during-training
+  numCitedBy: 190
+  pid: 60e66781bf17f8103bbc57fc5daeb6fbc5e4b910
+  show_ref_link: false
+  title: Enhanced MLP performance and fault tolerance resulting from synaptic weight noise during training
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6242
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-deep-big-simple-neural-nets-for-handwritten-digit-recognition
+  numCitedBy: 881
+  pid: b98cd08b75ebf2bd1d1ec47c51ef75777a7e64bd
+  show_ref_link: false
+  title: Deep, Big, Simple Neural Nets for Handwritten Digit Recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-a-vlsi-architecture-for-high-performance-low-cost-on-chip-learning
+  numCitedBy: 271
+  pid: c4c310f427e47dc5b70aaad2d8200c8a034d4468
+  show_ref_link: false
+  title: A VLSI architecture for high-performance, low-cost, on-chip learning
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-an-artificial-neural-network-accelerator-using-general-purpose-24-bit-floating-point-digital-signal-processors
+  numCitedBy: 33
+  pid: 1bd9c35867b1c98a4a42df84f52cb08d16a9a828
+  show_ref_link: false
+  title: An artificial neural network accelerator using general purpose 24 bit floating point digital signal processors
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent
+  numCitedBy: 2027
+  pid: 36f49b05d764bf5c10428b082c2d96c13c4203b9
+  show_ref_link: true
+  title: Hogwild - A Lock-Free Approach to Parallelizing Stochastic Gradient Descent
+  year: 2011
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1995-training-with-noise-is-equivalent-to-tikhonov-regularization
+  numCitedBy: 1001
+  pid: c3ecd8e19e016d15670c8953b4b9afaa5186b0f3
+  show_ref_link: false
+  title: Training with Noise is Equivalent to Tikhonov Regularization
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1982-why-systolic-architectures
+  numCitedBy: 2228
+  pid: 256bbe8e9fa3f5b72c24f1037ab734f9e7dd01c4
+  show_ref_link: false
+  title: Why systolic architectures?
+  year: 1982
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-noise-benefits-in-backpropagation-and-deep-bidirectional-pre-training
+  numCitedBy: 29
+  pid: a52d3122e045d6311bf309aed2c42ca75fb1e07f
+  show_ref_link: false
+  title: Noise benefits in backpropagation and deep bidirectional pre-training
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-neuflow-a-runtime-reconfigurable-dataflow-processor-for-vision
+  numCitedBy: 349
+  pid: 204710a6a6d935150b5b16daf74493dea6d1b7a2
+  show_ref_link: false
+  title: NeuFlow - A runtime reconfigurable dataflow processor for vision
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-million-spiking-neuron-integrated-circuit-with-a-scalable-communication-network-and-interface
+  numCitedBy: 2491
+  pid: 680a38e8f025685b192e9e0cf755c6b664963551
+  show_ref_link: false
+  title: A million spiking-neuron integrated circuit with a scalable communication network and interface
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-the-effects-of-adding-noise-during-backpropagation-training-on-a-generalization-performance
+  numCitedBy: 375
+  pid: f8d37cf4c4a2f15acd7c6ab2b4b4f25a3f3d7f9c
+  show_ref_link: false
+  title: The Effects of Adding Noise During Backpropagation Training on a Generalization Performance
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3561
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-the-tradeoffs-of-large-scale-learning
+  numCitedBy: 1493
+  pid: 5936754b5762260bf102ac95d7b26cfc9d31956a
+  show_ref_link: false
+  title: The Tradeoffs of Large Scale Learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-the-mnist-database-of-handwritten-digits
+  numCitedBy: 4474
+  pid: dc52d1ede1b90bf9d296bc5b34c9310b7eaa99a2
+  show_ref_link: true
+  title: The mnist database of handwritten digits
+  year: 2005
+slug: Deep-Learning-with-Limited-Numerical-Precision-Gupta-Agrawal
+title: Deep Learning with Limited Numerical Precision
+url: https://www.semanticscholar.org/paper/Deep-Learning-with-Limited-Numerical-Precision-Gupta-Agrawal/b7cf49e30355633af2db19f35189410c8515e91f?sort=total-citations
+venue: ICML
+year: 2015

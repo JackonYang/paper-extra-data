@@ -9,7 +9,7 @@ corpusId: 88166
 fieldsOfStudy:
 - Computer Science
 meta_key: 2008-labeled-faces-in-the-wild-a-database-forstudying-face-recognition-in-unconstrained-environments
-numCitedBy: 4920
+numCitedBy: 4941
 numCiting: 62
 paperAbstract: "Most face databases have been created under controlled conditions to facilitate the study of specific parameters on the face recognition problem. These parameters include such variables as position, pose, lighting, background, camera quality, and gender. While there are many applications for face recognition technology in which one can control the parameters of image acquisition, there are also many applications in which the practitioner has little or no control over such parameters. This database, Labeled Faces in the Wild, is provided as an aid in studying the latter, unconstrained, recognition problem. The database contains labeled face photographs spanning the range of conditions typically encountered in everyday life. The database exhibits \u201Cnatural\u201D variability in factors such as pose, lighting, race, accessories, occlusions, and background. In addition to describing the details of the database, we provide specific experimental paradigms for which the database is suitable. This is done in an effort to make research performed with the database as consistent and comparable as possible. We provide baseline results, including results of a state of the art face recognition system combined with a face alignment system. To facilitate experimentation on the database, we provide several parallel databases, including an aligned version."
 ref_count: 62

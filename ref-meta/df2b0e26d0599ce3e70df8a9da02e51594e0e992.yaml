@@ -332,7 +332,7 @@ references:
   meta_key: 2014-how-transferable-are-features-in-deep-neural-networks
   numCitedBy: 5810
   pid: 081651b38ff7533550a3adfc1c00da333a8fe86c
-  show_ref_link: false
+  show_ref_link: true
   title: How transferable are features in deep neural networks?
   year: 2014
 - fieldsOfStudy:

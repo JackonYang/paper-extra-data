@@ -211,7 +211,7 @@ references:
   meta_key: 2001-an-introduction-to-kernel-based-learning-algorithms
   numCitedBy: 3524
   pid: 1fcbefeb0beae4470cf40df74cd116b1d4bdcae4
-  show_ref_link: false
+  show_ref_link: true
   title: An introduction to kernel-based learning algorithms
   year: 2001
 - fieldsOfStudy:

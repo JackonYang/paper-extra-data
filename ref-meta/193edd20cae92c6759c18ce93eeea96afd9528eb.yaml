@@ -1873,7 +1873,7 @@ references:
   meta_key: 2017-unsupervised-learning
   numCitedBy: 1399
   pid: d62bcde418144411068d5b09952090962fbc05f6
-  show_ref_link: false
+  show_ref_link: true
   title: Unsupervised Learning
   year: 2017
 - fieldsOfStudy:
@@ -2179,7 +2179,7 @@ references:
   meta_key: 2004-q-learning
   numCitedBy: 7232
   pid: 03b7e51c52084ac1db5118342a00b5fbcfc587aa
-  show_ref_link: false
+  show_ref_link: true
   title: Q-learning
   year: 2004
 - fieldsOfStudy:
@@ -3621,7 +3621,7 @@ references:
   meta_key: 1988-genetic-algorithms-in-search-optimization-and-machine-learning
   numCitedBy: 58177
   pid: 2e62d1345b340d5fda3b092c460264b9543bc4b5
-  show_ref_link: false
+  show_ref_link: true
   title: Genetic Algorithms in Search Optimization and Machine Learning
   year: 1988
 - fieldsOfStudy:
@@ -4253,7 +4253,7 @@ references:
   meta_key: 2011-contractive-auto-encoders-explicit-invariance-during-feature-extraction
   numCitedBy: 1253
   pid: 195d0a8233a7a46329c742eaff56c276f847fadc
-  show_ref_link: false
+  show_ref_link: true
   title: Contractive Auto-Encoders - Explicit Invariance During Feature Extraction
   year: 2011
 - fieldsOfStudy:

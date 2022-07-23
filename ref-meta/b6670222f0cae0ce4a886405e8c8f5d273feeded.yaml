@@ -1,0 +1,191 @@
+authors:
+- Lisha Li
+- Kevin G. Jamieson
+- Giulia DeSalvo
+- Afshin Rostamizadeh
+- Ameet S. Talwalkar
+badges:
+- id: OPEN_ACCESS
+corpusId: 6994093
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-efficient-hyperparameter-optimization-and-infinitely-many-armed-bandits
+numCitedBy: 122
+numCiting: 22
+paperAbstract: Performance of machine learning algorithms depends critically on identifying a good set of hyperparameters. While current methods offer efficiencies by adaptively choosing new configurations to train, an alternative strategy is to adaptively allocate resources across the selected configurations. We formulate hyperparameter optimization as a pure-exploration non-stochastic infinitely many armed bandit problem where allocation of additional resources to an arm corresponds to training a configuration on larger subsets of the data. We introduce Hyperband for this framework and analyze its theoretical properties, providing several desirable guarantees. We compare Hyperband with state-of-the-art Bayesian optimization methods and a random search baseline on a comprehensive benchmark including 117 datasets. Our results on this benchmark demonstrate that while Bayesian optimization methods do not outperform random search trained for twice as long, Hyperband in favorable settings offers valuable speedups.
+ref_count: 22
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-non-stochastic-best-arm-identification-and-hyperparameter-optimization
+  numCitedBy: 346
+  pid: c6c745d7fae9aad4294549d829f7e7415ffb1709
+  show_ref_link: false
+  title: Non-stochastic Best Arm Identification and Hyperparameter Optimization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-multi-task-bayesian-optimization
+  numCitedBy: 526
+  pid: d08d5f5aa142d6c44336cbed286d6c40ca6f5bf0
+  show_ref_link: false
+  title: Multi-Task Bayesian Optimization
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-almost-optimal-exploration-in-multi-armed-bandits
+  numCitedBy: 301
+  pid: 43e0414b3cb52369c0ffece6eb043d0717776e92
+  show_ref_link: false
+  title: Almost Optimal Exploration in Multi-Armed Bandits
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-algorithms-for-hyper-parameter-optimization
+  numCitedBy: 2516
+  pid: 03911c85305d42aa2eeb02be82ef6fb7da644dd0
+  show_ref_link: true
+  title: Algorithms for Hyper-Parameter Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scalable-bayesian-optimization-using-deep-neural-networks
+  numCitedBy: 711
+  pid: 93bc65d2842b8cc5f3cf72ebc5b8f75daeacea35
+  show_ref_link: false
+  title: Scalable Bayesian Optimization Using Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-simple-regret-for-infinitely-many-armed-bandits
+  numCitedBy: 58
+  pid: 617ea1c4778bc6bc6286509eba4521cada701394
+  show_ref_link: false
+  title: Simple regret for infinitely many armed bandits
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-oracle-inequalities-for-computationally-budgeted-model-selection
+  numCitedBy: 31
+  pid: f6bc323c11edc19be948df19cffff6e6251f8073
+  show_ref_link: false
+  title: Oracle inequalities for computationally budgeted model selection
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-freeze-thaw-bayesian-optimization
+  numCitedBy: 205
+  pid: 52d97890dbc290108136739ec2afe0f2b6c4f570
+  show_ref_link: false
+  title: Freeze-Thaw Bayesian Optimization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-efficient-multi-start-strategies-for-local-search-algorithms
+  numCitedBy: 64
+  pid: 847371ea5c3eedc756bc6a78df4ad6c224c7f30b
+  show_ref_link: false
+  title: Efficient Multi-Start Strategies for Local Search Algorithms
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-towards-an-empirical-foundation-for-assessing-bayesian-optimization-of-hyperparameters
+  numCitedBy: 259
+  pid: 312f8804100cc836ad6fcc780f95b9f23a12f257
+  show_ref_link: false
+  title: Towards an Empirical Foundation for Assessing Bayesian Optimization of Hyperparameters
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-automating-model-search-for-large-scale-machine-learning
+  numCitedBy: 134
+  pid: 83ec245d470a3b75c0861acd5e67db5216e8e049
+  show_ref_link: false
+  title: Automating model search for large scale machine learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
+  numCitedBy: 2055
+  pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
+  show_ref_link: true
+  title: Sequential Model-Based Optimization for General Algorithm Configuration
+  year: 2011
+- fieldsOfStudy:
+  - Economics
+  - Computer Science
+  meta_key: 2012-regret-analysis-of-stochastic-and-nonstochastic-multi-armed-bandit-problems
+  numCitedBy: 2154
+  pid: 9ae45d013a90c4a562b1e380fe032b20d0779577
+  show_ref_link: false
+  title: Regret Analysis of Stochastic and Nonstochastic Multi-armed Bandit Problems
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-efficient-and-robust-automated-machine-learning
+  numCitedBy: 1156
+  pid: 775a4e375cc79b53b94e37fa3eedff481823e4a6
+  show_ref_link: false
+  title: Efficient and Robust Automated Machine Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fast-cross-validation-via-sequential-testing
+  numCitedBy: 42
+  pid: 5e8e6083e430ab6bd00108b3b94ee62eea32c6f8
+  show_ref_link: false
+  title: Fast cross-validation via sequential testing
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-sharp-analysis-of-low-rank-kernel-matrix-approximations
+  numCitedBy: 242
+  pid: 9b7f46e4165e9d6186773b6d00d969a9a956b7f3
+  show_ref_link: false
+  title: Sharp analysis of low-rank kernel matrix approximations
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-on-the-impact-of-kernel-approximation-on-learning-accuracy
+  numCitedBy: 147
+  pid: a035cccf0f57b505229f0e5db1a1dfedde062d43
+  show_ref_link: false
+  title: On the Impact of Kernel Approximation on Learning Accuracy
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-action-elimination-and-stopping-conditions-for-reinforcement-learning
+  numCitedBy: 46
+  pid: 96c1211bf54b277c225a3e50329058c2abcfdaca
+  show_ref_link: false
+  title: Action Elimination and Stopping Conditions for Reinforcement Learning
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-fast-rates-for-support-vector-machines-using-gaussian-kernels
+  numCitedBy: 253
+  pid: 887a80f2b85c1737f8f882986d078017654f23e4
+  show_ref_link: false
+  title: Fast rates for support vector machines using Gaussian kernels
+  year: 2007
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2003-estimating-the-approximation-error-in-learning-theory
+  numCitedBy: 249
+  pid: 13f48e541756c34afa798eacd502c8bb4689be4d
+  show_ref_link: false
+  title: ESTIMATING THE APPROXIMATION ERROR IN LEARNING THEORY
+  year: 2003
+slug: Efficient-Hyperparameter-Optimization-and-Many-Li-Jamieson
+title: Efficient Hyperparameter Optimization and Infinitely Many Armed Bandits
+url: https://www.semanticscholar.org/paper/Efficient-Hyperparameter-Optimization-and-Many-Li-Jamieson/b6670222f0cae0ce4a886405e8c8f5d273feeded?sort=total-citations
+venue: ArXiv
+year: 2016

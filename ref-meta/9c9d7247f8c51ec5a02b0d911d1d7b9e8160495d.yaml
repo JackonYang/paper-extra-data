@@ -103,7 +103,7 @@ references:
   meta_key: 2014-cudnn-efficient-primitives-for-deep-learning
   numCitedBy: 1411
   pid: 31c36d445367ba204244bb74893c5654e31c3869
-  show_ref_link: false
+  show_ref_link: true
   title: cuDNN - Efficient Primitives for Deep Learning
   year: 2014
 - fieldsOfStudy:
@@ -143,7 +143,7 @@ references:
   meta_key: 2015-pointer-networks
   numCitedBy: 1722
   pid: 9653d5c2c7844347343d073bbedd96e05d52f69b
-  show_ref_link: false
+  show_ref_link: true
   title: Pointer Networks
   year: 2015
 - fieldsOfStudy:
@@ -223,7 +223,7 @@ references:
   meta_key: 2011-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent
   numCitedBy: 2023
   pid: 36f49b05d764bf5c10428b082c2d96c13c4203b9
-  show_ref_link: false
+  show_ref_link: true
   title: Hogwild - A Lock-Free Approach to Parallelizing Stochastic Gradient Descent
   year: 2011
 - fieldsOfStudy:

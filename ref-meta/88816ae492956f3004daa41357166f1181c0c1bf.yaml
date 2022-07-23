@@ -7,7 +7,7 @@ corpusId: 14879317
 fieldsOfStudy:
 - Computer Science
 meta_key: 2003-laplacian-eigenmaps-for-dimensionality-reduction-and-data-representation
-numCitedBy: 7057
+numCitedBy: 7074
 numCiting: 78
 paperAbstract: One of the central problems in machine learning and pattern recognition is to develop appropriate representations for complex data. We consider the problem of constructing a representation for data lying on a low-dimensional manifold embedded in a high-dimensional space. Drawing on the correspondence between the graph Laplacian, the Laplace Beltrami operator on the manifold, and the connections to the heat equation, we propose a geometrically motivated algorithm for representing the high-dimensional data. The algorithm provides a computationally efficient approach to nonlinear dimensionality reduction that has locality-preserving properties and a natural connection to clustering. Some potential applications and illustrative examples are discussed.
 ref_count: 78
@@ -18,7 +18,7 @@ references:
   meta_key: 2001-laplacian-eigenmaps-and-spectral-techniques-for-embedding-and-clustering
   numCitedBy: 4255
   pid: 9d16c547d15a08091e68c86a99731b14366e3f0d
-  show_ref_link: false
+  show_ref_link: true
   title: Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering
   year: 2001
 - fieldsOfStudy:

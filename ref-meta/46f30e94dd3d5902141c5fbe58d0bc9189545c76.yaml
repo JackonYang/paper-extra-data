@@ -1,0 +1,159 @@
+authors:
+- R. Hadsell
+- S. Chopra
+- Yann LeCun
+badges:
+- id: OPEN_ACCESS
+corpusId: 8281592
+fieldsOfStudy:
+- Computer Science
+meta_key: 2006-dimensionality-reduction-by-learning-an-invariant-mapping
+numCitedBy: 3027
+numCiting: 25
+paperAbstract: Dimensionality reduction involves mapping a set of high dimensional input points onto a low dimensional manifold so that 'similar" points in input space are mapped to nearby points on the manifold. We present a method - called Dimensionality Reduction by Learning an Invariant Mapping (DrLIM) - for learning a globally coherent nonlinear function that maps the data evenly to the output manifold. The learning relies solely on neighborhood relationships and does not require any distancemeasure in the input space. The method can learn mappings that are invariant to certain transformations of the inputs, as is demonstrated with a number of experiments. Comparisons are made to other techniques, in particular LLE.
+ref_count: 25
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-nonlinear-dimensionality-reduction-by-locally-linear-embedding
+  numCitedBy: 14025
+  pid: afcd6da7637ddeef6715109aca248da7a24b1c65
+  show_ref_link: true
+  title: Nonlinear dimensionality reduction by locally linear embedding.
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-a-kernel-matrix-for-nonlinear-dimensionality-reduction
+  numCitedBy: 554
+  pid: 2ff87fef3fc79b5bb47f2783e5b28084ef6b83c4
+  show_ref_link: false
+  title: Learning a kernel matrix for nonlinear dimensionality reduction
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-unsupervised-learning-of-image-manifolds-by-semidefinite-programming
+  numCitedBy: 657
+  pid: 8f70d8019618a7c1dfc8118711a2e72ea5a510e7
+  show_ref_link: false
+  title: Unsupervised Learning of Image Manifolds by Semidefinite Programming
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-global-geometric-framework-for-nonlinear-dimensionality-reduction
+  numCitedBy: 12255
+  pid: 3537fcd0ff99a3b3cb3d279012df826358420556
+  show_ref_link: true
+  title: A global geometric framework for nonlinear dimensionality reduction.
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2001-laplacian-eigenmaps-and-spectral-techniques-for-embedding-and-clustering
+  numCitedBy: 4265
+  pid: 9d16c547d15a08091e68c86a99731b14366e3f0d
+  show_ref_link: true
+  title: Laplacian Eigenmaps and Spectral Techniques for Embedding and Clustering
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-learning-a-similarity-metric-discriminatively-with-application-to-face-verification
+  numCitedBy: 2937
+  pid: cfaae9b6857b834043606df3342d8dc97524aa9d
+  show_ref_link: false
+  title: Learning a similarity metric discriminatively, with application to face verification
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-out-of-sample-extensions-for-lle-isomap-mds-eigenmaps-and-spectral-clustering
+  numCitedBy: 1069
+  pid: 5f39fe2659603f4194fd638d1a2e17985415c3bb
+  show_ref_link: false
+  title: Out-of-Sample Extensions for LLE, Isomap, MDS, Eigenmaps, and Spectral Clustering
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2003-hessian-eigenmaps-locally-linear-embedding-techniques-for-high-dimensional-data
+  numCitedBy: 1597
+  pid: 57a66ac4a4e0a00d2cdee8711ce0a18b49e9f7a2
+  show_ref_link: false
+  title: Hessian eigenmaps - Locally linear embedding techniques for high-dimensional data
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-neural-support-vector-network-architecture-with-adaptive-kernels
+  numCitedBy: 16
+  pid: 22caccb8f64c258fcd051e9ab68179faa0219bb3
+  show_ref_link: false
+  title: A Neural Support Vector Network architecture with adaptive kernels
+  year: 2000
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1998-nonlinear-component-analysis-as-a-kernel-eigenvalue-problem
+  numCitedBy: 7904
+  pid: 3f600e6c6cf93e78c9e6e690443d6d22c4bf18b9
+  show_ref_link: false
+  title: Nonlinear Component Analysis as a Kernel Eigenvalue Problem
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-on-spectral-clustering-analysis-and-an-algorithm
+  numCitedBy: 8459
+  pid: c02dfd94b11933093c797c362e2f8f6a3b9b8012
+  show_ref_link: true
+  title: On Spectral Clustering - Analysis and an algorithm
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-normalized-cuts-and-image-segmentation
+  numCitedBy: 13050
+  pid: b94c7ff9532ab26c3aedbee3988ec4c7a237c173
+  show_ref_link: true
+  title: Normalized cuts and image segmentation
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-methods-for-generic-object-recognition-with-invariance-to-pose-and-lighting
+  numCitedBy: 1321
+  pid: f354310098e09c1e1dc88758fca36767fd9d084d
+  show_ref_link: false
+  title: Learning methods for generic object recognition with invariance to pose and lighting
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3561
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Mathematics
+  - Geology
+  meta_key: 1986-principal-component-analysis
+  numCitedBy: 6870
+  pid: 4387ec06ce5df65eb7c8221652cb9fd317c40bda
+  show_ref_link: false
+  title: Principal Component Analysis
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-signature-verification-using-a-siamese-time-delay-neural-network
+  numCitedBy: 2652
+  pid: 997dc5d9a058753f034422afe7bd0cc0b8ad808b
+  show_ref_link: false
+  title: Signature Verification Using A Siamese Time Delay Neural Network
+  year: 1993
+slug: Dimensionality-Reduction-by-Learning-an-Invariant-Hadsell-Chopra
+title: Dimensionality Reduction by Learning an Invariant Mapping
+url: https://www.semanticscholar.org/paper/Dimensionality-Reduction-by-Learning-an-Invariant-Hadsell-Chopra/46f30e94dd3d5902141c5fbe58d0bc9189545c76?sort=total-citations
+venue: 2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'06)
+year: 2006

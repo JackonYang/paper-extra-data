@@ -1,0 +1,420 @@
+authors:
+- Alec Radford
+- Luke Metz
+- Soumith Chintala
+badges:
+- id: OPEN_ACCESS
+corpusId: 11758569
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-unsupervised-representation-learning-with-deep-convolutional-generative-adversarial-networks
+numCitedBy: 9978
+numCiting: 59
+paperAbstract: In recent years, supervised learning with convolutional networks (CNNs) has seen huge adoption in computer vision applications. Comparatively, unsupervised learning with CNNs has received less attention. In this work we hope to help bridge the gap between the success of CNNs for supervised learning and unsupervised learning. We introduce a class of CNNs called deep convolutional generative adversarial networks (DCGANs), that have certain architectural constraints, and demonstrate that they are a strong candidate for unsupervised learning. Training on various image datasets, we show convincing evidence that our deep convolutional adversarial pair learns a hierarchy of representations from object parts to scenes in both the generator and discriminator. Additionally, we use the learned features for novel tasks - demonstrating their applicability as general image representations.
+ref_count: 59
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-discriminative-unsupervised-feature-learning-with-exemplar-convolutional-neural-networks
+  numCitedBy: 494
+  pid: 8bb86dde5c7e11918b19e75e6211b77bf2649951
+  show_ref_link: false
+  title: Discriminative Unsupervised Feature Learning with Exemplar Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-generative-image-models-using-a-laplacian-pyramid-of-adversarial-networks
+  numCitedBy: 1872
+  pid: 47900aca2f0b50da3010ad59b394c870f0e6c02e
+  show_ref_link: false
+  title: Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-convolutional-deep-belief-networks-for-scalable-unsupervised-learning-of-hierarchical-representations
+  numCitedBy: 2528
+  pid: 1e80f755bcbf10479afd2338cec05211fdbd325c
+  show_ref_link: false
+  title: Convolutional deep belief networks for scalable unsupervised learning of hierarchical representations
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-and-transferring-mid-level-image-representations-using-convolutional-neural-networks
+  numCitedBy: 2762
+  pid: c08f5fa876181fc040d76c75fe2433eee3c9b001
+  show_ref_link: true
+  title: Learning and Transferring Mid-level Image Representations Using Convolutional Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-striving-for-simplicity-the-all-convolutional-net
+  numCitedBy: 3314
+  pid: 0f84a81f431b18a78bd97f59ed4b9d8eda390970
+  show_ref_link: true
+  title: Striving for Simplicity - The All Convolutional Net
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-stacked-denoising-autoencoders-learning-useful-representations-in-a-deep-network-with-a-local-denoising-criterion
+  numCitedBy: 5655
+  pid: e2b7f37cd97a7907b1b8a41138721ed06a0b76cd
+  show_ref_link: true
+  title: Stacked Denoising Autoencoders - Learning Useful Representations in a Deep Network with a Local Denoising Criterion
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-improved-techniques-for-training-gans
+  numCitedBy: 5623
+  pid: 571b0750085ae3d939525e62af510ee2cee9d5ea
+  show_ref_link: false
+  title: Improved Techniques for Training GANs
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-lsun-construction-of-a-large-scale-image-dataset-using-deep-learning-with-humans-in-the-loop
+  numCitedBy: 1096
+  pid: 4dcdae25a5e33682953f0853ee4cf7ca93be58a9
+  show_ref_link: false
+  title: LSUN - Construction of a Large-scale Image Dataset using Deep Learning with Humans in the Loop
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-selecting-receptive-fields-in-deep-networks
+  numCitedBy: 223
+  pid: 182015c5edff1956cbafbcb3e7bbe294aa54f9fc
+  show_ref_link: false
+  title: Selecting Receptive Fields in Deep Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-generative-adversarial-nets
+  numCitedBy: 30170
+  pid: 54e325aee6b2d476bbbb88615ac15e251c6e8214
+  show_ref_link: false
+  title: Generative Adversarial Nets
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-visualizing-and-understanding-convolutional-networks
+  numCitedBy: 11942
+  pid: 1a2a770d23b4a171fa81de62a78a3deb0588f238
+  show_ref_link: true
+  title: Visualizing and Understanding Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-semi-supervised-learning-with-ladder-networks
+  numCitedBy: 1010
+  pid: 99487be08cab00554c5c8db73161b2615c694f71
+  show_ref_link: false
+  title: Semi-supervised Learning with Ladder Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dreaming-more-data-class-dependent-distributions-over-diffeomorphisms-for-learned-data-augmentation
+  numCitedBy: 118
+  pid: 440349a3c81780ef08254f5a59229cad74f54904
+  show_ref_link: false
+  title: Dreaming More Data - Class-dependent Distributions over Diffeomorphisms for Learned Data Augmentation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-semi-supervised-learning-with-ladder-network
+  numCitedBy: 96
+  pid: cddf8a10c7f48df67a797808a615be0d4acf9a8e
+  show_ref_link: false
+  title: Semi-Supervised Learning with Ladder Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-draw-a-recurrent-neural-network-for-image-generation
+  numCitedBy: 1641
+  pid: a2785f66c20fbdf30ec26c0931584c6d6a0f4fca
+  show_ref_link: true
+  title: DRAW - A Recurrent Neural Network For Image Generation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-stacked-what-where-auto-encoders
+  numCitedBy: 231
+  pid: cba5fbd40767a27d20e346a108b8867ac8591a27
+  show_ref_link: false
+  title: Stacked What-Where Auto-encoders
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-synthesizing-the-preferred-inputs-for-neurons-in-neural-networks-via-deep-generator-networks
+  numCitedBy: 516
+  pid: e1ce8d00729f9e61eeb315f3cbd7b5354706adbd
+  show_ref_link: false
+  title: Synthesizing the preferred inputs for neurons in neural networks via deep generator networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-empirical-evaluation-of-rectified-activations-in-convolutional-network
+  numCitedBy: 1879
+  pid: adf3b591281688b7e71b254ab931b2aa39b4b59f
+  show_ref_link: false
+  title: Empirical Evaluation of Rectified Activations in Convolutional Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-to-generate-chairs-with-convolutional-neural-networks
+  numCitedBy: 630
+  pid: b437b5a0445f17b06b12791bc48aeb8110e95dc5
+  show_ref_link: false
+  title: Learning to generate chairs with convolutional neural networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-understanding-locally-competitive-networks
+  numCitedBy: 37
+  pid: abc866e30163ec67f1cf4f4380e5f8323a6c598d
+  show_ref_link: false
+  title: Understanding Locally Competitive Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-to-generate-chairs-tables-and-cars-with-convolutional-networks
+  numCitedBy: 229
+  pid: 1c3d7d5a9a9eafa084913b8c83a013c81d50479f
+  show_ref_link: false
+  title: Learning to Generate Chairs, Tables and Cars with Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-note-on-the-evaluation-of-generative-models
+  numCitedBy: 834
+  pid: 39e0c341351f8f4a39ac890b96217c7f4bde5369
+  show_ref_link: false
+  title: A note on the evaluation of generative models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3973
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-under-review-as-a-conference-paper-at-iclr-2017-delving-into-transferable-adversarial-ex-amples-and-black-box-attacks
+  numCitedBy: 488
+  pid: 94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f
+  show_ref_link: true
+  title: Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-learning-feature-representations-with-k-means
+  numCitedBy: 589
+  pid: 007d73c91a1bf90d72eb59fbdd8791a4b009f363
+  show_ref_link: false
+  title: Learning Feature Representations with K-Means
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-unrolled-generative-adversarial-networks
+  numCitedBy: 750
+  pid: 488bb25e0b1777847f04c943e6dbc4f84415b712
+  show_ref_link: false
+  title: Unrolled Generative Adversarial Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-unsupervised-learning-using-nonequilibrium-thermodynamics
+  numCitedBy: 361
+  pid: 2dcef55a07f8607a819c21fe84131ea269cc2e3c
+  show_ref_link: false
+  title: Deep Unsupervised Learning using Nonequilibrium Thermodynamics
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-auto-encoding-variational-bayes
+  numCitedBy: 17049
+  pid: 5f5dc5b9a2ba710937e2c413b37b053cd673df02
+  show_ref_link: true
+  title: Auto-Encoding Variational Bayes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-rectifier-nonlinearities-improve-neural-network-acoustic-models
+  numCitedBy: 4478
+  pid: 367f2c63a6f6a10b3b64b8729d601e69337ee3cc
+  show_ref_link: true
+  title: Rectifier Nonlinearities Improve Neural Network Acoustic Models
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-train-faster-generalize-better-stability-of-stochastic-gradient-descent
+  numCitedBy: 804
+  pid: 0f7c85357c366b314b5b55c400869a62fd23372c
+  show_ref_link: false
+  title: Train faster, generalize better - Stability of stochastic gradient descent
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12985
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-scene-completion-using-millions-of-photographs
+  numCitedBy: 737
+  pid: edd5771531fe1f29a2ac60d8b5388e2a50944453
+  show_ref_link: false
+  title: Scene completion using millions of photographs
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-sparse-probabilistic-projections
+  numCitedBy: 143
+  pid: 653a377af7e720face2c6c7f5f05ac5dbfc8e35f
+  show_ref_link: false
+  title: Sparse probabilistic projections
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-propagation-algorithms-for-variational-bayesian-learning
+  numCitedBy: 343
+  pid: e5f22d558526017f130c75ca35fe0a737c01aaee
+  show_ref_link: false
+  title: Propagation Algorithms for Variational Bayesian Learning
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-variational-learning-for-switching-state-space-models
+  numCitedBy: 353
+  pid: 66689a4f519cc1deb147def41f15870b97665487
+  show_ref_link: false
+  title: Variational Learning for Switching State-Space Models
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-hierarchical-mixtures-of-experts-and-the-em-algorithm
+  numCitedBy: 2201
+  pid: f6d8a7fc2e2d53923832f9404376512068ca2a57
+  show_ref_link: false
+  title: Hierarchical Mixtures of Experts and the EM Algorithm
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-distributed-representations-of-words-and-phrases-and-their-compositionality
+  numCitedBy: 26281
+  pid: 87f40e6f3022adbc1f1905e3e506abad05a9964f
+  show_ref_link: true
+  title: Distributed Representations of Words and Phrases and their Compositionality
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-example-based-super-resolution
+  numCitedBy: 2368
+  pid: e484ef6b9a1b38a86a8c79b5559a3070f327a033
+  show_ref_link: false
+  title: Example-Based Super-Resolution
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-a-parametric-texture-model-based-on-joint-statistics-of-complex-wavelet-coefficients
+  numCitedBy: 1813
+  pid: 37afeac49518877dc96a3ca2ec3ebdfc5305e0a9
+  show_ref_link: false
+  title: A Parametric Texture Model Based on Joint Statistics of Complex Wavelet Coefficients
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-factorial-hidden-markov-models
+  numCitedBy: 1206
+  pid: 78e510627d3f28601e370212bf063bbfa539ebed
+  show_ref_link: false
+  title: Factorial Hidden Markov Models
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-variational-em-algorithms-for-non-gaussian-latent-variable-models
+  numCitedBy: 187
+  pid: 3d2e6984435f5b35cb26fb9c2e081478a654d799
+  show_ref_link: false
+  title: Variational EM Algorithms for Non-Gaussian Latent Variable Models
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-texture-synthesis-by-non-parametric-sampling
+  numCitedBy: 1686
+  pid: bba3264d6794538381687ad6e151a7f42f3872a9
+  show_ref_link: false
+  title: Texture synthesis by non-parametric sampling
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-training-invariant-support-vector-machines-using-selective-sampling
+  numCitedBy: 206
+  pid: 4a91fe63627d5ebba45c488ed6754c60c928ae74
+  show_ref_link: false
+  title: Training Invariant Support Vector Machines using Selective Sampling
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-an-input-output-hmm-architecture
+  numCitedBy: 356
+  pid: 29085cdffb3277c1c8fd10ac09e0d89452c8db83
+  show_ref_link: false
+  title: An Input Output HMM Architecture
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-random-search-for-hyper-parameter-optimization
+  numCitedBy: 5726
+  pid: 188e247506ad992b8bc62d6c74789e89891a984f
+  show_ref_link: true
+  title: Random Search for Hyper-Parameter Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-probabilistic-interpretation-of-canonical-correlation-analysis
+  numCitedBy: 476
+  pid: 8c8233a4560d00111b5436fd5d0c56a90e061708
+  show_ref_link: false
+  title: A Probabilistic Interpretation of Canonical Correlation Analysis
+  year: 2005
+- fieldsOfStudy:
+  - Business
+  meta_key: 2015-inceptionism-going-deeper-into-neural-networks
+  numCitedBy: 545
+  pid: ad2469bff83c9d5a55dd81040d369c8af29be132
+  show_ref_link: false
+  title: Inceptionism - Going Deeper into Neural Networks
+  year: 2015
+slug: Unsupervised-Representation-Learning-with-Deep-Radford-Metz
+title: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+url: https://www.semanticscholar.org/paper/Unsupervised-Representation-Learning-with-Deep-Radford-Metz/8388f1be26329fa45e5807e968a641ce170ea078?sort=total-citations
+venue: ICLR
+year: 2016

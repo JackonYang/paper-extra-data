@@ -491,7 +491,7 @@ references:
   meta_key: 2011-algorithms-for-hyper-parameter-optimization
   numCitedBy: 2494
   pid: 03911c85305d42aa2eeb02be82ef6fb7da644dd0
-  show_ref_link: false
+  show_ref_link: true
   title: Algorithms for Hyper-Parameter Optimization
   year: 2011
 - fieldsOfStudy:
@@ -515,7 +515,7 @@ references:
   meta_key: 2011-contractive-auto-encoders-explicit-invariance-during-feature-extraction
   numCitedBy: 1250
   pid: 195d0a8233a7a46329c742eaff56c276f847fadc
-  show_ref_link: false
+  show_ref_link: true
   title: Contractive Auto-Encoders - Explicit Invariance During Feature Extraction
   year: 2011
 - fieldsOfStudy:
@@ -611,7 +611,7 @@ references:
   meta_key: 2011-domain-adaptation-for-large-scale-sentiment-classification-a-deep-learning-approach
   numCitedBy: 1608
   pid: 6f4065f0cc99a0839b0248ffb4457e5f0277b30d
-  show_ref_link: false
+  show_ref_link: true
   title: Domain Adaptation for Large-Scale Sentiment Classification - A Deep Learning Approach
   year: 2011
 - fieldsOfStudy:
@@ -1076,7 +1076,7 @@ references:
   meta_key: 2012-a-practical-guide-to-training-restricted-boltzmann-machines
   numCitedBy: 2746
   pid: e95d3934e51107da7610acd0b1bcb6551671f9f1
-  show_ref_link: false
+  show_ref_link: true
   title: A Practical Guide to Training Restricted Boltzmann Machines
   year: 2012
 - fieldsOfStudy:
@@ -1786,7 +1786,7 @@ references:
   meta_key: 2012-random-search-for-hyper-parameter-optimization
   numCitedBy: 5686
   pid: 188e247506ad992b8bc62d6c74789e89891a984f
-  show_ref_link: false
+  show_ref_link: true
   title: Random Search for Hyper-Parameter Optimization
   year: 2012
 - fieldsOfStudy:

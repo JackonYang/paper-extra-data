@@ -17,8 +17,8 @@ corpusId: 372467
 fieldsOfStudy:
 - Computer Science
 meta_key: 2012-large-scale-distributed-deep-networks
-numCitedBy: 3040
-numCiting: 30
+numCitedBy: 3057
+numCiting: 31
 paperAbstract: 'Recent work in unsupervised feature learning and deep learning has shown that being able to train large models can dramatically improve performance. In this paper, we consider the problem of training a deep network with billions of parameters using tens of thousands of CPU cores. We have developed a software framework called DistBelief that can utilize computing clusters with thousands of machines to train large models. Within this framework, we have developed two algorithms for large-scale distributed training: (i) Downpour SGD, an asynchronous stochastic gradient descent procedure supporting a large number of model replicas, and (ii) Sandblaster, a framework that supports a variety of distributed batch optimization procedures, including a distributed implementation of L-BFGS. Downpour SGD and Sandblaster L-BFGS both increase the scale and speed of deep network training. We have successfully used our system to train a deep network 30x larger than previously reported in the literature, and achieves state-of-the-art performance on ImageNet, a visual object recognition task with 16 million images and 21k categories. We show that these same techniques dramatically accelerate the training of a more modestly- sized deep network for a commercial speech recognition service. Although we focus on and report performance of these methods as applied to training large neural networks, the underlying algorithms are applicable to any gradient-based machine learning algorithm.'
 ref_count: 30
 references:
@@ -99,7 +99,7 @@ references:
   meta_key: 2011-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent
   numCitedBy: 2023
   pid: 36f49b05d764bf5c10428b082c2d96c13c4203b9
-  show_ref_link: false
+  show_ref_link: true
   title: Hogwild - A Lock-Free Approach to Parallelizing Stochastic Gradient Descent
   year: 2011
 - fieldsOfStudy:

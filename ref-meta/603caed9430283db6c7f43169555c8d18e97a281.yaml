@@ -1,0 +1,123 @@
+authors:
+- Geoffrey E. Hinton
+- S. Sabour
+- Nicholas Frosst
+badges: []
+corpusId: 65203110
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-matrix-capsules-with-em-routing
+numCitedBy: 687
+numCiting: 13
+paperAbstract: ''
+ref_count: 13
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-symmetry-networks
+  numCitedBy: 227
+  pid: 4f939bb8dd6a660a8f6851bf8ad2ce8a55c974ae
+  show_ref_link: false
+  title: Deep Symmetry Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ti-pooling-transformation-invariant-pooling-for-feature-learning-in-convolutional-neural-networks
+  numCitedBy: 193
+  pid: 049a5a81bd664c27a6f5c973f253c7664463d13b
+  show_ref_link: false
+  title: TI-POOLING - Transformation-Invariant Pooling for Feature Learning in Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-harmonic-networks-deep-translation-and-rotation-equivariance
+  numCitedBy: 479
+  pid: 11aada215e6f72cbd5928619de839ba35106a88f
+  show_ref_link: false
+  title: Harmonic Networks - Deep Translation and Rotation Equivariance
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-transforming-auto-encoders
+  numCitedBy: 845
+  pid: 20f0357688876fa4662f806f985779dce6e24f3c
+  show_ref_link: false
+  title: Transforming Auto-Encoders
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attention-is-all-you-need
+  numCitedBy: 36491
+  pid: 204e3073870fae3d05bcbc2f6a8e263d9b72e776
+  show_ref_link: true
+  title: Attention is All you Need
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-group-equivariant-convolutional-networks
+  numCitedBy: 993
+  pid: 5c077b3ad4de4f2ea99561908aa9be1520f18a14
+  show_ref_link: false
+  title: Group Equivariant Convolutional Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-rotation-invariant-neoperceptron
+  numCitedBy: 38
+  pid: 6316a4b689706b0f01b40f9a3cef47b92bc52411
+  show_ref_link: false
+  title: Rotation-Invariant Neoperceptron
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-methods-for-generic-object-recognition-with-invariance-to-pose-and-lighting
+  numCitedBy: 1321
+  pid: f354310098e09c1e1dc88758fca36767fd9d084d
+  show_ref_link: false
+  title: Learning methods for generic object recognition with invariance to pose and lighting
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-covariant-feature-detectors
+  numCitedBy: 105
+  pid: 2faef2d5cd56aec03c66315d36b0ec791312f308
+  show_ref_link: false
+  title: Learning Covariant Feature Detectors
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-explaining-and-harnessing-adversarial-examples
+  numCitedBy: 10305
+  pid: bee044c8e8903fb67523c1f8c105ab4718600cdb
+  show_ref_link: false
+  title: Explaining and Harnessing Adversarial Examples
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-comment-on-biologically-inspired-protection-of-deep-networks-from-adversarial-attacks
+  numCitedBy: 35
+  pid: 0eb0ef63e7886c1f3da8174a81df256cebc133f6
+  show_ref_link: false
+  title: Comment on Biologically inspired protection of deep networks from adversarial attacks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-quadratic-loss-multi-class-svm-for-which-a-radius-margin-bound-applies
+  numCitedBy: 54
+  pid: 2ccce4de99d87403072c58168bb01506e18c608a
+  show_ref_link: false
+  title: A Quadratic Loss Multi-Class SVM for which a Radius-Margin Bound Applies
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-handwritten-digit-recognition-with-a-back-propagation-network
+  numCitedBy: 2955
+  pid: 86ab4cae682fbd49c5a5bedb630e5a40fa7529f6
+  show_ref_link: false
+  title: Handwritten Digit Recognition with a Back-Propagation Network
+  year: 1989
+slug: Matrix-capsules-with-EM-routing-Hinton-Sabour
+title: Matrix capsules with EM routing
+url: https://www.semanticscholar.org/paper/Matrix-capsules-with-EM-routing-Hinton-Sabour/603caed9430283db6c7f43169555c8d18e97a281?sort=total-citations
+venue: ICLR
+year: 2018

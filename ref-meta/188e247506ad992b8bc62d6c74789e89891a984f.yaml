@@ -1,0 +1,302 @@
+authors:
+- J. Bergstra
+- Yoshua Bengio
+badges:
+- id: OPEN_ACCESS
+corpusId: 15700257
+fieldsOfStudy:
+- Computer Science
+meta_key: 2012-random-search-for-hyper-parameter-optimization
+numCitedBy: 5726
+numCiting: 39
+paperAbstract: Grid search and manual search are the most widely used strategies for hyper-parameter optimization. This paper shows empirically and theoretically that randomly chosen trials are more efficient for hyper-parameter optimization than trials on a grid. Empirical evidence comes from a comparison with a large previous study that used grid search and manual search to configure neural networks and deep belief networks. Compared with neural networks configured by a pure grid search, we find that random search over the same domain is able to find models that are as good or better within a small fraction of the computation time. Granting random search the same computational budget, random search finds better models by effectively searching a larger, less promising configuration space. Compared with deep belief networks configured by a thoughtful combination of manual search and grid search, purely random search over the same 32-dimensional configuration space found statistically equal performance on four of seven data sets, and superior performance on one of seven. A Gaussian process analysis of the function from hyper-parameters to validation set performance reveals that for most data sets only a few of the hyper-parameters really matter, but that different hyper-parameters are important on different data sets. This phenomenon makes grid search a poor choice for configuring algorithms for new data sets. Our analysis casts some light on why recent "High Throughput" methods achieve surprising success--they appear to search through a large number of hyper-parameters because most hyper-parameters do not matter much. We anticipate that growing interest in large hierarchical models will place an increasing burden on techniques for hyper-parameter optimization; this work shows that random search is a natural baseline against which to judge progress in the development of adaptive (sequential) hyper-parameter optimization algorithms.
+ref_count: 39
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-automated-configuration-of-algorithms-for-solving-hard-computational-problems
+  numCitedBy: 104
+  pid: 08c4fdd974d874c87ea87faa6b404a7b8eb72c73
+  show_ref_link: false
+  title: Automated configuration of algorithms for solving hard computational problems
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-random-search-for-hyper-parameter-optimization
+  numCitedBy: 34
+  pid: 7999f259249c39a4a97cbd4448f5aaf81be1bc7f
+  show_ref_link: false
+  title: Random search for hyper-parameter optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-sequential-model-based-optimization-for-general-algorithm-configuration
+  numCitedBy: 2055
+  pid: 728744423ff0fb7e327664ed4e6352a95bb6c893
+  show_ref_link: true
+  title: Sequential Model-Based Optimization for General Algorithm Configuration
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-simulation-based-optimization-with-stochastic-approximation-using-common-random-numbers
+  numCitedBy: 79
+  pid: b82001c7398f8178ce063cd91c1c98d5258d1927
+  show_ref_link: false
+  title: Simulation-Based Optimization with Stochastic Approximation Using Common Random Numbers
+  year: 1999
+- fieldsOfStudy:
+  - Business
+  - Computer Science
+  meta_key: 2004-choosing-search-heuristics-by-non-stationary-reinforcement-learning
+  numCitedBy: 171
+  pid: f484a03e1bab2bf059ae0b85d3d20fc9b3f59c4a
+  show_ref_link: false
+  title: Choosing search heuristics by non-stationary reinforcement learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-a-direct-search-optimization-method-that-models-the-objective-and-constraint-functions-by-linear-interpolation
+  numCitedBy: 914
+  pid: 38bcb711e38e1c702d4c1851461708bd32970394
+  show_ref_link: false
+  title: A Direct Search Optimization Method That Models the Objective and Constraint Functions by Linear Interpolation
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2006-quas-monte-carlo-strategies-for-stochastic-optimization
+  numCitedBy: 21
+  pid: 1f4b6cb09c1ec7833cd84e7360e0160524dfd6dd
+  show_ref_link: false
+  title: Quas-Monte Carlo Strategies for Stochastic Optimization
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-reducing-the-time-complexity-of-the-derandomized-evolution-strategy-with-covariance-matrix-adaptation-cma-es
+  numCitedBy: 1830
+  pid: 26afab5607f4bfaf2fb9f786e4ed4f2d93c88e84
+  show_ref_link: false
+  title: Reducing the Time Complexity of the Derandomized Evolution Strategy with Covariance Matrix Adaptation (CMA-ES)
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-fast-learning-algorithm-for-deep-belief-nets
+  numCitedBy: 13502
+  pid: 8978cf7574ceb35f4c3096be768c7547b28a35d0
+  show_ref_link: true
+  title: A Fast Learning Algorithm for Deep Belief Nets
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-gaussian-processes-for-machine-learning
+  numCitedBy: 18076
+  pid: 82266f6103bade9005ec555ed06ba20b5210ff22
+  show_ref_link: true
+  title: Gaussian Processes for Machine Learning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-understanding-the-difficulty-of-training-deep-feedforward-neural-networks
+  numCitedBy: 12591
+  pid: b71ac1e9fb49420d13e084ac67254a0bbd40f83f
+  show_ref_link: true
+  title: Understanding the difficulty of training deep feedforward neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Business
+  meta_key: 2009-parameter-screening-and-optimisation-for-ilp-using-designed-experiments
+  numCitedBy: 16
+  pid: 73bbaf200e38a3a684ad6329ef11221b93bb7280
+  show_ref_link: false
+  title: Parameter Screening and Optimisation for ILP using Designed Experiments
+  year: 2009
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2006-response-surface-methodology-for-optimizing-hyper-parameters
+  numCitedBy: 10
+  pid: 6f08a8d26f8567e8c6f04a7cf628e43f04756292
+  show_ref_link: false
+  title: Response Surface Methodology for Optimizing Hyper Parameters
+  year: 2006
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1960-on-the-efficiency-of-certain-quasi-random-sequences-of-points-in-evaluating-multi-dimensional-integrals
+  numCitedBy: 1663
+  pid: 67f20264565f5f46dcb5d11eae4c26a0b28f8d1d
+  show_ref_link: false
+  title: On the efficiency of certain quasi-random sequences of points in evaluating multi-dimensional integrals
+  year: 1960
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1965-a-simplex-method-for-function-minimization
+  numCitedBy: 25684
+  pid: 017ddb7e815236defd0566bc46f6ed8401cc6ba6
+  show_ref_link: false
+  title: A Simplex Method for Function Minimization
+  year: 1965
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-learning-deep-architectures-for-ai
+  numCitedBy: 7604
+  pid: e60ff004dde5c13ec53087872cfcdd12e85beb57
+  show_ref_link: true
+  title: Learning Deep Architectures for AI
+  year: 2007
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1983-optimization-by-simulated-annealing
+  numCitedBy: 39780
+  pid: dd5061631a4d11fa394f4421700ebf7e78dcbc59
+  show_ref_link: true
+  title: Optimization by Simulated Annealing
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-assessing-relevance-determination-methods-using-delve
+  numCitedBy: 111
+  pid: 86153ffe37063d967a1128674db44a166e6a11b6
+  show_ref_link: false
+  title: Assessing Relevance determination methods using DELVE
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-why-does-unsupervised-pre-training-help-deep-learning
+  numCitedBy: 1748
+  pid: 0d2336389dff3031910bd21dd1c44d1b4cd51725
+  show_ref_link: false
+  title: Why Does Unsupervised Pre-training Help Deep Learning?
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-neural-networks-for-pattern-recognition
+  numCitedBy: 15411
+  pid: dbc0a468ab103ae29717703d4aa9f682f6a2b664
+  show_ref_link: true
+  title: Neural Networks for Pattern Recognition
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-practical-guide-to-training-restricted-boltzmann-machines
+  numCitedBy: 2752
+  pid: e95d3934e51107da7610acd0b1bcb6551671f9f1
+  show_ref_link: true
+  title: A Practical Guide to Training Restricted Boltzmann Machines
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-a-comparison-of-three-methods-for-selecting-values-of-input-variables-in-the-analysis-of-output-from-a-computer-code
+  numCitedBy: 6826
+  pid: d23dc281afd418772c3dea9b056013471882ac15
+  show_ref_link: false
+  title: A Comparison of Three Methods for Selecting Values of Input Variables in the Analysis of Output From a Computer Code
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-an-empirical-evaluation-of-deep-architectures-on-problems-with-many-factors-of-variation
+  numCitedBy: 983
+  pid: b8012351bc5ebce4a4b3039bbbba3ce393bc3315
+  show_ref_link: false
+  title: An empirical evaluation of deep architectures on problems with many factors of variation
+  year: 2007
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1992-implementation-and-tests-of-low-discrepancy-sequences
+  numCitedBy: 291
+  pid: 688df9bbf469ae877e4cd995fb5b6bbd4106ea76
+  show_ref_link: false
+  title: Implementation and tests of low-discrepancy sequences
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-gnu-scientific-library-reference-manual-third-edition
+  numCitedBy: 358
+  pid: 530b5a1998ad7e291cb7f47a3a67b30d1e11892e
+  show_ref_link: false
+  title: GNU Scientific Library Reference Manual - Third Edition
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-libsvm-a-library-for-support-vector-machines
+  numCitedBy: 40242
+  pid: 273dfbcb68080251f5e9ff38b4413d7bd84b10a1
+  show_ref_link: true
+  title: LIBSVM - A library for support vector machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-extracting-and-composing-robust-features-with-denoising-autoencoders
+  numCitedBy: 5533
+  pid: 843959ffdccf31c6694d135fad07425924f785b1
+  show_ref_link: true
+  title: Extracting and composing robust features with denoising autoencoders
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: "1979-an-economic-method-of-computing-lp\u03C4-sequences"
+  numCitedBy: 221
+  pid: 74f2f96339950aa6936af83dcd398ff06e0a2f61
+  show_ref_link: false
+  title: "An economic method of computing LP\u03C4-sequences"
+  year: 1979
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1961-adaptive-control-processes-a-guided-tour
+  numCitedBy: 2446
+  pid: 1729f731482a628177a0fb81050966514c385e5e
+  show_ref_link: false
+  title: Adaptive Control Processes - A Guided Tour.
+  year: 1961
+- fieldsOfStudy:
+  - Computer Science
+  - Geology
+  meta_key: 2009-global-optimization-algorithms-theory-and-application
+  numCitedBy: 753
+  pid: 3762dad3280acf61da0508df96103967bdb6cd76
+  show_ref_link: false
+  title: Global Optimization Algorithms -- Theory and Application
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-efficient-backprop
+  numCitedBy: 2643
+  pid: b87274e6d9aa4e6ba5148898aa92941617d2b6ed
+  show_ref_link: true
+  title: Efficient BackProp
+  year: 2012
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1997-valuation-of-mortgage-backed-securities-using-brownian-bridges-to-reduce-effective-dimension
+  numCitedBy: 402
+  pid: 1f9abfa1cd1d8fd675140335188ad01b75e47826
+  show_ref_link: false
+  title: Valuation of mortgage-backed securities using Brownian bridges to reduce effective dimension
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1975-rechenberg-ingo-evolutionsstrategie-optimierung-technischer-systeme-nach-prinzipien-der-biologischen-evolution-170-s-mit-36-abb-frommann-holzboog-verlag-stuttgart-1973-broschiert
+  numCitedBy: 1327
+  pid: 0acf50ce5c4e1268742f31e98ed294b8c967b829
+  show_ref_link: false
+  title: "Rechenberg, Ingo, Evolutionsstrategie - Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. 170 S. mit 36 Abb. Frommann\u2010Holzboog\u2010Verlag. Stuttgart 1973. Broschiert"
+  year: 1975
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1973-evolutionsstrategie-optimierung-technischer-systeme-nach-prinzipien-der-biologischen-evolution
+  numCitedBy: 3173
+  pid: d04942a086f9cafbb1c6453b64ba188beeb03823
+  show_ref_link: false
+  title: Evolutionsstrategie - Optimierung technischer Systeme nach Prinzipien der biologischen Evolution
+  year: 1973
+slug: Random-Search-for-Hyper-Parameter-Optimization-Bergstra-Bengio
+title: Random Search for Hyper-Parameter Optimization
+url: https://www.semanticscholar.org/paper/Random-Search-for-Hyper-Parameter-Optimization-Bergstra-Bengio/188e247506ad992b8bc62d6c74789e89891a984f?sort=total-citations
+venue: J. Mach. Learn. Res.
+year: 2012

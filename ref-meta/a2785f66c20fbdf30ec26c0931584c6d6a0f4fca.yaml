@@ -124,7 +124,7 @@ references:
   meta_key: 2014-stochastic-backpropagation-and-approximate-inference-in-deep-generative-models
   numCitedBy: 3912
   pid: 484ad17c926292fbe0d5211540832a8c8a8e958b
-  show_ref_link: false
+  show_ref_link: true
   title: Stochastic Backpropagation and Approximate Inference in Deep Generative Models
   year: 2014
 - fieldsOfStudy:

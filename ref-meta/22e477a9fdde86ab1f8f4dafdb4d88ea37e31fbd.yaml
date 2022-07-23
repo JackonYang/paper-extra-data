@@ -1,0 +1,361 @@
+authors:
+- Tianshi Chen
+- Zidong Du
+- Ninghui Sun
+- Jia Wang
+- Chengyong Wu
+- Yunji Chen
+- O. Temam
+badges:
+- id: OPEN_ACCESS
+corpusId: 207209696
+fieldsOfStudy:
+- Computer Science
+meta_key: 2014-diannao-a-small-footprint-high-throughput-accelerator-for-ubiquitous-machine-learning
+numCitedBy: 1235
+numCiting: 47
+paperAbstract: Machine-Learning tasks are becoming pervasive in a broad range of domains, and in a broad range of systems (from embedded systems to data centers). At the same time, a small set of machine-learning algorithms (especially Convolutional and Deep Neural Networks, i.e., CNNs and DNNs) are proving to be state-of-the-art across many applications. As architectures evolve towards heterogeneous multi-cores composed of a mix of cores and accelerators, a machine-learning accelerator can achieve the rare combination of efficiency (due to the small number of target algorithms) and broad application scope. Until now, most machine-learning accelerator designs have focused on efficiently implementing the computational part of the algorithms. However, recent state-of-the-art CNNs and DNNs are characterized by their large size. In this study, we design an accelerator for large-scale CNNs and DNNs, with a special emphasis on the impact of memory on accelerator design, performance and energy. We show that it is possible to design an accelerator with a high throughput, capable of performing 452 GOP/s (key NN operations such as synaptic weight multiplications and neurons outputs additions) in a small footprint of 3.02 mm2 and 485 mW; compared to a 128-bit 2GHz SIMD processor, the accelerator is 117.87x faster, and it can reduce the total energy by 21.08x. The accelerator characteristics are obtained after layout at 65 nm. Such a high throughput in a small footprint can open up the usage of state-of-the-art machine-learning algorithms in a broad set of systems and for a broad set of applications.
+ref_count: 47
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-learning-with-cots-hpc-systems
+  numCitedBy: 679
+  pid: d1208ac421cf8ff67b27d93cd19ae42b8d596f95
+  show_ref_link: false
+  title: Deep learning with COTS HPC systems
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-improving-the-speed-of-neural-networks-on-cpus
+  numCitedBy: 692
+  pid: fbeaa499e10e98515f7e1c4ad89165e8c0677427
+  show_ref_link: false
+  title: Improving the speed of neural networks on CPUs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-benchnn-on-the-broad-potential-application-scope-of-hardware-neural-network-accelerators
+  numCitedBy: 113
+  pid: bf7e0f0e113a1e29be5f02dabb21531592028f26
+  show_ref_link: false
+  title: BenchNN - On the broad potential application scope of hardware neural network accelerators
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-leveraging-the-error-resilience-of-machine-learning-applications-for-designing-highly-energy-efficient-accelerators
+  numCitedBy: 105
+  pid: 87e037c174b9896de6a2afa209a57306dc661a64
+  show_ref_link: false
+  title: Leveraging the error resilience of machine-learning applications for designing highly energy efficient accelerators
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-bridging-the-computation-gap-between-programmable-processors-and-hardwired-accelerators
+  numCitedBy: 78
+  pid: 1209ca733b9ab0ad12b637319fbbec1758c00a7f
+  show_ref_link: false
+  title: Bridging the computation gap between programmable processors and hardwired accelerators
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-a-defect-tolerant-accelerator-for-emerging-high-performance-applications
+  numCitedBy: 156
+  pid: 32c3d778d8cce464b3ad3de277666295f3a0b02a
+  show_ref_link: false
+  title: A defect-tolerant accelerator for emerging high-performance applications
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-dynamically-configurable-coprocessor-for-convolutional-neural-networks
+  numCitedBy: 350
+  pid: e1c4e2fa071046569a05e9cfdf13496d094025dd
+  show_ref_link: false
+  title: A dynamically configurable coprocessor for convolutional neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-digital-neurosynaptic-core-using-embedded-crossbar-memory-with-45pj-per-spike-in-45nm
+  numCitedBy: 393
+  pid: 41d044095628119bda85189d7b4e8acd7bd8d79e
+  show_ref_link: false
+  title: A digital neurosynaptic core using embedded crossbar memory with 45pJ per spike in 45nm
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-understanding-sources-of-inefficiency-in-general-purpose-chips
+  numCitedBy: 464
+  pid: f59cd7ebe88df0a4da66657faa4d4a50c7c36004
+  show_ref_link: false
+  title: Understanding sources of inefficiency in general-purpose chips
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-towards-hardware-acceleration-of-neuroevolution-for-multimedia-processing-applications-on-mobile-devices
+  numCitedBy: 18
+  pid: aee60c94b8c59e377634ae8e9190249d5a81e29d
+  show_ref_link: false
+  title: Towards Hardware Acceleration of Neuroevolution for Multimedia Processing Applications on Mobile Devices
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-a-case-for-neuromorphic-isas
+  numCitedBy: 41
+  pid: 741092a808d3d8b98448011d1e70ba31efb346de
+  show_ref_link: false
+  title: A case for neuromorphic ISAs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-convolution-engine-balancing-efficiency-flexibility-in-specialized-computing
+  numCitedBy: 165
+  pid: d50d7cd78126cd4df5dda62f1a75c89d095bc8a5
+  show_ref_link: false
+  title: Convolution engine - balancing efficiency & flexibility in specialized computing
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-building-high-level-features-using-large-scale-unsupervised-learning
+  numCitedBy: 2112
+  pid: 72e93aa6767ee683de7f001fa72f1314e40a8f35
+  show_ref_link: true
+  title: Building high-level features using large scale unsupervised learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-low-power-high-performance-analog-neural-branch-prediction
+  numCitedBy: 43
+  pid: ab64c8e0db0147d9b7bc66df136e3debed3ae16b
+  show_ref_link: false
+  title: Low-power, high-performance analog neural branch prediction
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-neuflow-a-runtime-reconfigurable-dataflow-processor-for-vision
+  numCitedBy: 349
+  pid: 204710a6a6d935150b5b16daf74493dea6d1b7a2
+  show_ref_link: false
+  title: NeuFlow - A runtime reconfigurable dataflow processor for vision
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-accelerating-neuromorphic-vision-algorithms-for-recognition
+  numCitedBy: 47
+  pid: 29fc8380eccdd1b4e2f8d9dd8faac6a2c3906230
+  show_ref_link: false
+  title: Accelerating neuromorphic vision algorithms for recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-spinnaker-mapping-neural-networks-onto-a-massively-parallel-chip-multiprocessor
+  numCitedBy: 269
+  pid: fa6509ebe8c0264da3ce7e1c5794100d25ff1997
+  show_ref_link: false
+  title: SpiNNaker - Mapping neural networks onto a massively-parallel chip multiprocessor
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-mcpat-an-integrated-power-area-and-timing-modeling-framework-for-multicore-and-manycore-architectures
+  numCitedBy: 2351
+  pid: 823575dce41618aef0674f95f52234df3dc20894
+  show_ref_link: false
+  title: McPAT - An integrated power, area, and timing modeling framework for multicore and manycore architectures
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-on-the-capabilities-of-neural-networks-using-limited-precision-weights
+  numCitedBy: 95
+  pid: dbd6540d673d023e69183513f80a9d323aa4821e
+  show_ref_link: false
+  title: On the capabilities of neural networks using limited precision weights
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-201-4-gops-496-mw-real-time-multi-object-recognition-processor-with-bio-inspired-neural-perception-engine
+  numCitedBy: 126
+  pid: 2a0e781acb1b7511cee9444fcda775855e87cb02
+  show_ref_link: false
+  title: A 201.4 GOPS 496 mW Real-Time Multi-Object Recognition Processor With Bio-Inspired Neural Perception Engine
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-neural-acceleration-for-general-purpose-approximate-programs
+  numCitedBy: 335
+  pid: 15b275f0421c606f5903532e9964b140cbb2f878
+  show_ref_link: false
+  title: Neural Acceleration for General-Purpose Approximate Programs
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-wafer-scale-integration-of-analog-neural-networks
+  numCitedBy: 263
+  pid: 706491314ee0b0a879db41054b570af656f72922
+  show_ref_link: false
+  title: Wafer-scale integration of analog neural networks
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-finite-precision-error-analysis-of-neural-network-hardware-implementations
+  numCitedBy: 239
+  pid: 4b119dc8a4e38824d73a9f88179935a96e001aaf
+  show_ref_link: false
+  title: Finite Precision Error Analysis of Neural Network Hardware Implementations
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-an-empirical-evaluation-of-deep-architectures-on-problems-with-many-factors-of-variation
+  numCitedBy: 983
+  pid: b8012351bc5ebce4a4b3039bbbba3ce393bc3315
+  show_ref_link: false
+  title: An empirical evaluation of deep architectures on problems with many factors of variation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-traffic-sign-recognition-with-multi-scale-convolutional-networks
+  numCitedBy: 652
+  pid: 9ab0de951cc9cdf16887b1f841f8da6affc9c0de
+  show_ref_link: false
+  title: Traffic sign recognition with multi-scale Convolutional Networks
+  year: 2011
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2007-dynamically-reconfigurable-silicon-array-of-spiking-neurons-with-conductance-based-synapses
+  numCitedBy: 231
+  pid: 3e2ffe453c476e8c84bccb740191628703dbad88
+  show_ref_link: false
+  title: Dynamically Reconfigurable Silicon Array of Spiking Neurons With Conductance-Based Synapses
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-reconciling-specialization-and-flexibility-through-compound-circuits
+  numCitedBy: 42
+  pid: df2b94022fcce12ae099ab45e72d7b71e4d2bd72
+  show_ref_link: false
+  title: Reconciling specialization and flexibility through compound circuits
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-convolutional-neural-networks-applied-to-house-numbers-digit-classification
+  numCitedBy: 458
+  pid: 9f7f9aba0a6a966ce04e29e401ea28f9eae82f02
+  show_ref_link: false
+  title: Convolutional neural networks applied to house numbers digit classification
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3561
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-improving-deep-neural-networks-for-lvcsr-using-rectified-linear-units-and-dropout
+  numCitedBy: 1192
+  pid: 1a3c74c7b11ad5635570932577cdde2a3f7a6a5c
+  show_ref_link: true
+  title: Improving deep neural networks for LVCSR using rectified linear units and dropout
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6242
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1989-an-electrically-trainable-artificial-neural-network-etann-with-10240-floating-gate-synapses
+  numCitedBy: 434
+  pid: 8941022cbbb4f99e878d5e342269f067f8596a77
+  show_ref_link: false
+  title: An electrically trainable artificial neural network (ETANN) with 10240 'floating gate' synapses
+  year: 1989
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2011-qscores-trading-dark-silicon-for-scalable-energy-efficiency-with-quasi-specific-cores
+  numCitedBy: 129
+  pid: 1087e2e1244665c9574ab5914ae13c6c88bcc096
+  show_ref_link: false
+  title: QSCORES - Trading dark silicon for scalable energy efficiency with quasi-specific cores
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-the-parsec-benchmark-suite-characterization-and-architectural-implications
+  numCitedBy: 3372
+  pid: 588dda88f15f1622ee7de7631f2824c23eea60df
+  show_ref_link: false
+  title: The PARSEC benchmark suite - Characterization and architectural implications
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-dark-silicon-and-the-end-of-multicore-scaling
+  numCitedBy: 1714
+  pid: 9ae04be7cd5430355ee380b283475e031b8dff4f
+  show_ref_link: false
+  title: Dark Silicon and the End of Multicore Scaling
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-robust-object-recognition-with-cortex-like-mechanisms
+  numCitedBy: 1716
+  pid: 71e3d9fc53ba14c2feeb7390f0dc99076553b05a
+  show_ref_link: false
+  title: Robust Object Recognition with Cortex-Like Mechanisms
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-an-efficient-hardware-architecture-for-a-neural-network-activation-function-generator
+  numCitedBy: 33
+  pid: bb4b9078b6c4c4a1e80a1f31b40e18fc8b87ee82
+  show_ref_link: false
+  title: An Efficient Hardware Architecture for a Neural Network Activation Function Generator
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-support-vector-networks
+  numCitedBy: 33675
+  pid: 52b7bf3ba59b31f362aa07f957f1543a29a4279e
+  show_ref_link: true
+  title: Support-Vector Networks
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-learning-to-label-aerial-images-from-noisy-data
+  numCitedBy: 340
+  pid: cdfdaccd946dc2fe4863aed048b12b5d2282f285
+  show_ref_link: false
+  title: Learning to Label Aerial Images from Noisy Data
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-learning-deep-structured-semantic-models-for-web-search-using-clickthrough-data
+  numCitedBy: 1482
+  pid: fdb813d8b927bdd21ae1858cafa6c34b66a36268
+  show_ref_link: false
+  title: Learning deep structured semantic models for web search using clickthrough data
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 1997-data-dependent-truncation-scheme-for-parallel-multipliers
+  numCitedBy: 131
+  pid: 3ebd27c34647d1d8dee75ca8bb7759715ebb8ed7
+  show_ref_link: false
+  title: Data-dependent truncation scheme for parallel multipliers
+  year: 1997
+slug: DianNao:-a-small-footprint-high-throughput-for-Chen-Du
+title: DianNao - a small-footprint high-throughput accelerator for ubiquitous machine-learning
+url: https://www.semanticscholar.org/paper/DianNao:-a-small-footprint-high-throughput-for-Chen-Du/22e477a9fdde86ab1f8f4dafdb4d88ea37e31fbd?sort=total-citations
+venue: ASPLOS
+year: 2014

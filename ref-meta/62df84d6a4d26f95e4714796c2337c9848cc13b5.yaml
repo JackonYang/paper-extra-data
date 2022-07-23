@@ -1,0 +1,107 @@
+authors:
+- Tianqi Chen
+- Mu Li
+- Yutian Li
+- Min Lin
+- Naiyan Wang
+- Minjie Wang
+- Tianjun Xiao
+- Bing Xu
+- Chiyuan Zhang
+- Zheng Zhang
+badges:
+- id: OPEN_ACCESS
+corpusId: 1507815
+fieldsOfStudy:
+- Computer Science
+meta_key: 2015-mxnet-a-flexible-and-efficient-machine-learning-library-for-heterogeneous-distributed-systems
+numCitedBy: 1891
+numCiting: 16
+paperAbstract: "MXNet is a multi-language machine learning (ML) library to ease the development of ML algorithms, especially for deep neural networks. Embedded in the host language, it blends declarative symbolic expression with imperative tensor computation. It offers auto differentiation to derive gradients. MXNet is computation and memory efficient and runs on various heterogeneous systems, ranging from mobile devices to distributed GPU clusters. \nThis paper describes both the API design and the system implementation of MXNet, and explains how embedding of both symbolic expression and tensor operation is handled in a unified fashion. Our preliminary experiments reveal promising results on large scale deep neural network applications using multiple GPU machines."
+ref_count: 16
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-communication-efficient-distributed-machine-learning-with-the-parameter-server
+  numCitedBy: 447
+  pid: 04ca5de59edbdd49a9c0502c58331524d220bc8c
+  show_ref_link: false
+  title: Communication Efficient Distributed Machine Learning with the Parameter Server
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-minerva-a-scalable-and-highly-efficient-training-platform-for-deep-learning
+  numCitedBy: 28
+  pid: 37b07566d53b8533c57d707c4913aae505a93a66
+  show_ref_link: false
+  title: Minerva - A Scalable and Highly Efficient Training Platform for Deep Learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1494
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-purine-a-bi-graph-based-deep-learning-framework
+  numCitedBy: 8
+  pid: b2fb47473f33ae3711dacc020aff0eb668061f2d
+  show_ref_link: false
+  title: Purine - A bi-graph based deep learning framework
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-large-scale-distributed-deep-networks
+  numCitedBy: 3057
+  pid: 3127190433230b3dc1abd0680bb58dced4bcd90e
+  show_ref_link: true
+  title: Large Scale Distributed Deep Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-scaling-distributed-machine-learning-with-the-parameter-server
+  numCitedBy: 1408
+  pid: 0de0c3240bda7972bd0a3c8369ebc4b4f2e4f9c2
+  show_ref_link: false
+  title: Scaling Distributed Machine Learning with the Parameter Server
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-theano-new-features-and-speed-improvements
+  numCitedBy: 1375
+  pid: 855d0f722d75cc56a66a00ede18ace96bafee6bd
+  show_ref_link: true
+  title: Theano - new features and speed improvements
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+slug: MXNet:-A-Flexible-and-Efficient-Machine-Learning-Chen-Li
+title: MXNet - A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems
+url: https://www.semanticscholar.org/paper/MXNet:-A-Flexible-and-Efficient-Machine-Learning-Chen-Li/62df84d6a4d26f95e4714796c2337c9848cc13b5?sort=total-citations
+venue: ArXiv
+year: 2015

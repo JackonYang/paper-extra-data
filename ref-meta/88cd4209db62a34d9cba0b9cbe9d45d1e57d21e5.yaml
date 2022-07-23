@@ -1,0 +1,381 @@
+authors:
+- Ji Lin
+- Yongming Rao
+- Jiwen Lu
+- Jie Zhou
+badges:
+- id: OPEN_ACCESS
+corpusId: 38486148
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-runtime-neural-pruning
+numCitedBy: 299
+numCiting: 47
+paperAbstract: In this paper, we propose a Runtime Neural Pruning (RNP) framework which prunes the deep neural network dynamically at the runtime. Unlike existing neural pruning methods which produce a fixed pruned model for deployment, our method preserves the full ability of the original network and conducts pruning according to the input image and current feature maps adaptively. The pruning is performed in a bottom-up, layer-by-layer manner, which we model as a Markov decision process and use reinforcement learning for training. The agent judges the importance of each convolutional kernel and conducts channel-wise pruning conditioned on different samples, where the network is pruned more when the image is easier for the task. Since the ability of network is fully preserved, the balance point is easily adjustable according to the available resources. Our method can be applied to off-the-shelf network structures and reach a better tradeoff between speed and accuracy, especially with a large pruning rate.
+ref_count: 47
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-network-trimming-a-data-driven-neuron-pruning-approach-towards-efficient-deep-architectures
+  numCitedBy: 564
+  pid: 60ae4f18cb53efff0174e3fea7064049737e1e67
+  show_ref_link: false
+  title: Network Trimming - A Data-Driven Neuron Pruning Approach towards Efficient Deep Architectures
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-conditional-computation-in-neural-networks-for-faster-models
+  numCitedBy: 203
+  pid: fba71eefd060e30f3516fdd46df9a191cd0aaaf7
+  show_ref_link: false
+  title: Conditional Computation in Neural Networks for faster models
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-structured-pruning-of-deep-convolutional-neural-networks
+  numCitedBy: 480
+  pid: 7d39283a0fce1c96f57eb20046d09bd95ccc56d7
+  show_ref_link: false
+  title: Structured Pruning of Deep Convolutional Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-adaptive-neural-networks-for-fast-test-time-prediction
+  numCitedBy: 40
+  pid: 6836636c87fe78a84284d7922a438ed51bc377e9
+  show_ref_link: false
+  title: Adaptive Neural Networks for Fast Test-Time Prediction
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-pruning-filters-for-efficient-convnets
+  numCitedBy: 2180
+  pid: c2a1cb1612ba21e067a5c3ba478a8d73b796b77a
+  show_ref_link: true
+  title: Pruning Filters for Efficient ConvNets
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-dynamic-deep-neural-networks-optimizing-accuracy-efficiency-trade-offs-by-selective-execution
+  numCitedBy: 132
+  pid: adec3702d810f1dfd0e5727406b16713be0a476f
+  show_ref_link: false
+  title: Dynamic Deep Neural Networks - Optimizing Accuracy-Efficiency Trade-offs by Selective Execution
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-structured-sparsity-in-deep-neural-networks
+  numCitedBy: 1587
+  pid: 7601b995303f953955004db7b9b8b206c0e02ff8
+  show_ref_link: false
+  title: Learning Structured Sparsity in Deep Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-spatially-adaptive-computation-time-for-residual-networks
+  numCitedBy: 245
+  pid: 7944d0b061610b1c67ad15efdf192681e60d0129
+  show_ref_link: false
+  title: Spatially Adaptive Computation Time for Residual Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-speeding-up-convolutional-neural-networks-with-low-rank-expansions
+  numCitedBy: 1154
+  pid: 021fc345d40d3e6332cd2ef276e2eaa5e71102e4
+  show_ref_link: true
+  title: Speeding up Convolutional Neural Networks with Low Rank Expansions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dynamic-capacity-networks
+  numCitedBy: 58
+  pid: 5a5d48986b855b83a7d9df5005bbd155024ce756
+  show_ref_link: false
+  title: Dynamic Capacity Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-accelerating-very-deep-convolutional-networks-for-classification-and-detection
+  numCitedBy: 542
+  pid: b89d7f7439cab841934a1ede06bf6b1f593c754f
+  show_ref_link: true
+  title: Accelerating Very Deep Convolutional Networks for Classification and Detection
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-auto-sizing-neural-networks-with-applications-to-n-gram-language-models
+  numCitedBy: 38
+  pid: 4b267c6a41813e16937d99ed0eed72c4edcd2dca
+  show_ref_link: false
+  title: Auto-Sizing Neural Networks - With Applications to n-gram Language Models
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8225
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-pronet-learning-to-propose-object-specific-boxes-for-cascaded-neural-networks
+  numCitedBy: 54
+  pid: 5c6e7cf3ee21d1e53363c716055c6d68cbde6ae7
+  show_ref_link: false
+  title: ProNet - Learning to Propose Object-Specific Boxes for Cascaded Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-second-order-derivatives-for-network-pruning-optimal-brain-surgeon
+  numCitedBy: 1594
+  pid: a42954d4b9d0ccdf1036e0af46d87a01b94c3516
+  show_ref_link: false
+  title: Second Order Derivatives for Network Pruning - Optimal Brain Surgeon
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imitation-learning-by-coaching
+  numCitedBy: 93
+  pid: 1299732e905399066a36d11990a3921911de63b7
+  show_ref_link: false
+  title: Imitation Learning by Coaching
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-estimating-or-propagating-gradients-through-stochastic-neurons-for-conditional-computation
+  numCitedBy: 1534
+  pid: 62c76ca0b2790c34e85ba1cce09d47be317c7235
+  show_ref_link: true
+  title: Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-cascading-neural-network-building-the-internet-of-smart-things
+  numCitedBy: 37
+  pid: 2d737dfb753e8cf30df01b6a54bd666a9ae376ac
+  show_ref_link: false
+  title: The cascading neural network - building the Internet of Smart Things
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-convolutional-neural-network-cascade-for-face-detection
+  numCitedBy: 1058
+  pid: 2e61eb4a5c6fe6c0fdb36cfb84d460ee1524099f
+  show_ref_link: false
+  title: A convolutional neural network cascade for face detection
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks
+  numCitedBy: 33308
+  pid: 424561d8585ff8ebce7d5d07de8dbf7aae5e7270
+  show_ref_link: true
+  title: Faster R-CNN - Towards Real-Time Object Detection with Region Proposal Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-comparing-biases-for-minimal-network-construction-with-back-propagation
+  numCitedBy: 518
+  pid: f4ea5a6ff3ffcd11ec2e6ed7828a7d41279fb3ad
+  show_ref_link: false
+  title: Comparing Biases for Minimal Network Construction with Back-Propagation
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-human-level-control-through-deep-reinforcement-learning
+  numCitedBy: 16393
+  pid: e0e9a94c4a6ba219e768b4e59f72c18f0a22e23d
+  show_ref_link: true
+  title: Human-level control through deep reinforcement learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-fast-classification-using-sparse-decision-dags
+  numCitedBy: 67
+  pid: ac850bbddef863bc88622df4d423420ba033365b
+  show_ref_link: false
+  title: Fast classification using sparse decision DAGs
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-active-object-localization-with-deep-reinforcement-learning
+  numCitedBy: 363
+  pid: 2735e6e760a5fce119d82dc1e449f329d072e172
+  show_ref_link: false
+  title: Active Object Localization with Deep Reinforcement Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-timely-object-recognition
+  numCitedBy: 57
+  pid: 08fbf92e45d59bc85921fa91c35d2d4763738679
+  show_ref_link: false
+  title: Timely Object Recognition
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications
+  numCitedBy: 10323
+  pid: 3647d6d0f151dc05626449ee09cc7bce55be497e
+  show_ref_link: true
+  title: MobileNets - Efficient Convolutional Neural Networks for Mobile Vision Applications
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-towards-vision-based-deep-reinforcement-learning-for-robotic-motion-control
+  numCitedBy: 215
+  pid: f28349edf0cd78d89d2e00ae5e4fcf589774826c
+  show_ref_link: false
+  title: Towards Vision-Based Deep Reinforcement Learning for Robotic Motion Control
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-phoneme-probability-estimation-with-dynamic-sparsely-connected-artificial-neural-networks
+  numCitedBy: 60
+  pid: a9392b9299972452ea6fbc3c605f76bb1e21ae42
+  show_ref_link: false
+  title: Phoneme probability estimation with dynamic sparsely connected artificial neural networks
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-convolutional-network-cascade-for-facial-point-detection
+  numCitedBy: 1192
+  pid: 57ebeff9273dea933e2a75c306849baf43081a8c
+  show_ref_link: false
+  title: Deep Convolutional Network Cascade for Facial Point Detection
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-cudnn-efficient-primitives-for-deep-learning
+  numCitedBy: 1419
+  pid: 31c36d445367ba204244bb74893c5654e31c3869
+  show_ref_link: true
+  title: cuDNN - Efficient Primitives for Deep Learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-optimal-brain-damage
+  numCitedBy: 3518
+  pid: e7297db245c3feb1897720b173a59fe7e36babb7
+  show_ref_link: false
+  title: Optimal Brain Damage
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-changing-model-behavior-at-test-time-using-reinforcement-learning
+  numCitedBy: 37
+  pid: 60840105c7bbd85ce6ff94ef2c1997ab7964b668
+  show_ref_link: false
+  title: Changing Model Behavior at Test-Time Using Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-q-learning
+  numCitedBy: 7263
+  pid: 03b7e51c52084ac1db5118342a00b5fbcfc587aa
+  show_ref_link: true
+  title: Q-learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-reinforcement-learning-improves-behaviour-from-evaluative-feedback
+  numCitedBy: 219
+  pid: bf807c251962a694499b29938bdc54e716ca2dda
+  show_ref_link: false
+  title: Reinforcement learning improves behaviour from evaluative feedback
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-labeled-faces-in-the-wild-a-database-forstudying-face-recognition-in-unconstrained-environments
+  numCitedBy: 4941
+  pid: c6b3ca4f939e36a9679a70e14ce8b1bbbc5618f3
+  show_ref_link: true
+  title: Labeled Faces in the Wild - A Database forStudying Face Recognition in Unconstrained Environments
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-describable-visual-attributes-for-face-verification-and-image-search
+  numCitedBy: 461
+  pid: 3958db5769c927cfc2a9e4d1ee33ecfba86fe054
+  show_ref_link: false
+  title: Describable Visual Attributes for Face Verification and Image Search
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-markov-decision-processes-discrete-stochastic-dynamic-programming
+  numCitedBy: 11670
+  pid: 8090121ad488b4af27bc59bf91b62e9c6a6f49c6
+  show_ref_link: false
+  title: Markov Decision Processes - Discrete Stochastic Dynamic Programming
+  year: 1994
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1956-dynamic-programming-and-lagrange-multipliers
+  numCitedBy: 443
+  pid: 536758a6af5b0f521752b7ed295d3b9cd5884e36
+  show_ref_link: false
+  title: DYNAMIC PROGRAMMING AND LAGRANGE MULTIPLIERS.
+  year: 1956
+slug: Runtime-Neural-Pruning-Lin-Rao
+title: Runtime Neural Pruning
+url: https://www.semanticscholar.org/paper/Runtime-Neural-Pruning-Lin-Rao/88cd4209db62a34d9cba0b9cbe9d45d1e57d21e5?sort=total-citations
+venue: NIPS
+year: 2017

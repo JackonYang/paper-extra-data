@@ -1,0 +1,386 @@
+authors:
+- Esteban Real
+- Sherry Moore
+- Andrew Selle
+- Saurabh Saxena
+- Y. Suematsu
+- Jie Tan
+- Quoc V. Le
+- A. Kurakin
+badges:
+- id: OPEN_ACCESS
+corpusId: 743641
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-large-scale-evolution-of-image-classifiers
+numCitedBy: 1118
+numCiting: 51
+paperAbstract: Neural networks have proven effective at solving difficult problems but designing their architectures can be challenging, even for image classification problems alone. Our goal is to minimize human participation, so we employ evolutionary algorithms to discover such networks automatically. Despite significant computational requirements, we show that it is now possible to evolve models with accuracies within the range of those published in the last year. Specifically, we employ simple evolutionary techniques at unprecedented scales to discover models for the CIFAR-10 and CIFAR-100 datasets, starting from trivial initial conditions and reaching accuracies of 94.6% (95.6% for ensemble) and 77.0%, respectively. To do this, we use novel and intuitive mutation operators that navigate large search spaces; we stress that no human participation is required once evolution starts and that the output is a fully-trained model. Throughout this work, we place special emphasis on the repeatability of results, the variability in the outcomes and the computational requirements.
+ref_count: 51
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-generative-neuroevolution-for-deep-learning
+  numCitedBy: 45
+  pid: fb300dc8dcf884cc8ddb3bff92e3e5df08d34dae
+  show_ref_link: false
+  title: Generative NeuroEvolution for Deep Learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolution-by-evolution-differentiable-pattern-producing-networks
+  numCitedBy: 88
+  pid: 99901920de0ca5e129cc2b3fbdcdd257a105f16a
+  show_ref_link: false
+  title: Convolution by Evolution - Differentiable Pattern Producing Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deeply-supervised-nets
+  numCitedBy: 1455
+  pid: fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd
+  show_ref_link: true
+  title: Deeply-Supervised Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-striving-for-simplicity-the-all-convolutional-net
+  numCitedBy: 3314
+  pid: 0f84a81f431b18a78bd97f59ed4b9d8eda390970
+  show_ref_link: true
+  title: Striving for Simplicity - The All Convolutional Net
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-clustered-convolutional-kernels
+  numCitedBy: 17
+  pid: 01ae161262f94d21119fcc7baa7515b98f9dada7
+  show_ref_link: false
+  title: Deep Clustered Convolutional Kernels
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-networks-with-stochastic-depth
+  numCitedBy: 1458
+  pid: 51db1f3c8dfc7d4077da39c96bb90a6358128111
+  show_ref_link: true
+  title: Deep Networks with Stochastic Depth
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-neural-fabrics
+  numCitedBy: 193
+  pid: 197c8988ef21d0b58d363c21bafe1900c3089e3e
+  show_ref_link: true
+  title: Convolutional Neural Fabrics
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12559
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-simple-evolutionary-optimization-can-rival-stochastic-gradient-descent-in-neural-networks
+  numCitedBy: 97
+  pid: 7ad92444a3b2f8b88042dfdfa975650f0c8f7c84
+  show_ref_link: false
+  title: Simple Evolutionary Optimization Can Rival Stochastic Gradient Descent in Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-residual-networks
+  numCitedBy: 4354
+  pid: 1c4e9156ca07705531e45960b7a919dc473abb51
+  show_ref_link: true
+  title: Wide Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-planet-photo-geolocation-with-convolutional-neural-networks
+  numCitedBy: 323
+  pid: 1b93a123d352ea09b4c8aaac933f1d4c8bd42009
+  show_ref_link: false
+  title: PlaNet - Photo Geolocation with Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 19204
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-designing-neural-network-architectures-using-reinforcement-learning
+  numCitedBy: 1064
+  pid: 6cd5dfccd9f52538b19a415e00031d0ee4e5b181
+  show_ref_link: true
+  title: Designing Neural Network Architectures using Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-an-empirical-exploration-of-recurrent-network-architectures
+  numCitedBy: 1395
+  pid: 5b8364c21155d3d2cd38ea4c8b8580beba9a3250
+  show_ref_link: true
+  title: An Empirical Exploration of Recurrent Network Architectures
+  year: 2015
+- fieldsOfStudy:
+  - Biology
+  - Computer Science
+  meta_key: 2009-a-hypercube-based-encoding-for-evolving-large-scale-neural-networks
+  numCitedBy: 702
+  pid: 6e744cf0273a84b087e94191fd654210e8fec8e9
+  show_ref_link: false
+  title: A Hypercube-Based Encoding for Evolving Large-Scale Neural Networks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-importance-of-initialization-and-momentum-in-deep-learning
+  numCitedBy: 3598
+  pid: aa7bfd2304201afbb19971ebde87b17e40242e91
+  show_ref_link: true
+  title: On the importance of initialization and momentum in deep learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1834
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2002-evolving-neural-networks-through-augmenting-topologies
+  numCitedBy: 2994
+  pid: d03c916d49268d48fde3b76a68e64af7761835e7
+  show_ref_link: false
+  title: Evolving Neural Networks through Augmenting Topologies
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-designing-neural-networks-using-genetic-algorithms
+  numCitedBy: 934
+  pid: e89cb97bc83badf8c6cc0e2439ee4a035cba72d9
+  show_ref_link: false
+  title: Designing Neural Networks using Genetic Algorithms
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9255
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-training-very-deep-networks
+  numCitedBy: 1317
+  pid: b92aa7024b87f50737b372e5df31ef091ab54e62
+  show_ref_link: true
+  title: Training Very Deep Networks
+  year: 2015
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2013-evolving-multimodal-controllers-with-hyperneat
+  numCitedBy: 25
+  pid: 1bffad803071d6201e213eda4609c55bf733cf86
+  show_ref_link: false
+  title: Evolving multimodal controllers with HyperNEAT
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
+  numCitedBy: 11516
+  pid: 846aedd869a00c09b40f1f1f35673cb22bc87490
+  show_ref_link: true
+  title: Mastering the game of Go with deep neural networks and tree search
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-google-s-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation
+  numCitedBy: 4712
+  pid: dbde7dfa6cae81df8ac19ef500c42db96c3d1edd
+  show_ref_link: true
+  title: Google's Neural Machine Translation System - Bridging the Gap between Human and Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-learning-representations-by-back-propagating-errors
+  numCitedBy: 20461
+  pid: 052b1d8ce63b07fec3de9dbb583772d860b7c769
+  show_ref_link: false
+  title: Learning representations by back-propagating errors
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-compositional-pattern-producing-networks-a-novel-abstraction-of-development
+  numCitedBy: 653
+  pid: 8f18b9dde7ff8a49c3807a2dc90c0941a66dc561
+  show_ref_link: false
+  title: Compositional pattern producing networks - A novel abstraction of development
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-evolving-memory-cell-structures-for-sequence-learning
+  numCitedBy: 94
+  pid: 8b7405ab47e1b6686cebcbfb1f2efdbe431fc79c
+  show_ref_link: false
+  title: Evolving Memory Cell Structures for Sequence Learning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-random-search-for-hyper-parameter-optimization
+  numCitedBy: 5726
+  pid: 188e247506ad992b8bc62d6c74789e89891a984f
+  show_ref_link: true
+  title: Random Search for Hyper-Parameter Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2005-rapid-evolutionary-escape-by-large-populations-from-local-fitness-peaks-is-likely-in-nature
+  numCitedBy: 195
+  pid: b4b0afcec418f3f113f831c83586c76aa0ef5281
+  show_ref_link: false
+  title: RAPID EVOLUTIONARY ESCAPE BY LARGE POPULATIONS FROM LOCAL FITNESS PEAKS IS LIKELY IN NATURE
+  year: 2005
+- fieldsOfStudy:
+  - Business
+  meta_key: 1998-adapting-operator-settings-in-genetic-algorithms
+  numCitedBy: 182
+  pid: 322f6e061fbbf91d0dde65bd3ed90fb819af98e8
+  show_ref_link: false
+  title: Adapting Operator Settings in Genetic Algorithms
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-the-mnist-database-of-handwritten-digits
+  numCitedBy: 4474
+  pid: dc52d1ede1b90bf9d296bc5b34c9310b7eaa99a2
+  show_ref_link: true
+  title: The mnist database of handwritten digits
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-a-comparative-analysis-of-selection-schemes-used-in-genetic-algorithms
+  numCitedBy: 2551
+  pid: feeec4229f71c6ed155e2f2b732464dbc8c5b93c
+  show_ref_link: false
+  title: A Comparative Analysis of Selection Schemes Used in Genetic Algorithms
+  year: 1990
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 2012-f1000prime-recommendation-of-false-positive-psychology-undisclosed-flexibility-in-data-collection-and-analysis-allows-presenting-anything-as-significant
+  numCitedBy: 716
+  pid: 6d4dc4d75d7c3cb9ed193e171389963e5737d8db
+  show_ref_link: false
+  title: F1000Prime recommendation of False-positive psychology - undisclosed flexibility in data collection and analysis allows presenting anything as significant.
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-genetic-synthesis-of-modular-neural-networks
+  numCitedBy: 130
+  pid: ff33f09e9e211e1f1f4344beb9af1753c60cab4b
+  show_ref_link: false
+  title: Genetic Synthesis of Modular Neural Networks
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1987-genetic-algorithms-with-sharing-for-multimodalfunction-optimization
+  numCitedBy: 2203
+  pid: 1aee8a4cc00ff85606487c769b3595158026153e
+  show_ref_link: false
+  title: Genetic Algorithms with Sharing for Multimodalfunction Optimization
+  year: 1987
+slug: Large-Scale-Evolution-of-Image-Classifiers-Real-Moore
+title: Large-Scale Evolution of Image Classifiers
+url: https://www.semanticscholar.org/paper/Large-Scale-Evolution-of-Image-Classifiers-Real-Moore/f108b65fe0003e387e1cd7e50f537af0531818e4?sort=total-citations
+venue: ICML
+year: 2017

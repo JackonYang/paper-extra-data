@@ -1,0 +1,247 @@
+authors:
+- Adam Paszke
+- S. Gross
+- Francisco Massa
+- Adam Lerer
+- James Bradbury
+- Gregory Chanan
+- Trevor Killeen
+- Zeming Lin
+- N. Gimelshein
+- L. Antiga
+- Alban Desmaison
+- "Andreas K\xF6pf"
+- E. Yang
+- Zach DeVito
+- Martin Raison
+- Alykhan Tejani
+- Sasank Chilamkurthy
+- Benoit Steiner
+- Lu Fang
+- Junjie Bai
+- Soumith Chintala
+badges:
+- id: OPEN_ACCESS
+corpusId: 202786778
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-pytorch-an-imperative-style-high-performance-deep-learning-library
+numCitedBy: 13996
+numCiting: 34
+paperAbstract: 'Deep learning frameworks have often focused on either usability or speed, but not both. PyTorch is a machine learning library that shows that these two goals are in fact compatible: it was designed from first principles to support an imperative and Pythonic programming style that supports code as a model, makes debugging easy and is consistent with other popular scientific computing libraries, while remaining efficient and supporting hardware accelerators such as GPUs. In this paper, we detail the principles that drove the implementation of PyTorch and how they are reflected in its architecture. We emphasize that every aspect of PyTorch is a regular Python program under the full control of its user. We also explain how the careful and pragmatic implementation of the key components of its runtime enables them to work together to achieve compelling performance. We demonstrate the efficiency of individual subsystems, as well as the overall speed of PyTorch on several commonly used benchmarks.'
+ref_count: 34
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-cudnn-efficient-primitives-for-deep-learning
+  numCitedBy: 1419
+  pid: 31c36d445367ba204244bb74893c5654e31c3869
+  show_ref_link: true
+  title: cuDNN - Efficient Primitives for Deep Learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-automatic-differentiation-in-pytorch
+  numCitedBy: 10485
+  pid: b36a5bb1707bb9c70025294b3a310138aae8327a
+  show_ref_link: true
+  title: Automatic differentiation in PyTorch
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-theano-a-python-framework-for-fast-computation-of-mathematical-expressions
+  numCitedBy: 2083
+  pid: 6b570069f14c7588e066f7138e1f21af59d62e61
+  show_ref_link: true
+  title: Theano - A Python framework for fast computation of mathematical expressions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent
+  numCitedBy: 2027
+  pid: 36f49b05d764bf5c10428b082c2d96c13c4203b9
+  show_ref_link: true
+  title: Hogwild - A Lock-Free Approach to Parallelizing Stochastic Gradient Descent
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-cntk-microsoft-s-open-source-deep-learning-toolkit
+  numCitedBy: 360
+  pid: 1ee88e64945503c93b68344e639a7ae085f6e37d
+  show_ref_link: false
+  title: CNTK - Microsoft's Open-Source Deep-Learning Toolkit
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-torch7-a-matlab-like-environment-for-machine-learning
+  numCitedBy: 1494
+  pid: 3449b65008b27f6e60a73d80c1fd990f0481126b
+  show_ref_link: true
+  title: Torch7 - A Matlab-like Environment for Machine Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-dynet-the-dynamic-neural-network-toolkit
+  numCitedBy: 347
+  pid: 480d545ac4a4ffff5b1bc291c2de613192e35d91
+  show_ref_link: false
+  title: DyNet - The Dynamic Neural Network Toolkit
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-maxdnn-an-efficient-convolution-kernel-for-deep-learning-with-maxwell-gpus
+  numCitedBy: 46
+  pid: 4fe1c707a48869cbbdf3eb0384e526d1d294f7e2
+  show_ref_link: false
+  title: maxDNN - An Efficient Convolution Kernel for Deep Learning with Maxwell GPUs
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-hoard-a-scalable-memory-allocator-for-multithreaded-applications
+  numCitedBy: 530
+  pid: 4a6c5fa679272684fe4895bcd0626deb51668b59
+  show_ref_link: false
+  title: Hoard - a scalable memory allocator for multithreaded applications
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-modeling-inference-and-optimization-with-composable-differentiable-procedures
+  numCitedBy: 33
+  pid: d5c6ee4468116671dcd811c1518c1dbf54c99e77
+  show_ref_link: false
+  title: Modeling, Inference and Optimization With Composable Differentiable Procedures
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-julia-a-fresh-approach-to-numerical-computing
+  numCitedBy: 2906
+  pid: 0eac20ee2ebaede1381f20a276a0d8b6cdf73165
+  show_ref_link: false
+  title: Julia - A Fresh Approach to Numerical Computing
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-quantifying-the-performance-of-garbage-collection-vs-explicit-memory-management
+  numCitedBy: 123
+  pid: e769cda90d2661d0060c4c092aabcd2e8e2c94be
+  show_ref_link: false
+  title: Quantifying the performance of garbage collection vs. explicit memory management
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-chainer-a-next-generation-open-source-framework-for-deep-learning
+  numCitedBy: 750
+  pid: 67156902beca9bc90b728c8d5dd4ac9d8b27d3a3
+  show_ref_link: false
+  title: Chainer - a Next-Generation Open Source Framework for Deep Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-scalable-concurrent-malloc-3-implementation-for-freebsd
+  numCitedBy: 225
+  pid: 1ddcc37ae33b4dea4fe74a0b83f48809f2ea01d8
+  show_ref_link: false
+  title: A Scalable Concurrent malloc(3) Implementation for FreeBSD
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-starcraft-ii-a-new-challenge-for-reinforcement-learning
+  numCitedBy: 560
+  pid: 6127b8dc39497a2388a0fce2512595e0dcb7121b
+  show_ref_link: false
+  title: StarCraft II - A New Challenge for Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-eblearn-open-source-energy-based-learning-in-c
+  numCitedBy: 33
+  pid: 78e5bca056ffc6186400ba540a0c0f43df909a12
+  show_ref_link: false
+  title: EBLearn - Open-Source Energy-Based Learning in C++
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-automatic-differentiation-in-machine-learning-a-survey
+  numCitedBy: 1243
+  pid: da118b8aa99699edd7609fbbd081d5b93bc2e87b
+  show_ref_link: false
+  title: Automatic differentiation in machine learning - a survey
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-algorithms-for-convolutional-neural-networks
+  numCitedBy: 617
+  pid: d5eadd6f059d742d76441fd0a635a21694dd7392
+  show_ref_link: true
+  title: Fast Algorithms for Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-forward-modeling-for-partial-observation-strategy-games-a-starcraft-defogger
+  numCitedBy: 21
+  pid: 30b12b0976c8172c0276a9bc23634e4c41a37cae
+  show_ref_link: false
+  title: Forward Modeling for Partial Observation Strategy Games - A StarCraft Defogger
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-data-structures-for-statistical-computing-in-python
+  numCitedBy: 3989
+  pid: f6dac1c52d3b07c993fe52513b8964f86e8fe381
+  show_ref_link: false
+  title: Data Structures for Statistical Computing in Python
+  year: 2010
+- fieldsOfStudy:
+  - Education
+  - Computer Science
+  meta_key: 2002-torch-a-modular-machine-learning-software-library
+  numCitedBy: 522
+  pid: 464d94b3dc9a109dd64008a41a00181830f285aa
+  show_ref_link: false
+  title: Torch - a modular machine learning software library
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-automatic-differentiation-c-templates-and-photogrammetry
+  numCitedBy: 43
+  pid: e97d25b9c8949af1eca6419f4e496c595257e413
+  show_ref_link: false
+  title: Automatic Differentiation, C++ Templates, and Photogrammetry
+  year: 2004
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 1999-automatic-differentiation-facilitates-of-integration-into-steering-angle-based-road-vehicle-tracking
+  numCitedBy: 38
+  pid: 3b65f75e9f3902c21935b5d5a9656a91c0785518
+  show_ref_link: false
+  title: Automatic differentiation facilitates OF-integration into steering-angle-based road vehicle tracking
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-scipy-open-source-scientific-tools-for-python
+  numCitedBy: 8190
+  pid: 307827ec09187e9c6935e8ff5fd43eeefb901320
+  show_ref_link: false
+  title: SciPy - Open Source Scientific Tools for Python
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1970-an-apl-machine
+  numCitedBy: 117
+  pid: fb28000e5d5a504beb4007aa22e664a3d803c52e
+  show_ref_link: false
+  title: An apl machine
+  year: 1970
+slug: PyTorch:-An-Imperative-Style,-High-Performance-Deep-Paszke-Gross
+title: PyTorch - An Imperative Style, High-Performance Deep Learning Library
+url: https://www.semanticscholar.org/paper/PyTorch:-An-Imperative-Style,-High-Performance-Deep-Paszke-Gross/3c8a456509e6c0805354bd40a35e3f2dbf8069b1?sort=total-citations
+venue: NeurIPS
+year: 2019

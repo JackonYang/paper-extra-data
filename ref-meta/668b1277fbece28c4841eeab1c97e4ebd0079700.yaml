@@ -114,7 +114,7 @@ references:
   meta_key: 2009-gaussian-processes-for-machine-learning
   numCitedBy: 17965
   pid: 82266f6103bade9005ec555ed06ba20b5210ff22
-  show_ref_link: false
+  show_ref_link: true
   title: Gaussian Processes for Machine Learning
   year: 2009
 - fieldsOfStudy:
@@ -925,7 +925,7 @@ references:
   meta_key: 2004-information-theory-inference-and-learning-algorithms
   numCitedBy: 8774
   pid: f7f15848cd0fbb3d08f351595da833b1627de9c3
-  show_ref_link: false
+  show_ref_link: true
   title: Information Theory, Inference, and Learning Algorithms
   year: 2004
 - fieldsOfStudy:
@@ -2502,7 +2502,7 @@ references:
   meta_key: 2001-numerical-optimization
   numCitedBy: 11071
   pid: bf86896c23300a46b7fc76298e365984c0b05105
-  show_ref_link: false
+  show_ref_link: true
   title: Numerical Optimization
   year: 2001
 - fieldsOfStudy:
@@ -2510,7 +2510,7 @@ references:
   meta_key: 2001-sparse-bayesian-learning-and-the-relevance-vector-machine
   numCitedBy: 4417
   pid: d68725804eadecf83d707d89e12c5132bf376187
-  show_ref_link: false
+  show_ref_link: true
   title: Sparse Bayesian Learning and the Relevance Vector Machine
   year: 2001
 - fieldsOfStudy:
@@ -2774,7 +2774,7 @@ references:
   meta_key: 1978-estimating-the-dimension-of-a-model
   numCitedBy: 39626
   pid: 37e44d1de8003d8394d158ec6afd1ff0e87e595b
-  show_ref_link: false
+  show_ref_link: true
   title: Estimating the Dimension of a Model
   year: 1978
 - fieldsOfStudy:

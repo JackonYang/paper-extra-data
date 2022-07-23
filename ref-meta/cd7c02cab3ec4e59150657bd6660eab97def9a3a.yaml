@@ -1,0 +1,470 @@
+authors:
+- R. Miikkulainen
+- J. Liang
+- Elliot Meyerson
+- Aditya Rawal
+- E. FinkDaniel
+- Olivier Francon
+- Bala Raju
+- H. Shahrzad
+- Arshak Navruzyan
+- Nigel P. Duffy
+- B. Hodjat
+badges:
+- id: UNPAYWALL
+corpusId: 215763844
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-evolving-deep-neural-networks
+numCitedBy: 610
+numCiting: 72
+paperAbstract: ''
+ref_count: 57
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+  numCitedBy: 3482
+  pid: 67d968c7450878190e45ac7886746de867bf673d
+  show_ref_link: true
+  title: Neural Architecture Search with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-cma-es-for-hyperparameter-optimization-of-deep-neural-networks
+  numCitedBy: 218
+  pid: 417f02dfc599699c94e732f3600d559d8e41fa17
+  show_ref_link: false
+  title: CMA-ES for Hyperparameter Optimization of Deep Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolution-by-evolution-differentiable-pattern-producing-networks
+  numCitedBy: 88
+  pid: 99901920de0ca5e129cc2b3fbdcdd257a105f16a
+  show_ref_link: false
+  title: Convolution by Evolution - Differentiable Pattern Producing Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15857
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-an-empirical-exploration-of-recurrent-network-architectures
+  numCitedBy: 1395
+  pid: 5b8364c21155d3d2cd38ea4c8b8580beba9a3250
+  show_ref_link: true
+  title: An Empirical Exploration of Recurrent Network Architectures
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-beyond-short-snippets-deep-networks-for-video-classification
+  numCitedBy: 1949
+  pid: 5418b2a482720e013d487a385c26fae0f017c6a6
+  show_ref_link: false
+  title: Beyond short snippets - Deep networks for video classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-neuroevolution-from-architectures-to-learning
+  numCitedBy: 652
+  pid: cf7bdff21a875e5d043514ed0714fafae77e1492
+  show_ref_link: false
+  title: Neuroevolution - from architectures to learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scalable-bayesian-optimization-using-deep-neural-networks
+  numCitedBy: 711
+  pid: 93bc65d2842b8cc5f3cf72ebc5b8f75daeacea35
+  show_ref_link: false
+  title: Scalable Bayesian Optimization Using Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-show-and-tell-lessons-learned-from-the-2015-mscoco-image-captioning-challenge
+  numCitedBy: 628
+  pid: 62f74d3aaf9e86633e4d88b04a6d04ca93e8b81e
+  show_ref_link: false
+  title: Show and Tell - Lessons Learned from the 2015 MSCOCO Image Captioning Challenge
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-inception-v4-inception-resnet-and-the-impact-of-residual-connections-on-learning
+  numCitedBy: 8225
+  pid: b5c26ab8767d046cb6e32d959fdf726aee89bb62
+  show_ref_link: true
+  title: Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-and-tell-a-neural-image-caption-generator
+  numCitedBy: 4558
+  pid: d4dc1012d780e8e2547237eb5a6dc7b1bf47d2f0
+  show_ref_link: true
+  title: Show and tell - A neural image caption generator
+  year: 2015
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2002-evolving-neural-networks-through-augmenting-topologies
+  numCitedBy: 2994
+  pid: d03c916d49268d48fde3b76a68e64af7761835e7
+  show_ref_link: false
+  title: Evolving Neural Networks through Augmenting Topologies
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-unified-architecture-for-natural-language-processing-deep-neural-networks-with-multitask-learning
+  numCitedBy: 5064
+  pid: 57458bc1cffe5caa45a885af986d70f723f406b4
+  show_ref_link: true
+  title: A unified architecture for natural language processing - deep neural networks with multitask learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-lstm-a-search-space-odyssey
+  numCitedBy: 3337
+  pid: a7976c2bacfbb194ddbe7fd10c2e50a545cf4081
+  show_ref_link: true
+  title: LSTM - A Search Space Odyssey
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-speech-recognition-with-deep-recurrent-neural-networks
+  numCitedBy: 6959
+  pid: 4177ec52d1b80ed57f2e72b0f9a42365f1a8598d
+  show_ref_link: true
+  title: Speech recognition with deep recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-recurrent-highway-networks
+  numCitedBy: 351
+  pid: 7dba53e72c182e25e98e8f73a99d75ff69dda0c2
+  show_ref_link: true
+  title: Recurrent Highway Networks
+  year: 2017
+- fieldsOfStudy:
+  - Biology
+  - Computer Science
+  meta_key: 2008-accelerated-neural-evolution-through-cooperatively-coevolved-synapses
+  numCitedBy: 312
+  pid: 966e41903b4aff42601a188bd7b26d71ef120d11
+  show_ref_link: false
+  title: Accelerated Neural Evolution through Cooperatively Coevolved Synapses
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-neural-network-regularization
+  numCitedBy: 1997
+  pid: f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97
+  show_ref_link: true
+  title: Recurrent Neural Network Regularization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-gated-feedback-recurrent-neural-networks
+  numCitedBy: 654
+  pid: d14c7e5f5cace4c925abc74c88baa474e9f31a28
+  show_ref_link: false
+  title: Gated Feedback Recurrent Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-evolving-memory-cell-structures-for-sequence-learning
+  numCitedBy: 94
+  pid: 8b7405ab47e1b6686cebcbfb1f2efdbe431fc79c
+  show_ref_link: false
+  title: Evolving Memory Cell Structures for Sequence Learning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-attend-and-tell-neural-image-caption-generation-with-visual-attention
+  numCitedBy: 7357
+  pid: 4d8f2d14af5991d4f0d050d22216825cac3157bd
+  show_ref_link: true
+  title: Show, Attend and Tell - Neural Image Caption Generation with Visual Attention
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-grid-long-short-term-memory
+  numCitedBy: 315
+  pid: 5b791cd374c7109693aaddee2c12d659ae4e3ec0
+  show_ref_link: true
+  title: Grid Long Short-Term Memory
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-solving-non-markovian-control-tasks-with-neuro-evolution
+  numCitedBy: 278
+  pid: e1d8c5d31ba295dcac4ec93ffdee31682c00c4b8
+  show_ref_link: false
+  title: Solving Non-Markovian Control Tasks with Neuro-Evolution
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-training-feedforward-neural-networks-using-genetic-algorithms
+  numCitedBy: 1119
+  pid: 09920800fa7841c84a551d70c6101d9510e6fcc8
+  show_ref_link: false
+  title: Training Feedforward Neural Networks Using Genetic Algorithms
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-image-captioning-with-semantic-attention
+  numCitedBy: 1229
+  pid: bf55591e09b58ea9ce8d66110d6d3000ee804bdd
+  show_ref_link: true
+  title: Image Captioning with Semantic Attention
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-neuroevolution-for-reinforcement-learning-using-evolution-strategies
+  numCitedBy: 164
+  pid: 04377cba52732168d3e55e229bae2ee1ad4d43a2
+  show_ref_link: false
+  title: Neuroevolution for reinforcement learning using evolution strategies
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-evolving-artificial-neural-networks
+  numCitedBy: 2102
+  pid: 5ae89454a8a41015ebe0eeab9f51fe4eee459a25
+  show_ref_link: false
+  title: Evolving artificial neural networks
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-incremental-evolution-of-complex-general-behavior
+  numCitedBy: 505
+  pid: 8939e9298eedb90aa4f040ab8e9f16872089a495
+  show_ref_link: false
+  title: Incremental Evolution of Complex General Behavior
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-visual-semantic-alignments-for-generating-image-descriptions
+  numCitedBy: 2718
+  pid: 55e022fb7581bb9e1fce678d21fb25ffbb3fbb88
+  show_ref_link: true
+  title: Deep Visual-Semantic Alignments for Generating Image Descriptions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19562
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-recurrent-neural-networks-for-multivariate-time-series-with-missing-values
+  numCitedBy: 1010
+  pid: bd723bc768baa78b7bd3e6f28a401d6d5cfe87f8
+  show_ref_link: false
+  title: Recurrent Neural Networks for Multivariate Time Series with Missing Values
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  - Psychology
+  meta_key: 2011-neuroevolutionary-reinforcement-learning-for-generalized-control-of-simulated-helicopters
+  numCitedBy: 46
+  pid: 3420734ee9ea4524670e01d2f2742ccd5ca08db9
+  show_ref_link: false
+  title: Neuroevolutionary reinforcement learning for generalized control of simulated helicopters
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3561
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15252
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-adding-learning-to-the-cellular-development-of-neural-networks-evolution-and-the-baldwin-effect
+  numCitedBy: 244
+  pid: 406e9e583450219318e1101bd02bb6a1e91f0b74
+  show_ref_link: false
+  title: Adding Learning to the Cellular Development of Neural Networks - Evolution and the Baldwin Effect
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-towards-end-to-end-speech-recognition-with-recurrent-neural-networks
+  numCitedBy: 1769
+  pid: 0fa553cfa0cf3cbdf7a913aa2ae789a757dfb32f
+  show_ref_link: true
+  title: Towards End-To-End Speech Recognition with Recurrent Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52390
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Biology
+  - Psychology
+  meta_key: 1997-forming-neural-networks-through-efficient-and-adaptive-coevolution
+  numCitedBy: 341
+  pid: 3564c49d34c1642cf52606665440b8d2754510d8
+  show_ref_link: false
+  title: Forming Neural Networks Through Efficient and Adaptive Coevolution
+  year: 1997
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1987-how-learning-can-guide-evolution
+  numCitedBy: 1188
+  pid: f9197ff9fdabd2b78bfe0602365011c6699b0d66
+  show_ref_link: false
+  title: How Learning Can Guide Evolution
+  year: 1987
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-compositional-pattern-producing-networks-a-novel-abstraction-of-development
+  numCitedBy: 653
+  pid: 8f18b9dde7ff8a49c3807a2dc90c0941a66dc561
+  show_ref_link: false
+  title: Compositional pattern producing networks - A novel abstraction of development
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-context-aware-captions-from-context-agnostic-supervision
+  numCitedBy: 111
+  pid: e782437503f2a24fd1a836a434da395bf15c88c2
+  show_ref_link: false
+  title: Context-Aware Captions from Context-Agnostic Supervision
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-evolutionary-bilevel-optimization-for-complex-control-tasks
+  numCitedBy: 20
+  pid: a518502a5d38435d08fce3e29e0d23210f5c5c20
+  show_ref_link: false
+  title: Evolutionary Bilevel Optimization for Complex Control Tasks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-bilevel-optimization-approach-to-automated-parameter-tuning
+  numCitedBy: 35
+  pid: f363cbdf9dd7c6524789a4139e51a5c859b6dc3c
+  show_ref_link: false
+  title: A bilevel optimization approach to automated parameter tuning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-autonomous-helicopter-control-using-reinforcement-learning-policy-search-methods
+  numCitedBy: 309
+  pid: 84b23b154ef3083839a4da8c460a1e1c110ea63b
+  show_ref_link: false
+  title: Autonomous helicopter control using reinforcement learning policy search methods
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-sentient-ascend-ai-based-massively-multivariate-conversion-rate-optimization
+  numCitedBy: 15
+  pid: 30a46f20fce1160aa1d8356f65132c04f259bad3
+  show_ref_link: false
+  title: Sentient Ascend - AI-Based Massively Multivariate Conversion Rate Optimization
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-an-application-of-reinforcement-learning-to-aerobatic-helicopter-flight
+  numCitedBy: 618
+  pid: 0bfbdafdfbcc268860fe54ae4d8f08d487bcc762
+  show_ref_link: false
+  title: An Application of Reinforcement Learning to Aerobatic Helicopter Flight
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1993-building-a-large-annotated-corpus-of-english-the-penn-treebank
+  numCitedBy: 8207
+  pid: 0b44fcbeea9415d400c5f5789d6b892b6f98daff
+  show_ref_link: false
+  title: Building a Large Annotated Corpus of English - The Penn Treebank
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-conversion-rate-optimization-through-evolutionary-computation
+  numCitedBy: 19
+  pid: e277e833974751cabbae02555117b7827d504c1f
+  show_ref_link: false
+  title: Conversion rate optimization through evolutionary computation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-microsoft-coco-captions-data-collection-and-evaluation-server
+  numCitedBy: 1197
+  pid: 696ca58d93f6404fea0fc75c62d1d7b378f47628
+  show_ref_link: true
+  title: Microsoft COCO Captions - Data Collection and Evaluation Server
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-autonomous-helicopter-flight-via-reinforcement-learning
+  numCitedBy: 339
+  pid: 13e2d5c4d39bc58b42f9004e5b03905f847dfa0f
+  show_ref_link: false
+  title: Autonomous Helicopter Flight via Reinforcement Learning
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-programming-by-optimization
+  numCitedBy: 202
+  pid: 0543827f43efd420fff5a815060175f00b728f67
+  show_ref_link: false
+  title: Programming by optimization
+  year: 2012
+- fieldsOfStudy: []
+  meta_key: 2020-neuroevolution
+  numCitedBy: 30
+  pid: 1300e40a0749d41807d2f9ae093ef25744e82877
+  show_ref_link: false
+  title: Neuroevolution
+  year: 2020
+slug: Evolving-Deep-Neural-Networks-Miikkulainen-Liang
+title: Evolving Deep Neural Networks
+url: https://www.semanticscholar.org/paper/Evolving-Deep-Neural-Networks-Miikkulainen-Liang/cd7c02cab3ec4e59150657bd6660eab97def9a3a?sort=total-citations
+venue: Artificial Intelligence in the Age of Neural Networks and Brain Computing
+year: 2019

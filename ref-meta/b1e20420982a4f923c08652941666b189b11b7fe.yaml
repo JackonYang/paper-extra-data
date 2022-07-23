@@ -1,0 +1,181 @@
+authors:
+- Danqi Chen
+- Jason Bolton
+- Christopher D. Manning
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 6360322
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-a-thorough-examination-of-the-cnn-daily-mail-reading-comprehension-task
+numCitedBy: 500
+numCiting: 22
+paperAbstract: Enabling a computer to understand a document so that it can answer comprehension questions is a central, yet unsolved goal of NLP. A key factor impeding its solution by machine learned systems is the limited availability of human-annotated data. Hermann et al. (2015) seek to solve this problem by creating over a million training examples by pairing CNN and Daily Mail news articles with their summarized bullet points, and show that a neural network can then be trained to give good performance on this task. In this paper, we conduct a thorough examination of this new reading comprehension task. Our primary aim is to understand what depth of language understanding is required to do well on this task. We approach this from one side by doing a careful hand-analysis of a small subset of the problems and from the other by showing that simple, carefully designed systems can obtain accuracies of 73.6% and 76.6% on these two datasets, exceeding current state-of-the-art results by 7-10% and approaching what we believe is the ceiling for performance on this task.
+ref_count: 22
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-answer-entailing-structures-for-machine-comprehension
+  numCitedBy: 57
+  pid: f26e088bc4659a9b7fce28b6604d26de779bcf93
+  show_ref_link: false
+  title: Learning Answer-Entailing Structures for Machine Comprehension
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-towards-ai-complete-question-answering-a-set-of-prerequisite-toy-tasks
+  numCitedBy: 920
+  pid: abb33d75dc297993fcc3fb75e0f4498f413eb4f6
+  show_ref_link: true
+  title: Towards AI-Complete Question Answering - A Set of Prerequisite Toy Tasks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-text-understanding-with-the-attention-sum-reader-network
+  numCitedBy: 292
+  pid: f2e50e2ee4021f199877c8920f1f984481c723aa
+  show_ref_link: true
+  title: Text Understanding with the Attention Sum Reader Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-mctest-a-challenge-dataset-for-the-open-domain-machine-comprehension-of-text
+  numCitedBy: 604
+  pid: 564257469fa44cdb57e4272f85253efb9acfd69d
+  show_ref_link: false
+  title: MCTest - A Challenge Dataset for the Open-Domain Machine Comprehension of Text
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-teaching-machines-to-read-and-comprehend
+  numCitedBy: 2471
+  pid: d1505c6123c102e53eb19dff312cb25cea840b72
+  show_ref_link: true
+  title: Teaching Machines to Read and Comprehend
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-reasoning-in-vector-space-an-exploratory-study-of-question-answering
+  numCitedBy: 36
+  pid: 8d35db4d617773fa7d2bc64d052f7841413fc08a
+  show_ref_link: false
+  title: Reasoning in Vector Space - An Exploratory Study of Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-effective-approaches-to-attention-based-neural-machine-translation
+  numCitedBy: 5954
+  pid: 93499a7c7f699b6630a86fad964536f9423bb6d0
+  show_ref_link: true
+  title: Effective Approaches to Attention-based Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-ask-me-anything-dynamic-memory-networks-for-natural-language-processing
+  numCitedBy: 1007
+  pid: 452059171226626718eb677358836328f884298e
+  show_ref_link: true
+  title: Ask Me Anything - Dynamic Memory Networks for Natural Language Processing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-the-goldilocks-principle-reading-children-s-books-with-explicit-memory-representations
+  numCitedBy: 540
+  pid: 35b91b365ceb016fb3e022577cec96fb9b445dc5
+  show_ref_link: true
+  title: The Goldilocks Principle - Reading Children's Books with Explicit Memory Representations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-end-to-end-memory-networks
+  numCitedBy: 2011
+  pid: 4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e
+  show_ref_link: true
+  title: End-To-End Memory Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-modeling-biological-processes-for-reading-comprehension
+  numCitedBy: 173
+  pid: 6396ab37641d36be4c26420e58adeb8665914c3b
+  show_ref_link: false
+  title: Modeling Biological Processes for Reading Comprehension
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dynamic-entity-representation-with-max-pooling-improves-machine-reading
+  numCitedBy: 40
+  pid: c4916a5fb50bcc73213b6f054c42ad10c68c52cd
+  show_ref_link: false
+  title: Dynamic Entity Representation with Max-pooling Improves Machine Reading
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-memory-networks
+  numCitedBy: 1162
+  pid: 71ae756c75ac89e2d731c9c79649562b5768ff39
+  show_ref_link: true
+  title: Memory Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-glove-global-vectors-for-word-representation
+  numCitedBy: 22852
+  pid: f37e1b62a767a307c046404ca96bc140b3e68cb5
+  show_ref_link: true
+  title: GloVe - Global Vectors for Word Representation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-machine-comprehension-with-syntax-frames-and-semantics
+  numCitedBy: 98
+  pid: 999f0acfac28215db2e4c69ff42711fd4f56511d
+  show_ref_link: false
+  title: Machine Comprehension with Syntax, Frames, and Semantics
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-fast-and-accurate-dependency-parser-using-neural-networks
+  numCitedBy: 1658
+  pid: a14045a751f5d8ed387c8630a86a3a2861b90643
+  show_ref_link: true
+  title: A Fast and Accurate Dependency Parser using Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-adapting-boosting-for-information-retrieval-measures
+  numCitedBy: 485
+  pid: 18e93fa7d408e9596992f3d63155cb92827839a4
+  show_ref_link: false
+  title: Adapting boosting for information retrieval measures
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15252
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-towards-the-machine-comprehension-of-text-an-essay
+  numCitedBy: 19
+  pid: a4dde51a7f3f0f731d2c27d64948706604792efa
+  show_ref_link: false
+  title: Towards the Machine Comprehension of Text - An Essay
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-a-unified-theory-of-inference-for-text-understanding
+  numCitedBy: 76
+  pid: 007a9e389aba9b7de2a1cb79f36498f7b0766282
+  show_ref_link: false
+  title: A Unified Theory of Inference for Text Understanding
+  year: 1986
+slug: A-Thorough-Examination-of-the-CNN/Daily-Mail-Task-Chen-Bolton
+title: A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task
+url: https://www.semanticscholar.org/paper/A-Thorough-Examination-of-the-CNN/Daily-Mail-Task-Chen-Bolton/b1e20420982a4f923c08652941666b189b11b7fe?sort=total-citations
+venue: ACL
+year: 2016

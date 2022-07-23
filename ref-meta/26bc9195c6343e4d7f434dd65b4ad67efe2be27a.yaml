@@ -1,0 +1,221 @@
+authors:
+- Tianqi Chen
+- Carlos Guestrin
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 4650265
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-xgboost-a-scalable-tree-boosting-system
+numCitedBy: 14160
+numCiting: 30
+paperAbstract: Tree boosting is a highly effective and widely used machine learning method. In this paper, we describe a scalable end-to-end tree boosting system called XGBoost, which is used widely by data scientists to achieve state-of-the-art results on many machine learning challenges. We propose a novel sparsity-aware algorithm for sparse data and weighted quantile sketch for approximate tree learning. More importantly, we provide insights on cache access patterns, data compression and sharding to build a scalable tree boosting system. By combining these insights, XGBoost scales beyond billions of examples using far fewer resources than existing systems.
+ref_count: 30
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-stochastic-gradient-boosted-distributed-decision-trees
+  numCitedBy: 259
+  pid: 2ee4b8bc544020c14d8be093182093dc16327c26
+  show_ref_link: false
+  title: Stochastic gradient boosted distributed decision trees
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-planet-massively-parallel-learning-of-tree-ensembles-with-mapreduce
+  numCitedBy: 299
+  pid: 9e6c798940c9998477a462b50e0a5b07259f1056
+  show_ref_link: false
+  title: PLANET - Massively Parallel Learning of Tree Ensembles with MapReduce
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-scaling-up-machine-learning-parallel-and-distributed-approaches
+  numCitedBy: 372
+  pid: b5be3165d56580b60e29ad1a4a08b124d6cb8264
+  show_ref_link: false
+  title: Scaling up machine learning - parallel and distributed approaches
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-nonlinear-functions-using-regularized-greedy-forest
+  numCitedBy: 121
+  pid: af08e1d1659788d756a731d1c12c16275cae3914
+  show_ref_link: false
+  title: Learning Nonlinear Functions Using Regularized Greedy Forest
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-parallel-boosted-regression-trees-for-web-search-ranking
+  numCitedBy: 155
+  pid: 7d36de51ea248046cb26eedd63cc6619109bd55a
+  show_ref_link: false
+  title: Parallel boosted regression trees for web search ranking
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mllib-machine-learning-in-apache-spark
+  numCitedBy: 1507
+  pid: 3784b73a1f392160523400ec0309191c0a96d86f
+  show_ref_link: false
+  title: MLlib - Machine Learning in Apache Spark
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-mcrank-learning-to-rank-using-multiple-classification-and-gradient-boosting
+  numCitedBy: 456
+  pid: c8c710c68dab80036b55dd48fbf1da0ecd4854cb
+  show_ref_link: false
+  title: McRank - Learning to Rank Using Multiple Classification and Gradient Boosting
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-efficient-second-order-gradient-boosting-for-conditional-random-fields
+  numCitedBy: 20
+  pid: 6390c4bcc2268b91deb7d268b69ff21b87748d98
+  show_ref_link: false
+  title: Efficient Second-Order Gradient Boosting for Conditional Random Fields
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-special-invited-paper-additive-logistic-regression-a-statistical-view-of-boosting
+  numCitedBy: 4870
+  pid: 6f4493eff2531536a7aeb3fc11d62c30a8f487f6
+  show_ref_link: false
+  title: Special Invited Paper-Additive logistic regression - A statistical view of boosting
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-greedy-function-approximation-a-gradient-boosting-machine
+  numCitedBy: 13931
+  pid: 1679beddda3a183714d380e944fe6bf586c083cd
+  show_ref_link: true
+  title: Greedy function approximation - A gradient boosting machine.
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-generalized-boosted-models-a-guide-to-the-gbm-package
+  numCitedBy: 740
+  pid: 19610284b552cd509f1c467020933c2849c170ea
+  show_ref_link: false
+  title: Generalized Boosted Models - A guide to the gbm package
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-general-functional-matrix-factorization-using-gradient-boosting
+  numCitedBy: 48
+  pid: 8588ec3fe0bfc6ebb763d0270608b85a5afdea61
+  show_ref_link: false
+  title: General Functional Matrix Factorization Using Gradient Boosting
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-from-ranknet-to-lambdarank-to-lambdamart-an-overview
+  numCitedBy: 968
+  pid: 0df9c70875783a73ce1e933079f328e8cf5e9ea2
+  show_ref_link: false
+  title: From RankNet to LambdaRank to LambdaMART - An Overview
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-yahoo-learning-to-rank-challenge-overview
+  numCitedBy: 492
+  pid: 7df5a2760b055745f6d591c1ed7be5a7a23cf854
+  show_ref_link: false
+  title: Yahoo! Learning to Rank Challenge Overview
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-stochastic-gradient-boosting
+  numCitedBy: 4301
+  pid: 8bdda840ec8990e24c5a70db171edac330ebf650
+  show_ref_link: false
+  title: Stochastic gradient boosting
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-scikit-learn-machine-learning-in-python
+  numCitedBy: 43894
+  pid: 168f28ac3c8c7ea63bf7ed25f2288e8b67e2fe74
+  show_ref_link: false
+  title: Scikit-learn - Machine Learning in Python
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-importance-sampled-learning-ensembles
+  numCitedBy: 120
+  pid: 966ffe536f84efd15c1379dad9adffe90b20676f
+  show_ref_link: false
+  title: Importance Sampled Learning Ensembles
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-the-netflix-prize
+  numCitedBy: 1965
+  pid: 31af4b8793e93fd35e89569ccd663ae8777f0072
+  show_ref_link: false
+  title: The Netflix Prize
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-liblinear-a-library-for-large-linear-classification
+  numCitedBy: 7779
+  pid: 268a4f8da15a42f3e0e71691f760ff5edbf9cec8
+  show_ref_link: true
+  title: LIBLINEAR - A Library for Large Linear Classification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  - Business
+  meta_key: 2014-practical-lessons-from-predicting-clicks-on-ads-at-facebook
+  numCitedBy: 629
+  pid: daf9ed5dc6c6bad5367d7fd8561527da30e9b8dd
+  show_ref_link: false
+  title: Practical Lessons from Predicting Clicks on Ads at Facebook
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-random-forests
+  numCitedBy: 65885
+  pid: 13d4c2f76a7c1a4d0a71204e1d5d263a3f5a7986
+  show_ref_link: true
+  title: Random Forests
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-robust-logitboost-and-adaptive-base-class-abc-logitboost
+  numCitedBy: 135
+  pid: e3e8d6cffe19a4aae526c988f0cf3d218ea601b0
+  show_ref_link: false
+  title: Robust LogitBoost and Adaptive Base Class (ABC) LogitBoost
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-space-efficient-online-computation-of-quantile-summaries
+  numCitedBy: 519
+  pid: 1f61892374c2be70f5924281c0d0e88dc4e02a25
+  show_ref_link: false
+  title: Space-efficient online computation of quantile summaries
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-a-fast-algorithm-for-approximate-quantiles-in-high-speed-data-streams
+  numCitedBy: 35
+  pid: 03a0f978de91f70249dc39de75e8958c49df4583
+  show_ref_link: false
+  title: A Fast Algorithm for Approximate Quantiles in High Speed Data Streams
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: "2016-multivariate-spearman-s-\u03C1-for-aggregating-ranks-using-copulas"
+  numCitedBy: 364
+  pid: 04bdedb561c22d920e1b0145d0a342a68d2a4002
+  show_ref_link: false
+  title: "Multivariate spearman's \u03C1 for aggregating ranks using copulas"
+  year: 2016
+slug: XGBoost:-A-Scalable-Tree-Boosting-System-Chen-Guestrin
+title: XGBoost - A Scalable Tree Boosting System
+url: https://www.semanticscholar.org/paper/XGBoost:-A-Scalable-Tree-Boosting-System-Chen-Guestrin/26bc9195c6343e4d7f434dd65b4ad67efe2be27a?sort=total-citations
+venue: KDD
+year: 2016

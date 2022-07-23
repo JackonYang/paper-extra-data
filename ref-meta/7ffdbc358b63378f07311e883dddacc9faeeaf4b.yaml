@@ -105,7 +105,7 @@ references:
   meta_key: 2014-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation
   numCitedBy: 1267
   pid: e5ae8ab688051931b4814f6d32b18391f8d1fa8d
-  show_ref_link: false
+  show_ref_link: true
   title: Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
   year: 2014
 - fieldsOfStudy:

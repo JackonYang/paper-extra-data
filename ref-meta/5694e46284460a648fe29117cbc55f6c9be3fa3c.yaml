@@ -9,7 +9,7 @@ corpusId: 9433631
 fieldsOfStudy:
 - Computer Science
 meta_key: 2017-densely-connected-convolutional-networks
-numCitedBy: 18975
+numCitedBy: 19204
 numCiting: 58
 paperAbstract: 'Recent work has shown that convolutional networks can be substantially deeper, more accurate, and efficient to train if they contain shorter connections between layers close to the input and those close to the output. In this paper, we embrace this observation and introduce the Dense Convolutional Network (DenseNet), which connects each layer to every other layer in a feed-forward fashion. Whereas traditional convolutional networks with L layers have L connections&#x2014;one between each layer and its subsequent layer&#x2014;our network has L(L+1)/2 direct connections. For each layer, the feature-maps of all preceding layers are used as inputs, and its own feature-maps are used as inputs into all subsequent layers. DenseNets have several compelling advantages: they alleviate the vanishing-gradient problem, strengthen feature propagation, encourage feature reuse, and substantially reduce the number of parameters. We evaluate our proposed architecture on four highly competitive object recognition benchmark tasks (CIFAR-10, CIFAR-100, SVHN, and ImageNet). DenseNets obtain significant improvements over the state-of-the-art on most of them, whilst requiring less memory and computation to achieve high performance. Code and pre-trained models are available at https://github.com/liuzhuang13/DenseNet.'
 ref_count: 58
@@ -51,7 +51,7 @@ references:
   meta_key: 2016-deep-networks-with-stochastic-depth
   numCitedBy: 1445
   pid: 51db1f3c8dfc7d4077da39c96bb90a6358128111
-  show_ref_link: false
+  show_ref_link: true
   title: Deep Networks with Stochastic Depth
   year: 2016
 - fieldsOfStudy:
@@ -59,7 +59,7 @@ references:
   meta_key: 2016-wide-residual-networks
   numCitedBy: 4303
   pid: 1c4e9156ca07705531e45960b7a919dc473abb51
-  show_ref_link: false
+  show_ref_link: true
   title: Wide Residual Networks
   year: 2016
 - fieldsOfStudy:
@@ -107,7 +107,7 @@ references:
   meta_key: 2015-fitnets-hints-for-thin-deep-nets
   numCitedBy: 2020
   pid: cd85a549add0c7c7def36aca29837efd24b24080
-  show_ref_link: false
+  show_ref_link: true
   title: FitNets - Hints for Thin Deep Nets
   year: 2015
 - fieldsOfStudy:
@@ -227,7 +227,7 @@ references:
   meta_key: 2017-fractalnet-ultra-deep-neural-networks-without-residuals
   numCitedBy: 635
   pid: d0156126edbfc524c8d108bdc0cf811cfe3129aa
-  show_ref_link: false
+  show_ref_link: true
   title: FractalNet - Ultra-Deep Neural Networks without Residuals
   year: 2017
 - fieldsOfStudy:

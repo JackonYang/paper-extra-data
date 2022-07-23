@@ -1,0 +1,223 @@
+authors:
+- Jungwook Choi
+- Zhuo Wang
+- Swagath Venkataramani
+- P. Chuang
+- V. Srinivasan
+- K. Gopalakrishnan
+badges:
+- id: OPEN_ACCESS
+corpusId: 21721698
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-pact-parameterized-clipping-activation-for-quantized-neural-networks
+numCitedBy: 435
+numCiting: 30
+paperAbstract: "Deep learning algorithms achieve high classification accuracy at the expense of significant computation cost. To address this cost, a number of quantization schemeshave been proposed - but most of these techniques focused on quantizing weights, which are relatively smaller in size compared to activations. This paper proposes a novel quantization scheme for activations during training - that enables neural networks to work well with ultra low precision weights and activations without any significant accuracy degradation. This technique, PArameterized Clipping acTi-vation (PACT), uses an activation clipping parameter \u03B1 that is optimized duringtraining to find the right quantization scale. PACT allows quantizing activations toarbitrary bit precisions, while achieving much better accuracy relative to publishedstate-of-the-art quantization schemes. We show, for the first time, that both weights and activations can be quantized to 4-bits of precision while still achieving accuracy comparable to full precision networks across a range of popular models and datasets. We also show that exploiting these reduced-precision computational units in hardware can enable a super-linear improvement in inferencing performance dueto a significant reduction in the area of accelerator compute engines coupled with the ability to retain the quantized model and activation data in on-chip memories."
+ref_count: 30
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-balanced-quantization-an-effective-and-efficient-approach-to-quantized-neural-networks
+  numCitedBy: 82
+  pid: 1661b64a5ae2a0a5da882ec89b1dd7a0306060d3
+  show_ref_link: false
+  title: Balanced Quantization - An Effective and Efficient Approach to Quantized Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-weighted-entropy-based-quantization-for-deep-neural-networks
+  numCitedBy: 162
+  pid: a5769aaa13b001aca5f88440a85157980d2ca02b
+  show_ref_link: false
+  title: Weighted-Entropy-Based Quantization for Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-wrpn-training-and-inference-using-wide-reduced-precision-networks
+  numCitedBy: 11
+  pid: a71185cfa1c014070be783df5763c5661c402293
+  show_ref_link: false
+  title: WRPN - Training and Inference using Wide Reduced-Precision Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-quantized-neural-networks-training-neural-networks-with-low-precision-weights-and-activations
+  numCitedBy: 1279
+  pid: d2e4147eecae6f914e9e1e9aece8fdd2eaed809f
+  show_ref_link: false
+  title: Quantized Neural Networks - Training Neural Networks with Low Precision Weights and Activations
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-neural-networks-using-logarithmic-data-representation
+  numCitedBy: 285
+  pid: eb21fe36822a05a14b5ab548696e8fa8d555d6d4
+  show_ref_link: false
+  title: Convolutional Neural Networks using Logarithmic Data Representation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-trained-ternary-quantization
+  numCitedBy: 801
+  pid: d418295cd3027c43eccc5592ae5b8303ba8192be
+  show_ref_link: true
+  title: Trained Ternary Quantization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-learning-with-low-precision-by-half-wave-gaussian-quantization
+  numCitedBy: 353
+  pid: 28b79a6a752433958fa4d7ac82ac304b7087400a
+  show_ref_link: false
+  title: Deep Learning with Low Precision by Half-Wave Gaussian Quantization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-ternary-neural-networks-with-fine-grained-quantization
+  numCitedBy: 87
+  pid: 004c71d2905a83ca301f74cbc6020ff37732f390
+  show_ref_link: false
+  title: Ternary Neural Networks with Fine-Grained Quantization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-binaryconnect-training-deep-neural-networks-with-binary-weights-during-propagations
+  numCitedBy: 2134
+  pid: a5733ff08daff727af834345b9cfff1d0aa109ec
+  show_ref_link: true
+  title: BinaryConnect - Training Deep Neural Networks with binary weights during propagations
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dorefa-net-training-low-bitwidth-convolutional-neural-networks-with-low-bitwidth-gradients
+  numCitedBy: 1360
+  pid: 8b053389eb8c18c61b84d7e59a95cb7e13f205b7
+  show_ref_link: true
+  title: DoReFa-Net - Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-low-precision-batch-normalized-activations
+  numCitedBy: 9
+  pid: d86148e6ffb6de28616381125ab0f7e92e2ba898
+  show_ref_link: false
+  title: Low-Precision Batch-Normalized Activations
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-bitwise-neural-networks
+  numCitedBy: 186
+  pid: 8fcfd67f21738eff12d853fdf2b31ee192e2312a
+  show_ref_link: false
+  title: Bitwise Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-convolutional-deep-belief-networks-on-cifar-10
+  numCitedBy: 447
+  pid: bea5780d621e669e8069f05d0f2fc0db9df4b50f
+  show_ref_link: false
+  title: Convolutional Deep Belief Networks on CIFAR-10
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-fixed-point-feedforward-deep-neural-network-design-using-weights-1-0-and-1
+  numCitedBy: 221
+  pid: a4db2d26b5d169de6b64de361dc7d4fd5b1f61a3
+  show_ref_link: false
+  title: "Fixed-point feedforward deep neural network design using weights +1, 0, and \u22121"
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-estimating-or-propagating-gradients-through-stochastic-neurons-for-conditional-computation
+  numCitedBy: 1534
+  pid: 62c76ca0b2790c34e85ba1cce09d47be317c7235
+  show_ref_link: true
+  title: Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-towards-end-to-end-speech-recognition-with-deep-convolutional-neural-networks
+  numCitedBy: 299
+  pid: e0b207e96351671453aa8bf05b7225c8a340a0b2
+  show_ref_link: false
+  title: Towards End-to-End Speech Recognition with Deep Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-convolutional-sequence-to-sequence-learning
+  numCitedBy: 2457
+  pid: 43428880d75b3a14257c3ee9bda054e61eb869c0
+  show_ref_link: true
+  title: Convolutional Sequence to Sequence Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-poster-design-space-exploration-for-performance-optimization-of-deep-neural-networks-on-shared-memory-accelerators
+  numCitedBy: 12
+  pid: f6bf4a1c5fc337b8904580cfbe172bb4f4b73383
+  show_ref_link: false
+  title: POSTER - Design Space Exploration for Performance Optimization of Deep Neural Networks on Shared Memory Accelerators
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3973
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12985
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+slug: PACT:-Parameterized-Clipping-Activation-for-Neural-Choi-Wang
+title: PACT - Parameterized Clipping Activation for Quantized Neural Networks
+url: https://www.semanticscholar.org/paper/PACT:-Parameterized-Clipping-Activation-for-Neural-Choi-Wang/49e60f82d6ae835c56473464f67ca5c11d3e95ec?sort=total-citations
+venue: ArXiv
+year: 2018

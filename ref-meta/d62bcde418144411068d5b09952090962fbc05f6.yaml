@@ -1,0 +1,140 @@
+authors:
+- Geoffrey E. Hinton
+- T. Sejnowski
+badges:
+- id: OPEN_ACCESS
+corpusId: 568745
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-unsupervised-learning
+numCitedBy: 1399
+numCiting: 21
+paperAbstract: Unsupervised learning studies how systems can learn to represent particular input patterns in a way that reflects the statistical structure of the overall collection of input patterns. By contrast with SUPERVISED LEARNING or REINFORCEMENT LEARNING, there are no explicit target outputs or environmental evaluations associated with each input; rather the unsupervised learner brings to bear prior biases as to what aspects of the structure of the input should be captured in the output.
+ref_count: 21
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-the-helmholtz-machine
+  numCitedBy: 1177
+  pid: 605402e235bd62437baf3c9ebefe77fb4d92ee95
+  show_ref_link: false
+  title: The Helmholtz Machine
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-connectionist-learning-procedures
+  numCitedBy: 1582
+  pid: a57c6d627ffc667ae3547073876c35d6420accff
+  show_ref_link: false
+  title: Connectionist Learning Procedures
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-unsupervised-learning-foundations-of-neural-computation
+  numCitedBy: 198
+  pid: 934d962183f100b9a7226efec508c830ce6b325a
+  show_ref_link: false
+  title: Unsupervised Learning - Foundations of Neural Computation
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-unsupervised-neural-network-learning-procedures-for-feature-extraction-and-classification
+  numCitedBy: 65
+  pid: e60ea228d307abd287d7315473510777dddb3c47
+  show_ref_link: false
+  title: Unsupervised neural network learning procedures for feature extraction and classification
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-self-organizing-neural-network-that-discovers-surfaces-in-random-dot-stereograms
+  numCitedBy: 411
+  pid: 2c85b7fe70dda0adbbd7630e2a341a904c74fbd2
+  show_ref_link: false
+  title: Self-organizing neural network that discovers surfaces in random-dot stereograms
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-maximum-likelihood-competitive-learning
+  numCitedBy: 177
+  pid: 57c4baa5528ba805fc27eee86613c99503978fed
+  show_ref_link: false
+  title: Maximum Likelihood Competitive Learning
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-unsupervised-learning
+  numCitedBy: 105
+  pid: 110808764b3e1de6444116b6221d44e6ecef500e
+  show_ref_link: false
+  title: Unsupervised Learning
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1986-learning-and-relearning-in-boltzmann-machines
+  numCitedBy: 1340
+  pid: 8592e46a5435d18bba70557846f47290b34c1aa5
+  show_ref_link: false
+  title: Learning and relearning in Boltzmann machines
+  year: 1986
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-emergence-of-simple-cell-receptive-field-properties-by-learning-a-sparse-code-for-natural-images
+  numCitedBy: 5642
+  pid: 8012c4a1e2ca663f1a04e80cbb19631a00cbab27
+  show_ref_link: false
+  title: Emergence of simple-cell receptive field properties by learning a sparse code for natural images
+  year: 1996
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1970-a-theory-for-cerebral-neocortex
+  numCitedBy: 455
+  pid: ffdbf3958ca2cf325c78ab314034b0543226cd1f
+  show_ref_link: false
+  title: A theory for cerebral neocortex
+  year: 1970
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-self-organization-in-a-perceptual-network
+  numCitedBy: 1420
+  pid: 16d70e8af45ca0ae2c1bb73f3be6628518d40b8f
+  show_ref_link: false
+  title: Self-organization in a perceptual network
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-objective-function-formulation-of-the-bcm-theory-of-visual-cortical-plasticity-statistical-connections-stability-conditions
+  numCitedBy: 256
+  pid: b62d1925b9909ab7da5132ee162960ef160c48de
+  show_ref_link: false
+  title: Objective function formulation of the BCM theory of visual cortical plasticity - Statistical connections, stability conditions
+  year: 1992
+- fieldsOfStudy:
+  - Education
+  - Medicine
+  meta_key: 1992-the-organization-of-behavior
+  numCitedBy: 4861
+  pid: 3cea0c3d350d78bd3d9bd557c1fe56c59c9bf0e2
+  show_ref_link: false
+  title: The organization of behavior.
+  year: 1992
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 1956-the-epistemological-problem-for-automata
+  numCitedBy: 120
+  pid: 667401fe63e5df61d127d8670a6dc63d049f3631
+  show_ref_link: false
+  title: The Epistemological Problem for Automata
+  year: 1956
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-neuronal-architectures-for-pattern-theoretic-problems
+  numCitedBy: 179
+  pid: fd4b33ba26cd28dc8c3869f5ddbd0a87dbe625e0
+  show_ref_link: false
+  title: Neuronal Architectures for Pattern-theoretic Problems
+  year: 1995
+slug: Unsupervised-Learning-Hinton-Sejnowski
+title: Unsupervised Learning
+url: https://www.semanticscholar.org/paper/Unsupervised-Learning-Hinton-Sejnowski/d62bcde418144411068d5b09952090962fbc05f6?sort=total-citations
+venue: Encyclopedia of Machine Learning and Data Mining
+year: 2017

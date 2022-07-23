@@ -134,7 +134,7 @@ references:
   meta_key: 2013-estimating-or-propagating-gradients-through-stochastic-neurons-for-conditional-computation
   numCitedBy: 1518
   pid: 62c76ca0b2790c34e85ba1cce09d47be317c7235
-  show_ref_link: false
+  show_ref_link: true
   title: Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation
   year: 2013
 - fieldsOfStudy:
@@ -190,7 +190,7 @@ references:
   meta_key: 2016-deep-speech-2-end-to-end-speech-recognition-in-english-and-mandarin
   numCitedBy: 2237
   pid: 8ff840a40d3f1557c55c19d4d636da77103168ce
-  show_ref_link: false
+  show_ref_link: true
   title: Deep Speech 2 - End-to-End Speech Recognition in English and Mandarin
   year: 2016
 - fieldsOfStudy:

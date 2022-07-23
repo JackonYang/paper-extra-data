@@ -1,0 +1,203 @@
+authors:
+- E. T. K. Sang
+- F. D. Meulder
+badges:
+- id: OPEN_ACCESS
+corpusId: 2470716
+fieldsOfStudy:
+- Computer Science
+meta_key: 2003-introduction-to-the-conll-2003-shared-task-language-independent-named-entity-recognition
+numCitedBy: 3000
+numCiting: 39
+paperAbstract: 'We describe the CoNLL-2003 shared task: language-independent named entity recognition. We give background information on the data sets (English and German) and the evaluation method, present a general overview of the systems that have taken part in the task and discuss their performance.'
+ref_count: 39
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-introduction-to-the-conll-2002-shared-task-language-independent-named-entity-recognition
+  numCitedBy: 665
+  pid: 502858989368adae91e0f4a643ebc2aa6efd5738
+  show_ref_link: false
+  title: Introduction to the CoNLL-2002 Shared Task - Language-Independent Named Entity Recognition
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-maximum-entropy-models-for-named-entity-recognition
+  numCitedBy: 177
+  pid: 9f8a734ac971ee265c3e37ffbc47c51d4a80bda5
+  show_ref_link: false
+  title: Maximum Entropy Models for Named Entity Recognition
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-named-entity-recognition-with-a-maximum-entropy-approach
+  numCitedBy: 240
+  pid: 03c03dec975554cb02aca1e076106178dbe0a8a0
+  show_ref_link: false
+  title: Named Entity Recognition with a Maximum Entropy Approach
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-named-entity-recognition-using-hundreds-of-thousands-of-features
+  numCitedBy: 131
+  pid: 33779271302dff0495d728d192df8ac879ba2f11
+  show_ref_link: false
+  title: Named Entity Recognition using Hundreds of Thousands of Features
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-meta-learning-orthographic-and-contextual-models-for-language-independent-named-entity-recognition
+  numCitedBy: 28
+  pid: d54690d449226e9b5ac981cd58756e1809f2eb21
+  show_ref_link: false
+  title: Meta-Learning Orthographic and Contextual Models for Language Independent Named Entity Recognition
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-named-entity-recognition-using-a-character-based-probabilistic-approach
+  numCitedBy: 22
+  pid: c486f8217fe2a4522f036f6b261008bd9275a754
+  show_ref_link: false
+  title: Named Entity Recognition Using a Character-based Probabilistic Approach
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-named-entity-recognition-with-long-short-term-memory
+  numCitedBy: 165
+  pid: c95b747921f7afc88dec3721995c3624c6937c86
+  show_ref_link: false
+  title: Named Entity Recognition with Long Short-Term Memory
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-a-robust-risk-minimization-based-named-entity-recognition-system
+  numCitedBy: 92
+  pid: 207df123e3c24e6e25019d4b86f8efaad5d6f13c
+  show_ref_link: false
+  title: A Robust Risk Minimization based Named Entity Recognition System
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-language-independent-ner-using-a-maximum-entropy-tagger
+  numCitedBy: 268
+  pid: 691414980e2575b6788578ed300fb6f1d39d5a72
+  show_ref_link: false
+  title: Language Independent NER using a Maximum Entropy Tagger
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-memory-based-one-step-named-entity-recognition-effects-of-seed-list-features-classifier-stacking-and-unannotated-data
+  numCitedBy: 25
+  pid: 5e3a9478a7ebcf4efd3b8d7ed65cd463c483acf7
+  show_ref_link: false
+  title: Memory-based one-step named-entity recognition - Effects of seed list features, classifier stacking, and unannotated data
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-a-stacked-voted-stacked-model-for-named-entity-recognition
+  numCitedBy: 62
+  pid: a9e3de997f159390166a09b3d986040d0523656f
+  show_ref_link: false
+  title: A Stacked, Voted, Stacked Model for Named Entity Recognition
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-named-entity-recognition-with-character-level-models
+  numCitedBy: 228
+  pid: 7e958d809a45ba3ae9eef8c5381e8cad8f11de10
+  show_ref_link: false
+  title: Named Entity Recognition with Character-Level Models
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-early-results-for-named-entity-recognition-with-conditional-random-fields-feature-induction-and-web-enhanced-lexicons
+  numCitedBy: 1236
+  pid: 8d65ee7aa0a9dac3957093985e9179e1ccb9bd3b
+  show_ref_link: false
+  title: Early results for Named Entity Recognition with Conditional Random Fields, Feature Induction and Web-Enhanced Lexicons
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-memory-based-named-entity-recognition-using-unannotated-data
+  numCitedBy: 42
+  pid: e6b7fa081bf555f36e8a047043012c9475d962a6
+  show_ref_link: false
+  title: Memory-Based Named Entity Recognition using Unannotated Data
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-a-simple-named-entity-extractor-using-adaboost
+  numCitedBy: 100
+  pid: ca473e0135f6cda5f59a262a326483937a5d996a
+  show_ref_link: false
+  title: A Simple Named Entity Extractor using AdaBoost
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-named-entity-recognition-through-classifier-combination
+  numCitedBy: 478
+  pid: d1ba322f795adbdc706651dbc76ad53b9c5f9468
+  show_ref_link: false
+  title: Named Entity Recognition through Classifier Combination
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-a-maximum-entropy-approach-to-named-entity-recognition
+  numCitedBy: 518
+  pid: 149f5137d1c7e34764e1f4d4d7b97b8e6bdeda2a
+  show_ref_link: false
+  title: A Maximum Entropy Approach to Named Entity Recognition
+  year: 1999
+- fieldsOfStudy:
+  - Education
+  meta_key: 1999-improvements-in-part-of-speech-tagging-with-an-application-to-german
+  numCitedBy: 934
+  pid: 343d2492caa5265467884d7c172c658a680b7d3d
+  show_ref_link: false
+  title: Improvements in Part-of-Speech Tagging with an Application to German
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-text-chunking-using-transformation-based-learning
+  numCitedBy: 1541
+  pid: d9c71db75046473f0e3d3229950d7c84c09afd5e
+  show_ref_link: false
+  title: Text Chunking using Transformation-Based Learning
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-greedy-attribute-selection
+  numCitedBy: 605
+  pid: f82e86b853fcda968d63c0196bf2df6748b13233
+  show_ref_link: false
+  title: Greedy Attribute Selection
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-computer-intensive-methods-for-testing-hypotheses
+  numCitedBy: 484
+  pid: 189e44489209454d363e6a0e272f3c5c80bbde1b
+  show_ref_link: false
+  title: Computer-Intensive Methods for Testing Hypotheses.
+  year: 1989
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2002-mbt-memory-based-tagger-version-1-0-reference-guide
+  numCitedBy: 78
+  pid: b8dd7eb279d0581fb878c25bb48254cacd306b7c
+  show_ref_link: false
+  title: MBT - Memory Based Tagger, version 1.0, Reference Guide
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-learning-a-perceptron-based-named-entity-chunker-via-online-recognition-feedback
+  numCitedBy: 44
+  pid: f319a6ca2930a40632b7272c55ec277e8e1ff59e
+  show_ref_link: false
+  title: Learning a Perceptron-Based Named Entity Chunker via Online Recognition Feedback
+  year: 2003
+slug: Introduction-to-the-CoNLL-2003-Shared-Task:-Named-Sang-Meulder
+title: Introduction to the CoNLL-2003 Shared Task - Language-Independent Named Entity Recognition
+url: https://www.semanticscholar.org/paper/Introduction-to-the-CoNLL-2003-Shared-Task:-Named-Sang-Meulder/10f97f1fb4f5c2c8e6c44d4a33da46d331dd4aeb?sort=total-citations
+venue: CoNLL
+year: 2003

@@ -35,7 +35,7 @@ references:
   meta_key: 2016-text-understanding-with-the-attention-sum-reader-network
   numCitedBy: 290
   pid: f2e50e2ee4021f199877c8920f1f984481c723aa
-  show_ref_link: false
+  show_ref_link: true
   title: Text Understanding with the Attention Sum Reader Network
   year: 2016
 - fieldsOfStudy:
@@ -115,7 +115,7 @@ references:
   meta_key: 2016-a-thorough-examination-of-the-cnn-daily-mail-reading-comprehension-task
   numCitedBy: 498
   pid: b1e20420982a4f923c08652941666b189b11b7fe
-  show_ref_link: false
+  show_ref_link: true
   title: A Thorough Examination of the CNN/Daily Mail Reading Comprehension Task
   year: 2016
 - fieldsOfStudy:

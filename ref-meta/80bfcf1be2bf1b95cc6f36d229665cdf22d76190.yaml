@@ -147,7 +147,7 @@ references:
   meta_key: 2004-recognizing-human-actions-a-local-svm-approach
   numCitedBy: 3091
   pid: b786e478cf0be6fcfaeb7812e25da85523236855
-  show_ref_link: false
+  show_ref_link: true
   title: Recognizing human actions - a local SVM approach
   year: 2004
 - fieldsOfStudy:

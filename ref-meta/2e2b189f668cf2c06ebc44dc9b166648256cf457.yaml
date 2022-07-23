@@ -1,0 +1,401 @@
+authors:
+- Song Han
+- Xingyu Liu
+- Huizi Mao
+- Jing Pu
+- A. Pedram
+- M. Horowitz
+- W. Dally
+badges:
+- id: OPEN_ACCESS
+corpusId: 1663491
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-eie-efficient-inference-engine-on-compressed-deep-neural-network
+numCitedBy: 1816
+numCiting: 52
+paperAbstract: State-of-the-art deep neural networks (DNNs) have hundreds of millions of connections and are both computationally and memory intensive, making them difficult to deploy on embedded systems with limited hardware resources and power budgets. While custom hardware helps the computation, fetching weights from DRAM is two orders of magnitude more expensive than ALU operations, and dominates the required power. Previously proposed 'Deep Compression' makes it possible to fit large DNNs (AlexNet and VGGNet) fully in on-chip SRAM. This compression is achieved by pruning the redundant connections and having multiple connections share the same weight. We propose an energy efficient inference engine (EIE) that performs inference on this compressed network model and accelerates the resulting sparse matrix-vector multiplication with weight sharing. Going from DRAM to SRAM gives EIE 120x energy saving, Exploiting sparsity saves 10x, Weight sharing gives 8x, Skipping zero activations from ReLU saves another 3x. Evaluated on nine DNN benchmarks, EIE is 189x and 13x faster when compared to CPU and GPU implementations of the same DNN without compression. EIE has a processing power of 102 GOPS working directly on a compressed network, corresponding to 3 TOPS on an uncompressed network, and processes FC layers of AlexNet at 1.88x104 frames/sec with a power dissipation of only 600mW. It is 24,000x and 3,400x more energy efficient than a CPU and GPU respectively. Compared with DaDianNao, EIE has 2.9x, 19x and 3x better throughput, energy efficiency and area efficiency.
+ref_count: 52
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-minerva-enabling-low-power-highly-accurate-deep-neural-network-accelerators
+  numCitedBy: 312
+  pid: 6174fe357592420826ea21d23cb35943048a83cf
+  show_ref_link: false
+  title: Minerva - Enabling Low-Power, Highly-Accurate Deep Neural Network Accelerators
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+  numCitedBy: 5732
+  pid: 642d0f49b7826adcf986616f4af77e736229990f
+  show_ref_link: true
+  title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dadiannao-a-machine-learning-supercomputer
+  numCitedBy: 1065
+  pid: 4157ed3db4c656854e69931cb6089b64b08784b9
+  show_ref_link: true
+  title: DaDianNao - A Machine-Learning Supercomputer
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-isaac-a-convolutional-neural-network-accelerator-with-in-situ-analog-arithmetic-in-crossbars
+  numCitedBy: 1010
+  pid: 9071775ebcfebddd54d879fe7e6c627673e4d305
+  show_ref_link: false
+  title: ISAAC - A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic in Crossbars
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-shidiannao-shifting-vision-processing-closer-to-the-sensor
+  numCitedBy: 743
+  pid: bd6507b5c9deaf87bda81e59ce15b2309df0bf37
+  show_ref_link: false
+  title: ShiDianNao - Shifting vision processing closer to the sensor
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-diannao-a-small-footprint-high-throughput-accelerator-for-ubiquitous-machine-learning
+  numCitedBy: 1235
+  pid: 22e477a9fdde86ab1f8f4dafdb4d88ea37e31fbd
+  show_ref_link: true
+  title: DianNao - a small-footprint high-throughput accelerator for ubiquitous machine-learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-networks-for-fast-energy-efficient-neuromorphic-computing
+  numCitedBy: 552
+  pid: 29316449c7cc52ad326c5d1bd5b0dc5af27c1496
+  show_ref_link: false
+  title: Convolutional networks for fast, energy-efficient neuromorphic computing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-going-deeper-with-embedded-fpga-platform-for-convolutional-neural-network
+  numCitedBy: 897
+  pid: c382406fd8db2744b2a609837395e5da05e1d2ed
+  show_ref_link: false
+  title: Going Deeper with Embedded FPGA Platform for Convolutional Neural Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-learning-with-cots-hpc-systems
+  numCitedBy: 679
+  pid: d1208ac421cf8ff67b27d93cd19ae42b8d596f95
+  show_ref_link: false
+  title: Deep learning with COTS HPC systems
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-optimizing-fpga-based-accelerator-design-for-deep-convolutional-neural-networks
+  numCitedBy: 1482
+  pid: 7c91eb0f9bbae8e2d3d007db73b8422b61ed1d68
+  show_ref_link: false
+  title: Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-high-memory-bandwidth-fpga-accelerator-for-sparse-matrix-vector-multiplication
+  numCitedBy: 94
+  pid: f98b448a62391d65ca93bd9603bf64b48bb94ed9
+  show_ref_link: false
+  title: A High Memory Bandwidth FPGA Accelerator for Sparse Matrix-Vector Multiplication
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-speeding-up-convolutional-neural-networks-with-low-rank-expansions
+  numCitedBy: 1154
+  pid: 021fc345d40d3e6332cd2ef276e2eaa5e71102e4
+  show_ref_link: true
+  title: Speeding up Convolutional Neural Networks with Low Rank Expansions
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-squeezenet-alexnet-level-accuracy-with-50x-fewer-parameters-and-1mb-model-size
+  numCitedBy: 4092
+  pid: 969fbdcd0717bec06228053788c2ff78bbb4daac
+  show_ref_link: true
+  title: SqueezeNet - AlexNet-level accuracy with 50x fewer parameters and <1MB model size
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-a-scalable-sparse-matrix-vector-multiplication-kernel-for-energy-efficient-sparse-blas-on-fpgas
+  numCitedBy: 89
+  pid: 8b45945681e477c65d1cec5cf8cd73f06fedca4c
+  show_ref_link: false
+  title: A scalable sparse matrix-vector multiplication kernel for energy-efficient sparse-blas on FPGAs
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-cnp-an-fpga-based-processor-for-convolutional-networks
+  numCitedBy: 328
+  pid: 07956c7cf9bf4267b86d52aa4143c17a4aa5d0d6
+  show_ref_link: false
+  title: CNP - An FPGA-based processor for Convolutional Networks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-sparse-matrix-vector-multiplication-on-fpgas
+  numCitedBy: 234
+  pid: a7a5f56868e83be1e566a255bdd8076b7d4b9f1a
+  show_ref_link: false
+  title: Sparse Matrix-Vector multiplication on FPGAs
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-algorithms-for-convolutional-neural-networks
+  numCitedBy: 617
+  pid: d5eadd6f059d742d76441fd0a635a21694dd7392
+  show_ref_link: true
+  title: Fast Algorithms for Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-automatic-performance-tuning-of-sparse-matrix-kernels
+  numCitedBy: 281
+  pid: 92229143e62f1f8eecdd29920836851111b6bcce
+  show_ref_link: false
+  title: Automatic performance tuning of sparse matrix kernels
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation
+  numCitedBy: 1281
+  pid: e5ae8ab688051931b4814f6d32b18391f8d1fa8d
+  show_ref_link: true
+  title: Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-implementing-sparse-matrix-vector-multiplication-on-throughput-oriented-processors
+  numCitedBy: 809
+  pid: 1cd294f3bcd647c8a2b2bbce47e827a8ece8b973
+  show_ref_link: false
+  title: Implementing sparse matrix-vector multiplication on throughput-oriented processors
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-ecient-sparse-matrix-vector-multiplication-on-cuda
+  numCitedBy: 790
+  pid: a8834b05b3925e0f53b8a8b1924e89b9cde04b7d
+  show_ref_link: false
+  title: Ecient Sparse Matrix-Vector Multiplication on CUDA
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 15043
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-efficient-and-accurate-approximations-of-nonlinear-convolutional-networks
+  numCitedBy: 216
+  pid: b64601d509711468f5d085261d463846f36785b2
+  show_ref_link: false
+  title: Efficient and accurate approximations of nonlinear convolutional networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-cacti-6-0-a-tool-to-model-large-caches
+  numCitedBy: 787
+  pid: 3364bc50921a9566d61ef8cb73baa82341725e4b
+  show_ref_link: false
+  title: CACTI 6.0 - A Tool to Model Large Caches
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-can-deep-learning-revolutionize-mobile-sensing
+  numCitedBy: 232
+  pid: 6c20cd584e7258056840eb88437d69731000bb0f
+  show_ref_link: false
+  title: Can Deep Learning Revolutionize Mobile Sensing?
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52390
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-automatically-tuning-sparse-matrix-vector-multiplication-for-gpu-architectures
+  numCitedBy: 250
+  pid: ce8190de5cac2b583667079502c130888783303f
+  show_ref_link: false
+  title: Automatically Tuning Sparse Matrix-Vector Multiplication for GPU Architectures
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-second-order-derivatives-for-network-pruning-optimal-brain-surgeon
+  numCitedBy: 1594
+  pid: a42954d4b9d0ccdf1036e0af46d87a01b94c3516
+  show_ref_link: false
+  title: Second Order Derivatives for Network Pruning - Optimal Brain Surgeon
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-recurrent-neural-network-based-language-model
+  numCitedBy: 4935
+  pid: 9819b600a828a57e1cde047bbe710d3446b30da5
+  show_ref_link: true
+  title: Recurrent neural network based language model
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2015-fast-r-cnn
+  numCitedBy: 14349
+  pid: 7ffdbc358b63378f07311e883dddacc9faeeaf4b
+  show_ref_link: true
+  title: Fast R-CNN
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19562
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-visual-semantic-alignments-for-generating-image-descriptions
+  numCitedBy: 2718
+  pid: 55e022fb7581bb9e1fce678d21fb25ffbb3fbb88
+  show_ref_link: true
+  title: Deep Visual-Semantic Alignments for Generating Image Descriptions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-comparing-biases-for-minimal-network-construction-with-back-propagation
+  numCitedBy: 518
+  pid: f4ea5a6ff3ffcd11ec2e6ed7828a7d41279fb3ad
+  show_ref_link: false
+  title: Comparing Biases for Minimal Network Construction with Back-Propagation
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deepface-closing-the-gap-to-human-level-performance-in-face-verification
+  numCitedBy: 5077
+  pid: 9f2efadf66817f1b38f58b3f50c7c8f34c69d89a
+  show_ref_link: true
+  title: DeepFace - Closing the Gap to Human-Level Performance in Face Verification
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-framewise-phoneme-classification-with-bidirectional-lstm-and-other-neural-network-architectures
+  numCitedBy: 3324
+  pid: 2f83f6e1afadf0963153974968af6b8342775d82
+  show_ref_link: true
+  title: Framewise phoneme classification with bidirectional LSTM and other neural network architectures
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-imagenet-a-large-scale-hierarchical-image-database
+  numCitedBy: 28266
+  pid: d2c733e34d48784a37d717fe43d9e93277a8c53e
+  show_ref_link: true
+  title: ImageNet - A large-scale hierarchical image database
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12985
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-optimal-brain-damage
+  numCitedBy: 3518
+  pid: e7297db245c3feb1897720b173a59fe7e36babb7
+  show_ref_link: false
+  title: Optimal Brain Damage
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-lapack-working-note-50-distributed-sparse-data-structures-for-linear-algebra-operations
+  numCitedBy: 26
+  pid: 355589166b0fc85dcd1e68ec5b62ad4098ef7193
+  show_ref_link: false
+  title: LAPACK Working Note 50 - Distributed Sparse Data Structures for Linear Algebra Operations
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-matrix-computations
+  numCitedBy: 8504
+  pid: 444d70e3331b5083b40ef32e49390ef683a65e67
+  show_ref_link: false
+  title: Matrix Computations
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-gpu-based-deep-learning-inference-a-performance-and-power-analysis
+  numCitedBy: 59
+  pid: eabf117aae614d6b65cc33a3a4bbb22b9a5014d9
+  show_ref_link: false
+  title: GPU-Based Deep Learning Inference - A Performance and Power Analysis
+  year: 2015
+slug: EIE:-Efficient-Inference-Engine-on-Compressed-Deep-Han-Liu
+title: EIE - Efficient Inference Engine on Compressed Deep Neural Network
+url: https://www.semanticscholar.org/paper/EIE:-Efficient-Inference-Engine-on-Compressed-Deep-Han-Liu/2e2b189f668cf2c06ebc44dc9b166648256cf457?sort=total-citations
+venue: 2016 ACM/IEEE 43rd Annual International Symposium on Computer Architecture (ISCA)
+year: 2016

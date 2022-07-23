@@ -1,0 +1,142 @@
+authors:
+- Nadav Rotem
+- Jordan Fix
+- Saleem Abdulrasool
+- Summer Deng
+- Roman Dzhabarov
+- James Hegeman
+- Roman Levenstein
+- Bertrand A. Maher
+- N. Satish
+- Jakob R. Olesen
+- Jongsoo Park
+- Artem Rakhov
+- M. Smelyanskiy
+badges:
+- id: OPEN_ACCESS
+corpusId: 23823854
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-glow-graph-lowering-compiler-techniques-for-neural-networks
+numCitedBy: 164
+numCiting: 19
+paperAbstract: This paper presents the design of Glow, a machine learning compiler for heterogeneous hardware. It is a pragmatic approach to compilation that enables the generation of highly optimized code for multiple targets. Glow lowers the traditional neural network dataflow graph into a two-phase strongly-typed intermediate representation. The high-level intermediate representation allows the optimizer to perform domain-specific optimizations. The lower-level instruction-based address-only intermediate representation allows the compiler to perform memory-related optimizations, such as instruction scheduling, static memory allocation and copy elimination. At the lowest level, the optimizer performs machine-specific code generation to take advantage of specialized hardware features. Glow features a lowering phase which enables the compiler to support a high number of input operators as well as a large number of hardware targets by eliminating the need to implement all operators on all targets. The lowering phase is designed to reduce the input space and allow new hardware backends to focus on a small number of linear algebra primitives.
+ref_count: 19
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-llvm-a-compilation-framework-for-lifelong-program-analysis-transformation
+  numCitedBy: 4656
+  pid: d755f461dddae76068f401409ba59c85a2436305
+  show_ref_link: false
+  title: LLVM - a compilation framework for lifelong program analysis & transformation
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-dlvm-a-modern-compiler-infrastructure-for-deep-learning-systems
+  numCitedBy: 46
+  pid: c94393bc6439fecece2f4149837c90d83f742ee8
+  show_ref_link: false
+  title: DLVM - A modern compiler infrastructure for deep learning systems
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-halide-a-language-and-compiler-for-optimizing-parallelism-locality-and-recomputation-in-image-processing-pipelines
+  numCitedBy: 878
+  pid: d032f74b16457584f8a60ae07cfef9b617033638
+  show_ref_link: false
+  title: Halide - a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tvm-end-to-end-optimization-stack-for-deep-learning
+  numCitedBy: 140
+  pid: ec3071fb918ad69ec80df1ca9cf1fdeb386a9603
+  show_ref_link: true
+  title: TVM - End-to-End Optimization Stack for Deep Learning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tensor-comprehensions-framework-agnostic-high-performance-machine-learning-abstractions
+  numCitedBy: 284
+  pid: cae9d90524cccac5081666985d5d055b71697cee
+  show_ref_link: true
+  title: Tensor Comprehensions - Framework-Agnostic High-Performance Machine Learning Abstractions
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-a-system-for-large-scale-machine-learning
+  numCitedBy: 12805
+  pid: 46200b99c40e8586c8a0f588488ab6414119fb28
+  show_ref_link: true
+  title: TensorFlow - A system for large-scale machine learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-cntk-microsoft-s-open-source-deep-learning-toolkit
+  numCitedBy: 360
+  pid: 1ee88e64945503c93b68344e639a7ae085f6e37d
+  show_ref_link: false
+  title: CNTK - Microsoft's Open-Source Deep-Learning Toolkit
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-automatic-differentiation-in-pytorch
+  numCitedBy: 10485
+  pid: b36a5bb1707bb9c70025294b3a310138aae8327a
+  show_ref_link: true
+  title: Automatic differentiation in PyTorch
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Education
+  meta_key: 2018-keras-the-python-deep-learning-library
+  numCitedBy: 1004
+  pid: 77cec64cdf0581ff4e7b70aa595a4d6e39b70ce4
+  show_ref_link: false
+  title: Keras - The Python Deep Learning library
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-intel-ngraph-an-intermediate-representation-compiler-and-executor-for-deep-learning
+  numCitedBy: 92
+  pid: 83fb3f8df8a8ae3a69cdf2b5044e73f0c56f9547
+  show_ref_link: false
+  title: Intel nGraph - An Intermediate Representation, Compiler, and Executor for Deep Learning
+  year: 2018
+- fieldsOfStudy:
+  - Education
+  meta_key: 2016-deep-learning
+  numCitedBy: 31384
+  pid: 4f8d648c52edf74e41b0996128aa536e13cc7e82
+  show_ref_link: true
+  title: Deep Learning
+  year: 2016
+slug: Glow:-Graph-Lowering-Compiler-Techniques-for-Neural-Rotem-Fix
+title: Glow - Graph Lowering Compiler Techniques for Neural Networks
+url: https://www.semanticscholar.org/paper/Glow:-Graph-Lowering-Compiler-Techniques-for-Neural-Rotem-Fix/0261195ae7e1545caefb0ea7afb92bd66bfbb790?sort=total-citations
+venue: ArXiv
+year: 2018

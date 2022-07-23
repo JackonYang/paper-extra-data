@@ -1,0 +1,691 @@
+authors:
+- Nicolas Vasilache
+- O. Zinenko
+- Theodoros Theodoridis
+- Priya Goyal
+- Zach DeVito
+- William S. Moses
+- Sven Verdoolaege
+- Andrew Adams
+- Albert Cohen
+badges:
+- id: OPEN_ACCESS
+corpusId: 44014988
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-tensor-comprehensions-framework-agnostic-high-performance-machine-learning-abstractions
+numCitedBy: 284
+numCiting: 102
+paperAbstract: 'Deep learning models with convolutional and recurrent networks are now ubiquitous and analyze massive amounts of audio, image, video, text and graph data, with applications in automatic translation, speech-to-text, scene understanding, ranking user preferences, ad placement, etc. Competing frameworks for building these networks such as TensorFlow, Chainer, CNTK, Torch/PyTorch, Caffe1/2, MXNet and Theano, explore different tradeoffs between usability and expressiveness, research or production orientation and supported hardware. They operate on a DAG of computational operators, wrapping high-performance libraries such as CUDNN (for NVIDIA GPUs) or NNPACK (for various CPUs), and automate memory allocation, synchronization, distribution. Custom operators are needed where the computation does not fit existing high-performance library calls, usually at a high engineering cost. This is frequently required when new operators are invented by researchers: such operators suffer a severe performance penalty, which limits the pace of innovation. Furthermore, even if there is an existing runtime call these frameworks can use, it often doesn''t offer optimal performance for a user''s particular network architecture and dataset, missing optimizations between operators as well as optimizations that can be done knowing the size and shape of data. Our contributions include (1) a language close to the mathematics of deep learning called Tensor Comprehensions offering both imperative and declarative styles, (2) a polyhedral Just-In-Time compiler to convert a mathematical description of a deep learning DAG into a CUDA kernel with delegated memory management and synchronization, also providing optimizations such as operator fusion and specialization for specific sizes, (3) a compilation cache populated by an autotuner. [Abstract cutoff]'
+ref_count: 102
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-a-system-for-large-scale-machine-learning
+  numCitedBy: 12805
+  pid: 46200b99c40e8586c8a0f588488ab6414119fb28
+  show_ref_link: true
+  title: TensorFlow - A system for large-scale machine learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tvm-end-to-end-optimization-stack-for-deep-learning
+  numCitedBy: 140
+  pid: ec3071fb918ad69ec80df1ca9cf1fdeb386a9603
+  show_ref_link: true
+  title: TVM - End-to-End Optimization Stack for Deep Learning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-latte-a-language-compiler-and-runtime-for-elegant-and-efficient-deep-neural-networks
+  numCitedBy: 54
+  pid: e729739e2796348faa50c0e88e38be83b070d3fe
+  show_ref_link: false
+  title: Latte - a language, compiler, and runtime for elegant and efficient deep neural networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tvm-an-automated-end-to-end-optimizing-compiler-for-deep-learning
+  numCitedBy: 713
+  pid: df013a17ab84d5403361da4538a04d574f58be83
+  show_ref_link: true
+  title: TVM - An Automated End-to-End Optimizing Compiler for Deep Learning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-aggregated-residual-transformations-for-deep-neural-networks
+  numCitedBy: 5619
+  pid: f6e0856b4a9199fa968ac00da612a9407b5cb85c
+  show_ref_link: true
+  title: Aggregated Residual Transformations for Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-deep-interest-network-for-click-through-rate-prediction
+  numCitedBy: 788
+  pid: b8c6ccd5c1eb4f9837fc4877d27e55b7349781be
+  show_ref_link: false
+  title: Deep Interest Network for Click-Through Rate Prediction
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-large-scale-deep-unsupervised-learning-using-graphics-processors
+  numCitedBy: 643
+  pid: e337c5e4c23999c36f64bcb33ebe6b284e1bcbf1
+  show_ref_link: false
+  title: Large-scale deep unsupervised learning using graphics processors
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-accurate-large-minibatch-sgd-training-imagenet-in-1-hour
+  numCitedBy: 2269
+  pid: 0d57ba12a6d958e178d83be4c84513f7e42b24e5
+  show_ref_link: true
+  title: Accurate, Large Minibatch SGD - Training ImageNet in 1 Hour
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-in-datacenter-performance-analysis-of-a-tensor-processing-unit
+  numCitedBy: 2951
+  pid: 2dfeb5a90abc49ab2a80a492a01a4e2c8e92ec22
+  show_ref_link: true
+  title: In-datacenter performance analysis of a tensor processing unit
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-loo-py-transformation-based-code-generation-for-gpus-and-cpus
+  numCitedBy: 44
+  pid: 43646798f334bba75401737909f812ed04acba4c
+  show_ref_link: false
+  title: Loo.py - transformation-based code generation for GPUs and CPUs
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-mxnet-a-flexible-and-efficient-machine-learning-library-for-heterogeneous-distributed-systems
+  numCitedBy: 1891
+  pid: 62df84d6a4d26f95e4714796c2337c9848cc13b5
+  show_ref_link: true
+  title: MXNet - A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-the-tensor-algebra-compiler
+  numCitedBy: 201
+  pid: c2e1139691c3a337831e36ee7afeab8817ab5d48
+  show_ref_link: true
+  title: The tensor algebra compiler
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-model-driven-simd-code-generation-for-a-multi-resolution-tensor-kernel
+  numCitedBy: 22
+  pid: 4d51ca669400e53c7639f89ae8653e2bff691acc
+  show_ref_link: false
+  title: Model-Driven SIMD Code Generation for a Multi-resolution Tensor Kernel
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-deep-learning-for-recommender-systems
+  numCitedBy: 1964
+  pid: 657fbf29ea0b4904a3e98d1556f9acf38dddae5f
+  show_ref_link: false
+  title: Wide & Deep Learning for Recommender Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-theano-a-python-framework-for-fast-computation-of-mathematical-expressions
+  numCitedBy: 2083
+  pid: 6b570069f14c7588e066f7138e1f21af59d62e61
+  show_ref_link: true
+  title: Theano - A Python framework for fast computation of mathematical expressions
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-polymage-automatic-optimization-for-image-processing-pipelines
+  numCitedBy: 175
+  pid: 0b9aaee517e0cabb274f5d7cfb01d8f58e51d76e
+  show_ref_link: false
+  title: PolyMage - Automatic Optimization for Image Processing Pipelines
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-review-of-relational-machine-learning-for-knowledge-graphs
+  numCitedBy: 1150
+  pid: 033f25ad905ef2ed32a8331cf38b83953ff15922
+  show_ref_link: false
+  title: A Review of Relational Machine Learning for Knowledge Graphs
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fast-convolutional-nets-with-fbfft-a-gpu-performance-evaluation
+  numCitedBy: 293
+  pid: 326d65827307862ddc3d39b84ebc662e83ff95b3
+  show_ref_link: false
+  title: Fast Convolutional Nets With fbfft - A GPU Performance Evaluation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-halide-a-language-and-compiler-for-optimizing-parallelism-locality-and-recomputation-in-image-processing-pipelines
+  numCitedBy: 878
+  pid: d032f74b16457584f8a60ae07cfef9b617033638
+  show_ref_link: false
+  title: Halide - a language and compiler for optimizing parallelism, locality, and recomputation in image processing pipelines
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-algorithms-for-convolutional-neural-networks
+  numCitedBy: 617
+  pid: d5eadd6f059d742d76441fd0a635a21694dd7392
+  show_ref_link: true
+  title: Fast Algorithms for Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-pencil-a-platform-neutral-compute-intermediate-language-for-accelerator-programming
+  numCitedBy: 90
+  pid: e61e896ee96c8d6ae13c34c9d66e8ee879489f75
+  show_ref_link: false
+  title: PENCIL - A Platform-Neutral Compute Intermediate Language for Accelerator Programming
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-in-search-of-a-program-generator-to-implement-generic-transformations-for-high-performance-computing
+  numCitedBy: 53
+  pid: b91ff4becb37f314ec723b01bda3fb1c647afc27
+  show_ref_link: false
+  title: In search of a program generator to implement generic transformations for high-performance computing
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-automatically-scheduling-halide-image-processing-pipelines
+  numCitedBy: 129
+  pid: 9b240a87b11d085641d6640f73cc3cc2d678e305
+  show_ref_link: true
+  title: Automatically scheduling halide image processing pipelines
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-semi-automatic-composition-of-loop-transformations-for-deep-parallelism-and-memory-hierarchies
+  numCitedBy: 240
+  pid: cc1c1b1eb6e9672d1b2813ad763f701494d8fcee
+  show_ref_link: false
+  title: Semi-Automatic Composition of Loop Transformations for Deep Parallelism and Memory Hierarchies
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-implementing-neural-networks-efficiently
+  numCitedBy: 24
+  pid: 2dce3867e57697cd9cc1a28eff51bc29914bf55f
+  show_ref_link: false
+  title: Implementing Neural Networks Efficiently
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-chill-a-framework-for-composing-high-level-loop-transformations
+  numCitedBy: 198
+  pid: 6a4620589f63f3385707d2d590f7b7dc8ee4d74f
+  show_ref_link: false
+  title: CHiLL - A Framework for Composing High-Level Loop Transformations
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-when-polyhedral-transformations-meet-simd-code-generation
+  numCitedBy: 114
+  pid: e0766d67cd9a89358ab7e1621dcf6c04a6d96bc5
+  show_ref_link: false
+  title: When polyhedral transformations meet SIMD code generation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-loop-transformations-convexity-pruning-and-optimization
+  numCitedBy: 126
+  pid: 493c0286a097005b626f8f978c6f475d3f05ca43
+  show_ref_link: false
+  title: Loop transformations - convexity, pruning and optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6242
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-hogwild-a-lock-free-approach-to-parallelizing-stochastic-gradient-descent
+  numCitedBy: 2027
+  pid: 36f49b05d764bf5c10428b082c2d96c13c4203b9
+  show_ref_link: true
+  title: Hogwild - A Lock-Free Approach to Parallelizing Stochastic Gradient Descent
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-facilitating-the-search-for-compositions-of-program-transformations
+  numCitedBy: 111
+  pid: 081fdf4787a2ec2cae16fa76a59c1747f4467e94
+  show_ref_link: false
+  title: Facilitating the search for compositions of program transformations
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-unified-polyhedral-modeling-of-temporal-and-spatial-locality
+  numCitedBy: 10
+  pid: f3146524e10d8f2e895408dbc25dc00260fa3add
+  show_ref_link: false
+  title: Unified Polyhedral Modeling of Temporal and Spatial Locality
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-the-pluto-algorithm-a-practical-approach-for-parallelization-and-locality-optimization-of-affine-loop-nests
+  numCitedBy: 41
+  pid: 5a3f0e14112d8cc14ba19e5ab8c33fc42487c4bf
+  show_ref_link: false
+  title: The Pluto+ Algorithm - A Practical Approach for Parallelization and Locality Optimization of Affine Loop Nests
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorization-machines
+  numCitedBy: 1692
+  pid: df93596d4ed71d2863532c063c4c693711216abf
+  show_ref_link: false
+  title: Factorization Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-polyhedral-based-data-reuse-optimization-for-configurable-computing
+  numCitedBy: 151
+  pid: c29d0ea9ee2540630c078f4a382ebc5317d459fc
+  show_ref_link: false
+  title: Polyhedral-based data reuse optimization for configurable computing
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-simit-a-language-for-physical-simulation
+  numCitedBy: 45
+  pid: b08494ed65f349de2b811db408d6f1420db2dc1e
+  show_ref_link: false
+  title: Simit - A Language for Physical Simulation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-practical-automatic-polyhedral-parallelizer-and-locality-optimizer
+  numCitedBy: 860
+  pid: f0f4757aa2f923a349e8357e73850a78e9b80fee
+  show_ref_link: false
+  title: A practical automatic polyhedral parallelizer and locality optimizer
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-polyhedral-ast-generation-is-more-than-scanning-polyhedra
+  numCitedBy: 63
+  pid: da141b201ab6ed3c68e3cfb13e9c6f914c2c8965
+  show_ref_link: false
+  title: Polyhedral AST Generation Is More Than Scanning Polyhedra
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-language-for-the-compact-representation-of-multiple-program-versions
+  numCitedBy: 82
+  pid: dc7c0770eb1d400fe7b71f35a6da54146dad46f4
+  show_ref_link: false
+  title: A Language for the Compact Representation of Multiple Program Versions
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-automating-the-generation-of-composed-linear-algebra-kernels
+  numCitedBy: 70
+  pid: 83ceea0006e3d1438f4ab50682b76afb8081b23b
+  show_ref_link: false
+  title: Automating the generation of composed linear algebra kernels
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-basic-linear-algebra-compiler-for-structured-matrices
+  numCitedBy: 38
+  pid: 4ea599774275246a1ce3851c3b02e1b2bbf898fe
+  show_ref_link: false
+  title: A basic linear algebra compiler for structured matrices
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-optimizing-compilers-for-modern-architectures-a-dependence-based-approach
+  numCitedBy: 1104
+  pid: 9dc9f86fb3116acf723f4404dcdf279fe322f01f
+  show_ref_link: false
+  title: Optimizing Compilers for Modern Architectures - A Dependence-based Approach
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-compiler-framework-for-optimization-of-affine-loop-nests-for-gpgpus
+  numCitedBy: 220
+  pid: f75108b2fd2113faf3de69e91e56e59bb886c543
+  show_ref_link: false
+  title: A compiler framework for optimization of affine loop nests for gpgpus
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-automatically-tuned-linear-algebra-software
+  numCitedBy: 1138
+  pid: 214a0d9c93720aa8c3d10710bca8308e3f2618f5
+  show_ref_link: false
+  title: Automatically Tuned Linear Algebra Software
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-polyhedral-optimization-of-tensorflow-computation-graphs
+  numCitedBy: 27
+  pid: 536fffda901d6eef8fbf495d3debf4c565deeb7e
+  show_ref_link: false
+  title: Polyhedral Optimization of TensorFlow Computation Graphs
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-vobla-a-vehicle-for-optimized-basic-linear-algebra
+  numCitedBy: 17
+  pid: fbb1e3a18f530b4369368fb5ecc041fced246d01
+  show_ref_link: false
+  title: VOBLA - a vehicle for optimized basic linear algebra
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-google-vizier-a-service-for-black-box-optimization
+  numCitedBy: 524
+  pid: 938f6ef7eed095919e6a482c7f1836a01d62db4b
+  show_ref_link: true
+  title: Google Vizier - A Service for Black-Box Optimization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-opening-polyhedral-compiler-s-black-box
+  numCitedBy: 26
+  pid: f090a2d883d667242a08d54aa08b9a9e2d783413
+  show_ref_link: false
+  title: Opening polyhedral compiler's black box
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-optimization-techniques-for-efficient-hta-programs
+  numCitedBy: 18
+  pid: 3074d591b8d2cee1928cf77eab8f1beddf5da6d7
+  show_ref_link: false
+  title: Optimization techniques for efficient HTA programs
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-joint-scheduling-and-layout-optimization-to-enable-multi-level-vectorization
+  numCitedBy: 37
+  pid: c76671c478130ee4cd1600ff0f51807ed6e8d4b9
+  show_ref_link: false
+  title: Joint Scheduling and Layout Optimization to Enable Multi-Level Vectorization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-code-generation-in-the-polyhedral-model-is-easier-than-you-think
+  numCitedBy: 518
+  pid: d2f48fb9fd31390c56609f00510accf5c56f9f9b
+  show_ref_link: false
+  title: Code generation in the polyhedral model is easier than you think
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-static-analysis-of-upper-and-lower-bounds-on-dependences-and-parallelism
+  numCitedBy: 65
+  pid: 340f33eaf63224f8f737b0c05a621c8208e22597
+  show_ref_link: false
+  title: Static analysis of upper and lower bounds on dependences and parallelism
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-lightweight-modular-staging-a-pragmatic-approach-to-runtime-code-generation-and-compiled-dsls
+  numCitedBy: 384
+  pid: 74fd59dabab7b156702b148bb64f8e1ee54f6862
+  show_ref_link: false
+  title: Lightweight modular staging - a pragmatic approach to runtime code generation and compiled DSLs
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-the-polyhedral-model-is-more-widely-applicable-than-you-think
+  numCitedBy: 217
+  pid: a4672941d77499591c31ac8bd64d6039dfb8b0e1
+  show_ref_link: false
+  title: The Polyhedral Model Is More Widely Applicable Than You Think
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-spiral-a-generator-for-platform-adapted-libraries-of-signal-processing-alogorithms
+  numCitedBy: 197
+  pid: 63c15149986f30ead7bc7c05881216adc23c4844
+  show_ref_link: false
+  title: Spiral - A Generator for Platform-Adapted Libraries of Signal Processing Alogorithms
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-polyhedral-parallel-code-generation-for-cuda
+  numCitedBy: 323
+  pid: 963a1e639971e7e3a4e6c871cf9c0b410e5532d0
+  show_ref_link: false
+  title: Polyhedral parallel code generation for CUDA
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-runtime-code-generation-in-c-as-a-foundation-for-domain-specific-optimisation
+  numCitedBy: 52
+  pid: 7f7c9f3b093db4162eeac7e35234d96b7dafd0f1
+  show_ref_link: false
+  title: Runtime Code Generation in C++ as a Foundation for Domain-Specific Optimisation
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-deep-big-simple-neural-nets-for-handwritten-digit-recognition
+  numCitedBy: 881
+  pid: b98cd08b75ebf2bd1d1ec47c51ef75777a7e64bd
+  show_ref_link: false
+  title: Deep, Big, Simple Neural Nets for Handwritten Digit Recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-polyhedral-extraction-tool
+  numCitedBy: 112
+  pid: d79ead5a5c9e932ba3ab5bb41a7a2ac19d551346
+  show_ref_link: false
+  title: Polyhedral Extraction Tool
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-perceptrons-an-introduction-to-computational-geometry
+  numCitedBy: 23
+  pid: 0de8234e6935ced7ea838de585b4236810f1b837
+  show_ref_link: false
+  title: Perceptrons An Introduction To Computational Geometry
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-some-efficient-solutions-to-the-affine-scheduling-problem-part-ii-multidimensional-time
+  numCitedBy: 384
+  pid: 486986fb365f072146cb9648ab408b0c567ae019
+  show_ref_link: false
+  title: Some efficient solutions to the affine scheduling problem. Part II. Multidimensional time
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-fftw-an-adaptive-software-architecture-for-the-fft
+  numCitedBy: 1753
+  pid: eeb2eb44102bf289db4a22635261d82ffa7dc7db
+  show_ref_link: false
+  title: FFTW - an adaptive software architecture for the FFT
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-hyperparameter-tuning-in-bandit-based-adaptive-operator-selection
+  numCitedBy: 13
+  pid: 22bd2ea740e1601686ddef06188b44816a4c48ac
+  show_ref_link: false
+  title: Hyperparameter Tuning in Bandit-Based Adaptive Operator Selection
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-handwritten-digit-recognition-with-a-back-propagation-network
+  numCitedBy: 2955
+  pid: 86ab4cae682fbd49c5a5bedb630e5a40fa7529f6
+  show_ref_link: false
+  title: Handwritten Digit Recognition with a Back-Propagation Network
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-counting-affine-calculator-and-applications
+  numCitedBy: 36
+  pid: a850a95748f9f00e3362ed1a9bf65fae9a6b7d7a
+  show_ref_link: false
+  title: Counting Affine Calculator and Applications
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-the-alpha-language-and-its-use-for-the-design-of-systolic-arrays
+  numCitedBy: 122
+  pid: 0cdb2a38b728659b3fb50f50f4cfe446dfccd8b7
+  show_ref_link: false
+  title: The ALPHA language and its use for the design of systolic arrays
+  year: 1991
+- fieldsOfStudy:
+  - Art
+  meta_key: 2010-isl-an-integer-set-library-for-the-polyhedral-model
+  numCitedBy: 351
+  pid: 1c5b15587e4034c97610b2017697ad1ea663a8fa
+  show_ref_link: false
+  title: isl - An Integer Set Library for the Polyhedral Model
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2000-oolala-an-object-oriented-analysis-and-design-of-numerical-linear-algebra
+  numCitedBy: 30
+  pid: 5a5ffa3e64b1b465aa6b7f6a466a546056533584
+  show_ref_link: false
+  title: OoLALA - an object oriented analysis and design of numerical linear algebra
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-some-efficient-solutions-to-the-affine-scheduling-problem-i-one-dimensional-time
+  numCitedBy: 459
+  pid: 16de6f9e2bf6ee1068dbca8c9e5446295c904315
+  show_ref_link: false
+  title: Some efficient solutions to the affine scheduling problem. I. One-dimensional time
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-overcoming-the-challenges-to-feedback-directed-optimization-keynote-talk
+  numCitedBy: 31
+  pid: c5d20efaca5a0920281a89cf65c2d22fc8aab173
+  show_ref_link: false
+  title: Overcoming the challenges to feedback-directed optimization (Keynote Talk)
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-polyhedra-scanning-revisited
+  numCitedBy: 51
+  pid: 9afa38c3b54ec57de27440555859a57850f1c365
+  show_ref_link: false
+  title: Polyhedra scanning revisited
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-dataflow-analysis-of-array-and-scalar-references
+  numCitedBy: 454
+  pid: 7cd685371e267a499ded869a934a4cffed591aec
+  show_ref_link: false
+  title: Dataflow analysis of array and scalar references
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-active-libraries-rethinking-the-roles-of-compilers-and-libraries
+  numCitedBy: 172
+  pid: 91faa5e2927dd7edb91aed7bda800a215b1b807e
+  show_ref_link: false
+  title: Active Libraries - Rethinking the roles of compilers and libraries
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-reconfigurable-fabric-for-accelerating-large-scale-datacenter-services
+  numCitedBy: 966
+  pid: e25c39846d814f0eda33871c4b11c37855b9a70e
+  show_ref_link: false
+  title: A Reconfigurable Fabric for Accelerating Large-Scale Datacenter Services
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-schedule-trees
+  numCitedBy: 36
+  pid: 51d919693cd9c6c00e46c0ac9b8acdd822f3c6c9
+  show_ref_link: false
+  title: Schedule Trees
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-principles-of-program-analysis
+  numCitedBy: 1977
+  pid: 19114326033e279ea11261fa1c986be6c5b24945
+  show_ref_link: false
+  title: Principles of Program Analysis
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-genetic-algorithms-in-search-optimization-and-machine-learning
+  numCitedBy: 58251
+  pid: 2e62d1345b340d5fda3b092c460264b9543bc4b5
+  show_ref_link: true
+  title: Genetic Algorithms in Search Optimization and Machine Learning
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-scheduling-for-ppcg
+  numCitedBy: 16
+  pid: 6cd49927db05621036bd12daacf575863c294f6f
+  show_ref_link: false
+  title: Scheduling for PPCG
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-deep-big-simple-neural-nets-excel-on-handwritten-digit-recognition
+  numCitedBy: 417
+  pid: 9e2964d36f154cc13b0af39c5b36cb3d76b27da1
+  show_ref_link: false
+  title: Deep Big Simple Neural Nets Excel on Handwritten Digit Recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-polyhedron-model
+  numCitedBy: 112
+  pid: 171b8a385ba1178496d983eb92ee5bc29ff57457
+  show_ref_link: false
+  title: Polyhedron Model
+  year: 2011
+slug: Tensor-Comprehensions:-Framework-Agnostic-Machine-Vasilache-Zinenko
+title: Tensor Comprehensions - Framework-Agnostic High-Performance Machine Learning Abstractions
+url: https://www.semanticscholar.org/paper/Tensor-Comprehensions:-Framework-Agnostic-Machine-Vasilache-Zinenko/cae9d90524cccac5081666985d5d055b71697cee?sort=total-citations
+venue: ArXiv
+year: 2018

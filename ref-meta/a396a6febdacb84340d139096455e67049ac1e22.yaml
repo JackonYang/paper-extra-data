@@ -93,7 +93,7 @@ references:
   meta_key: 2017-neural-architecture-search-with-reinforcement-learning
   numCitedBy: 3452
   pid: 67d968c7450878190e45ac7886746de867bf673d
-  show_ref_link: false
+  show_ref_link: true
   title: Neural Architecture Search with Reinforcement Learning
   year: 2017
 - fieldsOfStudy:
@@ -181,7 +181,7 @@ references:
   meta_key: 2013-making-a-science-of-model-search-hyperparameter-optimization-in-hundreds-of-dimensions-for-vision-architectures
   numCitedBy: 1270
   pid: 29935173af73aef20336db72d608e0ef5b0e0c16
-  show_ref_link: false
+  show_ref_link: true
   title: Making a Science of Model Search - Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures
   year: 2013
 - fieldsOfStudy:

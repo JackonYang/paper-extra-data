@@ -21,7 +21,7 @@ references:
   meta_key: 2018-regularizing-and-optimizing-lstm-language-models
   numCitedBy: 858
   pid: 58c6f890a1ae372958b7decf56132fe258152722
-  show_ref_link: false
+  show_ref_link: true
   title: Regularizing and Optimizing LSTM Language Models
   year: 2018
 - fieldsOfStudy:
@@ -70,7 +70,7 @@ references:
   meta_key: 2017-recurrent-highway-networks
   numCitedBy: 351
   pid: 7dba53e72c182e25e98e8f73a99d75ff69dda0c2
-  show_ref_link: false
+  show_ref_link: true
   title: Recurrent Highway Networks
   year: 2017
 - fieldsOfStudy:
@@ -118,7 +118,7 @@ references:
   meta_key: 2017-tying-word-vectors-and-word-classifiers-a-loss-framework-for-language-modeling
   numCitedBy: 336
   pid: 424aef7340ee618132cc3314669400e23ad910ba
-  show_ref_link: false
+  show_ref_link: true
   title: Tying Word Vectors and Word Classifiers - A Loss Framework for Language Modeling
   year: 2017
 - fieldsOfStudy:
@@ -166,7 +166,7 @@ references:
   meta_key: 2017-pointer-sentinel-mixture-models
   numCitedBy: 1047
   pid: efbd381493bb9636f489b965a2034d529cd56bcd
-  show_ref_link: false
+  show_ref_link: true
   title: Pointer Sentinel Mixture Models
   year: 2017
 - fieldsOfStudy:
@@ -270,7 +270,7 @@ references:
   meta_key: 2017-neural-architecture-search-with-reinforcement-learning
   numCitedBy: 3447
   pid: 67d968c7450878190e45ac7886746de867bf673d
-  show_ref_link: false
+  show_ref_link: true
   title: Neural Architecture Search with Reinforcement Learning
   year: 2017
 - fieldsOfStudy:
@@ -278,7 +278,7 @@ references:
   meta_key: 2017-using-the-output-embedding-to-improve-language-models
   numCitedBy: 572
   pid: 63e39cdf1ad884da6bc69096bb3413b5b1100559
-  show_ref_link: false
+  show_ref_link: true
   title: Using the Output Embedding to Improve Language Models
   year: 2017
 - fieldsOfStudy:
@@ -286,7 +286,7 @@ references:
   meta_key: 2017-recurrent-batch-normalization
   numCitedBy: 344
   pid: 952454718139dba3aafc6b3b67c4f514ac3964af
-  show_ref_link: false
+  show_ref_link: true
   title: Recurrent Batch Normalization
   year: 2017
 - fieldsOfStudy:
@@ -318,7 +318,7 @@ references:
   meta_key: 2017-improving-neural-language-models-with-a-continuous-cache
   numCitedBy: 241
   pid: 2d7782c225e0fc123d6e227f2cb253e58279ac73
-  show_ref_link: false
+  show_ref_link: true
   title: Improving Neural Language Models with a Continuous Cache
   year: 2017
 - fieldsOfStudy:
@@ -358,7 +358,7 @@ references:
   meta_key: 2018-efficient-neural-architecture-search-via-parameter-sharing
   numCitedBy: 1721
   pid: fe9b8aac9fa3bfd9724db5a881a578e471e612d7
-  show_ref_link: false
+  show_ref_link: true
   title: Efficient Neural Architecture Search via Parameter Sharing
   year: 2018
 - fieldsOfStudy:
@@ -366,7 +366,7 @@ references:
   meta_key: 2016-a-theoretically-grounded-application-of-dropout-in-recurrent-neural-networks
   numCitedBy: 1320
   pid: 0c1f9ca23f4f09ecfc44bcc8ca1c2736624f4652
-  show_ref_link: false
+  show_ref_link: true
   title: A Theoretically Grounded Application of Dropout in Recurrent Neural Networks
   year: 2016
 - fieldsOfStudy:
@@ -390,7 +390,7 @@ references:
   meta_key: 2019-darts-differentiable-architecture-search
   numCitedBy: 2214
   pid: c1f457e31b611da727f9aef76c283a18157dfa83
-  show_ref_link: false
+  show_ref_link: true
   title: DARTS - Differentiable Architecture Search
   year: 2019
 - fieldsOfStudy:
@@ -406,7 +406,7 @@ references:
   meta_key: 2016-on-multiplicative-integration-with-recurrent-neural-networks
   numCitedBy: 130
   pid: 136cf66392f1d6bf42da4cc070888996dc472b91
-  show_ref_link: false
+  show_ref_link: true
   title: On Multiplicative Integration with Recurrent Neural Networks
   year: 2016
 - fieldsOfStudy:
@@ -414,7 +414,7 @@ references:
   meta_key: 2017-hypernetworks
   numCitedBy: 379
   pid: 563783de03452683a9206e85fe6d661714436686
-  show_ref_link: false
+  show_ref_link: true
   title: HyperNetworks
   year: 2017
 - fieldsOfStudy:
@@ -438,7 +438,7 @@ references:
   meta_key: 2017-hierarchical-multiscale-recurrent-neural-networks
   numCitedBy: 442
   pid: 65eee67dee969fdf8b44c87c560d66ad4d78e233
-  show_ref_link: false
+  show_ref_link: true
   title: Hierarchical Multiscale Recurrent Neural Networks
   year: 2017
 - fieldsOfStudy:

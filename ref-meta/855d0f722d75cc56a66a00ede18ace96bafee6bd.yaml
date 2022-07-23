@@ -14,7 +14,7 @@ corpusId: 8180128
 fieldsOfStudy:
 - Computer Science
 meta_key: 2012-theano-new-features-and-speed-improvements
-numCitedBy: 1374
+numCitedBy: 1375
 numCiting: 14
 paperAbstract: Theano is a linear algebra compiler that optimizes a user's symbolically-specified mathematical computations to produce efficient low-level implementations. In this paper, we present new features and efficiency improvements to Theano, and benchmarks demonstrating Theano's performance relative to Torch7, a recently introduced machine learning library, and to RNNLM, a C++ library targeted at recurrent neural networks.
 ref_count: 14

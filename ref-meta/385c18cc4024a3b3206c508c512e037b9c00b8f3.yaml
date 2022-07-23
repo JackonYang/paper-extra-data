@@ -147,7 +147,7 @@ references:
   meta_key: 2013-predicting-parameters-in-deep-learning
   numCitedBy: 1003
   pid: e8650503ab80ad7299f0845b1843abf3a97f313a
-  show_ref_link: false
+  show_ref_link: true
   title: Predicting Parameters in Deep Learning
   year: 2013
 - fieldsOfStudy:

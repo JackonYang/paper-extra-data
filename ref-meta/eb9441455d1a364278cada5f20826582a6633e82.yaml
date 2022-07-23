@@ -438,7 +438,7 @@ references:
   meta_key: 2014-speeding-up-convolutional-neural-networks-with-low-rank-expansions
   numCitedBy: 1152
   pid: 021fc345d40d3e6332cd2ef276e2eaa5e71102e4
-  show_ref_link: false
+  show_ref_link: true
   title: Speeding up Convolutional Neural Networks with Low Rank Expansions
   year: 2014
 - fieldsOfStudy:

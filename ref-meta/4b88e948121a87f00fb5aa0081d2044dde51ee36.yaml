@@ -1,0 +1,317 @@
+authors:
+- Chen-Yu Lee
+- Patrick W. Gallagher
+- Z. Tu
+badges:
+- id: OPEN_ACCESS
+corpusId: 31884
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-generalizing-pooling-functions-in-convolutional-neural-networks-mixed-gated-and-tree
+numCitedBy: 391
+numCiting: 50
+paperAbstract: We seek to improve deep neural networks by generalizing the pooling operations that play a central role in current architectures. We pursue a careful exploration of approaches to allow pooling to learn and to adapt to complex and variable patterns. The two primary directions lie in (1) learning a pooling function via (two strategies of) combining of max and average pooling, and (2) learning a pooling function in the form of a tree-structured fusion of pooling filters that are themselves learned. In our experiments every generalized pooling operation we explore improves performance when used in place of average or max pooling. We experimentally demonstrate that the proposed pooling operations provide a boost in invariance properties relative to conventional pooling and set the state of the art on several widely adopted benchmark datasets; they are also easy to implement, and can be applied within various deep neural network architectures. These benefits come with only a light increase in computational overhead during training and a very modest increase in the number of model parameters.
+ref_count: 50
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Economics
+  meta_key: 2014-fractional-max-pooling
+  numCitedBy: 434
+  pid: 55dda8f230566867acbfaa7bdd08fd8c7b8721ed
+  show_ref_link: false
+  title: Fractional Max-Pooling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-stochastic-pooling-for-regularization-of-deep-convolutional-neural-networks
+  numCitedBy: 828
+  pid: 0abb49fe138e8fb7332c26b148a48d0db39724fc
+  show_ref_link: false
+  title: Stochastic Pooling for Regularization of Deep Convolutional Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-improving-deep-neural-networks-with-probabilistic-maxout-units
+  numCitedBy: 96
+  pid: cab783289febf6c650a8bfd4e37c5c8e187a8066
+  show_ref_link: false
+  title: Improving Deep Neural Networks with Probabilistic Maxout Units
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-selecting-receptive-fields-in-deep-networks
+  numCitedBy: 223
+  pid: 182015c5edff1956cbafbcb3e7bbe294aa54f9fc
+  show_ref_link: false
+  title: Selecting Receptive Fields in Deep Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-networks-with-internal-selective-attention-through-feedback-connections
+  numCitedBy: 217
+  pid: 70155488a49d51755c1dfea728e03a6dd72703a1
+  show_ref_link: false
+  title: Deep Networks with Internal Selective Attention through Feedback Connections
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deeply-supervised-nets
+  numCitedBy: 1455
+  pid: fb91db6aa4f710814f8aec28a7f3ecbc4e5ad4fd
+  show_ref_link: true
+  title: Deeply-Supervised Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-evaluation-of-pooling-operations-in-convolutional-architectures-for-object-recognition
+  numCitedBy: 1295
+  pid: 5d21006fa32ff69f6b0a646f26ce0db84f2f4d33
+  show_ref_link: false
+  title: Evaluation of Pooling Operations in Convolutional Architectures for Object Recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-spatial-pyramid-pooling-in-deep-convolutional-networks-for-visual-recognition
+  numCitedBy: 4977
+  pid: cbb19236820a96038d000dc629225d36e0b6294a
+  show_ref_link: true
+  title: Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-delving-deep-into-rectifiers-surpassing-human-level-performance-on-imagenet-classification
+  numCitedBy: 12559
+  pid: d6f2f611da110b5b5061731be3fc4c7f45d8ee23
+  show_ref_link: true
+  title: Delving Deep into Rectifiers - Surpassing Human-Level Performance on ImageNet Classification
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fitnets-hints-for-thin-deep-nets
+  numCitedBy: 2037
+  pid: cd85a549add0c7c7def36aca29837efd24b24080
+  show_ref_link: true
+  title: FitNets - Hints for Thin Deep Nets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-discriminative-transfer-learning-with-tree-based-priors
+  numCitedBy: 198
+  pid: 822f3b9a392a9abccdaa7ef5ae4183d2d4d3d6db
+  show_ref_link: false
+  title: Discriminative Transfer Learning with Tree-based Priors
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-neural-decision-forests-for-semantic-image-labelling
+  numCitedBy: 121
+  pid: 5f05dd61dd2cf33aecca1e974a1c7fec1ea2486e
+  show_ref_link: false
+  title: Neural Decision Forests for Semantic Image Labelling
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-ask-the-locals-multi-way-local-pooling-for-image-recognition
+  numCitedBy: 293
+  pid: 9791f1e47a48fa05387cb8dd93da53bf8f43c1f4
+  show_ref_link: false
+  title: Ask the locals - Multi-way local pooling for image recognition
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-theoretical-analysis-of-feature-pooling-in-visual-recognition
+  numCitedBy: 1139
+  pid: 405aed4b8ecdd869b2e83095dde51c396334115f
+  show_ref_link: false
+  title: A Theoretical Analysis of Feature Pooling in Visual Recognition
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-fast-learning-algorithm-for-deep-belief-nets
+  numCitedBy: 13502
+  pid: 8978cf7574ceb35f4c3096be768c7547b28a35d0
+  show_ref_link: true
+  title: A Fast Learning Algorithm for Deep Belief Nets
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-autoencoder-trees
+  numCitedBy: 15
+  pid: 6719581e61c412cc013c2ca90aee7d84b8651404
+  show_ref_link: false
+  title: Autoencoder Trees
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-maxout-networks
+  numCitedBy: 1834
+  pid: b7b915d508987b73b61eccd2b237e7ed099a2d29
+  show_ref_link: true
+  title: Maxout Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-activation-functions-to-improve-deep-neural-networks
+  numCitedBy: 347
+  pid: 93100ebe89840bc235c586ddc6daccd262707fec
+  show_ref_link: false
+  title: Learning Activation Functions to Improve Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-sparse-feature-learning-for-deep-belief-networks
+  numCitedBy: 826
+  pid: 41fef1a197fab9684a4608b725d3ae72e1ab4b39
+  show_ref_link: false
+  title: Sparse Feature Learning for Deep Belief Networks
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-what-is-the-best-multi-stage-architecture-for-object-recognition
+  numCitedBy: 2093
+  pid: 1f88427d7aa8225e47f946ac41a0667d7b69ac52
+  show_ref_link: false
+  title: What is the best multi-stage architecture for object recognition?
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-robust-object-recognition-with-cortex-like-mechanisms
+  numCitedBy: 1716
+  pid: 71e3d9fc53ba14c2feeb7390f0dc99076553b05a
+  show_ref_link: false
+  title: Robust Object Recognition with Cortex-Like Mechanisms
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3561
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3973
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1962-receptive-fields-binocular-interaction-and-functional-architecture-in-the-cat-s-visual-cortex
+  numCitedBy: 12456
+  pid: 6b4fe4aa4d66fecc7b2869569002714d91d0b3f7
+  show_ref_link: false
+  title: Receptive fields, binocular interaction and functional architecture in the cat's visual cortex
+  year: 1962
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-backpropagation-applied-to-handwritten-zip-code-recognition
+  numCitedBy: 7920
+  pid: a8e8f3c8d4418c8d62e306538c9c1292635e9d27
+  show_ref_link: false
+  title: Backpropagation Applied to Handwritten Zip Code Recognition
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-visualizing-data-using-t-sne
+  numCitedBy: 22748
+  pid: 1c46943103bd7b7a2c7be86859995a4144d1938b
+  show_ref_link: true
+  title: Visualizing Data using t-SNE
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-the-mnist-database-of-handwritten-digits
+  numCitedBy: 4474
+  pid: dc52d1ede1b90bf9d296bc5b34c9310b7eaa99a2
+  show_ref_link: true
+  title: The mnist database of handwritten digits
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-logic-based-artificial-intelligence
+  numCitedBy: 247
+  pid: 94939e1ea6a696e895b4fa21af447a0ccd8e5d47
+  show_ref_link: false
+  title: Logic-Based Artificial Intelligence
+  year: 2000
+- fieldsOfStudy:
+  - Biology
+  meta_key: 2003-receptive-fields
+  numCitedBy: 306
+  pid: dc7d03d05a437aaf0cc02a4ed36339cc259d2583
+  show_ref_link: false
+  title: Receptive fields
+  year: 2003
+slug: Generalizing-Pooling-Functions-in-Convolutional-and-Lee-Gallagher
+title: Generalizing Pooling Functions in Convolutional Neural Networks - Mixed, Gated, and Tree
+url: https://www.semanticscholar.org/paper/Generalizing-Pooling-Functions-in-Convolutional-and-Lee-Gallagher/4b88e948121a87f00fb5aa0081d2044dde51ee36?sort=total-citations
+venue: AISTATS
+year: 2016

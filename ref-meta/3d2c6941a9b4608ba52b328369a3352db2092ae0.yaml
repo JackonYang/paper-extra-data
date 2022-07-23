@@ -41,7 +41,7 @@ references:
   meta_key: 2017-recurrent-batch-normalization
   numCitedBy: 344
   pid: 952454718139dba3aafc6b3b67c4f514ac3964af
-  show_ref_link: false
+  show_ref_link: true
   title: Recurrent Batch Normalization
   year: 2017
 - fieldsOfStudy:
@@ -185,7 +185,7 @@ references:
   meta_key: 2015-human-level-control-through-deep-reinforcement-learning
   numCitedBy: 16284
   pid: e0e9a94c4a6ba219e768b4e59f72c18f0a22e23d
-  show_ref_link: false
+  show_ref_link: true
   title: Human-level control through deep reinforcement learning
   year: 2015
 - fieldsOfStudy:
@@ -193,7 +193,7 @@ references:
   meta_key: 2014-stochastic-backpropagation-and-approximate-inference-in-deep-generative-models
   numCitedBy: 3912
   pid: 484ad17c926292fbe0d5211540832a8c8a8e958b
-  show_ref_link: false
+  show_ref_link: true
   title: Stochastic Backpropagation and Approximate Inference in Deep Generative Models
   year: 2014
 - fieldsOfStudy:

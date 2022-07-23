@@ -1,0 +1,516 @@
+authors:
+- Barret Zoph
+- Quoc V. Le
+badges:
+- id: OPEN_ACCESS
+corpusId: 12713052
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-neural-architecture-search-with-reinforcement-learning
+numCitedBy: 3482
+numCiting: 72
+paperAbstract: Neural networks are powerful and flexible models that work well for many difficult learning tasks in image, speech and natural language understanding. Despite their success, neural networks are still hard to design. In this paper, we use a recurrent network to generate the model descriptions of neural networks and train this RNN with reinforcement learning to maximize the expected accuracy of the generated architectures on a validation set. On the CIFAR-10 dataset, our method, starting from scratch, can design a novel network architecture that rivals the best human-invented architecture in terms of test set accuracy. Our CIFAR-10 model achieves a test error rate of 3.65, which is 0.09 percent better and 1.05x faster than the previous state-of-the-art model that used a similar architectural scheme. On the Penn Treebank dataset, our model can compose a novel recurrent cell that outperforms the widely-used LSTM cell, and other state-of-the-art baselines. Our cell achieves a test set perplexity of 62.4 on the Penn Treebank, which is 3.6 perplexity better than the previous state-of-the-art model. The cell can also be transferred to the character language modeling task on PTB and achieves a state-of-the-art perplexity of 1.214.
+ref_count: 72
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 15043
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-an-empirical-exploration-of-recurrent-network-architectures
+  numCitedBy: 1395
+  pid: 5b8364c21155d3d2cd38ea4c8b8580beba9a3250
+  show_ref_link: true
+  title: An Empirical Exploration of Recurrent Network Architectures
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-how-to-construct-deep-recurrent-neural-networks
+  numCitedBy: 800
+  pid: 533ee188324b833e059cb59b654e6160776d5812
+  show_ref_link: false
+  title: How to Construct Deep Recurrent Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-sequence-level-training-with-recurrent-neural-networks
+  numCitedBy: 1241
+  pid: 35c1668dc64d24a28c6041978e5fcca754eb2f4b
+  show_ref_link: false
+  title: Sequence Level Training with Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-programmer-inducing-latent-programs-with-gradient-descent
+  numCitedBy: 251
+  pid: bf85a0cd645ad68919c0706741ab568a60a58af2
+  show_ref_link: false
+  title: Neural Programmer - Inducing Latent Programs with Gradient Descent
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-context-dependent-recurrent-neural-network-language-model
+  numCitedBy: 550
+  pid: d1275b2a2ab53013310e759e5c6878b96df643d4
+  show_ref_link: false
+  title: Context dependent recurrent neural network language model
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-theoretically-grounded-application-of-dropout-in-recurrent-neural-networks
+  numCitedBy: 1320
+  pid: 0c1f9ca23f4f09ecfc44bcc8ca1c2736624f4652
+  show_ref_link: true
+  title: A Theoretically Grounded Application of Dropout in Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-character-aware-neural-language-models
+  numCitedBy: 1434
+  pid: 891ce1687e2befddd19f54e4eef1d3f39c8dbaf7
+  show_ref_link: true
+  title: Character-Aware Neural Language Models
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-recurrent-highway-networks
+  numCitedBy: 351
+  pid: 7dba53e72c182e25e98e8f73a99d75ff69dda0c2
+  show_ref_link: true
+  title: Recurrent Highway Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-importance-of-initialization-and-momentum-in-deep-learning
+  numCitedBy: 3598
+  pid: aa7bfd2304201afbb19971ebde87b17e40242e91
+  show_ref_link: true
+  title: On the importance of initialization and momentum in deep learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-tying-word-vectors-and-word-classifiers-a-loss-framework-for-language-modeling
+  numCitedBy: 337
+  pid: 424aef7340ee618132cc3314669400e23ad910ba
+  show_ref_link: true
+  title: Tying Word Vectors and Word Classifiers - A Loss Framework for Language Modeling
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-residual-networks
+  numCitedBy: 4354
+  pid: 1c4e9156ca07705531e45960b7a919dc473abb51
+  show_ref_link: true
+  title: Wide Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 29648
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-large-scale-distributed-deep-networks
+  numCitedBy: 3057
+  pid: 3127190433230b3dc1abd0680bb58dced4bcd90e
+  show_ref_link: true
+  title: Large Scale Distributed Deep Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-human-level-concept-learning-through-probabilistic-program-induction
+  numCitedBy: 2143
+  pid: 815c84ab906e43f3e6322f2ca3fd5e1360c64285
+  show_ref_link: false
+  title: Human-level concept learning through probabilistic program induction
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-to-compose-neural-networks-for-question-answering
+  numCitedBy: 480
+  pid: 75ddc7ee15be14013a3462c01b38b0548486fbcb
+  show_ref_link: true
+  title: Learning to Compose Neural Networks for Question Answering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-striving-for-simplicity-the-all-convolutional-net
+  numCitedBy: 3314
+  pid: 0f84a81f431b18a78bd97f59ed4b9d8eda390970
+  show_ref_link: true
+  title: Striving for Simplicity - The All Convolutional Net
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-neural-network-regularization
+  numCitedBy: 1997
+  pid: f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97
+  show_ref_link: true
+  title: Recurrent Neural Network Regularization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-networks-with-stochastic-depth
+  numCitedBy: 1458
+  pid: 51db1f3c8dfc7d4077da39c96bb90a6358128111
+  show_ref_link: true
+  title: Deep Networks with Stochastic Depth
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19562
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-pointer-sentinel-mixture-models
+  numCitedBy: 1053
+  pid: efbd381493bb9636f489b965a2034d529cd56bcd
+  show_ref_link: true
+  title: Pointer Sentinel Mixture Models
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-scalable-bayesian-optimization-using-deep-neural-networks
+  numCitedBy: 711
+  pid: 93bc65d2842b8cc5f3cf72ebc5b8f75daeacea35
+  show_ref_link: false
+  title: Scalable Bayesian Optimization Using Deep Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-densely-connected-convolutional-networks
+  numCitedBy: 19204
+  pid: 5694e46284460a648fe29117cbc55f6c9be3fa3c
+  show_ref_link: true
+  title: Densely Connected Convolutional Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-google-s-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation
+  numCitedBy: 4712
+  pid: dbde7dfa6cae81df8ac19ef500c42db96c3d1edd
+  show_ref_link: true
+  title: Google's Neural Machine Translation System - Bridging the Gap between Human and Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-algorithms-for-hyper-parameter-optimization
+  numCitedBy: 2516
+  pid: 03911c85305d42aa2eeb02be82ef6fb7da644dd0
+  show_ref_link: true
+  title: Algorithms for Hyper-Parameter Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-practical-bayesian-optimization-of-machine-learning-algorithms
+  numCitedBy: 5088
+  pid: 2e2089ae76fe914706e6fa90081a79c8fe01611e
+  show_ref_link: true
+  title: Practical Bayesian Optimization of Machine Learning Algorithms
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-using-the-output-embedding-to-improve-language-models
+  numCitedBy: 574
+  pid: 63e39cdf1ad884da6bc69096bb3413b5b1100559
+  show_ref_link: true
+  title: Using the Output Embedding to Improve Language Models
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-learning-to-learn-by-gradient-descent-by-gradient-descent
+  numCitedBy: 1347
+  pid: 395dd01c0d24777c660cf195c4cfadcdf51fb7e8
+  show_ref_link: true
+  title: Learning to learn by gradient descent by gradient descent
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neural-programmer-interpreters
+  numCitedBy: 305
+  pid: b59d91e0699d4e1896a15bae13fd180bdaf77ea5
+  show_ref_link: false
+  title: Neural Programmer-Interpreters
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-a-neural-probabilistic-language-model
+  numCitedBy: 6054
+  pid: 6c2b28f9354f667cd5bd07afc0471d8334430da7
+  show_ref_link: false
+  title: A Neural Probabilistic Language Model
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-deep-neural-networks-for-acoustic-modeling-in-speech-recognition-the-shared-views-of-four-research-groups
+  numCitedBy: 7484
+  pid: 31868290adf1c000c611dfc966b514d5a34e8d23
+  show_ref_link: true
+  title: Deep Neural Networks for Acoustic Modeling in Speech Recognition - The Shared Views of Four Research Groups
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-language-modeling-with-sum-product-networks
+  numCitedBy: 72
+  pid: 2a76c2121eee30af82a24058b4e149f05bcda911
+  show_ref_link: false
+  title: Language modeling with sum-product networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-towards-automatically-tuned-neural-networks
+  numCitedBy: 155
+  pid: 06b2a66c86c270e24a2177f816c6bc6e971819ee
+  show_ref_link: false
+  title: Towards Automatically-Tuned Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52390
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-making-a-science-of-model-search-hyperparameter-optimization-in-hundreds-of-dimensions-for-vision-architectures
+  numCitedBy: 1286
+  pid: 29935173af73aef20336db72d608e0ef5b0e0c16
+  show_ref_link: true
+  title: Making a Science of Model Search - Hyperparameter Optimization in Hundreds of Dimensions for Vision Architectures
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-neural-fabrics
+  numCitedBy: 193
+  pid: 197c8988ef21d0b58d363c21bafe1900c3089e3e
+  show_ref_link: true
+  title: Convolutional Neural Fabrics
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-neuroevolution-from-architectures-to-learning
+  numCitedBy: 652
+  pid: cf7bdff21a875e5d043514ed0714fafae77e1492
+  show_ref_link: false
+  title: Neuroevolution - from architectures to learning
+  year: 2008
+- fieldsOfStudy:
+  - Biology
+  - Computer Science
+  meta_key: 2009-a-hypercube-based-encoding-for-evolving-large-scale-neural-networks
+  numCitedBy: 702
+  pid: 6e744cf0273a84b087e94191fd654210e8fec8e9
+  show_ref_link: false
+  title: A Hypercube-Based Encoding for Evolving Large-Scale Neural Networks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-minimum-risk-training-for-neural-machine-translation
+  numCitedBy: 381
+  pid: 9f2a8e923965b23c11066a2ead79658208f1fae1
+  show_ref_link: false
+  title: Minimum Risk Training for Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-modeling-systems-with-internal-state-using-evolino
+  numCitedBy: 56
+  pid: a149d240ecde338e91ccb2f001074b792be070b2
+  show_ref_link: false
+  title: Modeling systems with internal state using evolino
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fractalnet-ultra-deep-neural-networks-without-residuals
+  numCitedBy: 639
+  pid: d0156126edbfc524c8d108bdc0cf811cfe3129aa
+  show_ref_link: true
+  title: FractalNet - Ultra-Deep Neural Networks without Residuals
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-simple-statistical-gradient-following-algorithms-for-connectionist-reinforcement-learning
+  numCitedBy: 5268
+  pid: 4c915c1eecb217c123a36dc6d3ce52d12c742614
+  show_ref_link: true
+  title: Simple statistical gradient-following algorithms for connectionist reinforcement learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-what-is-the-best-multi-stage-architecture-for-object-recognition
+  numCitedBy: 2093
+  pid: 1f88427d7aa8225e47f946ac41a0667d7b69ac52
+  show_ref_link: false
+  title: What is the best multi-stage architecture for object recognition?
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-three-new-graphical-models-for-statistical-language-modelling
+  numCitedBy: 609
+  pid: bd7d93193aad6c4b71cc8942e808753019e87706
+  show_ref_link: false
+  title: Three new graphical models for statistical language modelling
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-learning-programs-a-hierarchical-bayesian-approach
+  numCitedBy: 108
+  pid: c26770f29afafe22f2a507506e3f43c413f6a619
+  show_ref_link: false
+  title: Learning Programs - A Hierarchical Bayesian Approach
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-under-review-as-a-conference-paper-at-iclr-2017-delving-into-transferable-adversarial-ex-amples-and-black-box-attacks
+  numCitedBy: 488
+  pid: 94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f
+  show_ref_link: true
+  title: Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-random-search-for-hyper-parameter-optimization
+  numCitedBy: 5726
+  pid: 188e247506ad992b8bc62d6c74789e89891a984f
+  show_ref_link: true
+  title: Random Search for Hyper-Parameter Optimization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-rectified-linear-units-improve-restricted-boltzmann-machines
+  numCitedBy: 12985
+  pid: a538b05ebb01a40323997629e171c91aa28b8e2f
+  show_ref_link: true
+  title: Rectified Linear Units Improve Restricted Boltzmann Machines
+  year: 2010
+- fieldsOfStudy:
+  - Economics
+  meta_key: 2008-learning-to-optimize
+  numCitedBy: 304
+  pid: 64e0278a50d0039406b99e6c3826573f5342cfdb
+  show_ref_link: false
+  title: "Learning to Optimize \u2217"
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-to-learn
+  numCitedBy: 2272
+  pid: 53bb7789be36a58f865f2ec84f6d8f816ddaae6a
+  show_ref_link: false
+  title: Learning to Learn
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-object-recognition-from-local-scale-invariant-features
+  numCitedBy: 16329
+  pid: f9f836d28f52ad260213d32224a6d227f8e8849a
+  show_ref_link: true
+  title: Object recognition from local scale-invariant features
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-histograms-of-oriented-gradients-for-human-detection
+  numCitedBy: 29465
+  pid: cec734d7097ab6b1e60d95228ffd64248eb89d66
+  show_ref_link: true
+  title: Histograms of oriented gradients for human detection
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1978-the-inference-of-regular-lisp-programs-from-examples
+  numCitedBy: 94
+  pid: 5ba6aa7868b36e6ad1e41ee89c5e4b2dd3e2b493
+  show_ref_link: false
+  title: The Inference of Regular LISP Programs from Examples
+  year: 1978
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1977-a-methodology-for-lisp-program-construction-from-examples
+  numCitedBy: 270
+  pid: dd7abc005846b18c9a78ab80467cbbaedb643456
+  show_ref_link: false
+  title: A Methodology for LISP Program Construction from Examples
+  year: 1977
+slug: Neural-Architecture-Search-with-Reinforcement-Zoph-Le
+title: Neural Architecture Search with Reinforcement Learning
+url: https://www.semanticscholar.org/paper/Neural-Architecture-Search-with-Reinforcement-Zoph-Le/67d968c7450878190e45ac7886746de867bf673d?sort=total-citations
+venue: ICLR
+year: 2017

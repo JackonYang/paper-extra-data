@@ -44,7 +44,7 @@ references:
   meta_key: 2015-human-level-control-through-deep-reinforcement-learning
   numCitedBy: 16284
   pid: e0e9a94c4a6ba219e768b4e59f72c18f0a22e23d
-  show_ref_link: false
+  show_ref_link: true
   title: Human-level control through deep reinforcement learning
   year: 2015
 - fieldsOfStudy:
@@ -52,7 +52,7 @@ references:
   meta_key: 2015-pointer-networks
   numCitedBy: 1722
   pid: 9653d5c2c7844347343d073bbedd96e05d52f69b
-  show_ref_link: false
+  show_ref_link: true
   title: Pointer Networks
   year: 2015
 - fieldsOfStudy:

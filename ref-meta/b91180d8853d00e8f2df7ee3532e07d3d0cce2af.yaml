@@ -202,7 +202,7 @@ references:
   meta_key: 2004-on-the-optimality-of-the-simple-bayesian-classifier-under-zero-one-loss
   numCitedBy: 3128
   pid: 700666f0c59a4fedc8b08294424c47cb99a8e2ff
-  show_ref_link: false
+  show_ref_link: true
   title: On the Optimality of the Simple Bayesian Classifier under Zero-One Loss
   year: 2004
 - fieldsOfStudy:

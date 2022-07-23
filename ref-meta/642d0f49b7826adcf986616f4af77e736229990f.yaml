@@ -1,0 +1,268 @@
+authors:
+- Song Han
+- Huizi Mao
+- W. Dally
+badges:
+- id: OPEN_ACCESS
+corpusId: 2134321
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-deep-compression-compressing-deep-neural-network-with-pruning-trained-quantization-and-huffman-coding
+numCitedBy: 5732
+numCiting: 41
+paperAbstract: 'Neural networks are both computationally intensive and memory intensive, making them difficult to deploy on embedded systems with limited hardware resources. To address this limitation, we introduce "deep compression", a three stage pipeline: pruning, trained quantization and Huffman coding, that work together to reduce the storage requirement of neural networks by 35x to 49x without affecting their accuracy. Our method first prunes the network by learning only the important connections. Next, we quantize the weights to enforce weight sharing, finally, we apply Huffman coding. After the first two steps we retrain the network to fine tune the remaining connections and the quantized centroids. Pruning, reduces the number of connections by 9x to 13x; Quantization then reduces the number of bits that represent each connection from 32 to 5. On the ImageNet dataset, our method reduced the storage required by AlexNet by 35x, from 240MB to 6.9MB, without loss of accuracy. Our method reduced the size of VGG-16 by 49x from 552MB to 11.3MB, again with no loss of accuracy. This allows fitting the model into on-chip SRAM cache rather than off-chip DRAM memory. Our compression method also facilitates the use of complex neural networks in mobile applications where application size and download bandwidth are constrained. Benchmarked on CPU, GPU and mobile GPU, compressed network has 3x to 4x layerwise speedup and 3x to 7x better energy efficiency.'
+ref_count: 41
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-compressing-deep-convolutional-networks-using-vector-quantization
+  numCitedBy: 878
+  pid: e7bf9803705f2eb608db1e59e5c7636a3f171916
+  show_ref_link: false
+  title: Compressing Deep Convolutional Networks using Vector Quantization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-eie-efficient-inference-engine-on-compressed-deep-neural-network
+  numCitedBy: 1816
+  pid: 2e2b189f668cf2c06ebc44dc9b166648256cf457
+  show_ref_link: true
+  title: EIE - Efficient Inference Engine on Compressed Deep Neural Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-squeezenet-alexnet-level-accuracy-with-50x-fewer-parameters-and-1mb-model-size
+  numCitedBy: 4092
+  pid: 969fbdcd0717bec06228053788c2ff78bbb4daac
+  show_ref_link: true
+  title: SqueezeNet - AlexNet-level accuracy with 50x fewer parameters and <1MB model size
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-fixed-point-optimization-of-deep-convolutional-neural-networks-for-object-recognition
+  numCitedBy: 181
+  pid: a6373454105df0c5511ca5f6cae4d20c48214272
+  show_ref_link: false
+  title: Fixed point optimization of deep convolutional neural networks for object recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-memory-bounded-deep-convolutional-networks
+  numCitedBy: 143
+  pid: 2a4117849c88d4728c33b1becaa9fb6ed7030725
+  show_ref_link: false
+  title: Memory Bounded Deep Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-compressing-neural-networks-with-the-hashing-trick
+  numCitedBy: 948
+  pid: efb5032e6199c80f83309fd866b25be9545831fd
+  show_ref_link: false
+  title: Compressing Neural Networks with the Hashing Trick
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-improving-the-speed-of-neural-networks-on-cpus
+  numCitedBy: 692
+  pid: fbeaa499e10e98515f7e1c4ad89165e8c0677427
+  show_ref_link: false
+  title: Improving the speed of neural networks on CPUs
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-fried-convnets
+  numCitedBy: 232
+  pid: 27a99c21a1324f087b2f144adc119f04137dfd87
+  show_ref_link: false
+  title: Deep Fried Convnets
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-network-in-network
+  numCitedBy: 4255
+  pid: 5e83ab70d0cbc003471e87ec306d27d9c80ecb16
+  show_ref_link: true
+  title: Network In Network
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-caffe-convolutional-architecture-for-fast-feature-embedding
+  numCitedBy: 13814
+  pid: 6bdb186ec4726e00a8051119636d4df3b94043b5
+  show_ref_link: true
+  title: Caffe - Convolutional Architecture for Fast Feature Embedding
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-very-deep-convolutional-networks-for-large-scale-image-recognition
+  numCitedBy: 63195
+  pid: eb42cf88027de515750f230b23b1a057dc782108
+  show_ref_link: true
+  title: Very Deep Convolutional Networks for Large-Scale Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-fixed-point-feedforward-deep-neural-network-design-using-weights-1-0-and-1
+  numCitedBy: 221
+  pid: a4db2d26b5d169de6b64de361dc7d4fd5b1f61a3
+  show_ref_link: false
+  title: "Fixed-point feedforward deep neural network design using weights +1, 0, and \u22121"
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-exploiting-linear-structure-within-convolutional-networks-for-efficient-evaluation
+  numCitedBy: 1281
+  pid: e5ae8ab688051931b4814f6d32b18391f8d1fa8d
+  show_ref_link: true
+  title: Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-provable-bounds-for-learning-some-deep-representations
+  numCitedBy: 289
+  pid: 1d6e6adc7a841393fc10b78dc0018e550aff589d
+  show_ref_link: false
+  title: Provable Bounds for Learning Some Deep Representations
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-hardware-friendly-convolutional-neural-network-with-even-number-filter-size
+  numCitedBy: 6
+  pid: 10b992e86ee96cd4c5d73f3d667059beb4749ce3
+  show_ref_link: false
+  title: HARDWARE-FRIENDLY CONVOLUTIONAL NEURAL NETWORK WITH EVEN-NUMBER FILTER SIZE
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-second-order-derivatives-for-network-pruning-optimal-brain-surgeon
+  numCitedBy: 1594
+  pid: a42954d4b9d0ccdf1036e0af46d87a01b94c3516
+  show_ref_link: false
+  title: Second Order Derivatives for Network Pruning - Optimal Brain Surgeon
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-predicting-parameters-in-deep-learning
+  numCitedBy: 1009
+  pid: e8650503ab80ad7299f0845b1843abf3a97f313a
+  show_ref_link: true
+  title: Predicting Parameters in Deep Learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-phoneme-probability-estimation-with-dynamic-sparsely-connected-artificial-neural-networks
+  numCitedBy: 60
+  pid: a9392b9299972452ea6fbc3c605f76bb1e21ae42
+  show_ref_link: false
+  title: Phoneme probability estimation with dynamic sparsely connected artificial neural networks
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2015-fast-r-cnn
+  numCitedBy: 14349
+  pid: 7ffdbc358b63378f07311e883dddacc9faeeaf4b
+  show_ref_link: true
+  title: Fast R-CNN
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-cross-domain-synthesis-of-medical-images-using-efficient-location-sensitive-deep-network
+  numCitedBy: 107
+  pid: 524cef2efdbed2af694ffb0c8f83e6890e178f16
+  show_ref_link: false
+  title: Cross-Domain Synthesis of Medical Images Using Efficient Location-Sensitive Deep Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1988-comparing-biases-for-minimal-network-construction-with-back-propagation
+  numCitedBy: 518
+  pid: f4ea5a6ff3ffcd11ec2e6ed7828a7d41279fb3ad
+  show_ref_link: false
+  title: Comparing Biases for Minimal Network Construction with Back-Propagation
+  year: 1988
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-under-review-as-a-conference-paper-at-iclr-2017-delving-into-transferable-adversarial-ex-amples-and-black-box-attacks
+  numCitedBy: 488
+  pid: 94e3e7bc3d23276f0ee2d1cb8f9d14aa19668d5f
+  show_ref_link: true
+  title: Under Review as a Conference Paper at Iclr 2017 Delving into Transferable Adversarial Ex- Amples and Black-box Attacks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-optimal-brain-damage
+  numCitedBy: 3518
+  pid: e7297db245c3feb1897720b173a59fe7e36babb7
+  show_ref_link: false
+  title: Optimal Brain Damage
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-published-as-a-conference-paper-at-iclr-2018-s-imulating-a-ction-d-ynamics-with-n-eural-p-rocess-n-etworks
+  numCitedBy: 156
+  pid: bcd857d75841aa3e92cd4284a8818aba9f6c0c3f
+  show_ref_link: true
+  title: Published as a conference paper at ICLR 2018 S IMULATING A CTION D YNAMICS WITH N EURAL P ROCESS N ETWORKS
+  year: 2018
+- fieldsOfStudy: []
+  meta_key: 1953-pruning
+  numCitedBy: 67
+  pid: f74672ff2cafd0e16469c9192b3261af129ffe46
+  show_ref_link: false
+  title: Pruning
+  year: 1953
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1976-on-the-construction-of-huffman-trees
+  numCitedBy: 133
+  pid: 237292e08fe45320e954377ebe2b7e08d08f1979
+  show_ref_link: false
+  title: On the Construction of Huffman Trees
+  year: 1976
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-gpu-based-deep-learning-inference-a-performance-and-power-analysis
+  numCitedBy: 59
+  pid: eabf117aae614d6b65cc33a3a4bbb22b9a5014d9
+  show_ref_link: false
+  title: GPU-Based Deep Learning Inference - A Performance and Power Analysis
+  year: 2015
+slug: Deep-Compression:-Compressing-Deep-Neural-Network-Han-Mao
+title: Deep Compression - Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding
+url: https://www.semanticscholar.org/paper/Deep-Compression:-Compressing-Deep-Neural-Network-Han-Mao/642d0f49b7826adcf986616f4af77e736229990f?sort=total-citations
+venue: ICLR
+year: 2016

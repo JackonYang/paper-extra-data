@@ -1,0 +1,388 @@
+authors:
+- Azalia Mirhoseini
+- Hieu Pham
+- Quoc V. Le
+- Benoit Steiner
+- Rasmus Larsen
+- Yuefeng Zhou
+- Naveen Kumar
+- Mohammad Norouzi
+- Samy Bengio
+- J. Dean
+badges:
+- id: OPEN_ACCESS
+corpusId: 3635282
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-device-placement-optimization-with-reinforcement-learning
+numCitedBy: 312
+numCiting: 53
+paperAbstract: The past few years have witnessed a growth in size and computational requirements for training and inference with neural networks. Currently, a common approach to address these requirements is to use a heterogeneous distributed environment with a mixture of hardware devices such as CPUs and GPUs. Importantly, the decision of placing parts of the neural models on devices is often made by human experts based on simple heuristics and intuitions. In this paper, we propose a method which learns to optimize device placement for TensorFlow computational graphs. Key to our method is the use of a sequence-to-sequence model to predict which subsets of operations in a TensorFlow graph should run on which of the available devices. The execution time of the predicted placements is then used as the reward signal to optimize the parameters of the sequence-to-sequence model. Our main result is that on Inception-V3 for ImageNet classification, and on RNN LSTM, for language modeling and neural machine translation, our model finds non-trivial device placements that outperform hand-crafted heuristics and traditional algorithmic methods.
+ref_count: 53
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-a-system-for-large-scale-machine-learning
+  numCitedBy: 12805
+  pid: 46200b99c40e8586c8a0f588488ab6414119fb28
+  show_ref_link: true
+  title: TensorFlow - A system for large-scale machine learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequence-to-sequence-learning-with-neural-networks
+  numCitedBy: 15043
+  pid: cea967b59209c6be22829699f05b8b1ac4dc092d
+  show_ref_link: true
+  title: Sequence to Sequence Learning with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 91740
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-pointer-networks
+  numCitedBy: 1731
+  pid: 9653d5c2c7844347343d073bbedd96e05d52f69b
+  show_ref_link: true
+  title: Pointer Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-rethinking-the-inception-architecture-for-computer-vision
+  numCitedBy: 15857
+  pid: 23ffaa0fe06eae05817f527a47ac3291077f9e58
+  show_ref_link: true
+  title: Rethinking the Inception Architecture for Computer Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9255
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19562
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-google-s-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation
+  numCitedBy: 4712
+  pid: dbde7dfa6cae81df8ac19ef500c42db96c3d1edd
+  show_ref_link: true
+  title: Google's Neural Machine Translation System - Bridging the Gap between Human and Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-exploring-the-limits-of-language-modeling
+  numCitedBy: 958
+  pid: 2f2d8f8072e5cc9b296fad551f65f183bdbff7aa
+  show_ref_link: true
+  title: Exploring the Limits of Language Modeling
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deep-speech-scaling-up-end-to-end-speech-recognition
+  numCitedBy: 1541
+  pid: 24741d280869ad9c60321f5ab6e5f01b7852507d
+  show_ref_link: false
+  title: Deep Speech - Scaling up end-to-end speech recognition
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-combinatorial-optimization-with-reinforcement-learning
+  numCitedBy: 702
+  pid: d7878c2044fb699e0ce0cad83e411824b1499dc8
+  show_ref_link: false
+  title: Neural Combinatorial Optimization with Reinforcement Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-on-the-difficulty-of-training-recurrent-neural-networks
+  numCitedBy: 3849
+  pid: 84069287da0a6b488b8c933f3cb5be759cb6237e
+  show_ref_link: true
+  title: On the difficulty of training recurrent neural networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-resource-elasticity-for-large-scale-machine-learning
+  numCitedBy: 46
+  pid: f2ddfa8141e10b4913bb274d11b22bb4f5ff918e
+  show_ref_link: false
+  title: Resource Elasticity for Large-Scale Machine Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  - Business
+  meta_key: 2016-resource-management-with-deep-reinforcement-learning
+  numCitedBy: 672
+  pid: 1ab7aa767e1779c87d822325859e47fe2986e6b2
+  show_ref_link: false
+  title: Resource Management with Deep Reinforcement Learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-feature-selection-and-policy-optimization-for-distributed-instruction-placement-using-reinforcement-learning
+  numCitedBy: 29
+  pid: 7f61bd77a53544472d46cf03c84a4480ad2176dc
+  show_ref_link: false
+  title: Feature selection and policy optimization for distributed instruction placement using reinforcement learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 52390
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wavenet-a-generative-model-for-raw-audio
+  numCitedBy: 4703
+  pid: df0402517a7338ae28bc54acaac400de6b456a46
+  show_ref_link: true
+  title: WaveNet - A Generative Model for Raw Audio
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 15252
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-simple-statistical-gradient-following-algorithms-for-connectionist-reinforcement-learning
+  numCitedBy: 5268
+  pid: 4c915c1eecb217c123a36dc6d3ce52d12c742614
+  show_ref_link: true
+  title: Simple statistical gradient-following algorithms for connectionist reinforcement learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-achieving-budget-optimality-with-adaptive-schemes-in-crowdsourcing
+  numCitedBy: 65
+  pid: 6b34498066fb9c6d8cbe1d1bc8b70e933823c0fe
+  show_ref_link: false
+  title: Achieving budget-optimality with adaptive schemes in crowdsourcing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-listen-attend-and-spell
+  numCitedBy: 373
+  pid: dc555e8156c956f823587ebbff018863e6d2a95e
+  show_ref_link: false
+  title: Listen, Attend and Spell
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-optimization-by-simulated-annealing-an-experimental-evaluation-part-i-graph-partitioning
+  numCitedBy: 1554
+  pid: 07bd5a65c5ae12e8f31dd439553f7b7289c47108
+  show_ref_link: false
+  title: Optimization by Simulated Annealing - An Experimental Evaluation; Part I, Graph Partitioning
+  year: 1989
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-a-hopfield-neural-network-based-task-mapping-method
+  numCitedBy: 10
+  pid: ca42eb142ade3763086145fabbfa1d1c36d7300a
+  show_ref_link: false
+  title: A Hopfield neural network based task mapping method
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-voice-real-time-neural-text-to-speech
+  numCitedBy: 436
+  pid: 63880b57b95de8afd73036e55b9c4bccb7a528b9
+  show_ref_link: false
+  title: Deep Voice - Real-time Neural Text-to-Speech
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-towards-end-to-end-speech-recognition-with-recurrent-neural-networks
+  numCitedBy: 1769
+  pid: 0fa553cfa0cf3cbdf7a913aa2ae789a757dfb32f
+  show_ref_link: true
+  title: Towards End-To-End Speech Recognition with Recurrent Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-deep-neural-networks-for-acoustic-modeling-in-speech-recognition-the-shared-views-of-four-research-groups
+  numCitedBy: 7484
+  pid: 31868290adf1c000c611dfc966b514d5a34e8d23
+  show_ref_link: true
+  title: Deep Neural Networks for Acoustic Modeling in Speech Recognition - The Shared Views of Four Research Groups
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-recurrent-neural-network-regularization
+  numCitedBy: 1997
+  pid: f264e8b33c0d49a692a6ce2c4bcb28588aeb7d97
+  show_ref_link: true
+  title: Recurrent Neural Network Regularization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-workload-prediction-for-cloud-cluster-using-a-recurrent-neural-network
+  numCitedBy: 17
+  pid: f660e580b758969ab1e46a0e2220b13c4eddf92d
+  show_ref_link: false
+  title: Workload Prediction for Cloud Cluster Using a Recurrent Neural Network
+  year: 2016
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2017-dermatologist-level-classification-of-skin-cancer-with-deep-neural-networks
+  numCitedBy: 6699
+  pid: e1ec11a1cb3d9745fb18d3bf74247f95a6663d08
+  show_ref_link: false
+  title: Dermatologist-level classification of skin cancer with deep neural networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-tacotron-a-fully-end-to-end-text-to-speech-synthesis-model
+  numCitedBy: 182
+  pid: 4185286ec9d65086803c3ddf1cae1b27a9d6b5bb
+  show_ref_link: false
+  title: Tacotron - A Fully End-to-End Text-To-Speech Synthesis Model
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-distillating-knowledge-about-scotch
+  numCitedBy: 31
+  pid: bba5de10d0efa95f9ae5b0871c354b6bc6c08c18
+  show_ref_link: false
+  title: Distillating knowledge about SCOTCH
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-a-fast-and-high-quality-multilevel-scheme-for-partitioning-irregular-graphs
+  numCitedBy: 5331
+  pid: df86d2a8c217776786bac9019d8b20029e4c0dd5
+  show_ref_link: false
+  title: A Fast and High Quality Multilevel Scheme for Partitioning Irregular Graphs
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-experimental-analysis-of-the-dual-recursive-bipartitioning-algorithm-for-static-mapping
+  numCitedBy: 31
+  pid: 94b913363b57e019b8a32529b076a8d4181587ac
+  show_ref_link: false
+  title: Experimental Analysis of the Dual Recursive Bipartitioning Algorithm for Static Mapping
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-improvement-of-the-efficiency-of-genetic-algorithms-for-scalable-parallel-graph-partitioning-in-a-multi-level-framework
+  numCitedBy: 41
+  pid: d1940f916d01d0a5fb830bb0d0584fd278570a5b
+  show_ref_link: false
+  title: Improvement of the Efficiency of Genetic Algorithms for Scalable Parallel Graph Partitioning in a Multi-level Framework
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1982-a-linear-time-heuristic-for-improving-network-partitions
+  numCitedBy: 1903
+  pid: 7802aead534f1c15673675f77b5557236d458d04
+  show_ref_link: false
+  title: A Linear-Time Heuristic for Improving Network Partitions
+  year: 1982
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-a-multilevel-algorithm-for-partitioning-graphs
+  numCitedBy: 1062
+  pid: 54164689216eadd40e88141d514fe0e35055917a
+  show_ref_link: false
+  title: A multilevel algorithm for partitioning graphs
+  year: 1995
+- fieldsOfStudy:
+  - Physics
+  meta_key: 1983-optimization-by-simulated-annealing
+  numCitedBy: 39780
+  pid: dd5061631a4d11fa394f4421700ebf7e78dcbc59
+  show_ref_link: true
+  title: Optimization by Simulated Annealing
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-new-spectral-methods-for-ratio-cut-partitioning-and-clustering
+  numCitedBy: 1158
+  pid: 36278bf6919c6dced7d16dc0c02d725e1ed178f8
+  show_ref_link: false
+  title: New spectral methods for ratio cut partitioning and clustering
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-fast-multilevel-implementation-of-recursive-spectral-bisection-for-partitioning-unstructured-problems
+  numCitedBy: 648
+  pid: 0f26c97706be3f55808bb83b3e156a48e63ab71f
+  show_ref_link: false
+  title: Fast multilevel implementation of recursive spectral bisection for partitioning unstructured problems
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-a-parallelisable-multi-level-banded-diffusion-scheme-for-computing-balanced-partitions-with-smooth-boundaries
+  numCitedBy: 54
+  pid: 2c6a7258ef6649933cc2ddf6c23bd1bf86b3da25
+  show_ref_link: false
+  title: A Parallelisable Multi-level Banded Diffusion Scheme for Computing Balanced Partitions with Smooth Boundaries
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1970-an-efficient-heuristic-procedure-for-partitioning-graphs
+  numCitedBy: 4021
+  pid: 69f66a31dcc3d1b394ceea26d8820f8e13be88b5
+  show_ref_link: false
+  title: An efficient heuristic procedure for partitioning graphs
+  year: 1970
+slug: Device-Placement-Optimization-with-Reinforcement-Mirhoseini-Pham
+title: Device Placement Optimization with Reinforcement Learning
+url: https://www.semanticscholar.org/paper/Device-Placement-Optimization-with-Reinforcement-Mirhoseini-Pham/bfbd10ebffc9494423770a5bd30ebd0f9cbce66d?sort=total-citations
+venue: ICML
+year: 2017

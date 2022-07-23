@@ -1,0 +1,536 @@
+authors:
+- N. Jouppi
+- C. Young
+- Nishant Patil
+- David A. Patterson
+- Gaurav Agrawal
+- R. Bajwa
+- Sarah Bates
+- Suresh Bhatia
+- N. Boden
+- Al Borchers
+- Rick Boyle
+- Pierre-luc Cantin
+- Clifford Chao
+- Chris Clark
+- Jeremy Coriell
+- Mike Daley
+- Matt Dau
+- J. Dean
+- Ben Gelb
+- T. Ghaemmaghami
+- R. Gottipati
+- William Gulland
+- R. Hagmann
+- C. R. Ho
+- Doug Hogberg
+- John Hu
+- R. Hundt
+- D. Hurt
+- Julian Ibarz
+- A. Jaffey
+- Alek Jaworski
+- Alexander Kaplan
+- Harshit Khaitan
+- Daniel Killebrew
+- A. Koch
+- Naveen Kumar
+- Steve Lacy
+- J. Laudon
+- James Law
+- Diemthu Le
+- Chris Leary
+- Zhuyuan Liu
+- Kyle A. Lucke
+- Alan Lundin
+- G. MacKean
+- A. Maggiore
+- Maire Mahony
+- K. Miller
+- R. Nagarajan
+- Ravi Narayanaswami
+- Ray Ni
+- K. Nix
+- Thomas Norrie
+- Mark Omernick
+- Narayana Penukonda
+- Andy Phelps
+- Jonathan Ross
+- Matt Ross
+- Amir Salek
+- E. Samadiani
+- C. Severn
+- G. Sizikov
+- Matthew Snelham
+- Jed Souter
+- D. Steinberg
+- Andy Swing
+- Mercedes Tan
+- G. Thorson
+- Bo Tian
+- H. Toma
+- Erick Tuttle
+- Vijay Vasudevan
+- Richard Walter
+- Walter Wang
+- Eric Wilcox
+- D. Yoon
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 4202768
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-in-datacenter-performance-analysis-of-a-tensor-processing-unit
+numCitedBy: 2951
+numCiting: 119
+paperAbstract: "Many architects believe that major improvements in cost-energy-performance must now come from domain-specific hardware. This paper evaluates a custom ASIC-called a Tensor Processing Unit (TPU)-deployed in datacenters since 2015 that accelerates the inference phase of neural networks (NN). The heart of the TPU is a 65,536 8-bit MAC matrix multiply unit that offers a peak throughput of 92 TeraOps/second (TOPS) and a large (28 MiB) software-managed on-chip memory. The TPU's deterministic execution model is a better match to the 99th-percentile response-time requirement of our NN applications than are the time-varying optimizations of CPUs and GPUs that help average throughput more than guaranteed latency. The lack of such features helps explain why, despite having myriad MACs and a big memory, the TPU is relatively small and low power. We compare the TPU to a server-class Intel Haswell CPU and an Nvidia K80 GPU, which are contemporaries deployed in the same datacenters. Our workload, written in the high-level TensorFlow framework, uses production NN applications (MLPs, CNNs, and LSTMs) that represent 95% of our datacenters' NN inference demand. Despite low utilization for some applications, the TPU is on average about 15X\u201330X faster than its contemporary GPU or CPU, with TOPS/Watt about 30X\u201380X higher. Moreover, using the GPU's GDDR5 memory in the TPU would triple achieved TOPS and raise TOPS/Watt to nearly 70X the GPU and 200X the CPU."
+ref_count: 119
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: -1-in-datacenter-performance-analysis-of-a-tensor-processing-unittm
+  numCitedBy: 97
+  pid: 84906524c68c146decfee9739ba61c323b1eac22
+  show_ref_link: false
+  title: In-Datacenter Performance Analysis of a Tensor Processing UnitTM
+  year: -1
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dadiannao-a-machine-learning-supercomputer
+  numCitedBy: 1065
+  pid: 4157ed3db4c656854e69931cb6089b64b08784b9
+  show_ref_link: true
+  title: DaDianNao - A Machine-Learning Supercomputer
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-eie-efficient-inference-engine-on-compressed-deep-neural-network
+  numCitedBy: 1816
+  pid: 2e2b189f668cf2c06ebc44dc9b166648256cf457
+  show_ref_link: true
+  title: EIE - Efficient Inference Engine on Compressed Deep Neural Network
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fathom-reference-workloads-for-modern-deep-learning-methods
+  numCitedBy: 145
+  pid: a4fb215dc03f5a2ff0e394ce9b68e493bd811f0d
+  show_ref_link: false
+  title: Fathom - reference workloads for modern deep learning methods
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-minerva-enabling-low-power-highly-accurate-deep-neural-network-accelerators
+  numCitedBy: 312
+  pid: 91d03e4bf98a03c827983457e6de43cbd4c6ccd7
+  show_ref_link: false
+  title: Minerva - Enabling Low-Power, Highly-Accurate Deep Neural Network Accelerators
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-diannao-a-small-footprint-high-throughput-accelerator-for-ubiquitous-machine-learning
+  numCitedBy: 1235
+  pid: 22e477a9fdde86ab1f8f4dafdb4d88ea37e31fbd
+  show_ref_link: true
+  title: DianNao - a small-footprint high-throughput accelerator for ubiquitous machine-learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-memory-centric-accelerator-design-for-convolutional-neural-networks
+  numCitedBy: 255
+  pid: 0b71de48a1c7a5d7a7850bbe33a2bb055ea594ef
+  show_ref_link: false
+  title: Memory-centric accelerator design for Convolutional Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-accelerating-deep-convolutional-neural-networks-using-specialized-hardware
+  numCitedBy: 303
+  pid: 209932cd2e3f5da071c4f6341a3b8b29cf50cc4a
+  show_ref_link: false
+  title: Accelerating Deep Convolutional Neural Networks Using Specialized Hardware
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-cnvlutin-ineffectual-neuron-free-deep-neural-network-computing
+  numCitedBy: 444
+  pid: 49b4094f2c313a92da4461572c0bef80b0d7d649
+  show_ref_link: false
+  title: Cnvlutin - Ineffectual-Neuron-Free Deep Neural Network Computing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-origami-a-convolutional-network-accelerator
+  numCitedBy: 138
+  pid: dd9caf7e34acd8ad47fd35fd9d81bd22db202a81
+  show_ref_link: false
+  title: Origami - A Convolutional Network Accelerator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-pudiannao-a-polyvalent-machine-learning-accelerator
+  numCitedBy: 266
+  pid: 68837728232463651283edbb7ef0c93b2f502b2b
+  show_ref_link: false
+  title: PuDianNao - A Polyvalent Machine Learning Accelerator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-convolution-engine-balancing-efficiency-flexibility-in-specialized-computing
+  numCitedBy: 165
+  pid: d50d7cd78126cd4df5dda62f1a75c89d095bc8a5
+  show_ref_link: false
+  title: Convolution engine - balancing efficiency & flexibility in specialized computing
+  year: 2013
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 2016-prime-a-novel-processing-in-memory-architecture-for-neural-network-computation-in-reram-based-main-memory
+  numCitedBy: 791
+  pid: 37696b2937c9b8d1528922f67bb4a4369a338d83
+  show_ref_link: false
+  title: PRIME - A Novel Processing-in-Memory Architecture for Neural Network Computation in ReRAM-Based Main Memory
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-technical-perspective-if-i-could-only-design-one-circuit
+  numCitedBy: 4
+  pid: fb346259efc2d8e9db4af98c084a058df9a784c4
+  show_ref_link: false
+  title: "Technical Perspective - If I could only design one circuit \u2026"
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-isaac-a-convolutional-neural-network-accelerator-with-in-situ-analog-arithmetic-in-crossbars
+  numCitedBy: 1010
+  pid: 9071775ebcfebddd54d879fe7e6c627673e4d305
+  show_ref_link: false
+  title: ISAAC - A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic in Crossbars
+  year: 2016
+- fieldsOfStudy:
+  - Art
+  meta_key: 2016-if-i-could-only-design-one-circuit-technical-perspective
+  numCitedBy: 4
+  pid: 46c87298d44d35770c6bd5cf7e741e9ff1446ae5
+  show_ref_link: false
+  title: If I could only design one circuit ... - technical perspective
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-cambricon-an-instruction-set-architecture-for-neural-networks
+  numCitedBy: 197
+  pid: da6e8bcf1c92167553a5b383fe6fe5109a4c0321
+  show_ref_link: false
+  title: Cambricon - An Instruction Set Architecture for Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-eyeriss-a-spatial-architecture-for-energy-efficient-dataflow-for-convolutional-neural-networks
+  numCitedBy: 838
+  pid: 5ec594e9f5ca4b629be28625cd78c882514ea3be
+  show_ref_link: false
+  title: Eyeriss - A Spatial Architecture for Energy-Efficient Dataflow for Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-shidiannao-shifting-vision-processing-closer-to-the-sensor
+  numCitedBy: 743
+  pid: bd6507b5c9deaf87bda81e59ce15b2309df0bf37
+  show_ref_link: false
+  title: ShiDianNao - Shifting vision processing closer to the sensor
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-cloud-scale-acceleration-architecture
+  numCitedBy: 418
+  pid: 8d67bac352dcd43c9c08f917ba8c4bebb444b55d
+  show_ref_link: false
+  title: A cloud-scale acceleration architecture
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-large-scale-machine-learning-on-heterogeneous-distributed-systems
+  numCitedBy: 9255
+  pid: 9c9d7247f8c51ec5a02b0d911d1d7b9e8160495d
+  show_ref_link: true
+  title: TensorFlow - Large-Scale Machine Learning on Heterogeneous Distributed Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-optimizing-fpga-based-accelerator-design-for-deep-convolutional-neural-networks
+  numCitedBy: 1482
+  pid: 7c91eb0f9bbae8e2d3d007db73b8422b61ed1d68
+  show_ref_link: false
+  title: Optimizing FPGA-based Accelerator Design for Deep Convolutional Neural Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1982-why-systolic-architectures
+  numCitedBy: 2228
+  pid: 256bbe8e9fa3f5b72c24f1037ab734f9e7dd01c4
+  show_ref_link: false
+  title: Why systolic architectures?
+  year: 1982
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-cnp-an-fpga-based-processor-for-convolutional-networks
+  numCitedBy: 328
+  pid: 07956c7cf9bf4267b86d52aa4143c17a4aa5d0d6
+  show_ref_link: false
+  title: CNP - An FPGA-based processor for Convolutional Networks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-reconfigurable-fabric-for-accelerating-large-scale-datacenter-services
+  numCitedBy: 966
+  pid: e25c39846d814f0eda33871c4b11c37855b9a70e
+  show_ref_link: false
+  title: A Reconfigurable Fabric for Accelerating Large-Scale Datacenter Services
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-neuflow-a-runtime-reconfigurable-dataflow-processor-for-vision
+  numCitedBy: 349
+  pid: 204710a6a6d935150b5b16daf74493dea6d1b7a2
+  show_ref_link: false
+  title: NeuFlow - A runtime reconfigurable dataflow processor for vision
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-dynamically-configurable-coprocessor-for-convolutional-neural-networks
+  numCitedBy: 350
+  pid: e1c4e2fa071046569a05e9cfdf13496d094025dd
+  show_ref_link: false
+  title: A dynamically configurable coprocessor for convolutional neural networks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-learning-with-limited-numerical-precision
+  numCitedBy: 1510
+  pid: b7cf49e30355633af2db19f35189410c8515e91f
+  show_ref_link: true
+  title: Deep Learning with Limited Numerical Precision
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-neurocube-a-programmable-digital-neuromorphic-architecture-with-high-density-3d-memory
+  numCitedBy: 303
+  pid: e5391bdb0edd31b8cb2b59825b7fa8b275278db5
+  show_ref_link: false
+  title: Neurocube - A Programmable Digital Neuromorphic Architecture with High-Density 3D Memory
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1991-design-of-a-1st-generation-neurocomputer
+  numCitedBy: 61
+  pid: bd40111be9f842f6dc7946a717e03361b0b243c4
+  show_ref_link: false
+  title: Design of a 1st Generation Neurocomputer
+  year: 1991
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-going-deeper-with-convolutions
+  numCitedBy: 29917
+  pid: e15cf50aa89fee8535703b9f9512fca5bfc43327
+  show_ref_link: true
+  title: Going deeper with convolutions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-a-vlsi-architecture-for-high-performance-low-cost-on-chip-learning
+  numCitedBy: 271
+  pid: c4c310f427e47dc5b70aaad2d8200c8a034d4468
+  show_ref_link: false
+  title: A VLSI architecture for high-performance, low-cost, on-chip learning
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-special-purpose-digital-hardware-for-neural-networks-an-architectural-survey
+  numCitedBy: 51
+  pid: 668b882cf6026f6986b31dd6e99321aa03586cb0
+  show_ref_link: false
+  title: Special-purpose digital hardware for neural networks - An architectural survey
+  year: 1996
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-large-scale-deep-learning-for-building-intelligent-computer-systems
+  numCitedBy: 19
+  pid: 1858e63794efdac126a60b840cce83e08451fdeb
+  show_ref_link: false
+  title: Large-Scale Deep Learning For Building Intelligent Computer Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1980-the-case-for-the-reduced-instruction-set-computer
+  numCitedBy: 224
+  pid: 4d3a941a5749dbf0dd39554f12597c449c3c07ff
+  show_ref_link: false
+  title: The case for the reduced instruction set computer
+  year: 1980
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-google-s-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation
+  numCitedBy: 4712
+  pid: dbde7dfa6cae81df8ac19ef500c42db96c3d1edd
+  show_ref_link: true
+  title: Google's Neural Machine Translation System - Bridging the Gap between Human and Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-redeye-analog-convnet-image-sensor-architecture-for-continuous-mobile-vision
+  numCitedBy: 121
+  pid: 58e4491dc48d46f4f47362686e09e6319c01edc0
+  show_ref_link: false
+  title: RedEye - Analog ConvNet Image Sensor Architecture for Continuous Mobile Vision
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1984-decoupled-access-execute-computer-architectures
+  numCitedBy: 274
+  pid: 27c204d3de3e9289bdf9d67d8e646e6527b18b1a
+  show_ref_link: false
+  title: Decoupled access/execute computer architectures
+  year: 1984
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-neural-network-processor
+  numCitedBy: 6
+  pid: 04641fca9a8f72aef0f77b0f99d38040d51bdd26
+  show_ref_link: false
+  title: Neural network processor
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-toward-accelerating-deep-learning-at-scale-using-specialized-hardware-in-the-datacenter
+  numCitedBy: 44
+  pid: 9e153f03de37c920327cf2feaf4cf2a5c03e0bc0
+  show_ref_link: false
+  title: Toward accelerating deep learning at scale using specialized hardware in the datacenter
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1969-computer-architecture-a-quantitative-approach
+  numCitedBy: 11540
+  pid: 890469e625fe728adfa690a3945ebca4c11a8998
+  show_ref_link: false
+  title: Computer Architecture - A Quantitative Approach
+  year: 1969
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-latency-lags-bandwith
+  numCitedBy: 252
+  pid: 843a1567b056c8a1d0deddc8b699e1725194f85c
+  show_ref_link: false
+  title: Latency lags bandwith
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
+  numCitedBy: 11516
+  pid: 846aedd869a00c09b40f1f1f35673cb22bc87490
+  show_ref_link: true
+  title: Mastering the game of Go with deep neural networks and tree search
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-imagenet-large-scale-visual-recognition-challenge
+  numCitedBy: 25826
+  pid: e74f9b7f8eec6ba4704c206b93bc8079af3da4bd
+  show_ref_link: true
+  title: ImageNet Large Scale Visual Recognition Challenge
+  year: 2015
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 2007-the-case-for-energy-proportional-computing
+  numCitedBy: 2447
+  pid: ad61a05a10319f4a95733b833fc4be1115670d95
+  show_ref_link: false
+  title: The Case for Energy-Proportional Computing
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-vector-computation-unit-in-a-neural-network-processor
+  numCitedBy: 3
+  pid: 3337b44df2ef8ad604308f7959cf2b48a3eb6fc2
+  show_ref_link: false
+  title: Vector computation unit in a neural network processor
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-the-tail-at-scale
+  numCitedBy: 1327
+  pid: a5162479ce884feb4fffbf9df6739996bb854411
+  show_ref_link: false
+  title: The tail at scale
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-roofline-an-insightful-visual-performance-model-for-multicore-architectures
+  numCitedBy: 1897
+  pid: 092217c2267f6e0673590aa151d811e579ff7760
+  show_ref_link: false
+  title: Roofline - an insightful visual performance model for multicore architectures
+  year: 2009
+- fieldsOfStudy:
+  - Business
+  meta_key: 2009-identifying-shades-of-green-the-specpower-benchmarks
+  numCitedBy: 102
+  pid: 132a29823081a845355abe39c0966193a15e0d03
+  show_ref_link: false
+  title: Identifying Shades of Green - The SPECpower Benchmarks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  - Art
+  - Physics
+  meta_key: 1996-computer-architecture-a-quantitative-approach-5th-edition
+  numCitedBy: 1303
+  pid: 12db961cda6f5adaccb5731fcce0a0044752f3d1
+  show_ref_link: false
+  title: Computer Architecture - A Quantitative Approach, 5th Edition
+  year: 1996
+- fieldsOfStudy:
+  - Geology
+  meta_key: -1-programmable-neurocomputing
+  numCitedBy: 4
+  pid: 05bec301281a7dab3c5c7bc64c1d60ee18940acd
+  show_ref_link: false
+  title: Programmable Neurocomputing
+  year: -1
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-batch-processing-in-a-neural-network-processor
+  numCitedBy: 2
+  pid: 073ea699d300d8f46ff2e0482217d1b0cd8f8849
+  show_ref_link: false
+  title: Batch processing in a neural network processor
+  year: 2016
+slug: In-datacenter-performance-analysis-of-a-tensor-unit-Jouppi-Young
+title: In-datacenter performance analysis of a tensor processing unit
+url: https://www.semanticscholar.org/paper/In-datacenter-performance-analysis-of-a-tensor-unit-Jouppi-Young/2dfeb5a90abc49ab2a80a492a01a4e2c8e92ec22?sort=total-citations
+venue: 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA)
+year: 2017

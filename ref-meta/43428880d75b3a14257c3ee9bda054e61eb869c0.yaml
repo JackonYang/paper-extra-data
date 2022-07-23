@@ -348,7 +348,7 @@ references:
   meta_key: 2016-abstractive-text-summarization-using-sequence-to-sequence-rnns-and-beyond
   numCitedBy: 1569
   pid: f37076f426023241f19cdc2fb0a0fd733a6fa7fa
-  show_ref_link: false
+  show_ref_link: true
   title: Abstractive Text Summarization using Sequence-to-sequence RNNs and Beyond
   year: 2016
 - fieldsOfStudy:

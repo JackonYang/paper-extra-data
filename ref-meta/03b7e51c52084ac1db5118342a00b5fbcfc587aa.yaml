@@ -1,0 +1,35 @@
+authors:
+- C. Watkins
+- P. Dayan
+badges:
+- id: OPEN_ACCESS
+corpusId: 208910339
+fieldsOfStudy:
+- Computer Science
+meta_key: 2004-q-learning
+numCitedBy: 7263
+numCiting: 2
+paperAbstract: Q-learning (Watkins, 1989) is a simple way for agents to learn how to act optimally in controlled Markovian domains. It amounts to an incremental method for dynamic programming which imposes limited computational demands. It works by successively improving its evaluations of the quality of particular actions at particular states.This paper presents and proves in detail a convergence theorem forQ-learning based on that outlined in Watkins (1989). We show thatQ-learning converges to the optimum action-values with probability 1 so long as all actions are repeatedly sampled in all states and the action-values are represented discretely. We also sketch extensions to the cases of non-discounted, but absorbing, Markov environments, and where manyQ values can be changed each iteration, rather than just one.
+ref_count: 2
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-self-improving-reactive-agents-based-on-reinforcement-learning-planning-and-teaching
+  numCitedBy: 1012
+  pid: 9cd8193a66cf53143cbba6ccb0c7b9c2ebf2452b
+  show_ref_link: false
+  title: Self-improving reactive agents based on reinforcement learning, planning and teaching
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1988-learning-control-of-finite-markov-chains-with-an-explicit-trade-off-between-estimation-and-control
+  numCitedBy: 39
+  pid: 30f4838b8bcea650a29235c40b4e6fa4160fedb1
+  show_ref_link: false
+  title: Learning control of finite Markov chains with an explicit trade-off between estimation and control
+  year: 1988
+slug: Q-learning-Watkins-Dayan
+title: Q-learning
+url: https://www.semanticscholar.org/paper/Q-learning-Watkins-Dayan/03b7e51c52084ac1db5118342a00b5fbcfc587aa?sort=total-citations
+venue: Machine Learning
+year: 2004

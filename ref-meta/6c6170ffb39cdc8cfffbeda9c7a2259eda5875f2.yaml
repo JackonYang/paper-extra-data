@@ -1,0 +1,284 @@
+authors:
+- Xinyun Chen
+- Chang Liu
+- D. Song
+badges:
+- id: OPEN_ACCESS
+corpusId: 600040
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-tree-to-tree-neural-networks-for-program-translation
+numCitedBy: 153
+numCiting: 36
+paperAbstract: Program translation is an important tool to migrate legacy code in one language into an ecosystem built in a different language. In this work, we are the first to employ deep neural networks toward tackling this problem. We observe that program translation is a modular procedure, in which a sub-tree of the source tree is translated into the corresponding target sub-tree at each step. To capture this intuition, we design a tree-to-tree neural network to translate a source tree into a target one. Meanwhile, we develop an attention mechanism for the tree-to-tree model, so that when the decoder expands one non-terminal in the target tree, the attention mechanism locates the corresponding sub-tree in the source tree to guide the expansion of the decoder. We evaluate the program translation capability of our tree-to-tree model against several state-of-the-art approaches. Compared against other neural translation models, we observe that our approach is consistently better than the baselines with a margin of up to 15 points. Further, our approach can improve the previous state-of-the-art program translation approaches by a margin of 20 points on the translation of real-world projects.
+ref_count: 36
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 19562
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tree-to-sequence-attentional-neural-machine-translation
+  numCitedBy: 219
+  pid: db02cd07726371790a825208cec377ec15f5b5f1
+  show_ref_link: false
+  title: Tree-to-Sequence Attentional Neural Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-latent-attention-for-if-then-program-synthesis
+  numCitedBy: 53
+  pid: 165f45f42a1418526c2fd5eeb0ebf6c147f4f507
+  show_ref_link: false
+  title: Latent Attention For If-Then Program Synthesis
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-neural-programs-to-parse-programs
+  numCitedBy: 11
+  pid: 7460b3a91e7347cdce0c0f9edf3c3b6d3eac12a0
+  show_ref_link: false
+  title: Learning Neural Programs To Parse Programs
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-lexical-statistical-machine-translation-for-language-migration
+  numCitedBy: 86
+  pid: 5447a3b8701d59f3a2f1a7f7af030f687ba495c3
+  show_ref_link: false
+  title: Lexical statistical machine translation for language migration
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-divide-and-conquer-approach-for-multi-phase-statistical-migration-for-source-code-t
+  numCitedBy: 45
+  pid: 927aaa20318d18564bd331ed37428e05820d647e
+  show_ref_link: false
+  title: Divide-and-Conquer Approach for Multi-phase Statistical Migration for Source Code (T)
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-towards-string-to-tree-neural-machine-translation
+  numCitedBy: 134
+  pid: fc8eb74acd25169672b3b85517da3d66eb0c47cf
+  show_ref_link: false
+  title: Towards String-To-Tree Neural Machine Translation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-phrase-based-statistical-translation-of-programming-languages
+  numCitedBy: 88
+  pid: 4755b856dc08ac024ae935e7a6f9df325b00ae53
+  show_ref_link: false
+  title: Phrase-Based Statistical Translation of Programming Languages
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-towards-synthesizing-complex-programs-from-input-output-examples
+  numCitedBy: 38
+  pid: 42dea2a24629bd4b1b56619536e263b078becddd
+  show_ref_link: false
+  title: Towards Synthesizing Complex Programs From Input-Output Examples
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-effective-approaches-to-attention-based-neural-machine-translation
+  numCitedBy: 5954
+  pid: 93499a7c7f699b6630a86fad964536f9423bb6d0
+  show_ref_link: true
+  title: Effective Approaches to Attention-based Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attention-is-all-you-need
+  numCitedBy: 36491
+  pid: 204e3073870fae3d05bcbc2f6a8e263d9b72e776
+  show_ref_link: true
+  title: Attention is All you Need
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-long-short-term-memory-over-recursive-structures
+  numCitedBy: 262
+  pid: 1f600f213dbbd70f06093438855f39022957b4bf
+  show_ref_link: false
+  title: Long Short-Term Memory Over Recursive Structures
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deepcoder-learning-to-write-programs
+  numCitedBy: 394
+  pid: 8a25c9403d8a0e2fb8ca362a1b26262afd57417f
+  show_ref_link: false
+  title: DeepCoder - Learning to Write Programs
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-towards-neural-machine-translation-with-latent-tree-attention
+  numCitedBy: 14
+  pid: fc1407cfaadfa2d3a2ac5d174ac4aa4f3b7edf84
+  show_ref_link: false
+  title: Towards Neural Machine Translation with Latent Tree Attention
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-top-down-tree-long-short-term-memory-networks
+  numCitedBy: 88
+  pid: e5f0762b9cfd07f88608f5502ed4467a8b5546cb
+  show_ref_link: false
+  title: Top-down Tree Long Short-Term Memory Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-on-using-very-large-target-vocabulary-for-neural-machine-translation
+  numCitedBy: 864
+  pid: 1938624bb9b0f999536dcc8d8f519810bb4e1b3b
+  show_ref_link: false
+  title: On Using Very Large Target Vocabulary for Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-robustfill-neural-program-learning-under-noisy-i-o
+  numCitedBy: 281
+  pid: 3ff0af64279929a952ee340e645256b7e0580f65
+  show_ref_link: false
+  title: RobustFill - Neural Program Learning under Noisy I/O
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dual-learning-for-machine-translation
+  numCitedBy: 651
+  pid: 23b559b5ab27f2fca6f56c0a7b6478bcf69db509
+  show_ref_link: false
+  title: Dual Learning for Machine Translation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-grammar-as-a-foreign-language
+  numCitedBy: 846
+  pid: 47570e7f63e296f224a0e7f9a0d08b0de3cbaf40
+  show_ref_link: false
+  title: Grammar as a Foreign Language
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-to-generate-pseudo-code-from-source-code-using-statistical-machine-translation-t
+  numCitedBy: 201
+  pid: 27e1dbe9f7c71cd6cc1b0357f49aef497e572d09
+  show_ref_link: false
+  title: Learning to Generate Pseudo-Code from Source Code Using Statistical Machine Translation (T)
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-abstract-syntax-networks-for-code-generation-and-semantic-parsing
+  numCitedBy: 259
+  pid: 2c1e874c3b67510a3215e535f5646b362de5bc89
+  show_ref_link: false
+  title: Abstract Syntax Networks for Code Generation and Semantic Parsing
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-latent-predictor-networks-for-code-generation
+  numCitedBy: 286
+  pid: e957747f4f8600940be4c5bb001aa70c84e53a53
+  show_ref_link: false
+  title: Latent Predictor Networks for Code Generation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neuro-symbolic-program-synthesis
+  numCitedBy: 237
+  pid: 644ca74f80463415613847ab01cff067fb58f0ad
+  show_ref_link: false
+  title: Neuro-Symbolic Program Synthesis
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-mapping-api-elements-for-code-migration-with-vector-representations
+  numCitedBy: 38
+  pid: 68d4a1d4d059ec8efa1650a715cf4935d886758d
+  show_ref_link: false
+  title: Mapping API Elements for Code Migration with Vector Representations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-tree-structured-decoding-with-doubly-recurrent-neural-networks
+  numCitedBy: 89
+  pid: 9c69926bdb72912725d20a55af7147f86bed01ae
+  show_ref_link: false
+  title: Tree-structured decoding with doubly-recurrent neural networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-improved-semantic-representations-from-tree-structured-long-short-term-memory-networks
+  numCitedBy: 2533
+  pid: 32de44f01a96d4473d21099d15e25bc2b9f08e2f
+  show_ref_link: true
+  title: Improved Semantic Representations From Tree-Structured Long Short-Term Memory Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-language-to-logical-form-with-neural-attention
+  numCitedBy: 559
+  pid: 558ac446dc26bee9789d660a251b75728cb6eeb2
+  show_ref_link: false
+  title: Language to Logical Form with Neural Attention
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-visualizing-and-understanding-recurrent-networks
+  numCitedBy: 917
+  pid: 40be3888daa5c2e5af4d36ae22f690bcc8caf600
+  show_ref_link: false
+  title: Visualizing and Understanding Recurrent Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-a-survey-of-machine-learning-for-big-code-and-naturalness
+  numCitedBy: 493
+  pid: 960ba564e9e598d864dff38d2f3d0bad1b319ead
+  show_ref_link: false
+  title: A Survey of Machine Learning for Big Code and Naturalness
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-parsing-natural-scenes-and-natural-language-with-recursive-neural-networks
+  numCitedBy: 1331
+  pid: 9c0ddf74f87d154db88d79c640578c1610451eec
+  show_ref_link: true
+  title: Parsing Natural Scenes and Natural Language with Recursive Neural Networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-grammar-variational-autoencoder
+  numCitedBy: 491
+  pid: 222928303a72d1389b0add8032a31abccbba41b3
+  show_ref_link: false
+  title: Grammar Variational Autoencoder
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-recurrent-neural-network-grammars
+  numCitedBy: 428
+  pid: 7345843e87c81e24e42264859b214d26042f8d51
+  show_ref_link: false
+  title: Recurrent Neural Network Grammars
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-semi-supervised-recursive-autoencoders-for-predicting-sentiment-distributions
+  numCitedBy: 1253
+  pid: cfa2646776405d50533055ceb1b7f050e9014dcb
+  show_ref_link: true
+  title: Semi-Supervised Recursive Autoencoders for Predicting Sentiment Distributions
+  year: 2011
+slug: Tree-to-tree-Neural-Networks-for-Program-Chen-Liu
+title: Tree-to-tree Neural Networks for Program Translation
+url: https://www.semanticscholar.org/paper/Tree-to-tree-Neural-Networks-for-Program-Chen-Liu/6c6170ffb39cdc8cfffbeda9c7a2259eda5875f2?sort=total-citations
+venue: NeurIPS
+year: 2018

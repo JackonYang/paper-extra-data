@@ -102,7 +102,7 @@ references:
   meta_key: 2018-regularizing-and-optimizing-lstm-language-models
   numCitedBy: 859
   pid: 58c6f890a1ae372958b7decf56132fe258152722
-  show_ref_link: false
+  show_ref_link: true
   title: Regularizing and Optimizing LSTM Language Models
   year: 2018
 - fieldsOfStudy:
@@ -319,7 +319,7 @@ references:
   meta_key: 2015-an-empirical-exploration-of-recurrent-network-architectures
   numCitedBy: 1385
   pid: 5b8364c21155d3d2cd38ea4c8b8580beba9a3250
-  show_ref_link: false
+  show_ref_link: true
   title: An Empirical Exploration of Recurrent Network Architectures
   year: 2015
 - fieldsOfStudy:
@@ -343,7 +343,7 @@ references:
   meta_key: 2016-a-theoretically-grounded-application-of-dropout-in-recurrent-neural-networks
   numCitedBy: 1320
   pid: 0c1f9ca23f4f09ecfc44bcc8ca1c2736624f4652
-  show_ref_link: false
+  show_ref_link: true
   title: A Theoretically Grounded Application of Dropout in Recurrent Neural Networks
   year: 2016
 - fieldsOfStudy:

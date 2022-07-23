@@ -1,0 +1,203 @@
+authors:
+- Terrance Devries
+- Graham W. Taylor
+badges:
+- id: OPEN_ACCESS
+corpusId: 23714201
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-improved-regularization-of-convolutional-neural-networks-with-cutout
+numCitedBy: 1727
+numCiting: 24
+paperAbstract: Convolutional neural networks are capable of learning powerful representational spaces, which are necessary for tackling complex learning tasks. However, due to the model capacity required to capture such representations, they are often susceptible to overfitting and therefore require proper regularization in order to generalize well. In this paper, we show that the simple regularization technique of randomly masking out square regions of input during training, which we call cutout, can be used to improve the robustness and overall performance of convolutional neural networks. Not only is this method extremely easy to implement, but we also demonstrate that it can be used in conjunction with existing forms of data augmentation and other regularizers to further improve model performance. We evaluate this method by applying it to current state-of-the-art architectures on the CIFAR-10, CIFAR-100, and SVHN datasets, yielding new state-of-the-art results of 2.56%, 15.20%, and 1.30% test error respectively. Code is available at this https URL
+ref_count: 24
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-towards-dropout-training-for-convolutional-neural-networks
+  numCitedBy: 199
+  pid: 80d2e35888a5f072aae0c6f367c52f33dc874f8d
+  show_ref_link: false
+  title: Towards dropout training for convolutional neural networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-imagenet-classification-with-deep-convolutional-neural-networks
+  numCitedBy: 82046
+  pid: abd1c342495432171beb7ca8fd9551ef13cbd0ff
+  show_ref_link: true
+  title: ImageNet classification with deep convolutional neural networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-analysis-on-the-dropout-effect-in-convolutional-neural-networks
+  numCitedBy: 106
+  pid: 38367ae9f0f70ab16d4914e9cd6d24872eca67bc
+  show_ref_link: false
+  title: Analysis on the Dropout Effect in Convolutional Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-residual-networks
+  numCitedBy: 4354
+  pid: 1c4e9156ca07705531e45960b7a919dc473abb51
+  show_ref_link: true
+  title: Wide Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-stacked-denoising-autoencoders-learning-useful-representations-in-a-deep-network-with-a-local-denoising-criterion
+  numCitedBy: 5655
+  pid: e2b7f37cd97a7907b1b8a41138721ed06a0b76cd
+  show_ref_link: true
+  title: Stacked Denoising Autoencoders - Learning Useful Representations in a Deep Network with a Local Denoising Criterion
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-an-analysis-of-single-layer-networks-in-unsupervised-feature-learning
+  numCitedBy: 2628
+  pid: be9a17321537d9289875fe475b71f4821457b435
+  show_ref_link: true
+  title: An Analysis of Single-Layer Networks in Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-context-encoders-feature-learning-by-inpainting
+  numCitedBy: 3420
+  pid: 7d0effebfa4bed19b6ba41f3af5b7e5b6890de87
+  show_ref_link: false
+  title: Context Encoders - Feature Learning by Inpainting
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 28464
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-learning-multiple-layers-of-features-from-tiny-images
+  numCitedBy: 17474
+  pid: 5d90f06bb70a0a3dced62413346235c02b1aa086
+  show_ref_link: true
+  title: Learning Multiple Layers of Features from Tiny Images
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-an-analysis-of-deep-neural-network-models-for-practical-applications
+  numCitedBy: 815
+  pid: 9a786d1ecf77dfba3459a83cd3fa0f1781bbcba4
+  show_ref_link: true
+  title: An Analysis of Deep Neural Network Models for Practical Applications
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-smart-augmentation-learning-an-optimal-data-augmentation-strategy
+  numCitedBy: 252
+  pid: e08038b14165536c52ffe950d90d0f43be9c8f15
+  show_ref_link: false
+  title: Smart Augmentation Learning an Optimal Data Augmentation Strategy
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-shake-shake-regularization
+  numCitedBy: 294
+  pid: 3fea412361b2d14cb3c6723968b421c1c8cb38e8
+  show_ref_link: false
+  title: Shake-Shake regularization
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-identity-mappings-in-deep-residual-networks
+  numCitedBy: 6555
+  pid: 77f0a39b8e02686fd85b01971f8feb7f60971f80
+  show_ref_link: true
+  title: Identity Mappings in Deep Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-fully-convolutional-networks-for-semantic-segmentation
+  numCitedBy: 16125
+  pid: 317aee7fc081f2b137a85c4f20129007fd8e717e
+  show_ref_link: true
+  title: Fully Convolutional Networks for Semantic Segmentation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-efficient-object-localization-using-convolutional-networks
+  numCitedBy: 974
+  pid: ebcea2d842d3d4e320500086aff0deb4cb4412ff
+  show_ref_link: false
+  title: Efficient object localization using Convolutional Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-show-and-tell-a-neural-image-caption-generator
+  numCitedBy: 4558
+  pid: d4dc1012d780e8e2547237eb5a6dc7b1bf47d2f0
+  show_ref_link: true
+  title: Show and tell - A neural image caption generator
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-deep-learners-benefit-more-from-out-of-distribution-examples
+  numCitedBy: 119
+  pid: 38fb40f6b6c2498069d2bd0352b8dc3377fde8f0
+  show_ref_link: false
+  title: Deep Learners Benefit More from Out-of-Distribution Examples
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-improving-neural-networks-by-preventing-co-adaptation-of-feature-detectors
+  numCitedBy: 6242
+  pid: 1366de5bb112746a555e9c0cd00de3ad8628aea8
+  show_ref_link: true
+  title: Improving neural networks by preventing co-adaptation of feature detectors
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-gradientbased-learning-applied-to-document-recognition
+  numCitedBy: 3561
+  pid: f42b865e20e61a954239f421b42007236e671f19
+  show_ref_link: true
+  title: GradientBased Learning Applied to Document Recognition
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-gradient-based-learning-applied-to-document-recognition
+  numCitedBy: 35623
+  pid: 162d958ff885f1462aeda91cd72582323fd6a1f4
+  show_ref_link: true
+  title: Gradient-based learning applied to document recognition
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-reading-digits-in-natural-images-with-unsupervised-feature-learning
+  numCitedBy: 3973
+  pid: 02227c94dd41fe0b439e050d377b0beb5d427cda
+  show_ref_link: true
+  title: Reading Digits in Natural Images with Unsupervised Feature Learning
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-image-scaling-up-image-recognition
+  numCitedBy: 310
+  pid: f5ce3abf942cdd685fb0f290f3e741f7b4749f0a
+  show_ref_link: false
+  title: Deep Image - Scaling up Image Recognition
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-deeppose-human-pose-estimation-via-deep-neural-networks
+  numCitedBy: 1933
+  pid: 2a002ce457f7ab3088fbd2691734f1ce79f750c4
+  show_ref_link: true
+  title: DeepPose - Human Pose Estimation via Deep Neural Networks
+  year: 2014
+slug: Improved-Regularization-of-Convolutional-Neural-Devries-Taylor
+title: Improved Regularization of Convolutional Neural Networks with Cutout
+url: https://www.semanticscholar.org/paper/Improved-Regularization-of-Convolutional-Neural-Devries-Taylor/eb35fdc11a325f21a8ce0ca65058f7480a2fc91f?sort=total-citations
+venue: ArXiv
+year: 2017

@@ -1,0 +1,293 @@
+authors:
+- Trevor Gale
+- Erich Elsen
+- Sara Hooker
+badges:
+- id: OPEN_ACCESS
+corpusId: 67855585
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-the-state-of-sparsity-in-deep-neural-networks
+numCitedBy: 362
+numCiting: 42
+paperAbstract: 'We rigorously evaluate three state-of-the-art techniques for inducing sparsity in deep neural networks on two large-scale learning tasks: Transformer trained on WMT 2014 English-to-German, and ResNet-50 trained on ImageNet. Across thousands of experiments, we demonstrate that complex techniques (Molchanov et al., 2017; Louizos et al., 2017b) shown to yield high compression rates on smaller datasets perform inconsistently, and that simple magnitude pruning approaches achieve comparable or better results. Additionally, we replicate the experiments performed by (Frankle & Carbin, 2018) and (Liu et al., 2018) at scale and show that unstructured sparse architectures learned through pruning cannot be trained from scratch to the same test set performance as a model trained with joint sparsification and optimization. Together, these results highlight the need for large-scale benchmarks in the field of model compression. We open-source our code, top performing model checkpoints, and results of all hyperparameter configurations to establish rigorous baselines for future work on compression and sparsification.'
+ref_count: 42
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-to-prune-or-not-to-prune-exploring-the-efficacy-of-pruning-for-model-compression
+  numCitedBy: 644
+  pid: 3b4d671a8c7018c0b42673ba581e5ff3ae762d6c
+  show_ref_link: false
+  title: To prune, or not to prune - exploring the efficacy of pruning for model compression
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-memory-bounded-deep-convolutional-networks
+  numCitedBy: 143
+  pid: 2a4117849c88d4728c33b1becaa9fb6ed7030725
+  show_ref_link: false
+  title: Memory Bounded Deep Convolutional Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-residual-networks
+  numCitedBy: 4354
+  pid: 1c4e9156ca07705531e45960b7a919dc473abb51
+  show_ref_link: true
+  title: Wide Residual Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-efficient-convolutional-networks-through-network-slimming
+  numCitedBy: 1257
+  pid: 90a16f34d109b63d95ab4da2d491cbe3a1c8b656
+  show_ref_link: true
+  title: Learning Efficient Convolutional Networks through Network Slimming
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-thinet-a-filter-level-pruning-method-for-deep-neural-network-compression
+  numCitedBy: 1148
+  pid: 049fd80f52c0b1fa4d532945d95a24734b62bdf3
+  show_ref_link: false
+  title: ThiNet - A Filter Level Pruning Method for Deep Neural Network Compression
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-rethinking-the-value-of-network-pruning
+  numCitedBy: 783
+  pid: cdb25e4df6913bb94edcd1174d00baf2d21c9a6d
+  show_ref_link: false
+  title: Rethinking the Value of Network Pruning
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-exploring-sparsity-in-recurrent-neural-networks
+  numCitedBy: 221
+  pid: 0a5265d5f4a2b59bde18c258ad5acd26bc680769
+  show_ref_link: false
+  title: Exploring Sparsity in Recurrent Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-soft-weight-sharing-for-neural-network-compression
+  numCitedBy: 317
+  pid: 6c018075720da00d81938bec1c1d2cde42f19d7d
+  show_ref_link: false
+  title: Soft Weight-Sharing for Neural Network Compression
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-runtime-neural-pruning
+  numCitedBy: 299
+  pid: 88cd4209db62a34d9cba0b9cbe9d45d1e57d21e5
+  show_ref_link: true
+  title: Runtime Neural Pruning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-compressing-neural-networks-using-the-variational-information-bottleneck
+  numCitedBy: 115
+  pid: 3116c094f9c72fc42b7f63809849f4a63dae6b71
+  show_ref_link: false
+  title: Compressing Neural Networks using the Variational Information Bottleneck
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-dynamic-network-surgery-for-efficient-dnns
+  numCitedBy: 737
+  pid: c220cdbcec6f92e4bc0f58c5fa6c1183105be1f9
+  show_ref_link: false
+  title: Dynamic Network Surgery for Efficient DNNs
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attention-is-all-you-need
+  numCitedBy: 36491
+  pid: 204e3073870fae3d05bcbc2f6a8e263d9b72e776
+  show_ref_link: true
+  title: Attention is All you Need
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-bayesian-compression-for-deep-learning
+  numCitedBy: 372
+  pid: 9302e07c4951559ad9a538295029881a171faeec
+  show_ref_link: false
+  title: Bayesian Compression for Deep Learning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-variational-dropout-sparsifies-deep-neural-networks
+  numCitedBy: 601
+  pid: 34cc3ceae5c3f7c8acbb89f2bff63f9d452b00d5
+  show_ref_link: false
+  title: Variational Dropout Sparsifies Deep Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-both-weights-and-connections-for-efficient-neural-network
+  numCitedBy: 4076
+  pid: 1ff9a37d766e3a4f39757f5e1b235a42dacf18ff
+  show_ref_link: true
+  title: Learning both Weights and Connections for Efficient Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-scalable-training-of-artificial-neural-networks-with-adaptive-sparse-connectivity-inspired-by-network-science
+  numCitedBy: 285
+  pid: 6dbb9e4b2e3b67dc4e1634989511f67d41373dd0
+  show_ref_link: false
+  title: Scalable training of artificial neural networks with adaptive sparse connectivity inspired by network science
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2018-learning-sparse-neural-networks-through-l0-regularization
+  numCitedBy: 653
+  pid: 572f5d18a3943dce4e14f937ef66977a01891096
+  show_ref_link: false
+  title: Learning Sparse Neural Networks through L0 Regularization
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-scaling-neural-machine-translation
+  numCitedBy: 476
+  pid: bf8fe437f779f2098f9af82b534aa51dc9edb06f
+  show_ref_link: false
+  title: Scaling Neural Machine Translation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-efficient-neural-audio-synthesis
+  numCitedBy: 551
+  pid: f2c882fd290d616ff96c1c5d6af4578682e26556
+  show_ref_link: false
+  title: Efficient Neural Audio Synthesis
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-pruning-convolutional-neural-networks-for-resource-efficient-transfer-learning
+  numCitedBy: 347
+  pid: 026ecf916023e13191331a354271b7f9b86e50a1
+  show_ref_link: false
+  title: Pruning Convolutional Neural Networks for Resource Efficient Transfer Learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-deep-rewiring-training-very-sparse-deep-networks
+  numCitedBy: 159
+  pid: ccee800244908d2960830967e70ead7dd8266f7a
+  show_ref_link: false
+  title: Deep Rewiring - Training very sparse deep networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 97653
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-auto-encoding-variational-bayes
+  numCitedBy: 17049
+  pid: 5f5dc5b9a2ba710937e2c413b37b053cd673df02
+  show_ref_link: true
+  title: Auto-Encoding Variational Bayes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-variational-dropout-and-the-local-reparameterization-trick
+  numCitedBy: 856
+  pid: f0ddb2bc6e5464d992ddbcdfdc7e894150fc81f2
+  show_ref_link: false
+  title: Variational Dropout and the Local Reparameterization Trick
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wavenet-a-generative-model-for-raw-audio
+  numCitedBy: 4703
+  pid: df0402517a7338ae28bc54acaac400de6b456a46
+  show_ref_link: true
+  title: WaveNet - A Generative Model for Raw Audio
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-amc-automl-for-model-compression-and-acceleration-on-mobile-devices
+  numCitedBy: 843
+  pid: 1717255b6aea01fe956cef998abbc3c399b5d7cf
+  show_ref_link: true
+  title: AMC - AutoML for Model Compression and Acceleration on Mobile Devices
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-faster-gaze-prediction-with-dense-networks-and-fisher-pruning
+  numCitedBy: 132
+  pid: d4d3008262697d379d0cb1642e39a8e0c756ab2c
+  show_ref_link: false
+  title: Faster gaze prediction with dense networks and Fisher pruning
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-the-lottery-ticket-hypothesis-training-pruned-neural-networks
+  numCitedBy: 208
+  pid: f90720ed12e045ac84beb94c27271d6fb8ad48cf
+  show_ref_link: false
+  title: The Lottery Ticket Hypothesis - Training Pruned Neural Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-second-order-derivatives-for-network-pruning-optimal-brain-surgeon
+  numCitedBy: 1594
+  pid: a42954d4b9d0ccdf1036e0af46d87a01b94c3516
+  show_ref_link: false
+  title: Second Order Derivatives for Network Pruning - Optimal Brain Surgeon
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-stochastic-backpropagation-and-approximate-inference-in-deep-generative-models
+  numCitedBy: 3926
+  pid: 484ad17c926292fbe0d5211540832a8c8a8e958b
+  show_ref_link: true
+  title: Stochastic Backpropagation and Approximate Inference in Deep Generative Models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-sparse-connection-and-pruning-in-large-dynamic-artificial-neural-networks
+  numCitedBy: 30
+  pid: 4ffd924bfce97c20a0011d7deef439125681dc34
+  show_ref_link: false
+  title: Sparse connection and pruning in large dynamic artificial neural networks
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-lpcnet-improving-neural-speech-synthesis-through-linear-prediction
+  numCitedBy: 243
+  pid: da7329db3e14cb7301e9ce95a131136bd85e24ba
+  show_ref_link: false
+  title: LPCNET - Improving Neural Speech Synthesis through Linear Prediction
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1989-optimal-brain-damage
+  numCitedBy: 3518
+  pid: e7297db245c3feb1897720b173a59fe7e36babb7
+  show_ref_link: false
+  title: Optimal Brain Damage
+  year: 1989
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1988-bayesian-variable-selection-in-linear-regression
+  numCitedBy: 1213
+  pid: 7f70179b5935583e7062eb7745c010b37b3205a0
+  show_ref_link: false
+  title: Bayesian Variable Selection in Linear Regression
+  year: 1988
+slug: The-State-of-Sparsity-in-Deep-Neural-Networks-Gale-Elsen
+title: The State of Sparsity in Deep Neural Networks
+url: https://www.semanticscholar.org/paper/The-State-of-Sparsity-in-Deep-Neural-Networks-Gale-Elsen/26384278cf5d575fc32cb92c303fb648fa0d5217?sort=total-citations
+venue: ArXiv
+year: 2019

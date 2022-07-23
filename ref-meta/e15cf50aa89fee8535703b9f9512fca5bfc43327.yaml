@@ -15,7 +15,7 @@ corpusId: 206592484
 fieldsOfStudy:
 - Computer Science
 meta_key: 2015-going-deeper-with-convolutions
-numCitedBy: 29682
+numCitedBy: 29917
 numCiting: 278
 paperAbstract: We propose a deep convolutional neural network architecture codenamed Inception that achieves the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14). The main hallmark of this architecture is the improved utilization of the computing resources inside the network. By a carefully crafted design, we increased the depth and width of the network while keeping the computational budget constant. To optimize quality, the architectural decisions were based on the Hebbian principle and the intuition of multi-scale processing. One particular incarnation used in our submission for ILSVRC14 is called GoogLeNet, a 22 layers deep network, the quality of which is assessed in the context of classification and detection.
 ref_count: 278
@@ -178,7 +178,7 @@ references:
   meta_key: 2013-predicting-parameters-in-deep-learning
   numCitedBy: 1003
   pid: e8650503ab80ad7299f0845b1843abf3a97f313a
-  show_ref_link: false
+  show_ref_link: true
   title: Predicting Parameters in Deep Learning
   year: 2013
 - fieldsOfStudy:
@@ -394,7 +394,7 @@ references:
   meta_key: 2011-hmdb-a-large-video-database-for-human-motion-recognition
   numCitedBy: 2566
   pid: 8b3b8848a311c501e704c45c6d50430ab7068956
-  show_ref_link: false
+  show_ref_link: true
   title: HMDB - A large video database for human motion recognition
   year: 2011
 - fieldsOfStudy:
@@ -1666,7 +1666,7 @@ references:
   meta_key: 2006-photo-tourism-exploring-photo-collections-in-3d
   numCitedBy: 3206
   pid: b5ebf37ce170f13a905f7feba9fb7096b49fb8b3
-  show_ref_link: false
+  show_ref_link: true
   title: Photo tourism - exploring photo collections in 3D
   year: 2006
 - fieldsOfStudy:

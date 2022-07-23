@@ -8,6 +8,7 @@
 2016-ssd: 2016-ssd-net
 2016-ssd-single-shot-multibox-detector: 2016-ssd-net
 2017-attention-is-all-you-need: 2017-transformer
+2017-feature-pyramid-networks-for-object-detection: 2017-fpn-detection
 2017-mask-rcnn: 2017-mask-r-cnn
 2019-bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding: 2019-bert
 2019-character-region-awareness-for-text-detection: 2019-craft-ocr
