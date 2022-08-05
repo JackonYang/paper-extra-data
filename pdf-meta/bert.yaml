@@ -9,5 +9,6 @@ raw_filename: bert
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Bert
 url_slug: bert

@@ -309,11 +309,11 @@ references:
   year: 1984
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1964-transformations-des-signaux-al\xE9atoires-a-travers-les-syst\xE8mes-non-lin\xE9aires-sans-m\xE9moire"
+  meta_key: 1964-transformations-des-signaux-aléatoires-a-travers-les-systèmes-non-linéaires-sans-mémoire
   numCitedBy: 32
   pid: 5b9a3b410b37bb97fc0766f13c758dd146274dca
   show_ref_link: false
-  title: "Transformations des signaux al\xE9atoires a travers les syst\xE8mes non lin\xE9aires sans m\xE9moire"
+  title: Transformations des signaux aléatoires a travers les systèmes non linéaires sans mémoire
   year: 1964
 - fieldsOfStudy:
   - Medicine

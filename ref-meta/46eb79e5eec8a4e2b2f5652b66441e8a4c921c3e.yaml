@@ -9,7 +9,7 @@ fieldsOfStudy:
 meta_key: 2006-reducing-the-dimensionality-of-data-with-neural-networks
 numCitedBy: 14701
 numCiting: 42
-paperAbstract: "High-dimensional data can be converted to low-dimensional codes by training a multilayer neural network with a small central layer to reconstruct high-dimensional input vectors. Gradient descent can be used for fine-tuning the weights in such \u201Cautoencoder\u201D networks, but this works well only if the initial weights are close to a good solution. We describe an effective way of initializing the weights that allows deep autoencoder networks to learn low-dimensional codes that work much better than principal components analysis as a tool to reduce the dimensionality of data."
+paperAbstract: High-dimensional data can be converted to low-dimensional codes by training a multilayer neural network with a small central layer to reconstruct high-dimensional input vectors. Gradient descent can be used for fine-tuning the weights in such “autoencoder” networks, but this works well only if the initial weights are close to a good solution. We describe an effective way of initializing the weights that allows deep autoencoder networks to learn low-dimensional codes that work much better than principal components analysis as a tool to reduce the dimensionality of data.
 ref_count: 42
 references:
 - fieldsOfStudy:
@@ -110,11 +110,11 @@ references:
   year: 1999
 - fieldsOfStudy:
   - Biology
-  meta_key: "2005-il-13\u53D7\u4F53\u03B12\u964D\u4F4E\u8840\u5438\u866B\u75C5\u8089\u82BD\u80BF\u7684\u708E\u75C7\u53CD\u5E94\u5E76\u5EF6\u957F\u5BBF\u4E3B\u5B58\u6D3B\u65F6\u95F4-\u82F1-mentink-kane-mm-cheever-aw-thompson-rw-et-al-proc-natl-acad-sci-u-s-a"
+  meta_key: 2005-il-13受体α2降低血吸虫病肉芽肿的炎症反应并延长宿主存活时间-英-mentink-kane-mm-cheever-aw-thompson-rw-et-al-proc-natl-acad-sci-u-s-a
   numCitedBy: 1953
   pid: 35d2b9da90cde935dcf1ace9b4e12b33ce889279
   show_ref_link: false
-  title: "IL-13\u53D7\u4F53\u03B12\u964D\u4F4E\u8840\u5438\u866B\u75C5\u8089\u82BD\u80BF\u7684\u708E\u75C7\u53CD\u5E94\u5E76\u5EF6\u957F\u5BBF\u4E3B\u5B58\u6D3B\u65F6\u95F4[\u82F1]/Mentink-Kane MM,Cheever AW\uFF0CThompson RW\uFF0Cet al//Proc Natl Acad Sci U S A"
+  title: IL-13受体α2降低血吸虫病肉芽肿的炎症反应并延长宿主存活时间[英]/Mentink-Kane MM,Cheever AW，Thompson RW，et al//Proc Natl Acad Sci U S A
   year: 2005
 - fieldsOfStudy:
   - Computer Science

@@ -1,5 +1,5 @@
 authors:
-- "A\xE4ron van den Oord"
+- Aäron van den Oord
 - S. Dieleman
 - H. Zen
 - K. Simonyan
@@ -361,11 +361,11 @@ references:
 - fieldsOfStudy:
   - Computer Science
   - Geology
-  meta_key: "1989-an-implementation-of-the-algorithme-\xE0-trous-to-compute-the-wavelet-transform"
+  meta_key: 1989-an-implementation-of-the-algorithme-à-trous-to-compute-the-wavelet-transform
   numCitedBy: 280
   pid: f75b338c638edca496c99852b706524e3eef1e55
   show_ref_link: false
-  title: "An Implementation of the \u201Calgorithme \xE0 trous\u201D to Compute the Wavelet Transform"
+  title: An Implementation of the “algorithme à trous” to Compute the Wavelet Transform
   year: 1989
 - fieldsOfStudy:
   - Computer Science
@@ -449,11 +449,11 @@ references:
   year: 2002
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "1992-atr-\u03BC-talk-speech-synthesis-system"
+  meta_key: 1992-atr-μ-talk-speech-synthesis-system
   numCitedBy: 73
   pid: ce14e0a3c79e3c80bb64596a6aae3c4d7145dcc1
   show_ref_link: false
-  title: "ATR \u03BC-talk speech synthesis system"
+  title: ATR μ-talk speech synthesis system
   year: 1992
 - fieldsOfStudy:
   - Computer Science

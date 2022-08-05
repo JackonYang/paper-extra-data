@@ -9,5 +9,6 @@ raw_filename: paxos-simple
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Paxos Simple
 url_slug: paxos-simple

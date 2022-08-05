@@ -208,11 +208,11 @@ references:
   year: 2007
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2016-multivariate-spearman-s-\u03C1-for-aggregating-ranks-using-copulas"
+  meta_key: 2016-multivariate-spearman-s-ρ-for-aggregating-ranks-using-copulas
   numCitedBy: 364
   pid: 04bdedb561c22d920e1b0145d0a342a68d2a4002
   show_ref_link: false
-  title: "Multivariate spearman's \u03C1 for aggregating ranks using copulas"
+  title: Multivariate spearman's ρ for aggregating ranks using copulas
   year: 2016
 slug: XGBoost:-A-Scalable-Tree-Boosting-System-Chen-Guestrin
 title: XGBoost - A Scalable Tree Boosting System

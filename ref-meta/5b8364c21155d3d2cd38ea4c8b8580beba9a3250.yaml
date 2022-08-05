@@ -1,5 +1,5 @@
 authors:
-- "R. J\xF3zefowicz"
+- R. Józefowicz
 - Wojciech Zaremba
 - Ilya Sutskever
 badges:
@@ -229,8 +229,8 @@ references:
   show_ref_link: false
   title: Untersuchungen zu dynamischen neuronalen Netzen
   year: 1991
-slug: "An-Empirical-Exploration-of-Recurrent-Network-J\xF3zefowicz-Zaremba"
+slug: An-Empirical-Exploration-of-Recurrent-Network-Józefowicz-Zaremba
 title: An Empirical Exploration of Recurrent Network Architectures
-url: "https://www.semanticscholar.org/paper/An-Empirical-Exploration-of-Recurrent-Network-J\xF3zefowicz-Zaremba/5b8364c21155d3d2cd38ea4c8b8580beba9a3250?sort=total-citations"
+url: https://www.semanticscholar.org/paper/An-Empirical-Exploration-of-Recurrent-Network-Józefowicz-Zaremba/5b8364c21155d3d2cd38ea4c8b8580beba9a3250?sort=total-citations
 venue: ICML
 year: 2015

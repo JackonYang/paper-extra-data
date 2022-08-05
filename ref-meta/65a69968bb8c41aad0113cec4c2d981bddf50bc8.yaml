@@ -9,7 +9,7 @@ fieldsOfStudy:
 meta_key: 2001-pattern-classification
 numCitedBy: 13128
 numCiting: 35
-paperAbstract: "Classification \u2022 Supervised \u2013 parallelpiped \u2013 minimum distance \u2013 maximum likelihood (Bayes Rule) > non-parametric > parametric \u2013 support vector machines \u2013 neural networks \u2013 context classification \u2022 Unsupervised (clustering) \u2013 K-Means \u2013 ISODATA \u2022 Pattern recognition in remote sensing has been based on the intuitive notion that pixels belonging to the same class should have similar gray values in a given band. \u2013 Given two spectral bands, pixels from the same class plotted in a two-dimensional histogram should appear as a localized cluster. \u2013 If n images, each in a different spectral band, are available, pixels from the same class should form a localized cluster in n-space."
+paperAbstract: Classification • Supervised – parallelpiped – minimum distance – maximum likelihood (Bayes Rule) > non-parametric > parametric – support vector machines – neural networks – context classification • Unsupervised (clustering) – K-Means – ISODATA • Pattern recognition in remote sensing has been based on the intuitive notion that pixels belonging to the same class should have similar gray values in a given band. – Given two spectral bands, pixels from the same class plotted in a two-dimensional histogram should appear as a localized cluster. – If n images, each in a different spectral band, are available, pixels from the same class should form a localized cluster in n-space.
 ref_count: 35
 references:
 - fieldsOfStudy:

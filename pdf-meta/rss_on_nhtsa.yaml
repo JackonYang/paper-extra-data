@@ -9,5 +9,6 @@ raw_filename: rss_on_nhtsa
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Rss On Nhtsa
 url_slug: rss_on_nhtsa

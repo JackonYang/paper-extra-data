@@ -9,5 +9,6 @@ raw_filename: eventually-consistent
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Eventually Consistent
 url_slug: eventually-consistent

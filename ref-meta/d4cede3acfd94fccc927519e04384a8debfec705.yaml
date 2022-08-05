@@ -1,5 +1,5 @@
 authors:
-- "Jorge S\xE1nchez"
+- Jorge Sánchez
 - F. Perronnin
 - Thomas Mensink
 - J. Verbeek
@@ -11,7 +11,7 @@ fieldsOfStudy:
 meta_key: 2013-image-classification-with-the-fisher-vector-theory-and-practice
 numCitedBy: 1463
 numCiting: 109
-paperAbstract: "A standard approach to describe an image for classification and retrieval purposes is to extract a set of local patch descriptors, encode them into a high dimensional vector and pool them into an image-level signature. The most common patch encoding strategy consists in quantizing the local descriptors into a finite set of prototypical elements. This leads to the popular Bag-of-Visual words representation. In this work, we propose to use the Fisher Kernel framework as an alternative patch encoding strategy: we describe patches by their deviation from an \u201Cuniversal\u201D generative Gaussian mixture model. This representation, which we call Fisher vector has many advantages: it is efficient to compute, it leads to excellent results even with efficient linear classifiers, and it can be compressed with a minimal loss of accuracy using product quantization. We report experimental results on five standard datasets\u2014PASCAL VOC 2007, Caltech 256, SUN 397, ILSVRC 2010 and ImageNet10K\u2014with up to 9M images and 10K classes, showing that the FV framework is a state-of-the-art patch encoding technique."
+paperAbstract: 'A standard approach to describe an image for classification and retrieval purposes is to extract a set of local patch descriptors, encode them into a high dimensional vector and pool them into an image-level signature. The most common patch encoding strategy consists in quantizing the local descriptors into a finite set of prototypical elements. This leads to the popular Bag-of-Visual words representation. In this work, we propose to use the Fisher Kernel framework as an alternative patch encoding strategy: we describe patches by their deviation from an “universal” generative Gaussian mixture model. This representation, which we call Fisher vector has many advantages: it is efficient to compute, it leads to excellent results even with efficient linear classifiers, and it can be compressed with a minimal loss of accuracy using product quantization. We report experimental results on five standard datasets—PASCAL VOC 2007, Caltech 256, SUN 397, ILSVRC 2010 and ImageNet10K—with up to 9M images and 10K classes, showing that the FV framework is a state-of-the-art patch encoding technique.'
 ref_count: 109
 references:
 - fieldsOfStudy:
@@ -225,11 +225,11 @@ references:
 - fieldsOfStudy:
   - Environmental Science
   - Computer Science
-  meta_key: "2011-geometric-\u2113p-norm-feature-pooling-for-image-classification"
+  meta_key: 2011-geometric-ℓp-norm-feature-pooling-for-image-classification
   numCitedBy: 163
   pid: d2810567138cb8a17b73de8913013487300d4b89
   show_ref_link: false
-  title: "Geometric \u2113p-norm feature pooling for image classification"
+  title: Geometric ℓp-norm feature pooling for image classification
   year: 2011
 - fieldsOfStudy:
   - Computer Science
@@ -682,8 +682,8 @@ references:
   show_ref_link: false
   title: Shape and View Independent Reflectance Map from Multiple Views
   year: 2006
-slug: "Image-Classification-with-the-Fisher-Vector:-Theory-S\xE1nchez-Perronnin"
+slug: Image-Classification-with-the-Fisher-Vector:-Theory-Sánchez-Perronnin
 title: Image Classification with the Fisher Vector - Theory and Practice
-url: "https://www.semanticscholar.org/paper/Image-Classification-with-the-Fisher-Vector:-Theory-S\xE1nchez-Perronnin/d4cede3acfd94fccc927519e04384a8debfec705?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Image-Classification-with-the-Fisher-Vector:-Theory-Sánchez-Perronnin/d4cede3acfd94fccc927519e04384a8debfec705?sort=total-citations
 venue: International Journal of Computer Vision
 year: 2013

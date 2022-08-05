@@ -1,5 +1,5 @@
 authors:
-- "P. Doll\xE1r"
+- P. Dollár
 - Ron Appel
 - Serge J. Belongie
 - P. Perona
@@ -624,8 +624,8 @@ references:
   show_ref_link: false
   title: SPATIAL FREQUENCY SELECTIVITY OF CELLS IN MACAQUE VISUAL CORTEX
   year: -1
-slug: "Fast-Feature-Pyramids-for-Object-Detection-Doll\xE1r-Appel"
+slug: Fast-Feature-Pyramids-for-Object-Detection-Dollár-Appel
 title: Fast Feature Pyramids for Object Detection
-url: "https://www.semanticscholar.org/paper/Fast-Feature-Pyramids-for-Object-Detection-Doll\xE1r-Appel/84e0d68e41788644c78cfdc3f4ac3cbea7854a5c?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Fast-Feature-Pyramids-for-Object-Detection-Dollár-Appel/84e0d68e41788644c78cfdc3f4ac3cbea7854a5c?sort=total-citations
 venue: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2014

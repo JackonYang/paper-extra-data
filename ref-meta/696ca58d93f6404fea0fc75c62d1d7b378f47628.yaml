@@ -4,7 +4,7 @@ authors:
 - Tsung-Yi Lin
 - Ramakrishna Vedantam
 - Saurabh Gupta
-- "Piotr Doll\xE1r"
+- Piotr Dollár
 - C. L. Zitnick
 badges:
 - id: OPEN_ACCESS
@@ -139,11 +139,11 @@ references:
   year: 2002
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2015-d\xE9j\xE0-image-captions-a-corpus-of-expressive-descriptions-in-repetition"
+  meta_key: 2015-déjà-image-captions-a-corpus-of-expressive-descriptions-in-repetition
   numCitedBy: 38
   pid: d0fd9b23e4e9b65c44a0ab722c4a69a6ed38cc3d
   show_ref_link: false
-  title: "D\xE9j\xE0 Image-Captions - A Corpus of Expressive Descriptions in Repetition"
+  title: Déjà Image-Captions - A Corpus of Expressive Descriptions in Repetition
   year: 2015
 - fieldsOfStudy:
   - Computer Science

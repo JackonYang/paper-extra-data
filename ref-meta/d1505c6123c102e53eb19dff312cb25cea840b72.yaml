@@ -1,6 +1,6 @@
 authors:
 - K. Hermann
-- "Tom\xE1s Kocisk\xFD"
+- Tomás Kociský
 - Edward Grefenstette
 - Lasse Espeholt
 - Will Kay
@@ -167,7 +167,7 @@ references:
   numCitedBy: 2054
   pid: 766ce989b8b8b984f7a4691fd8c9af4bdb2b74cd
   show_ref_link: false
-  title: "\u201CCloze Procedure\u201D - A New Tool for Measuring Readability"
+  title: “Cloze Procedure” - A New Tool for Measuring Readability
   year: 1953
 - fieldsOfStudy:
   - Computer Science
@@ -177,8 +177,8 @@ references:
   show_ref_link: true
   title: Memory Networks
   year: 2015
-slug: "Teaching-Machines-to-Read-and-Comprehend-Hermann-Kocisk\xFD"
+slug: Teaching-Machines-to-Read-and-Comprehend-Hermann-Kociský
 title: Teaching Machines to Read and Comprehend
-url: "https://www.semanticscholar.org/paper/Teaching-Machines-to-Read-and-Comprehend-Hermann-Kocisk\xFD/d1505c6123c102e53eb19dff312cb25cea840b72?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Teaching-Machines-to-Read-and-Comprehend-Hermann-Kociský/d1505c6123c102e53eb19dff312cb25cea840b72?sort=total-citations
 venue: NIPS
 year: 2015

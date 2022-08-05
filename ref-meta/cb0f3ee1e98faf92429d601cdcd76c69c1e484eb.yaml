@@ -11,7 +11,7 @@ fieldsOfStudy:
 meta_key: 2019-neural-network-acceptability-judgments
 numCitedBy: 556
 numCiting: 111
-paperAbstract: "Abstract This paper investigates the ability of artificial neural networks to judge the grammatical acceptability of a sentence, with the goal of testing their linguistic competence. We introduce the Corpus of Linguistic Acceptability (CoLA), a set of 10,657 English sentences labeled as grammatical or ungrammatical from published linguistics literature. As baselines, we train several recurrent neural network models on acceptability classification, and find that our models outperform unsupervised models by Lau et al. (2016) on CoLA. Error-analysis on specific grammatical phenomena reveals that both Lau et al.\u2019s models and ours learn systematic generalizations like subject-verb-object order. However, all models we test perform far below human level on a wide range of grammatical constructions."
+paperAbstract: Abstract This paper investigates the ability of artificial neural networks to judge the grammatical acceptability of a sentence, with the goal of testing their linguistic competence. We introduce the Corpus of Linguistic Acceptability (CoLA), a set of 10,657 English sentences labeled as grammatical or ungrammatical from published linguistics literature. As baselines, we train several recurrent neural network models on acceptability classification, and find that our models outperform unsupervised models by Lau et al. (2016) on CoLA. Error-analysis on specific grammatical phenomena reveals that both Lau et al.’s models and ours learn systematic generalizations like subject-verb-object order. However, all models we test perform far below human level on a wide range of grammatical constructions.
 ref_count: 85
 references:
 - fieldsOfStudy:
@@ -307,11 +307,11 @@ references:
   year: 2000
 - fieldsOfStudy:
   - Linguistics
-  meta_key: "1965-\u0935-\u0915-\u092F\u0935-\u0928-\u092F-\u0938-\u0915-\u0938-\u0926-\u0927-\u0928-\u0924-\u0915-\u092A\u0915-\u0937-aspects-of-the-theory-of-syntax"
+  meta_key: 1965-व-क-यव-न-य-स-क-स-द-ध-न-त-क-पक-ष-aspects-of-the-theory-of-syntax
   numCitedBy: 14070
   pid: 16c762445f11fa2020994918dc4f93e76264df17
   show_ref_link: false
-  title: "\u0935\u093E\u0915\u094D\u092F\u0935\u093F\u0928\u094D\u092F\u093E\u0938 \u0915\u093E \u0938\u0948\u0926\u094D\u0927\u093E\u0928\u094D\u0924\u093F\u0915 \u092A\u0915\u094D\u0937 = Aspects of the theory of syntax"
+  title: वाक्यविन्यास का सैद्धान्तिक पक्ष = Aspects of the theory of syntax
   year: 1965
 - fieldsOfStudy:
   - Linguistics

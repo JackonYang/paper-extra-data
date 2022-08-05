@@ -6,7 +6,7 @@ authors:
 - Fei Sun
 - Yiming Wu
 - Yuandong Tian
-- "P\xE9ter Vajda"
+- Péter Vajda
 - Yangqing Jia
 - K. Keutzer
 badges:
@@ -284,7 +284,7 @@ references:
   numCitedBy: 29765
   pid: cbe020b715b548694bad73e49c5d72854670d6e7
   show_ref_link: false
-  title: "\u2018L'"
+  title: ‘L'
   year: 2021
 slug: FBNet:-Hardware-Aware-Efficient-ConvNet-Design-via-Wu-Dai
 title: FBNet - Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search

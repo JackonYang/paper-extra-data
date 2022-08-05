@@ -475,11 +475,11 @@ references:
   year: 2014
 - fieldsOfStudy:
   - Psychology
-  meta_key: "2020-5\u5206\u3067\u5206\u304B\u308B-\u6709\u540D\u8AD6\u6587\u30CA\u30CA\u30E1\u8AAD\u307F-jacob-devlin-et-al-bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding"
+  meta_key: 2020-5分で分かる-有名論文ナナメ読み-jacob-devlin-et-al-bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding
   numCitedBy: 1023
   pid: 43f2ad297941db230c089ba353efc3f281ab678c
   show_ref_link: false
-  title: "5\u5206\u3067\u5206\u304B\u308B!? \u6709\u540D\u8AD6\u6587\u30CA\u30CA\u30E1\u8AAD\u307F\uFF1AJacob Devlin et al. - BERT - Pre-training of Deep Bidirectional Transformers for Language Understanding"
+  title: 5分で分かる!? 有名論文ナナメ読み：Jacob Devlin et al. - BERT - Pre-training of Deep Bidirectional Transformers for Language Understanding
   year: 2020
 - fieldsOfStudy:
   - Computer Science

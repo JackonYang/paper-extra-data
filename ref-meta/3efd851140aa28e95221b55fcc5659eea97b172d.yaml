@@ -753,11 +753,11 @@ references:
   year: 1999
 - fieldsOfStudy:
   - Sociology
-  meta_key: "2000-haykin-simon-neural-networks-a-comprehensive-foundation-prentice-hall-inc-segunda-edici\xF3n-1999"
+  meta_key: 2000-haykin-simon-neural-networks-a-comprehensive-foundation-prentice-hall-inc-segunda-edición-1999
   numCitedBy: 3264
   pid: ca91cd1e67cb558dd2b7d94d37c3dba208b7cd40
   show_ref_link: false
-  title: "Haykin, Simon. Neural networks - A comprehensive foundation, Prentice Hall, Inc. Segunda Edici\xF3n, 1999"
+  title: Haykin, Simon. Neural networks - A comprehensive foundation, Prentice Hall, Inc. Segunda Edición, 1999
   year: 2000
 - fieldsOfStudy:
   - Computer Science
@@ -765,7 +765,7 @@ references:
   numCitedBy: 994
   pid: 24c5941e64909877b8c6ea05f41aebb6698f290f
   show_ref_link: false
-  title: "Non\u2010Negative Matrices and Markov Chains"
+  title: Non‐Negative Matrices and Markov Chains
   year: 1983
 - fieldsOfStudy:
   - Mathematics

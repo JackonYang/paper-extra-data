@@ -394,11 +394,11 @@ references:
   year: 1983
 - fieldsOfStudy:
   - Environmental Science
-  meta_key: "2016-recurrent-neural-network\u306B\u57FA\u3065\u304F\u65E5\u5E38\u751F\u6D3B\u884C\u52D5\u8A8D\u8B58"
+  meta_key: 2016-recurrent-neural-networkに基づく日常生活行動認識
   numCitedBy: 98
   pid: 64536734068260db23770a64c6b3668026cc2344
   show_ref_link: false
-  title: "Recurrent Neural Network\u306B\u57FA\u3065\u304F\u65E5\u5E38\u751F\u6D3B\u884C\u52D5\u8A8D\u8B58"
+  title: Recurrent Neural Networkに基づく日常生活行動認識
   year: 2016
 slug: Efficient-Neural-Architecture-Search-via-Parameter-Pham-Guan
 title: Efficient Neural Architecture Search via Parameter Sharing

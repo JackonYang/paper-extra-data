@@ -9,5 +9,6 @@ raw_filename: conflict-free-replicated-data-types
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Conflict Free Replicated Data Types
 url_slug: conflict-free-replicated-data-types

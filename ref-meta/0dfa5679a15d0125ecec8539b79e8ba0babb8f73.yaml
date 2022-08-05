@@ -2100,11 +2100,11 @@ references:
   title: WordNet - A Lexical Database for English
   year: 1992
 - fieldsOfStudy: []
-  meta_key: "1978-\u30B3\u30F3\u30D4\u30E5\u30FC\u30BF-\u30B5\u30A4\u30A8\u30F3\u30B9-acm-computing-surveys"
+  meta_key: 1978-コンピュータ-サイエンス-acm-computing-surveys
   numCitedBy: 1221
   pid: 64cfe81049b1ba5828f81aa0d665cde80b1e6e9d
   show_ref_link: false
-  title: "\u30B3\u30F3\u30D4\u30E5\u30FC\u30BF\u30FB\u30B5\u30A4\u30A8\u30F3\u30B9 - ACM computing surveys"
+  title: コンピュータ・サイエンス - ACM computing surveys
   year: 1978
 - fieldsOfStudy:
   - Mathematics

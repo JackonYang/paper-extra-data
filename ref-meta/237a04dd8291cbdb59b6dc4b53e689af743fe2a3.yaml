@@ -11,7 +11,7 @@ fieldsOfStudy:
 meta_key: 2013-learning-hierarchical-features-for-scene-labeling
 numCitedBy: 2412
 numCiting: 54
-paperAbstract: "Scene labeling consists of labeling each pixel in an image with the category of the object it belongs to. We propose a method that uses a multiscale convolutional network trained from raw pixels to extract dense feature vectors that encode regions of multiple sizes centered on each pixel. The method alleviates the need for engineered features, and produces a powerful representation that captures texture, shape, and contextual information. We report results using multiple postprocessing methods to produce the final labeling. Among those, we propose a technique to automatically retrieve, from a pool of segmentation components, an optimal set of components that best explain the scene; these components are arbitrary, for example, they can be taken from a segmentation tree or from any family of oversegmentations. The system yields record accuracies on the SIFT Flow dataset (33 classes) and the Barcelona dataset (170 classes) and near-record accuracy on Stanford background dataset (eight classes), while being an order of magnitude faster than competing approaches, producing a 320\xD7240 image labeling in less than a second, including feature extraction."
+paperAbstract: Scene labeling consists of labeling each pixel in an image with the category of the object it belongs to. We propose a method that uses a multiscale convolutional network trained from raw pixels to extract dense feature vectors that encode regions of multiple sizes centered on each pixel. The method alleviates the need for engineered features, and produces a powerful representation that captures texture, shape, and contextual information. We report results using multiple postprocessing methods to produce the final labeling. Among those, we propose a technique to automatically retrieve, from a pool of segmentation components, an optimal set of components that best explain the scene; these components are arbitrary, for example, they can be taken from a segmentation tree or from any family of oversegmentations. The system yields record accuracies on the SIFT Flow dataset (33 classes) and the Barcelona dataset (170 classes) and near-record accuracy on Stanford background dataset (eight classes), while being an order of magnitude faster than competing approaches, producing a 320×240 image labeling in less than a second, including feature extraction.
 ref_count: 54
 references:
 - fieldsOfStudy:
@@ -387,11 +387,11 @@ references:
   year: 1989
 - fieldsOfStudy:
   - Engineering
-  meta_key: "2014-efficient-graph-based-image-segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  meta_key: 2014-efficient-graph-based-image-segmentationを用いた圃場図自動作成手法の検討
   numCitedBy: 1761
   pid: b3df1ffb8a6856f20be51243406f2fdbe2a335ba
   show_ref_link: false
-  title: "Efficient Graph-Based Image Segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  title: Efficient Graph-Based Image Segmentationを用いた圃場図自動作成手法の検討
   year: 2014
 - fieldsOfStudy:
   - Computer Science

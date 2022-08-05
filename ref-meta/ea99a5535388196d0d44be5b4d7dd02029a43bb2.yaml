@@ -1,7 +1,7 @@
 authors:
 - Kaiming He
 - Georgia Gkioxari
-- "Piotr Doll\xE1r"
+- Piotr Dollár
 - Ross B. Girshick
 badges:
 - id: OPEN_ACCESS
@@ -374,7 +374,7 @@ references:
   numCitedBy: 68471
   pid: 3e0e337b477e0c226da00eae03fd29882275a469
   show_ref_link: false
-  title: "\u201CA and B\u201D - "
+  title: '“A and B” - '
   year: 2019
 - fieldsOfStudy: []
   meta_key: 1962-k

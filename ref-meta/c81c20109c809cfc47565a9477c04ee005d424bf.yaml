@@ -1,5 +1,5 @@
 authors:
-- "Philipp Kr\xE4henb\xFChl"
+- Philipp Krähenbühl
 - V. Koltun
 badges:
 - id: OPEN_ACCESS
@@ -205,10 +205,10 @@ references:
   numCitedBy: 428
   pid: 7309a56c14f9f2737dbc7d45e106a65c205b3dcb
   show_ref_link: false
-  title: "Fast High\u2010Dimensional Filtering Using the Permutohedral Lattice"
+  title: Fast High‐Dimensional Filtering Using the Permutohedral Lattice
   year: 2010
-slug: "Efficient-Inference-in-Fully-Connected-CRFs-with-Kr\xE4henb\xFChl-Koltun"
+slug: Efficient-Inference-in-Fully-Connected-CRFs-with-Krähenbühl-Koltun
 title: Efficient Inference in Fully Connected CRFs with Gaussian Edge Potentials
-url: "https://www.semanticscholar.org/paper/Efficient-Inference-in-Fully-Connected-CRFs-with-Kr\xE4henb\xFChl-Koltun/c81c20109c809cfc47565a9477c04ee005d424bf?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Efficient-Inference-in-Fully-Connected-CRFs-with-Krähenbühl-Koltun/c81c20109c809cfc47565a9477c04ee005d424bf?sort=total-citations
 venue: NIPS
 year: 2011

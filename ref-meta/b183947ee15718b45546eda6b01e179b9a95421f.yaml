@@ -1,6 +1,6 @@
 authors:
 - C. L. Zitnick
-- "Piotr Doll\xE1r"
+- Piotr Dollár
 badges:
 - id: OPEN_ACCESS
 corpusId: 5984060
@@ -9,7 +9,7 @@ fieldsOfStudy:
 meta_key: 2014-edge-boxes-locating-object-proposals-from-edges
 numCitedBy: 2419
 numCiting: 30
-paperAbstract: "The use of object proposals is an effective recent approach for increasing the computational efficiency of object detection. We propose a novel method for generating object bounding box proposals using edges. Edges provide a sparse yet informative representation of an image. Our main observation is that the number of contours that are wholly contained in a bounding box is indicative of the likelihood of the box containing an object. We propose a simple box objectness score that measures the number of edges that exist in the box minus those that are members of contours that overlap the box\u2019s boundary. Using efficient data structures, millions of candidate boxes can be evaluated in a fraction of a second, returning a ranked set of a few thousand top-scoring proposals. Using standard metrics, we show results that are significantly more accurate than the current state-of-the-art while being faster to compute. In particular, given just 1000 proposals we achieve over 96% object recall at overlap threshold of 0.5 and over 75% recall at the more challenging overlap of 0.7. Our approach runs in 0.25 seconds and we additionally demonstrate a near real-time variant with only minor loss in accuracy."
+paperAbstract: The use of object proposals is an effective recent approach for increasing the computational efficiency of object detection. We propose a novel method for generating object bounding box proposals using edges. Edges provide a sparse yet informative representation of an image. Our main observation is that the number of contours that are wholly contained in a bounding box is indicative of the likelihood of the box containing an object. We propose a simple box objectness score that measures the number of edges that exist in the box minus those that are members of contours that overlap the box’s boundary. Using efficient data structures, millions of candidate boxes can be evaluated in a fraction of a second, returning a ranked set of a few thousand top-scoring proposals. Using standard metrics, we show results that are significantly more accurate than the current state-of-the-art while being faster to compute. In particular, given just 1000 proposals we achieve over 96% object recall at overlap threshold of 0.5 and over 75% recall at the more challenging overlap of 0.7. Our approach runs in 0.25 seconds and we additionally demonstrate a near real-time variant with only minor loss in accuracy.
 ref_count: 28
 references:
 - fieldsOfStudy:
@@ -237,8 +237,8 @@ references:
   show_ref_link: false
   title: Fast Edge Detection Using Structured Forests
   year: 2016
-slug: "Edge-Boxes:-Locating-Object-Proposals-from-Edges-Zitnick-Doll\xE1r"
+slug: Edge-Boxes:-Locating-Object-Proposals-from-Edges-Zitnick-Dollár
 title: Edge Boxes - Locating Object Proposals from Edges
-url: "https://www.semanticscholar.org/paper/Edge-Boxes:-Locating-Object-Proposals-from-Edges-Zitnick-Doll\xE1r/b183947ee15718b45546eda6b01e179b9a95421f?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Edge-Boxes:-Locating-Object-Proposals-from-Edges-Zitnick-Dollár/b183947ee15718b45546eda6b01e179b9a95421f?sort=total-citations
 venue: ECCV
 year: 2014

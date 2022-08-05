@@ -1,6 +1,6 @@
 authors:
 - L. D. Moura
-- "N. Bj\xF8rner"
+- N. Bjørner
 badges:
 - id: OPEN_ACCESS
 corpusId: 15912959
@@ -124,8 +124,8 @@ references:
   show_ref_link: false
   title: Vigilante - end-to-end containment of internet worms
   year: 2005
-slug: "Z3:-An-Efficient-SMT-Solver-Moura-Bj\xF8rner"
+slug: Z3:-An-Efficient-SMT-Solver-Moura-Bjørner
 title: Z3 - An Efficient SMT Solver
-url: "https://www.semanticscholar.org/paper/Z3:-An-Efficient-SMT-Solver-Moura-Bj\xF8rner/3960dda299e0f8615a7db675b8e6905b375ecf8a?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Z3:-An-Efficient-SMT-Solver-Moura-Bjørner/3960dda299e0f8615a7db675b8e6905b375ecf8a?sort=total-citations
 venue: TACAS
 year: 2008

@@ -307,11 +307,11 @@ references:
   year: 1982
 - fieldsOfStudy:
   - Philosophy
-  meta_key: "1892-\xFCber-sinn-und-bedeutung"
+  meta_key: 1892-über-sinn-und-bedeutung
   numCitedBy: 1709
   pid: d7667992907417ee46c7a5ff541006cf6e6a7748
   show_ref_link: false
-  title: "\xDCber Sinn und Bedeutung"
+  title: Über Sinn und Bedeutung
   year: 1892
 - fieldsOfStudy:
   - Computer Science

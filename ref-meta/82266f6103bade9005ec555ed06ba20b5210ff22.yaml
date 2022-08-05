@@ -244,11 +244,11 @@ references:
 - fieldsOfStudy:
   - Computer Science
   - Mathematics
-  meta_key: "2005-on-the-nystr\xF6m-method-for-approximating-a-gram-matrix-for-improved-kernel-based-learning"
+  meta_key: 2005-on-the-nyström-method-for-approximating-a-gram-matrix-for-improved-kernel-based-learning
   numCitedBy: 934
   pid: 11e6b5a30a921e6028662105148fac41a76f0500
   show_ref_link: false
-  title: "On the Nystr\xF6m Method for Approximating a Gram Matrix for Improved Kernel-Based Learning"
+  title: On the Nyström Method for Approximating a Gram Matrix for Improved Kernel-Based Learning
   year: 2005
 - fieldsOfStudy:
   - Computer Science
@@ -550,7 +550,7 @@ references:
   numCitedBy: 1019
   pid: 1486de62910bfc6eac13b14e7a76c9024003d6bc
   show_ref_link: false
-  title: "Some Aspects of the Spline Smoothing Approach to Non\u2010Parametric Regression Curve Fitting"
+  title: Some Aspects of the Spline Smoothing Approach to Non‐Parametric Regression Curve Fitting
   year: 1985
 - fieldsOfStudy:
   - Computer Science
@@ -1575,11 +1575,11 @@ references:
   year: 1964
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2002-observations-on-the-nystr\xF6m-method-for-gaussian-process-prediction"
+  meta_key: 2002-observations-on-the-nyström-method-for-gaussian-process-prediction
   numCitedBy: 34
   pid: 93ee729418053ef7c30ad5b2348eb6e8eb2b815e
   show_ref_link: false
-  title: "Observations on the Nystr\xF6m Method for Gaussian Process Prediction"
+  title: Observations on the Nyström Method for Gaussian Process Prediction
   year: 2002
 - fieldsOfStudy:
   - Mathematics
@@ -1647,11 +1647,11 @@ references:
   year: 2000
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2000-using-the-nystr\xF6m-method-to-speed-up-kernel-machines"
+  meta_key: 2000-using-the-nyström-method-to-speed-up-kernel-machines
   numCitedBy: 2181
   pid: b6fff8b8ea77f157913986e7af53951d9fc1128e
   show_ref_link: false
-  title: "Using the Nystr\xF6m Method to Speed Up Kernel Machines"
+  title: Using the Nyström Method to Speed Up Kernel Machines
   year: 2000
 slug: Gaussian-Processes-for-Machine-Learning-Rasmussen-Williams
 title: Gaussian Processes for Machine Learning

@@ -110,11 +110,11 @@ references:
   year: 2005
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2001-training-\u03BD-support-vector-classifiers-theory-and-algorithms"
+  meta_key: 2001-training-ν-support-vector-classifiers-theory-and-algorithms
   numCitedBy: 115
   pid: a36c11be9be934b33dbd8f0ec65abdc0ecd4cc7b
   show_ref_link: false
-  title: "Training \u03BD-Support Vector Classifiers - Theory and Algorithms"
+  title: Training ν-Support Vector Classifiers - Theory and Algorithms
   year: 2001
 - fieldsOfStudy:
   - Computer Science

@@ -340,7 +340,7 @@ references:
   numCitedBy: 227
   pid: 2d8f527d1a96b0dae209daa6a241cf3255a6ec0d
   show_ref_link: false
-  title: "Learning long\u2010range vision for autonomous off\u2010road driving"
+  title: Learning long‐range vision for autonomous off‐road driving
   year: 2009
 - fieldsOfStudy:
   - Computer Science
@@ -376,11 +376,11 @@ references:
   year: 2004
 - fieldsOfStudy:
   - Engineering
-  meta_key: "2012-a-0-41\xB5a-standby-leakage-32kb-embedded-sram-with-low-voltage-resume-standby-utilizing-all-digital-current-comparator-in-28nm-hkmg-cmos"
+  meta_key: 2012-a-0-41µa-standby-leakage-32kb-embedded-sram-with-low-voltage-resume-standby-utilizing-all-digital-current-comparator-in-28nm-hkmg-cmos
   numCitedBy: 9
   pid: 26488c46d3d7701bd553b53042ef9d77d5c9baca
   show_ref_link: false
-  title: "A 0.41\xB5A standby leakage 32Kb embedded SRAM with Low-Voltage resume-standby utilizing all digital current comparator in 28nm HKMG CMOS"
+  title: A 0.41µA standby leakage 32Kb embedded SRAM with Low-Voltage resume-standby utilizing all digital current comparator in 28nm HKMG CMOS
   year: 2012
 - fieldsOfStudy:
   - Physics

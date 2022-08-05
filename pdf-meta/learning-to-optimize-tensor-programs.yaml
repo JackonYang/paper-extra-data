@@ -9,5 +9,6 @@ raw_filename: learning-to-optimize-tensor-programs
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Learning To Optimize Tensor Programs
 url_slug: learning-to-optimize-tensor-programs

@@ -195,7 +195,7 @@ references:
   numCitedBy: 318
   pid: 01c63a899ee75d4ec1ecbf69313d7ad37a99d4c2
   show_ref_link: false
-  title: "THE ESTIMATION OF GENE FREQUENCIES IN A RANDOM\u2010MATING POPULATION"
+  title: THE ESTIMATION OF GENE FREQUENCIES IN A RANDOM‐MATING POPULATION
   year: 1955
 - fieldsOfStudy:
   - Mathematics
@@ -449,7 +449,7 @@ references:
   numCitedBy: 80
   pid: a310a649a6597fdf9cb38ab62ee42c8abfb59e4c
   show_ref_link: false
-  title: "A Non\u2010Iterative Algorithm for Least Squares Estimation of Missing Values in Any Analysis of Variance Design"
+  title: A Non‐Iterative Algorithm for Least Squares Estimation of Missing Values in Any Analysis of Variance Design
   year: 1972
 - fieldsOfStudy:
   - Mathematics
@@ -517,11 +517,11 @@ references:
   year: 1925
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1960-\xFCber-eine-kontingenztafel-mit-fehlenden-daten"
+  meta_key: 1960-über-eine-kontingenztafel-mit-fehlenden-daten
   numCitedBy: 11
   pid: d4ec37d593596d903001b98913235f0c9b6b08eb
   show_ref_link: false
-  title: "\xDCber eine Kontingenztafel mit fehlenden Daten"
+  title: Über eine Kontingenztafel mit fehlenden Daten
   year: 1960
 - fieldsOfStudy:
   - Mathematics
@@ -569,7 +569,7 @@ references:
   numCitedBy: 81
   pid: aef88046f58d03d18555a4479ef84c780e358a2e
   show_ref_link: false
-  title: "Identification of the Sources of Significance in Two\u2010Way Contingency Tables"
+  title: Identification of the Sources of Significance in Two‐Way Contingency Tables
   year: 1974
 - fieldsOfStudy:
   - Computer Science

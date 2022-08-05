@@ -757,11 +757,11 @@ references:
   year: 1986
 - fieldsOfStudy:
   - Art
-  meta_key: "1991-remarques-sur-l-analyse-de-fourier-\xE0-fen\xEAtre"
+  meta_key: 1991-remarques-sur-l-analyse-de-fourier-à-fenêtre
   numCitedBy: 274
   pid: 536345bdb6921f7fb61da0fa035d392f14866a38
   show_ref_link: false
-  title: "Remarques sur l'analyse de Fourier \xE0 fen\xEAtre"
+  title: Remarques sur l'analyse de Fourier à fenêtre
   year: 1991
 - fieldsOfStudy:
   - Mathematics
@@ -1288,7 +1288,7 @@ references:
   numCitedBy: 92
   pid: c55a8cfd0a7405428a9154d1ea7a3ea5a3b07377
   show_ref_link: false
-  title: "Pointwise analysis of Riemann's \u201Cnondifferentiable\u201D function"
+  title: Pointwise analysis of Riemann's “nondifferentiable” function
   year: 1991
 - fieldsOfStudy:
   - Computer Science
@@ -1642,11 +1642,11 @@ references:
   year: 1984
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1987-a-block-spin-construction-of-ondelettes-part-i-lemari\xE9-functions"
+  meta_key: 1987-a-block-spin-construction-of-ondelettes-part-i-lemarié-functions
   numCitedBy: 417
   pid: 834e867d82fd1276a4c89fa4904292d320efd386
   show_ref_link: false
-  title: "A block spin construction of ondelettes. Part I - Lemari\xE9 functions"
+  title: A block spin construction of ondelettes. Part I - Lemarié functions
   year: 1987
 - fieldsOfStudy:
   - Mathematics
@@ -1810,11 +1810,11 @@ references:
   year: 1947
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1992-regularit\xE9-des-bases-d-ondelettes-et-mesures-ergodiques"
+  meta_key: 1992-regularité-des-bases-d-ondelettes-et-mesures-ergodiques
   numCitedBy: 41
   pid: 2e839d10cf0385a577c93d9d19837d8f8b15c2f5
   show_ref_link: false
-  title: "Regularit\xE9 des bases d'ondelettes et mesures ergodiques"
+  title: Regularité des bases d'ondelettes et mesures ergodiques
   year: 1992
 - fieldsOfStudy:
   - Computer Science
@@ -1926,7 +1926,7 @@ references:
   numCitedBy: 1022
   pid: 9645c1703068284dea087bb45097d231b57e081c
   show_ref_link: false
-  title: "Evolutionary Spectra and Non\u2010Stationary Processes"
+  title: Evolutionary Spectra and Non‐Stationary Processes
   year: 1965
 - fieldsOfStudy:
   - Computer Science
@@ -1946,11 +1946,11 @@ references:
   year: 1980
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1986-principe-d-incertitude-bases-hilbertiennes-et-alg\xE8bres-d-op\xE9rateurs"
+  meta_key: 1986-principe-d-incertitude-bases-hilbertiennes-et-algèbres-d-opérateurs
   numCitedBy: 278
   pid: c1230a3911ba4c431e5640c7b365fb1de474212c
   show_ref_link: false
-  title: "Principe d'incertitude, bases hilbertiennes et alg\xE8bres d'op\xE9rateurs"
+  title: Principe d'incertitude, bases hilbertiennes et algèbres d'opérateurs
   year: 1986
 - fieldsOfStudy:
   - Computer Science

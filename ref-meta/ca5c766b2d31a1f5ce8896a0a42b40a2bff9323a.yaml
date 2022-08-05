@@ -520,11 +520,11 @@ references:
   year: 1994
 - fieldsOfStudy:
   - Physics
-  meta_key: "2007-backpropagation\uC744-\uC774\uC6A9\uD55C-\uC545\uBCF4\uC778\uC2DD"
+  meta_key: 2007-backpropagation을-이용한-악보인식
   numCitedBy: 44
   pid: 0823f1ddf7e4320ab33681f417788ab412b9132a
   show_ref_link: false
-  title: "Backpropagation\uC744 \uC774\uC6A9\uD55C \uC545\uBCF4\uC778\uC2DD"
+  title: Backpropagation을 이용한 악보인식
   year: 2007
 - fieldsOfStudy:
   - Mathematics
@@ -564,7 +564,7 @@ references:
   numCitedBy: 428
   pid: 7309a56c14f9f2737dbc7d45e106a65c205b3dcb
   show_ref_link: false
-  title: "Fast High\u2010Dimensional Filtering Using the Permutohedral Lattice"
+  title: Fast High‐Dimensional Filtering Using the Permutohedral Lattice
   year: 2010
 - fieldsOfStudy:
   - Mathematics

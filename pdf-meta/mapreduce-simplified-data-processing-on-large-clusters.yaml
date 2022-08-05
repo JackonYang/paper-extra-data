@@ -9,5 +9,6 @@ raw_filename: mapreduce-simplified-data-processing-on-large-clusters
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Mapreduce Simplified Data Processing On Large Clusters
 url_slug: mapreduce-simplified-data-processing-on-large-clusters

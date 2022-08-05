@@ -182,7 +182,7 @@ references:
   numCitedBy: 120
   pid: 4d2f5946e37d7f20d5ff5d2182008cef83639579
   show_ref_link: false
-  title: "New implementation of high\u2010level correlated methods using a general block tensor library for high\u2010performance electronic structure calculations"
+  title: New implementation of high‐level correlated methods using a general block tensor library for high‐performance electronic structure calculations
   year: 2013
 - fieldsOfStudy:
   - Computer Science
@@ -476,11 +476,11 @@ references:
   year: 2013
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1900-m\xE9thodes-de-calcul-diff\xE9rentiel-absolu-et-leurs-applications"
+  meta_key: 1900-méthodes-de-calcul-différentiel-absolu-et-leurs-applications
   numCitedBy: 310
   pid: d3a0cdb09e08fe5452e4eb77b17653436113f2a2
   show_ref_link: false
-  title: "M\xE9thodes de calcul diff\xE9rentiel absolu et leurs applications"
+  title: Méthodes de calcul différentiel absolu et leurs applications
   year: 1900
 - fieldsOfStudy:
   - Computer Science

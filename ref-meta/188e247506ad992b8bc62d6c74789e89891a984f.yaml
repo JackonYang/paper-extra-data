@@ -240,11 +240,11 @@ references:
   year: 2008
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "1979-an-economic-method-of-computing-lp\u03C4-sequences"
+  meta_key: 1979-an-economic-method-of-computing-lpτ-sequences
   numCitedBy: 221
   pid: 74f2f96339950aa6936af83dcd398ff06e0a2f61
   show_ref_link: false
-  title: "An economic method of computing LP\u03C4-sequences"
+  title: An economic method of computing LPτ-sequences
   year: 1979
 - fieldsOfStudy:
   - Psychology
@@ -285,7 +285,7 @@ references:
   numCitedBy: 1327
   pid: 0acf50ce5c4e1268742f31e98ed294b8c967b829
   show_ref_link: false
-  title: "Rechenberg, Ingo, Evolutionsstrategie - Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. 170 S. mit 36 Abb. Frommann\u2010Holzboog\u2010Verlag. Stuttgart 1973. Broschiert"
+  title: Rechenberg, Ingo, Evolutionsstrategie - Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. 170 S. mit 36 Abb. Frommann‐Holzboog‐Verlag. Stuttgart 1973. Broschiert
   year: 1975
 - fieldsOfStudy:
   - Computer Science

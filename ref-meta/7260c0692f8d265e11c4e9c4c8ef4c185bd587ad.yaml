@@ -854,7 +854,7 @@ references:
   numCitedBy: 22
   pid: 011f34d7060e6bb93776f1100ace01c9ecbfffd6
   show_ref_link: false
-  title: "Self-reflexive networks - Theory \xB7 topology \xB7 applications"
+  title: Self-reflexive networks - Theory · topology · applications
   year: 1995
 - fieldsOfStudy:
   - Psychology
@@ -2243,7 +2243,9 @@ references:
   numCitedBy: 3862
   pid: ba1c520d8f4ac9aeaf33bd9e032a229ac81ca14b
   show_ref_link: false
-  title: "The hippocampus as a cognitive map J. O'Keefe & L. Nadel, Oxford University Press, Oxford (1978). 570 pp., \xA325.00\n"
+  title: 'The hippocampus as a cognitive map J. O''Keefe & L. Nadel, Oxford University Press, Oxford (1978). 570 pp., £25.00
+
+    '
   year: 1979
 - fieldsOfStudy:
   - Computer Science
@@ -2316,7 +2318,7 @@ references:
   numCitedBy: 82
   pid: 5746668d3c1b5647f150acc26fa92740ea72fda1
   show_ref_link: false
-  title: "Explanation and categorization - How \u201Cwhy?\u201D informs \u201Cwhat?\u201D"
+  title: Explanation and categorization - How “why?” informs “what?”
   year: 2009
 - fieldsOfStudy:
   - Computer Science
@@ -2653,7 +2655,7 @@ references:
   numCitedBy: 50
   pid: fde713a628d1106def248785500d30c4e60219ab
   show_ref_link: false
-  title: "Teachers' ethnotheories of the \u2018ideal student' in five western cultures"
+  title: Teachers' ethnotheories of the ‘ideal student' in five western cultures
   year: 2007
 - fieldsOfStudy:
   - Psychology
@@ -2716,11 +2718,11 @@ references:
 - fieldsOfStudy:
   - Education
   - Sociology
-  meta_key: "2008-democracia-e-cidadania-na-escola-do-discurso-\xE0-pr\xE1tica"
+  meta_key: 2008-democracia-e-cidadania-na-escola-do-discurso-à-prática
   numCitedBy: 56
   pid: 5827b0a11123e04477a0a390ee31c82417d41423
   show_ref_link: false
-  title: "Democracia e Cidadania na Escola - Do Discurso \xE0 Pr\xE1tica"
+  title: Democracia e Cidadania na Escola - Do Discurso à Prática
   year: 2008
 - fieldsOfStudy:
   - Education
@@ -2764,11 +2766,11 @@ references:
   year: 1998
 - fieldsOfStudy:
   - Art
-  meta_key: "2013-\u90CA\u5916\u306E\u672A\u6765\u50CF-do-androids-dream-of-electric-sheep-\u306B\u304A\u3051\u308B\u6D88\u8CBB\u6587\u5316-\u74B0\u5883\u6B63\u7FA9"
+  meta_key: 2013-郊外の未来像-do-androids-dream-of-electric-sheep-における消費文化-環境正義
   numCitedBy: 35
   pid: 352aeb4f4e2893cbd6e86b45ecb04ba20d4fcd50
   show_ref_link: false
-  title: "\u90CA\u5916\u306E\u672A\u6765\u50CF - Do Androids Dream of Electric Sheep?\u306B\u304A\u3051\u308B\u6D88\u8CBB\u6587\u5316\u30FB\u74B0\u5883\u6B63\u7FA9"
+  title: 郊外の未来像 - Do Androids Dream of Electric Sheep?における消費文化・環境正義
   year: 2013
 - fieldsOfStudy:
   - Political Science

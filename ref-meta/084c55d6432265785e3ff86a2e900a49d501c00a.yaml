@@ -1,6 +1,6 @@
 authors:
 - Christopher D. Manning
-- "Hinrich Sch\xFCtze"
+- Hinrich Schütze
 badges:
 - id: OPEN_ACCESS
 corpusId: 52800448
@@ -1416,7 +1416,7 @@ references:
   numCitedBy: 176
   pid: b69b9ab2e2ee35dc287edddb91c5bc8cdf126679
   show_ref_link: false
-  title: "A Comparison of Some Measures for the Determination of Inter\u2010Molecular Structural Similarity Measures of Inter\u2010Molecular Structural Similarity"
+  title: A Comparison of Some Measures for the Determination of Inter‐Molecular Structural Similarity Measures of Inter‐Molecular Structural Similarity
   year: 1986
 - fieldsOfStudy:
   - Computer Science
@@ -1813,8 +1813,8 @@ references:
   show_ref_link: false
   title: Inducing Probabilistic Grammars by Bayesian Model Merging
   year: 1994
-slug: "Foundations-of-statistical-natural-language-Manning-Sch\xFCtze"
+slug: Foundations-of-statistical-natural-language-Manning-Schütze
 title: Foundations of statistical natural language processing
-url: "https://www.semanticscholar.org/paper/Foundations-of-statistical-natural-language-Manning-Sch\xFCtze/084c55d6432265785e3ff86a2e900a49d501c00a?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Foundations-of-statistical-natural-language-Manning-Schütze/084c55d6432265785e3ff86a2e900a49d501c00a?sort=total-citations
 venue: SGMD
 year: 2002

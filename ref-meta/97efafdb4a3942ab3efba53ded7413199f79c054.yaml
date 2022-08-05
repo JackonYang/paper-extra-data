@@ -1066,11 +1066,11 @@ references:
   year: 1998
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "2004-td-\u03BB-converges-with-probability-1"
+  meta_key: 2004-td-λ-converges-with-probability-1
   numCitedBy: 115
   pid: 66bdd8715fc0e9a110382a2b91477bea1adc25aa
   show_ref_link: false
-  title: "TD(\u03BB) Converges with Probability 1"
+  title: TD(λ) Converges with Probability 1
   year: 2004
 - fieldsOfStudy:
   - Computer Science
@@ -2149,11 +2149,11 @@ references:
   year: 1991
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2004-the-convergence-of-td-\u03BB-for-general-\u03BB"
+  meta_key: 2004-the-convergence-of-td-λ-for-general-λ
   numCitedBy: 194
   pid: 28be6c2ed074a7fa63818a1730b04219d8a01c02
   show_ref_link: false
-  title: "The convergence of TD(\u03BB) for general \u03BB"
+  title: The convergence of TD(λ) for general λ
   year: 2004
 - fieldsOfStudy:
   - Computer Science
@@ -2748,11 +2748,11 @@ references:
 - fieldsOfStudy:
   - Business
   - Computer Science
-  meta_key: "1995-high-performance-job-shop-scheduling-with-a-time-delay-td-\u03BB-network"
+  meta_key: 1995-high-performance-job-shop-scheduling-with-a-time-delay-td-λ-network
   numCitedBy: 125
   pid: a5a48f3876da907f3be47c146f31af58ec041a86
   show_ref_link: false
-  title: "High-Performance Job-Shop Scheduling With A Time-Delay TD(\u03BB) Network"
+  title: High-Performance Job-Shop Scheduling With A Time-Delay TD(λ) Network
   year: 1995
 - fieldsOfStudy:
   - Biology

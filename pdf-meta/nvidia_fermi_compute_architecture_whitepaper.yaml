@@ -9,5 +9,6 @@ raw_filename: NVIDIA_Fermi_Compute_Architecture_Whitepaper
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Nvidia Fermi Compute Architecture Whitepaper
 url_slug: NVIDIA_Fermi_Compute_Architecture_Whitepaper

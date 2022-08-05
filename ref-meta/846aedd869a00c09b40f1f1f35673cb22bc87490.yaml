@@ -27,7 +27,7 @@ fieldsOfStudy:
 meta_key: 2016-mastering-the-game-of-go-with-deep-neural-networks-and-tree-search
 numCitedBy: 11516
 numCiting: 81
-paperAbstract: "The game of Go has long been viewed as the most challenging of classic games for artificial intelligence owing to its enormous search space and the difficulty of evaluating board positions and moves. Here we introduce a new approach to computer Go that uses \u2018value networks\u2019 to evaluate board positions and \u2018policy networks\u2019 to select moves. These deep neural networks are trained by a novel combination of supervised learning from human expert games, and reinforcement learning from games of self-play. Without any lookahead search, the neural networks play Go at the level of state-of-the-art Monte Carlo tree search programs that simulate thousands of random games of self-play. We also introduce a new search algorithm that combines Monte Carlo simulation with value and policy networks. Using this search algorithm, our program AlphaGo achieved a 99.8% winning rate against other Go programs, and defeated the human European Go champion by 5 games to 0. This is the first time that a computer program has defeated a human professional player in the full-sized game of Go, a feat previously thought to be at least a decade away."
+paperAbstract: The game of Go has long been viewed as the most challenging of classic games for artificial intelligence owing to its enormous search space and the difficulty of evaluating board positions and moves. Here we introduce a new approach to computer Go that uses ‘value networks’ to evaluate board positions and ‘policy networks’ to select moves. These deep neural networks are trained by a novel combination of supervised learning from human expert games, and reinforcement learning from games of self-play. Without any lookahead search, the neural networks play Go at the level of state-of-the-art Monte Carlo tree search programs that simulate thousands of random games of self-play. We also introduce a new search algorithm that combines Monte Carlo simulation with value and policy networks. Using this search algorithm, our program AlphaGo achieved a 99.8% winning rate against other Go programs, and defeated the human European Go champion by 5 games to 0. This is the first time that a computer program has defeated a human professional player in the full-sized game of Go, a feat previously thought to be at least a decade away.
 ref_count: 81
 references:
 - fieldsOfStudy:
@@ -140,7 +140,7 @@ references:
   numCitedBy: 7
   pid: 0b730b69446f0d2d263d6d13ef85ce8a16bec7c1
   show_ref_link: false
-  title: "Active Opening Book Application for Monte-Carlo Tree Search in 19\xD719 Go"
+  title: Active Opening Book Application for Monte-Carlo Tree Search in 19×19 Go
   year: 2011
 - fieldsOfStudy:
   - Computer Science
@@ -337,11 +337,11 @@ references:
   year: 2004
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2006-modi\uFB01cation-of-uct-with-patterns-in-monte-carlo-go"
+  meta_key: 2006-modiﬁcation-of-uct-with-patterns-in-monte-carlo-go
   numCitedBy: 377
   pid: 83ae6a9d4d886d9746a21860dc04a7cdfec39f52
   show_ref_link: false
-  title: "Modi\uFB01cation of UCT with Patterns in Monte-Carlo Go"
+  title: Modiﬁcation of UCT with Patterns in Monte-Carlo Go
   year: 2006
 - fieldsOfStudy:
   - Computer Science
@@ -529,11 +529,11 @@ references:
   year: 2016
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2018-5\u5206\u3067\u5206\u304B\u308B-\u6709\u540D\u8AD6\u6587\u30CA\u30CA\u30E1\u8AAD\u307F-silver-d-et-al-mastering-the-game-of-go-without-human-knowledge"
+  meta_key: 2018-5分で分かる-有名論文ナナメ読み-silver-d-et-al-mastering-the-game-of-go-without-human-knowledge
   numCitedBy: 42
   pid: 48185dd3107a54a67cc047d6644a80738d17ada7
   show_ref_link: false
-  title: "5\u5206\u3067\u5206\u304B\u308B! ? \u6709\u540D\u8AD6\u6587\u30CA\u30CA\u30E1\u8AAD\u307F\uFF1ASilver, D. et al. - Mastering the Game of Go without Human Knowledge"
+  title: 5分で分かる! ? 有名論文ナナメ読み：Silver, D. et al. - Mastering the Game of Go without Human Knowledge
   year: 2018
 - fieldsOfStudy:
   - Medicine

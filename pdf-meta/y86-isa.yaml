@@ -9,5 +9,6 @@ raw_filename: Y86-ISA
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Y86 Isa
 url_slug: Y86-ISA

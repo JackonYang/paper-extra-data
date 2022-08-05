@@ -1,7 +1,7 @@
 authors:
 - J. Hosang
 - Rodrigo Benenson
-- "Piotr Doll\xE1r"
+- Piotr Dollár
 - B. Schiele
 badges:
 - id: UNPAYWALL
@@ -229,7 +229,7 @@ references:
   numCitedBy: 73
   pid: cf0f4f4dfda2473601d60de36333c4ebe1df8f1a
   show_ref_link: false
-  title: "Object-Proposal Evaluation Protocol is \u2018Gameable'"
+  title: Object-Proposal Evaluation Protocol is ‘Gameable'
   year: 2016
 - fieldsOfStudy:
   - Computer Science
@@ -508,11 +508,11 @@ references:
   year: 2009
 - fieldsOfStudy:
   - Engineering
-  meta_key: "2014-efficient-graph-based-image-segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  meta_key: 2014-efficient-graph-based-image-segmentationを用いた圃場図自動作成手法の検討
   numCitedBy: 1761
   pid: b3df1ffb8a6856f20be51243406f2fdbe2a335ba
   show_ref_link: false
-  title: "Efficient Graph-Based Image Segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  title: Efficient Graph-Based Image Segmentationを用いた圃場図自動作成手法の検討
   year: 2014
 - fieldsOfStudy:
   - Computer Science

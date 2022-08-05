@@ -1,5 +1,5 @@
 authors:
-- "C. Sch\xFCldt"
+- C. Schüldt
 - I. Laptev
 - B. Caputo
 badges:
@@ -127,11 +127,11 @@ references:
   year: 2004
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2002-spectral-partitioning-with-indefinite-kernels-using-the-nystr\xF6m-extension"
+  meta_key: 2002-spectral-partitioning-with-indefinite-kernels-using-the-nyström-extension
   numCitedBy: 136
   pid: cb22aec624fe953764777bcf9beef9b83e59efed
   show_ref_link: false
-  title: "Spectral Partitioning with Indefinite Kernels Using the Nystr\xF6m Extension"
+  title: Spectral Partitioning with Indefinite Kernels Using the Nyström Extension
   year: 2002
 - fieldsOfStudy:
   - Computer Science
@@ -149,8 +149,8 @@ references:
   show_ref_link: false
   title: Proceedings of the 4th International Conference on Pattern Recognition
   year: 1988
-slug: "Recognizing-human-actions:-a-local-SVM-approach-Sch\xFCldt-Laptev"
+slug: Recognizing-human-actions:-a-local-SVM-approach-Schüldt-Laptev
 title: Recognizing human actions - a local SVM approach
-url: "https://www.semanticscholar.org/paper/Recognizing-human-actions:-a-local-SVM-approach-Sch\xFCldt-Laptev/b786e478cf0be6fcfaeb7812e25da85523236855?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Recognizing-human-actions:-a-local-SVM-approach-Schüldt-Laptev/b786e478cf0be6fcfaeb7812e25da85523236855?sort=total-citations
 venue: Proceedings of the 17th International Conference on Pattern Recognition, 2004. ICPR 2004.
 year: 2004

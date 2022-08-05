@@ -11,7 +11,7 @@ fieldsOfStudy:
 meta_key: 2008-labeled-faces-in-the-wild-a-database-forstudying-face-recognition-in-unconstrained-environments
 numCitedBy: 4941
 numCiting: 62
-paperAbstract: "Most face databases have been created under controlled conditions to facilitate the study of specific parameters on the face recognition problem. These parameters include such variables as position, pose, lighting, background, camera quality, and gender. While there are many applications for face recognition technology in which one can control the parameters of image acquisition, there are also many applications in which the practitioner has little or no control over such parameters. This database, Labeled Faces in the Wild, is provided as an aid in studying the latter, unconstrained, recognition problem. The database contains labeled face photographs spanning the range of conditions typically encountered in everyday life. The database exhibits \u201Cnatural\u201D variability in factors such as pose, lighting, race, accessories, occlusions, and background. In addition to describing the details of the database, we provide specific experimental paradigms for which the database is suitable. This is done in an effort to make research performed with the database as consistent and comparable as possible. We provide baseline results, including results of a state of the art face recognition system combined with a face alignment system. To facilitate experimentation on the database, we provide several parallel databases, including an aligned version."
+paperAbstract: Most face databases have been created under controlled conditions to facilitate the study of specific parameters on the face recognition problem. These parameters include such variables as position, pose, lighting, background, camera quality, and gender. While there are many applications for face recognition technology in which one can control the parameters of image acquisition, there are also many applications in which the practitioner has little or no control over such parameters. This database, Labeled Faces in the Wild, is provided as an aid in studying the latter, unconstrained, recognition problem. The database contains labeled face photographs spanning the range of conditions typically encountered in everyday life. The database exhibits “natural” variability in factors such as pose, lighting, race, accessories, occlusions, and background. In addition to describing the details of the database, we provide specific experimental paradigms for which the database is suitable. This is done in an effort to make research performed with the database as consistent and comparable as possible. We provide baseline results, including results of a state of the art face recognition system combined with a face alignment system. To facilitate experimentation on the database, we provide several parallel databases, including an aligned version.
 ref_count: 62
 references:
 - fieldsOfStudy:
@@ -297,11 +297,11 @@ references:
   year: 1998
 - fieldsOfStudy:
   - Chemistry
-  meta_key: "2001-national-institute-of-standards-and-technology\u306B\u304A\u3051\u308B\u8D85\u4F1D\u5C0E\u7814\u7A76\u53CA\u3073\u751F\u6D3B"
+  meta_key: 2001-national-institute-of-standards-and-technologyにおける超伝導研究及び生活
   numCitedBy: 3218
   pid: 6f7248a3650e02373401f3464a3e246dc041c5f4
   show_ref_link: false
-  title: "National Institute of Standards and Technology\u306B\u304A\u3051\u308B\u8D85\u4F1D\u5C0E\u7814\u7A76\u53CA\u3073\u751F\u6D3B"
+  title: National Institute of Standards and Technologyにおける超伝導研究及び生活
   year: 2001
 - fieldsOfStudy:
   - Computer Science

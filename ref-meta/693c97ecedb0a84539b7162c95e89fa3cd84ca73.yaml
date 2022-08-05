@@ -13,7 +13,7 @@ fieldsOfStudy:
 meta_key: 2019-mnasnet-platform-aware-neural-architecture-search-for-mobile
 numCitedBy: 1613
 numCiting: 52
-paperAbstract: "Designing convolutional neural networks (CNN) for mobile devices is challenging because mobile models need to be small and fast, yet still accurate. Although significant efforts have been dedicated to design and improve mobile CNNs on all dimensions, it is very difficult to manually balance these trade-offs when there are so many architectural possibilities to consider. In this paper, we propose an automated mobile neural architecture search (MNAS) approach, which explicitly incorporate model latency into the main objective so that the search can identify a model that achieves a good trade-off between accuracy and latency. Unlike previous work, where latency is considered via another, often inaccurate proxy (e.g., FLOPS), our approach directly measures real-world inference latency by executing the model on mobile phones. To further strike the right balance between flexibility and search space size, we propose a novel factorized hierarchical search space that encourages layer diversity throughout the network. Experimental results show that our approach consistently outperforms state-of-the-art mobile CNN models across multiple vision tasks. On the ImageNet classification task, our MnasNet achieves 75.2% top-1 accuracy with 78ms latency on a Pixel phone, which is 1.8\xD7 faster than MobileNetV2 with 0.5% higher accuracy and 2.3\xD7 faster than NASNet with 1.2% higher accuracy. Our MnasNet also achieves better mAP quality than MobileNets for COCO object detection. Code is at https://github.com/tensorflow/tpu/tree/master/models/official/mnasnet."
+paperAbstract: Designing convolutional neural networks (CNN) for mobile devices is challenging because mobile models need to be small and fast, yet still accurate. Although significant efforts have been dedicated to design and improve mobile CNNs on all dimensions, it is very difficult to manually balance these trade-offs when there are so many architectural possibilities to consider. In this paper, we propose an automated mobile neural architecture search (MNAS) approach, which explicitly incorporate model latency into the main objective so that the search can identify a model that achieves a good trade-off between accuracy and latency. Unlike previous work, where latency is considered via another, often inaccurate proxy (e.g., FLOPS), our approach directly measures real-world inference latency by executing the model on mobile phones. To further strike the right balance between flexibility and search space size, we propose a novel factorized hierarchical search space that encourages layer diversity throughout the network. Experimental results show that our approach consistently outperforms state-of-the-art mobile CNN models across multiple vision tasks. On the ImageNet classification task, our MnasNet achieves 75.2% top-1 accuracy with 78ms latency on a Pixel phone, which is 1.8× faster than MobileNetV2 with 0.5% higher accuracy and 2.3× faster than NASNet with 1.2% higher accuracy. Our MnasNet also achieves better mAP quality than MobileNets for COCO object detection. Code is at https://github.com/tensorflow/tpu/tree/master/models/official/mnasnet.
 ref_count: 52
 references:
 - fieldsOfStudy:
@@ -341,14 +341,14 @@ references:
   numCitedBy: 51707
   pid: f69f237073ef04043fdbd5bb6844b5b2da8e0930
   show_ref_link: false
-  title: "\u2018S'"
+  title: ‘S'
   year: 2021
 - fieldsOfStudy: []
   meta_key: 2021-l
   numCitedBy: 29765
   pid: cbe020b715b548694bad73e49c5d72854670d6e7
   show_ref_link: false
-  title: "\u2018L'"
+  title: ‘L'
   year: 2021
 - fieldsOfStudy:
   - Computer Science

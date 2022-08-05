@@ -1231,11 +1231,11 @@ references:
 - fieldsOfStudy:
   - Physics
   - Computer Science
-  meta_key: "1996-g\xE9om\xE9trie-d-un-syst\xE8me-de-n-cam\xE9ras-th\xE9orie-estimation-et-applications-geometry-of-a-system-of-n-cameras-theory-estimation-applications"
+  meta_key: 1996-géométrie-d-un-système-de-n-caméras-théorie-estimation-et-applications-geometry-of-a-system-of-n-cameras-theory-estimation-applications
   numCitedBy: 21
   pid: f78ad60964f4f0dfa0062c23b24ede627636902e
   show_ref_link: false
-  title: "G\xE9om\xE9trie d'un syst\xE8me de N cam\xE9ras - th\xE9orie, estimation et applications. (Geometry of a System of n Cameras. Theory. Estimation. Applications)"
+  title: Géométrie d'un système de N caméras - théorie, estimation et applications. (Geometry of a System of n Cameras. Theory. Estimation. Applications)
   year: 1996
 - fieldsOfStudy:
   - Physics
@@ -1474,11 +1474,11 @@ references:
 - fieldsOfStudy:
   - Philosophy
   - Computer Science
-  meta_key: "1997-vision-3d-non-calibr\xE9e-contributions-\xE0-la-reconstruction-projective-et-\xE9tude-des-mouvements-critiques-pour-l-auto-calibrage-uncalibrated-3d-vision-contributions-to-projective-reconstruction-and-study-of-the-critical-motions-for-self-calibration"
+  meta_key: 1997-vision-3d-non-calibrée-contributions-à-la-reconstruction-projective-et-étude-des-mouvements-critiques-pour-l-auto-calibrage-uncalibrated-3d-vision-contributions-to-projective-reconstruction-and-study-of-the-critical-motions-for-self-calibration
   numCitedBy: 51
   pid: afdbdce1f7e817cafb2efa903204fcb3b0ef4182
   show_ref_link: false
-  title: "Vision 3D non calibr\xE9e - contributions \xE0 la reconstruction projective et \xE9tude des mouvements critiques pour l'auto-calibrage. (Uncalibrated 3D Vision - Contributions to Projective Reconstruction and Study of the Critical Motions for Self-Calibration)"
+  title: Vision 3D non calibrée - contributions à la reconstruction projective et étude des mouvements critiques pour l'auto-calibrage. (Uncalibrated 3D Vision - Contributions to Projective Reconstruction and Study of the Critical Motions for Self-Calibration)
   year: 1997
 - fieldsOfStudy:
   - Environmental Science
@@ -1620,5 +1620,5 @@ references:
 slug: Multiple-View-Geometry-in-Computer-Vision-Wrobel
 title: Multiple View Geometry in Computer Vision
 url: https://www.semanticscholar.org/paper/Multiple-View-Geometry-in-Computer-Vision-Wrobel/339093c7ed71919ce59a7e78979a77abd25bad0c?sort=total-citations
-venue: "K\xFCnstliche Intell."
+venue: Künstliche Intell.
 year: 2001

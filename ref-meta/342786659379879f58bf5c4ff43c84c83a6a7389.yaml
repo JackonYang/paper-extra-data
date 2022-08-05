@@ -1,6 +1,6 @@
 authors:
 - Bharath Hariharan
-- "Pablo Arbel\xE1ez"
+- Pablo Arbeláez
 - Ross B. Girshick
 - Jitendra Malik
 badges:
@@ -271,8 +271,8 @@ references:
   show_ref_link: true
   title: Learning Hierarchical Features for Scene Labeling
   year: 2013
-slug: "Simultaneous-Detection-and-Segmentation-Hariharan-Arbel\xE1ez"
+slug: Simultaneous-Detection-and-Segmentation-Hariharan-Arbeláez
 title: Simultaneous Detection and Segmentation
-url: "https://www.semanticscholar.org/paper/Simultaneous-Detection-and-Segmentation-Hariharan-Arbel\xE1ez/342786659379879f58bf5c4ff43c84c83a6a7389?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Simultaneous-Detection-and-Segmentation-Hariharan-Arbeláez/342786659379879f58bf5c4ff43c84c83a6a7389?sort=total-citations
 venue: ECCV
 year: 2014

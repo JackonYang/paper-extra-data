@@ -1,8 +1,8 @@
 authors:
 - Tomas Mikolov
-- "M. Karafi\xE1t"
+- M. Karafiát
 - L. Burget
-- "J. Cernock\xFD"
+- J. Cernocký
 - S. Khudanpur
 badges:
 - id: OPEN_ACCESS
@@ -135,8 +135,8 @@ references:
   show_ref_link: false
   title: The AMI System for the Transcription of Speech in Meetings
   year: 2007
-slug: "Recurrent-neural-network-based-language-model-Mikolov-Karafi\xE1t"
+slug: Recurrent-neural-network-based-language-model-Mikolov-Karafiát
 title: Recurrent neural network based language model
-url: "https://www.semanticscholar.org/paper/Recurrent-neural-network-based-language-model-Mikolov-Karafi\xE1t/9819b600a828a57e1cde047bbe710d3446b30da5?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Recurrent-neural-network-based-language-model-Mikolov-Karafiát/9819b600a828a57e1cde047bbe710d3446b30da5?sort=total-citations
 venue: INTERSPEECH
 year: 2010

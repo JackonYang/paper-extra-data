@@ -692,7 +692,7 @@ references:
   numCitedBy: 423
   pid: aea0f946e8dcddb65cc2e907456c42453f246a50
   show_ref_link: false
-  title: "Large scale image annotation - learning\_to\_rank with\_joint word-image embeddings"
+  title: Large scale image annotation - learning to rank with joint word-image embeddings
   year: 2010
 - fieldsOfStudy:
   - Computer Science
@@ -1302,7 +1302,7 @@ references:
   numCitedBy: 2373
   pid: ca1d23be869380ac9e900578c601c2d1febcc0c9
   show_ref_link: false
-  title: "The \u201Cindependent components\u201D of natural scenes are edge filters"
+  title: The “independent components” of natural scenes are edge filters
   year: 1997
 - fieldsOfStudy:
   - Computer Science
@@ -1946,11 +1946,11 @@ references:
   year: 1997
 - fieldsOfStudy:
   - Art
-  meta_key: "2012-r\xE9seaux-de-neurones-\xE0-relaxation-entra\xEEn\xE9s-par-crit\xE8re-d-autoencodeur-d\xE9bruitant"
+  meta_key: 2012-réseaux-de-neurones-à-relaxation-entraînés-par-critère-d-autoencodeur-débruitant
   numCitedBy: 5
   pid: 402fc36729ea019f198340739df8105e1126e72f
   show_ref_link: false
-  title: "R\xE9seaux de neurones \xE0 relaxation entra\xEEn\xE9s par crit\xE8re d'autoencodeur d\xE9bruitant"
+  title: Réseaux de neurones à relaxation entraînés par critère d'autoencodeur débruitant
   year: 2012
 - fieldsOfStudy:
   - Computer Science

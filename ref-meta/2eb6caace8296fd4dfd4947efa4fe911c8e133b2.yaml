@@ -324,7 +324,7 @@ references:
   numCitedBy: 237
   pid: b3cbe851a041fb82a2caf73e3a3aa60713275fda
   show_ref_link: false
-  title: "Does luminance\u2010contrast contribute to a saliency map for overt visual attention?"
+  title: Does luminance‐contrast contribute to a saliency map for overt visual attention?
   year: 2003
 - fieldsOfStudy:
   - Computer Science
@@ -384,11 +384,11 @@ references:
   year: 1962
 - fieldsOfStudy:
   - Engineering
-  meta_key: "2014-efficient-graph-based-image-segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  meta_key: 2014-efficient-graph-based-image-segmentationを用いた圃場図自動作成手法の検討
   numCitedBy: 1761
   pid: b3df1ffb8a6856f20be51243406f2fdbe2a335ba
   show_ref_link: false
-  title: "Efficient Graph-Based Image Segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  title: Efficient Graph-Based Image Segmentationを用いた圃場図自動作成手法の検討
   year: 2014
 - fieldsOfStudy:
   - Philosophy

@@ -9,5 +9,6 @@ raw_filename: asm2
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Asm2
 url_slug: asm2

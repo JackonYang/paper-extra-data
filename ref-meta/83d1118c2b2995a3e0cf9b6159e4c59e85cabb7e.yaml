@@ -1,8 +1,8 @@
 authors:
-- "Pablo Arbel\xE1ez"
+- Pablo Arbeláez
 - J. Pont-Tuset
 - Jonathan T. Barron
-- "F. Marqu\xE9s"
+- F. Marqués
 - J. Malik
 badges:
 - id: OPEN_ACCESS
@@ -239,8 +239,8 @@ references:
   show_ref_link: false
   title: Image Segmentation by Cascaded Region Agglomeration
   year: 2013
-slug: "Multiscale-Combinatorial-Grouping-Arbel\xE1ez-Pont-Tuset"
+slug: Multiscale-Combinatorial-Grouping-Arbeláez-Pont-Tuset
 title: Multiscale Combinatorial Grouping
-url: "https://www.semanticscholar.org/paper/Multiscale-Combinatorial-Grouping-Arbel\xE1ez-Pont-Tuset/83d1118c2b2995a3e0cf9b6159e4c59e85cabb7e?sort=total-citations"
+url: https://www.semanticscholar.org/paper/Multiscale-Combinatorial-Grouping-Arbeláez-Pont-Tuset/83d1118c2b2995a3e0cf9b6159e4c59e85cabb7e?sort=total-citations
 venue: 2014 IEEE Conference on Computer Vision and Pattern Recognition
 year: 2014

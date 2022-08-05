@@ -2660,11 +2660,11 @@ references:
   year: 1993
 - fieldsOfStudy:
   - Biology
-  meta_key: "2002-bioinformatics-the-machine-learning-approach-second-edition-adaptive-computation-and-machine-learning-bypierre-baldiand-s\xF8renv-brunak-a-bradford-book-cambridge-massachusetts-mit-press-49-95-xxiii-452-p-ill-index-isbn-0-262-02506-x-2001"
+  meta_key: 2002-bioinformatics-the-machine-learning-approach-second-edition-adaptive-computation-and-machine-learning-bypierre-baldiand-sørenv-brunak-a-bradford-book-cambridge-massachusetts-mit-press-49-95-xxiii-452-p-ill-index-isbn-0-262-02506-x-2001
   numCitedBy: 39
   pid: 395c84e371ab41a08fcad580960f3cf72947a6dd
   show_ref_link: false
-  title: "Bioinformatics - The Machine Learning Approach.Second Edition. Adaptive Computation and Machine Learning. ByPierre Baldiand, S\xF8renv Brunak.A Bradford Book. Cambridge (Massachusetts) - MIT Press. $49.95. xxiii + 452 p; ill.; index. ISBN - 0-262-02506\u2010X. 2001."
+  title: Bioinformatics - The Machine Learning Approach.Second Edition. Adaptive Computation and Machine Learning. ByPierre Baldiand, Sørenv Brunak.A Bradford Book. Cambridge (Massachusetts) - MIT Press. $49.95. xxiii + 452 p; ill.; index. ISBN - 0-262-02506‐X. 2001.
   year: 2002
 - fieldsOfStudy:
   - Medicine
@@ -2795,11 +2795,11 @@ references:
   year: 1998
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1977-convex-analysis\u306E\u4E8C-\u4E09\u306E\u9032\u5C55\u306B\u3064\u3044\u3066"
+  meta_key: 1977-convex-analysisの二-三の進展について
   numCitedBy: 7980
   pid: b272701e77ddb860741a193ac1701ca382853680
   show_ref_link: false
-  title: "Convex Analysis\u306E\u4E8C,\u4E09\u306E\u9032\u5C55\u306B\u3064\u3044\u3066"
+  title: Convex Analysisの二,三の進展について
   year: 1977
 - fieldsOfStudy:
   - Computer Science
@@ -2811,11 +2811,11 @@ references:
   year: 1998
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2000-using-the-nystr\xF6m-method-to-speed-up-kernel-machines"
+  meta_key: 2000-using-the-nyström-method-to-speed-up-kernel-machines
   numCitedBy: 2175
   pid: b6fff8b8ea77f157913986e7af53951d9fc1128e
   show_ref_link: false
-  title: "Using the Nystr\xF6m Method to Speed Up Kernel Machines"
+  title: Using the Nyström Method to Speed Up Kernel Machines
   year: 2000
 slug: Pattern-Recognition-and-Machine-Learning-Bishop-Nasrabadi
 title: Pattern Recognition and Machine Learning

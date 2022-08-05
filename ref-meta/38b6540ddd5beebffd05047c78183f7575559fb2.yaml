@@ -11,7 +11,7 @@ fieldsOfStudy:
 meta_key: 2013-selective-search-for-object-recognition
 numCitedBy: 4771
 numCiting: 55
-paperAbstract: "This paper addresses the problem of generating possible object locations for use in object recognition. We introduce selective search which combines the strength of both an exhaustive search and segmentation. Like segmentation, we use the image structure to guide our sampling process. Like exhaustive search, we aim to capture all possible object locations. Instead of a single technique to generate possible object locations, we diversify our search and use a variety of complementary image partitionings to deal with as many image conditions as possible. Our selective search results in a small set of data-driven, class-independent, high quality locations, yielding 99\_% recall and a Mean Average Best Overlap of 0.879 at 10,097 locations. The reduced number of locations compared to an exhaustive search enables the use of stronger machine learning techniques and stronger appearance models for object recognition. In this paper we show that our selective search enables the use of the powerful Bag-of-Words model for recognition. The selective search software is made publicly available (Software: http://disi.unitn.it/~uijlings/SelectiveSearch.html)."
+paperAbstract: 'This paper addresses the problem of generating possible object locations for use in object recognition. We introduce selective search which combines the strength of both an exhaustive search and segmentation. Like segmentation, we use the image structure to guide our sampling process. Like exhaustive search, we aim to capture all possible object locations. Instead of a single technique to generate possible object locations, we diversify our search and use a variety of complementary image partitionings to deal with as many image conditions as possible. Our selective search results in a small set of data-driven, class-independent, high quality locations, yielding 99 % recall and a Mean Average Best Overlap of 0.879 at 10,097 locations. The reduced number of locations compared to an exhaustive search enables the use of stronger machine learning techniques and stronger appearance models for object recognition. In this paper we show that our selective search enables the use of the powerful Bag-of-Words model for recognition. The selective search software is made publicly available (Software: http://disi.unitn.it/~uijlings/SelectiveSearch.html).'
 ref_count: 55
 references:
 - fieldsOfStudy:
@@ -308,7 +308,7 @@ references:
   numCitedBy: 5
   pid: 59cc16a23373ab7d50d8e5977f900b17c1c81d0a
   show_ref_link: false
-  title: "Illumination-Invariant Descriptors for Discriminative Visual Object Categorization\u2217"
+  title: Illumination-Invariant Descriptors for Discriminative Visual Object Categorization∗
   year: 2011
 - fieldsOfStudy:
   - Mathematics
@@ -336,11 +336,11 @@ references:
   year: 2004
 - fieldsOfStudy:
   - Engineering
-  meta_key: "2014-efficient-graph-based-image-segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  meta_key: 2014-efficient-graph-based-image-segmentationを用いた圃場図自動作成手法の検討
   numCitedBy: 1761
   pid: b3df1ffb8a6856f20be51243406f2fdbe2a335ba
   show_ref_link: false
-  title: "Efficient Graph-Based Image Segmentation\u3092\u7528\u3044\u305F\u5703\u5834\u56F3\u81EA\u52D5\u4F5C\u6210\u624B\u6CD5\u306E\u691C\u8A0E"
+  title: Efficient Graph-Based Image Segmentationを用いた圃場図自動作成手法の検討
   year: 2014
 - fieldsOfStudy:
   - Philosophy

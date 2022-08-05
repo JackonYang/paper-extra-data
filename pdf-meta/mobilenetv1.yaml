@@ -9,5 +9,6 @@ raw_filename: mobileNetV1
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Mobilenetv1
 url_slug: mobileNetV1

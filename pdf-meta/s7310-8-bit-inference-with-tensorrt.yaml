@@ -9,5 +9,6 @@ raw_filename: s7310-8-bit-inference-with-tensorrt
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: S7310 8 Bit Inference With Tensorrt
 url_slug: s7310-8-bit-inference-with-tensorrt

@@ -9,5 +9,6 @@ raw_filename: TVM_paper
 tags:
 - other-default
 - paper
+- gen-from-pdf
 title: Tvm Paper
 url_slug: TVM_paper

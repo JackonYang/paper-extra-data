@@ -2797,7 +2797,7 @@ references:
   numCitedBy: 223
   pid: c053e88e109359fc6097101d295abc03a4ef1ec7
   show_ref_link: false
-  title: "Associative memory in a network of \u2018spiking' neurons"
+  title: Associative memory in a network of ‘spiking' neurons
   year: 1992
 - fieldsOfStudy:
   - Computer Science
@@ -3287,11 +3287,11 @@ references:
   year: 1993
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2004-fast-online-q-\u03BB"
+  meta_key: 2004-fast-online-q-λ
   numCitedBy: 73
   pid: b8d67fabe55904b1c879a99b59b171e136e01df6
   show_ref_link: false
-  title: "Fast Online Q(\u03BB)"
+  title: Fast Online Q(λ)
   year: 2004
 - fieldsOfStudy:
   - Computer Science
@@ -3704,7 +3704,7 @@ references:
   numCitedBy: 177
   pid: 0dfcb3cce7ca12635d02ee0043a8bf2a58d76490
   show_ref_link: false
-  title: "Foundations and Trends \xAE in Machine Learning > Vol 7 > Issue 4-5 Ordering Info About Us Alerts Contact Help Log in Adaptation , Learning , and Optimization over Networks"
+  title: Foundations and Trends ® in Machine Learning > Vol 7 > Issue 4-5 Ordering Info About Us Alerts Contact Help Log in Adaptation , Learning , and Optimization over Networks
   year: 2011
 - fieldsOfStudy:
   - Biology
@@ -4437,11 +4437,11 @@ references:
   year: 2008
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2010-gq-\u03BB-a-general-gradient-algorithm-for-temporal-difference-prediction-learning-with-eligibility-traces"
+  meta_key: 2010-gq-λ-a-general-gradient-algorithm-for-temporal-difference-prediction-learning-with-eligibility-traces
   numCitedBy: 107
   pid: ff97c28ecf31eb97c84cbfb994686f252dade8a0
   show_ref_link: false
-  title: "GQ(\u03BB) - A general gradient algorithm for temporal-difference prediction learning with eligibility traces"
+  title: GQ(λ) - A general gradient algorithm for temporal-difference prediction learning with eligibility traces
   year: 2010
 - fieldsOfStudy:
   - Psychology
@@ -6021,11 +6021,11 @@ references:
   year: 1992
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2007-g\xF6del-machines-fully-self-referential-optimal-universal-self-improvers"
+  meta_key: 2007-gödel-machines-fully-self-referential-optimal-universal-self-improvers
   numCitedBy: 113
   pid: 402a5f749c99c75c98a626539553c2e4b5939c29
   show_ref_link: false
-  title: "G\xF6del Machines - Fully Self-referential Optimal Universal Self-improvers"
+  title: Gödel Machines - Fully Self-referential Optimal Universal Self-improvers
   year: 2007
 - fieldsOfStudy:
   - Psychology
@@ -6337,11 +6337,11 @@ references:
   year: 1960
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2005-reinforcing-the-driving-quality-of-soccer-playing-robots-by-anticipation-verbesserung-der-fahreigenschaften-von-fu\xDFballspielenden-robotern-durch-antizipation"
+  meta_key: 2005-reinforcing-the-driving-quality-of-soccer-playing-robots-by-anticipation-verbesserung-der-fahreigenschaften-von-fußballspielenden-robotern-durch-antizipation
   numCitedBy: 19
   pid: e4bf9bfb2ec198ba4340c850fc1936a0bc0f70c1
   show_ref_link: false
-  title: "Reinforcing the Driving Quality of Soccer Playing Robots by Anticipation (Verbesserung der Fahreigenschaften von fu\xDFballspielenden Robotern durch Antizipation)"
+  title: Reinforcing the Driving Quality of Soccer Playing Robots by Anticipation (Verbesserung der Fahreigenschaften von fußballspielenden Robotern durch Antizipation)
   year: 2005
 - fieldsOfStudy:
   - Engineering
@@ -6459,11 +6459,11 @@ references:
   year: 1970
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1931-\xFCber-formal-unentscheidbare-s\xE4tze-der-principia-mathematica-und-verwandter-systeme-i"
+  meta_key: 1931-über-formal-unentscheidbare-sätze-der-principia-mathematica-und-verwandter-systeme-i
   numCitedBy: 1861
   pid: c3f7ad4b2af9d9888be85a8a376c61e7a612acc2
   show_ref_link: false
-  title: "\xDCber formal unentscheidbare S\xE4tze der Principia Mathematica und verwandter Systeme I"
+  title: Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I
   year: 1931
 - fieldsOfStudy:
   - Psychology
@@ -6495,7 +6495,7 @@ references:
   numCitedBy: 7530
   pid: 7b28610d2d681a11398eb614de0d70d7de41c20c
   show_ref_link: false
-  title: "Cross\u2010Validatory Choice and Assessment of Statistical Predictions"
+  title: Cross‐Validatory Choice and Assessment of Statistical Predictions
   year: 1974
 - fieldsOfStudy:
   - Mathematics
@@ -6532,11 +6532,11 @@ references:
 - fieldsOfStudy:
   - Education
   - Sociology
-  meta_key: "2008-democracia-e-cidadania-na-escola-do-discurso-\xE0-pr\xE1tica"
+  meta_key: 2008-democracia-e-cidadania-na-escola-do-discurso-à-prática
   numCitedBy: 56
   pid: 5827b0a11123e04477a0a390ee31c82417d41423
   show_ref_link: false
-  title: "Democracia e Cidadania na Escola - Do Discurso \xE0 Pr\xE1tica"
+  title: Democracia e Cidadania na Escola - Do Discurso à Prática
   year: 2008
 - fieldsOfStudy:
   - Computer Science
@@ -6747,19 +6747,19 @@ references:
   title: Self-organized formation of topographically correct feature maps
   year: 1982
 - fieldsOfStudy: []
-  meta_key: "2010-philosophiae-naturalis-principia-mathematica\u90A6\u8A33\u66F8\u306E\u5E95\u672C\u306B\u95A2\u3059\u308B\u30CE\u30FC\u30C8"
+  meta_key: 2010-philosophiae-naturalis-principia-mathematica邦訳書の底本に関するノート
   numCitedBy: 257
   pid: 62cbce08a1271d15e747039b4bd42b89599b56f3
   show_ref_link: false
-  title: "Philosophiae Naturalis Principia Mathematica\u90A6\u8A33\u66F8\u306E\u5E95\u672C\u306B\u95A2\u3059\u308B\u30CE\u30FC\u30C8"
+  title: Philosophiae Naturalis Principia Mathematica邦訳書の底本に関するノート
   year: 2010
 - fieldsOfStudy:
   - Philosophy
-  meta_key: "2011-kat-16-das-gr\xFCndungsdokument-der-modernen-naturwissenschaft-isaac-newton-philosophiae-naturalis-principia-mathematica-londini-jussi-societatus-regiae-ac-typis-josephi-streater-london-john-streater-und-samuel-smith-1687"
+  meta_key: 2011-kat-16-das-gründungsdokument-der-modernen-naturwissenschaft-isaac-newton-philosophiae-naturalis-principia-mathematica-londini-jussi-societatus-regiae-ac-typis-josephi-streater-london-john-streater-und-samuel-smith-1687
   numCitedBy: 76
   pid: dd3ef39bed6165080d623acfee71244b9f69bca0
   show_ref_link: false
-  title: "Kat. 16 Das Gr\xFCndungsdokument der modernen Naturwissenschaft Isaac Newton - Philosophiae naturalis principia mathematica. Londini - jussi Societatus Regiae ac typis Josephi Streater / London - John Streater und Samuel Smith, 1687"
+  title: Kat. 16 Das Gründungsdokument der modernen Naturwissenschaft Isaac Newton - Philosophiae naturalis principia mathematica. Londini - jussi Societatus Regiae ac typis Josephi Streater / London - John Streater und Samuel Smith, 1687
   year: 2011
 - fieldsOfStudy:
   - Sociology
@@ -6859,11 +6859,11 @@ references:
   year: 1966
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "1970-nouvelles-m\xE9thodes-pour-la-d\xE9termination-des-orbites-des-com\xE8tes"
+  meta_key: 1970-nouvelles-méthodes-pour-la-détermination-des-orbites-des-comètes
   numCitedBy: 403
   pid: 21c9090e226ab449ffb608ddb2cb925911a61f24
   show_ref_link: false
-  title: "Nouvelles m\xE9thodes pour la d\xE9termination des orbites des com\xE8tes"
+  title: Nouvelles méthodes pour la détermination des orbites des comètes
   year: 1970
 - fieldsOfStudy:
   - Mathematics
@@ -6904,7 +6904,7 @@ references:
   numCitedBy: 1327
   pid: 0acf50ce5c4e1268742f31e98ed294b8c967b829
   show_ref_link: false
-  title: "Rechenberg, Ingo, Evolutionsstrategie - Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. 170 S. mit 36 Abb. Frommann\u2010Holzboog\u2010Verlag. Stuttgart 1973. Broschiert"
+  title: Rechenberg, Ingo, Evolutionsstrategie - Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. 170 S. mit 36 Abb. Frommann‐Holzboog‐Verlag. Stuttgart 1973. Broschiert
   year: 1975
 - fieldsOfStudy:
   - Computer Science
@@ -7000,7 +7000,7 @@ references:
   numCitedBy: 45
   pid: 20375fb961d8899f41a9e7096929b132a171c77a
   show_ref_link: false
-  title: "Associative Storage and Retrieval of Digital Information in Networks of Adaptive \u201CNeurons\u201D"
+  title: Associative Storage and Retrieval of Digital Information in Networks of Adaptive “Neurons”
   year: 1962
 - fieldsOfStudy:
   - Computer Science

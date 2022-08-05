@@ -9,7 +9,7 @@ fieldsOfStudy:
 meta_key: 2008-graphical-models-exponential-families-and-variational-inference
 numCitedBy: 3913
 numCiting: 308
-paperAbstract: "The formalism of probabilistic graphical models provides a unifying framework for capturing complex dependencies among random variables, and building large-scale multivariate statistical models. Graphical models have become a focus of research in many statistical, computational and mathematical fields, including bioinformatics, communication theory, statistical physics, combinatorial optimization, signal and image processing, information retrieval and statistical machine learning. Many problems that arise in specific instances \u2014 including the key problems of computing marginals and modes of probability distributions \u2014 are best studied in the general setting. Working with exponential family representations, and exploiting the conjugate duality between the cumulant function and the entropy for exponential families, we develop general variational representations of the problems of computing likelihoods, marginal probabilities and most probable configurations. We describe how a wide variety of algorithms \u2014 among them sum-product, cluster variational methods, expectation-propagation, mean field methods, max-product and linear programming relaxation, as well as conic programming relaxations \u2014 can all be understood in terms of exact or approximate forms of these variational representations. The variational approach provides a complementary alternative to Markov chain Monte Carlo as a general source of approximation methods for inference in large-scale statistical models."
+paperAbstract: The formalism of probabilistic graphical models provides a unifying framework for capturing complex dependencies among random variables, and building large-scale multivariate statistical models. Graphical models have become a focus of research in many statistical, computational and mathematical fields, including bioinformatics, communication theory, statistical physics, combinatorial optimization, signal and image processing, information retrieval and statistical machine learning. Many problems that arise in specific instances — including the key problems of computing marginals and modes of probability distributions — are best studied in the general setting. Working with exponential family representations, and exploiting the conjugate duality between the cumulant function and the entropy for exponential families, we develop general variational representations of the problems of computing likelihoods, marginal probabilities and most probable configurations. We describe how a wide variety of algorithms — among them sum-product, cluster variational methods, expectation-propagation, mean field methods, max-product and linear programming relaxation, as well as conic programming relaxations — can all be understood in terms of exact or approximate forms of these variational representations. The variational approach provides a complementary alternative to Markov chain Monte Carlo as a general source of approximation methods for inference in large-scale statistical models.
 ref_count: 308
 references:
 - fieldsOfStudy:
@@ -1395,11 +1395,11 @@ references:
   year: 2006
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "2003-a-comparison-of-the-sherali-adams-lov\xE1sz-schrijver-and-lasserre-relaxations-for-0-1-programming"
+  meta_key: 2003-a-comparison-of-the-sherali-adams-lovász-schrijver-and-lasserre-relaxations-for-0-1-programming
   numCitedBy: 421
   pid: 6026ab578bc62efa73d5b98ac4a7ce1ba4756ffe
   show_ref_link: false
-  title: "A Comparison of the Sherali-Adams, Lov\xE1sz-Schrijver, and Lasserre Relaxations for 0-1 Programming"
+  title: A Comparison of the Sherali-Adams, Lovász-Schrijver, and Lasserre Relaxations for 0-1 Programming
   year: 2003
 - fieldsOfStudy:
   - Computer Science
@@ -2181,11 +2181,11 @@ references:
   year: 1974
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1977-convex-analysis\u306E\u4E8C-\u4E09\u306E\u9032\u5C55\u306B\u3064\u3044\u3066"
+  meta_key: 1977-convex-analysisの二-三の進展について
   numCitedBy: 8042
   pid: b272701e77ddb860741a193ac1701ca382853680
   show_ref_link: false
-  title: "Convex Analysis\u306E\u4E8C,\u4E09\u306E\u9032\u5C55\u306B\u3064\u3044\u3066"
+  title: Convex Analysisの二,三の進展について
   year: 1977
 slug: Graphical-Models,-Exponential-Families,-and-Wainwright-Jordan
 title: Graphical Models, Exponential Families, and Variational Inference

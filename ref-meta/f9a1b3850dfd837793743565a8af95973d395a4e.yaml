@@ -1,6 +1,6 @@
 authors:
 - M. Sundermeyer
-- "R. Schl\xFCter"
+- R. Schlüter
 - H. Ney
 badges:
 - id: OPEN_ACCESS
@@ -157,8 +157,8 @@ references:
   show_ref_link: false
   title: Neural networks for pattern recognition
   year: 1995
-slug: "LSTM-Neural-Networks-for-Language-Modeling-Sundermeyer-Schl\xFCter"
+slug: LSTM-Neural-Networks-for-Language-Modeling-Sundermeyer-Schlüter
 title: LSTM Neural Networks for Language Modeling
-url: "https://www.semanticscholar.org/paper/LSTM-Neural-Networks-for-Language-Modeling-Sundermeyer-Schl\xFCter/f9a1b3850dfd837793743565a8af95973d395a4e?sort=total-citations"
+url: https://www.semanticscholar.org/paper/LSTM-Neural-Networks-for-Language-Modeling-Sundermeyer-Schlüter/f9a1b3850dfd837793743565a8af95973d395a4e?sort=total-citations
 venue: INTERSPEECH
 year: 2012

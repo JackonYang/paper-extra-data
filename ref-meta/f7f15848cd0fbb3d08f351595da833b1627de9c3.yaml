@@ -81,7 +81,7 @@ references:
   numCitedBy: 101
   pid: c0d3b376d354695daa3e7a29f5a5243fe2775139
   show_ref_link: false
-  title: "\u201CHaldane's Dilemma\u201D and the Rate of Evolution"
+  title: “Haldane's Dilemma” and the Rate of Evolution
   year: 1968
 - fieldsOfStudy:
   - Computer Science
@@ -556,7 +556,7 @@ references:
   numCitedBy: 619
   pid: 6f588edb16647f570710a3d3a958fa4d31df890a
   show_ref_link: false
-  title: "\u201CThe Origins of Life\u201D"
+  title: “The Origins of Life”
   year: 1957
 - fieldsOfStudy:
   - Mathematics
@@ -654,7 +654,7 @@ references:
   numCitedBy: 3035
   pid: 7a23da2c14f9355dd63a434b62cf5b28aeebc305
   show_ref_link: false
-  title: "\u201CNeural\u201D computation of decisions in optimization problems"
+  title: “Neural” computation of decisions in optimization problems
   year: 2004
 - fieldsOfStudy:
   - Mathematics
@@ -1075,7 +1075,7 @@ references:
   numCitedBy: 32
   pid: 242d47f83ca11ac84bbbdb6c910f032f1f8b0981
   show_ref_link: false
-  title: "BSC Thresholds for Code Ensembles Based on \u201CTypical Pairs\u201D Decoding"
+  title: BSC Thresholds for Code Ensembles Based on “Typical Pairs” Decoding
   year: 2001
 - fieldsOfStudy:
   - Computer Science
@@ -1418,11 +1418,11 @@ references:
   year: 1998
 - fieldsOfStudy:
   - Mathematics
-  meta_key: "1972-studies-in-the-history-of-probability-and-statistics-xxxi-the-simple-branching-process-a-turning-point-test-and-a-fundamental-inequality-a-historical-note-on-i-j-bienaym\xE9"
+  meta_key: 1972-studies-in-the-history-of-probability-and-statistics-xxxi-the-simple-branching-process-a-turning-point-test-and-a-fundamental-inequality-a-historical-note-on-i-j-bienaymé
   numCitedBy: 43
   pid: 13f68dfb1615f4edd53fc971f0ebec86614afdc1
   show_ref_link: false
-  title: "Studies in the History of Probability and Statistics. XXXI. The simple branching process, a turning point test and a fundamental inequality - A historical note on I. J. Bienaym\xE9"
+  title: Studies in the History of Probability and Statistics. XXXI. The simple branching process, a turning point test and a fundamental inequality - A historical note on I. J. Bienaymé
   year: 1972
 - fieldsOfStudy:
   - Mathematics
@@ -1515,11 +1515,11 @@ references:
   year: 2002
 - fieldsOfStudy:
   - Computer Science
-  meta_key: "2000-using-the-nystr\xF6m-method-to-speed-up-kernel-machines"
+  meta_key: 2000-using-the-nyström-method-to-speed-up-kernel-machines
   numCitedBy: 2181
   pid: b6fff8b8ea77f157913986e7af53951d9fc1128e
   show_ref_link: false
-  title: "Using the Nystr\xF6m Method to Speed Up Kernel Machines"
+  title: Using the Nyström Method to Speed Up Kernel Machines
   year: 2000
 - fieldsOfStudy:
   - Computer Science
