@@ -1,0 +1,14 @@
+content_md5: c2c3263592e1f6473d102bec412022a5
+filesize: 46912982
+filesize_readable: 44.7 MB
+meta_key: deep-learning-with-pytorch
+meta_relpath: paper-extra-data/pdf-meta/deep-learning-with-pytorch.yaml
+pdf_relpath: paper-repo/pdfs/Deep-Learning-with-PyTorch.pdf
+raw_ext: .pdf
+raw_filename: Deep-Learning-with-PyTorch
+tags:
+- other-default
+- paper
+- gen-from-pdf
+title: Deep Learning With Pytorch
+url_slug: Deep-Learning-with-PyTorch

@@ -1,0 +1,15 @@
+content_md5: 524f35981c5da6f8ba9c9ad46acdfa71
+filesize: 51988
+filesize_readable: 50.8 KB
+meta_key: 2017-automatic-differentiation-in-pytorch
+meta_relpath: paper-extra-data/pdf-meta/2017-automatic-differentiation-in-pytorch.yaml
+pdf_relpath: paper-repo/pdfs/2017-automatic-differentiation-in-pytorch.pdf
+raw_ext: .pdf
+raw_filename: 2017-automatic-differentiation-in-pytorch
+tags:
+- other-default
+- paper
+- gen-from-pdf
+title: Automatic Differentiation In Pytorch
+url_slug: 2017-automatic-differentiation-in-pytorch
+year: 2017
