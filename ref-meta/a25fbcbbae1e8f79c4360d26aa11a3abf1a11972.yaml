@@ -1,0 +1,720 @@
+authors:
+- Sinno Jialin Pan
+- Qiang Yang
+badges:
+- id: OPEN_ACCESS
+corpusId: 740063
+fieldsOfStudy:
+- Computer Science
+meta_key: 2010-a-survey-on-transfer-learning
+numCitedBy: 13590
+numCiting: 95
+paperAbstract: A major assumption in many machine learning and data mining algorithms is that the training and future data must be in the same feature space and have the same distribution. However, in many real-world applications, this assumption may not hold. For example, we sometimes have a classification task in one domain of interest, but we only have sufficient training data in another domain of interest, where the latter data may be in a different feature space or follow a different data distribution. In such cases, knowledge transfer, if done successfully, would greatly improve the performance of learning by avoiding much expensive data-labeling efforts. In recent years, transfer learning has emerged as a new learning framework to address this problem. This survey focuses on categorizing and reviewing the current progress on transfer learning for classification, regression, and clustering problems. In this survey, we discuss the relationship between transfer learning and other related machine learning techniques such as domain adaptation, multitask learning and sample selection bias, as well as covariate shift. We also explore some potential future issues in transfer learning research.
+ref_count: 90
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-boosting-for-transfer-learning
+  numCitedBy: 1507
+  pid: 884895a86fe15cb9601df4a15a1475c07f28da3c
+  show_ref_link: false
+  title: Boosting for transfer learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-bridged-refinement-for-transfer-learning
+  numCitedBy: 77
+  pid: 126113d251297812e091c5990064c8300effa684
+  show_ref_link: false
+  title: Bridged Refinement for Transfer Learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-dataset-shift-in-machine-learning
+  numCitedBy: 1290
+  pid: c62043a7d2537bbf40a84b9913957452a47fdb83
+  show_ref_link: false
+  title: Dataset Shift in Machine Learning
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-transferring-naive-bayes-classifiers-for-text-classification
+  numCitedBy: 382
+  pid: bae533297207bb64597afa3b86a699ed6c4c98b1
+  show_ref_link: false
+  title: Transferring Naive Bayes Classifiers for Text Classification
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-transfer-learning-via-dimensionality-reduction
+  numCitedBy: 616
+  pid: 1de5c530716de032d89aa6bf0e0b618494d74bda
+  show_ref_link: false
+  title: Transfer Learning via Dimensionality Reduction
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-multitask-learning
+  numCitedBy: 5698
+  pid: 161ffb54a3fdf0715b198bb57bd22f910242eb49
+  show_ref_link: true
+  title: Multitask Learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-self-taught-learning-transfer-learning-from-unlabeled-data
+  numCitedBy: 1658
+  pid: b3852f0113fcf8a3913c55ae92393ae6ccde347e
+  show_ref_link: false
+  title: Self-taught learning - transfer learning from unlabeled data
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-analysis-of-representations-for-domain-adaptation
+  numCitedBy: 1495
+  pid: 96c6bc559b79d8fd518f431c707e8b44ce3bc4de
+  show_ref_link: false
+  title: Analysis of Representations for Domain Adaptation
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-logistic-regression-with-an-auxiliary-data-source
+  numCitedBy: 211
+  pid: 03efbabaf80d6f5fa7b55256d25f1b2af386aa5b
+  show_ref_link: false
+  title: Logistic regression with an auxiliary data source
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-improving-svm-accuracy-by-training-on-auxiliary-data-sources
+  numCitedBy: 300
+  pid: 38f4afbc55d3e68d450392a7fce5ef6b3ecc4829
+  show_ref_link: false
+  title: Improving SVM accuracy by training on auxiliary data sources
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-domain-adaptation-for-statistical-classifiers
+  numCitedBy: 851
+  pid: 47f5682448cdc0b650b54e7f59d22d72f4976c2d
+  show_ref_link: false
+  title: Domain Adaptation for Statistical Classifiers
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-kernel-based-inductive-transfer
+  numCitedBy: 53
+  pid: 45b132687d62da38ca2ce0a05e4b52bcf51f1f6f
+  show_ref_link: false
+  title: Kernel-Based Inductive Transfer
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-knowledge-transfer-via-multiple-model-local-structure-mapping
+  numCitedBy: 321
+  pid: cebbd6e489d03410ff178ffe2efce3451ea28790
+  show_ref_link: false
+  title: Knowledge transfer via multiple model local structure mapping
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-regularized-multi-task-learning
+  numCitedBy: 1494
+  pid: e219a61354d972a28954e655a7c53373508a08b6
+  show_ref_link: false
+  title: Regularized multi--task learning
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-co-clustering-based-classification-for-out-of-domain-documents
+  numCitedBy: 359
+  pid: 33c83eb6ccdf6e34f1431e5aa9df6ae5646ae919
+  show_ref_link: false
+  title: Co-clustering based classification for out-of-domain documents
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-learning-bounds-for-domain-adaptation
+  numCitedBy: 419
+  pid: e0e00f8a5c31403f8871a823f000ab38ac0fe2c0
+  show_ref_link: false
+  title: Learning Bounds for Domain Adaptation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-combining-labeled-and-unlabeled-data-with-co-training
+  numCitedBy: 5596
+  pid: 278841ab0cb24c1abcb75e363aeed1fa741c8cc4
+  show_ref_link: false
+  title: Combining labeled and unlabeled data with co-training
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-domain-adaptation-via-transfer-component-analysis
+  numCitedBy: 2766
+  pid: 1dae4d61cd74cc919ecc638bde6b7125728ea97b
+  show_ref_link: false
+  title: Domain Adaptation via Transfer Component Analysis
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-self-taught-clustering
+  numCitedBy: 215
+  pid: c6d014a8528e6476616936b983886b3fcde5a762
+  show_ref_link: false
+  title: Self-taught clustering
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-task-clustering-and-gating-for-bayesian-multitask-learning
+  numCitedBy: 605
+  pid: a43d7b8e5e1bcb7c3fbf82164cfc9d12737176e8
+  show_ref_link: false
+  title: Task Clustering and Gating for Bayesian Multitask Learning
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-multi-task-feature-learning
+  numCitedBy: 1416
+  pid: dbb3342599c9b431a3152a0d5c813d3e56967a27
+  show_ref_link: false
+  title: Multi-Task Feature Learning
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-actively-transfer-domain-knowledge
+  numCitedBy: 140
+  pid: ac4b14dedffde0706a44796364443e21401d9782
+  show_ref_link: false
+  title: Actively Transfer Domain Knowledge
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-an-improved-categorization-of-classifier-s-sensitivity-on-sample-selection-bias
+  numCitedBy: 92
+  pid: bf0da2976416b2e24366a340f080625f0aa4caa1
+  show_ref_link: false
+  title: An improved categorization of classifier's sensitivity on sample selection bias
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-topic-bridged-plsa-for-cross-domain-text-classification
+  numCitedBy: 220
+  pid: d6bfc777d9753ea18f994f70fe5dbc24c9ec3df7
+  show_ref_link: false
+  title: Topic-bridged PLSA for cross-domain text classification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-learning-a-meta-level-prior-for-feature-relevance-from-multiple-related-tasks
+  numCitedBy: 173
+  pid: d1582489ec4befc365fcd3bee5b546ed17425acb
+  show_ref_link: false
+  title: Learning a meta-level prior for feature relevance from multiple related tasks
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-a-high-performance-semi-supervised-learning-method-for-text-chunking
+  numCitedBy: 239
+  pid: b4299baa815ca5a815a70fba94a9f6f2b42fff19
+  show_ref_link: false
+  title: A High-Performance Semi-Supervised Learning Method for Text Chunking
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-class-noise-handling-for-effective-cost-sensitive-learning-by-cost-guided-iterative-classification-filtering
+  numCitedBy: 44
+  pid: 1c42f6b196f38673b7c679cea509135789dfbbc8
+  show_ref_link: false
+  title: Class Noise Handling for Effective Cost-Sensitive Learning by Cost-Guided Iterative Classification Filtering
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-constructing-informative-priors-using-transfer-learning
+  numCitedBy: 319
+  pid: 328f88380422573a4ff9ada1fc5aa9f198a32bc5
+  show_ref_link: false
+  title: Constructing informative priors using transfer learning
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-transfer-learning-using-kolmogorov-complexity-basic-theory-and-empirical-evaluations
+  numCitedBy: 61
+  pid: 3f63cdc711a4f42a65d3b2b3cbe9e2b919a995f5
+  show_ref_link: false
+  title: Transfer Learning using Kolmogorov Complexity - Basic Theory and Empirical Evaluations
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-an-algorithm-for-transfer-learning-in-a-heterogeneous-environment
+  numCitedBy: 84
+  pid: 63c2261af261ea8a98920f796675916e70b538c1
+  show_ref_link: false
+  title: An Algorithm for Transfer Learning in a Heterogeneous Environment
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-test-cost-sensitive-classification-on-data-with-missing-values
+  numCitedBy: 66
+  pid: e30848e55536c604a842d72ac379bdc01233d2c3
+  show_ref_link: false
+  title: Test-cost sensitive classification on data with missing values
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-deep-transfer-via-second-order-markov-logic
+  numCitedBy: 224
+  pid: 11d10dbe0802afa19525aaa137d56f2832e38d1e
+  show_ref_link: false
+  title: Deep transfer via second-order Markov logic
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-text-classification-from-labeled-and-unlabeled-documents-using-em
+  numCitedBy: 3118
+  pid: e2de29049d62de925cf709024b92774cd82b0a5a
+  show_ref_link: true
+  title: Text Classification from Labeled and Unlabeled Documents using EM
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-domain-adaptation-with-structural-correspondence-learning
+  numCitedBy: 1554
+  pid: 9fa8d73e572c3ca824a04a5f551b602a17831bc5
+  show_ref_link: false
+  title: Domain Adaptation with Structural Correspondence Learning
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-mapping-and-revising-markov-logic-networks-for-transfer-learning
+  numCitedBy: 305
+  pid: 0fbf373d25f2710e2e4eaf64e00e071f734ad84f
+  show_ref_link: false
+  title: Mapping and Revising Markov Logic Networks for Transfer Learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-a-spectral-regularization-framework-for-multi-task-structure-learning
+  numCitedBy: 247
+  pid: 637bbf3dd3adc74272a8069ce2fcee812acf1432
+  show_ref_link: false
+  title: A Spectral Regularization Framework for Multi-Task Structure Learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-lazy-approach-to-associative-classification
+  numCitedBy: 117
+  pid: a41a922b3a241537047222181d32d903b74c6d41
+  show_ref_link: false
+  title: A Lazy Approach to Associative Classification
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-combining-subclassifiers-in-text-categorization-a-dst-based-solution-and-a-case-study
+  numCitedBy: 72
+  pid: 4c0f6819e683f7eba20bd4a16e025b2c5bfbf1d0
+  show_ref_link: false
+  title: Combining Subclassifiers in Text Categorization - A DST-Based Solution and a Case Study
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-to-learn-with-the-informative-vector-machine
+  numCitedBy: 352
+  pid: 73e1c4a1152a75ec7310adfb4b8daea16d627bc7
+  show_ref_link: false
+  title: Learning to learn with the informative vector machine
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-a-new-text-categorization-technique-using-distributional-clustering-and-learning-logic
+  numCitedBy: 129
+  pid: 95ceceec15a34948ba53ff8e8c806982aafa115c
+  show_ref_link: false
+  title: A New Text Categorization Technique Using Distributional Clustering and Learning Logic
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-discriminative-learning-for-differing-training-and-test-distributions
+  numCitedBy: 407
+  pid: ebd6a4442cff5d20d1f8f4ac435e9b809592ad07
+  show_ref_link: false
+  title: Discriminative learning for differing training and test distributions
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  - Psychology
+  meta_key: 2007-cross-domain-transfer-for-reinforcement-learning
+  numCitedBy: 200
+  pid: 9db77cb43da46de6b0c5350348d74c949112e1e1
+  show_ref_link: false
+  title: Cross-domain transfer for reinforcement learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-direct-importance-estimation-with-model-selection-and-its-application-to-covariate-shift-adaptation
+  numCitedBy: 735
+  pid: 1fc971fc394fd7a00922b082973568850e77a163
+  show_ref_link: false
+  title: Direct Importance Estimation with Model Selection and Its Application to Covariate Shift Adaptation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-10-challenging-problems-in-data-mining-research
+  numCitedBy: 883
+  pid: 5f3b369eb088a62e2f7e27632973cf8a7a347c8f
+  show_ref_link: false
+  title: 10 Challenging Problems in Data Mining Research
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-transferring-localization-models-over-time
+  numCitedBy: 97
+  pid: 9693034f08c634521f60b764d666e595e756b4c3
+  show_ref_link: false
+  title: Transferring Localization Models over Time
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-transferring-multi-device-localization-models-using-latent-multi-task-learning
+  numCitedBy: 100
+  pid: e618d29c48500ad84e215ed0be35c776cd59f7bd
+  show_ref_link: false
+  title: Transferring Multi-device Localization Models using Latent Multi-task Learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-biographies-bollywood-boom-boxes-and-blenders-domain-adaptation-for-sentiment-classification
+  numCitedBy: 2143
+  pid: d895647b4a80861703851ef55930a2627fe19492
+  show_ref_link: false
+  title: Biographies, Bollywood, Boom-boxes and Blenders - Domain Adaptation for Sentiment Classification
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-multi-task-feature-and-kernel-selection-for-svms
+  numCitedBy: 245
+  pid: 8559ff5718b5a5ff1ffaaf5f91efaf25ee518457
+  show_ref_link: false
+  title: Multi-task feature and kernel selection for SVMs
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-transferring-localization-models-across-space
+  numCitedBy: 66
+  pid: 798c3a6eb6ffa6bf2c3559ca702b1333ef5d4094
+  show_ref_link: false
+  title: Transferring Localization Models across Space
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-multi-task-gaussian-process-prediction
+  numCitedBy: 939
+  pid: 10d10df314c1b58f5c83629e73a35185876cd4e2
+  show_ref_link: false
+  title: Multi-task Gaussian Process Prediction
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-transfer-learning-for-collaborative-filtering-via-a-rating-matrix-generative-model
+  numCitedBy: 334
+  pid: bebfd1e9f14616aeaeae0ab6cc9ff6f8127a7127
+  show_ref_link: false
+  title: Transfer learning for collaborative filtering via a rating-matrix generative model
+  year: 2009
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-improving-predictive-inference-under-covariate-shift-by-weighting-the-log-likelihood-function
+  numCitedBy: 1464
+  pid: 235723a15c86c369c99a42e7b666dfe156ad2cba
+  show_ref_link: false
+  title: Improving predictive inference under covariate shift by weighting the log-likelihood function
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-theory-refinement-of-bayesian-networks-with-hidden-variables
+  numCitedBy: 40
+  pid: 0021e48a1552e77f4fcc3a4c625384add9f2ca73
+  show_ref_link: false
+  title: Theory Refinement of Bayesian Networks with Hidden Variables
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-transductive-inference-for-text-classification-using-support-vector-machines
+  numCitedBy: 3107
+  pid: 74b1a9e50f18af8a7b9f8dd38f40e0466ad7a8e8
+  show_ref_link: false
+  title: Transductive Inference for Text Classification using Support Vector Machines
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-text-classification-without-negative-examples-revisit
+  numCitedBy: 225
+  pid: 8234133aa400093db4d38e21e31e722e04f0961a
+  show_ref_link: false
+  title: Text classification without negative examples revisit
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  - Psychology
+  meta_key: 2003-exploiting-task-relatedness-for-mulitple-task-learning
+  numCitedBy: 403
+  pid: 3a4551508f84a3f5447d3490b2db95b4d87a7969
+  show_ref_link: false
+  title: Exploiting Task Relatedness for Mulitple Task Learning
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2006-correcting-sample-selection-bias-by-unlabeled-data
+  numCitedBy: 1447
+  pid: af8835c8960e539cc33f5375861efaedec1fb0b2
+  show_ref_link: false
+  title: Correcting Sample Selection Bias by Unlabeled Data
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-transfer-learning-in-reinforcement-learning-problems-through-partial-policy-recycling
+  numCitedBy: 81
+  pid: 76ab1dbebd8e8842c023346c9a7c8173305e190b
+  show_ref_link: false
+  title: Transfer Learning in Reinforcement Learning Problems Through Partial Policy Recycling
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-can-chinese-web-pages-be-classified-with-english-data-source
+  numCitedBy: 130
+  pid: 9fc06b8c1f637887728b457864b311ffea976916
+  show_ref_link: false
+  title: Can chinese web pages be classified with english data source?
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-efficient-classification-across-multiple-database-relations-a-crossmine-approach
+  numCitedBy: 99
+  pid: 0329fe2b6d4a7424b818714d5fc8c76ff67b9e73
+  show_ref_link: false
+  title: Efficient classification across multiple database relations - a CrossMine approach
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  - Psychology
+  meta_key: 2005-to-transfer-or-not-to-transfer
+  numCitedBy: 433
+  pid: db8dbe07af7eebc1eed662be268592f00f4882e0
+  show_ref_link: false
+  title: To transfer or not to transfer
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-instance-weighting-for-domain-adaptation-in-nlp
+  numCitedBy: 828
+  pid: b672ef69f60aea81220d658963445c41e60bb0e3
+  show_ref_link: false
+  title: Instance Weighting for Domain Adaptation in NLP
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-can-movies-and-books-collaborate-cross-domain-collaborative-filtering-for-sparsity-reduction
+  numCitedBy: 383
+  pid: d5a55a548fc7cd703c1dd8d867ca1eb6b0c0764c
+  show_ref_link: false
+  title: Can Movies and Books Collaborate? Cross-Domain Collaborative Filtering for Sparsity Reduction
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-bayesian-multiple-instance-learning-automatic-feature-selection-and-inductive-transfer
+  numCitedBy: 147
+  pid: 1037387773ad02fae162f3ee0df8122a6bbd90f9
+  show_ref_link: false
+  title: Bayesian multiple instance learning - automatic feature selection and inductive transfer
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-gaussian-process-kernels-via-hierarchical-bayes
+  numCitedBy: 190
+  pid: 578c81b77915593f49c5f39d99eb414ef968e2c9
+  show_ref_link: false
+  title: Learning Gaussian Process Kernels via Hierarchical Bayes
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  - Environmental Science
+  meta_key: 2007-classifier-ensembles-with-a-random-linear-oracle
+  numCitedBy: 160
+  pid: 99ab0db460775a5a09ba46d39f0373ba83b82b82
+  show_ref_link: false
+  title: Classifier Ensembles with a Random Linear Oracle
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-adaptive-localization-in-a-dynamic-wifi-environment-through-multi-view-learning
+  numCitedBy: 129
+  pid: 4398c25bcea058c7006a741a5d613da8506d52e5
+  show_ref_link: false
+  title: Adaptive Localization in a Dynamic WiFi Environment through Multi-view Learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-statistical-learning-theory
+  numCitedBy: 26662
+  pid: 385197d4c02593e2823c71e4f90a0993b703620e
+  show_ref_link: true
+  title: Statistical learning theory
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-time-annotated-sequences-for-medical-data-mining
+  numCitedBy: 92
+  pid: 5cc17f1da353fb6ae2cff5ad5d131a776b2611a2
+  show_ref_link: false
+  title: Time-Annotated Sequences for Medical Data Mining
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-frustratingly-easy-domain-adaptation
+  numCitedBy: 1636
+  pid: 9f62067945d991cd78a62cf647de17f01d1b54d3
+  show_ref_link: false
+  title: Frustratingly Easy Domain Adaptation
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-top-10-algorithms-in-data-mining
+  numCitedBy: 4901
+  pid: a83d6476bd25c3cc1cbfb89eab245a8fa895ece8
+  show_ref_link: false
+  title: Top 10 algorithms in data mining
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-graph-based-domain-mapping-for-transfer-learning-in-general-games
+  numCitedBy: 65
+  pid: e67a25faa0ecfb1860f76febc511571bbdfacdcf
+  show_ref_link: false
+  title: Graph-Based Domain Mapping for Transfer Learning in General Games
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-efficient-sparse-coding-algorithms
+  numCitedBy: 2725
+  pid: e64a9960734215e2b1866ea3cb723ffa5585ac14
+  show_ref_link: false
+  title: Efficient sparse coding algorithms
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-markov-logic-networks
+  numCitedBy: 2856
+  pid: 950a3c89dacbc3e7ddcd43d7ff6f985697e41cdb
+  show_ref_link: false
+  title: Markov logic networks
+  year: 2006
+- fieldsOfStudy:
+  - Business
+  meta_key: 2005-adaptive-temporal-radio-maps-for-indoor-location-estimation
+  numCitedBy: 183
+  pid: a640f5ec9c1cc573ae04f3720329f0f382b349f5
+  show_ref_link: false
+  title: Adaptive Temporal Radio Maps for Indoor Location Estimation
+  year: 2005
+- fieldsOfStudy:
+  - Education
+  meta_key: 2005-semi-supervised-learning-literature-survey
+  numCitedBy: 4067
+  pid: a007f46b3303bdb50e705b441c367e595666538c
+  show_ref_link: false
+  title: Semi-Supervised Learning Literature Survey
+  year: 2005
+- fieldsOfStudy:
+  - Economics
+  meta_key: 2008-estimating-location-using-wi-fi
+  numCitedBy: 117
+  pid: 40f7eec32a7d23380f519f3f48fdbdf734d44a14
+  show_ref_link: false
+  title: Estimating Location Using Wi-Fi
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-a-comparative-study-of-methods-for-transductive-transfer-learning
+  numCitedBy: 249
+  pid: d00a403028eb0786915dab7a76692e5eeadf60be
+  show_ref_link: false
+  title: A Comparative Study of Methods for Transductive Transfer Learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-transferred-dimensionality-reduction
+  numCitedBy: 115
+  pid: ffc5a9610df0341369aa75c0331ef021de0a02a9
+  show_ref_link: false
+  title: Transferred Dimensionality Reduction
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-learning-and-evaluating-classifiers-under-sample-selection-bias
+  numCitedBy: 776
+  pid: 6d5965a76f88a8ebab4fc9c43a3ae2630628966a
+  show_ref_link: false
+  title: Learning and evaluating classifiers under sample selection bias
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-spectral-domain-transfer-learning
+  numCitedBy: 137
+  pid: dc55274bd31d3d1a917ec1e3cf46a7688522566e
+  show_ref_link: false
+  title: Spectral domain-transfer learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-transfer-learning-for-wifi-based-indoor-localization
+  numCitedBy: 97
+  pid: ffb64a3bb67f529eddbdcf28127f7682b54b2baf
+  show_ref_link: false
+  title: Transfer learning for WiFi-based indoor localization
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-transactions-on-knowledge-and-data-engineering
+  numCitedBy: 613
+  pid: a44c9f5658955781b439312340c5e0e7b489931a
+  show_ref_link: false
+  title: TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-transferring-knowledge-from-another-domain-for-learning-action-models
+  numCitedBy: 22
+  pid: a012fea50038bc6fb3b67c501190989a18c89c48
+  show_ref_link: false
+  title: Transferring Knowledge from Another Domain for Learning Action Models
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-transfer-learning-by-mapping-with-minimal-target-data
+  numCitedBy: 80
+  pid: 0e2b751140567ed3fd8329cb5e5bf8e1776c58f8
+  show_ref_link: false
+  title: Transfer Learning by Mapping with Minimal Target Data
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-modeling-transfer-relationships-between-learning-tasks-for-improved-inductive-transfer
+  numCitedBy: 84
+  pid: f7b84424f235e9cfbc3bcd6cb5197fade1ebbac0
+  show_ref_link: false
+  title: Modeling Transfer Relationships Between Learning Tasks for Improved Inductive Transfer
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-manifold-alignment-using-procrustes-analysis
+  numCitedBy: 261
+  pid: a6c3392d12b00a4fac8b82dd9a1ff7bad8f29b74
+  show_ref_link: false
+  title: Manifold alignment using Procrustes analysis
+  year: 2008
+slug: A-Survey-on-Transfer-Learning-Pan-Yang
+title: A Survey on Transfer Learning
+url: https://www.semanticscholar.org/paper/A-Survey-on-Transfer-Learning-Pan-Yang/a25fbcbbae1e8f79c4360d26aa11a3abf1a11972?sort=total-citations
+venue: IEEE Transactions on Knowledge and Data Engineering
+year: 2010

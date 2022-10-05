@@ -372,7 +372,7 @@ references:
   meta_key: 2001-the-elements-of-statistical-learning
   numCitedBy: 12272
   pid: 44d71e0ec9f68d8eb802b9ab1dde8368efeac42e
-  show_ref_link: false
+  show_ref_link: true
   title: The Elements of Statistical Learning
   year: 2001
 - fieldsOfStudy:

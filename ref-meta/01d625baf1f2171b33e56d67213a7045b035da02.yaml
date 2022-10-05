@@ -1,0 +1,166 @@
+authors:
+- Ruoxi Wang
+- Bin Fu
+- G. Fu
+- Mingliang Wang
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 6011288
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-deep-cross-network-for-ad-click-predictions
+numCitedBy: 571
+numCiting: 19
+paperAbstract: Feature engineering has been the key to the success of many prediction models. However, the process is nontrivial and often requires manual feature engineering or exhaustive searching. DNNs are able to automatically learn feature interactions; however, they generate all the interactions implicitly, and are not necessarily efficient in learning all types of cross features. In this paper, we propose the Deep & Cross Network (DCN) which keeps the benefits of a DNN model, and beyond that, it introduces a novel cross network that is more efficient in learning certain bounded-degree feature interactions. In particular, DCN explicitly applies feature crossing at each layer, requires no manual feature engineering, and adds negligible extra complexity to the DNN model. Our experimental results have demonstrated its superiority over the state-of-art algorithms on the CTR prediction dataset and dense classification dataset, in terms of both model accuracy and memory usage.
+ref_count: 19
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-deep-learning-for-recommender-systems
+  numCitedBy: 2152
+  pid: 657fbf29ea0b4904a3e98d1556f9acf38dddae5f
+  show_ref_link: true
+  title: Wide & Deep Learning for Recommender Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-crossing-web-scale-modeling-without-manually-crafted-combinatorial-features
+  numCitedBy: 288
+  pid: a83c778e918539941cba9dcaa6ec881b3ae7a29a
+  show_ref_link: false
+  title: Deep Crossing - Web-Scale Modeling without Manually Crafted Combinatorial Features
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-field-aware-factorization-machines-for-ctr-prediction
+  numCitedBy: 492
+  pid: a802eccf56ea69c65b14831335a484a69e5cd849
+  show_ref_link: false
+  title: Field-aware Factorization Machines for CTR Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-residual-networks-behave-like-ensembles-of-relatively-shallow-networks
+  numCitedBy: 727
+  pid: 2a24b68ef180c0c8742bd494a55fb6f68864efed
+  show_ref_link: false
+  title: Residual Networks Behave Like Ensembles of Relatively Shallow Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-tensor-machines-for-learning-target-specific-polynomial-features
+  numCitedBy: 8
+  pid: a5a11a57a143d5b585b43eb564e9f7f812469820
+  show_ref_link: false
+  title: Tensor machines for learning target-specific polynomial features
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 106571
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 31492
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-factorization-machines-with-libfm
+  numCitedBy: 1084
+  pid: e50f4d3316d13841c287dcdf5479d7820d593571
+  show_ref_link: true
+  title: Factorization Machines with libFM
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-field-aware-factorization-machines-in-a-real-world-online-advertising-system
+  numCitedBy: 80
+  pid: c7567efdb5d3ed312aaa40da0d4cf2d0809bae2f
+  show_ref_link: false
+  title: Field-aware Factorization Machines in a Real-world Online Advertising System
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 98441
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-learning
+  numCitedBy: 29217
+  pid: a4cec122a08216fe8a3bc19b22e78fbaea096256
+  show_ref_link: false
+  title: Deep Learning
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-learning-in-neural-networks-an-overview
+  numCitedBy: 12412
+  pid: 193edd20cae92c6759c18ce93eeea96afd9528eb
+  show_ref_link: true
+  title: Deep learning in neural networks - An overview
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-higher-order-factorization-machines
+  numCitedBy: 132
+  pid: 3f3b3dc86415ebda1043d2be55e75a29ffe2bd95
+  show_ref_link: false
+  title: Higher-Order Factorization Machines
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-simple-and-scalable-response-prediction-for-display-advertising
+  numCitedBy: 295
+  pid: 62312d957c63d85e9ba446bdbfa4143e8fbd13d3
+  show_ref_link: false
+  title: Simple and Scalable Response Prediction for Display Advertising
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorization-machines
+  numCitedBy: 1819
+  pid: df93596d4ed71d2863532c063c4c693711216abf
+  show_ref_link: false
+  title: Factorization Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-polynomials-with-neural-networks
+  numCitedBy: 147
+  pid: c8f73baeeeb9dc189753f3c2a275303b242187cf
+  show_ref_link: false
+  title: Learning Polynomials with Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1964-principles-of-mathematical-analysis
+  numCitedBy: 6474
+  pid: 88263b99ae7d88ae8719ad463e171058686349f0
+  show_ref_link: false
+  title: Principles of mathematical analysis
+  year: 1964
+- fieldsOfStudy:
+  - Education
+  meta_key: 2016-deep-learning
+  numCitedBy: 34883
+  pid: 4f8d648c52edf74e41b0996128aa536e13cc7e82
+  show_ref_link: true
+  title: Deep Learning
+  year: 2016
+slug: Deep-&-Cross-Network-for-Ad-Click-Predictions-Wang-Fu
+title: Deep & Cross Network for Ad Click Predictions
+url: https://www.semanticscholar.org/paper/Deep-&-Cross-Network-for-Ad-Click-Predictions-Wang-Fu/01d625baf1f2171b33e56d67213a7045b035da02?sort=total-citations
+venue: ADKDD@KDD
+year: 2017

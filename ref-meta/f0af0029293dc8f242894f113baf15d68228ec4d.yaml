@@ -1,0 +1,271 @@
+authors:
+- Jun Xiao
+- Hao Ye
+- Xiangnan He
+- Hanwang Zhang
+- Fei Wu
+- Tat-Seng Chua
+badges:
+- id: OPEN_ACCESS
+corpusId: 3836251
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-attentional-factorization-machines-learning-the-weight-of-feature-interactions-via-attention-networks
+numCitedBy: 552
+numCiting: 37
+paperAbstract: 'Factorization Machines (FMs) are a supervised learning approach that enhances the linear regression model by incorporating the second-order feature interactions. Despite effectiveness, FM can be hindered by its modelling of all feature interactions with the same weight, as not all feature interactions are equally useful and predictive. For example, the interactions with useless features may even introduce noises and adversely degrade the performance. In this work, we improve FM by discriminating the importance of different feature interactions. We propose a novel model named Attentional Factorization Machine (AFM), which learns the importance of each feature interaction from data via a neural attention network. Extensive experiments on two real-world datasets demonstrate the effectiveness of AFM. Empirically, it is shown on regression task AFM betters FM with a $8.6\%$ relative improvement, and consistently outperforms the state-of-the-art deep learning methods Wide&Deep and DeepCross with a much simpler structure and fewer model parameters. Our implementation of AFM is publicly available at: this https URL'
+ref_count: 37
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-factorization-machines-for-sparse-predictive-analytics
+  numCitedBy: 854
+  pid: 3d1f9a530e710fdd4e2313bda4c8a1f574e60ab6
+  show_ref_link: true
+  title: Neural Factorization Machines for Sparse Predictive Analytics
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-deep-learning-for-recommender-systems
+  numCitedBy: 2152
+  pid: 657fbf29ea0b4904a3e98d1556f9acf38dddae5f
+  show_ref_link: true
+  title: Wide & Deep Learning for Recommender Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-factorization-machines-with-libfm
+  numCitedBy: 1084
+  pid: e50f4d3316d13841c287dcdf5479d7820d593571
+  show_ref_link: true
+  title: Factorization Machines with libFM
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-gradient-boosting-factorization-machines
+  numCitedBy: 68
+  pid: cd579e1e9cc350c3f7746e6ae6911a97e21ba27c
+  show_ref_link: false
+  title: Gradient boosting factorization machines
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-higher-order-factorization-machines
+  numCitedBy: 132
+  pid: 3f3b3dc86415ebda1043d2be55e75a29ffe2bd95
+  show_ref_link: false
+  title: Higher-Order Factorization Machines
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorization-machines
+  numCitedBy: 1819
+  pid: df93596d4ed71d2863532c063c4c693711216abf
+  show_ref_link: false
+  title: Factorization Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 106571
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-matrix-factorization-for-online-recommendation-with-implicit-feedback
+  numCitedBy: 750
+  pid: ab443bd7e732374caabb5785b8d37bbfc724c845
+  show_ref_link: true
+  title: Fast Matrix Factorization for Online Recommendation with Implicit Feedback
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-field-aware-factorization-machines-for-ctr-prediction
+  numCitedBy: 492
+  pid: a802eccf56ea69c65b14831335a484a69e5cd849
+  show_ref_link: false
+  title: Field-aware Factorization Machines for CTR Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 29832
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-sca-cnn-spatial-and-channel-wise-attention-in-convolutional-networks-for-image-captioning
+  numCitedBy: 1116
+  pid: 88513e738a95840de05a62f0e43d30a67b3c542e
+  show_ref_link: false
+  title: SCA-CNN - Spatial and Channel-Wise Attention in Convolutional Networks for Image Captioning
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-a-generic-coordinate-descent-framework-for-learning-from-implicit-feedback
+  numCitedBy: 179
+  pid: 5720a5015ca67400fadd0ff6863519f4b030e731
+  show_ref_link: false
+  title: A Generic Coordinate Descent Framework for Learning from Implicit Feedback
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-learning-on-big-graph-label-inference-and-regularization-with-anchor-hierarchy
+  numCitedBy: 93
+  pid: 1d9b302a5a004e279b984f35d01190cb59658c50
+  show_ref_link: false
+  title: Learning on Big Graph - Label Inference and Regularization with Anchor Hierarchy
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-fast-context-aware-recommendations-with-factorization-machines
+  numCitedBy: 517
+  pid: 1683ffc189d16b616131c300f45af87602d211f7
+  show_ref_link: false
+  title: Fast context-aware recommendations with factorization machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-factorization-meets-the-neighborhood-a-multifaceted-collaborative-filtering-model
+  numCitedBy: 3612
+  pid: cf6f83fcce274606bf0264c59d1c78a30c9c9d18
+  show_ref_link: true
+  title: Factorization meets the neighborhood - a multifaceted collaborative filtering model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-visual-translation-embedding-network-for-visual-relation-detection
+  numCitedBy: 418
+  pid: 996901b08a6b6f401146204f2db0d54aaf8749c8
+  show_ref_link: false
+  title: Visual Translation Embedding Network for Visual Relation Detection
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-crossing-web-scale-modeling-without-manually-crafted-combinatorial-features
+  numCitedBy: 288
+  pid: a83c778e918539941cba9dcaa6ec881b3ae7a29a
+  show_ref_link: false
+  title: Deep Crossing - Web-Scale Modeling without Manually Crafted Combinatorial Features
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-core-context-aware-open-relation-extraction-with-factorization-machines
+  numCitedBy: 31
+  pid: b471a6c7e1d45c78e78ea7b06f6f798a905ae304
+  show_ref_link: false
+  title: CORE - Context-Aware Open Relation Extraction with Factorization Machines
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-user-preference-learning-for-online-social-recommendation
+  numCitedBy: 85
+  pid: 415b92442297702c1c684a7081ba176d1e7c0529
+  show_ref_link: false
+  title: User Preference Learning for Online Social Recommendation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-exploiting-web-images-for-semantic-video-indexing-via-robust-sample-specific-loss
+  numCitedBy: 128
+  pid: d4ab29decccb72ef944f9b2150106e595bf03345
+  show_ref_link: false
+  title: Exploiting Web Images for Semantic Video Indexing Via Robust Sample-Specific Loss
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-comment-based-multi-view-clustering-of-web-2-0-items
+  numCitedBy: 89
+  pid: d7296b5b22b839836d8c226f049131eef1dc0d95
+  show_ref_link: false
+  title: Comment-based multi-view clustering of web 2.0 items
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-supervised-discrete-hashing
+  numCitedBy: 922
+  pid: 7c7899faf1512d2c7bbcb6fda5e881c79f8f135e
+  show_ref_link: false
+  title: Supervised Discrete Hashing
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-context-aware-image-tweet-modelling-and-recommendation
+  numCitedBy: 68
+  pid: bdadef4d3265d1f1e3f92155ca1896df0f8619d4
+  show_ref_link: false
+  title: Context-aware Image Tweet Modelling and Recommendation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-discrete-collaborative-filtering
+  numCitedBy: 217
+  pid: b526b9b39046d3661160256153a5b602166f316a
+  show_ref_link: false
+  title: Discrete Collaborative Filtering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-expert-finding-for-question-answering-via-graph-regularized-matrix-completion
+  numCitedBy: 151
+  pid: 2141f99fcce1c5df886816b179adf9adfb3939ca
+  show_ref_link: false
+  title: Expert Finding for Question Answering via Graph Regularized Matrix Completion
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-birank-towards-ranking-on-bipartite-graphs
+  numCitedBy: 115
+  pid: 728f470d67c5b2d6e3ea1fa13b3b3a23545b3f65
+  show_ref_link: false
+  title: BiRank - Towards Ranking on Bipartite Graphs
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-the-movielens-datasets-history-and-context
+  numCitedBy: 2909
+  pid: 276ebc620a8976026bd2d03582b9ecfa3738d43c
+  show_ref_link: false
+  title: The MovieLens Datasets - History and Context
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-frappe-understanding-the-usage-and-perception-of-mobile-app-recommendations-in-the-wild
+  numCitedBy: 67
+  pid: 00f4df1d155cc9bdf412e1d5d17c9193799e6e9f
+  show_ref_link: false
+  title: Frappe - Understanding the Usage and Perception of Mobile App Recommendations In-The-Wild
+  year: 2015
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2012-et-al
+  numCitedBy: 61372
+  pid: bc6dff14a130c57a91d5a21339c23471faf1d46f
+  show_ref_link: false
+  title: Et al
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-scalable-semi-supervised-learning-by-efficient-anchor-graph-regularization
+  numCitedBy: 138
+  pid: a4be6fa575bf7325514acfd38a7d1c19e42b37a9
+  show_ref_link: false
+  title: Scalable Semi-Supervised Learning by Efficient Anchor Graph Regularization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-multitask-spectral-clustering-by-exploring-intertask-correlation
+  numCitedBy: 147
+  pid: d454472b2e20c0df8b7fd794138766a59c7a41e3
+  show_ref_link: false
+  title: Multitask Spectral Clustering by Exploring Intertask Correlation
+  year: 2015
+slug: Attentional-Factorization-Machines:-Learning-the-of-Xiao-Ye
+title: Attentional Factorization Machines - Learning the Weight of Feature Interactions via Attention Networks
+url: https://www.semanticscholar.org/paper/Attentional-Factorization-Machines:-Learning-the-of-Xiao-Ye/f0af0029293dc8f242894f113baf15d68228ec4d?sort=total-citations
+venue: IJCAI
+year: 2017

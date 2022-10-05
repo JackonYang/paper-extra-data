@@ -1,0 +1,108 @@
+authors:
+- Y. Koren
+- Robert M. Bell
+- C. Volinsky
+badges:
+- id: OPEN_ACCESS
+corpusId: 58370896
+fieldsOfStudy:
+- Computer Science
+meta_key: 2009-matrix-factorization-techniques-for-recommender-systems
+numCitedBy: 7016
+numCiting: 12
+paperAbstract: As the Netflix Prize competition has demonstrated, matrix factorization models are superior to classic nearest neighbor techniques for producing product recommendations, allowing the incorporation of additional information such as implicit feedback, temporal effects, and confidence levels.
+ref_count: 12
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-improving-regularized-singular-value-decomposition-for-collaborative-filtering
+  numCitedBy: 785
+  pid: f732d0f69fe4e84a95c32706b28b9e4ef1753c61
+  show_ref_link: false
+  title: Improving regularized singular value decomposition for collaborative filtering
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-the-netflix-prize
+  numCitedBy: 2030
+  pid: 31af4b8793e93fd35e89569ccd663ae8777f0072
+  show_ref_link: false
+  title: The Netflix Prize
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-factorization-meets-the-neighborhood-a-multifaceted-collaborative-filtering-model
+  numCitedBy: 3612
+  pid: cf6f83fcce274606bf0264c59d1c78a30c9c9d18
+  show_ref_link: true
+  title: Factorization meets the neighborhood - a multifaceted collaborative filtering model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-collaborative-filtering-for-implicit-feedback-datasets
+  numCitedBy: 2749
+  pid: 184b7281a87ee16228b24716ca02b29519d52eb5
+  show_ref_link: false
+  title: Collaborative Filtering for Implicit Feedback Datasets
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-major-components-of-the-gravity-recommendation-system
+  numCitedBy: 154
+  pid: fe5e47686ea8f65567cd7faf867b07872444cf1e
+  show_ref_link: false
+  title: Major components of the gravity recommendation system
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-scalable-collaborative-filtering-with-jointly-derived-neighborhood-interpolation-weights
+  numCitedBy: 559
+  pid: 0c953e630cccd64d2ad5fbb09f08425e7f82b7a3
+  show_ref_link: false
+  title: Scalable Collaborative Filtering with Jointly Derived Neighborhood Interpolation Weights
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-large-scale-parallel-collaborative-filtering-for-the-netflix-prize
+  numCitedBy: 780
+  pid: 4e8e3e40a25fba903f40246705c3beb3c122f523
+  show_ref_link: false
+  title: Large-Scale Parallel Collaborative Filtering for the Netflix Prize
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-probabilistic-matrix-factorization
+  numCitedBy: 3875
+  pid: e19971e7d100386b9b4cf4ea1a0782b62fe036e5
+  show_ref_link: true
+  title: Probabilistic Matrix Factorization
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-application-of-dimensionality-reduction-in-recommender-system-a-case-study
+  numCitedBy: 1449
+  pid: c3eddc356634d8c0d6db385567deffe1cf7cb3f6
+  show_ref_link: false
+  title: Application of Dimensionality Reduction in Recommender System - A Case Study
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-collaborative-filtering-with-temporal-dynamics
+  numCitedBy: 1668
+  pid: c1aa28159e768b75d0f4637a71d20da02efe1ef2
+  show_ref_link: false
+  title: Collaborative filtering with temporal dynamics
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-using-collaborative-filtering-to-weave-an-information-tapestry
+  numCitedBy: 4098
+  pid: fe9cd9ab8bcc110847a8a4792134e4917fd7e933
+  show_ref_link: false
+  title: Using collaborative filtering to weave an information tapestry
+  year: 1992
+slug: Matrix-Factorization-Techniques-for-Recommender-Koren-Bell
+title: Matrix Factorization Techniques for Recommender Systems
+url: https://www.semanticscholar.org/paper/Matrix-Factorization-Techniques-for-Recommender-Koren-Bell/d4bbcc842f22547eaf5884251eaa68251895dccb?sort=total-citations
+venue: Computer
+year: 2009

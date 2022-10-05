@@ -9,7 +9,7 @@ corpusId: 1918428
 fieldsOfStudy:
 - Computer Science
 meta_key: 2015-a-neural-attention-model-for-abstractive-sentence-summarization
-numCitedBy: 2122
+numCitedBy: 2197
 numCiting: 45
 paperAbstract: Summarization based on text extraction is inherently limited, but generation-style abstractive methods have proven challenging to build. In this work, we propose a fully data-driven approach to abstractive sentence summarization. Our method utilizes a local attention-based model that generates each word of the summary conditioned on the input sentence. While the model is structurally simple, it can easily be trained end-to-end and scales to a large amount of training data. The model shows significant performance gains on the DUC-2004 shared task compared with several strong baselines.
 ref_count: 45

@@ -1,0 +1,211 @@
+authors:
+- Y. Koren
+badges:
+- id: OPEN_ACCESS
+corpusId: 207168823
+fieldsOfStudy:
+- Computer Science
+meta_key: 2008-factorization-meets-the-neighborhood-a-multifaceted-collaborative-filtering-model
+numCitedBy: 3612
+numCiting: 29
+paperAbstract: Recommender systems provide users with personalized suggestions for products or services. These systems often rely on Collaborating Filtering (CF), where past transactions are analyzed in order to establish connections between users and products. The two more successful approaches to CF are latent factor models, which directly profile both users and products, and neighborhood models, which analyze similarities between products or users. In this work we introduce some innovations to both approaches. The factor and neighborhood models can now be smoothly merged, thereby building a more accurate combined model. Further accuracy improvements are achieved by extending the models to exploit both explicit and implicit feedback by the users. The methods are tested on the Netflix data. Results are better than those previously published on that dataset. In addition, we suggest a new evaluation metric, which highlights the differences among methods, based on their performance at a top-K recommendation task.
+ref_count: 29
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-scalable-collaborative-filtering-with-jointly-derived-neighborhood-interpolation-weights
+  numCitedBy: 559
+  pid: 0c953e630cccd64d2ad5fbb09f08425e7f82b7a3
+  show_ref_link: false
+  title: Scalable Collaborative Filtering with Jointly Derived Neighborhood Interpolation Weights
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-modeling-relationships-at-multiple-scales-to-improve-accuracy-of-large-recommender-systems
+  numCitedBy: 389
+  pid: cae130eb00f79a415b4ba2f01dbb7019c4a4666d
+  show_ref_link: false
+  title: Modeling relationships at multiple scales to improve accuracy of large recommender systems
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-latent-semantic-models-for-collaborative-filtering
+  numCitedBy: 1458
+  pid: 25353bc78453da76e43e199a925ab54457e18ca5
+  show_ref_link: false
+  title: Latent semantic models for collaborative filtering
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-improving-regularized-singular-value-decomposition-for-collaborative-filtering
+  numCitedBy: 785
+  pid: f732d0f69fe4e84a95c32706b28b9e4ef1753c61
+  show_ref_link: false
+  title: Improving regularized singular value decomposition for collaborative filtering
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-collaborative-filtering-based-on-iterative-principal-component-analysis
+  numCitedBy: 104
+  pid: da66e90984213821f8cc5f08d13c71be4cb85005
+  show_ref_link: false
+  title: Collaborative filtering based on iterative principal component analysis
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-item-based-collaborative-filtering-recommendation-algorithms
+  numCitedBy: 8423
+  pid: f82c52452c7de8cd6472202c1be2cce9fbcb8dda
+  show_ref_link: true
+  title: Item-based collaborative filtering recommendation algorithms
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-major-components-of-the-gravity-recommendation-system
+  numCitedBy: 154
+  pid: fe5e47686ea8f65567cd7faf867b07872444cf1e
+  show_ref_link: false
+  title: Major components of the gravity recommendation system
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-probabilistic-matrix-factorization
+  numCitedBy: 3875
+  pid: e19971e7d100386b9b4cf4ea1a0782b62fe036e5
+  show_ref_link: true
+  title: Probabilistic Matrix Factorization
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-explaining-collaborative-filtering-recommendations
+  numCitedBy: 1711
+  pid: 565f003d7f373fa073967a44fa3dd4355a7280ef
+  show_ref_link: false
+  title: Explaining collaborative filtering recommendations
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-application-of-dimensionality-reduction-in-recommender-system-a-case-study
+  numCitedBy: 1449
+  pid: c3eddc356634d8c0d6db385567deffe1cf7cb3f6
+  show_ref_link: false
+  title: Application of Dimensionality Reduction in Recommender System - A Case Study
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-amazon-com-recommendations-item-to-item-collaborative-filtering
+  numCitedBy: 5536
+  pid: da8b0378174bc25ed174be36a1c725787b81854d
+  show_ref_link: true
+  title: Amazon.com Recommendations - Item-to-Item Collaborative Filtering
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-restricted-boltzmann-machines-for-collaborative-filtering
+  numCitedBy: 1880
+  pid: 1626c940a64ad96a7ed53d7d6c0df63c6696956b
+  show_ref_link: false
+  title: Restricted Boltzmann machines for collaborative filtering
+  year: 2007
+- fieldsOfStudy:
+  - Psychology
+  - Computer Science
+  meta_key: 1998-implicit-feedback-for-recommender-systems
+  numCitedBy: 426
+  pid: e501616f80bf743e3f85ef134ef234b6e8c22751
+  show_ref_link: false
+  title: Implicit Feedback for Recommender Systems
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-collaborative-filtering-with-privacy-via-factor-analysis
+  numCitedBy: 570
+  pid: e032a6e6879ace7b7a790901b535165cb64ba028
+  show_ref_link: false
+  title: Collaborative filtering with privacy via factor analysis
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-a-survey-of-explanations-in-recommender-systems
+  numCitedBy: 472
+  pid: a253a4ede67b04f383d71dc60ffd91d9ac8782f7
+  show_ref_link: false
+  title: A Survey of Explanations in Recommender Systems
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-latent-dirichlet-allocation
+  numCitedBy: 32111
+  pid: f198043a866e9187925a8d8db9a55e3bfdd47f2c
+  show_ref_link: true
+  title: Latent Dirichlet Allocation
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-kdd-cup-and-workshop-2007
+  numCitedBy: 143
+  pid: 088c50a0407424b164e64e90ba2ed5bdec32cacd
+  show_ref_link: false
+  title: KDD Cup and workshop 2007
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-the-bellkor-solution-to-the-netflix-grand-prize
+  numCitedBy: 487
+  pid: 8b52e5e421a531d8c6f272ce1063610f52f11411
+  show_ref_link: false
+  title: The BellKor Solution to the Netflix Grand Prize
+  year: 2009
+- fieldsOfStudy:
+  - Geology
+  meta_key: 1999-an-algorithmic-framework-for-performing-collaborative-filtering
+  numCitedBy: 2249
+  pid: 333b5c0f2b750f737b725496e2b75a6330f5cc54
+  show_ref_link: false
+  title: An algorithmic framework for performing collaborative filtering
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-the-netflix-prize
+  numCitedBy: 2030
+  pid: 31af4b8793e93fd35e89569ccd663ae8777f0072
+  show_ref_link: false
+  title: The Netflix Prize
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-using-collaborative-filtering-to-weave-an-information-tapestry
+  numCitedBy: 4098
+  pid: fe9cd9ab8bcc110847a8a4792134e4917fd7e933
+  show_ref_link: false
+  title: Using collaborative filtering to weave an information tapestry
+  year: 1992
+- fieldsOfStudy:
+  - Business
+  meta_key: 2007-lessons-from-the-netflix-prize-challenge
+  numCitedBy: 775
+  pid: bd4318cd5129cf0d6268876888359f87b410d719
+  show_ref_link: false
+  title: Lessons from the Netflix prize challenge
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-toward-the-next-generation-of-recommender-systems-a-survey-of-the-state-of-the-art-and-possible-extensions
+  numCitedBy: 9707
+  pid: a51b7816d47a3985328531fdac8ca8a902fc6fb5
+  show_ref_link: false
+  title: Toward the next generation of recommender systems - a survey of the state-of-the-art and possible extensions
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-indexing-by-latent-semantic-analysis
+  numCitedBy: 13230
+  pid: 20a80a7356859daa4170fb4da6b87b84adbb547f
+  show_ref_link: false
+  title: Indexing by Latent Semantic Analysis
+  year: 1990
+slug: Factorization-meets-the-neighborhood:-a-filtering-Koren
+title: Factorization meets the neighborhood - a multifaceted collaborative filtering model
+url: https://www.semanticscholar.org/paper/Factorization-meets-the-neighborhood:-a-filtering-Koren/cf6f83fcce274606bf0264c59d1c78a30c9c9d18?sort=total-citations
+venue: KDD
+year: 2008

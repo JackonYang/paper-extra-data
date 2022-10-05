@@ -1,0 +1,335 @@
+authors:
+- Xiangnan He
+- Hanwang Zhang
+- Min-Yen Kan
+- Tat-Seng Chua
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 2896685
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-fast-matrix-factorization-for-online-recommendation-with-implicit-feedback
+numCitedBy: 750
+numCiting: 49
+paperAbstract: This paper contributes improvements on both the effectiveness and efficiency of Matrix Factorization (MF) methods for implicit feedback. We highlight two critical issues of existing works. First, due to the large space of unobserved feedback, most existing works resort to assign a uniform weight to the missing data to reduce computational complexity. However, such a uniform assumption is invalid in real-world settings. Second, most methods are also designed in an offline setting and fail to keep up with the dynamic nature of online data. We address the above two issues in learning MF models from implicit feedback. We first propose to weight the missing data based on item popularity, which is more effective and flexible than the uniform-weight assumption. However, such a non-uniform weighting poses efficiency challenge in learning the model. To address this, we specifically design a new learning algorithm based on the element-wise Alternating Least Squares (eALS) technique, for efficiently optimizing a MF model with variably-weighted missing data. We exploit this efficiency to then seamlessly devise an incremental update strategy that instantly refreshes a MF model given new feedback. Through comprehensive experiments on two public datasets in both offline and online protocols, we show that our implemented, open-source (https://github.com/hexiangnan/sigir16-eals) eALS consistently outperforms state-of-the-art implicit MF methods.
+ref_count: 49
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-fast-als-based-matrix-factorization-for-explicit-and-implicit-feedback-datasets
+  numCitedBy: 169
+  pid: 5ccd14d553d547384d7a848a6a532e65f1fd6746
+  show_ref_link: false
+  title: Fast als-based matrix factorization for explicit and implicit feedback datasets
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-effective-latent-models-for-binary-feedback-in-recommender-systems
+  numCitedBy: 61
+  pid: 6d4d90b5a2623a8d8284b130461b08d7546763a2
+  show_ref_link: false
+  title: Effective Latent Models for Binary Feedback in Recommender Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-mind-the-gaps-weighting-the-unknown-in-large-scale-one-class-collaborative-filtering
+  numCitedBy: 155
+  pid: de2a0b7ec920e94fcbdeb9ae1f6c7e92cd1e7470
+  show_ref_link: false
+  title: Mind the gaps - weighting the unknown in large-scale one-class collaborative filtering
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-improving-pairwise-learning-for-item-recommendation-from-implicit-feedback
+  numCitedBy: 287
+  pid: 25ad8ad3d1549888a4609659bd55ad825c5df82e
+  show_ref_link: false
+  title: Improving pairwise learning for item recommendation from implicit feedback
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-dynamic-matrix-factorization-with-priors-on-unknown-values
+  numCitedBy: 85
+  pid: a3cdd6ff02f5b67fc68df25b363cf2f7be92d5dd
+  show_ref_link: false
+  title: Dynamic Matrix Factorization with Priors on Unknown Values
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-online-learning-for-collaborative-filtering
+  numCitedBy: 49
+  pid: 38485c7b4e991a67cda20c38062626a7637955b9
+  show_ref_link: false
+  title: Online learning for collaborative filtering
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-bpr-bayesian-personalized-ranking-from-implicit-feedback
+  numCitedBy: 3865
+  pid: db16e908246f32b60a6e0a8e27093aa145fbb1ed
+  show_ref_link: true
+  title: BPR - Bayesian Personalized Ranking from Implicit Feedback
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-online-updating-regularized-kernel-matrix-factorization-models-for-large-scale-recommender-systems
+  numCitedBy: 240
+  pid: bc431f385822efc00541b896cc83a0972e478e01
+  show_ref_link: false
+  title: Online-updating regularized kernel matrix factorization models for large-scale recommender systems
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-collaborative-filtering-for-implicit-feedback-datasets
+  numCitedBy: 2749
+  pid: 184b7281a87ee16228b24716ca02b29519d52eb5
+  show_ref_link: false
+  title: Collaborative Filtering for Implicit Feedback Datasets
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-fast-context-aware-recommendations-with-factorization-machines
+  numCitedBy: 517
+  pid: 1683ffc189d16b616131c300f45af87602d211f7
+  show_ref_link: false
+  title: Fast context-aware recommendations with factorization machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-image-and-user-features-for-recommendation-in-social-networks
+  numCitedBy: 141
+  pid: 15f5721502c2905c555a4eb0a110d6fc211c1fb2
+  show_ref_link: false
+  title: Learning Image and User Features for Recommendation in Social Networks
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-real-time-top-n-recommendation-in-social-streams
+  numCitedBy: 148
+  pid: 4f1fc7a3e14003e196d2e4261035b299e448fa87
+  show_ref_link: false
+  title: Real-time top-n recommendation in social streams
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-advances-in-collaborative-filtering
+  numCitedBy: 1092
+  pid: 480ca76957e066eb6b24cd28df998d30310b4ced
+  show_ref_link: false
+  title: Advances in Collaborative Filtering
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-trirank-review-aware-explainable-recommendation-by-modeling-aspects
+  numCitedBy: 363
+  pid: 676c4dfdc8782c2cc5157f5bd5e1c1e39dd732a3
+  show_ref_link: false
+  title: TriRank - Review-aware Explainable Recommendation by Modeling Aspects
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-large-scale-matrix-factorization-with-distributed-stochastic-gradient-descent
+  numCitedBy: 671
+  pid: e8d8f8e7cad53725aa0eb255e28124aab6b4d64b
+  show_ref_link: false
+  title: Large-scale matrix factorization with distributed stochastic gradient descent
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-discrete-collaborative-filtering
+  numCitedBy: 217
+  pid: b526b9b39046d3661160256153a5b602166f316a
+  show_ref_link: false
+  title: Discrete Collaborative Filtering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-predicting-the-popularity-of-web-2-0-items-based-on-user-comments
+  numCitedBy: 97
+  pid: 2b1d4273d1c967c10680aca02deebb125243b713
+  show_ref_link: false
+  title: Predicting the popularity of web 2.0 items based on user comments
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-training-and-testing-of-recommender-systems-on-data-missing-not-at-random
+  numCitedBy: 299
+  pid: f0636bad1e8d3c1a19894d1995b03b26bf6033f1
+  show_ref_link: false
+  title: Training and testing of recommender systems on data missing not at random
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-performance-of-recommender-algorithms-on-top-n-recommendation-tasks
+  numCitedBy: 1297
+  pid: d5fdc3c0b2049a025091179a73e0e4174105fcd4
+  show_ref_link: false
+  title: Performance of recommender algorithms on top-n recommendation tasks
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-one-class-collaborative-filtering
+  numCitedBy: 935
+  pid: 109de4531e279681919f7330f01b532a7201e4b9
+  show_ref_link: false
+  title: One-Class Collaborative Filtering
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-collaborative-filtering-and-the-missing-at-random-assumption
+  numCitedBy: 261
+  pid: fee5bc9a391816be11c52b8559d62ea397bff90f
+  show_ref_link: false
+  title: Collaborative Filtering and the Missing at Random Assumption
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-comment-based-multi-view-clustering-of-web-2-0-items
+  numCitedBy: 89
+  pid: d7296b5b22b839836d8c226f049131eef1dc0d95
+  show_ref_link: false
+  title: Comment-based multi-view clustering of web 2.0 items
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-robust-non-negative-graph-embedding-towards-noisy-data-unreliable-graphs-and-noisy-labels
+  numCitedBy: 24
+  pid: 81c6c5470b16a876c75d00d2743dda16cadc5fb9
+  show_ref_link: false
+  title: Robust Non-negative Graph Embedding - Towards noisy data, unreliable graphs, and noisy labels
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-adaptive-subgradient-methods-for-online-learning-and-stochastic-optimization
+  numCitedBy: 8368
+  pid: 413c1142de9d91804d6d11c67ff3fed59c9fc279
+  show_ref_link: true
+  title: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-google-news-personalization-scalable-online-collaborative-filtering
+  numCitedBy: 1649
+  pid: 7e104b1968b9ec09af0f6b480a46fc1ce884c3bc
+  show_ref_link: false
+  title: Google news personalization - scalable online collaborative filtering
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-collaborative-filtering-with-temporal-dynamics
+  numCitedBy: 1668
+  pid: c1aa28159e768b75d0f4637a71d20da02efe1ef2
+  show_ref_link: false
+  title: Collaborative filtering with temporal dynamics
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-tencentrec-real-time-stream-recommendation-in-practice
+  numCitedBy: 83
+  pid: 0cc9fec29996cdc2a288883f8aba4423ab2f90fa
+  show_ref_link: false
+  title: TencentRec - Real-time Stream Recommendation in Practice
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-glove-global-vectors-for-word-representation
+  numCitedBy: 23879
+  pid: f37e1b62a767a307c046404ca96bc140b3e68cb5
+  show_ref_link: true
+  title: GloVe - Global Vectors for Word Representation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Mathematics
+  meta_key: 2014-iteration-complexity-of-randomized-block-coordinate-descent-methods-for-minimizing-a-composite-function
+  numCitedBy: 681
+  pid: a8048db26cb78e785e82f06645da3f79d729528e
+  show_ref_link: false
+  title: Iteration complexity of randomized block-coordinate descent methods for minimizing a composite function
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-start-from-scratch-towards-automatically-identifying-modeling-and-naming-visual-attributes
+  numCitedBy: 69
+  pid: d511bc8d630248e9befb6deb6fe6e5e719f1e414
+  show_ref_link: false
+  title: Start from Scratch - Towards Automatically Identifying, Modeling, and Naming Visual Attributes
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-distributed-representations-of-words-and-phrases-and-their-compositionality
+  numCitedBy: 27216
+  pid: 87f40e6f3022adbc1f1905e3e506abad05a9964f
+  show_ref_link: true
+  title: Distributed Representations of Words and Phrases and their Compositionality
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-attribute-augmented-semantic-hierarchy-towards-a-unified-framework-for-content-based-image-retrieval
+  numCitedBy: 30
+  pid: a35338cb4686cff66710b7f8102e5eabfc38adb8
+  show_ref_link: false
+  title: Attribute-Augmented Semantic Hierarchy - Towards a Unified Framework for Content-Based Image Retrieval
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-multimedia-summarization-for-social-events-in-microblog-stream
+  numCitedBy: 94
+  pid: 3844c7d5fa7ded98dca892a935e2c0e92140323f
+  show_ref_link: false
+  title: Multimedia Summarization for Social Events in Microblog Stream
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-perception-guided-multimodal-feature-fusion-for-photo-aesthetics-assessment
+  numCitedBy: 51
+  pid: 9a79e11b4261aa601d7f77f4ba5aed22ca1f6ad6
+  show_ref_link: false
+  title: Perception-Guided Multimodal Feature Fusion for Photo Aesthetics Assessment
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-enhancing-video-event-recognition-using-automatically-constructed-semantic-visual-knowledge-base
+  numCitedBy: 30
+  pid: 72d856a91821e6e3418e916b1b732ea9637742e1
+  show_ref_link: false
+  title: Enhancing Video Event Recognition Using Automatically Constructed Semantic-Visual Knowledge Base
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-machine-learning-the-high-interest-credit-card-of-technical-debt
+  numCitedBy: 256
+  pid: 51891710e30da33c4ced4ae7daee1593e0cb5cc4
+  show_ref_link: false
+  title: Machine Learning - The High Interest Credit Card of Technical Debt
+  year: 2014
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1987-matrix-multiplication-via-arithmetic-progressions
+  numCitedBy: 2830
+  pid: 1992fee8d33e66e32a213ecf047f9022adbff92e
+  show_ref_link: false
+  title: Matrix multiplication via arithmetic progressions
+  year: 1987
+- fieldsOfStudy:
+  - Business
+  meta_key: 2014-acm-international-conference-on-multimedia-retrieval-icmr-2014
+  numCitedBy: 2
+  pid: 17cb9922a8f8ee54ff0d7714aa65a69dcd2dee52
+  show_ref_link: false
+  title: ACM International Conference on Multimedia Retrieval (ICMR 2014)
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-neural-word-embedding-as-implicit-matrix-factorization
+  numCitedBy: 1632
+  pid: f4c018bcc8ea707b83247866bdc8ccb87cd9f5da
+  show_ref_link: false
+  title: Neural Word Embedding as Implicit Matrix Factorization
+  year: 2014
+slug: Fast-Matrix-Factorization-for-Online-Recommendation-He-Zhang
+title: Fast Matrix Factorization for Online Recommendation with Implicit Feedback
+url: https://www.semanticscholar.org/paper/Fast-Matrix-Factorization-for-Online-Recommendation-He-Zhang/ab443bd7e732374caabb5785b8d37bbfc724c845?sort=total-citations
+venue: SIGIR
+year: 2016

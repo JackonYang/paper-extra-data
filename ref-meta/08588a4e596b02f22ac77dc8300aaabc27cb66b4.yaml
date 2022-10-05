@@ -1,0 +1,370 @@
+authors:
+- Weiping Song
+- Chence Shi
+- Zhiping Xiao
+- Zhijian Duan
+- Yewen Xu
+- Ming Zhang
+- Jian Tang
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 53100214
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-autoint-automatic-feature-interaction-learning-via-self-attentive-neural-networks
+numCitedBy: 287
+numCiting: 43
+paperAbstract: 'Click-through rate (CTR) prediction, which aims to predict the probability of a user clicking on an ad or an item, is critical to many online applications such as online advertising and recommender systems. The problem is very challenging since (1) the input features (e.g., the user id, user age, item id, item category) are usually sparse and high-dimensional, and (2) an effective prediction relies on high-order combinatorial features (a.k.a. cross features), which are very time-consuming to hand-craft by domain experts and are impossible to be enumerated. Therefore, there have been efforts in finding low-dimensional representations of the sparse and high-dimensional raw features and their meaningful combinations. In this paper, we propose an effective and efficient method called the AutoInt to automatically learn the high-order feature interactions of input features. Our proposed algorithm is very general, which can be applied to both numerical and categorical input features. Specifically, we map both the numerical and categorical features into the same low-dimensional space. Afterwards, a multi-head self-attentive neural network with residual connections is proposed to explicitly model the feature interactions in the low-dimensional space. With different layers of the multi-head self-attentive neural networks, different orders of feature combinations of input features can be modeled. The whole model can be efficiently fit on large-scale raw data in an end-to-end fashion. Experimental results on four real-world datasets show that our proposed approach not only outperforms existing state-of-the-art approaches for prediction but also offers good explainability. Code is available at: \urlhttps://github.com/DeepGraphLearning/RecommenderSystems.'
+ref_count: 43
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-product-based-neural-networks-for-user-response-prediction
+  numCitedBy: 421
+  pid: 65455368b4ff0aa8886245c093346c66ff74bb0a
+  show_ref_link: false
+  title: Product-Based Neural Networks for User Response Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-learning-over-multi-field-categorical-data-a-case-study-on-user-response-prediction
+  numCitedBy: 357
+  pid: 1bc072002d97808340b312b69427baf2dc9fcb8e
+  show_ref_link: false
+  title: Deep Learning over Multi-field Categorical Data - - A Case Study on User Response Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-xdeepfm-combining-explicit-and-implicit-feature-interactions-for-recommender-systems
+  numCitedBy: 468
+  pid: 3448e6a5039417dc1ae890efeca3bef5390ace7c
+  show_ref_link: false
+  title: xDeepFM - Combining Explicit and Implicit Feature Interactions for Recommender Systems
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-deep-interest-network-for-click-through-rate-prediction
+  numCitedBy: 881
+  pid: b8c6ccd5c1eb4f9837fc4877d27e55b7349781be
+  show_ref_link: false
+  title: Deep Interest Network for Click-Through Rate Prediction
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-ad-click-prediction-a-view-from-the-trenches
+  numCitedBy: 800
+  pid: 79f2626046fdc56edfaca840874e355cac734b9a
+  show_ref_link: false
+  title: Ad click prediction - a view from the trenches
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deepfm-a-factorization-machine-based-neural-network-for-ctr-prediction
+  numCitedBy: 1359
+  pid: 1d122a074c936fcfd95faf44608e377a9d1799c8
+  show_ref_link: true
+  title: DeepFM - A Factorization-Machine based Neural Network for CTR Prediction
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-cross-network-for-ad-click-predictions
+  numCitedBy: 571
+  pid: 01d625baf1f2171b33e56d67213a7045b035da02
+  show_ref_link: true
+  title: Deep & Cross Network for Ad Click Predictions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-nais-neural-attentive-item-similarity-model-for-recommendation
+  numCitedBy: 306
+  pid: 833a6052983fa55181b92516d0e1097d74585c58
+  show_ref_link: false
+  title: NAIS - Neural Attentive Item Similarity Model for Recommendation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  - Business
+  meta_key: 2014-practical-lessons-from-predicting-clicks-on-ads-at-facebook
+  numCitedBy: 656
+  pid: daf9ed5dc6c6bad5367d7fd8561527da30e9b8dd
+  show_ref_link: false
+  title: Practical Lessons from Predicting Clicks on Ads at Facebook
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-deep-learning-for-recommender-systems
+  numCitedBy: 2152
+  pid: 657fbf29ea0b4904a3e98d1556f9acf38dddae5f
+  show_ref_link: true
+  title: Wide & Deep Learning for Recommender Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-factorization-machines-for-sparse-predictive-analytics
+  numCitedBy: 854
+  pid: 3d1f9a530e710fdd4e2313bda4c8a1f574e60ab6
+  show_ref_link: true
+  title: Neural Factorization Machines for Sparse Predictive Analytics
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-tem-tree-enhanced-embedding-model-for-explainable-recommendation
+  numCitedBy: 201
+  pid: 61781520b20986f2defc7f31eee004d957490e98
+  show_ref_link: false
+  title: TEM - Tree-enhanced Embedding Model for Explainable Recommendation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-latent-cross-making-use-of-context-in-recurrent-recommender-systems
+  numCitedBy: 237
+  pid: 629781b0d1cb7d7589b45dc4937ae59ad591ce72
+  show_ref_link: false
+  title: Latent Cross - Making Use of Context in Recurrent Recommender Systems
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-gradient-boosting-factorization-machines
+  numCitedBy: 68
+  pid: cd579e1e9cc350c3f7746e6ae6911a97e21ba27c
+  show_ref_link: false
+  title: Gradient boosting factorization machines
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-field-aware-factorization-machines-for-ctr-prediction
+  numCitedBy: 492
+  pid: a802eccf56ea69c65b14831335a484a69e5cd849
+  show_ref_link: false
+  title: Field-aware Factorization Machines for CTR Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-predicting-ad-click-through-rates-via-feature-based-fully-coupled-interaction-tensor-factorization
+  numCitedBy: 39
+  pid: 976146aebc5e55ba482a98362919a7e37ac9d017
+  show_ref_link: false
+  title: Predicting ad click-through rates via feature-based fully coupled interaction tensor factorization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-session-based-social-recommendation-via-dynamic-graph-attention-networks
+  numCitedBy: 208
+  pid: 901a6ad54f3bfc0ca6671f4e492703c671475288
+  show_ref_link: false
+  title: Session-Based Social Recommendation via Dynamic Graph Attention Networks
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-predicting-response-in-mobile-advertising-with-hierarchical-importance-aware-factorization-machine
+  numCitedBy: 90
+  pid: 4165afe63b70f8d8d1d385959585fdc3b796d481
+  show_ref_link: false
+  title: Predicting response in mobile advertising with hierarchical importance-aware factorization machine
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-predicting-clicks-estimating-the-click-through-rate-for-new-ads
+  numCitedBy: 944
+  pid: 709b8231f0a8775d9725120c8a22f8432c928a22
+  show_ref_link: false
+  title: Predicting clicks - estimating the click-through rate for new ads
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-gb-cent-gradient-boosted-categorical-embedding-and-numerical-trees
+  numCitedBy: 24
+  pid: 3879706683a50fa393c42dab4c4a340972942949
+  show_ref_link: false
+  title: GB-CENT - Gradient Boosted Categorical Embedding and Numerical Trees
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorizing-personalized-markov-chains-for-next-basket-recommendation
+  numCitedBy: 1340
+  pid: 50d85cb114f7c5e779a6772f2931e77dddd54a5e
+  show_ref_link: false
+  title: Factorizing personalized Markov chains for next-basket recommendation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-fast-context-aware-recommendations-with-factorization-machines
+  numCitedBy: 517
+  pid: 1683ffc189d16b616131c300f45af87602d211f7
+  show_ref_link: false
+  title: Fast context-aware recommendations with factorization machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-a-structured-self-attentive-sentence-embedding
+  numCitedBy: 1604
+  pid: 204a4a70428f3938d2c538a4d74c7ae0416306d8
+  show_ref_link: true
+  title: A Structured Self-attentive Sentence Embedding
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-neural-networks-for-youtube-recommendations
+  numCitedBy: 1877
+  pid: 5e383584ccbc8b920eaf3cfce3869da646ff5550
+  show_ref_link: true
+  title: Deep Neural Networks for YouTube Recommendations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-crossing-web-scale-modeling-without-manually-crafted-combinatorial-features
+  numCitedBy: 288
+  pid: a83c778e918539941cba9dcaa6ec881b3ae7a29a
+  show_ref_link: false
+  title: Deep Crossing - Web-Scale Modeling without Manually Crafted Combinatorial Features
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorization-machines
+  numCitedBy: 1819
+  pid: df93596d4ed71d2863532c063c4c693711216abf
+  show_ref_link: false
+  title: Factorization Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-representation-learning-a-review-and-new-perspectives
+  numCitedBy: 9190
+  pid: 184ac0766262312ba76bbdece4e7ffad0aa8180b
+  show_ref_link: true
+  title: Representation Learning - A Review and New Perspectives
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attention-is-all-you-need
+  numCitedBy: 41249
+  pid: 204e3073870fae3d05bcbc2f6a8e263d9b72e776
+  show_ref_link: true
+  title: Attention is All you Need
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 98441
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-higher-order-factorization-machines
+  numCitedBy: 132
+  pid: 3f3b3dc86415ebda1043d2be55e75a29ffe2bd95
+  show_ref_link: false
+  title: Higher-Order Factorization Machines
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-polynomial-networks-and-factorization-machines-new-insights-and-efficient-training-algorithms
+  numCitedBy: 68
+  pid: 6d791513a695aadf1271100d9bf12e3e05b04cc5
+  show_ref_link: false
+  title: Polynomial Networks and Factorization Machines - New Insights and Efficient Training Algorithms
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-web-scale-bayesian-click-through-rate-prediction-for-sponsored-search-advertising-in-microsoft-s-bing-search-engine
+  numCitedBy: 532
+  pid: 1ff88585ce3fd5fdaab6573722d4874641359951
+  show_ref_link: false
+  title: Web-Scale Bayesian Click-Through rate Prediction for Sponsored Search Advertising in Microsoft's Bing Search Engine
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-unsupervised-learning-of-hierarchical-representations-with-convolutional-deep-belief-networks
+  numCitedBy: 359
+  pid: ad8c2721ef54c9326684762db7c9fc1378e83797
+  show_ref_link: false
+  title: Unsupervised learning of hierarchical representations with convolutional deep belief networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 29832
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-key-value-memory-networks-for-directly-reading-documents
+  numCitedBy: 684
+  pid: bba5f2852b1db8a18004eb7328efa5e1d57cc62a
+  show_ref_link: false
+  title: Key-Value Memory Networks for Directly Reading Documents
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-embedding-forest-forest-based-serving-with-deep-embedding-features
+  numCitedBy: 40
+  pid: 520b80a6d4f878b30103bd6221eefb87bcca3b84
+  show_ref_link: false
+  title: Deep Embedding Forest - Forest-based Serving with Deep Embedding Features
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 106571
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-neural-attention-model-for-abstractive-sentence-summarization
+  numCitedBy: 2197
+  pid: 5082a1a13daea5c7026706738f8528391a1e6d59
+  show_ref_link: true
+  title: A Neural Attention Model for Abstractive Sentence Summarization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 20525
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attentional-factorization-machines-learning-the-weight-of-feature-interactions-via-attention-networks
+  numCitedBy: 552
+  pid: f0af0029293dc8f242894f113baf15d68228ec4d
+  show_ref_link: true
+  title: Attentional Factorization Machines - Learning the Weight of Feature Interactions via Attention Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-graph-attention-networks
+  numCitedBy: 6440
+  pid: 33998aff64ce51df8dee45989cdca4b6b1329ec4
+  show_ref_link: true
+  title: Graph Attention Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-tensorflow-a-system-for-large-scale-machine-learning
+  numCitedBy: 13596
+  pid: 46200b99c40e8586c8a0f588488ab6414119fb28
+  show_ref_link: true
+  title: TensorFlow - A system for large-scale machine learning
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-end-to-end-memory-networks
+  numCitedBy: 2072
+  pid: 4f10b9f47c5bb6b54dd4f5ca8d9fa2c0bbd7ec5e
+  show_ref_link: true
+  title: End-To-End Memory Networks
+  year: 2015
+slug: AutoInt:-Automatic-Feature-Interaction-Learning-via-Song-Shi
+title: AutoInt - Automatic Feature Interaction Learning via Self-Attentive Neural Networks
+url: https://www.semanticscholar.org/paper/AutoInt:-Automatic-Feature-Interaction-Learning-via-Song-Shi/08588a4e596b02f22ac77dc8300aaabc27cb66b4?sort=total-citations
+venue: CIKM
+year: 2019

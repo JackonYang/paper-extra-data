@@ -1,0 +1,395 @@
+authors:
+- Steffen Rendle
+badges:
+- id: OPEN_ACCESS
+corpusId: 5499886
+fieldsOfStudy:
+- Computer Science
+meta_key: 2012-factorization-machines-with-libfm
+numCitedBy: 1084
+numCiting: 49
+paperAbstract: "Factorization approaches provide high accuracy in several important prediction problems, for example, recommender systems. However, applying factorization approaches to a new prediction problem is a nontrivial task and requires a lot of expert knowledge. Typically, a new model is developed, a learning algorithm is derived, and the approach has to be implemented.\n Factorization machines (FM) are a generic approach since they can mimic most factorization models just by feature engineering. This way, factorization machines combine the generality of feature engineering with the superiority of factorization models in estimating interactions between categorical variables of large domain. libFM is a software implementation for factorization machines that features stochastic gradient descent (SGD) and alternating least-squares (ALS) optimization, as well as Bayesian inference using Markov Chain Monto Carlo (MCMC). This article summarizes the recent research on factorization machines both in terms of modeling and learning, provides extensions for the ALS and MCMC algorithms, and describes the software tool libFM."
+ref_count: 49
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorization-machines
+  numCitedBy: 1819
+  pid: df93596d4ed71d2863532c063c4c693711216abf
+  show_ref_link: false
+  title: Factorization Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-learning-recommender-systems-with-adaptive-regularization
+  numCitedBy: 50
+  pid: 067207b701fc1d068e43782b9842a390edd1ea58
+  show_ref_link: false
+  title: Learning recommender systems with adaptive regularization
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-bpr-bayesian-personalized-ranking-from-implicit-feedback
+  numCitedBy: 3865
+  pid: db16e908246f32b60a6e0a8e27093aa145fbb1ed
+  show_ref_link: true
+  title: BPR - Bayesian Personalized Ranking from Implicit Feedback
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-probabilistic-matrix-factorization
+  numCitedBy: 3875
+  pid: e19971e7d100386b9b4cf4ea1a0782b62fe036e5
+  show_ref_link: true
+  title: Probabilistic Matrix Factorization
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-bayesian-probabilistic-matrix-factorization-using-markov-chain-monte-carlo
+  numCitedBy: 1429
+  pid: 5262fe8369992259be27165ccd09d1d31c7a4def
+  show_ref_link: false
+  title: Bayesian probabilistic matrix factorization using Markov chain Monte Carlo
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-fast-als-based-matrix-factorization-for-explicit-and-implicit-feedback-datasets
+  numCitedBy: 169
+  pid: 5ccd14d553d547384d7a848a6a532e65f1fd6746
+  show_ref_link: false
+  title: Fast als-based matrix factorization for explicit and implicit feedback datasets
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-pairwise-interaction-tensor-factorization-for-personalized-tag-recommendation
+  numCitedBy: 663
+  pid: bf2b10e9a3bb73499666facf376918e8c275734e
+  show_ref_link: false
+  title: Pairwise interaction tensor factorization for personalized tag recommendation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorizing-personalized-markov-chains-for-next-basket-recommendation
+  numCitedBy: 1340
+  pid: 50d85cb114f7c5e779a6772f2931e77dddd54a5e
+  show_ref_link: false
+  title: Factorizing personalized Markov chains for next-basket recommendation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-variational-bayesian-approach-to-movie-rating-prediction
+  numCitedBy: 137
+  pid: b2fcb1888472ff11980c7b47991eedc3ec07a181
+  show_ref_link: false
+  title: Variational Bayesian Approach to Movie Rating Prediction
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-fast-context-aware-recommendations-with-factorization-machines
+  numCitedBy: 517
+  pid: 1683ffc189d16b616131c300f45af87602d211f7
+  show_ref_link: false
+  title: Fast context-aware recommendations with factorization machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-temporal-collaborative-filtering-with-bayesian-probabilistic-tensor-factorization
+  numCitedBy: 638
+  pid: ee4129e6187302b1d1fd1aa7604d9bee40a865cf
+  show_ref_link: false
+  title: Temporal Collaborative Filtering with Bayesian Probabilistic Tensor Factorization
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-scalable-collaborative-filtering-approaches-for-large-recommender-systems
+  numCitedBy: 502
+  pid: 55830e7ad66bad06de9684ed44a48e50ae145c5a
+  show_ref_link: false
+  title: Scalable Collaborative Filtering Approaches for Large Recommender Systems
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-learning-attribute-to-feature-mappings-for-cold-start-recommendations
+  numCitedBy: 281
+  pid: f471df4f220b830657914106c88efd5132608288
+  show_ref_link: false
+  title: Learning Attribute-to-Feature Mappings for Cold-Start Recommendations
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-improving-regularized-singular-value-decomposition-for-collaborative-filtering
+  numCitedBy: 785
+  pid: f732d0f69fe4e84a95c32706b28b9e4ef1753c61
+  show_ref_link: false
+  title: Improving regularized singular value decomposition for collaborative filtering
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-regression-based-latent-factor-models
+  numCitedBy: 534
+  pid: 82a3074be5297bad6b279c006c7a5507f8c54555
+  show_ref_link: false
+  title: Regression-based latent factor models
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-multiverse-recommendation-n-dimensional-tensor-factorization-for-context-aware-collaborative-filtering
+  numCitedBy: 766
+  pid: b1c56e4049dcafe6f6752cbbeb889e975ea8e94e
+  show_ref_link: false
+  title: Multiverse recommendation - n-dimensional tensor factorization for context-aware collaborative filtering
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-bayesian-factorization-machines
+  numCitedBy: 34
+  pid: a8b9ff1c5b8600ef63baa5de0999a0d986661d7d
+  show_ref_link: false
+  title: Bayesian Factorization Machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-factorization-meets-the-neighborhood-a-multifaceted-collaborative-filtering-model
+  numCitedBy: 3612
+  pid: cf6f83fcce274606bf0264c59d1c78a30c9c9d18
+  show_ref_link: true
+  title: Factorization meets the neighborhood - a multifaceted collaborative filtering model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-combining-predictions-for-accurate-recommender-systems
+  numCitedBy: 279
+  pid: 282c1c7b2722e50150de9debe2d4916af4528fff
+  show_ref_link: false
+  title: Combining predictions for accurate recommender systems
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-to-recommend-with-explicit-and-implicit-social-relations
+  numCitedBy: 139
+  pid: 232c84bcdd6e92379825de06f73bdb506aeb895f
+  show_ref_link: false
+  title: Learning to recommend with explicit and implicit social relations
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-matchbox-large-scale-online-bayesian-recommendations
+  numCitedBy: 274
+  pid: abfb3352a188c7f3e7ad518dcf0dbcff480bcec4
+  show_ref_link: false
+  title: Matchbox - large scale online bayesian recommendations
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factor-in-the-neighbors-scalable-and-accurate-collaborative-filtering
+  numCitedBy: 679
+  pid: 6a43d42e8fa276afbc68ecacbbbdf783837bf47e
+  show_ref_link: false
+  title: Factor in the neighbors - Scalable and accurate collaborative filtering
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-a-survey-of-accuracy-evaluation-metrics-of-recommendation-tasks
+  numCitedBy: 568
+  pid: 074468eae8b2bf4215ace0260fd0f37769003fab
+  show_ref_link: false
+  title: A Survey of Accuracy Evaluation Metrics of Recommendation Tasks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-context-based-splitting-of-item-ratings-in-collaborative-filtering
+  numCitedBy: 161
+  pid: bfe08ad63d46159e79547029e2ef3f20069677de
+  show_ref_link: false
+  title: Context-based splitting of item ratings in collaborative filtering
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-making-large-scale-support-vector-machine-learning-practical
+  numCitedBy: 1861
+  pid: bb99668d4df98a3f6ff0b9fa3402e09008f22e2c
+  show_ref_link: false
+  title: Making large-scale support vector machine learning practical
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-eigenrank-a-ranking-oriented-approach-to-collaborative-filtering
+  numCitedBy: 308
+  pid: b3b7e1002192ef68cafbe45c84895f9e3caa393f
+  show_ref_link: false
+  title: EigenRank - a ranking-oriented approach to collaborative filtering
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-item-based-collaborative-filtering-recommendation-algorithms
+  numCitedBy: 8423
+  pid: f82c52452c7de8cd6472202c1be2cce9fbcb8dda
+  show_ref_link: true
+  title: Item-based collaborative filtering recommendation algorithms
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-the-bellkor-solution-to-the-netflix-grand-prize
+  numCitedBy: 487
+  pid: 8b52e5e421a531d8c6f272ce1063610f52f11411
+  show_ref_link: false
+  title: The BellKor Solution to the Netflix Grand Prize
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  - Business
+  meta_key: 2005-incorporating-contextual-information-in-recommender-systems-using-a-multidimensional-approach
+  numCitedBy: 1252
+  pid: 95f05137fdd0928d73e715b1728f2476178619a4
+  show_ref_link: false
+  title: Incorporating contextual information in recommender systems using a multidimensional approach
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-collaborative-filtering-with-temporal-dynamics
+  numCitedBy: 1668
+  pid: c1aa28159e768b75d0f4637a71d20da02efe1ef2
+  show_ref_link: false
+  title: Collaborative filtering with temporal dynamics
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-amazon-com-recommendations-item-to-item-collaborative-filtering
+  numCitedBy: 5536
+  pid: da8b0378174bc25ed174be36a1c725787b81854d
+  show_ref_link: true
+  title: Amazon.com Recommendations - Item-to-Item Collaborative Filtering
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-maximum-margin-matrix-factorization
+  numCitedBy: 1128
+  pid: cedf154c28178370d95510112413dc8cb48120a8
+  show_ref_link: false
+  title: Maximum-Margin Matrix Factorization
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-efficient-tag-recommendation-for-real-life-data
+  numCitedBy: 36
+  pid: 5ba642c013054cadddf20f469124aae143635755
+  show_ref_link: false
+  title: Efficient Tag Recommendation for Real-Life Data
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-weighted-low-rank-approximations
+  numCitedBy: 787
+  pid: 755e566d3f10d057bc9e4908e4016ae6f7ca0753
+  show_ref_link: false
+  title: Weighted Low-Rank Approximations
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-feature-based-matrix-factorization
+  numCitedBy: 48
+  pid: ca2f25844a30d894c12ca4b920a2f9c497da8afa
+  show_ref_link: false
+  title: Feature-Based Matrix Factorization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-relational-classification-for-personalized-tag-recommendation
+  numCitedBy: 26
+  pid: 1121910035ac80a288b1cb802cae2bac661603ef
+  show_ref_link: false
+  title: Relational Classification for Personalized Tag Recommendation
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1970-foundations-of-the-parafac-procedure-models-and-conditions-for-an-explanatory-multi-model-factor-analysis
+  numCitedBy: 2975
+  pid: c5b28cae82b14417f1250e58bb241367248e827d
+  show_ref_link: false
+  title: Foundations of the PARAFAC procedure - Models and conditions for an explanatory multi-model factor analysis
+  year: 1970
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-a-tag-recommendation-system-based-on-contents
+  numCitedBy: 12
+  pid: e69a431525efb7e3c435cd624aa6e88ea86f1147
+  show_ref_link: false
+  title: A Tag Recommendation System Based on Contents
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-learning-travel-recommendations-from-user-generated-gps-traces
+  numCitedBy: 398
+  pid: a8138b5a6997747ce1432086da5fb7bb59d3fa05
+  show_ref_link: false
+  title: Learning travel recommendations from user-generated GPS traces
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-libsvm-a-library-for-support-vector-machines
+  numCitedBy: 40848
+  pid: 273dfbcb68080251f5e9ff38b4413d7bd84b10a1
+  show_ref_link: true
+  title: LIBSVM - A library for support vector machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-tag-sources-for-recommendation-in-collaborative-tagging-systems
+  numCitedBy: 95
+  pid: 54a7a96c7aa1c087272b8ade781699fc4a8835b7
+  show_ref_link: false
+  title: Tag Sources for Recommendation in Collaborative Tagging Systems
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-the-weka-data-mining-software-an-update
+  numCitedBy: 19968
+  pid: 6d8c9fcce8177d6f8d122d653c7d32d7624d6714
+  show_ref_link: false
+  title: The WEKA data mining software - an update
+  year: 2009
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2013-on-weighted-low-rank-approximation
+  numCitedBy: 15
+  pid: 9ee7f84cf1ad26de1c0cacf7a15834609a1e22d9
+  show_ref_link: false
+  title: On Weighted Low-Rank Approximation
+  year: 2013
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1966-some-mathematical-notes-on-three-mode-factor-analysis
+  numCitedBy: 3327
+  pid: 6661789de63b3cebe2eafdd7e9e7a316ad1f0b8f
+  show_ref_link: false
+  title: Some mathematical notes on three-mode factor analysis
+  year: 1966
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1995-simulation-of-truncated-normal-variables
+  numCitedBy: 509
+  pid: 88b51eb03f1b0a3449136bbb16b8aa40ed0c1307
+  show_ref_link: false
+  title: Simulation of truncated normal variables
+  year: 1995
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2005-bayesian-data-analysis-2nd-edn
+  numCitedBy: 2076
+  pid: 48d287c7d01ee987f19e4738ba148bb8a4b297ee
+  show_ref_link: false
+  title: Bayesian Data Analysis, 2nd edn
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-acm-transactions-on-intelligent-systems-and-technology-special-section-on-urban-computing
+  numCitedBy: 391
+  pid: 7149d3943d36bace017a6cfd96d3664c45c5c7ff
+  show_ref_link: false
+  title: ACM Transactions on Intelligent Systems and Technology - Special Section on Urban Computing
+  year: 2014
+slug: Factorization-Machines-with-libFM-Rendle
+title: Factorization Machines with libFM
+url: https://www.semanticscholar.org/paper/Factorization-Machines-with-libFM-Rendle/e50f4d3316d13841c287dcdf5479d7820d593571?sort=total-citations
+venue: TIST
+year: 2012

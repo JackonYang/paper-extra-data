@@ -1,0 +1,245 @@
+authors:
+- B. Sarwar
+- G. Karypis
+- J. Konstan
+- J. Riedl
+badges:
+- id: OPEN_ACCESS
+corpusId: 8047550
+fieldsOfStudy:
+- Computer Science
+meta_key: 2001-item-based-collaborative-filtering-recommendation-algorithms
+numCitedBy: 8423
+numCiting: 47
+paperAbstract: 'Recommender systems apply knowledge discovery techniques to the problem of making personalized recommendations for information, products or services during a live interaction. These systems, especially the k-nearest neighbor collaborative ltering based ones, are achieving widespread success on the Web. The tremendous growth in the amount of available information and the number of visitors to Web sites in recent years poses some key challenges for recommender systems. These are: producing high quality recommendations, performing many recommendations per second for millions of users and items and achieving high coverage in the face of data sparsity. In traditional collaborative ltering systems the amount of work increases with the number of participants in the system. New recommender system technologies are needed that can quickly produce high quality recommendations, even for very large-scale problems. To address these issues we have explored item-based collaborative ltering techniques. Item-based techniques rst analyze the user-item matrix to identify relationships between di erent items, and then use these relationships to indirectly compute recommendations for users. In this paper we analyze di erent item-based recommendation generation algorithms. We look into di erent techniques for computing item-item similarities (e.g., item-item correlation vs. cosine similarities between item vectors) and di erent techniques for obtaining recommendations from them (e.g., weighted sum vs. regression model). Finally, we experimentally evaluate our results and compare them to the basic k-nearest neighbor approach. Our experiments suggest that item-based algorithms provide dramatically better performance than user-based algorithms, while at the same time providing better quality than the best available userbased algorithms.'
+ref_count: 39
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-application-of-dimensionality-reduction-in-recommender-system-a-case-study
+  numCitedBy: 1449
+  pid: c3eddc356634d8c0d6db385567deffe1cf7cb3f6
+  show_ref_link: false
+  title: Application of Dimensionality Reduction in Recommender System - A Case Study
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-recommender-systems
+  numCitedBy: 2816
+  pid: dbdabdf9e653e11eb4d44f69f645a564622220b3
+  show_ref_link: false
+  title: Recommender systems
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-empirical-analysis-of-predictive-algorithms-for-collaborative-filtering
+  numCitedBy: 5689
+  pid: 36b4a92c8eca6fd6d1b8588fc1fd0e3f89a16623
+  show_ref_link: false
+  title: Empirical Analysis of Predictive Algorithms for Collaborative Filtering
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-recommender-systems-in-e-commerce
+  numCitedBy: 967
+  pid: 98c524def61762d9c033a64a75562e274b687763
+  show_ref_link: false
+  title: Recommender systems in e-commerce
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-learning-collaborative-information-filters
+  numCitedBy: 1231
+  pid: efbeedfbf13db70878618553f0c4a0fec6f493fe
+  show_ref_link: false
+  title: Learning Collaborative Information Filters
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-using-filtering-agents-to-improve-prediction-quality-in-the-grouplens-research-collaborative-filtering-system
+  numCitedBy: 495
+  pid: 545e6da729bba33021521b620c05a1517201464b
+  show_ref_link: false
+  title: Using filtering agents to improve prediction quality in the GroupLens research collaborative filtering system
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-clustering-methods-for-collaborative-filtering
+  numCitedBy: 790
+  pid: d6b99637332f818dc94c0432db617db28873e035
+  show_ref_link: false
+  title: Clustering Methods for Collaborative Filtering
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-understanding-and-improving-automated-collaborative-filtering-systems
+  numCitedBy: 158
+  pid: 289e24b58ce2b3fa683c10fb68c3f4fd20bf2faa
+  show_ref_link: false
+  title: Understanding and improving automated collaborative filtering systems
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-combining-collaborative-filtering-with-personal-agents-for-better-recommendations
+  numCitedBy: 853
+  pid: 0000ff68310e8a43c26371b4f0ff05ddaed93577
+  show_ref_link: false
+  title: Combining Collaborative Filtering with Personal Agents for Better Recommendations
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-social-information-filtering-algorithms-for-automating-word-of-mouth
+  numCitedBy: 3287
+  pid: 72e4197cef4c355a1892fa45b0f2f5c69fac75d0
+  show_ref_link: false
+  title: Social information filtering - algorithms for automating “word of mouth”
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-phoaks-a-system-for-sharing-recommendations
+  numCitedBy: 635
+  pid: fd7be690ff0616e308b11db03906f2c53b5f2ffd
+  show_ref_link: false
+  title: PHOAKS - a system for sharing recommendations
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-grouplens-applying-collaborative-filtering-to-usenet-news
+  numCitedBy: 2669
+  pid: 59e914c920497dd931f1b5fe7151f071d80713de
+  show_ref_link: false
+  title: GroupLens - applying collaborative filtering to Usenet news
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-analysis-of-recommendation-algorithms-for-e-commerce
+  numCitedBy: 1980
+  pid: 3219f5733e87afbe1481f7f99c0d06c7c9752c31
+  show_ref_link: false
+  title: Analysis of recommendation algorithms for e-commerce
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-grouplens-an-open-architecture-for-collaborative-filtering-of-netnews
+  numCitedBy: 5852
+  pid: 64a717dc148b76070bbb6a3190a7e05bb9734400
+  show_ref_link: false
+  title: GroupLens - an open architecture for collaborative filtering of netnews
+  year: 1994
+- fieldsOfStudy:
+  - Geology
+  meta_key: 1999-an-algorithmic-framework-for-performing-collaborative-filtering
+  numCitedBy: 2249
+  pid: 333b5c0f2b750f737b725496e2b75a6330f5cc54
+  show_ref_link: false
+  title: An algorithmic framework for performing collaborative filtering
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1996-mining-business-databases
+  numCitedBy: 236
+  pid: 60c228f2dbc88307464605df9e820d9e0f36491a
+  show_ref_link: false
+  title: Mining business databases
+  year: 1996
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1995-recommending-and-evaluating-choices-in-a-virtual-community-of-use
+  numCitedBy: 1296
+  pid: c864175780adde19099108de66b4636f4c87d44c
+  show_ref_link: false
+  title: Recommending and evaluating choices in a virtual community of use
+  year: 1995
+- fieldsOfStudy:
+  - Business
+  meta_key: 1998-data-mining-for-direct-marketing-problems-and-solutions
+  numCitedBy: 748
+  pid: 24c70681e0e1f68810b753f32bcca266f8f47804
+  show_ref_link: false
+  title: Data Mining for Direct Marketing - Problems and Solutions
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-using-collaborative-filtering-to-weave-an-information-tapestry
+  numCitedBy: 4098
+  pid: fe9cd9ab8bcc110847a8a4792134e4917fd7e933
+  show_ref_link: false
+  title: Using collaborative filtering to weave an information tapestry
+  year: 1992
+- fieldsOfStudy:
+  - Business
+  meta_key: 1993-the-one-to-one-future-building-relationships-one-customer-at-a-time-будущее-персонализации-построение-взаимоотношений-с-одним-клиентом
+  numCitedBy: 749
+  pid: bc4135e4d298beb8d78e92cff55188c433dfa670
+  show_ref_link: false
+  title: The One to One Future - Building Relationships One Customer at a Time (Будущее персонализации - построение взаимоотношений с одним клиентом)
+  year: 1993
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1998-recommendation-as-classification-using-social-and-content-based-information-in-recommendation
+  numCitedBy: 1161
+  pid: ae30f8fc5a969d2d14ae066db4cd07d86fadbf42
+  show_ref_link: false
+  title: Recommendation as Classification - Using Social and Content-Based Information in Recommendation
+  year: 1998
+- fieldsOfStudy:
+  - Business
+  meta_key: 1993-loyalty-based-management
+  numCitedBy: 1444
+  pid: 8fef7dcaf49b00dd453fd7bef4fc45d1eb03b2b4
+  show_ref_link: false
+  title: Loyalty-based management.
+  year: 1993
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1995-using-linear-algebra-for-intelligent-information-retrieval
+  numCitedBy: 1777
+  pid: 06871028d4e71ceefe879853e9dc2183ea81bb32
+  show_ref_link: false
+  title: Using Linear Algebra for Intelligent Information Retrieval
+  year: 1995
+- fieldsOfStudy:
+  - Business
+  meta_key: 1990-zero-defections-quality-comes-to-services
+  numCitedBy: 6062
+  pid: 3cf9e452adceb66ead134d9377ae8155016aa259
+  show_ref_link: false
+  title: Zero defections - quality comes to services.
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1983-factor-analysis-an-applied-approach
+  numCitedBy: 374
+  pid: 4b8701c0be232496a475974b27bc4c443b75dded
+  show_ref_link: false
+  title: Factor analysis, an applied approach
+  year: 1983
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1990-indexing-by-latent-semantic-analysis
+  numCitedBy: 13230
+  pid: 20a80a7356859daa4170fb4da6b87b84adbb547f
+  show_ref_link: false
+  title: Indexing by Latent Semantic Analysis
+  year: 1990
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-horting-hatches-an-egg-a-new-graph-theoretic-approach-to-collaborative-filtering
+  numCitedBy: 478
+  pid: 15ded7b78b697b0c83e179d4a2464f3284119b8d
+  show_ref_link: false
+  title: Horting hatches an egg - a new graph-theoretic approach to collaborative filtering
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-evaluation-of-item-based-top-n-recommendation-algorithms
+  numCitedBy: 719
+  pid: 87036444c5dcbe8b2d0a95140fe8bbcfe22fea42
+  show_ref_link: false
+  title: Evaluation of Item-Based Top-N Recommendation Algorithms
+  year: 2001
+slug: Item-based-collaborative-filtering-recommendation-Sarwar-Karypis
+title: Item-based collaborative filtering recommendation algorithms
+url: https://www.semanticscholar.org/paper/Item-based-collaborative-filtering-recommendation-Sarwar-Karypis/f82c52452c7de8cd6472202c1be2cce9fbcb8dda?sort=total-citations
+venue: WWW '01
+year: 2001

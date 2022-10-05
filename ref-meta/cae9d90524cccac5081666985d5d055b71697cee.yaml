@@ -136,7 +136,7 @@ references:
   meta_key: 2016-wide-deep-learning-for-recommender-systems
   numCitedBy: 1964
   pid: 657fbf29ea0b4904a3e98d1556f9acf38dddae5f
-  show_ref_link: false
+  show_ref_link: true
   title: Wide & Deep Learning for Recommender Systems
   year: 2016
 - fieldsOfStudy:

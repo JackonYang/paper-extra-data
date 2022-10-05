@@ -12,8 +12,8 @@ corpusId: 6203757
 fieldsOfStudy:
 - Computer Science
 meta_key: 2015-teaching-machines-to-read-and-comprehend
-numCitedBy: 2456
-numCiting: 28
+numCitedBy: 2564
+numCiting: 22
 paperAbstract: Teaching machines to read natural language documents remains an elusive challenge. Machine reading systems can be tested on their ability to answer questions posed on the contents of documents that they have seen, but until now large scale training and test datasets have been missing for this type of evaluation. In this work we define a new methodology that resolves this bottleneck and provides large scale supervised reading comprehension data. This allows us to develop a class of attention based deep neural networks that learn to read real documents and answer complex questions with minimal prior knowledge of language structure.
 ref_count: 28
 references:

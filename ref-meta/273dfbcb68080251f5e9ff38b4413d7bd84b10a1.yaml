@@ -309,7 +309,7 @@ references:
   meta_key: 2001-estimating-the-support-of-a-high-dimensional-distribution
   numCitedBy: 4699
   pid: 9cc912ae25797e5f7c0d73300d3968ad8339b411
-  show_ref_link: false
+  show_ref_link: true
   title: Estimating the Support of a High-Dimensional Distribution
   year: 2001
 - fieldsOfStudy:

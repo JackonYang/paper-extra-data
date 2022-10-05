@@ -236,7 +236,7 @@ references:
   meta_key: 2017-a-structured-self-attentive-sentence-embedding
   numCitedBy: 1516
   pid: 204a4a70428f3938d2c538a4d74c7ae0416306d8
-  show_ref_link: false
+  show_ref_link: true
   title: A Structured Self-attentive Sentence Embedding
   year: 2017
 - fieldsOfStudy:

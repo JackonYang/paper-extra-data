@@ -1,0 +1,233 @@
+authors:
+- Yufei Feng
+- Fuyu Lv
+- Weichen Shen
+- Menghan Wang
+- Fei Sun
+- Yu Zhu
+- Keping Yang
+badges:
+- id: OPEN_ACCESS
+corpusId: 155099980
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-deep-session-interest-network-for-click-through-rate-prediction
+numCitedBy: 148
+numCiting: 30
+paperAbstract: 'Click-Through Rate (CTR) prediction plays an important role in many industrial applications, such as online advertising and recommender systems.
+
+  How to capture users'' dynamic and evolving interests from their behavior sequences remains a continuous research topic in the CTR prediction. However, most existing studies overlook the intrinsic structure of the sequences: the sequences are composed of sessions, where sessions are user behaviors separated by their occurring time. We observe that user behaviors are highly homogeneous in each session, and heterogeneous cross sessions. Based on this observation, we propose a novel CTR model named Deep Session Interest Network (DSIN) that leverages users'' multiple historical sessions in their behavior sequences. We first use self-attention mechanism with bias encoding to extract users'' interests in each session. Then we apply Bi-LSTM to model how users'' interests evolve and interact among sessions. Finally, we employ the local activation unit to adaptively learn the influences of various session interests on the target item. Experiments are conducted on both advertising and production recommender datasets and DSIN outperforms other state-of-the-art models on both datasets.'
+ref_count: 30
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-deep-interest-evolution-network-for-click-through-rate-prediction
+  numCitedBy: 449
+  pid: 70d5ceb59118334e1a6eed33a149234413147b92
+  show_ref_link: false
+  title: Deep Interest Evolution Network for Click-Through Rate Prediction
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-attentive-session-based-recommendation
+  numCitedBy: 670
+  pid: 97de32d8ca162944e5f7e83071c596d13d168109
+  show_ref_link: false
+  title: Neural Attentive Session-based Recommendation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-learning-from-history-and-present-next-item-recommendation-via-discriminatively-exploiting-user-behaviors
+  numCitedBy: 139
+  pid: 34d1a65bdef695380900d92da531fa10b6fbf0de
+  show_ref_link: false
+  title: Learning from History and Present - Next-item Recommendation via Discriminatively Exploiting User Behaviors
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-parallel-recurrent-neural-network-architectures-for-feature-rich-session-based-recommendations
+  numCitedBy: 342
+  pid: 8c5442756d8e7110b3cfec0f366f502d82bfe835
+  show_ref_link: false
+  title: Parallel Recurrent Neural Network Architectures for Feature-rich Session-based Recommendations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-self-attentive-sequential-recommendation
+  numCitedBy: 723
+  pid: 97faeefa771e8cc8e55159e2bd03e6f5eef249a8
+  show_ref_link: false
+  title: Self-Attentive Sequential Recommendation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-stamp-short-term-attention-memory-priority-model-for-session-based-recommendation
+  numCitedBy: 344
+  pid: fd3f489fc0438e500c0473af40dfebe4705df6d2
+  show_ref_link: false
+  title: STAMP - Short-Term Attention/Memory Priority Model for Session-based Recommendation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-atrank-an-attention-based-user-behavior-modeling-framework-for-recommendation
+  numCitedBy: 206
+  pid: 063598cdaff79852c3647d074506120889c5c17b
+  show_ref_link: true
+  title: ATRank - An Attention-Based User Behavior Modeling Framework for Recommendation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-personalized-top-n-sequential-recommendation-via-convolutional-sequence-embedding
+  numCitedBy: 710
+  pid: 75a927501749c2cbc0e19a58f798f04de59df64a
+  show_ref_link: false
+  title: Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-session-based-recommendations-with-recurrent-neural-networks
+  numCitedBy: 1369
+  pid: dfb1e7d1559fbc2eb63761bc170061d256496bdf
+  show_ref_link: false
+  title: Session-based Recommendations with Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deepfm-a-factorization-machine-based-neural-network-for-ctr-prediction
+  numCitedBy: 1359
+  pid: 1d122a074c936fcfd95faf44608e377a9d1799c8
+  show_ref_link: true
+  title: DeepFM - A Factorization-Machine based Neural Network for CTR Prediction
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-personalizing-session-based-recommendations-with-hierarchical-recurrent-neural-networks
+  numCitedBy: 404
+  pid: cb57001315188582bbb79e548dfdb354592fa80e
+  show_ref_link: false
+  title: Personalizing Session-based Recommendations with Hierarchical Recurrent Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-deep-cross-network-for-ad-click-predictions
+  numCitedBy: 571
+  pid: 01d625baf1f2171b33e56d67213a7045b035da02
+  show_ref_link: true
+  title: Deep & Cross Network for Ad Click Predictions
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-deep-learning-for-recommender-systems
+  numCitedBy: 2152
+  pid: 657fbf29ea0b4904a3e98d1556f9acf38dddae5f
+  show_ref_link: true
+  title: Wide & Deep Learning for Recommender Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-real-time-personalization-using-embeddings-for-search-ranking-at-airbnb
+  numCitedBy: 200
+  pid: 2553596e3b24444d309ae461da50370d58f1b807
+  show_ref_link: false
+  title: Real-time Personalization using Embeddings for Search Ranking at Airbnb
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-neural-networks-for-youtube-recommendations
+  numCitedBy: 1877
+  pid: 5e383584ccbc8b920eaf3cfce3869da646ff5550
+  show_ref_link: true
+  title: Deep Neural Networks for YouTube Recommendations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-proceedings-of-the-10th-acm-conference-on-recommender-systems
+  numCitedBy: 27
+  pid: e3717dbb7af8a73fa5abf45281a594619fc02821
+  show_ref_link: false
+  title: Proceedings of the 10th ACM Conference on Recommender Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attention-is-all-you-need
+  numCitedBy: 41249
+  pid: 204e3073870fae3d05bcbc2f6a8e263d9b72e776
+  show_ref_link: true
+  title: Attention is All you Need
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-proceedings-of-the-2017-acm-on-conference-on-information-and-knowledge-management
+  numCitedBy: 19
+  pid: 97a32b03bc0073bbd6b65249a7d227bfa6e37db5
+  show_ref_link: false
+  title: Proceedings of the 2017 ACM on Conference on Information and Knowledge Management
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 20525
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-data-mining-and-knowledge-discovery
+  numCitedBy: 362
+  pid: ff8936e055446e666190faeaae33348fea0bd98f
+  show_ref_link: false
+  title: Data Mining and Knowledge Discovery
+  year: 2012
+- fieldsOfStudy:
+  - Biology
+  meta_key: 1989-neural-computation
+  numCitedBy: 1689
+  pid: 2d5af1ab6368f20a4a9bb2afae23663e5b08b9c6
+  show_ref_link: false
+  title: Neural Computation
+  year: 1989
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 2012-et-al
+  numCitedBy: 61372
+  pid: bc6dff14a130c57a91d5a21339c23471faf1d46f
+  show_ref_link: false
+  title: Et al
+  year: 2012
+- fieldsOfStudy:
+  - Medicine
+  meta_key: 1995-neural-networks
+  numCitedBy: 4945
+  pid: 20b844e395355b40fa5940c61362ec40e56027aa
+  show_ref_link: false
+  title: Neural networks
+  year: 1995
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-sequential-recommendation-with-user-memory-networks
+  numCitedBy: 336
+  pid: bc6a927b079fc1c4189f00108ff792a6d3d190e7
+  show_ref_link: false
+  title: Sequential Recommendation with User Memory Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attentional-factorization-machines-learning-the-weight-of-feature-interactions-via-attention-networks
+  numCitedBy: 552
+  pid: f0af0029293dc8f242894f113baf15d68228ec4d
+  show_ref_link: true
+  title: Attentional Factorization Machines - Learning the Weight of Feature Interactions via Attention Networks
+  year: 2017
+- fieldsOfStudy: []
+  meta_key: 2018-2018-ieee-international-conference-on-data-mining-icdm
+  numCitedBy: 43
+  pid: 68c95a1e7e2752b3f67377f0876fab3f7c25cf71
+  show_ref_link: false
+  title: 2018 IEEE International Conference on Data Mining (ICDM)
+  year: 2018
+slug: Deep-Session-Interest-Network-for-Click-Through-Feng-Lv
+title: Deep Session Interest Network for Click-Through Rate Prediction
+url: https://www.semanticscholar.org/paper/Deep-Session-Interest-Network-for-Click-Through-Feng-Lv/419fe8b8edec6f849fecfd0d2bb11cacc4705180?sort=total-citations
+venue: IJCAI
+year: 2019

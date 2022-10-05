@@ -1,0 +1,512 @@
+authors:
+- Fei Sun
+- Jun Liu
+- Jian Wu
+- Changhua Pei
+- Xiao Lin
+- Wenwu Ou
+- Peng Jiang
+badges:
+- id: OPEN_ACCESS
+corpusId: 119181611
+fieldsOfStudy:
+- Computer Science
+meta_key: 2019-bert4rec-sequential-recommendation-with-bidirectional-encoder-representations-from-transformer
+numCitedBy: 510
+numCiting: 61
+paperAbstract: 'Modeling users'' dynamic preferences from their historical behaviors is challenging and crucial for recommendation systems. Previous methods employ sequential neural networks to encode users'' historical interactions from left to right into hidden representations for making recommendations. Despite their effectiveness, we argue that such left-to-right unidirectional models are sub-optimal due to the limitations including: \begin enumerate* [label=series\itshape\alph*\upshape)] \item unidirectional architectures restrict the power of hidden representation in users'' behavior sequences; \item they often assume a rigidly ordered sequence which is not always practical. \end enumerate* To address these limitations, we proposed a sequential recommendation model called BERT4Rec, which employs the deep bidirectional self-attention to model user behavior sequences. To avoid the information leakage and efficiently train the bidirectional model, we adopt the Cloze objective to sequential recommendation, predicting the random masked items in the sequence by jointly conditioning on their left and right context. In this way, we learn a bidirectional representation model to make recommendations by allowing each item in user historical behaviors to fuse information from both left and right sides. Extensive experiments on four benchmark datasets show that our model outperforms various state-of-the-art sequential models consistently.'
+ref_count: 61
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-self-attentive-sequential-recommendation
+  numCitedBy: 723
+  pid: 97faeefa771e8cc8e55159e2bd03e6f5eef249a8
+  show_ref_link: false
+  title: Self-Attentive Sequential Recommendation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-improving-sequential-recommendation-with-knowledge-enhanced-memory-networks
+  numCitedBy: 283
+  pid: f4e5af510c63ecb84c4619b9fc12a2d26a3c8d40
+  show_ref_link: false
+  title: Improving Sequential Recommendation with Knowledge-Enhanced Memory Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fusing-similarity-models-with-markov-chains-for-sparse-sequential-recommendation
+  numCitedBy: 334
+  pid: fea7e2bcbe852bcb33ce70a4d57664e954f0e82a
+  show_ref_link: false
+  title: Fusing Similarity Models with Markov Chains for Sparse Sequential Recommendation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-personalized-top-n-sequential-recommendation-via-convolutional-sequence-embedding
+  numCitedBy: 710
+  pid: 75a927501749c2cbc0e19a58f798f04de59df64a
+  show_ref_link: false
+  title: Personalized Top-N Sequential Recommendation via Convolutional Sequence Embedding
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-attentive-session-based-recommendation
+  numCitedBy: 670
+  pid: 97de32d8ca162944e5f7e83071c596d13d168109
+  show_ref_link: false
+  title: Neural Attentive Session-based Recommendation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding
+  numCitedBy: 38956
+  pid: df2b0e26d0599ce3e70df8a9da02e51594e0e992
+  show_ref_link: true
+  title: BERT - Pre-training of Deep Bidirectional Transformers for Language Understanding
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-dynamic-recurrent-model-for-next-basket-recommendation
+  numCitedBy: 339
+  pid: 1d87ab4e11143a02afaf28222c4cacb7248a3ad0
+  show_ref_link: false
+  title: A Dynamic Recurrent Model for Next Basket Recommendation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-translation-based-recommendation
+  numCitedBy: 259
+  pid: d5a823053663a77869d4b38a8026c51ebc2e975e
+  show_ref_link: false
+  title: Translation-based Recommendation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-session-based-recommendations-with-recurrent-neural-networks
+  numCitedBy: 1369
+  pid: dfb1e7d1559fbc2eb63761bc170061d256496bdf
+  show_ref_link: false
+  title: Session-based Recommendations with Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-content-based-music-recommendation
+  numCitedBy: 995
+  pid: eeff60867041d2ea92d1b38a20c2031d240d8872
+  show_ref_link: false
+  title: Deep content-based music recommendation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-stamp-short-term-attention-memory-priority-model-for-session-based-recommendation
+  numCitedBy: 344
+  pid: fd3f489fc0438e500c0473af40dfebe4705df6d2
+  show_ref_link: false
+  title: STAMP - Short-Term Attention/Memory Priority Model for Session-based Recommendation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-collaborative-filtering
+  numCitedBy: 3248
+  pid: ad42c33c299ef1c53dfd4697e3f7f98ed0ca31dd
+  show_ref_link: false
+  title: Neural Collaborative Filtering
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attention-is-all-you-need
+  numCitedBy: 41249
+  pid: 204e3073870fae3d05bcbc2f6a8e263d9b72e776
+  show_ref_link: true
+  title: Attention is All you Need
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-sequential-user-based-recurrent-neural-network-recommendations
+  numCitedBy: 209
+  pid: 665a99a77b3d07859d56dd78ceda17c2ce226195
+  show_ref_link: false
+  title: Sequential User-based Recurrent Neural Network Recommendations
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-convolutional-matrix-factorization-for-document-context-aware-recommendation
+  numCitedBy: 555
+  pid: af9c4dda90e807246a2f6fa0a922bbf8029767cf
+  show_ref_link: false
+  title: Convolutional Matrix Factorization for Document Context-Aware Recommendation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-collaborative-deep-learning-for-recommender-systems
+  numCitedBy: 1341
+  pid: 3eaf79589dbb9bce5a502e867a8f03917e52de26
+  show_ref_link: false
+  title: Collaborative Deep Learning for Recommender Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-personalizing-session-based-recommendations-with-hierarchical-recurrent-neural-networks
+  numCitedBy: 404
+  pid: cb57001315188582bbb79e548dfdb354592fa80e
+  show_ref_link: false
+  title: Personalizing Session-based Recommendations with Hierarchical Recurrent Neural Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-self-attention-with-relative-position-representations
+  numCitedBy: 1040
+  pid: c8efcc854d97dfc2a42b83316a2109f9d166e43f
+  show_ref_link: true
+  title: Self-Attention with Relative Position Representations
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-recurrent-recommender-networks
+  numCitedBy: 520
+  pid: 119868d3a5862c514e64d7855b41ff9927c311d4
+  show_ref_link: false
+  title: Recurrent Recommender Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-visually-aware-fashion-recommendation-and-design-with-generative-image-models
+  numCitedBy: 171
+  pid: 76d8ccc5a35affb08271fee720a24418c8943b44
+  show_ref_link: false
+  title: Visually-Aware Fashion Recommendation and Design with Generative Image Models
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-collaborative-denoising-auto-encoders-for-top-n-recommender-systems
+  numCitedBy: 744
+  pid: 7656cddac460af91919558175063938acfdd813b
+  show_ref_link: false
+  title: Collaborative Denoising Auto-Encoders for Top-N Recommender Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorizing-personalized-markov-chains-for-next-basket-recommendation
+  numCitedBy: 1340
+  pid: 50d85cb114f7c5e779a6772f2931e77dddd54a5e
+  show_ref_link: false
+  title: Factorizing personalized Markov chains for next-basket recommendation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-bpr-bayesian-personalized-ranking-from-implicit-feedback
+  numCitedBy: 3865
+  pid: db16e908246f32b60a6e0a8e27093aa145fbb1ed
+  show_ref_link: true
+  title: BPR - Bayesian Personalized Ranking from Implicit Feedback
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-recurrent-neural-networks-with-top-k-gains-for-session-based-recommendations
+  numCitedBy: 440
+  pid: 1dd7038128e3a1ba49f0224ac711166c8dc36d3d
+  show_ref_link: false
+  title: Recurrent Neural Networks with Top-k Gains for Session-based Recommendations
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-factorization-meets-the-neighborhood-a-multifaceted-collaborative-filtering-model
+  numCitedBy: 3612
+  pid: cf6f83fcce274606bf0264c59d1c78a30c9c9d18
+  show_ref_link: true
+  title: Factorization meets the neighborhood - a multifaceted collaborative filtering model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-bridging-viterbi-and-posterior-decoding-a-generalized-risk-approach-to-hidden-path-inference-based-on-hidden-markov-models
+  numCitedBy: 102
+  pid: 773386a738c976a444b365b2d6837312b20724a3
+  show_ref_link: false
+  title: Bridging Viterbi and posterior decoding - a generalized risk approach to hidden path inference based on hidden Markov models
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-probabilistic-matrix-factorization
+  numCitedBy: 3875
+  pid: e19971e7d100386b9b4cf4ea1a0782b62fe036e5
+  show_ref_link: true
+  title: Probabilistic Matrix Factorization
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-attention-based-transactional-context-embedding-for-next-item-recommendation
+  numCitedBy: 133
+  pid: 5bc23b04c7681cb2a10f94b383accaf93d9fda51
+  show_ref_link: false
+  title: Attention-Based Transactional Context Embedding for Next-Item Recommendation
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-restricted-boltzmann-machines-for-collaborative-filtering
+  numCitedBy: 1880
+  pid: 1626c940a64ad96a7ed53d7d6c0df63c6696956b
+  show_ref_link: false
+  title: Restricted Boltzmann machines for collaborative filtering
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-neural-networks-for-youtube-recommendations
+  numCitedBy: 1877
+  pid: 5e383584ccbc8b920eaf3cfce3869da646ff5550
+  show_ref_link: true
+  title: Deep Neural Networks for YouTube Recommendations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-improving-language-understanding-by-generative-pre-training
+  numCitedBy: 3958
+  pid: cd18800a0fe0b668a1cc19f2ec95b5003d0a5035
+  show_ref_link: true
+  title: Improving Language Understanding by Generative Pre-Training
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-what-your-images-reveal-exploiting-visual-contents-for-point-of-interest-recommendation
+  numCitedBy: 201
+  pid: 10e1fb949e10d5fe99d5f1b32bb48d625149bce8
+  show_ref_link: false
+  title: What Your Images Reveal - Exploiting Visual Contents for Point-of-Interest Recommendation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-image-based-recommendations-on-styles-and-substitutes
+  numCitedBy: 1476
+  pid: fab4d19ed77dad7c437d885eceb8aa65fae5a783
+  show_ref_link: false
+  title: Image-Based Recommendations on Styles and Substitutes
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-fism-factored-item-similarity-models-for-top-n-recommender-systems
+  numCitedBy: 523
+  pid: 0c0ff60e9d39c203929457d1ac3f840f8c8e9619
+  show_ref_link: false
+  title: FISM - factored item similarity models for top-N recommender systems
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-adam-a-method-for-stochastic-optimization
+  numCitedBy: 98441
+  pid: a6cb366736791bcccc5c8639de5a8f9636bf87e8
+  show_ref_link: true
+  title: Adam - A Method for Stochastic Optimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-why-self-attention-a-targeted-evaluation-of-neural-machine-translation-architectures
+  numCitedBy: 192
+  pid: e3ee61f49cd2639c15c8662a45f1d0c2b83a60c1
+  show_ref_link: false
+  title: Why Self-Attention? A Targeted Evaluation of Neural Machine Translation Architectures
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-long-short-term-memory
+  numCitedBy: 55668
+  pid: 44d2abe2175df8153f465f6c39b68b76a0d40ab9
+  show_ref_link: true
+  title: Long Short-Term Memory
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-distilling-the-knowledge-in-a-neural-network
+  numCitedBy: 9675
+  pid: 0c908739fbff75f03469d13d4a1a07de3414ee19
+  show_ref_link: true
+  title: Distilling the Knowledge in a Neural Network
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-an-mdp-based-recommender-system
+  numCitedBy: 748
+  pid: 9b739b106b585c963cca70a10f38e564cc9d98cc
+  show_ref_link: false
+  title: An MDP-Based Recommender System
+  year: 2002
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-autorec-autoencoders-meet-collaborative-filtering
+  numCitedBy: 799
+  pid: 7f0e32170ebd1c338442049c0ef8606ab482af5e
+  show_ref_link: false
+  title: AutoRec - Autoencoders Meet Collaborative Filtering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-learning-phrase-representations-using-rnn-encoder-decoder-for-statistical-machine-translation
+  numCitedBy: 16170
+  pid: 0b544dfe355a5070b60986319a3f51fb45d1348e
+  show_ref_link: true
+  title: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 29832
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 106571
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-advances-in-collaborative-filtering
+  numCitedBy: 1092
+  pid: 703784803713e5716b0ec57c5262974adc30e275
+  show_ref_link: false
+  title: Advances in Collaborative Filtering
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-distributed-representations-of-words-and-phrases-and-their-compositionality
+  numCitedBy: 27216
+  pid: 87f40e6f3022adbc1f1905e3e506abad05a9964f
+  show_ref_link: true
+  title: Distributed Representations of Words and Phrases and their Compositionality
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-neural-machine-translation-by-jointly-learning-to-align-and-translate
+  numCitedBy: 20525
+  pid: fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5
+  show_ref_link: true
+  title: Neural Machine Translation by Jointly Learning to Align and Translate
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-a-structured-self-attentive-sentence-embedding
+  numCitedBy: 1604
+  pid: 204a4a70428f3938d2c538a4d74c7ae0416306d8
+  show_ref_link: true
+  title: A Structured Self-attentive Sentence Embedding
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-amazon-com-recommendations-item-to-item-collaborative-filtering
+  numCitedBy: 5536
+  pid: da8b0378174bc25ed174be36a1c725787b81854d
+  show_ref_link: true
+  title: Amazon.com Recommendations - Item-to-Item Collaborative Filtering
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-hierarchical-attention-networks-for-document-classification
+  numCitedBy: 3436
+  pid: 455afd748e8834ef521e4b67c7c056d3c33429e2
+  show_ref_link: false
+  title: Hierarchical Attention Networks for Document Classification
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-generating-wikipedia-by-summarizing-long-sequences
+  numCitedBy: 501
+  pid: 7570afa31c68e24fce1342b7d67c591787219bc1
+  show_ref_link: false
+  title: Generating Wikipedia by Summarizing Long Sequences
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-item-based-collaborative-filtering-recommendation-algorithms
+  numCitedBy: 8423
+  pid: f82c52452c7de8cd6472202c1be2cce9fbcb8dda
+  show_ref_link: true
+  title: Item-based collaborative filtering recommendation algorithms
+  year: 2001
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-layer-normalization
+  numCitedBy: 3496
+  pid: 97fb4e3d45bb098e27e0071448b6152217bd35a5
+  show_ref_link: true
+  title: Layer Normalization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-the-movielens-datasets-history-and-context
+  numCitedBy: 2909
+  pid: 276ebc620a8976026bd2d03582b9ecfa3738d43c
+  show_ref_link: false
+  title: The MovieLens Datasets - History and Context
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-efficient-estimation-of-word-representations-in-vector-space
+  numCitedBy: 23262
+  pid: 330da625c15427c6e42ccfa3b747fb29e5835bf0
+  show_ref_link: true
+  title: Efficient Estimation of Word Representations in Vector Space
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-bridging-nonlinearities-and-stochastic-regularizers-with-gaussian-error-linear-units
+  numCitedBy: 326
+  pid: 4361e64f2d12d63476fdc88faf72a0f70d9a2ffb
+  show_ref_link: true
+  title: Bridging Nonlinearities and Stochastic Regularizers with Gaussian Error Linear Units
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-matrix-factorization-techniques-for-recommender-systems
+  numCitedBy: 7016
+  pid: d4bbcc842f22547eaf5884251eaa68251895dccb
+  show_ref_link: true
+  title: Matrix Factorization Techniques for Recommender Systems
+  year: 2009
+- fieldsOfStudy:
+  - Education
+  meta_key: 1953-cloze-procedure-a-new-tool-for-measuring-readability
+  numCitedBy: 2106
+  pid: 766ce989b8b8b984f7a4691fd8c9af4bdb2b74cd
+  show_ref_link: false
+  title: “Cloze Procedure” - A New Tool for Measuring Readability
+  year: 1953
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-language-models-are-unsupervised-multitask-learners
+  numCitedBy: 7073
+  pid: 9405cc0d6169988371b2755e573cc28650d14dfe
+  show_ref_link: true
+  title: Language Models are Unsupervised Multitask Learners
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-multi-head-attention-with-disagreement-regularization
+  numCitedBy: 105
+  pid: fdbdd4e0461d23905104460a02a176907d945f44
+  show_ref_link: false
+  title: Multi-Head Attention with Disagreement Regularization
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-sequential-recommendation-with-user-memory-networks
+  numCitedBy: 336
+  pid: bc6a927b079fc1c4189f00108ff792a6d3d190e7
+  show_ref_link: false
+  title: Sequential Recommendation with User Memory Networks
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-diversifying-personalized-recommendation-with-user-session-context
+  numCitedBy: 76
+  pid: 8d2ce4298934ea1355031bf451413c1f81eaa408
+  show_ref_link: false
+  title: Diversifying Personalized Recommendation with User-session Context
+  year: 2017
+slug: BERT4Rec:-Sequential-Recommendation-with-Encoder-Sun-Liu
+title: BERT4Rec - Sequential Recommendation with Bidirectional Encoder Representations from Transformer
+url: https://www.semanticscholar.org/paper/BERT4Rec:-Sequential-Recommendation-with-Encoder-Sun-Liu/690edf44e8739fd80bdfb76f40c9a4a222f3bba8?sort=total-citations
+venue: CIKM
+year: 2019

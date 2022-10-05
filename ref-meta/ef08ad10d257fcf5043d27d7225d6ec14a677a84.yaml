@@ -1,0 +1,320 @@
+authors:
+- Xiangyu Zhao
+- L. Zhang
+- Zhuoye Ding
+- Long Xia
+- Jiliang Tang
+- Dawei Yin
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 3350305
+fieldsOfStudy:
+- Computer Science
+meta_key: 2018-recommendations-with-negative-feedback-via-pairwise-deep-reinforcement-learning
+numCitedBy: 208
+numCiting: 55
+paperAbstract: Recommender systems play a crucial role in mitigating the problem of information overload by suggesting users' personalized items or services. The vast majority of traditional recommender systems consider the recommendation procedure as a static process and make recommendations following a fixed strategy. In this paper, we propose a novel recommender system with the capability of continuously improving its strategies during the interactions with users. We model the sequential interactions between users and a recommender system as a Markov Decision Process (MDP) and leverage Reinforcement Learning (RL) to automatically learn the optimal strategies via recommending trial-and-error items and receiving reinforcements of these items from users' feedback. Users' feedback can be positive and negative and both types of feedback have great potentials to boost recommendations. However, the number of negative feedback is much larger than that of positive one; thus incorporating them simultaneously is challenging since positive feedback could be buried by negative one. In this paper, we develop a novel approach to incorporate them into the proposed deep recommender system (DEERS) framework. The experimental results based on real-world e-commerce data demonstrate the effectiveness of the proposed framework. Further experiments have been conducted to understand the importance of both positive and negative feedback in recommendations.
+ref_count: 55
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-deep-reinforcement-learning-for-list-wise-recommendations
+  numCitedBy: 125
+  pid: 63bce48a68c027f8f7df7ed5cd6e99d9e3ac14e9
+  show_ref_link: false
+  title: Deep Reinforcement Learning for List-wise Recommendations
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2018-deep-reinforcement-learning-for-page-wise-recommendations
+  numCitedBy: 200
+  pid: 5956c34032126185d8ad19695e4a1a191c08b5a1
+  show_ref_link: false
+  title: Deep reinforcement learning for page-wise recommendations
+  year: 2018
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-returning-is-believing-optimizing-long-term-user-engagement-in-recommender-systems
+  numCitedBy: 41
+  pid: fba0a105b03a3acaab8d0b08d873584401c0d074
+  show_ref_link: false
+  title: Returning is Believing - Optimizing Long-term User Engagement in Recommender Systems
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-learning-and-adaptivity-in-interactive-recommender-systems
+  numCitedBy: 93
+  pid: c6d4e75f0cdaf3294b2202178e0652c48c1ee49f
+  show_ref_link: false
+  title: Learning and adaptivity in interactive recommender systems
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2019-deep-learning-based-recommender-system
+  numCitedBy: 627
+  pid: 0b6f172def2f4b37ea85969b4d99e789c647726b
+  show_ref_link: false
+  title: Deep Learning Based Recommender System
+  year: 2019
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-improving-recommender-systems-with-adaptive-conversational-strategies
+  numCitedBy: 258
+  pid: 5e388ec401853d4db2471b620fac8e1c3cc334b7
+  show_ref_link: false
+  title: Improving recommender systems with adaptive conversational strategies
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-usage-based-web-recommendations-a-reinforcement-learning-approach
+  numCitedBy: 85
+  pid: b361fc8e42111a25946b4cf6fe04a857accda4ce
+  show_ref_link: false
+  title: Usage-based web recommendations - a reinforcement learning approach
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-hybrid-web-recommender-system-based-on-q-learning
+  numCitedBy: 69
+  pid: d8514c3b645790b20a8664d818a39febe46ab1f6
+  show_ref_link: false
+  title: A hybrid web recommender system based on Q-learning
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-session-based-recommendations-with-recurrent-neural-networks
+  numCitedBy: 1369
+  pid: dfb1e7d1559fbc2eb63761bc170061d256496bdf
+  show_ref_link: false
+  title: Session-based Recommendations with Recurrent Neural Networks
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-recommender-systems
+  numCitedBy: 2816
+  pid: dbdabdf9e653e11eb4d44f69f645a564622220b3
+  show_ref_link: false
+  title: Recommender systems
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-personalized-deep-learning-for-tag-recommendation
+  numCitedBy: 46
+  pid: df37e2fa58670e917c22a4b7de6686afca99d348
+  show_ref_link: false
+  title: Personalized Deep Learning for Tag Recommendation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-an-mdp-based-recommender-system
+  numCitedBy: 748
+  pid: 9b739b106b585c963cca70a10f38e564cc9d98cc
+  show_ref_link: false
+  title: An MDP-Based Recommender System
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-recommender-systems
+  numCitedBy: 2179
+  pid: 9f51a9f05e9a295262999a37278f8b07dd4f4a91
+  show_ref_link: false
+  title: Recommender Systems
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-hybrid-recommender-systems-survey-and-experiments
+  numCitedBy: 3923
+  pid: 5880b9bc3f75f4649b8ec819c3f983a14fca9927
+  show_ref_link: false
+  title: Hybrid Recommender Systems - Survey and Experiments
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-deep-reinforcement-learning-with-attention-for-slate-markov-decision-processes-with-high-dimensional-states-and-actions
+  numCitedBy: 32
+  pid: 66c4c5d02093a1d1a82e877341da7f30ef5d3199
+  show_ref_link: false
+  title: Deep Reinforcement Learning with Attention for Slate Markov Decision Processes with High-Dimensional States and Actions
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-empirical-analysis-of-predictive-algorithms-for-collaborative-filtering
+  numCitedBy: 5689
+  pid: 36b4a92c8eca6fd6d1b8588fc1fd0e3f89a16623
+  show_ref_link: false
+  title: Empirical Analysis of Predictive Algorithms for Collaborative Filtering
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-a-user-browsing-model-to-predict-search-engine-click-data-from-past-observations
+  numCitedBy: 425
+  pid: 4752e8858dd67002b16b281e115655307ec3c974
+  show_ref_link: false
+  title: A user browsing model to predict search engine click data from past observations.
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-amazon-com-recommendations-item-to-item-collaborative-filtering
+  numCitedBy: 5536
+  pid: da8b0378174bc25ed174be36a1c725787b81854d
+  show_ref_link: true
+  title: Amazon.com Recommendations - Item-to-Item Collaborative Filtering
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-content-based-book-recommending-using-learning-for-text-categorization
+  numCitedBy: 1543
+  pid: 09622b0c84bf812814af5b64b0c83dce796899c4
+  show_ref_link: false
+  title: Content-based book recommending using learning for text categorization
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorization-machines
+  numCitedBy: 1819
+  pid: df93596d4ed71d2863532c063c4c693711216abf
+  show_ref_link: false
+  title: Factorization Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2002-cumulated-gain-based-evaluation-of-ir-techniques
+  numCitedBy: 4079
+  pid: 8490234d79b47e459824dcf87c1e288211a3c964
+  show_ref_link: false
+  title: Cumulated gain-based evaluation of IR techniques
+  year: 2002
+- fieldsOfStudy:
+  - Art
+  meta_key: 2011-introduction-to-recommender-systems-handbook
+  numCitedBy: 2226
+  pid: 24f1a3ec9d02abcd3b5ed7f511b9d8017213954a
+  show_ref_link: false
+  title: Introduction to Recommender Systems Handbook
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-reinforcement-learning-for-robots-using-neural-networks
+  numCitedBy: 934
+  pid: 54c4cf3a8168c1b70f91cf78a3dc98b671935492
+  show_ref_link: false
+  title: Reinforcement learning for robots using neural networks
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-playing-atari-with-deep-reinforcement-learning
+  numCitedBy: 7462
+  pid: 2319a491378867c7049b3da055c5df60e1671158
+  show_ref_link: true
+  title: Playing Atari with Deep Reinforcement Learning
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-off-policy-actor-critic
+  numCitedBy: 326
+  pid: 0067343a36c0292f36e627eb353f751c8a39f99a
+  show_ref_link: false
+  title: Off-Policy Actor-Critic
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2006-user-performance-versus-precision-measures-for-simple-search-tasks
+  numCitedBy: 388
+  pid: 84fcd3ce562b810b18a0dedb62b6144876939f97
+  show_ref_link: false
+  title: User performance versus precision measures for simple search tasks
+  year: 2006
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-incremental-methods-for-computing-bounds-in-partially-observable-markov-decision-processes
+  numCitedBy: 76
+  pid: c4ffa4488efaf9b348433d8acc675253e52793df
+  show_ref_link: false
+  title: Incremental Methods for Computing Bounds in Partially Observable Markov Decision Processes
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-a-sparse-sampling-algorithm-for-near-optimal-planning-in-large-markov-decision-processes
+  numCitedBy: 606
+  pid: 9cbaf9fd844fc405a7d086cb942c8e2594937c08
+  show_ref_link: false
+  title: A Sparse Sampling Algorithm for Near-Optimal Planning in Large Markov Decision Processes
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-prioritized-sweeping-reinforcement-learning-with-less-data-and-less-time
+  numCitedBy: 434
+  pid: e21956fdbc06204db7984aacea09db7eda6355ad
+  show_ref_link: false
+  title: Prioritized Sweeping - Reinforcement Learning with Less Data and Less Time
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2000-pegasus-a-policy-search-method-for-large-mdps-and-pomdps
+  numCitedBy: 488
+  pid: d51fe3976ab4f4dc60745433c8638a2ecc3bf123
+  show_ref_link: false
+  title: PEGASUS - A policy search method for large MDPs and POMDPs
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-user-modeling-and-user-adapted-interaction
+  numCitedBy: 455
+  pid: efd8eb52071f3c67c7cbb38417ad6544f04a4822
+  show_ref_link: false
+  title: User Modeling and User-Adapted Interaction
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-vdcbpi-an-approximate-scalable-algorithm-for-large-pomdps
+  numCitedBy: 86
+  pid: 034aa3cd119f2be0b3195c84707db031dc362cba
+  show_ref_link: false
+  title: VDCBPI - an Approximate Scalable Algorithm for Large POMDPs
+  year: 2004
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 1966-dynamic-programming
+  numCitedBy: 7971
+  pid: a4361a4bd93e207fb4cf263a63c24ead39cc2076
+  show_ref_link: false
+  title: Dynamic Programming
+  year: 1966
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-knowledge-based-systems
+  numCitedBy: 654
+  pid: d9e3125df2a6373664b53fe042d193b04e9d6c99
+  show_ref_link: false
+  title: Knowledge Based Systems
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-what-is-dynamic-programming
+  numCitedBy: 4677
+  pid: ff45297a6643f88389e8993229b1c27dfed93768
+  show_ref_link: false
+  title: What is dynamic programming?
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-personal-recommendation-using-deep-recurrent-neural-networks-in-netease
+  numCitedBy: 116
+  pid: 39a4dba0230ed0dfb60f03db59a808dd4f5bbd42
+  show_ref_link: false
+  title: Personal recommendation using deep recurrent neural networks in NetEase
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-neural-word-embedding-as-implicit-matrix-factorization
+  numCitedBy: 1632
+  pid: f4c018bcc8ea707b83247866bdc8ccb87cd9f5da
+  show_ref_link: false
+  title: Neural Word Embedding as Implicit Matrix Factorization
+  year: 2014
+slug: Recommendations-with-Negative-Feedback-via-Pairwise-Zhao-Zhang
+title: Recommendations with Negative Feedback via Pairwise Deep Reinforcement Learning
+url: https://www.semanticscholar.org/paper/Recommendations-with-Negative-Feedback-via-Pairwise-Zhao-Zhang/ef08ad10d257fcf5043d27d7225d6ec14a677a84?sort=total-citations
+venue: KDD
+year: 2018

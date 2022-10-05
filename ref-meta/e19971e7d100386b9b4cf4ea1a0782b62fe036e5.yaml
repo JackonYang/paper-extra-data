@@ -1,0 +1,107 @@
+authors:
+- R. Salakhutdinov
+- A. Mnih
+badges:
+- id: OPEN_ACCESS
+corpusId: 467086
+fieldsOfStudy:
+- Computer Science
+meta_key: 2007-probabilistic-matrix-factorization
+numCitedBy: 3875
+numCiting: 11
+paperAbstract: Many existing approaches to collaborative filtering can neither handle very large datasets nor easily deal with users who have very few ratings. In this paper we present the Probabilistic Matrix Factorization (PMF) model which scales linearly with the number of observations and, more importantly, performs well on the large, sparse, and very imbalanced Netflix dataset. We further extend the PMF model to include an adaptive prior on the model parameters and show how the model capacity can be controlled automatically. Finally, we introduce a constrained version of the PMF model that is based on the assumption that users who have rated similar sets of movies are likely to have similar preferences. The resulting model is able to generalize considerably better for users with very few ratings. When the predictions of multiple PMF models are linearly combined with the predictions of Restricted Boltzmann Machines models, we achieve an error rate of 0.8861, that is nearly 7% better than the score of Netflix's own system.
+ref_count: 11
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-restricted-boltzmann-machines-for-collaborative-filtering
+  numCitedBy: 1880
+  pid: 1626c940a64ad96a7ed53d7d6c0df63c6696956b
+  show_ref_link: false
+  title: Restricted Boltzmann machines for collaborative filtering
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-fast-maximum-margin-matrix-factorization-for-collaborative-prediction
+  numCitedBy: 1045
+  pid: 6cd49dd5d26d1e8e33891f8e64ad3b5012e90ba6
+  show_ref_link: false
+  title: Fast maximum margin matrix factorization for collaborative prediction
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-probabilistic-sparse-matrix-factorization
+  numCitedBy: 53
+  pid: 5604264b7e470c87dbb19be713a1c9bce2852b5c
+  show_ref_link: false
+  title: Probabilistic Sparse Matrix Factorization
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-the-multiple-multiplicative-factor-model-for-collaborative-filtering
+  numCitedBy: 83
+  pid: cbb985cba78d7c42986381fa4a3fa92ba8092063
+  show_ref_link: false
+  title: The multiple multiplicative factor model for collaborative filtering
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1992-simplifying-neural-networks-by-soft-weight-sharing
+  numCitedBy: 661
+  pid: de75e4e15e22d4376300e5c968e2db44be29ac9e
+  show_ref_link: false
+  title: Simplifying Neural Networks by Soft Weight-Sharing
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-modeling-user-rating-profiles-for-collaborative-filtering
+  numCitedBy: 343
+  pid: 992c958fe0f4bd148b6f4304e1b5e458b8575cb1
+  show_ref_link: false
+  title: Modeling User Rating Profiles For Collaborative Filtering
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-weighted-low-rank-approximations
+  numCitedBy: 787
+  pid: 755e566d3f10d057bc9e4908e4016ae6f7ca0753
+  show_ref_link: false
+  title: Weighted Low-Rank Approximations
+  year: 2003
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-maximum-margin-matrix-factorization
+  numCitedBy: 1128
+  pid: cedf154c28178370d95510112413dc8cb48120a8
+  show_ref_link: false
+  title: Maximum-Margin Matrix Factorization
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1999-probabilistic-latent-semantic-analysis
+  numCitedBy: 2692
+  pid: 355b86dafd852e4df905f6ad9402c7d03831d618
+  show_ref_link: false
+  title: Probabilistic Latent Semantic Analysis
+  year: 1999
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-exponential-family-harmoniums-with-an-application-to-information-retrieval
+  numCitedBy: 506
+  pid: 2184fb6d32bc46f252b940035029273563c4fc82
+  show_ref_link: false
+  title: Exponential Family Harmoniums with an Application to Information Retrieval
+  year: 2004
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1999-probabilistic-principal-component-analysis
+  numCitedBy: 3438
+  pid: ff4b3bbb455c9cc561ddec097a869140b3c1303d
+  show_ref_link: false
+  title: Probabilistic Principal Component Analysis
+  year: 1999
+slug: Probabilistic-Matrix-Factorization-Salakhutdinov-Mnih
+title: Probabilistic Matrix Factorization
+url: https://www.semanticscholar.org/paper/Probabilistic-Matrix-Factorization-Salakhutdinov-Mnih/e19971e7d100386b9b4cf4ea1a0782b62fe036e5?sort=total-citations
+venue: NIPS
+year: 2007

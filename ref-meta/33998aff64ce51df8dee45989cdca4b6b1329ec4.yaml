@@ -213,7 +213,7 @@ references:
   meta_key: 2017-a-structured-self-attentive-sentence-embedding
   numCitedBy: 1516
   pid: 204a4a70428f3938d2c538a4d74c7ae0416306d8
-  show_ref_link: false
+  show_ref_link: true
   title: A Structured Self-attentive Sentence Embedding
   year: 2017
 - fieldsOfStudy:
@@ -245,7 +245,7 @@ references:
   meta_key: 2016-long-short-term-memory-networks-for-machine-reading
   numCitedBy: 771
   pid: 13fe71da009484f240c46f14d9330e932f8de210
-  show_ref_link: false
+  show_ref_link: true
   title: Long Short-Term Memory-Networks for Machine Reading
   year: 2016
 - fieldsOfStudy:

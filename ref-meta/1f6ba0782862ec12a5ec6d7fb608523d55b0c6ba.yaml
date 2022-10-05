@@ -1,14 +1,13 @@
 authors:
 - Yoon Kim
 badges:
-- id: UNPAYWALL
 - id: OPEN_ACCESS
 corpusId: 9672033
 fieldsOfStudy:
 - Computer Science
 meta_key: 2014-convolutional-neural-networks-for-sentence-classification
-numCitedBy: 10116
-numCiting: 34
+numCitedBy: 10659
+numCiting: 33
 paperAbstract: We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks. We show that a simple CNN with little hyperparameter tuning and static vectors achieves excellent results on multiple benchmarks. Learning task-specific vectors through fine-tuning offers further gains in performance. We additionally propose a simple modification to the architecture to allow for the use of both task-specific and static vectors. The CNN models discussed herein improve upon the state of the art on 4 out of 7 tasks, which include sentiment analysis and question classification.
 ref_count: 34
 references:

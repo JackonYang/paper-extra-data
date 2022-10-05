@@ -1,0 +1,372 @@
+authors:
+- Xiangnan He
+- Tat-Seng Chua
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 2021204
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-neural-factorization-machines-for-sparse-predictive-analytics
+numCitedBy: 854
+numCiting: 45
+paperAbstract: Many predictive tasks of web applications need to model categorical variables, such as user IDs and demographics like genders and occupations. To apply standard machine learning techniques, these categorical predictors are always converted to a set of binary features via one-hot encoding, making the resultant feature vector highly sparse. To learn from such sparse data effectively, it is crucial to account for the interactions between features. Factorization Machines (FMs) are a popular solution for efficiently using the second-order feature interactions. However, FM models feature interactions in a linear way, which can be insufficient for capturing the non-linear and complex inherent structure of real-world data. While deep neural networks have recently been applied to learn non-linear feature interactions in industry, such as the Wide&Deep by Google and DeepCross by Microsoft, the deep structure meanwhile makes them difficult to train. In this paper, we propose a novel model Neural Factorization Machine (NFM) for prediction under sparse settings. NFM seamlessly combines the linearity of FM in modelling second-order feature interactions and the non-linearity of neural network in modelling higher-order feature interactions. Conceptually, NFM is more expressive than FM since FM can be seen as a special case of NFM without hidden layers. Empirical results on two regression tasks show that with one hidden layer only, NFM significantly outperforms FM with a 7.3% relative improvement. Compared to the recent deep learning methods Wide&Deep and DeepCross, our NFM uses a shallower structure but offers better performance, being much easier to train and tune in practice.
+ref_count: 45
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-learning-over-multi-field-categorical-data-a-case-study-on-user-response-prediction
+  numCitedBy: 357
+  pid: 1bc072002d97808340b312b69427baf2dc9fcb8e
+  show_ref_link: false
+  title: Deep Learning over Multi-field Categorical Data - - A Case Study on User Response Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-wide-deep-learning-for-recommender-systems
+  numCitedBy: 2152
+  pid: 657fbf29ea0b4904a3e98d1556f9acf38dddae5f
+  show_ref_link: true
+  title: Wide & Deep Learning for Recommender Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-exponential-machines
+  numCitedBy: 70
+  pid: 46d19644912b36942c5193d3e239849281dd0319
+  show_ref_link: false
+  title: Exponential Machines
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-factorization-machines-with-libfm
+  numCitedBy: 1084
+  pid: e50f4d3316d13841c287dcdf5479d7820d593571
+  show_ref_link: true
+  title: Factorization Machines with libFM
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-neural-collaborative-filtering
+  numCitedBy: 3248
+  pid: ad42c33c299ef1c53dfd4697e3f7f98ed0ca31dd
+  show_ref_link: false
+  title: Neural Collaborative Filtering
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-field-aware-factorization-machines-for-ctr-prediction
+  numCitedBy: 492
+  pid: a802eccf56ea69c65b14831335a484a69e5cd849
+  show_ref_link: false
+  title: Field-aware Factorization Machines for CTR Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-predicting-response-in-mobile-advertising-with-hierarchical-importance-aware-factorization-machine
+  numCitedBy: 90
+  pid: 4165afe63b70f8d8d1d385959585fdc3b796d481
+  show_ref_link: false
+  title: Predicting response in mobile advertising with hierarchical importance-aware factorization machine
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-fast-matrix-factorization-for-online-recommendation-with-implicit-feedback
+  numCitedBy: 750
+  pid: ab443bd7e732374caabb5785b8d37bbfc724c845
+  show_ref_link: true
+  title: Fast Matrix Factorization for Online Recommendation with Implicit Feedback
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorization-machines
+  numCitedBy: 1819
+  pid: df93596d4ed71d2863532c063c4c693711216abf
+  show_ref_link: false
+  title: Factorization Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-exploiting-ranking-factorization-machines-for-microblog-retrieval
+  numCitedBy: 35
+  pid: d6f10ce25b5ee88a29d965109d600855768f2a70
+  show_ref_link: false
+  title: Exploiting ranking factorization machines for microblog retrieval
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-co-factorization-machines-modeling-user-interests-and-predicting-individual-decisions-in-twitter
+  numCitedBy: 192
+  pid: 4bbacf177938c431405924b076f7e7be4bff797d
+  show_ref_link: false
+  title: Co-factorization machines - modeling user interests and predicting individual decisions in Twitter
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-a-generic-coordinate-descent-framework-for-learning-from-implicit-feedback
+  numCitedBy: 179
+  pid: 5720a5015ca67400fadd0ff6863519f4b030e731
+  show_ref_link: false
+  title: A Generic Coordinate Descent Framework for Learning from Implicit Feedback
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-hierarchical-representation-model-for-nextbasket-recommendation
+  numCitedBy: 315
+  pid: 35e53252ddd38119379a894d5eec73c664d29455
+  show_ref_link: false
+  title: Learning Hierarchical Representation Model for NextBasket Recommendation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-polynomial-networks-and-factorization-machines-new-insights-and-efficient-training-algorithms
+  numCitedBy: 68
+  pid: 6d791513a695aadf1271100d9bf12e3e05b04cc5
+  show_ref_link: false
+  title: Polynomial Networks and Factorization Machines - New Insights and Efficient Training Algorithms
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-higher-order-factorization-machines
+  numCitedBy: 132
+  pid: 3f3b3dc86415ebda1043d2be55e75a29ffe2bd95
+  show_ref_link: false
+  title: Higher-Order Factorization Machines
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-ctr-prediction-in-display-advertising
+  numCitedBy: 82
+  pid: 75dd41322a55cfca831b47aef8b822ea4f093c3e
+  show_ref_link: false
+  title: Deep CTR Prediction in Display Advertising
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-bpr-bayesian-personalized-ranking-from-implicit-feedback
+  numCitedBy: 3865
+  pid: db16e908246f32b60a6e0a8e27093aa145fbb1ed
+  show_ref_link: true
+  title: BPR - Bayesian Personalized Ranking from Implicit Feedback
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-fast-context-aware-recommendations-with-factorization-machines
+  numCitedBy: 517
+  pid: 1683ffc189d16b616131c300f45af87602d211f7
+  show_ref_link: false
+  title: Fast context-aware recommendations with factorization machines
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-cross-platform-app-recommendation-by-jointly-modeling-ratings-and-texts
+  numCitedBy: 77
+  pid: 82480125b4a2eeffa94b6428c7c6f269dc1bc364
+  show_ref_link: false
+  title: Cross-Platform App Recommendation by Jointly Modeling Ratings and Texts
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-crossing-web-scale-modeling-without-manually-crafted-combinatorial-features
+  numCitedBy: 288
+  pid: a83c778e918539941cba9dcaa6ec881b3ae7a29a
+  show_ref_link: false
+  title: Deep Crossing - Web-Scale Modeling without Manually Crafted Combinatorial Features
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-visual-classification-by-ℓ1-hypergraph-modeling
+  numCitedBy: 108
+  pid: e0e1a359c0617be201d4e9ddfd021ed950dc0940
+  show_ref_link: false
+  title: Visual Classification by ℓ1-Hypergraph Modeling
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 31492
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-core-context-aware-open-relation-extraction-with-factorization-machines
+  numCitedBy: 31
+  pid: b471a6c7e1d45c78e78ea7b06f6f798a905ae304
+  show_ref_link: false
+  title: CORE - Context-Aware Open Relation Extraction with Factorization Machines
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-factorization-meets-the-neighborhood-a-multifaceted-collaborative-filtering-model
+  numCitedBy: 3612
+  pid: cf6f83fcce274606bf0264c59d1c78a30c9c9d18
+  show_ref_link: true
+  title: Factorization meets the neighborhood - a multifaceted collaborative filtering model
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 29832
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 106571
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-why-does-unsupervised-pre-training-help-deep-learning
+  numCitedBy: 1929
+  pid: 0d2336389dff3031910bd21dd1c44d1b4cd51725
+  show_ref_link: false
+  title: Why Does Unsupervised Pre-training Help Deep Learning?
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-scalable-semi-supervised-learning-by-efficient-anchor-graph-regularization
+  numCitedBy: 138
+  pid: a4be6fa575bf7325514acfd38a7d1c19e42b37a9
+  show_ref_link: false
+  title: Scalable Semi-Supervised Learning by Efficient Anchor Graph Regularization
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-predicting-the-popularity-of-web-2-0-items-based-on-user-comments
+  numCitedBy: 97
+  pid: 2b1d4273d1c967c10680aca02deebb125243b713
+  show_ref_link: false
+  title: Predicting the popularity of web 2.0 items based on user comments
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-play-and-rewind-optimizing-binary-representations-of-videos-by-self-supervised-temporal-hashing
+  numCitedBy: 68
+  pid: 7c3ab4a8947a0d1d1014d3e09dcba7485db5ea22
+  show_ref_link: false
+  title: Play and Rewind - Optimizing Binary Representations of Videos by Self-Supervised Temporal Hashing
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-learning-visual-semantic-relationships-for-efficient-visual-retrieval
+  numCitedBy: 98
+  pid: 9a89bcb1a6122b2d17079b56f14e26edc8c6426b
+  show_ref_link: false
+  title: Learning Visual Semantic Relationships for Efficient Visual Retrieval
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-discrete-collaborative-filtering
+  numCitedBy: 217
+  pid: b526b9b39046d3661160256153a5b602166f316a
+  show_ref_link: false
+  title: Discrete Collaborative Filtering
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-item-silk-road-recommending-items-from-information-domains-to-social-users
+  numCitedBy: 200
+  pid: d2941a495900c7b8cc46fcb357c0d2c5d7d086e1
+  show_ref_link: false
+  title: Item Silk Road - Recommending Items from Information Domains to Social Users
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-mathematical-framework-for-feature-selection-from-real-world-data-with-non-linear-observations
+  numCitedBy: 11
+  pid: 97fe4b0a2cf2395b6ad009cfa0ddf677ae783d73
+  show_ref_link: false
+  title: A Mathematical Framework for Feature Selection from Real-World Data with Non-Linear Observations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-classification-by-retrieval-binarizing-data-and-classifiers
+  numCitedBy: 36
+  pid: b091a0bbe5f5fa612797ceb333cdfbc780185b56
+  show_ref_link: false
+  title: Classification by Retrieval - Binarizing Data and Classifiers
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-adaptive-subgradient-methods-for-online-learning-and-stochastic-optimization
+  numCitedBy: 8368
+  pid: 413c1142de9d91804d6d11c67ff3fed59c9fc279
+  show_ref_link: true
+  title: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-context-aware-image-tweet-modelling-and-recommendation
+  numCitedBy: 68
+  pid: bdadef4d3265d1f1e3f92155ca1896df0f8619d4
+  show_ref_link: false
+  title: Context-aware Image Tweet Modelling and Recommendation
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attentive-collaborative-filtering-multimedia-recommendation-with-item-and-component-level-attention
+  numCitedBy: 589
+  pid: 43c0ff1070def3d98f548b7cbf523fdd4a83827a
+  show_ref_link: false
+  title: Attentive Collaborative Filtering - Multimedia Recommendation with Item- and Component-Level Attention
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-the-movielens-datasets-history-and-context
+  numCitedBy: 2909
+  pid: 276ebc620a8976026bd2d03582b9ecfa3738d43c
+  show_ref_link: false
+  title: The MovieLens Datasets - History and Context
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-real-time-local-event-detection-in-geotagged-tweet-streams
+  numCitedBy: 16
+  pid: ada27246ae0bbd60717dda9fba7bcd6e9023088b
+  show_ref_link: false
+  title: Real-Time Local Event Detection in GeoTagged Tweet Streams
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-geoburst-real-time-local-event-detection-in-geo-tagged-tweet-streams
+  numCitedBy: 143
+  pid: c27f7776d54f86da74cc40db08c02992e8df567a
+  show_ref_link: false
+  title: GeoBurst - Real-Time Local Event Detection in Geo-Tagged Tweet Streams
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-attribute-augmented-semantic-hierarchy-towards-bridging-semantic-gap-and-intention-gap-in-image-retrieval
+  numCitedBy: 138
+  pid: ef03b633a71cd74afa7c1a0090a9fcfa9c9c37bf
+  show_ref_link: false
+  title: Attribute-augmented semantic hierarchy - towards bridging semantic gap and intention gap in image retrieval
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-frappe-understanding-the-usage-and-perception-of-mobile-app-recommendations-in-the-wild
+  numCitedBy: 67
+  pid: 00f4df1d155cc9bdf412e1d5d17c9193799e6e9f
+  show_ref_link: false
+  title: Frappe - Understanding the Usage and Perception of Mobile App Recommendations In-The-Wild
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-attentional-factorization-machines-learning-the-weight-of-feature-interactions-via-attention-networks
+  numCitedBy: 552
+  pid: f0af0029293dc8f242894f113baf15d68228ec4d
+  show_ref_link: true
+  title: Attentional Factorization Machines - Learning the Weight of Feature Interactions via Attention Networks
+  year: 2017
+slug: Neural-Factorization-Machines-for-Sparse-Predictive-He-Chua
+title: Neural Factorization Machines for Sparse Predictive Analytics
+url: https://www.semanticscholar.org/paper/Neural-Factorization-Machines-for-Sparse-Predictive-He-Chua/3d1f9a530e710fdd4e2313bda4c8a1f574e60ab6?sort=total-citations
+venue: SIGIR
+year: 2017

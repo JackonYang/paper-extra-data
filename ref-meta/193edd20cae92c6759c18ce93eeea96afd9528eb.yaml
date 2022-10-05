@@ -1655,7 +1655,7 @@ references:
   meta_key: 2010-a-survey-on-transfer-learning
   numCitedBy: 13594
   pid: a25fbcbbae1e8f79c4360d26aa11a3abf1a11972
-  show_ref_link: false
+  show_ref_link: true
   title: A Survey on Transfer Learning
   year: 2010
 - fieldsOfStudy:
@@ -6687,7 +6687,7 @@ references:
   meta_key: 2001-the-elements-of-statistical-learning
   numCitedBy: 12300
   pid: 44d71e0ec9f68d8eb802b9ab1dde8368efeac42e
-  show_ref_link: false
+  show_ref_link: true
   title: The Elements of Statistical Learning
   year: 2001
 - fieldsOfStudy:

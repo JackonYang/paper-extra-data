@@ -1,0 +1,239 @@
+authors:
+- Huifeng Guo
+- Ruiming Tang
+- Yunming Ye
+- Zhenguo Li
+- Xiuqiang He
+badges:
+- id: OPEN_ACCESS
+corpusId: 970388
+fieldsOfStudy:
+- Computer Science
+meta_key: 2017-deepfm-a-factorization-machine-based-neural-network-for-ctr-prediction
+numCitedBy: 1359
+numCiting: 32
+paperAbstract: Learning sophisticated feature interactions behind user behaviors is critical in maximizing CTR for recommender systems. Despite great progress, existing methods seem to have a strong bias towards low- or high-order interactions, or require expertise feature engineering. In this paper, we show that it is possible to derive an end-to-end learning model that emphasizes both low- and high-order feature interactions. The proposed model, DeepFM, combines the power of factorization machines for recommendation and deep learning for feature learning in a new neural network architecture. Compared to the latest Wide & Deep model from Google, DeepFM has a shared input to its "wide" and "deep" parts, with no need of feature engineering besides raw features. Comprehensive experiments are conducted to demonstrate the effectiveness and efficiency of DeepFM over the existing models for CTR prediction, on both benchmark data and commercial data.
+ref_count: 32
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-joint-deep-modeling-of-users-and-items-using-reviews-for-recommendation
+  numCitedBy: 669
+  pid: 68a36e7c5cf68bf1639b21a07a6d82664b87603e
+  show_ref_link: false
+  title: Joint Deep Modeling of Users and Items Using Reviews for Recommendation
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-learning-over-multi-field-categorical-data-a-case-study-on-user-response-prediction
+  numCitedBy: 357
+  pid: 1bc072002d97808340b312b69427baf2dc9fcb8e
+  show_ref_link: false
+  title: Deep Learning over Multi-field Categorical Data - - A Case Study on User Response Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-product-based-neural-networks-for-user-response-prediction
+  numCitedBy: 421
+  pid: ec87bf9b1423a6598d0ea43d7fb9f6db0fd6305b
+  show_ref_link: false
+  title: Product-Based Neural Networks for User Response Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-field-aware-factorization-machines-for-ctr-prediction
+  numCitedBy: 492
+  pid: a802eccf56ea69c65b14831335a484a69e5cd849
+  show_ref_link: false
+  title: Field-aware Factorization Machines for CTR Prediction
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-collaborative-denoising-auto-encoders-for-top-n-recommender-systems
+  numCitedBy: 744
+  pid: 7656cddac460af91919558175063938acfdd813b
+  show_ref_link: false
+  title: Collaborative Denoising Auto-Encoders for Top-N Recommender Systems
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-collaborative-deep-learning-for-recommender-systems
+  numCitedBy: 1341
+  pid: 3eaf79589dbb9bce5a502e867a8f03917e52de26
+  show_ref_link: false
+  title: Collaborative Deep Learning for Recommender Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-content-based-music-recommendation
+  numCitedBy: 995
+  pid: eeff60867041d2ea92d1b38a20c2031d240d8872
+  show_ref_link: false
+  title: Deep content-based music recommendation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-convolutional-click-prediction-model
+  numCitedBy: 91
+  pid: 9140d23754eac274e8829c47f15bcde7fea1f9b1
+  show_ref_link: false
+  title: A Convolutional Click Prediction Model
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-ctr-prediction-in-display-advertising
+  numCitedBy: 82
+  pid: 75dd41322a55cfca831b47aef8b822ea4f093c3e
+  show_ref_link: false
+  title: Deep CTR Prediction in Display Advertising
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-pairwise-interaction-tensor-factorization-for-personalized-tag-recommendation
+  numCitedBy: 663
+  pid: bf2b10e9a3bb73499666facf376918e8c275734e
+  show_ref_link: false
+  title: Pairwise interaction tensor factorization for personalized tag recommendation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-ad-click-prediction-a-view-from-the-trenches
+  numCitedBy: 800
+  pid: 79f2626046fdc56edfaca840874e355cac734b9a
+  show_ref_link: false
+  title: Ad click prediction - a view from the trenches
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-improving-content-based-and-hybrid-music-recommendation-using-deep-learning
+  numCitedBy: 293
+  pid: b2e92ac358cda4a17f72e23711b9bbc1a044729e
+  show_ref_link: false
+  title: Improving Content-based and Hybrid Music Recommendation using Deep Learning
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2017-recurrent-recommender-networks
+  numCitedBy: 520
+  pid: 119868d3a5862c514e64d7855b41ff9927c311d4
+  show_ref_link: false
+  title: Recurrent Recommender Networks
+  year: 2017
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-neural-networks-for-youtube-recommendations
+  numCitedBy: 1877
+  pid: 5e383584ccbc8b920eaf3cfce3869da646ff5550
+  show_ref_link: true
+  title: Deep Neural Networks for YouTube Recommendations
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-a-deep-and-autoregressive-approach-for-topic-modeling-of-multimodal-data
+  numCitedBy: 54
+  pid: bb2a8a12be00b8376d100f1d69611ab27cf13fda
+  show_ref_link: false
+  title: A Deep and Autoregressive Approach for Topic Modeling of Multimodal Data
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-sequential-click-prediction-for-sponsored-search-with-recurrent-neural-networks
+  numCitedBy: 283
+  pid: 239bf6d2204c54718aaa3748e73c8e3109ea75ac
+  show_ref_link: false
+  title: Sequential Click Prediction for Sponsored Search with Recurrent Neural Networks
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Business
+  meta_key: 2014-practical-lessons-from-predicting-clicks-on-ads-at-facebook
+  numCitedBy: 656
+  pid: daf9ed5dc6c6bad5367d7fd8561527da30e9b8dd
+  show_ref_link: false
+  title: Practical Lessons from Predicting Clicks on Ads at Facebook
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorization-machines
+  numCitedBy: 1819
+  pid: df93596d4ed71d2863532c063c4c693711216abf
+  show_ref_link: false
+  title: Factorization Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-restricted-boltzmann-machines-for-collaborative-filtering
+  numCitedBy: 1880
+  pid: 1626c940a64ad96a7ed53d7d6c0df63c6696956b
+  show_ref_link: false
+  title: Restricted Boltzmann machines for collaborative filtering
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-exploring-strategies-for-training-deep-neural-networks
+  numCitedBy: 1060
+  pid: 05fd1da7b2e34f86ec7f010bef068717ae964332
+  show_ref_link: false
+  title: Exploring Strategies for Training Deep Neural Networks
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 106571
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-autorec-autoencoders-meet-collaborative-filtering
+  numCitedBy: 799
+  pid: 7f0e32170ebd1c338442049c0ef8606ab482af5e
+  show_ref_link: false
+  title: AutoRec - Autoencoders Meet Collaborative Filtering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-dropout-a-simple-way-to-prevent-neural-networks-from-overfitting
+  numCitedBy: 29832
+  pid: 34f25a8704614163c4095b3ee2fc969b60de4698
+  show_ref_link: true
+  title: Dropout - a simple way to prevent neural networks from overfitting
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-predicting-clicks-estimating-the-click-through-rate-for-new-ads
+  numCitedBy: 944
+  pid: 709b8231f0a8775d9725120c8a22f8432c928a22
+  show_ref_link: false
+  title: Predicting clicks - estimating the click-through rate for new ads
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-training-and-testing-low-degree-polynomial-data-mappings-via-linear-svm
+  numCitedBy: 452
+  pid: 10b03c9611a31568082ff2c11cee824287204355
+  show_ref_link: false
+  title: Training and Testing Low-degree Polynomial Data Mappings via Linear SVM
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-audio-chord-recognition-with-recurrent-neural-networks
+  numCitedBy: 148
+  pid: e27d81521dc4e8b6ea93947c05ffccf06784f569
+  show_ref_link: false
+  title: Audio Chord Recognition with Recurrent Neural Networks
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-web-scale-bayesian-click-through-rate-prediction-for-sponsored-search-advertising-in-microsoft-s-bing-search-engine
+  numCitedBy: 532
+  pid: 1ff88585ce3fd5fdaab6573722d4874641359951
+  show_ref_link: false
+  title: Web-Scale Bayesian Click-Through rate Prediction for Sponsored Search Advertising in Microsoft's Bing Search Engine
+  year: 2010
+slug: DeepFM:-A-Factorization-Machine-based-Neural-for-Guo-Tang
+title: DeepFM - A Factorization-Machine based Neural Network for CTR Prediction
+url: https://www.semanticscholar.org/paper/DeepFM:-A-Factorization-Machine-based-Neural-for-Guo-Tang/1d122a074c936fcfd95faf44608e377a9d1799c8?sort=total-citations
+venue: IJCAI
+year: 2017

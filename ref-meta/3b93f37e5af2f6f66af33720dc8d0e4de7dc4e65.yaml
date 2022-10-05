@@ -1,0 +1,305 @@
+authors:
+- Dawen Liang
+- Laurent Charlin
+- James McInerney
+- D. Blei
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 2354755
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-modeling-user-exposure-in-recommendation
+numCitedBy: 249
+numCiting: 44
+paperAbstract: Collaborative filtering analyzes user preferences for items (e.g., books, movies, restaurants, academic papers) by exploiting the similarity patterns across users. In implicit feedback settings, all the items, including the ones that a user did not consume, are taken into consideration. But this assumption does not accord with the common sense understanding that users have a limited scope and awareness of items. For example, a user might not have heard of a certain paper, or might live too far away from a restaurant to experience it. In the language of causal analysis (Imbens & Rubin, 2015), the assignment mechanism (i.e., the items that a user is exposed to) is a latent variable that may change for various user/item combinations. In this paper, we propose a new probabilistic approach that directly incorporates user exposure to items into collaborative filtering. The exposure is modeled as a latent variable and the model infers its value from data. In doing so, we recover one of the most successful state-of-the-art approaches as a special case of our model (Hu et al. 2008), and provide a plug-in method for conditioning exposure on various forms of exposure covariates (e.g., topics in text, venue locations). We show that our scalable inference algorithm outperforms existing benchmarks in four different domains both with and without exposure covariates.
+ref_count: 44
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-collaborative-filtering-for-implicit-feedback-datasets
+  numCitedBy: 2749
+  pid: 184b7281a87ee16228b24716ca02b29519d52eb5
+  show_ref_link: false
+  title: Collaborative Filtering for Implicit Feedback Datasets
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-bpr-bayesian-personalized-ranking-from-implicit-feedback
+  numCitedBy: 3865
+  pid: db16e908246f32b60a6e0a8e27093aa145fbb1ed
+  show_ref_link: true
+  title: BPR - Bayesian Personalized Ranking from Implicit Feedback
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-a-contextual-bandit-approach-to-personalized-news-article-recommendation
+  numCitedBy: 2180
+  pid: ec0072bc37f83f1a81459df43289613e04cc61e1
+  show_ref_link: false
+  title: A contextual-bandit approach to personalized news article recommendation
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-one-class-collaborative-filtering
+  numCitedBy: 935
+  pid: 109de4531e279681919f7330f01b532a7201e4b9
+  show_ref_link: false
+  title: One-Class Collaborative Filtering
+  year: 2008
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-response-aware-model-based-collaborative-filtering
+  numCitedBy: 21
+  pid: 4af369212b07ef8e104b9f5c4f8d48e5aa49032c
+  show_ref_link: false
+  title: Response Aware Model-Based Collaborative Filtering
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-improving-pairwise-learning-for-item-recommendation-from-implicit-feedback
+  numCitedBy: 287
+  pid: 25ad8ad3d1549888a4609659bd55ad825c5df82e
+  show_ref_link: false
+  title: Improving pairwise learning for item recommendation from implicit feedback
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-collaborative-filtering-and-the-missing-at-random-assumption
+  numCitedBy: 261
+  pid: fee5bc9a391816be11c52b8559d62ea397bff90f
+  show_ref_link: false
+  title: Collaborative Filtering and the Missing at Random Assumption
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-content-based-recommendations-with-poisson-factorization
+  numCitedBy: 168
+  pid: d01508b7f10468b47712cfdc19c028997b541dd1
+  show_ref_link: false
+  title: Content-based recommendations with Poisson factorization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-counterfactual-risk-minimization
+  numCitedBy: 41
+  pid: 22e57e3b1a45a615678ed1ee08c7f4f2acca088f
+  show_ref_link: false
+  title: Counterfactual Risk Minimization
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2007-probabilistic-matrix-factorization
+  numCitedBy: 3875
+  pid: e19971e7d100386b9b4cf4ea1a0782b62fe036e5
+  show_ref_link: true
+  title: Probabilistic Matrix Factorization
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-one-class-collaborative-filtering-with-random-graphs
+  numCitedBy: 105
+  pid: d93c2f64294b80f573d5d1f2da44b196a78e2ed2
+  show_ref_link: false
+  title: One-class collaborative filtering with random graphs
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-collaborative-topic-modeling-for-recommending-scientific-articles
+  numCitedBy: 1519
+  pid: 92eb167f30ad59f6949667021760eb41078cf85c
+  show_ref_link: false
+  title: Collaborative topic modeling for recommending scientific articles
+  year: 2011
+- fieldsOfStudy:
+  - Psychology
+  meta_key: 2016-guido-imbens-donald-rubin-causal-inference-for-statistics-social-and-biomedical-sciences-an-introduction-new-york-cambridge-university-press
+  numCitedBy: 147
+  pid: 27f3921d93712abd2150f27079b1f2c2fdb6a582
+  show_ref_link: false
+  title: GUIDO IMBENS, DONALD RUBIN, Causal Inference for Statistics, Social, and Biomedical Sciences - An Introduction. New York - Cambridge University Press.
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-latent-dirichlet-allocation
+  numCitedBy: 32111
+  pid: f198043a866e9187925a8d8db9a55e3bfdd47f2c
+  show_ref_link: true
+  title: Latent Dirichlet Allocation
+  year: 2003
+- fieldsOfStudy:
+  - Economics
+  meta_key: 2015-causal-inference-for-statistics-social-and-biomedical-sciences-an-introduction
+  numCitedBy: 1082
+  pid: 0e817213eb0125981b0d3e025e136539520351dc
+  show_ref_link: false
+  title: Causal Inference for Statistics, Social, and Biomedical Sciences - An Introduction
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-factorization-machines
+  numCitedBy: 1819
+  pid: df93596d4ed71d2863532c063c4c693711216abf
+  show_ref_link: false
+  title: Factorization Machines
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-friendship-and-mobility-user-movement-in-location-based-social-networks
+  numCitedBy: 2664
+  pid: 3e454b7111e68ccfeb103a0b4220d35e16bff867
+  show_ref_link: false
+  title: Friendship and mobility - user movement in location-based social networks
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-distributed-representations-of-words-and-phrases-and-their-compositionality
+  numCitedBy: 27216
+  pid: 87f40e6f3022adbc1f1905e3e506abad05a9964f
+  show_ref_link: true
+  title: Distributed Representations of Words and Phrases and their Compositionality
+  year: 2013
+- fieldsOfStudy:
+  - Mathematics
+  - Computer Science
+  meta_key: 1998-a-view-of-the-em-algorithm-that-justifies-incremental-sparse-and-other-variants
+  numCitedBy: 2616
+  pid: 9f87a11a523e4680e61966e36ea2eac516096f23
+  show_ref_link: false
+  title: A View of the Em Algorithm that Justifies Incremental, Sparse, and other Variants
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2008-graphical-models-exponential-families-and-variational-inference
+  numCitedBy: 4001
+  pid: d98d0d1900b13b87aa4ffd6b69c046beb63f0434
+  show_ref_link: true
+  title: Graphical Models, Exponential Families, and Variational Inference
+  year: 2008
+- fieldsOfStudy:
+  - Economics
+  - Mathematics
+  meta_key: 1974-estimating-causal-effects-of-treatments-in-randomized-and-nonrandomized-studies
+  numCitedBy: 7617
+  pid: 545122e2990590524459ec9b59ccac6ce71e3b6a
+  show_ref_link: false
+  title: Estimating causal effects of treatments in randomized and nonrandomized studies.
+  year: 1974
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-matrix-factorization-techniques-for-recommender-systems
+  numCitedBy: 7016
+  pid: d4bbcc842f22547eaf5884251eaa68251895dccb
+  show_ref_link: true
+  title: Matrix Factorization Techniques for Recommender Systems
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-counterfactual-reasoning-and-learning-systems-the-example-of-computational-advertising
+  numCitedBy: 603
+  pid: b006aefa9c8be8c33138c4c5352f4d2d44378be9
+  show_ref_link: false
+  title: Counterfactual reasoning and learning systems - the example of computational advertising
+  year: 2013
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1992-zero-inflacted-poisson-regression-with-an-application-to-defects-in-manufacturing
+  numCitedBy: 3461
+  pid: c1a38f4b9b4ad8d44a3bafe8849eabe1c6683377
+  show_ref_link: false
+  title: Zero-inflacted Poisson regression, with an application to defects in manufacturing
+  year: 1992
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-the-million-song-dataset
+  numCitedBy: 1158
+  pid: 5aaf311172b9778d78f6904fbe40124c63463b57
+  show_ref_link: false
+  title: The Million Song Dataset
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-spike-and-slab-variable-selection-frequentist-and-bayesian-strategies
+  numCitedBy: 883
+  pid: 315eb50f7bea92e1f2d569e511e009e8e1ed3aa8
+  show_ref_link: false
+  title: Spike and slab variable selection - Frequentist and Bayesian strategies
+  year: 2005
+- fieldsOfStudy:
+  - Philosophy
+  meta_key: 2000-causality-models-reasoning-and-inference
+  numCitedBy: 11171
+  pid: 62064218665ad89f0cb2a44f5b19f7703d9c7e71
+  show_ref_link: false
+  title: Causality - Models, Reasoning and Inference
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2003-statistical-analysis-with-missing-data
+  numCitedBy: 12150
+  pid: f415edb81b74279e0913fa82a44b0fe509f11a43
+  show_ref_link: false
+  title: Statistical Analysis With Missing Data
+  year: 2003
+- fieldsOfStudy:
+  - Education
+  meta_key: 2009-data-analysis-using-regression-and-multilevel-hierarchical-models
+  numCitedBy: 5164
+  pid: 264ce4449468f38bc6f3d14d363cb434bb80537a
+  show_ref_link: false
+  title: Data Analysis Using Regression and Multilevel/Hierarchical Models
+  year: 2009
+- fieldsOfStudy:
+  - Mathematics
+  - Art
+  meta_key: 2007-pattern-recognition-and-machine-learning
+  numCitedBy: 22025
+  pid: 3bb5a439a0d610a7eac68f73068cdd278b8c9775
+  show_ref_link: true
+  title: Pattern Recognition and Machine Learning
+  year: 2007
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-graphical-models
+  numCitedBy: 3812
+  pid: e16a25faf7428e1fc5ed0a10b8196c0499c7fd0d
+  show_ref_link: false
+  title: Graphical Models
+  year: 1998
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 1987-bayesian-computation-via-the-gibbs-sampler-and-related-markov-chain-monte-carlo-methods-with-discus
+  numCitedBy: 1724
+  pid: aed20302f003a751b1af4e40ace379b9fd255cc7
+  show_ref_link: false
+  title: Bayesian computation via the gibbs sampler and related markov chain monte carlo methods (with discus
+  year: 1987
+- fieldsOfStudy:
+  - Mathematics
+  meta_key: 2016-causal-inference-in-statistics
+  numCitedBy: 133
+  pid: e57d10f20fe8a1d73fff848cb38eff5967cd9ba2
+  show_ref_link: false
+  title: Causal inference in statistics
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-wsabie-scaling-up-to-large-vocabulary-image-annotation
+  numCitedBy: 746
+  pid: 51480ee8f067453c2878f0148ffcfa3a856a02dc
+  show_ref_link: false
+  title: WSABIE - Scaling Up to Large Vocabulary Image Annotation
+  year: 2011
+- fieldsOfStudy:
+  - Engineering
+  meta_key: 1977-maximum-likelihood-from-incomplete-data-via-the-em-algorithm-plus-discussions-on-the-paper
+  numCitedBy: 49120
+  pid: d36efb9ad91e00faa334b549ce989bfae7e2907a
+  show_ref_link: true
+  title: Maximum likelihood from incomplete data via the EM - algorithm plus discussions on the paper
+  year: 1977
+slug: Modeling-User-Exposure-in-Recommendation-Liang-Charlin
+title: Modeling User Exposure in Recommendation
+url: https://www.semanticscholar.org/paper/Modeling-User-Exposure-in-Recommendation-Liang-Charlin/3b93f37e5af2f6f66af33720dc8d0e4de7dc4e65?sort=total-citations
+venue: WWW
+year: 2016

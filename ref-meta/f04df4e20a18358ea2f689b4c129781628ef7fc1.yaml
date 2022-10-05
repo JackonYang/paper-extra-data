@@ -10,8 +10,8 @@ corpusId: 14604520
 fieldsOfStudy:
 - Computer Science
 meta_key: 2015-a-large-annotated-corpus-for-learning-natural-language-inference
-numCitedBy: 2551
-numCiting: 38
+numCitedBy: 2676
+numCiting: 36
 paperAbstract: Understanding entailment and contradiction is fundamental to understanding natural language, and inference about entailment and contradiction is a valuable testing ground for the development of semantic representations. However, machine learning research in this area has been dramatically limited by the lack of large-scale resources. To address this, we introduce the Stanford Natural Language Inference corpus, a new, freely available collection of labeled sentence pairs, written by humans doing a novel grounded task based on image captioning. At 570K pairs, it is two orders of magnitude larger than all other resources of its type. This increase in scale allows lexicalized classifiers to outperform some sophisticated existing entailment models, and it allows a neural network-based model to perform competitively on natural language inference benchmarks for the first time.
 ref_count: 38
 references:

@@ -1,0 +1,98 @@
+authors:
+- Heng-Tze Cheng
+- L. Koc
+- Jeremiah Harmsen
+- Tal Shaked
+- Tushar Chandra
+- H. Aradhye
+- Glen Anderson
+- G. Corrado
+- Wei Chai
+- M. Ispir
+- Rohan Anil
+- Zakaria Haque
+- Lichan Hong
+- Vihan Jain
+- Xiaobing Liu
+- Hemal Shah
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 3352400
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-wide-deep-learning-for-recommender-systems
+numCitedBy: 2152
+numCiting: 8
+paperAbstract: Generalized linear models with nonlinear feature transformations are widely used for large-scale regression and classification problems with sparse inputs. Memorization of feature interactions through a wide set of cross-product feature transformations are effective and interpretable, while generalization requires more feature engineering effort. With less feature engineering, deep neural networks can generalize better to unseen feature combinations through low-dimensional dense embeddings learned for the sparse features. However, deep neural networks with embeddings can over-generalize and recommend less relevant items when the user-item interactions are sparse and high-rank. In this paper, we present Wide & Deep learning---jointly trained wide linear models and deep neural networks---to combine the benefits of memorization and generalization for recommender systems. We productionized and evaluated the system on Google Play, a commercial mobile app store with over one billion active users and over one million apps. Online experiment results show that Wide & Deep significantly increased app acquisitions compared with wide-only and deep-only models. We have also open-sourced our implementation in TensorFlow.
+ref_count: 8
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-collaborative-deep-learning-for-recommender-systems
+  numCitedBy: 1341
+  pid: 3eaf79589dbb9bce5a502e867a8f03917e52de26
+  show_ref_link: false
+  title: Collaborative Deep Learning for Recommender Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-factorization-machines-with-libfm
+  numCitedBy: 1084
+  pid: e50f4d3316d13841c287dcdf5479d7820d593571
+  show_ref_link: true
+  title: Factorization Machines with libFM
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2016-deep-residual-learning-for-image-recognition
+  numCitedBy: 106571
+  pid: 2c03df8b48bf3fa39054345bafabfeff15bfd11d
+  show_ref_link: true
+  title: Deep Residual Learning for Image Recognition
+  year: 2016
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-adaptive-subgradient-methods-for-online-learning-and-stochastic-optimization
+  numCitedBy: 8368
+  pid: 413c1142de9d91804d6d11c67ff3fed59c9fc279
+  show_ref_link: true
+  title: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-appjoy-personalized-mobile-application-discovery
+  numCitedBy: 204
+  pid: 3206d5ad969a671fd5ba76f45c6c3043e9314edc
+  show_ref_link: false
+  title: AppJoy - personalized mobile application discovery
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-strategies-for-training-large-scale-neural-network-language-models
+  numCitedBy: 487
+  pid: cb45e9217fe323fbc199d820e7735488fca2a9b3
+  show_ref_link: false
+  title: Strategies for training large scale neural network language models
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-follow-the-regularized-leader-and-mirror-descent-equivalence-theorems-and-l1-regularization
+  numCitedBy: 191
+  pid: 7bdf20d18b5a9411d729a0736c6a3a9a4b52bf4f
+  show_ref_link: false
+  title: Follow-the-Regularized-Leader and Mirror Descent - Equivalence Theorems and L1 Regularization
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-joint-training-of-a-convolutional-network-and-a-graphical-model-for-human-pose-estimation
+  numCitedBy: 1250
+  pid: 12ecc2d786080f638a01b9999518e9386baa157d
+  show_ref_link: true
+  title: Joint Training of a Convolutional Network and a Graphical Model for Human Pose Estimation
+  year: 2014
+slug: Wide-&-Deep-Learning-for-Recommender-Systems-Cheng-Koc
+title: Wide & Deep Learning for Recommender Systems
+url: https://www.semanticscholar.org/paper/Wide-&-Deep-Learning-for-Recommender-Systems-Cheng-Koc/657fbf29ea0b4904a3e98d1556f9acf38dddae5f?sort=total-citations
+venue: DLRS@RecSys
+year: 2016

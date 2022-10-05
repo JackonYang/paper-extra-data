@@ -1,0 +1,109 @@
+authors:
+- G. Linden
+- Brent Smith
+- J. York
+badges:
+- id: OPEN_ACCESS
+corpusId: 14604122
+fieldsOfStudy:
+- Computer Science
+meta_key: 2003-amazon-com-recommendations-item-to-item-collaborative-filtering
+numCitedBy: 5420
+numCiting: 15
+paperAbstract: 'Recommendation algorithms are best known for their use on e-commerce Web sites, where they use input about a customer''s interests to generate a list of recommended items. Many applications use only the items that customers purchase and explicitly rate to represent their interests, but they can also use other attributes, including items viewed, demographic data, subject interests, and favorite artists. At Amazon.com, we use recommendation algorithms to personalize the online store for each customer. The store radically changes based on customer interests, showing programming titles to a software engineer and baby toys to a new mother. There are three common approaches to solving the recommendation problem: traditional collaborative filtering, cluster models, and search-based methods. Here, we compare these methods with our algorithm, which we call item-to-item collaborative filtering. Unlike traditional collaborative filtering, our algorithm''s online computation scales independently of the number of customers and number of items in the product catalog. Our algorithm produces recommendations in real-time, scales to massive data sets, and generates high quality recommendations.'
+ref_count: 15
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2001-item-based-collaborative-filtering-recommendation-algorithms
+  numCitedBy: 8423
+  pid: f82c52452c7de8cd6472202c1be2cce9fbcb8dda
+  show_ref_link: true
+  title: Item-based collaborative filtering recommendation algorithms
+  year: 2001
+- fieldsOfStudy:
+  - Business
+  - Computer Science
+  meta_key: 2004-e-commerce-recommendation-applications
+  numCitedBy: 1665
+  pid: b51653d992f02e0e420cb65ed05fbd52094a83cc
+  show_ref_link: false
+  title: E-Commerce Recommendation Applications
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-fab-content-based-collaborative-recommendation
+  numCitedBy: 3152
+  pid: 92cc12f272ff55795c29cd97dc8ee17a5554308e
+  show_ref_link: false
+  title: Fab - content-based, collaborative recommendation
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-clustering-methods-for-collaborative-filtering
+  numCitedBy: 790
+  pid: d6b99637332f818dc94c0432db617db28873e035
+  show_ref_link: false
+  title: Clustering Methods for Collaborative Filtering
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-ecom-syst-content-based-collaborative-recommendation
+  numCitedBy: 51
+  pid: ffef7168dbbf9b89da27745d2ca7320405fffa57
+  show_ref_link: false
+  title: Ecom Syst Content-based, Collaborative Recommendation
+  year: 1997
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-empirical-analysis-of-predictive-algorithms-for-collaborative-filtering
+  numCitedBy: 5689
+  pid: 36b4a92c8eca6fd6d1b8588fc1fd0e3f89a16623
+  show_ref_link: false
+  title: Empirical Analysis of Predictive Algorithms for Collaborative Filtering
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-eigentaste-a-constant-time-collaborative-filtering-algorithm
+  numCitedBy: 1574
+  pid: c6ca4c2912db0708f6df1ad1525746915d392a45
+  show_ref_link: false
+  title: Eigentaste - A Constant Time Collaborative Filtering Algorithm
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1994-grouplens-an-open-architecture-for-collaborative-filtering-of-netnews
+  numCitedBy: 5852
+  pid: 64a717dc148b76070bbb6a3190a7e05bb9734400
+  show_ref_link: false
+  title: GroupLens - an open architecture for collaborative filtering of netnews
+  year: 1994
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2000-analysis-of-recommendation-algorithms-for-e-commerce
+  numCitedBy: 1980
+  pid: 3219f5733e87afbe1481f7f99c0d06c7c9752c31
+  show_ref_link: false
+  title: Analysis of recommendation algorithms for e-commerce
+  year: 2000
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1998-scaling-clustering-algorithms-to-large-databases
+  numCitedBy: 888
+  pid: 338092b7c90f3c6c03dfe52db4ecf58bd23d3a22
+  show_ref_link: false
+  title: Scaling Clustering Algorithms to Large Databases
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 1997-content-based-collaborative-recommendation
+  numCitedBy: 513
+  pid: 6a445dfe4af96615a1d72d3cecc3ef073df29a19
+  show_ref_link: false
+  title: Content-Based, Collaborative Recommendation.
+  year: 1997
+slug: Amazon.com-Recommendations:-Item-to-Item-Filtering-Linden-Smith
+title: Amazon.com Recommendations - Item-to-Item Collaborative Filtering
+url: https://www.semanticscholar.org/paper/Amazon.com-Recommendations:-Item-to-Item-Filtering-Linden-Smith/da8b0378174bc25ed174be36a1c725787b81854d?sort=total-citations
+venue: IEEE Internet Comput.
+year: 2003

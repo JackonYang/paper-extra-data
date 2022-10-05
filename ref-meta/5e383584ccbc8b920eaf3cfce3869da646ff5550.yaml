@@ -1,0 +1,215 @@
+authors:
+- Paul Covington
+- Jay K. Adams
+- Emre Sargin
+badges:
+- id: UNPAYWALL
+- id: OPEN_ACCESS
+corpusId: 207240067
+fieldsOfStudy:
+- Computer Science
+meta_key: 2016-deep-neural-networks-for-youtube-recommendations
+numCitedBy: 1877
+numCiting: 30
+paperAbstract: 'YouTube represents one of the largest scale and most sophisticated industrial recommendation systems in existence. In this paper, we describe the system at a high level and focus on the dramatic performance improvements brought by deep learning. The paper is split according to the classic two-stage information retrieval dichotomy: first, we detail a deep candidate generation model and then describe a separate deep ranking model. We also provide practical lessons and insights derived from designing, iterating and maintaining a massive recommendation system with enormous user-facing impact.'
+ref_count: 30
+references:
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2010-the-youtube-video-recommendation-system
+  numCitedBy: 959
+  pid: e7d53f538f5239739d1f943c81d17e4a167c65c6
+  show_ref_link: false
+  title: The YouTube video recommendation system
+  year: 2010
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-deep-content-based-music-recommendation
+  numCitedBy: 995
+  pid: eeff60867041d2ea92d1b38a20c2031d240d8872
+  show_ref_link: false
+  title: Deep content-based music recommendation
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-multi-view-deep-learning-approach-for-cross-domain-user-modeling-in-recommendation-systems
+  numCitedBy: 536
+  pid: 9844d9bad8d499cf1e6ebcb95744f424e03418db
+  show_ref_link: false
+  title: A Multi-View Deep Learning Approach for Cross Domain User Modeling in Recommendation Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-building-industrial-scale-real-world-recommender-systems
+  numCitedBy: 29
+  pid: bd96b5092cd61c60ad50928d6242c98464bf17f4
+  show_ref_link: false
+  title: Building industrial-scale real-world recommender systems
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-collaborative-deep-learning-for-recommender-systems
+  numCitedBy: 1341
+  pid: 3eaf79589dbb9bce5a502e867a8f03917e52de26
+  show_ref_link: false
+  title: Collaborative Deep Learning for Recommender Systems
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-viral-video-style-a-closer-look-at-viral-videos-on-youtube
+  numCitedBy: 59
+  pid: 0cc26e0dcc2479e43bc9e02b99707f1798f620c7
+  show_ref_link: false
+  title: Viral Video Style - A Closer Look at Viral Videos on YouTube
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2014-beyond-clicks-dwell-time-for-personalization
+  numCitedBy: 204
+  pid: 86e042df57619af7916b4caaa74386c2cc3f2fd1
+  show_ref_link: false
+  title: Beyond clicks - dwell time for personalization
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  - Economics
+  meta_key: 2014-personalized-news-recommendation-using-classified-keywords-to-capture-user-preference
+  numCitedBy: 40
+  pid: c0d02ddb818e4afc0c3eed1d41b176ef5027036c
+  show_ref_link: false
+  title: Personalized news recommendation using classified keywords to capture user preference
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-autorec-autoencoders-meet-collaborative-filtering
+  numCitedBy: 799
+  pid: 7f0e32170ebd1c338442049c0ef8606ab482af5e
+  show_ref_link: false
+  title: AutoRec - Autoencoders Meet Collaborative Filtering
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  - Business
+  meta_key: 2014-practical-lessons-from-predicting-clicks-on-ads-at-facebook
+  numCitedBy: 656
+  pid: daf9ed5dc6c6bad5367d7fd8561527da30e9b8dd
+  show_ref_link: false
+  title: Practical Lessons from Predicting Clicks on Ads at Facebook
+  year: 2014
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-user-modeling-with-neural-network-for-review-rating-prediction
+  numCitedBy: 145
+  pid: 3eb7747d2c9358ea2c8b3a493bef87b089e2831c
+  show_ref_link: false
+  title: User Modeling with Neural Network for Review Rating Prediction
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2009-a-survey-of-collaborative-filtering-techniques
+  numCitedBy: 3353
+  pid: 2240f9231920ebfaee305537281d9fe0643779b8
+  show_ref_link: false
+  title: A Survey of Collaborative Filtering Techniques
+  year: 2009
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-label-partitioning-for-sublinear-ranking
+  numCitedBy: 113
+  pid: 47b7e7875ec87c26d56552b05f31a2b649ee1d16
+  show_ref_link: false
+  title: Label Partitioning For Sublinear Ranking
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-wsabie-scaling-up-to-large-vocabulary-image-annotation
+  numCitedBy: 746
+  pid: 51480ee8f067453c2878f0148ffcfa3a856a02dc
+  show_ref_link: false
+  title: WSABIE - Scaling Up to Large Vocabulary Image Annotation
+  year: 2011
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2012-large-scale-distributed-deep-networks
+  numCitedBy: 3147
+  pid: 3127190433230b3dc1abd0680bb58dced4bcd90e
+  show_ref_link: true
+  title: Large Scale Distributed Deep Networks
+  year: 2012
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-a-neural-probabilistic-model-for-context-based-citation-recommendation
+  numCitedBy: 131
+  pid: e5aa3cf6d6521ca67a49cb7c7e13cbd914f83bf8
+  show_ref_link: false
+  title: A Neural Probabilistic Model for Context Based Citation Recommendation
+  year: 2015
+- fieldsOfStudy:
+  - Psychology
+  - Computer Science
+  meta_key: 1998-implicit-feedback-for-recommender-systems
+  numCitedBy: 426
+  pid: e501616f80bf743e3f85ef134ef234b6e8c22751
+  show_ref_link: false
+  title: Implicit Feedback for Recommender Systems
+  year: 1998
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-batch-normalization-accelerating-deep-network-training-by-reducing-internal-covariate-shift
+  numCitedBy: 31492
+  pid: 4d376d6978dad0374edfa6709c9556b42d3594d3
+  show_ref_link: true
+  title: Batch Normalization - Accelerating Deep Network Training by Reducing Internal Covariate Shift
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2013-distributed-representations-of-words-and-phrases-and-their-compositionality
+  numCitedBy: 27216
+  pid: 87f40e6f3022adbc1f1905e3e506abad05a9964f
+  show_ref_link: true
+  title: Distributed Representations of Words and Phrases and their Compositionality
+  year: 2013
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2015-on-using-very-large-target-vocabulary-for-neural-machine-translation
+  numCitedBy: 890
+  pid: 1938624bb9b0f999536dcc8d8f519810bb4e1b3b
+  show_ref_link: false
+  title: On Using Very Large Target Vocabulary for Neural Machine Translation
+  year: 2015
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2005-hierarchical-probabilistic-neural-network-language-model
+  numCitedBy: 960
+  pid: c19fbefdeead6a4154a22a9c8551a18b1530033a
+  show_ref_link: false
+  title: Hierarchical Probabilistic Neural Network Language Model
+  year: 2005
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2004-an-investigation-of-practical-approximate-nearest-neighbor-algorithms
+  numCitedBy: 456
+  pid: 7d394976d52f40bf14652de10b30fb9326c20f19
+  show_ref_link: false
+  title: An Investigation of Practical Approximate Nearest Neighbor Algorithms
+  year: 2004
+- fieldsOfStudy:
+  - Computer Science
+  meta_key: 2011-deep-sparse-rectifier-neural-networks
+  numCitedBy: 6325
+  pid: 67107f78a84bdb2411053cb54e94fa226eea6d8e
+  show_ref_link: true
+  title: Deep Sparse Rectifier Neural Networks
+  year: 2011
+- fieldsOfStudy: []
+  meta_key: 2012-i-and-j
+  numCitedBy: 159880
+  pid: 3d2218b17e7898a222e5fc2079a3f1531990708f
+  show_ref_link: false
+  title: I and J
+  year: 2012
+slug: Deep-Neural-Networks-for-YouTube-Recommendations-Covington-Adams
+title: Deep Neural Networks for YouTube Recommendations
+url: https://www.semanticscholar.org/paper/Deep-Neural-Networks-for-YouTube-Recommendations-Covington-Adams/5e383584ccbc8b920eaf3cfce3869da646ff5550?sort=total-citations
+venue: RecSys
+year: 2016
